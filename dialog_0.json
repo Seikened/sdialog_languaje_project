@@ -1,13 +1,13 @@
 {
-  "version": "0.4.1",
-  "timestamp": "2025-11-20T22:21:33Z",
+  "version": "0.4.1+9a89b047a160b11a651f8cd73334bf4eeb7dae50",
+  "timestamp": "2025-11-21T02:26:12Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 576684984,
-  "id": "c4177541-4495-4edc-9785-513bff8d92b2",
+  "seed": 2015906533,
+  "id": "30bd3a8f-a359-463b-8fa0-8c4efd3f8e42",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -32,7 +32,7 @@
       "role": "paciente",
       "background": "estudiante de ingenier\u00eda de intenligencia artificial en la universidad iberoamericana de 5to semestre, apasionado por la tecnolog\u00eda y los videojuegos",
       "personality": "curioso",
-      "circumstances": "Est\u00e1 en una sesi\u00f3n de terapia por primera vez y se siente un poco nervioso",
+      "circumstances": "Est\u00e1 en una sesi\u00f3n de terapia por primera vez y se siente un poco nervioso y tiene sintomas de depresi\u00f3n",
       "rules": "Habla solo en espa\u00f1ol"
     }
   },
@@ -50,171 +50,195 @@
   "turns": [
     {
       "speaker": "Valeria",
-      "text": "Hola Fernando, es un gusto conocerte. Toma asiento por favor. \u00bfC\u00f3mo te sientes hoy al estar aqu\u00ed?"
+      "text": "Hola Fernando, Toma asiento por favor. \u00bfC\u00f3mo te sientes hoy al estar aqu\u00ed? en esta que es nuestra sesi\u00f3n n\u00famero 1."
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Hola, gracias. Me siento un poco nervioso, es mi primera vez en terapia."
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, no estoy acostumbrado a esto."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nervioso en la primera sesi\u00f3n. Estoy aqu\u00ed para apoyarte y crear un espacio seguro. \u00bfTe gustar\u00eda compartir qu\u00e9 te llev\u00f3 a buscar terapia?"
+      "text": "Es completamente normal sentir nerviosismo en la primera sesi\u00f3n. Estoy aqu\u00ed para apoyarte, as\u00ed que t\u00f3mate tu tiempo. \u00bfTe gustar\u00eda compartir qu\u00e9 te trae hoy aqu\u00ed?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, he estado sintiendo mucha presi\u00f3n con mis estudios de ingenier\u00eda y a veces me siento abrumado."
+      "text": "He estado sinti\u00e9ndome un poco deprimido \u00faltimamente y pens\u00e9 que quiz\u00e1s hablar con alguien podr\u00eda ayudarme."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, la presi\u00f3n acad\u00e9mica puede ser bastante intensa. \u00bfPodr\u00edas contarme un poco m\u00e1s sobre c\u00f3mo te sientes cuando te sientes abrumado?"
+      "text": "Entiendo, y me alegra que hayas decidido dar este paso. Para explorar c\u00f3mo te has sentido en las \u00faltimas dos semanas, hay un cuestionario llamado PHQ-9 que puede ser \u00fatil. \u00bfTe gustar\u00eda responderlo?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Cuando me siento abrumado, a menudo me falta la concentraci\u00f3n y me siento ansioso, como si no pudiera descansar."
+      "text": "S\u00ed, creo que eso podr\u00eda ser \u00fatil. Estoy dispuesto a intentarlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Es una respuesta muy com\u00fan al estr\u00e9s. La falta de concentraci\u00f3n y la ansiedad pueden afectar tu bienestar. \u00bfHas encontrado alguna estrategia que te ayude a manejar esos momentos dif\u00edciles?"
+      "text": "Perfecto, empecemos. Por favor, piensa en c\u00f3mo te has sentido en las \u00faltimas dos semanas y responde honestamente. En una escala del 0 al 3, \u00bfcon qu\u00e9 frecuencia has tenido poco inter\u00e9s o placer en hacer cosas?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "He intentado jugar videojuegos para distraerme, pero a veces siento que no es suficiente."
+      "text": "Creo que ha sido un 2, porque a veces me esfuerzo por disfrutar cosas que antes me gustaban."
     },
     {
       "speaker": "Valeria",
-      "text": "Es bueno que busques maneras de distraerte, pero tambi\u00e9n es importante encontrar un equilibrio. Podemos explorar juntos otras estrategias que te ayuden a manejar la ansiedad. \u00bfTe gustar\u00eda intentar eso?"
+      "text": "Gracias por compartir eso. Un 2 indica que hay momentos en los que te sientes as\u00ed. La siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia te has sentido triste, deprimido o sin esperanza?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, me gustar\u00eda. Estoy abierto a aprender nuevas formas de manejar la ansiedad."
+      "text": "Dir\u00eda que un 3, me he sentido as\u00ed casi todos los d\u00edas."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente actitud. Podr\u00edamos comenzar con t\u00e9cnicas de respiraci\u00f3n y mindfulness. Estas herramientas pueden ayudarte a relajarte y centrarte mejor. \u00bfTe gustar\u00eda probar una breve t\u00e9cnica de respiraci\u00f3n aqu\u00ed mismo?"
+      "text": "Lamento que te sientas as\u00ed, es importante reconocerlo. La siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia has tenido problemas para dormir, o has dormido demasiado?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, me parece bien. Estoy dispuesto a intentarlo."
+      "text": "Creo que un 2 tambi\u00e9n, a veces me cuesta dormir, pero otras veces duermo m\u00e1s de lo normal."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto. Empecemos. Si\u00e9ntate c\u00f3modamente y cierra los ojos si te sientes c\u00f3modo haci\u00e9ndolo. Inhala profundamente por la nariz contando hasta cuatro..."
+      "text": "Aprecio tu honestidad al responder. Ahora, \u00bfcon qu\u00e9 frecuencia te has sentido cansado o con poco energ\u00eda?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Estoy listo. Inhalo profundamente por la nariz... uno, dos, tres, cuatro."
+      "text": "Eso ser\u00eda un 3, casi siempre me siento cansado y sin energ\u00eda."
     },
     {
       "speaker": "Valeria",
-      "text": "Muy bien. Ahora sostiene la respiraci\u00f3n por un momento... uno, dos, tres. Y ahora exhala lentamente por la boca, contando hasta cuatro... uno, dos, tres, cuatro. \u00bfC\u00f3mo te sientes despu\u00e9s de esa respiraci\u00f3n?"
+      "text": "Entiendo, eso puede ser muy dif\u00edcil. Como mencion\u00e9 antes, hay un cuestionario llamado PHQ-9 que nos ayudar\u00e1 a explorar m\u00e1s a fondo c\u00f3mo te has sentido en las \u00faltimas dos semanas. \u00bfTe gustar\u00eda responderlo?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Me siento un poco m\u00e1s relajado. Creo que me ayuda a calmar la mente."
+      "text": "S\u00ed, estoy de acuerdo. Creo que es bueno hablar de c\u00f3mo me he sentido."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra escuchar eso. La respiraci\u00f3n consciente puede ser una herramienta muy efectiva. Practicarla regularmente puede ayudarte a manejar la ansiedad. \u00bfTe gustar\u00eda hacer esto m\u00e1s a menudo en nuestras sesiones?"
+      "text": "Me alegra que lo sientas as\u00ed. Continuemos entonces. La siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia has tenido poca apetito o has comido en exceso?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, definitivamente. Creo que podr\u00eda beneficiarme de practicarlo m\u00e1s."
+      "text": "Dir\u00eda que un 2, a veces no tengo ganas de comer, pero otras veces como m\u00e1s de lo que deber\u00eda."
     },
     {
       "speaker": "Valeria",
-      "text": "Genial, lo haremos. Integrar t\u00e9cnicas de respiraci\u00f3n en nuestras sesiones te permitir\u00e1 manejar mejor la ansiedad. Tambi\u00e9n podemos hablar sobre otros aspectos de tu vida estudiantil que te preocupen. \u00bfHay algo m\u00e1s que te gustar\u00eda abordar hoy?"
+      "text": "Gracias por compartir eso. Es un paso importante para entender c\u00f3mo te sientes. Ahora, la siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia te has sentido mal contigo mismo, o sientes que eres un fracaso?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Me gustar\u00eda hablar sobre la presi\u00f3n de cumplir con las expectativas en la universidad. A veces siento que es demasiado."
+      "text": "Eso ser\u00eda un 3, me he sentido as\u00ed casi todos los d\u00edas, como si no valiera la pena."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible sentir esa presi\u00f3n, especialmente en un ambiente competitivo como la universidad. Hablemos sobre las expectativas que sientes y c\u00f3mo afectan tu bienestar. \u00bfPuedes darme un ejemplo de una expectativa que te resulte abrumadora?"
+      "text": "Lamento mucho que te sientas as\u00ed, es un sentimiento muy pesado de cargar. Reconocerlo es el primer paso para hacer cambios. Ahora, la siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia has tenido problemas para concentrarte en cosas, como leer el peri\u00f3dico o ver televisi\u00f3n?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Una expectativa abrumadora es sentir que debo sacar calificaciones perfectas en todos mis ex\u00e1menes. Me da mucho miedo fracasar."
+      "text": "Creo que un 2, a veces me cuesta mantener la concentraci\u00f3n en lo que estoy haciendo."
     },
     {
       "speaker": "Valeria",
-      "text": "El miedo a fracasar es algo que muchos estudiantes experimentan. Es importante recordar que no siempre es realista esperar la perfecci\u00f3n. Podemos trabajar juntos para redefinir esas expectativas y encontrar un enfoque m\u00e1s saludable. \u00bfTe gustar\u00eda explorar eso?"
+      "text": "Gracias por tu respuesta. Mantener la concentraci\u00f3n puede ser un desaf\u00edo en momentos dif\u00edciles. Ahora, la \u00faltima pregunta: \u00bfcon qu\u00e9 frecuencia te has movido o hablado de una manera que es lenta o acelerada?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, me gustar\u00eda. Quiero encontrar una forma de manejar esas expectativas sin sentirme tan agobiado."
+      "text": "Eso ser\u00eda un 1, no creo que sea algo que me pase con frecuencia."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto. Vamos a empezar a trabajar en establecer expectativas m\u00e1s realistas y alcanzables. Una buena estrategia es establecer metas a corto plazo. \u00bfHay algo espec\u00edfico que te gustar\u00eda lograr en el pr\u00f3ximo mes?"
+      "text": "Gracias por responder todas las preguntas con sinceridad. Tus respuestas nos dan una mejor idea de c\u00f3mo te has estado sintiendo. \u00bfHay algo m\u00e1s que te gustar\u00eda compartir sobre lo que has estado experimentando?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Me gustar\u00eda mejorar mis habilidades en programaci\u00f3n, as\u00ed que podr\u00eda establecer una meta de dedicar un par de horas a la semana para practicar."
+      "text": "S\u00ed, a veces siento que no tengo a nadie con quien hablar, y eso me hace sentir m\u00e1s solo."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa es una excelente meta. Dedicar tiempo a mejorar tus habilidades en programaci\u00f3n no solo te ayudar\u00e1 acad\u00e9micamente, sino que tambi\u00e9n te dar\u00e1 una sensaci\u00f3n de logro. \u00bfTe parece bien si establecemos un plan para que puedas lograr esa pr\u00e1ctica semanal?"
+      "text": "Lamento que te sientas as\u00ed. La soledad puede ser muy dolorosa. Estoy aqu\u00ed para escucharte y apoyarte. \u00bfTe gustar\u00eda hablar m\u00e1s sobre tus relaciones o sobre c\u00f3mo te afecta esa sensaci\u00f3n de soledad?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, me parece genial. Me gustar\u00eda tener un plan para que sea m\u00e1s f\u00e1cil seguirlo."
+      "text": "S\u00ed, creo que ser\u00eda bueno hablar de eso. A veces me siento desconectado de mis amigos y eso me afecta."
     },
     {
       "speaker": "Valeria",
-      "text": "\u00a1Perfecto! Podr\u00edamos comenzar definiendo cu\u00e1ntas horas a la semana te gustar\u00eda dedicar a la pr\u00e1ctica. Despu\u00e9s, podemos distribuir esas horas en d\u00edas espec\u00edficos. \u00bfCu\u00e1ntas horas por semana crees que puedes comprometerte a practicar?"
+      "text": "Entiendo, esa desconexi\u00f3n puede ser muy dif\u00edcil de sobrellevar. \u00bfPodr\u00edas compartir un poco m\u00e1s sobre c\u00f3mo te sientes en esas relaciones y qu\u00e9 crees que est\u00e1 contribuyendo a esa desconexi\u00f3n?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Creo que puedo dedicar unas cuatro horas a la semana."
+      "text": "Siento que no tengo tanto en com\u00fan con ellos como antes, y a veces parece que no entienden por lo que estoy pasando."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente, cuatro horas es un buen objetivo. \u00bfTe gustar\u00eda dividir esas horas en sesiones de una hora en cuatro d\u00edas diferentes, o prefieres agruparlas en dos d\u00edas de dos horas cada uno?"
+      "text": "Es comprensible sentirte as\u00ed; las relaciones pueden cambiar con el tiempo. A veces, sentirse incomprendido puede generar m\u00e1s aislamiento. \u00bfTe gustar\u00eda explorar algunas formas en que podr\u00edas reconectar con ellos o encontrar nuevas conexiones?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Prefiero dividirlas en sesiones de una hora en cuatro d\u00edas diferentes. As\u00ed creo que podr\u00e9 mantenerme m\u00e1s enfocado."
+      "text": "S\u00ed, me gustar\u00eda explorar eso. No quiero seguir sinti\u00e9ndome solo."
     },
     {
       "speaker": "Valeria",
-      "text": "Muy buena elecci\u00f3n. Establezcamos un horario. \u00bfHay d\u00edas espec\u00edficos de la semana que prefieras para practicar, o quieres que lo exploremos juntos?"
+      "text": "Es un paso valiente querer buscar conexi\u00f3n. Podemos pensar en algunas estrategias para acercarte a tus amigos o incluso para conocer a nuevas personas. \u00bfQu\u00e9 te parecer\u00eda comenzar por identificar actividades que te interesen y que puedan ser compartidas con otros?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Podr\u00eda ser bueno practicar los martes y jueves, y quiz\u00e1s los fines de semana. Pero estoy abierto a otras sugerencias."
+      "text": "Eso suena bien. Me gusta mucho la tecnolog\u00eda y los videojuegos, as\u00ed que podr\u00edamos comenzar por ah\u00ed."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa es una buena distribuci\u00f3n. Practicar los martes y jueves, y a\u00f1adir sesiones el s\u00e1bado y el domingo te dar\u00e1 flexibilidad. Entonces, \u00bfte gustar\u00eda establecer una sesi\u00f3n para los martes y jueves por la tarde y luego practicar el s\u00e1bado y domingo? \u00bfA qu\u00e9 hora te vendr\u00eda mejor?"
+      "text": "\u00a1Perfecto! La tecnolog\u00eda y los videojuegos son excelentes formas de conectar con otros. Podr\u00edas unirte a grupos en l\u00ednea, participar en foros o incluso asistir a eventos de gaming. \u00bfTe gustar\u00eda investigar algunas comunidades en las que podr\u00edas involucrarte?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Me vendr\u00eda bien practicar por la tarde, tal vez a las 5 p.m. los martes y jueves, y podr\u00eda hacerlo un poco m\u00e1s tarde, como a las 6 p.m., el s\u00e1bado y domingo."
+      "text": "S\u00ed, creo que eso podr\u00eda ser \u00fatil. Me gustar\u00eda encontrar un lugar donde pueda compartir mi pasi\u00f3n por los videojuegos con otras personas."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena excelente. Entonces, tu plan ser\u00eda practicar a las 5 p.m. los martes y jueves, y a las 6 p.m. los s\u00e1bados y domingos. Esto te dar\u00e1 una buena estructura y tiempo suficiente para concentrarte. \u00bfTe parece que podemos revisar este plan en nuestra pr\u00f3xima sesi\u00f3n para ver c\u00f3mo te ha ido?"
+      "text": "Eso es maravilloso. Hay muchas comunidades en l\u00ednea, como foros, Discord o grupos en redes sociales, donde puedes encontrar personas con intereses similares. Tambi\u00e9n hay eventos presenciales en algunas ciudades. \u00bfTe gustar\u00eda que te ayudara a buscar algunas opciones concretas?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "S\u00ed, me gustar\u00eda revisarlo en nuestra pr\u00f3xima sesi\u00f3n. Quiero asegurarme de que me est\u00e9 funcionando."
+      "text": "S\u00ed, me gustar\u00eda eso. Ser\u00eda genial tener algunas opciones para empezar a explorar."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, lo revisaremos juntos. Estoy aqu\u00ed para apoyarte en tu progreso y ajustar el plan si es necesario. \u00bfHay algo m\u00e1s que te gustar\u00eda discutir antes de terminar nuestra sesi\u00f3n de hoy?"
+      "text": "Claro, puedo ayudarte a buscar comunidades en l\u00ednea espec\u00edficas para videojuegos. Tambi\u00e9n te recomendar\u00eda comprobar plataformas como Meetup, donde a menudo hay eventos locales relacionados con tus intereses. Puedo enviarte algunos enlaces y recursos luego de nuestra sesi\u00f3n. \u00bfTe parece bien?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "Creo que eso es todo por ahora. Me siento m\u00e1s aliviado despu\u00e9s de hablar sobre esto."
+      "text": "S\u00ed, eso me parece muy bien. Agradecer\u00eda la informaci\u00f3n."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que te sientas m\u00e1s aliviado. Recuerda que estamos aqu\u00ed para trabajar juntos en esto. Nos vemos en la pr\u00f3xima sesi\u00f3n. \u00a1Cu\u00eddate mucho!"
+      "text": "Perfecto, lo har\u00e9. Me alegra que est\u00e9s abierto a explorar nuevas conexiones. Recuerda que este proceso lleva tiempo, y est\u00e1 bien avanzar a tu propio ritmo. \u00bfHay algo m\u00e1s que te gustar\u00eda tratar en nuestra sesi\u00f3n de hoy?"
     },
     {
       "speaker": "Fernando Leon",
-      "text": "\u00a1Gracias! Cu\u00eddate tambi\u00e9n. Hasta la pr\u00f3xima. \u00a1Adi\u00f3s!"
+      "text": "No, creo que hemos cubierto bastante. Me siento un poco mejor al hablar de esto. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Recuerda que estoy aqu\u00ed para apoyarte en este camino. Si te parece bien, podemos programar nuestra pr\u00f3xima sesi\u00f3n para continuar explorando y trabajando juntos. \u00bfTe gustar\u00eda hacerlo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "S\u00ed, me gustar\u00eda programar la pr\u00f3xima sesi\u00f3n. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, es un placer apoyarte. Vamos a programar nuestra pr\u00f3xima sesi\u00f3n. \u00bfTe parece bien el mismo d\u00eda y hora la pr\u00f3xima semana?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "S\u00ed, eso me parece perfecto. Agradezco mucho tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un placer para m\u00ed, Fernando. Estoy aqu\u00ed para lo que necesites. Nos vemos la pr\u00f3xima semana. Cu\u00eddate y recuerda que no est\u00e1s solo en esto. \u00a1Hasta luego!"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "\u00a1Gracias! Hasta luego, cu\u00eddate."
     }
   ],
   "events": [
@@ -222,295 +246,351 @@
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola Fernando, es un gusto conocerte. Toma asiento por favor. \u00bfC\u00f3mo te sientes hoy al estar aqu\u00ed?",
-      "timestamp": 1763677247
+      "content": "Hola Fernando, Toma asiento por favor. \u00bfC\u00f3mo te sientes hoy al estar aqu\u00ed? en esta que es nuestra sesi\u00f3n n\u00famero 1.",
+      "timestamp": 1763691918
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Me siento un poco nervioso, es mi primera vez en terapia.",
-      "timestamp": 1763677248
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, no estoy acostumbrado a esto.",
+      "timestamp": 1763691919
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nervioso en la primera sesi\u00f3n. Estoy aqu\u00ed para apoyarte y crear un espacio seguro. \u00bfTe gustar\u00eda compartir qu\u00e9 te llev\u00f3 a buscar terapia?",
-      "timestamp": 1763677249
+      "content": "Es completamente normal sentir nerviosismo en la primera sesi\u00f3n. Estoy aqu\u00ed para apoyarte, as\u00ed que t\u00f3mate tu tiempo. \u00bfTe gustar\u00eda compartir qu\u00e9 te trae hoy aqu\u00ed?",
+      "timestamp": 1763691920
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, he estado sintiendo mucha presi\u00f3n con mis estudios de ingenier\u00eda y a veces me siento abrumado.",
-      "timestamp": 1763677250
+      "content": "He estado sinti\u00e9ndome un poco deprimido \u00faltimamente y pens\u00e9 que quiz\u00e1s hablar con alguien podr\u00eda ayudarme.",
+      "timestamp": 1763691921
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles s\u00edntomas de depresi\u00f3n en lo que el paciente dijo. Expl\u00edcale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar c\u00f3mo se ha sentido en las \u00faltimas dos semanas. Preg\u00fantale si est\u00e1 de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidi\u00e9ndole que responda con un n\u00famero del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los d\u00edas'. Aclara que esto NO sustituye una evaluaci\u00f3n profesional completa.",
+      "timestamp": 1763691921
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, la presi\u00f3n acad\u00e9mica puede ser bastante intensa. \u00bfPodr\u00edas contarme un poco m\u00e1s sobre c\u00f3mo te sientes cuando te sientes abrumado?",
-      "timestamp": 1763677251
+      "content": "Entiendo, y me alegra que hayas decidido dar este paso. Para explorar c\u00f3mo te has sentido en las \u00faltimas dos semanas, hay un cuestionario llamado PHQ-9 que puede ser \u00fatil. \u00bfTe gustar\u00eda responderlo?",
+      "timestamp": 1763691922
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Cuando me siento abrumado, a menudo me falta la concentraci\u00f3n y me siento ansioso, como si no pudiera descansar.",
-      "timestamp": 1763677252
+      "content": "S\u00ed, creo que eso podr\u00eda ser \u00fatil. Estoy dispuesto a intentarlo.",
+      "timestamp": 1763691923
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es una respuesta muy com\u00fan al estr\u00e9s. La falta de concentraci\u00f3n y la ansiedad pueden afectar tu bienestar. \u00bfHas encontrado alguna estrategia que te ayude a manejar esos momentos dif\u00edciles?",
-      "timestamp": 1763677253
+      "content": "Perfecto, empecemos. Por favor, piensa en c\u00f3mo te has sentido en las \u00faltimas dos semanas y responde honestamente. En una escala del 0 al 3, \u00bfcon qu\u00e9 frecuencia has tenido poco inter\u00e9s o placer en hacer cosas?",
+      "timestamp": 1763691924
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "He intentado jugar videojuegos para distraerme, pero a veces siento que no es suficiente.",
-      "timestamp": 1763677254
+      "content": "Creo que ha sido un 2, porque a veces me esfuerzo por disfrutar cosas que antes me gustaban.",
+      "timestamp": 1763691926
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es bueno que busques maneras de distraerte, pero tambi\u00e9n es importante encontrar un equilibrio. Podemos explorar juntos otras estrategias que te ayuden a manejar la ansiedad. \u00bfTe gustar\u00eda intentar eso?",
-      "timestamp": 1763677255
+      "content": "Gracias por compartir eso. Un 2 indica que hay momentos en los que te sientes as\u00ed. La siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia te has sentido triste, deprimido o sin esperanza?",
+      "timestamp": 1763691926
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, me gustar\u00eda. Estoy abierto a aprender nuevas formas de manejar la ansiedad.",
-      "timestamp": 1763677256
+      "content": "Dir\u00eda que un 3, me he sentido as\u00ed casi todos los d\u00edas.",
+      "timestamp": 1763691927
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente actitud. Podr\u00edamos comenzar con t\u00e9cnicas de respiraci\u00f3n y mindfulness. Estas herramientas pueden ayudarte a relajarte y centrarte mejor. \u00bfTe gustar\u00eda probar una breve t\u00e9cnica de respiraci\u00f3n aqu\u00ed mismo?",
-      "timestamp": 1763677257
+      "content": "Lamento que te sientas as\u00ed, es importante reconocerlo. La siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia has tenido problemas para dormir, o has dormido demasiado?",
+      "timestamp": 1763691929
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, me parece bien. Estoy dispuesto a intentarlo.",
-      "timestamp": 1763677258
+      "content": "Creo que un 2 tambi\u00e9n, a veces me cuesta dormir, pero otras veces duermo m\u00e1s de lo normal.",
+      "timestamp": 1763691930
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto. Empecemos. Si\u00e9ntate c\u00f3modamente y cierra los ojos si te sientes c\u00f3modo haci\u00e9ndolo. Inhala profundamente por la nariz contando hasta cuatro...",
-      "timestamp": 1763677259
+      "content": "Aprecio tu honestidad al responder. Ahora, \u00bfcon qu\u00e9 frecuencia te has sentido cansado o con poco energ\u00eda?",
+      "timestamp": 1763691930
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Estoy listo. Inhalo profundamente por la nariz... uno, dos, tres, cuatro.",
-      "timestamp": 1763677261
+      "content": "Eso ser\u00eda un 3, casi siempre me siento cansado y sin energ\u00eda.",
+      "timestamp": 1763691931
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles s\u00edntomas de depresi\u00f3n en lo que el paciente dijo. Expl\u00edcale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar c\u00f3mo se ha sentido en las \u00faltimas dos semanas. Preg\u00fantale si est\u00e1 de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidi\u00e9ndole que responda con un n\u00famero del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los d\u00edas'. Aclara que esto NO sustituye una evaluaci\u00f3n profesional completa.",
+      "timestamp": 1763691931
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Muy bien. Ahora sostiene la respiraci\u00f3n por un momento... uno, dos, tres. Y ahora exhala lentamente por la boca, contando hasta cuatro... uno, dos, tres, cuatro. \u00bfC\u00f3mo te sientes despu\u00e9s de esa respiraci\u00f3n?",
-      "timestamp": 1763677262
+      "content": "Entiendo, eso puede ser muy dif\u00edcil. Como mencion\u00e9 antes, hay un cuestionario llamado PHQ-9 que nos ayudar\u00e1 a explorar m\u00e1s a fondo c\u00f3mo te has sentido en las \u00faltimas dos semanas. \u00bfTe gustar\u00eda responderlo?",
+      "timestamp": 1763691932
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me siento un poco m\u00e1s relajado. Creo que me ayuda a calmar la mente.",
-      "timestamp": 1763677263
+      "content": "S\u00ed, estoy de acuerdo. Creo que es bueno hablar de c\u00f3mo me he sentido.",
+      "timestamp": 1763691933
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra escuchar eso. La respiraci\u00f3n consciente puede ser una herramienta muy efectiva. Practicarla regularmente puede ayudarte a manejar la ansiedad. \u00bfTe gustar\u00eda hacer esto m\u00e1s a menudo en nuestras sesiones?",
-      "timestamp": 1763677264
+      "content": "Me alegra que lo sientas as\u00ed. Continuemos entonces. La siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia has tenido poca apetito o has comido en exceso?",
+      "timestamp": 1763691934
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, definitivamente. Creo que podr\u00eda beneficiarme de practicarlo m\u00e1s.",
-      "timestamp": 1763677265
+      "content": "Dir\u00eda que un 2, a veces no tengo ganas de comer, pero otras veces como m\u00e1s de lo que deber\u00eda.",
+      "timestamp": 1763691935
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Genial, lo haremos. Integrar t\u00e9cnicas de respiraci\u00f3n en nuestras sesiones te permitir\u00e1 manejar mejor la ansiedad. Tambi\u00e9n podemos hablar sobre otros aspectos de tu vida estudiantil que te preocupen. \u00bfHay algo m\u00e1s que te gustar\u00eda abordar hoy?",
-      "timestamp": 1763677266
+      "content": "Gracias por compartir eso. Es un paso importante para entender c\u00f3mo te sientes. Ahora, la siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia te has sentido mal contigo mismo, o sientes que eres un fracaso?",
+      "timestamp": 1763691937
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me gustar\u00eda hablar sobre la presi\u00f3n de cumplir con las expectativas en la universidad. A veces siento que es demasiado.",
-      "timestamp": 1763677267
+      "content": "Eso ser\u00eda un 3, me he sentido as\u00ed casi todos los d\u00edas, como si no valiera la pena.",
+      "timestamp": 1763691938
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible sentir esa presi\u00f3n, especialmente en un ambiente competitivo como la universidad. Hablemos sobre las expectativas que sientes y c\u00f3mo afectan tu bienestar. \u00bfPuedes darme un ejemplo de una expectativa que te resulte abrumadora?",
-      "timestamp": 1763677269
+      "content": "Lamento mucho que te sientas as\u00ed, es un sentimiento muy pesado de cargar. Reconocerlo es el primer paso para hacer cambios. Ahora, la siguiente pregunta es: \u00bfcon qu\u00e9 frecuencia has tenido problemas para concentrarte en cosas, como leer el peri\u00f3dico o ver televisi\u00f3n?",
+      "timestamp": 1763691941
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Una expectativa abrumadora es sentir que debo sacar calificaciones perfectas en todos mis ex\u00e1menes. Me da mucho miedo fracasar.",
-      "timestamp": 1763677270
+      "content": "Creo que un 2, a veces me cuesta mantener la concentraci\u00f3n en lo que estoy haciendo.",
+      "timestamp": 1763691942
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "El miedo a fracasar es algo que muchos estudiantes experimentan. Es importante recordar que no siempre es realista esperar la perfecci\u00f3n. Podemos trabajar juntos para redefinir esas expectativas y encontrar un enfoque m\u00e1s saludable. \u00bfTe gustar\u00eda explorar eso?",
-      "timestamp": 1763677271
+      "content": "Gracias por tu respuesta. Mantener la concentraci\u00f3n puede ser un desaf\u00edo en momentos dif\u00edciles. Ahora, la \u00faltima pregunta: \u00bfcon qu\u00e9 frecuencia te has movido o hablado de una manera que es lenta o acelerada?",
+      "timestamp": 1763691943
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, me gustar\u00eda. Quiero encontrar una forma de manejar esas expectativas sin sentirme tan agobiado.",
-      "timestamp": 1763677272
+      "content": "Eso ser\u00eda un 1, no creo que sea algo que me pase con frecuencia.",
+      "timestamp": 1763691944
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto. Vamos a empezar a trabajar en establecer expectativas m\u00e1s realistas y alcanzables. Una buena estrategia es establecer metas a corto plazo. \u00bfHay algo espec\u00edfico que te gustar\u00eda lograr en el pr\u00f3ximo mes?",
-      "timestamp": 1763677273
+      "content": "Gracias por responder todas las preguntas con sinceridad. Tus respuestas nos dan una mejor idea de c\u00f3mo te has estado sintiendo. \u00bfHay algo m\u00e1s que te gustar\u00eda compartir sobre lo que has estado experimentando?",
+      "timestamp": 1763691946
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me gustar\u00eda mejorar mis habilidades en programaci\u00f3n, as\u00ed que podr\u00eda establecer una meta de dedicar un par de horas a la semana para practicar.",
-      "timestamp": 1763677274
+      "content": "S\u00ed, a veces siento que no tengo a nadie con quien hablar, y eso me hace sentir m\u00e1s solo.",
+      "timestamp": 1763691947
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa es una excelente meta. Dedicar tiempo a mejorar tus habilidades en programaci\u00f3n no solo te ayudar\u00e1 acad\u00e9micamente, sino que tambi\u00e9n te dar\u00e1 una sensaci\u00f3n de logro. \u00bfTe parece bien si establecemos un plan para que puedas lograr esa pr\u00e1ctica semanal?",
-      "timestamp": 1763677275
+      "content": "Lamento que te sientas as\u00ed. La soledad puede ser muy dolorosa. Estoy aqu\u00ed para escucharte y apoyarte. \u00bfTe gustar\u00eda hablar m\u00e1s sobre tus relaciones o sobre c\u00f3mo te afecta esa sensaci\u00f3n de soledad?",
+      "timestamp": 1763691948
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, me parece genial. Me gustar\u00eda tener un plan para que sea m\u00e1s f\u00e1cil seguirlo.",
-      "timestamp": 1763677276
+      "content": "S\u00ed, creo que ser\u00eda bueno hablar de eso. A veces me siento desconectado de mis amigos y eso me afecta.",
+      "timestamp": 1763691949
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "\u00a1Perfecto! Podr\u00edamos comenzar definiendo cu\u00e1ntas horas a la semana te gustar\u00eda dedicar a la pr\u00e1ctica. Despu\u00e9s, podemos distribuir esas horas en d\u00edas espec\u00edficos. \u00bfCu\u00e1ntas horas por semana crees que puedes comprometerte a practicar?",
-      "timestamp": 1763677278
+      "content": "Entiendo, esa desconexi\u00f3n puede ser muy dif\u00edcil de sobrellevar. \u00bfPodr\u00edas compartir un poco m\u00e1s sobre c\u00f3mo te sientes en esas relaciones y qu\u00e9 crees que est\u00e1 contribuyendo a esa desconexi\u00f3n?",
+      "timestamp": 1763691949
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que puedo dedicar unas cuatro horas a la semana.",
-      "timestamp": 1763677278
+      "content": "Siento que no tengo tanto en com\u00fan con ellos como antes, y a veces parece que no entienden por lo que estoy pasando.",
+      "timestamp": 1763691951
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente, cuatro horas es un buen objetivo. \u00bfTe gustar\u00eda dividir esas horas en sesiones de una hora en cuatro d\u00edas diferentes, o prefieres agruparlas en dos d\u00edas de dos horas cada uno?",
-      "timestamp": 1763677279
+      "content": "Es comprensible sentirte as\u00ed; las relaciones pueden cambiar con el tiempo. A veces, sentirse incomprendido puede generar m\u00e1s aislamiento. \u00bfTe gustar\u00eda explorar algunas formas en que podr\u00edas reconectar con ellos o encontrar nuevas conexiones?",
+      "timestamp": 1763691952
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Prefiero dividirlas en sesiones de una hora en cuatro d\u00edas diferentes. As\u00ed creo que podr\u00e9 mantenerme m\u00e1s enfocado.",
-      "timestamp": 1763677281
+      "content": "S\u00ed, me gustar\u00eda explorar eso. No quiero seguir sinti\u00e9ndome solo.",
+      "timestamp": 1763691953
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Muy buena elecci\u00f3n. Establezcamos un horario. \u00bfHay d\u00edas espec\u00edficos de la semana que prefieras para practicar, o quieres que lo exploremos juntos?",
-      "timestamp": 1763677282
+      "content": "Es un paso valiente querer buscar conexi\u00f3n. Podemos pensar en algunas estrategias para acercarte a tus amigos o incluso para conocer a nuevas personas. \u00bfQu\u00e9 te parecer\u00eda comenzar por identificar actividades que te interesen y que puedan ser compartidas con otros?",
+      "timestamp": 1763691954
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Podr\u00eda ser bueno practicar los martes y jueves, y quiz\u00e1s los fines de semana. Pero estoy abierto a otras sugerencias.",
-      "timestamp": 1763677283
+      "content": "Eso suena bien. Me gusta mucho la tecnolog\u00eda y los videojuegos, as\u00ed que podr\u00edamos comenzar por ah\u00ed.",
+      "timestamp": 1763691955
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa es una buena distribuci\u00f3n. Practicar los martes y jueves, y a\u00f1adir sesiones el s\u00e1bado y el domingo te dar\u00e1 flexibilidad. Entonces, \u00bfte gustar\u00eda establecer una sesi\u00f3n para los martes y jueves por la tarde y luego practicar el s\u00e1bado y domingo? \u00bfA qu\u00e9 hora te vendr\u00eda mejor?",
-      "timestamp": 1763677285
+      "content": "\u00a1Perfecto! La tecnolog\u00eda y los videojuegos son excelentes formas de conectar con otros. Podr\u00edas unirte a grupos en l\u00ednea, participar en foros o incluso asistir a eventos de gaming. \u00bfTe gustar\u00eda investigar algunas comunidades en las que podr\u00edas involucrarte?",
+      "timestamp": 1763691956
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me vendr\u00eda bien practicar por la tarde, tal vez a las 5 p.m. los martes y jueves, y podr\u00eda hacerlo un poco m\u00e1s tarde, como a las 6 p.m., el s\u00e1bado y domingo.",
-      "timestamp": 1763677286
+      "content": "S\u00ed, creo que eso podr\u00eda ser \u00fatil. Me gustar\u00eda encontrar un lugar donde pueda compartir mi pasi\u00f3n por los videojuegos con otras personas.",
+      "timestamp": 1763691957
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena excelente. Entonces, tu plan ser\u00eda practicar a las 5 p.m. los martes y jueves, y a las 6 p.m. los s\u00e1bados y domingos. Esto te dar\u00e1 una buena estructura y tiempo suficiente para concentrarte. \u00bfTe parece que podemos revisar este plan en nuestra pr\u00f3xima sesi\u00f3n para ver c\u00f3mo te ha ido?",
-      "timestamp": 1763677287
+      "content": "Eso es maravilloso. Hay muchas comunidades en l\u00ednea, como foros, Discord o grupos en redes sociales, donde puedes encontrar personas con intereses similares. Tambi\u00e9n hay eventos presenciales en algunas ciudades. \u00bfTe gustar\u00eda que te ayudara a buscar algunas opciones concretas?",
+      "timestamp": 1763691959
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "S\u00ed, me gustar\u00eda revisarlo en nuestra pr\u00f3xima sesi\u00f3n. Quiero asegurarme de que me est\u00e9 funcionando.",
-      "timestamp": 1763677288
+      "content": "S\u00ed, me gustar\u00eda eso. Ser\u00eda genial tener algunas opciones para empezar a explorar.",
+      "timestamp": 1763691960
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, lo revisaremos juntos. Estoy aqu\u00ed para apoyarte en tu progreso y ajustar el plan si es necesario. \u00bfHay algo m\u00e1s que te gustar\u00eda discutir antes de terminar nuestra sesi\u00f3n de hoy?",
-      "timestamp": 1763677290
+      "content": "Claro, puedo ayudarte a buscar comunidades en l\u00ednea espec\u00edficas para videojuegos. Tambi\u00e9n te recomendar\u00eda comprobar plataformas como Meetup, donde a menudo hay eventos locales relacionados con tus intereses. Puedo enviarte algunos enlaces y recursos luego de nuestra sesi\u00f3n. \u00bfTe parece bien?",
+      "timestamp": 1763691961
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que eso es todo por ahora. Me siento m\u00e1s aliviado despu\u00e9s de hablar sobre esto.",
-      "timestamp": 1763677291
+      "content": "S\u00ed, eso me parece muy bien. Agradecer\u00eda la informaci\u00f3n.",
+      "timestamp": 1763691962
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que te sientas m\u00e1s aliviado. Recuerda que estamos aqu\u00ed para trabajar juntos en esto. Nos vemos en la pr\u00f3xima sesi\u00f3n. \u00a1Cu\u00eddate mucho!",
-      "timestamp": 1763677292
+      "content": "Perfecto, lo har\u00e9. Me alegra que est\u00e9s abierto a explorar nuevas conexiones. Recuerda que este proceso lleva tiempo, y est\u00e1 bien avanzar a tu propio ritmo. \u00bfHay algo m\u00e1s que te gustar\u00eda tratar en nuestra sesi\u00f3n de hoy?",
+      "timestamp": 1763691964
     },
     {
       "agent": "Fernando Leon",
       "action": "utter",
       "actionLabel": null,
-      "content": "\u00a1Gracias! Cu\u00eddate tambi\u00e9n. Hasta la pr\u00f3xima. \u00a1Adi\u00f3s!",
-      "timestamp": 1763677293
+      "content": "No, creo que hemos cubierto bastante. Me siento un poco mejor al hablar de esto. Gracias.",
+      "timestamp": 1763691966
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Recuerda que estoy aqu\u00ed para apoyarte en este camino. Si te parece bien, podemos programar nuestra pr\u00f3xima sesi\u00f3n para continuar explorando y trabajando juntos. \u00bfTe gustar\u00eda hacerlo?",
+      "timestamp": 1763691967
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "S\u00ed, me gustar\u00eda programar la pr\u00f3xima sesi\u00f3n. Gracias por tu apoyo.",
+      "timestamp": 1763691968
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, es un placer apoyarte. Vamos a programar nuestra pr\u00f3xima sesi\u00f3n. \u00bfTe parece bien el mismo d\u00eda y hora la pr\u00f3xima semana?",
+      "timestamp": 1763691969
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "S\u00ed, eso me parece perfecto. Agradezco mucho tu ayuda.",
+      "timestamp": 1763691970
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un placer para m\u00ed, Fernando. Estoy aqu\u00ed para lo que necesites. Nos vemos la pr\u00f3xima semana. Cu\u00eddate y recuerda que no est\u00e1s solo en esto. \u00a1Hasta luego!",
+      "timestamp": 1763691971
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "\u00a1Gracias! Hasta luego, cu\u00eddate.",
+      "timestamp": 1763691972
     }
   ],
   "notes": null

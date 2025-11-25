@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
-  "timestamp": "2025-11-25T01:44:02Z",
+  "version": "0.4.2+38fca57ab97cf565916ed5809189f1033cee6bc4",
+  "timestamp": "2025-11-25T02:30:15Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 2736111920,
-  "id": "f12b93e0-9420-4df7-827b-7426fd7ae1e3",
+  "seed": 3220252860,
+  "id": "639222a5-c060-4921-ab64-e95ce56c74cf",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,223 +54,143 @@
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no sé bien qué esperar."
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar de mis cosas, pero espero que me ayude."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para guiarte y crear un espacio seguro. ¿Te gustaría compartir qué te llevó a buscar terapia?"
+      "text": "Es completamente normal sentir nerviosismo al inicio. Aquí estamos para crear un espacio seguro y cómodo. ¿Te gustaría compartir qué te trae aquí hoy?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Sí, creo que últimamente he estado sintiéndome bastante triste y a veces me cuesta encontrar la motivación para hacer cosas que antes disfrutaba."
+      "text": "Sí, claro. He estado sintiéndome un poco triste y desanimada últimamente, como si no tuviera energía para nada. Me cuesta concentrarme en mis estudios y eso me preocupa."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso conmigo. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor comprensión de tu situación."
+      "text": "Entiendo, y gracias por compartirlo. Para explorar un poco más cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podemos revisar. ¿Te gustaría responderlo? Esto nos ayudará a tener una mejor comprensión de lo que estás experimentando."
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Sí, estoy de acuerdo en responderlo. Quiero entender mejor cómo me siento y creo que esto puede ayudar."
+      "text": "Sí, me gustaría. Creo que podría ayudarme a ver las cosas de otra manera."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, empecemos con las preguntas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Por favor, responde del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"."
+      "text": "Muy bien, te haré algunas preguntas. Por favor, responde con la frecuencia con la que has experimentado cada una en las últimas dos semanas, usando la escala del 0 al 3: 0 es \"nunca\", 1 es \"pocas veces\", 2 es \"algunas veces\" y 3 es \"casi todos los días\".\n\n1. Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Está bien, estoy lista. ¿Cuál es la primera pregunta?"
+      "text": "Diría que 2, algunas veces. Hay cosas que solía disfrutar, pero ahora no me entusiasman tanto como antes."
     },
     {
       "speaker": "Valeria",
-      "text": "La primera pregunta es: ¿Poco interés o placer en hacer cosas? ¿Qué tan seguido has experimentado esto en las últimas dos semanas? Recuerda responder del 0 al 3."
+      "text": "Gracias por compartir eso. La siguiente pregunta es:\n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Creo que sería un 2. A veces siento poco interés, aunque a veces trato de hacer cosas que solían gustarme."
+      "text": "Creo que sería un 3, casi todos los días. Me siento así con mucha frecuencia y es realmente difícil."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu respuesta. La siguiente pregunta es: ¿Te has sentido decaída, deprimida o sin esperanzas en las últimas dos semanas? ¿Qué calificación le darías del 0 al 3?"
+      "text": "Lamento que te sientas así; es un paso importante reconocerlo. Ahora, la próxima pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Le daría un 3. He estado sintiéndome muy decaída y sin muchas esperanzas últimamente."
+      "text": "Esa sería un 2, algunas veces. A veces me cuesta dormir y otras me siento tan cansada que solo quiero quedarme en la cama."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento saber que te has estado sintiendo así. La siguiente pregunta es: ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?"
+      "text": "Entiendo, gracias por tu honestidad. Ahora, la siguiente pregunta:\n\n4. ¿Te has sentido cansada o con poca energía? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Le daría un 2. A veces me cuesta dormir, pero hay noches en las que simplemente me quedo dormida por mucho tiempo."
+      "text": "Diría que un 3, casi todos los días. Me siento cansada y no tengo energía para hacer nada."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. La siguiente pregunta es: ¿Te has sentido cansada o con poca energía en las últimas dos semanas? ¿Cuál es tu calificación del 0 al 3?"
+      "text": "Lo siento mucho, eso debe ser realmente agotador. Continuemos con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Creo que sería un 3. He estado muy cansada y sin energía la mayor parte del tiempo."
+      "text": "Creo que sería un 2, algunas veces. Hay días en los que no tengo ganas de comer, y otros en los que como más de lo habitual."
     },
     {
       "speaker": "Valeria",
-      "text": "Aprecio que compartas eso. La siguiente pregunta es: ¿Has tenido poco apetito o has estado comiendo en exceso en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?"
+      "text": "Gracias por compartir tus experiencias. Ahora pasemos a la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo misma, o como si fueras un fracaso o que has decepcionado a ti misma o a tu familia? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Le daría un 2. A veces no tengo mucho apetito, pero hay momentos en los que como más de lo habitual."
+      "text": "Esa sería un 3, casi todos los días. A menudo me siento así y eso me pesa mucho."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu sinceridad. La siguiente pregunta es: ¿Te has sentido mal contigo misma, o has sentido que eres un fracaso o que has quedado mal contigo misma o con tu familia? ¿Cuál es tu calificación del 0 al 3?"
+      "text": "Lamento que estés sintiendo eso; es doloroso. Gracias por compartir. Continuemos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Le daría un 3. He tenido muchos pensamientos negativos sobre mí misma y sobre mis logros."
+      "text": "Diría que un 2, algunas veces. Me cuesta concentrarme en lo que estoy haciendo, incluso en cosas que solían interesarme."
     },
     {
       "speaker": "Valeria",
-      "text": "Lo siento mucho por lo que estás sintiendo. La siguiente pregunta es: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?"
+      "text": "Gracias por tu respuesta. Ahora la siguiente pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o te has sentido tan inquieta o agitada que te mueves mucho más de lo normal? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Creo que sería un 2. A veces me cuesta concentrarme, especialmente en cosas que antes disfrutaba."
+      "text": "Creo que sería un 1, pocas veces. A veces me siento un poco inquieta, pero no siempre es tan evidente."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. La siguiente pregunta es: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o has sentido que estás tan inquieta o agitada que te mueves mucho más de lo normal en las últimas dos semanas? ¿Cuál es tu calificación del 0 al 3?"
+      "text": "Gracias por compartir eso. Por último, la pregunta 9:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cuál sería tu respuesta?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Le daría un 1. A veces me siento un poco inquieta, pero no creo que las demás personas lo noten demasiado."
+      "text": "Esa sería un 1, pocas veces. A veces tengo pensamientos oscuros, pero no siempre."
     },
     {
       "speaker": "Valeria",
-      "text": "Aprecio tu respuesta. La última pregunta es: ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?"
+      "text": "Agradezco tu sinceridad al compartir tus pensamientos. Lo importante es que estás aquí y buscando ayuda. Para finalizar, la última pregunta:\n\n10. ¿Estás sintiendo alguna incomodidad física o emocional que te gustaría mencionar?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Le daría un 2. Ha habido momentos en los que he tenido esos pensamientos, y me asusta un poco compartirlo."
+      "text": "Sí, siento un nudo en el estómago y mucha ansiedad. A veces es difícil respirar cuando me siento así."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo que compartir esos pensamientos puede ser muy difícil, y te agradezco tu valentía al hacerlo. Es importante que sepamos cómo te sientes. Hablaremos de esto más a fondo para encontrar formas de apoyarte. ¿Te gustaría seguir hablando sobre cómo te has sentido en general?"
+      "text": "Lamento que estés sintiendo esa ansiedad. Es importante abordar esos síntomas en nuestra terapia. Aprecio que compartas cómo te sientes. Hablemos sobre algunas estrategias que podrían ayudarte a manejar esa ansiedad."
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Sí, me gustaría seguir hablando. Siento que tengo muchas cosas en la mente y me gustaría entenderlas mejor."
+      "text": "Gracias, creo que sería muy útil. Me gustaría aprender algunas maneras de sentirme mejor y manejar la ansiedad."
     },
     {
       "speaker": "Valeria",
-      "text": "Por supuesto, hablemos de lo que tienes en mente. Puedes compartir lo que desees; estoy aquí para escucharte y apoyarte en este proceso. ¿Qué es lo que más te preocupa en este momento?"
+      "text": "Claro, hay varias técnicas que podemos explorar. Una útil es la respiración profunda. Te puedo guiar en un ejercicio de respiración ahora mismo, si te parece bien. ¿Te gustaría intentarlo?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Siento que no tengo un rumbo claro en mi vida y eso me preocupa mucho. A veces pienso que no estoy cumpliendo con las expectativas, tanto de mí misma como de los demás."
+      "text": "Sí, me parece bien. Creo que podría ayudarme a relajarme un poco."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible sentir esa presión, especialmente cuando sientes que no estás cumpliendo con tus propias expectativas o las de los demás. Vamos a explorar esas expectativas y ver de dónde vienen. ¿Hay alguna expectativa específica que te esté causando más estrés?"
+      "text": "Perfecto. Comencemos. Si puedes, cierra los ojos y siéntate en una posición cómoda. Inhalaremos profundamente por la nariz contando hasta 4, mantenemos la respiración contando hasta 4, y luego exhalamos por la boca contando hasta 4. \n\n¿Listo? Vamos a inhalar... 1, 2, 3, 4. Mantén... 1, 2, 3, 4. Y exhalemos... 1, 2, 3, 4. \n\nRepetimos esto unas cuantas veces. ¿Cómo te sientes hasta ahora?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Sí, siento que hay mucha presión para tener éxito en mis estudios y, al mismo tiempo, ser social y divertida. A veces creo que no puedo cumplir con todo eso."
+      "text": "Me siento un poco más tranquila, gracias. La respiración profunda me ayuda a relajarme un poco."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa presión puede ser realmente abrumadora, y es normal sentir que no puedes cumplir con todas las expectativas. Es importante recordar que cada persona tiene su propio ritmo y forma de enfrentar los desafíos. ¿Cómo te sientes al comparar tu camino con el de los demás?"
+      "text": "Me alegra mucho escuchar eso. La respiración profunda es una herramienta poderosa. Podemos seguir practicándola y, además, explorar otras técnicas de manejo de la ansiedad en nuestras próximas sesiones. ¿Te gustaría que habláramos sobre eso en tu próxima visita?"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Me siento un poco perdida y frustrada. A veces veo a mis amigos avanzando y sintiendo que tienen todo bajo control, y yo me siento estancada. Eso me hace dudar de mí misma."
+      "text": "Sí, me gustaría. Creo que sería muy útil seguir aprendiendo sobre esas técnicas. Gracias por tu apoyo."
     },
     {
       "speaker": "Valeria",
-      "text": "Es natural comparar tu progreso con el de los demás, pero eso puede contribuir a la frustración y la duda. Recuerda que cada persona enfrenta sus propias luchas, aunque no siempre sean evidentes. ¿Te gustaría hablar sobre tus logros y las cosas en las que te sientes orgullosa, aunque sean pequeñas?"
+      "text": "Es un placer acompañarte en este proceso. Estoy aquí para apoyarte. Nos vemos en la próxima sesión, y cuídate mucho hasta entonces. ¡Hasta pronto!"
     },
     {
       "speaker": "Andrea Medina",
-      "text": "Sí, creo que eso podría ayudar. A veces me olvido de las cosas buenas que he logrado, como haber pasado mis materias o hacer nuevos amigos en la universidad."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "¡Eso es maravilloso! Pasar tus materias y hacer nuevos amigos son logros significativos. Es importante reconocer y celebrar esos momentos, por pequeños que parezcan. ¿Hay alguna otra cosa de la que te sientas orgullosa y que te gustaría compartir?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "También estoy orgullosa de haberme atrevido a grabar mis historias y compartirlas en redes sociales. Aunque a veces me da miedo, me hace sentir creativa y conectada con los demás."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es increíble, Valeria. Compartir tus historias y ser creativa es un gran logro, y demuestra tu valentía. La conexión que sientes con los demás a través de tu creatividad es fundamental. ¿Qué te inspira a seguir contando tus historias a pesar del miedo?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Me inspira saber que puedo hacer reír o reflexionar a otros. Ver que alguien se identifica con lo que comparto me motiva a seguir adelante."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Esa es una motivación hermosa y significativa. Tu capacidad de impactar a los demás y generar conexiones es un don valioso. Esos momentos de identificación pueden ser realmente poderosos. ¿Te gustaría explorar cómo podrías seguir cultivando esa creatividad y conexión en tu vida, mientras manejas la presión que sientes?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Sí, me gustaría. Creo que encontrar un equilibrio entre ser creativa y manejar la presión sería útil para mí."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena como un enfoque positivo. Podemos trabajar en estrategias para ayudarte a crear ese equilibrio. Una opción puede ser establecer límites en cuanto a tus estudios y tu vida social, y dedicar tiempo específico a tu creatividad. ¿Qué piensas sobre eso?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Me parece una buena idea. Creo que tener un tiempo designado para mis proyectos creativos me ayudaría a sentirme menos abrumada y más enfocada."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra que lo veas así. Establecer un tiempo designado te dará un espacio para desconectar y disfrutar de tu creatividad sin la presión de otras responsabilidades. ¿Te gustaría pensar en un horario que te funcione?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Sí, creo que eso sería útil. Tal vez podría dedicar unas horas los fines de semana para grabar mis historias y relajarme un poco."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena excelente. Dedicar tiempo los fines de semana para grabar tus historias puede ser una forma maravillosa de recargar energías. ¿Hay algo más que creas que podrías incorporar en esa rutina para asegurarte de que también te sientas relajada y satisfecha?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Podría incluir también un poco de tiempo para caminar o hacer ejercicio. Me ayuda a despejar la mente y me siento más enérgica después."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es una gran idea. Incorporar ejercicio y caminatas no solo te ayudará a despejar la mente, sino que también contribuirá a tu bienestar general. Te animo a que combines ambas actividades: dedicar tiempo a tu creatividad y también cuidar de tu cuerpo. ¿Te gustaría establecer un pequeño plan para comenzar?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Sí, me gustaría. Podría planear grabar mis historias los sábados por la mañana y salir a caminar los domingos por la tarde. Eso me daría un buen balance."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Ese es un plan maravilloso, Valeria. Grabar tus historias los sábados por la mañana y salir a caminar los domingos por la tarde te permitirá tener tiempo para ti y para tus pasiones. ¿Te gustaría que hiciéramos un seguimiento de este plan en nuestras próximas sesiones?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Sí, me gustaría hacer un seguimiento. Creo que eso me ayudaría a mantenerme motivada y ver cómo me voy sintiendo con el tiempo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto, haré un seguimiento de tu progreso en nuestras próximas sesiones. Me alegra que estés tomando estos pasos hacia un equilibrio saludable. Recuerda ser amable contigo misma a medida que avanzas. ¿Hay algo más que te gustaría discutir hoy antes de concluir nuestra sesión?"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "Creo que eso cubre bastante para hoy. Aprecio mucho tu apoyo y todo lo que hemos hablado."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra que hayas encontrado útil nuestra conversación. Tu disposición para compartir y trabajar en ti misma es un gran paso. Recuerda que estoy aquí para apoyarte en cada parte de este proceso. Nos vemos en nuestra próxima sesión. ¡Cuídate mucho!"
-    },
-    {
-      "speaker": "Andrea Medina",
-      "text": "¡Gracias! Cuídate también. Nos vemos pronto. ¡Adiós!"
+      "text": "¡Hasta pronto! Gracias por todo. Cuídate."
     }
   ],
   "events": [
@@ -279,49 +199,49 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
-      "timestamp": 1764034963
+      "timestamp": 1764037768
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no sé bien qué esperar.",
-      "timestamp": 1764034964
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar de mis cosas, pero espero que me ayude.",
+      "timestamp": 1764037770
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para guiarte y crear un espacio seguro. ¿Te gustaría compartir qué te llevó a buscar terapia?",
-      "timestamp": 1764034965
+      "content": "Es completamente normal sentir nerviosismo al inicio. Aquí estamos para crear un espacio seguro y cómodo. ¿Te gustaría compartir qué te trae aquí hoy?",
+      "timestamp": 1764037771
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que últimamente he estado sintiéndome bastante triste y a veces me cuesta encontrar la motivación para hacer cosas que antes disfrutaba.",
-      "timestamp": 1764034966
+      "content": "Sí, claro. He estado sintiéndome un poco triste y desanimada últimamente, como si no tuviera energía para nada. Me cuesta concentrarme en mis estudios y eso me preocupa.",
+      "timestamp": 1764037772
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764034966
+      "timestamp": 1764037772
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso conmigo. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor comprensión de tu situación.",
-      "timestamp": 1764034967
+      "content": "Entiendo, y gracias por compartirlo. Para explorar un poco más cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podemos revisar. ¿Te gustaría responderlo? Esto nos ayudará a tener una mejor comprensión de lo que estás experimentando.",
+      "timestamp": 1764037776
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, estoy de acuerdo en responderlo. Quiero entender mejor cómo me siento y creo que esto puede ayudar.",
-      "timestamp": 1764034968
+      "content": "Sí, me gustaría. Creo que podría ayudarme a ver las cosas de otra manera.",
+      "timestamp": 1764037777
     },
     {
       "agent": "Valeria",
@@ -330,11 +250,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "PHQ-9"
+          "item": "¿Con qué frecuencia te has sentido triste, deprimida o sin esperanza?"
         },
-        "id": "call_Dka87HSev1yJCmE3gbYhysVa"
+        "id": "call_CdDGnZwDVAIcgLlWT3sEBhLF"
       },
-      "timestamp": 1764034969
+      "timestamp": 1764037778
     },
     {
       "agent": "Valeria",
@@ -342,367 +262,220 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_Dka87HSev1yJCmE3gbYhysVa"
+        "output": "{\"item\": \"¿Con qué frecuencia te has sentido triste, deprimida o sin esperanza?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_CdDGnZwDVAIcgLlWT3sEBhLF"
       },
-      "timestamp": 1764034969
+      "timestamp": 1764037778
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, empecemos con las preguntas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Por favor, responde del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".",
-      "timestamp": 1764034971
+      "content": "Muy bien, te haré algunas preguntas. Por favor, responde con la frecuencia con la que has experimentado cada una en las últimas dos semanas, usando la escala del 0 al 3: 0 es \"nunca\", 1 es \"pocas veces\", 2 es \"algunas veces\" y 3 es \"casi todos los días\".\n\n1. Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037780
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Está bien, estoy lista. ¿Cuál es la primera pregunta?",
-      "timestamp": 1764034971
+      "content": "Diría que 2, algunas veces. Hay cosas que solía disfrutar, pero ahora no me entusiasman tanto como antes.",
+      "timestamp": 1764037781
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "La primera pregunta es: ¿Poco interés o placer en hacer cosas? ¿Qué tan seguido has experimentado esto en las últimas dos semanas? Recuerda responder del 0 al 3.",
-      "timestamp": 1764034973
+      "content": "Gracias por compartir eso. La siguiente pregunta es:\n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037782
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que sería un 2. A veces siento poco interés, aunque a veces trato de hacer cosas que solían gustarme.",
-      "timestamp": 1764034974
+      "content": "Creo que sería un 3, casi todos los días. Me siento así con mucha frecuencia y es realmente difícil.",
+      "timestamp": 1764037783
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu respuesta. La siguiente pregunta es: ¿Te has sentido decaída, deprimida o sin esperanzas en las últimas dos semanas? ¿Qué calificación le darías del 0 al 3?",
-      "timestamp": 1764034975
+      "content": "Lamento que te sientas así; es un paso importante reconocerlo. Ahora, la próxima pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037784
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 3. He estado sintiéndome muy decaída y sin muchas esperanzas últimamente.",
-      "timestamp": 1764034976
+      "content": "Esa sería un 2, algunas veces. A veces me cuesta dormir y otras me siento tan cansada que solo quiero quedarme en la cama.",
+      "timestamp": 1764037785
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento saber que te has estado sintiendo así. La siguiente pregunta es: ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?",
-      "timestamp": 1764034977
+      "content": "Entiendo, gracias por tu honestidad. Ahora, la siguiente pregunta:\n\n4. ¿Te has sentido cansada o con poca energía? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037786
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2. A veces me cuesta dormir, pero hay noches en las que simplemente me quedo dormida por mucho tiempo.",
-      "timestamp": 1764034979
+      "content": "Diría que un 3, casi todos los días. Me siento cansada y no tengo energía para hacer nada.",
+      "timestamp": 1764037787
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. La siguiente pregunta es: ¿Te has sentido cansada o con poca energía en las últimas dos semanas? ¿Cuál es tu calificación del 0 al 3?",
-      "timestamp": 1764034980
+      "content": "Lo siento mucho, eso debe ser realmente agotador. Continuemos con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037789
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que sería un 3. He estado muy cansada y sin energía la mayor parte del tiempo.",
-      "timestamp": 1764034981
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764034981
+      "content": "Creo que sería un 2, algunas veces. Hay días en los que no tengo ganas de comer, y otros en los que como más de lo habitual.",
+      "timestamp": 1764037790
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Aprecio que compartas eso. La siguiente pregunta es: ¿Has tenido poco apetito o has estado comiendo en exceso en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?",
-      "timestamp": 1764034982
+      "content": "Gracias por compartir tus experiencias. Ahora pasemos a la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo misma, o como si fueras un fracaso o que has decepcionado a ti misma o a tu familia? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037792
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2. A veces no tengo mucho apetito, pero hay momentos en los que como más de lo habitual.",
-      "timestamp": 1764034983
+      "content": "Esa sería un 3, casi todos los días. A menudo me siento así y eso me pesa mucho.",
+      "timestamp": 1764037793
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu sinceridad. La siguiente pregunta es: ¿Te has sentido mal contigo misma, o has sentido que eres un fracaso o que has quedado mal contigo misma o con tu familia? ¿Cuál es tu calificación del 0 al 3?",
-      "timestamp": 1764034985
+      "content": "Lamento que estés sintiendo eso; es doloroso. Gracias por compartir. Continuemos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037794
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 3. He tenido muchos pensamientos negativos sobre mí misma y sobre mis logros.",
-      "timestamp": 1764034986
+      "content": "Diría que un 2, algunas veces. Me cuesta concentrarme en lo que estoy haciendo, incluso en cosas que solían interesarme.",
+      "timestamp": 1764037795
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lo siento mucho por lo que estás sintiendo. La siguiente pregunta es: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?",
-      "timestamp": 1764034987
+      "content": "Gracias por tu respuesta. Ahora la siguiente pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o te has sentido tan inquieta o agitada que te mueves mucho más de lo normal? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037796
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que sería un 2. A veces me cuesta concentrarme, especialmente en cosas que antes disfrutaba.",
-      "timestamp": 1764034988
+      "content": "Creo que sería un 1, pocas veces. A veces me siento un poco inquieta, pero no siempre es tan evidente.",
+      "timestamp": 1764037797
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. La siguiente pregunta es: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o has sentido que estás tan inquieta o agitada que te mueves mucho más de lo normal en las últimas dos semanas? ¿Cuál es tu calificación del 0 al 3?",
-      "timestamp": 1764034990
+      "content": "Gracias por compartir eso. Por último, la pregunta 9:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764037799
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 1. A veces me siento un poco inquieta, pero no creo que las demás personas lo noten demasiado.",
-      "timestamp": 1764034991
+      "content": "Esa sería un 1, pocas veces. A veces tengo pensamientos oscuros, pero no siempre.",
+      "timestamp": 1764037800
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Aprecio tu respuesta. La última pregunta es: ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera en las últimas dos semanas? ¿Qué calificación le das del 0 al 3?",
-      "timestamp": 1764034993
+      "content": "Agradezco tu sinceridad al compartir tus pensamientos. Lo importante es que estás aquí y buscando ayuda. Para finalizar, la última pregunta:\n\n10. ¿Estás sintiendo alguna incomodidad física o emocional que te gustaría mencionar?",
+      "timestamp": 1764037801
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2. Ha habido momentos en los que he tenido esos pensamientos, y me asusta un poco compartirlo.",
-      "timestamp": 1764034995
+      "content": "Sí, siento un nudo en el estómago y mucha ansiedad. A veces es difícil respirar cuando me siento así.",
+      "timestamp": 1764037802
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo que compartir esos pensamientos puede ser muy difícil, y te agradezco tu valentía al hacerlo. Es importante que sepamos cómo te sientes. Hablaremos de esto más a fondo para encontrar formas de apoyarte. ¿Te gustaría seguir hablando sobre cómo te has sentido en general?",
-      "timestamp": 1764034997
+      "content": "Lamento que estés sintiendo esa ansiedad. Es importante abordar esos síntomas en nuestra terapia. Aprecio que compartas cómo te sientes. Hablemos sobre algunas estrategias que podrían ayudarte a manejar esa ansiedad.",
+      "timestamp": 1764037803
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría seguir hablando. Siento que tengo muchas cosas en la mente y me gustaría entenderlas mejor.",
-      "timestamp": 1764034998
+      "content": "Gracias, creo que sería muy útil. Me gustaría aprender algunas maneras de sentirme mejor y manejar la ansiedad.",
+      "timestamp": 1764037805
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Por supuesto, hablemos de lo que tienes en mente. Puedes compartir lo que desees; estoy aquí para escucharte y apoyarte en este proceso. ¿Qué es lo que más te preocupa en este momento?",
-      "timestamp": 1764035000
+      "content": "Claro, hay varias técnicas que podemos explorar. Una útil es la respiración profunda. Te puedo guiar en un ejercicio de respiración ahora mismo, si te parece bien. ¿Te gustaría intentarlo?",
+      "timestamp": 1764037806
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Siento que no tengo un rumbo claro en mi vida y eso me preocupa mucho. A veces pienso que no estoy cumpliendo con las expectativas, tanto de mí misma como de los demás.",
-      "timestamp": 1764035001
+      "content": "Sí, me parece bien. Creo que podría ayudarme a relajarme un poco.",
+      "timestamp": 1764037807
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible sentir esa presión, especialmente cuando sientes que no estás cumpliendo con tus propias expectativas o las de los demás. Vamos a explorar esas expectativas y ver de dónde vienen. ¿Hay alguna expectativa específica que te esté causando más estrés?",
-      "timestamp": 1764035003
+      "content": "Perfecto. Comencemos. Si puedes, cierra los ojos y siéntate en una posición cómoda. Inhalaremos profundamente por la nariz contando hasta 4, mantenemos la respiración contando hasta 4, y luego exhalamos por la boca contando hasta 4. \n\n¿Listo? Vamos a inhalar... 1, 2, 3, 4. Mantén... 1, 2, 3, 4. Y exhalemos... 1, 2, 3, 4. \n\nRepetimos esto unas cuantas veces. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764037810
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, siento que hay mucha presión para tener éxito en mis estudios y, al mismo tiempo, ser social y divertida. A veces creo que no puedo cumplir con todo eso.",
-      "timestamp": 1764035004
+      "content": "Me siento un poco más tranquila, gracias. La respiración profunda me ayuda a relajarme un poco.",
+      "timestamp": 1764037811
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa presión puede ser realmente abrumadora, y es normal sentir que no puedes cumplir con todas las expectativas. Es importante recordar que cada persona tiene su propio ritmo y forma de enfrentar los desafíos. ¿Cómo te sientes al comparar tu camino con el de los demás?",
-      "timestamp": 1764035005
+      "content": "Me alegra mucho escuchar eso. La respiración profunda es una herramienta poderosa. Podemos seguir practicándola y, además, explorar otras técnicas de manejo de la ansiedad en nuestras próximas sesiones. ¿Te gustaría que habláramos sobre eso en tu próxima visita?",
+      "timestamp": 1764037812
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me siento un poco perdida y frustrada. A veces veo a mis amigos avanzando y sintiendo que tienen todo bajo control, y yo me siento estancada. Eso me hace dudar de mí misma.",
-      "timestamp": 1764035007
+      "content": "Sí, me gustaría. Creo que sería muy útil seguir aprendiendo sobre esas técnicas. Gracias por tu apoyo.",
+      "timestamp": 1764037813
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es natural comparar tu progreso con el de los demás, pero eso puede contribuir a la frustración y la duda. Recuerda que cada persona enfrenta sus propias luchas, aunque no siempre sean evidentes. ¿Te gustaría hablar sobre tus logros y las cosas en las que te sientes orgullosa, aunque sean pequeñas?",
-      "timestamp": 1764035009
+      "content": "Es un placer acompañarte en este proceso. Estoy aquí para apoyarte. Nos vemos en la próxima sesión, y cuídate mucho hasta entonces. ¡Hasta pronto!",
+      "timestamp": 1764037814
     },
     {
       "agent": "Andrea Medina",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que eso podría ayudar. A veces me olvido de las cosas buenas que he logrado, como haber pasado mis materias o hacer nuevos amigos en la universidad.",
-      "timestamp": 1764035010
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "¡Eso es maravilloso! Pasar tus materias y hacer nuevos amigos son logros significativos. Es importante reconocer y celebrar esos momentos, por pequeños que parezcan. ¿Hay alguna otra cosa de la que te sientas orgullosa y que te gustaría compartir?",
-      "timestamp": 1764035012
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "También estoy orgullosa de haberme atrevido a grabar mis historias y compartirlas en redes sociales. Aunque a veces me da miedo, me hace sentir creativa y conectada con los demás.",
-      "timestamp": 1764035013
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es increíble, Valeria. Compartir tus historias y ser creativa es un gran logro, y demuestra tu valentía. La conexión que sientes con los demás a través de tu creatividad es fundamental. ¿Qué te inspira a seguir contando tus historias a pesar del miedo?",
-      "timestamp": 1764035015
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me inspira saber que puedo hacer reír o reflexionar a otros. Ver que alguien se identifica con lo que comparto me motiva a seguir adelante.",
-      "timestamp": 1764035016
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Esa es una motivación hermosa y significativa. Tu capacidad de impactar a los demás y generar conexiones es un don valioso. Esos momentos de identificación pueden ser realmente poderosos. ¿Te gustaría explorar cómo podrías seguir cultivando esa creatividad y conexión en tu vida, mientras manejas la presión que sientes?",
-      "timestamp": 1764035018
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría. Creo que encontrar un equilibrio entre ser creativa y manejar la presión sería útil para mí.",
-      "timestamp": 1764035019
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena como un enfoque positivo. Podemos trabajar en estrategias para ayudarte a crear ese equilibrio. Una opción puede ser establecer límites en cuanto a tus estudios y tu vida social, y dedicar tiempo específico a tu creatividad. ¿Qué piensas sobre eso?",
-      "timestamp": 1764035021
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me parece una buena idea. Creo que tener un tiempo designado para mis proyectos creativos me ayudaría a sentirme menos abrumada y más enfocada.",
-      "timestamp": 1764035022
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra que lo veas así. Establecer un tiempo designado te dará un espacio para desconectar y disfrutar de tu creatividad sin la presión de otras responsabilidades. ¿Te gustaría pensar en un horario que te funcione?",
-      "timestamp": 1764035024
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que eso sería útil. Tal vez podría dedicar unas horas los fines de semana para grabar mis historias y relajarme un poco.",
-      "timestamp": 1764035025
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena excelente. Dedicar tiempo los fines de semana para grabar tus historias puede ser una forma maravillosa de recargar energías. ¿Hay algo más que creas que podrías incorporar en esa rutina para asegurarte de que también te sientas relajada y satisfecha?",
-      "timestamp": 1764035027
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Podría incluir también un poco de tiempo para caminar o hacer ejercicio. Me ayuda a despejar la mente y me siento más enérgica después.",
-      "timestamp": 1764035028
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es una gran idea. Incorporar ejercicio y caminatas no solo te ayudará a despejar la mente, sino que también contribuirá a tu bienestar general. Te animo a que combines ambas actividades: dedicar tiempo a tu creatividad y también cuidar de tu cuerpo. ¿Te gustaría establecer un pequeño plan para comenzar?",
-      "timestamp": 1764035030
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría. Podría planear grabar mis historias los sábados por la mañana y salir a caminar los domingos por la tarde. Eso me daría un buen balance.",
-      "timestamp": 1764035032
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Ese es un plan maravilloso, Valeria. Grabar tus historias los sábados por la mañana y salir a caminar los domingos por la tarde te permitirá tener tiempo para ti y para tus pasiones. ¿Te gustaría que hiciéramos un seguimiento de este plan en nuestras próximas sesiones?",
-      "timestamp": 1764035034
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría hacer un seguimiento. Creo que eso me ayudaría a mantenerme motivada y ver cómo me voy sintiendo con el tiempo.",
-      "timestamp": 1764035035
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto, haré un seguimiento de tu progreso en nuestras próximas sesiones. Me alegra que estés tomando estos pasos hacia un equilibrio saludable. Recuerda ser amable contigo misma a medida que avanzas. ¿Hay algo más que te gustaría discutir hoy antes de concluir nuestra sesión?",
-      "timestamp": 1764035037
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Creo que eso cubre bastante para hoy. Aprecio mucho tu apoyo y todo lo que hemos hablado.",
-      "timestamp": 1764035038
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra que hayas encontrado útil nuestra conversación. Tu disposición para compartir y trabajar en ti misma es un gran paso. Recuerda que estoy aquí para apoyarte en cada parte de este proceso. Nos vemos en nuestra próxima sesión. ¡Cuídate mucho!",
-      "timestamp": 1764035040
-    },
-    {
-      "agent": "Andrea Medina",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "¡Gracias! Cuídate también. Nos vemos pronto. ¡Adiós!",
-      "timestamp": 1764035042
+      "content": "¡Hasta pronto! Gracias por todo. Cuídate.",
+      "timestamp": 1764037815
     }
   ],
   "notes": null

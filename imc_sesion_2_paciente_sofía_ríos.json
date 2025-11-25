@@ -1,0 +1,385 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:51:50Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 94367685,
+  "id": "b10cb4d9-b115-42bd-84bf-a73badee6e13",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Sofía Ríos": {
+      "name": "Sofía Ríos",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IMC) | estudiante de Ingeniería Mecatrónica en la Ibero de 4to semestre; le gusta armar cosas sencillas, jugar videojuegos y ver contenido de tecnología sin ponerse muy técnica.",
+      "personality": "curiosa y entusiasta",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Hola, gracias. Estoy un poco nerviosa, la verdad. Es mi primera sesión y no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría hablar sobre qué te ha traído aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, he estado sintiéndome un poco apagada últimamente y he tenido dificultades para concentrarme en mis estudios. Me preocupa que esto afecte mi desempeño."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que eso puede ser preocupante. La falta de concentración y la sensación de estar apagada pueden tener un impacto significativo. ¿Desde hace cuánto tiempo has estado sintiéndote así?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que ha sido un par de meses, pero se ha intensificado en las últimas semanas. A veces me siento muy abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. La sensación de ser abrumada es difícil de manejar. Vamos a explorar juntos algunas estrategias para ayudarte a lidiar con eso. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me parece bien. Estoy dispuesta a aprender y encontrar formas de sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es excelente, tu disposición es un gran paso. Podemos comenzar a identificar qué situaciones o pensamientos te generan ese agobio. ¿Hay algo específico que te venga a la mente?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, a veces me siento agobiada con las tareas de la universidad, especialmente cuando hay muchos proyectos al mismo tiempo. Me da miedo no cumplir con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir miedo ante las expectativas, especialmente con múltiples proyectos. Vamos a trabajar en cómo podrías gestionar ese estrés y establecer prioridades. ¿Has intentado alguna técnica de organización o manejo del tiempo?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "He intentado hacer listas, pero a veces me siento tan abrumada que no sé por dónde empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es normal sentirse así; a veces, el simple hecho de hacer listas puede ser abrumador. Podemos explorar la técnica del desglose, donde dividimos las tareas en pasos más pequeños y manejables. ¿Te gustaría que hablemos de cómo implementarla?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría eso. Tal vez me ayude a ver las cosas de manera más clara."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos. Primero, elige una tarea que te sientas abrumada para la cual tengas que trabajar. Luego, la dividimos en pasos pequeños y específicos. ¿Cuál sería esa tarea?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que podría ser un proyecto de clase que tengo que entregar pronto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, enfoquémonos en eso. ¿Cuál es el primer paso que crees que debes hacer para comenzar con tu proyecto?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Tal vez el primer paso sería investigar el tema que tengo que presentar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, investigar es un excelente primer paso. Te sugiero que establezcas un tiempo específico para hacerlo, digamos una hora. Luego, ¿cuál sería el siguiente paso después de la investigación?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Después de investigar, creo que el siguiente paso sería hacer un esquema de lo que quiero incluir en el proyecto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Hacer un esquema te ayudará a organizar tus ideas de forma clara. Una vez que termines con el esquema, ¿qué crees que sería el siguiente paso?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Luego de hacer el esquema, podría empezar a redactar el contenido del proyecto, siguiendo lo que anoté."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, redactar el contenido es una parte crucial. Al dividirlo en pasos, como investigar, esquematizar y redactar, te sentirás más en control. ¿Te gustaría que establezcamos un cronograma para estos pasos?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso me ayudaría a tener una mejor idea de cómo organizar mi tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Intentemos establecer plazos para cada paso. Por ejemplo, podrías dedicar hoy a investigar, mañana a hacer el esquema y un par de días después para redactar. ¿Te parece que eso funciona para ti?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me parece un buen plan. Así podré ir avanzando poco a poco sin sentirme tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas así. Avanzar poco a poco puede hacer una gran diferencia. Recuerda ser amable contigo misma durante este proceso. ¿Hay algo más en lo que te gustaría enfocarte hoy?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "No, creo que eso es suficiente por ahora. Me siento un poco más aliviada al tener un plan. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra saber que te sientes más aliviada. Estamos aquí para trabajar juntos y seguir avanzando. Nos vemos en la próxima sesión, cuídate mucho. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "¡Hasta luego! Muchas gracias. Cuídate también."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046272
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Estoy un poco nerviosa, la verdad. Es mi primera sesión y no estoy segura de qué esperar.",
+      "timestamp": 1764046274
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría hablar sobre qué te ha traído aquí?",
+      "timestamp": 1764046275
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco apagada últimamente y he tenido dificultades para concentrarme en mis estudios. Me preocupa que esto afecte mi desempeño.",
+      "timestamp": 1764046276
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que eso puede ser preocupante. La falta de concentración y la sensación de estar apagada pueden tener un impacto significativo. ¿Desde hace cuánto tiempo has estado sintiéndote así?",
+      "timestamp": 1764046277
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido un par de meses, pero se ha intensificado en las últimas semanas. A veces me siento muy abrumada.",
+      "timestamp": 1764046278
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. La sensación de ser abrumada es difícil de manejar. Vamos a explorar juntos algunas estrategias para ayudarte a lidiar con eso. ¿Te parece bien?",
+      "timestamp": 1764046280
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesta a aprender y encontrar formas de sentirme mejor.",
+      "timestamp": 1764046281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es excelente, tu disposición es un gran paso. Podemos comenzar a identificar qué situaciones o pensamientos te generan ese agobio. ¿Hay algo específico que te venga a la mente?",
+      "timestamp": 1764046282
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces me siento agobiada con las tareas de la universidad, especialmente cuando hay muchos proyectos al mismo tiempo. Me da miedo no cumplir con las expectativas.",
+      "timestamp": 1764046283
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir miedo ante las expectativas, especialmente con múltiples proyectos. Vamos a trabajar en cómo podrías gestionar ese estrés y establecer prioridades. ¿Has intentado alguna técnica de organización o manejo del tiempo?",
+      "timestamp": 1764046285
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado hacer listas, pero a veces me siento tan abrumada que no sé por dónde empezar.",
+      "timestamp": 1764046286
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es normal sentirse así; a veces, el simple hecho de hacer listas puede ser abrumador. Podemos explorar la técnica del desglose, donde dividimos las tareas en pasos más pequeños y manejables. ¿Te gustaría que hablemos de cómo implementarla?",
+      "timestamp": 1764046287
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Tal vez me ayude a ver las cosas de manera más clara.",
+      "timestamp": 1764046288
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos. Primero, elige una tarea que te sientas abrumada para la cual tengas que trabajar. Luego, la dividimos en pasos pequeños y específicos. ¿Cuál sería esa tarea?",
+      "timestamp": 1764046289
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría ser un proyecto de clase que tengo que entregar pronto.",
+      "timestamp": 1764046291
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, enfoquémonos en eso. ¿Cuál es el primer paso que crees que debes hacer para comenzar con tu proyecto?",
+      "timestamp": 1764046291
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez el primer paso sería investigar el tema que tengo que presentar.",
+      "timestamp": 1764046292
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, investigar es un excelente primer paso. Te sugiero que establezcas un tiempo específico para hacerlo, digamos una hora. Luego, ¿cuál sería el siguiente paso después de la investigación?",
+      "timestamp": 1764046294
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Después de investigar, creo que el siguiente paso sería hacer un esquema de lo que quiero incluir en el proyecto.",
+      "timestamp": 1764046297
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Hacer un esquema te ayudará a organizar tus ideas de forma clara. Una vez que termines con el esquema, ¿qué crees que sería el siguiente paso?",
+      "timestamp": 1764046298
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Luego de hacer el esquema, podría empezar a redactar el contenido del proyecto, siguiendo lo que anoté.",
+      "timestamp": 1764046299
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, redactar el contenido es una parte crucial. Al dividirlo en pasos, como investigar, esquematizar y redactar, te sentirás más en control. ¿Te gustaría que establezcamos un cronograma para estos pasos?",
+      "timestamp": 1764046300
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría a tener una mejor idea de cómo organizar mi tiempo.",
+      "timestamp": 1764046301
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Intentemos establecer plazos para cada paso. Por ejemplo, podrías dedicar hoy a investigar, mañana a hacer el esquema y un par de días después para redactar. ¿Te parece que eso funciona para ti?",
+      "timestamp": 1764046303
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece un buen plan. Así podré ir avanzando poco a poco sin sentirme tan abrumada.",
+      "timestamp": 1764046304
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas así. Avanzar poco a poco puede hacer una gran diferencia. Recuerda ser amable contigo misma durante este proceso. ¿Hay algo más en lo que te gustaría enfocarte hoy?",
+      "timestamp": 1764046306
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es suficiente por ahora. Me siento un poco más aliviada al tener un plan. Gracias.",
+      "timestamp": 1764046307
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra saber que te sientes más aliviada. Estamos aquí para trabajar juntos y seguir avanzando. Nos vemos en la próxima sesión, cuídate mucho. ¡Hasta luego!",
+      "timestamp": 1764046309
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Muchas gracias. Cuídate también.",
+      "timestamp": 1764046310
+    }
+  ],
+  "notes": null
+}

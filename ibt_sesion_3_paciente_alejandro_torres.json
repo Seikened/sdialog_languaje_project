@@ -1,0 +1,819 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:58:24Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3591519294,
+  "id": "31bd8326-4642-44fe-8453-e0254d1af42d",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Alejandro Torres": {
+      "name": "Alejandro Torres",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 5to semestre; le gusta ver videos de ciencia ligeros, convivir con pocos amigos y pasar tardes tranquilas en casa.",
+      "personality": "callado y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Hola. La verdad es que me siento un poco nervioso, no estoy acostumbrado a esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro. ¿Hay algo en particular que te preocupe?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, he estado sintiendo mucha tristeza últimamente y me cuesta concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés pasando por eso. La tristeza y la falta de concentración pueden ser muy difíciles de manejar. ¿Cuánto tiempo llevas sintiéndote así?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que ha sido un par de meses ya, aunque a veces siento que solo empeora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es importante reconocer cuánto tiempo llevas sintiéndote así. Podemos trabajar juntos para entender mejor lo que está sucediendo. ¿Hay algo específico que crees que podría estar contribuyendo a esos sentimientos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "A veces pienso que es por la presión de la escuela y la falta de apoyo de mis amigos. Me siento un poco solo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión escolar y la sensación de soledad pueden ser muy abrumadoras. Hablemos un poco más sobre esa falta de apoyo de tus amigos. ¿Has podido compartir estos sentimientos con ellos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "No realmente. Me da miedo que no me entiendan o que piensen que estoy exagerando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es totalmente comprensible sentir ese miedo. A veces, abrirse a los demás puede ser un desafío. ¿Te gustaría explorar algunas formas de comunicarte con ellos sobre lo que sientes?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que eso podría ayudarme. No estoy seguro de cómo empezar, pero estoy dispuesto a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran paso que estés dispuesto a intentarlo. Podríamos trabajar en algunas frases que te ayuden a expresar tus sentimientos de manera clara. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me parece bien. Me gustaría tener algunas ideas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Una buena forma de comenzar podría ser diciendo algo como: \"He estado sintiendo que me siento un poco solo y me gustaría hablar sobre ello\". Eso puede abrir la puerta a una conversación. ¿Qué opinas de esa frase?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me gusta esa frase. Suena directa y honesta, creo que podría funcionar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te guste. La honestidad es clave en estas conversaciones. Practicarlo puede ayudarte a sentirte más seguro. ¿Te gustaría ensayar cómo lo dirías en voz alta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, puedo intentarlo. \"He estado sintiendo que me siento un poco solo y me gustaría hablar sobre ello.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Excelente! Lo hiciste muy bien. Recuerda que expresar tus sentimientos es un acto valiente. ¿Cómo te sentiste al decirlo en voz alta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me sentí un poco nervioso, pero también aliviado. Es bueno sacar lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa sensación de alivio es muy valiosa. Hablar sobre lo que sientes es un paso importante hacia la sanación. ¿Te gustaría explorar otras áreas de tu vida donde sientas que podrías beneficiarte de la comunicación?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que podría ser útil. A veces también tengo problemas para expresar mis necesidades en la escuela."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entender tus necesidades y poder expresarlas es fundamental. ¿Hay situaciones específicas en la escuela donde sientes que te cuesta comunicar lo que necesitas?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, en las clases grupales me siento incómodo al pedir ayuda o expresar mis opiniones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es común sentirse incómodo en situaciones grupales. Podríamos trabajar en algunas estrategias para que te sientas más seguro al expresar tus opiniones. ¿Te gustaría que te ayudara a desarrollar algunas frases para esos momentos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría eso. Creo que me ayudaría a sentirme más preparado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Una buena forma de empezar podría ser: \"Me gustaría compartir mis ideas sobre esto\" o \"¿Podrías ayudarme con este tema?\" Estas frases son sencillas y directas. ¿Qué te parecen?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me parecen muy buenas. Son fáciles de recordar y me gustan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te gusten. Tener frases listas puede hacer que te sientas más seguro al hablar. Practicar puede ayudarte a sentirte más cómodo en esas situaciones. ¿Te gustaría intentar usarlas en voz alta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, puedo intentarlo. \"Me gustaría compartir mis ideas sobre esto.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Muy bien! Sonó genial. Practicarlo en voz alta te ayudará a sentirte más natural al usarlo. ¿Te sientes un poco más seguro después de decirlo?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, un poco más seguro. Practicarlo me hace sentir menos ansioso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran avance. Practicar en un ambiente seguro ayuda a reducir la ansiedad. Cada pequeño paso cuenta. ¿Te gustaría trabajar en algún otro aspecto que sientas que necesita atención?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, tal vez podríamos hablar sobre cómo manejar el estrés de mis estudios. A veces me abruma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, el manejo del estrés es muy importante. Podríamos explorar algunas técnicas que te ayuden a sentirte más en control. ¿Has probado alguna estrategia para manejar el estrés antes?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "He intentado hacer ejercicio, pero a veces no tengo energía para hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que la falta de energía puede dificultar el ejercicio. Además, he notado algunos síntomas que podrían indicar depresión. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Estás de acuerdo en responderlo?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que podría ayudarme a entender mejor cómo me siento. Estoy de acuerdo en responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Vamos a comenzar con unas preguntas para evaluar cómo te has sentido en las últimas dos semanas. Por favor, responde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\n1. Poco interés o placer en hacer cosas.  \n¿Cómo te sientes?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le daría un 2. A veces me siento satisfecho, pero muchas veces no tengo ganas de hacer nada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta honesta. Eso nos ayuda a entender mejor cómo te has sentido. \n\n2. Durante las últimas dos semanas, ¿cómo te has sentido en cuanto a sentirte decaído(a), deprimido(a) o sin esperanzas? Responde con un número del 0 al 3."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le daría un 3. Me he sentido muy decaído y sin esperanzas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así, y agradezco que compartas esto conmigo. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido(a), o has dormido demasiado? ¿Cuál sería tu respuesta del 0 al 3?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 2. A veces me cuesta dormir, pero otras veces duermo demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Es importante tener en cuenta la calidad de tu sueño. \n\n4. ¿Cómo te sientes en cuanto a sentirte cansado(a) o con poca energía? Responde del 0 al 3."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 3. Me siento muy cansado y sin energía la mayor parte del tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y lamento que estés experimentando esa falta de energía. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? Califica esto del 0 al 3."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 2. A veces no tengo ganas de comer, pero hay momentos en los que como demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. Esto puede ser un signo de cambios emocionales. \n\n6. ¿Te has sentido mal contigo mismo(a) o has sentido que has fallado en algo? ¿Cuál sería tu respuesta del 0 al 3?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 3. Me siento mal conmigo mismo y siento que no estoy logrando lo que debería."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiendo eso; es doloroso. \n\n7. ¿Has tenido dificultad para concentrarte en cosas, como leer o ver televisión? ¿Qué calificación le das del 0 al 3?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 3. Me cuesta mucho concentrarme en cualquier cosa, incluso en cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo; la dificultad para concentrarte puede ser frustrante. \n\n8. ¿Te has sentido tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal, o has notado que te mueves o hablas más lento? Responde del 0 al 3."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 1. A veces me siento inquieto, pero en general me muevo más despacio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso puede ser un reflejo de cómo te sientes internamente. \n\n9. Por último, ¿has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? Califica del 0 al 3."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Le doy un 2. A veces pienso que quizás sería mejor no estar aquí, pero no tengo planes de lastimarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco mucho que hayas compartido eso. Estas son preocupaciones serias y es fundamental abordarlas. \n\nTus respuestas indican que estás lidiando con sentimientos intensos y es importante que busquemos el apoyo adecuado para ti. ¿Te gustaría que hablemos sobre las siguientes etapas o recursos que podríamos considerar juntos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que sería importante hablar sobre los siguientes pasos. Me gustaría saber qué opciones tengo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos considerar varias opciones. Una posibilidad es continuar con nuestras sesiones de terapia para trabajar más a fondo en estos sentimientos y desarrollar estrategias de afrontamiento. También podríamos hablar sobre la opción de realizar una evaluación más exhaustiva o incluso explorar grupos de apoyo. \n\n¿Qué opción te parece más útil en este momento?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me gustaría continuar con las sesiones de terapia. Siento que necesito ese espacio para trabajar en lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Estoy aquí para apoyarte en este proceso. Podemos establecer un plan para nuestras próximas sesiones y trabajar juntos en tus sentimientos y situaciones. ¿Te gustaría fijar una frecuencia para las sesiones?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que sería bueno tener sesiones semanales. Me gustaría tener un espacio regular para hablar de todo esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es una excelente decisión. Las sesiones semanales pueden ser muy beneficiosas para mantener un espacio de apoyo constante. Podemos programar nuestra próxima sesión para la misma hora la próxima semana. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me parece bien. Agradezco poder tener ese espacio semanal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas así. Estoy aquí para acompañarte en este camino. Recuerda que dar este paso ya es un gran avance. Si en algún momento sientes que necesitas algo más urgente, no dudes en decírmelo. \n\nNos vemos la próxima semana. ¡Cuídate!"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Gracias. Nos vemos la próxima semana. Cuídate también. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046613
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. La verdad es que me siento un poco nervioso, no estoy acostumbrado a esto.",
+      "timestamp": 1764046614
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro. ¿Hay algo en particular que te preocupe?",
+      "timestamp": 1764046615
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo mucha tristeza últimamente y me cuesta concentrarme en mis estudios.",
+      "timestamp": 1764046616
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés pasando por eso. La tristeza y la falta de concentración pueden ser muy difíciles de manejar. ¿Cuánto tiempo llevas sintiéndote así?",
+      "timestamp": 1764046617
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido un par de meses ya, aunque a veces siento que solo empeora.",
+      "timestamp": 1764046618
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es importante reconocer cuánto tiempo llevas sintiéndote así. Podemos trabajar juntos para entender mejor lo que está sucediendo. ¿Hay algo específico que crees que podría estar contribuyendo a esos sentimientos?",
+      "timestamp": 1764046619
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces pienso que es por la presión de la escuela y la falta de apoyo de mis amigos. Me siento un poco solo.",
+      "timestamp": 1764046620
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión escolar y la sensación de soledad pueden ser muy abrumadoras. Hablemos un poco más sobre esa falta de apoyo de tus amigos. ¿Has podido compartir estos sentimientos con ellos?",
+      "timestamp": 1764046621
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No realmente. Me da miedo que no me entiendan o que piensen que estoy exagerando.",
+      "timestamp": 1764046622
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es totalmente comprensible sentir ese miedo. A veces, abrirse a los demás puede ser un desafío. ¿Te gustaría explorar algunas formas de comunicarte con ellos sobre lo que sientes?",
+      "timestamp": 1764046624
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme. No estoy seguro de cómo empezar, pero estoy dispuesto a intentarlo.",
+      "timestamp": 1764046624
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran paso que estés dispuesto a intentarlo. Podríamos trabajar en algunas frases que te ayuden a expresar tus sentimientos de manera clara. ¿Te parece bien?",
+      "timestamp": 1764046626
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Me gustaría tener algunas ideas.",
+      "timestamp": 1764046627
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Una buena forma de comenzar podría ser diciendo algo como: \"He estado sintiendo que me siento un poco solo y me gustaría hablar sobre ello\". Eso puede abrir la puerta a una conversación. ¿Qué opinas de esa frase?",
+      "timestamp": 1764046628
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta esa frase. Suena directa y honesta, creo que podría funcionar.",
+      "timestamp": 1764046629
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te guste. La honestidad es clave en estas conversaciones. Practicarlo puede ayudarte a sentirte más seguro. ¿Te gustaría ensayar cómo lo dirías en voz alta?",
+      "timestamp": 1764046630
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, puedo intentarlo. \"He estado sintiendo que me siento un poco solo y me gustaría hablar sobre ello.\"",
+      "timestamp": 1764046631
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Excelente! Lo hiciste muy bien. Recuerda que expresar tus sentimientos es un acto valiente. ¿Cómo te sentiste al decirlo en voz alta?",
+      "timestamp": 1764046633
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me sentí un poco nervioso, pero también aliviado. Es bueno sacar lo que siento.",
+      "timestamp": 1764046634
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sensación de alivio es muy valiosa. Hablar sobre lo que sientes es un paso importante hacia la sanación. ¿Te gustaría explorar otras áreas de tu vida donde sientas que podrías beneficiarte de la comunicación?",
+      "timestamp": 1764046635
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ser útil. A veces también tengo problemas para expresar mis necesidades en la escuela.",
+      "timestamp": 1764046637
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entender tus necesidades y poder expresarlas es fundamental. ¿Hay situaciones específicas en la escuela donde sientes que te cuesta comunicar lo que necesitas?",
+      "timestamp": 1764046638
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, en las clases grupales me siento incómodo al pedir ayuda o expresar mis opiniones.",
+      "timestamp": 1764046639
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es común sentirse incómodo en situaciones grupales. Podríamos trabajar en algunas estrategias para que te sientas más seguro al expresar tus opiniones. ¿Te gustaría que te ayudara a desarrollar algunas frases para esos momentos?",
+      "timestamp": 1764046640
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que me ayudaría a sentirme más preparado.",
+      "timestamp": 1764046641
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Una buena forma de empezar podría ser: \"Me gustaría compartir mis ideas sobre esto\" o \"¿Podrías ayudarme con este tema?\" Estas frases son sencillas y directas. ¿Qué te parecen?",
+      "timestamp": 1764046643
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parecen muy buenas. Son fáciles de recordar y me gustan.",
+      "timestamp": 1764046643
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te gusten. Tener frases listas puede hacer que te sientas más seguro al hablar. Practicar puede ayudarte a sentirte más cómodo en esas situaciones. ¿Te gustaría intentar usarlas en voz alta?",
+      "timestamp": 1764046645
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, puedo intentarlo. \"Me gustaría compartir mis ideas sobre esto.\"",
+      "timestamp": 1764046646
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Muy bien! Sonó genial. Practicarlo en voz alta te ayudará a sentirte más natural al usarlo. ¿Te sientes un poco más seguro después de decirlo?",
+      "timestamp": 1764046648
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, un poco más seguro. Practicarlo me hace sentir menos ansioso.",
+      "timestamp": 1764046649
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran avance. Practicar en un ambiente seguro ayuda a reducir la ansiedad. Cada pequeño paso cuenta. ¿Te gustaría trabajar en algún otro aspecto que sientas que necesita atención?",
+      "timestamp": 1764046651
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, tal vez podríamos hablar sobre cómo manejar el estrés de mis estudios. A veces me abruma.",
+      "timestamp": 1764046652
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, el manejo del estrés es muy importante. Podríamos explorar algunas técnicas que te ayuden a sentirte más en control. ¿Has probado alguna estrategia para manejar el estrés antes?",
+      "timestamp": 1764046653
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado hacer ejercicio, pero a veces no tengo energía para hacerlo.",
+      "timestamp": 1764046653
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764046653
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que la falta de energía puede dificultar el ejercicio. Además, he notado algunos síntomas que podrían indicar depresión. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Estás de acuerdo en responderlo?",
+      "timestamp": 1764046655
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ayudarme a entender mejor cómo me siento. Estoy de acuerdo en responderlo.",
+      "timestamp": 1764046656
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "evaluar niveles de tristeza y ansiedad"
+        },
+        "id": "call_7eOfW7ZA5mfodjHobVRVfeMX"
+      },
+      "timestamp": 1764046657
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"evaluar niveles de tristeza y ansiedad\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_7eOfW7ZA5mfodjHobVRVfeMX"
+      },
+      "timestamp": 1764046657
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Vamos a comenzar con unas preguntas para evaluar cómo te has sentido en las últimas dos semanas. Por favor, responde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\n1. Poco interés o placer en hacer cosas.  \n¿Cómo te sientes?",
+      "timestamp": 1764046659
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces me siento satisfecho, pero muchas veces no tengo ganas de hacer nada.",
+      "timestamp": 1764046660
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764046660
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta honesta. Eso nos ayuda a entender mejor cómo te has sentido. \n\n2. Durante las últimas dos semanas, ¿cómo te has sentido en cuanto a sentirte decaído(a), deprimido(a) o sin esperanzas? Responde con un número del 0 al 3.",
+      "timestamp": 1764046663
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3. Me he sentido muy decaído y sin esperanzas.",
+      "timestamp": 1764046663
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así, y agradezco que compartas esto conmigo. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido(a), o has dormido demasiado? ¿Cuál sería tu respuesta del 0 al 3?",
+      "timestamp": 1764046665
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 2. A veces me cuesta dormir, pero otras veces duermo demasiado.",
+      "timestamp": 1764046668
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Es importante tener en cuenta la calidad de tu sueño. \n\n4. ¿Cómo te sientes en cuanto a sentirte cansado(a) o con poca energía? Responde del 0 al 3.",
+      "timestamp": 1764046670
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 3. Me siento muy cansado y sin energía la mayor parte del tiempo.",
+      "timestamp": 1764046672
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y lamento que estés experimentando esa falta de energía. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? Califica esto del 0 al 3.",
+      "timestamp": 1764046673
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 2. A veces no tengo ganas de comer, pero hay momentos en los que como demasiado.",
+      "timestamp": 1764046674
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. Esto puede ser un signo de cambios emocionales. \n\n6. ¿Te has sentido mal contigo mismo(a) o has sentido que has fallado en algo? ¿Cuál sería tu respuesta del 0 al 3?",
+      "timestamp": 1764046676
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 3. Me siento mal conmigo mismo y siento que no estoy logrando lo que debería.",
+      "timestamp": 1764046677
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso; es doloroso. \n\n7. ¿Has tenido dificultad para concentrarte en cosas, como leer o ver televisión? ¿Qué calificación le das del 0 al 3?",
+      "timestamp": 1764046680
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 3. Me cuesta mucho concentrarme en cualquier cosa, incluso en cosas que antes disfrutaba.",
+      "timestamp": 1764046681
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo; la dificultad para concentrarte puede ser frustrante. \n\n8. ¿Te has sentido tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal, o has notado que te mueves o hablas más lento? Responde del 0 al 3.",
+      "timestamp": 1764046684
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 1. A veces me siento inquieto, pero en general me muevo más despacio.",
+      "timestamp": 1764046685
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso puede ser un reflejo de cómo te sientes internamente. \n\n9. Por último, ¿has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? Califica del 0 al 3.",
+      "timestamp": 1764046687
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 2. A veces pienso que quizás sería mejor no estar aquí, pero no tengo planes de lastimarme.",
+      "timestamp": 1764046688
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco mucho que hayas compartido eso. Estas son preocupaciones serias y es fundamental abordarlas. \n\nTus respuestas indican que estás lidiando con sentimientos intensos y es importante que busquemos el apoyo adecuado para ti. ¿Te gustaría que hablemos sobre las siguientes etapas o recursos que podríamos considerar juntos?",
+      "timestamp": 1764046690
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería importante hablar sobre los siguientes pasos. Me gustaría saber qué opciones tengo.",
+      "timestamp": 1764046691
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos considerar varias opciones. Una posibilidad es continuar con nuestras sesiones de terapia para trabajar más a fondo en estos sentimientos y desarrollar estrategias de afrontamiento. También podríamos hablar sobre la opción de realizar una evaluación más exhaustiva o incluso explorar grupos de apoyo. \n\n¿Qué opción te parece más útil en este momento?",
+      "timestamp": 1764046693
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría continuar con las sesiones de terapia. Siento que necesito ese espacio para trabajar en lo que estoy sintiendo.",
+      "timestamp": 1764046694
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Estoy aquí para apoyarte en este proceso. Podemos establecer un plan para nuestras próximas sesiones y trabajar juntos en tus sentimientos y situaciones. ¿Te gustaría fijar una frecuencia para las sesiones?",
+      "timestamp": 1764046696
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería bueno tener sesiones semanales. Me gustaría tener un espacio regular para hablar de todo esto.",
+      "timestamp": 1764046697
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es una excelente decisión. Las sesiones semanales pueden ser muy beneficiosas para mantener un espacio de apoyo constante. Podemos programar nuestra próxima sesión para la misma hora la próxima semana. ¿Te parece bien?",
+      "timestamp": 1764046699
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Agradezco poder tener ese espacio semanal.",
+      "timestamp": 1764046700
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas así. Estoy aquí para acompañarte en este camino. Recuerda que dar este paso ya es un gran avance. Si en algún momento sientes que necesitas algo más urgente, no dudes en decírmelo. \n\nNos vemos la próxima semana. ¡Cuídate!",
+      "timestamp": 1764046703
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias. Nos vemos la próxima semana. Cuídate también. ¡Adiós!",
+      "timestamp": 1764046704
+    }
+  ],
+  "notes": null
+}

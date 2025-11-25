@@ -1,0 +1,328 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:53:10Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2869847444,
+  "id": "4b3fe7e0-be31-40ab-8d76-13ef84a85be4",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Montserrat Reyes": {
+      "name": "Montserrat Reyes",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(MP) | estudiante de Marketing y Publicidad en la Ibero de 3er semestre; le gusta tomar fotos, subir historias, ver tendencias en redes y salir con amigos.",
+      "personality": "extrovertida pero sensible al juicio",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy muy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al comenzar una terapia. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trae aquí hoy?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, he estado sintiendo una tristeza que no se me quita y me cuesta un poco concentrarme en mis estudios y en mis cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Lo que mencionas puede ser un indicativo de algo más profundo. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que podría ayudarme a entenderme un poco mejor. Estoy dispuesta a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí van las preguntas. Responde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para responder."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Gracias, voy a responder con sinceridad. \n\n2. 3  \n3. 2  \n4. 2  \n5. 3  \n6. 1  \n7. 2  \n8. 3  \n9. 1  \n10. 1  \n\nEspero que esto ayude a entender cómo me siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco tu sinceridad al responder. Tus puntuaciones sugieren que has estado enfrentando varios desafíos emocionales. Es un paso importante el reconocer lo que sientes. ¿Te gustaría hablar más sobre alguna de estas áreas en particular?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que me gustaría hablar más sobre la sensación de estar decaída y sin esperanzas. Me siento atrapada a veces."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo lo difícil que puede ser sentirse atrapada y sin esperanzas. Es importante explorar esas emociones más a fondo. ¿Hay algún momento específico o situación en la que sientas que esa tristeza se intensifica?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "A veces, cuando estoy estudiando o en redes sociales, me comparo con otros y eso me hace sentir peor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La comparación con los demás puede ser muy perjudicial para nuestra autoestima y bienestar emocional. Es un fenómeno común, pero reconocerlo es un primer paso crucial. ¿Qué crees que te hace comparar tu situación con la de los demás?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que es la presión de las redes sociales y de lo que se espera de mí como estudiante. A veces siento que no estoy a la altura."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirte así, especialmente con la presión que las redes sociales pueden ejercer. Muchas veces, lo que vemos no refleja la realidad. ¿Has considerado establecer límites en el uso de redes sociales para proteger tu bienestar emocional?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, he pensado en eso. A veces me gustaría desconectarme un poco, pero me da miedo perderme de lo que está pasando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural tener ese miedo a perderse algo, pero también es vital cuidar de tu salud mental. Desconectar un poco puede ofrecerte un espacio para reflexionar y reconectar contigo misma. ¿Qué tal si probamos un enfoque gradual, como fijar tiempos específicos para el uso de redes sociales?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me parece una buena idea. Creo que podría intentar limitarlo un poco y ver cómo me siento al respecto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un plan positivo. Te animo a que observes cómo afecta tu estado de ánimo y tu concentración. Recuerda que es un proceso y puedes ajustarlo según lo necesites. ¿Hay algo más en lo que te gustaría trabajar o explorar hoy?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "No estoy segura, creo que esto ha sido un buen comienzo. Aprecio mucho tu apoyo y me gustaría seguir hablando de esto en nuestras próximas sesiones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te ha sido útil esta conversación. Estoy aquí para apoyarte en este proceso y explorar más a fondo en nuestras próximas sesiones. Cuídate y recuerda que es un camino. ¡Nos vemos pronto!"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "¡Gracias! Cuídate también. Hasta pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046355
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy muy segura de qué esperar.",
+      "timestamp": 1764046357
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al comenzar una terapia. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trae aquí hoy?",
+      "timestamp": 1764046358
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo una tristeza que no se me quita y me cuesta un poco concentrarme en mis estudios y en mis cosas.",
+      "timestamp": 1764046359
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764046359
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Lo que mencionas puede ser un indicativo de algo más profundo. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764046361
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ayudarme a entenderme un poco mejor. Estoy dispuesta a responderlo.",
+      "timestamp": 1764046362
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "preguntas"
+        },
+        "id": "call_JY8cPzXbY12bhLjV0FPTDxM8"
+      },
+      "timestamp": 1764046363
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"preguntas\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_JY8cPzXbY12bhLjV0FPTDxM8"
+      },
+      "timestamp": 1764046363
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí van las preguntas. Responde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para responder.",
+      "timestamp": 1764046369
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, voy a responder con sinceridad. \n\n2. 3  \n3. 2  \n4. 2  \n5. 3  \n6. 1  \n7. 2  \n8. 3  \n9. 1  \n10. 1  \n\nEspero que esto ayude a entender cómo me siento.",
+      "timestamp": 1764046370
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu sinceridad al responder. Tus puntuaciones sugieren que has estado enfrentando varios desafíos emocionales. Es un paso importante el reconocer lo que sientes. ¿Te gustaría hablar más sobre alguna de estas áreas en particular?",
+      "timestamp": 1764046372
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar más sobre la sensación de estar decaída y sin esperanzas. Me siento atrapada a veces.",
+      "timestamp": 1764046373
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo lo difícil que puede ser sentirse atrapada y sin esperanzas. Es importante explorar esas emociones más a fondo. ¿Hay algún momento específico o situación en la que sientas que esa tristeza se intensifica?",
+      "timestamp": 1764046374
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, cuando estoy estudiando o en redes sociales, me comparo con otros y eso me hace sentir peor.",
+      "timestamp": 1764046375
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La comparación con los demás puede ser muy perjudicial para nuestra autoestima y bienestar emocional. Es un fenómeno común, pero reconocerlo es un primer paso crucial. ¿Qué crees que te hace comparar tu situación con la de los demás?",
+      "timestamp": 1764046377
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que es la presión de las redes sociales y de lo que se espera de mí como estudiante. A veces siento que no estoy a la altura.",
+      "timestamp": 1764046378
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirte así, especialmente con la presión que las redes sociales pueden ejercer. Muchas veces, lo que vemos no refleja la realidad. ¿Has considerado establecer límites en el uso de redes sociales para proteger tu bienestar emocional?",
+      "timestamp": 1764046380
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he pensado en eso. A veces me gustaría desconectarme un poco, pero me da miedo perderme de lo que está pasando.",
+      "timestamp": 1764046381
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural tener ese miedo a perderse algo, pero también es vital cuidar de tu salud mental. Desconectar un poco puede ofrecerte un espacio para reflexionar y reconectar contigo misma. ¿Qué tal si probamos un enfoque gradual, como fijar tiempos específicos para el uso de redes sociales?",
+      "timestamp": 1764046383
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Creo que podría intentar limitarlo un poco y ver cómo me siento al respecto.",
+      "timestamp": 1764046384
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un plan positivo. Te animo a que observes cómo afecta tu estado de ánimo y tu concentración. Recuerda que es un proceso y puedes ajustarlo según lo necesites. ¿Hay algo más en lo que te gustaría trabajar o explorar hoy?",
+      "timestamp": 1764046386
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No estoy segura, creo que esto ha sido un buen comienzo. Aprecio mucho tu apoyo y me gustaría seguir hablando de esto en nuestras próximas sesiones.",
+      "timestamp": 1764046387
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te ha sido útil esta conversación. Estoy aquí para apoyarte en este proceso y explorar más a fondo en nuestras próximas sesiones. Cuídate y recuerda que es un camino. ¡Nos vemos pronto!",
+      "timestamp": 1764046389
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta pronto.",
+      "timestamp": 1764046390
+    }
+  ],
+  "notes": null
+}

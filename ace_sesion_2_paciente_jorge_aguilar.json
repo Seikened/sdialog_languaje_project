@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:52:08Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1739551093,
+  "id": "1d5d0388-d574-4498-b964-27888f4fd08e",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Jorge Aguilar": {
+      "name": "Jorge Aguilar",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ACE) | estudiante de Administración y Creación de Empresas en la Ibero de 6to semestre; le gusta convivir con amigos, escuchar podcasts relajados y ver videos para distraerse.",
+      "personality": "social pero ansioso",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Hola, gracias. Pues, la verdad es que me siento un poco nervioso. Es mi primera vez en una terapia y no sé muy bien qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso, especialmente en una primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Hay algo en particular que te preocupe?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, últimamente he estado sintiendo un poco de tristeza y no sé muy bien por qué. A veces me cuesta concentrarme en mis estudios y eso me preocupa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la tristeza puede afectar muchas áreas de nuestra vida, incluyendo la concentración. ¿Puedes recordar algún momento específico en el que te sentiste así?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, creo que fue hace un par de semanas cuando me sentí muy abrumado con mis tareas. Simplemente no podía motivarme a hacer nada y eso me hizo sentir peor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy comprensible sentirte abrumado ante tantas responsabilidades. A veces, el estrés acumulado puede intensificar esos sentimientos de tristeza. ¿Qué estrategias has intentado para manejar esas sensaciones?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "He intentado distraerme viendo videos y escuchando podcasts, pero a veces eso no es suficiente. Siento que necesito algo más para ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno que busques distracciones, pero entiendo que a veces pueden no ser suficientes. Podemos trabajar juntos en estrategias adicionales para manejar esos momentos difíciles. ¿Te gustaría explorar algunas técnicas que podrían ayudarte?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría eso. Estoy abierto a probar nuevas formas de sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente actitud, Jorge. Una técnica que podemos explorar es la práctica de la atención plena o mindfulness. Puede ayudarte a estar más presente y a reducir la ansiedad. ¿Has oído hablar de ella antes?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, he escuchado algo sobre mindfulness, pero no he probado a hacerlo. Suena interesante, me gustaría aprender más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. El mindfulness implica enfocarte en el momento presente y aceptar tus pensamientos y emociones sin juzgarlos. Podemos empezar con ejercicios simples de respiración. ¿Te gustaría intentarlo ahora?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me parece bien. Estoy dispuesto a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial. Comencemos por sentarte cómodamente y cerrar los ojos si te sientes cómodo haciéndolo. Inhala profundamente por la nariz, sintiendo cómo se expande tu abdomen... Ahora exhala lentamente por la boca. Repite esto un par de veces. ¿Cómo te sientes hasta ahora?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Me siento un poco más relajado, aunque todavía estoy un poco nervioso. Es un poco extraño, pero creo que está funcionando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar que te sientes un poco más relajado. Es normal que al principio se sienta extraño, pero con la práctica, se vuelve más natural. Puedes usar esta técnica siempre que lo necesites. ¿Te gustaría que practicáramos un poco más o prefieres hablar de otro tema?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Creo que podríamos seguir practicando un poco más. Me gustaría entender mejor cómo usar esto en mi día a día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, continuemos. Una forma de incorporar el mindfulness en tu día a día es dedicar unos minutos a la respiración consciente, como lo hicimos. También puedes intentar estar presente en actividades cotidianas, como comer o caminar. ¿Te gustaría probar un ejercicio específico para hacerlo?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría probar un ejercicio específico. Estoy interesado en aprender a hacerlo en situaciones cotidianas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Un ejercicio sencillo es la \"observación consciente\". Elige un momento cotidiano, como comer una fruta. Tómate unos minutos para observarla: su color, textura, aroma y sabor. Presta atención a cada detalle mientras comes, sin distracciones. ¿Te suena bien?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, suena bien. Creo que podría ser útil enfocarme en esos detalles en lugar de distraerme con otras cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, te permitirá disfrutar más del momento y reducir el estrés. Puedes empezar a practicarlo esta semana y luego hablaremos sobre cómo te ha ido en nuestra próxima sesión. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me parece bien. Estoy dispuesto a probarlo y compartir cómo me siento la próxima vez."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso, Jorge. Estoy aquí para apoyarte en este proceso. Recuerda que es un viaje y cada paso cuenta. ¿Hay algo más que te gustaría discutir antes de finalizar nuestra sesión?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "No, creo que eso es todo por ahora. Me siento más tranquilo y agradezco tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Jorge. Me alegra haberte podido ayudar a sentirte más tranquilo. Te espero en nuestra próxima sesión, y recuerda que está bien tomarte tu tiempo. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "¡Gracias! Nos vemos la próxima vez. ¡Cuídate!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046293
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Pues, la verdad es que me siento un poco nervioso. Es mi primera vez en una terapia y no sé muy bien qué esperar.",
+      "timestamp": 1764046294
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso, especialmente en una primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Hay algo en particular que te preocupe?",
+      "timestamp": 1764046295
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, últimamente he estado sintiendo un poco de tristeza y no sé muy bien por qué. A veces me cuesta concentrarme en mis estudios y eso me preocupa.",
+      "timestamp": 1764046296
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la tristeza puede afectar muchas áreas de nuestra vida, incluyendo la concentración. ¿Puedes recordar algún momento específico en el que te sentiste así?",
+      "timestamp": 1764046298
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que fue hace un par de semanas cuando me sentí muy abrumado con mis tareas. Simplemente no podía motivarme a hacer nada y eso me hizo sentir peor.",
+      "timestamp": 1764046299
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy comprensible sentirte abrumado ante tantas responsabilidades. A veces, el estrés acumulado puede intensificar esos sentimientos de tristeza. ¿Qué estrategias has intentado para manejar esas sensaciones?",
+      "timestamp": 1764046301
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado distraerme viendo videos y escuchando podcasts, pero a veces eso no es suficiente. Siento que necesito algo más para ayudarme.",
+      "timestamp": 1764046302
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno que busques distracciones, pero entiendo que a veces pueden no ser suficientes. Podemos trabajar juntos en estrategias adicionales para manejar esos momentos difíciles. ¿Te gustaría explorar algunas técnicas que podrían ayudarte?",
+      "timestamp": 1764046304
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Estoy abierto a probar nuevas formas de sentirme mejor.",
+      "timestamp": 1764046304
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente actitud, Jorge. Una técnica que podemos explorar es la práctica de la atención plena o mindfulness. Puede ayudarte a estar más presente y a reducir la ansiedad. ¿Has oído hablar de ella antes?",
+      "timestamp": 1764046306
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he escuchado algo sobre mindfulness, pero no he probado a hacerlo. Suena interesante, me gustaría aprender más.",
+      "timestamp": 1764046306
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. El mindfulness implica enfocarte en el momento presente y aceptar tus pensamientos y emociones sin juzgarlos. Podemos empezar con ejercicios simples de respiración. ¿Te gustaría intentarlo ahora?",
+      "timestamp": 1764046308
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesto a intentarlo.",
+      "timestamp": 1764046309
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial. Comencemos por sentarte cómodamente y cerrar los ojos si te sientes cómodo haciéndolo. Inhala profundamente por la nariz, sintiendo cómo se expande tu abdomen... Ahora exhala lentamente por la boca. Repite esto un par de veces. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764046311
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajado, aunque todavía estoy un poco nervioso. Es un poco extraño, pero creo que está funcionando.",
+      "timestamp": 1764046312
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar que te sientes un poco más relajado. Es normal que al principio se sienta extraño, pero con la práctica, se vuelve más natural. Puedes usar esta técnica siempre que lo necesites. ¿Te gustaría que practicáramos un poco más o prefieres hablar de otro tema?",
+      "timestamp": 1764046313
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podríamos seguir practicando un poco más. Me gustaría entender mejor cómo usar esto en mi día a día.",
+      "timestamp": 1764046314
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, continuemos. Una forma de incorporar el mindfulness en tu día a día es dedicar unos minutos a la respiración consciente, como lo hicimos. También puedes intentar estar presente en actividades cotidianas, como comer o caminar. ¿Te gustaría probar un ejercicio específico para hacerlo?",
+      "timestamp": 1764046316
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría probar un ejercicio específico. Estoy interesado en aprender a hacerlo en situaciones cotidianas.",
+      "timestamp": 1764046317
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Un ejercicio sencillo es la \"observación consciente\". Elige un momento cotidiano, como comer una fruta. Tómate unos minutos para observarla: su color, textura, aroma y sabor. Presta atención a cada detalle mientras comes, sin distracciones. ¿Te suena bien?",
+      "timestamp": 1764046319
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Creo que podría ser útil enfocarme en esos detalles en lugar de distraerme con otras cosas.",
+      "timestamp": 1764046320
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, te permitirá disfrutar más del momento y reducir el estrés. Puedes empezar a practicarlo esta semana y luego hablaremos sobre cómo te ha ido en nuestra próxima sesión. ¿Te parece bien?",
+      "timestamp": 1764046322
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesto a probarlo y compartir cómo me siento la próxima vez.",
+      "timestamp": 1764046323
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso, Jorge. Estoy aquí para apoyarte en este proceso. Recuerda que es un viaje y cada paso cuenta. ¿Hay algo más que te gustaría discutir antes de finalizar nuestra sesión?",
+      "timestamp": 1764046324
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Me siento más tranquilo y agradezco tu ayuda.",
+      "timestamp": 1764046325
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Jorge. Me alegra haberte podido ayudar a sentirte más tranquilo. Te espero en nuestra próxima sesión, y recuerda que está bien tomarte tu tiempo. ¡Cuídate mucho!",
+      "timestamp": 1764046326
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos la próxima vez. ¡Cuídate!",
+      "timestamp": 1764046328
+    }
+  ],
+  "notes": null
+}

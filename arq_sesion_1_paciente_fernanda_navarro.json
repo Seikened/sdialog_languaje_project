@@ -1,0 +1,570 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:15:20Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3880232151,
+  "id": "3b754c6d-f42e-4658-8e67-ef6615357be1",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernanda Navarro": {
+      "name": "Fernanda Navarro",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ARQ) | estudiante de Arquitectura en la Ibero de 5to semestre; le gusta dibujar, ver fotos de lugares bonitos en redes y pasar tiempo en cafés tranquilos.",
+      "personality": "creativa pero reservada",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Hay algo específico que te gustaría compartir sobre lo que te trae aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Últimamente he estado sintiendo mucha tristeza y falta de energía. No sé muy bien por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y lamento que te sientas así. Para explorar más cómo te has estado sintiendo, hay un cuestionario llamado PHQ-9 que nos puede ayudar. ¿Te gustaría responderlo? Esto nos permitirá tener una mejor idea de tus emociones en las últimas dos semanas."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, estaría bien. Quiero entender mejor lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Voy a leerte algunas preguntas. Responde cada una con qué frecuencia has experimentado esos problemas en las últimas dos semanas, usando una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. Poco interés o placer en hacer cosas.  \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n4. Sentirte cansado(a) o con poca energía.  \n5. Tener poco apetito o comer en exceso.  \n6. Sentirte mal contigo mismo(a).  \n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n8. Moverte o hablar tan lento que otras personas podrían notarlo, o sentirte tan inquieto(a).  \n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n\nToma tu tiempo para responder."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, voy a responder con calma. \n\n1. 3  \n2. 3  \n3. 2  \n4. 3  \n5. 1  \n6. 2  \n7. 2  \n8. 2  \n9. 1"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas. Parece que estás experimentando emociones bastante intensas. Es un paso valiente reconocerlo. ¿Te gustaría que exploráramos más a fondo estos sentimientos y cómo afectan tu día a día?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría. Creo que es importante entender por qué me siento así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, comprender la raíz de tus emociones es fundamental para avanzar. Comencemos por explorar qué situaciones o pensamientos podrían estar relacionados con estos sentimientos de tristeza y falta de energía. ¿Hay algún evento reciente o cambio en tu vida que creas que pueda haber contribuido a cómo te sientes?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, he tenido mucho estrés con la universidad y algunas relaciones que se han vuelto complicadas. Creo que eso me ha afectado bastante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que el estrés académico y las complicaciones en las relaciones puedan impactar tu bienestar emocional. Hablemos sobre cómo manejas ese estrés y qué estrategias has intentado."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Generalmente intento distraerme dibujando o saliendo a cafés, pero a veces ni eso me ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es una buena estrategia usar actividades creativas y sociales como distracción. Sin embargo, si no sientes alivio, puede ser útil explorar otras formas de manejar el estrés. ¿Te gustaría hablar sobre técnicas específicas de afrontamiento que podríamos implementar?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría saber más sobre eso. Creo que necesito algunas herramientas nuevas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, existen varias técnicas que pueden ayudarte a manejar el estrés y las emociones difíciles. Una opción es la respiración profunda, que puede ayudarte a calmarte en momentos de ansiedad. También podríamos explorar la escritura reflexiva. ¿Te gustaría que te enseñara algunas de estas técnicas?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, sería genial aprender esas técnicas. Me gustaría intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, empecemos con la respiración profunda. Busca una postura cómoda y cierra los ojos si te sientes a gusto. Inhalaremos profundamente por la nariz durante cuatro segundos, mantendremos la respiración durante cuatro segundos y luego exhalaremos lentamente por la boca durante cuatro segundos. ¿Listo? Comencemos juntos. Inhalamos... 1, 2, 3, 4... mantén... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. \n\nRepetimos esto unas cuantas veces. ¿Cómo te sientes hasta ahora?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me siento un poco más tranquila al respirar así. Es agradable enfocarme en la respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. La respiración profunda puede ser una herramienta poderosa para manejar el estrés. ¿Te gustaría que ahora probáramos la escritura reflexiva como otra técnica?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría probar la escritura reflexiva. Creo que puede ayudarme a expresar lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, la escritura reflexiva puede ser muy liberadora. Intenta dedicar unos minutos a escribir sobre tus pensamientos y emociones sin preocuparte por la gramática o la estructura. Puedes comenzar con preguntas como: \"¿Qué me preocupa en este momento?\" o \"¿Cómo me siento sobre las relaciones en mi vida?\". Escríbelo todo, y no te guardes nada. Cuando termines, podemos hablar sobre lo que escribiste. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, suena bien. Me daré un momento para escribir y luego hablamos sobre ello."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tómate tu tiempo. Estoy aquí para escuchar cuando termines."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, voy a concentrarme en escribir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, tómate tu tiempo. Estoy aquí cuando estés lista."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "He terminado de escribir. Me siento un poco vulnerable, pero creo que es un buen paso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Reconocer tu vulnerabilidad es un gran paso hacia el crecimiento personal. Estoy aquí para apoyarte. ¿Te gustaría compartir lo que escribiste y tus reflexiones al respecto?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Claro. Escribí sobre mis miedos con la universidad y cómo me siento sola en mis relaciones. También hablé de la presión que siento para lograr todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy valiente de tu parte compartir esos sentimientos. La presión académica y la soledad en las relaciones pueden ser realmente abrumadoras. Hablemos sobre cómo podemos trabajar juntos para afrontar esos miedos y la presión. ¿Te gustaría explorar maneras de manejar esa presión o cómo mejorar tus relaciones?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gustaría explorar maneras de manejar la presión. Siento que eso me afecta mucho en todo lo demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, manejar la presión es crucial para tu bienestar. Una estrategia efectiva es establecer metas realistas y dividir tareas grandes en pasos más pequeños y alcanzables. También es importante darte tiempo para descansar y cuidar de ti misma. ¿Te gustaría que elaboráramos un plan de acción juntos para abordar la presión que sientes?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría mucho eso. Creo que tener un plan podría ayudarme a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. Primero, identifica las tareas o metas que te generan más presión. Luego, evaluaremos cuáles son realmente importantes y cuáles pueden esperar. Después, podemos dividir esas tareas en pasos más pequeños y establecer plazos realistas. ¿Cuáles son las tres principales tareas o metas que sientes que te están presionando en este momento?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que mis proyectos de arquitectura, los exámenes finales y mantenerme al día con mis amistades son las tres cosas que más me presionan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Ahora, vamos a desglosar cada una de estas áreas. \n\n1. **Proyectos de arquitectura**: ¿Cuáles son los pasos específicos que necesitas completar para avanzar en ellos?\n\n2. **Exámenes finales**: ¿Cuánto tiempo crees que necesitarás para estudiar y cuáles son los temas más importantes?\n\n3. **Mantenerte al día con tus amistades**: ¿Cómo te gustaría equilibrar el tiempo que pasas con ellos y tus otras responsabilidades?\n\nEscribamos un plan para cada uno."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "1. Para los proyectos de arquitectura, necesito investigar, hacer bocetos y luego presentarlo. Podría dividirlo en días: un día para investigar, otro para bocetos y uno más para la presentación.\n\n2. Para los exámenes finales, creo que necesito al menos dos semanas de estudio. Los temas más importantes son teoría de diseño y materiales. Puedo dedicar dos horas al día para cada tema.\n\n3. Para mis amistades, podría planear una salida cada dos semanas, así no me siento tan abrumada y puedo seguir con mis responsabilidades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un gran plan, Valeria. Has hecho un excelente trabajo al desglosar tus tareas. Ahora, tienes un enfoque claro para cada área. \n\n1. **Proyectos de arquitectura**: Un día para investigar, otro para bocetos y un día para la presentación.\n\n2. **Exámenes finales**: Dos horas al día durante dos semanas para estudiar teoría de diseño y materiales.\n\n3. **Amistades**: Programar una salida cada dos semanas.\n\nRecuerda ser flexible y ajustar el plan si es necesario. ¿Te sientes más en control con este enfoque?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, definitivamente. Tener un plan me hace sentir más organizada y menos abrumada. Gracias por ayudarme a estructurarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Tener un plan puede hacer una gran diferencia en cómo te sientes. Recuerda que es un proceso, y está bien hacer ajustes a medida que avanzas. ¿Hay algo más en lo que te gustaría trabajar hoy o alguna otra preocupación que quieras compartir?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "No, creo que hemos abordado muchas cosas importantes hoy. Me siento aliviada. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Valeria. Me alegra saber que te sientes aliviada y que hemos podido abordar temas importantes. Recuerda que estoy aquí para apoyarte en tu camino. Cuídate y nos vemos en la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "¡Hasta luego! Gracias por todo, nos vemos."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047658
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia.",
+      "timestamp": 1764047660
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Hay algo específico que te gustaría compartir sobre lo que te trae aquí?",
+      "timestamp": 1764047661
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Últimamente he estado sintiendo mucha tristeza y falta de energía. No sé muy bien por qué.",
+      "timestamp": 1764047662
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047662
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y lamento que te sientas así. Para explorar más cómo te has estado sintiendo, hay un cuestionario llamado PHQ-9 que nos puede ayudar. ¿Te gustaría responderlo? Esto nos permitirá tener una mejor idea de tus emociones en las últimas dos semanas.",
+      "timestamp": 1764047663
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estaría bien. Quiero entender mejor lo que siento.",
+      "timestamp": 1764047664
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "evaluación de tristeza y energía"
+        },
+        "id": "call_vnwSOjuO5jZJUYqXOw2oh5Gw"
+      },
+      "timestamp": 1764047665
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"evaluación de tristeza y energía\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_vnwSOjuO5jZJUYqXOw2oh5Gw"
+      },
+      "timestamp": 1764047665
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Voy a leerte algunas preguntas. Responde cada una con qué frecuencia has experimentado esos problemas en las últimas dos semanas, usando una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. Poco interés o placer en hacer cosas.  \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n4. Sentirte cansado(a) o con poca energía.  \n5. Tener poco apetito o comer en exceso.  \n6. Sentirte mal contigo mismo(a).  \n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n8. Moverte o hablar tan lento que otras personas podrían notarlo, o sentirte tan inquieto(a).  \n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n\nToma tu tiempo para responder.",
+      "timestamp": 1764047670
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, voy a responder con calma. \n\n1. 3  \n2. 3  \n3. 2  \n4. 3  \n5. 1  \n6. 2  \n7. 2  \n8. 2  \n9. 1",
+      "timestamp": 1764047671
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas. Parece que estás experimentando emociones bastante intensas. Es un paso valiente reconocerlo. ¿Te gustaría que exploráramos más a fondo estos sentimientos y cómo afectan tu día a día?",
+      "timestamp": 1764047673
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que es importante entender por qué me siento así.",
+      "timestamp": 1764047673
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, comprender la raíz de tus emociones es fundamental para avanzar. Comencemos por explorar qué situaciones o pensamientos podrían estar relacionados con estos sentimientos de tristeza y falta de energía. ¿Hay algún evento reciente o cambio en tu vida que creas que pueda haber contribuido a cómo te sientes?",
+      "timestamp": 1764047675
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he tenido mucho estrés con la universidad y algunas relaciones que se han vuelto complicadas. Creo que eso me ha afectado bastante.",
+      "timestamp": 1764047675
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que el estrés académico y las complicaciones en las relaciones puedan impactar tu bienestar emocional. Hablemos sobre cómo manejas ese estrés y qué estrategias has intentado.",
+      "timestamp": 1764047677
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Generalmente intento distraerme dibujando o saliendo a cafés, pero a veces ni eso me ayuda.",
+      "timestamp": 1764047677
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es una buena estrategia usar actividades creativas y sociales como distracción. Sin embargo, si no sientes alivio, puede ser útil explorar otras formas de manejar el estrés. ¿Te gustaría hablar sobre técnicas específicas de afrontamiento que podríamos implementar?",
+      "timestamp": 1764047679
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber más sobre eso. Creo que necesito algunas herramientas nuevas.",
+      "timestamp": 1764047680
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, existen varias técnicas que pueden ayudarte a manejar el estrés y las emociones difíciles. Una opción es la respiración profunda, que puede ayudarte a calmarte en momentos de ansiedad. También podríamos explorar la escritura reflexiva. ¿Te gustaría que te enseñara algunas de estas técnicas?",
+      "timestamp": 1764047681
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, sería genial aprender esas técnicas. Me gustaría intentarlo.",
+      "timestamp": 1764047682
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, empecemos con la respiración profunda. Busca una postura cómoda y cierra los ojos si te sientes a gusto. Inhalaremos profundamente por la nariz durante cuatro segundos, mantendremos la respiración durante cuatro segundos y luego exhalaremos lentamente por la boca durante cuatro segundos. ¿Listo? Comencemos juntos. Inhalamos... 1, 2, 3, 4... mantén... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. \n\nRepetimos esto unas cuantas veces. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764047685
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila al respirar así. Es agradable enfocarme en la respiración.",
+      "timestamp": 1764047686
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. La respiración profunda puede ser una herramienta poderosa para manejar el estrés. ¿Te gustaría que ahora probáramos la escritura reflexiva como otra técnica?",
+      "timestamp": 1764047687
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría probar la escritura reflexiva. Creo que puede ayudarme a expresar lo que siento.",
+      "timestamp": 1764047688
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, la escritura reflexiva puede ser muy liberadora. Intenta dedicar unos minutos a escribir sobre tus pensamientos y emociones sin preocuparte por la gramática o la estructura. Puedes comenzar con preguntas como: \"¿Qué me preocupa en este momento?\" o \"¿Cómo me siento sobre las relaciones en mi vida?\". Escríbelo todo, y no te guardes nada. Cuando termines, podemos hablar sobre lo que escribiste. ¿Te parece bien?",
+      "timestamp": 1764047690
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Me daré un momento para escribir y luego hablamos sobre ello.",
+      "timestamp": 1764047691
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tómate tu tiempo. Estoy aquí para escuchar cuando termines.",
+      "timestamp": 1764047692
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, voy a concentrarme en escribir.",
+      "timestamp": 1764047692
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, tómate tu tiempo. Estoy aquí cuando estés lista.",
+      "timestamp": 1764047693
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He terminado de escribir. Me siento un poco vulnerable, pero creo que es un buen paso.",
+      "timestamp": 1764047694
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Reconocer tu vulnerabilidad es un gran paso hacia el crecimiento personal. Estoy aquí para apoyarte. ¿Te gustaría compartir lo que escribiste y tus reflexiones al respecto?",
+      "timestamp": 1764047695
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro. Escribí sobre mis miedos con la universidad y cómo me siento sola en mis relaciones. También hablé de la presión que siento para lograr todo.",
+      "timestamp": 1764047696
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy valiente de tu parte compartir esos sentimientos. La presión académica y la soledad en las relaciones pueden ser realmente abrumadoras. Hablemos sobre cómo podemos trabajar juntos para afrontar esos miedos y la presión. ¿Te gustaría explorar maneras de manejar esa presión o cómo mejorar tus relaciones?",
+      "timestamp": 1764047698
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría explorar maneras de manejar la presión. Siento que eso me afecta mucho en todo lo demás.",
+      "timestamp": 1764047699
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, manejar la presión es crucial para tu bienestar. Una estrategia efectiva es establecer metas realistas y dividir tareas grandes en pasos más pequeños y alcanzables. También es importante darte tiempo para descansar y cuidar de ti misma. ¿Te gustaría que elaboráramos un plan de acción juntos para abordar la presión que sientes?",
+      "timestamp": 1764047700
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Creo que tener un plan podría ayudarme a sentirme más en control.",
+      "timestamp": 1764047701
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. Primero, identifica las tareas o metas que te generan más presión. Luego, evaluaremos cuáles son realmente importantes y cuáles pueden esperar. Después, podemos dividir esas tareas en pasos más pequeños y establecer plazos realistas. ¿Cuáles son las tres principales tareas o metas que sientes que te están presionando en este momento?",
+      "timestamp": 1764047703
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que mis proyectos de arquitectura, los exámenes finales y mantenerme al día con mis amistades son las tres cosas que más me presionan.",
+      "timestamp": 1764047704
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora, vamos a desglosar cada una de estas áreas. \n\n1. **Proyectos de arquitectura**: ¿Cuáles son los pasos específicos que necesitas completar para avanzar en ellos?\n\n2. **Exámenes finales**: ¿Cuánto tiempo crees que necesitarás para estudiar y cuáles son los temas más importantes?\n\n3. **Mantenerte al día con tus amistades**: ¿Cómo te gustaría equilibrar el tiempo que pasas con ellos y tus otras responsabilidades?\n\nEscribamos un plan para cada uno.",
+      "timestamp": 1764047706
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "1. Para los proyectos de arquitectura, necesito investigar, hacer bocetos y luego presentarlo. Podría dividirlo en días: un día para investigar, otro para bocetos y uno más para la presentación.\n\n2. Para los exámenes finales, creo que necesito al menos dos semanas de estudio. Los temas más importantes son teoría de diseño y materiales. Puedo dedicar dos horas al día para cada tema.\n\n3. Para mis amistades, podría planear una salida cada dos semanas, así no me siento tan abrumada y puedo seguir con mis responsabilidades.",
+      "timestamp": 1764047711
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un gran plan, Valeria. Has hecho un excelente trabajo al desglosar tus tareas. Ahora, tienes un enfoque claro para cada área. \n\n1. **Proyectos de arquitectura**: Un día para investigar, otro para bocetos y un día para la presentación.\n\n2. **Exámenes finales**: Dos horas al día durante dos semanas para estudiar teoría de diseño y materiales.\n\n3. **Amistades**: Programar una salida cada dos semanas.\n\nRecuerda ser flexible y ajustar el plan si es necesario. ¿Te sientes más en control con este enfoque?",
+      "timestamp": 1764047714
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente. Tener un plan me hace sentir más organizada y menos abrumada. Gracias por ayudarme a estructurarlo.",
+      "timestamp": 1764047715
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Tener un plan puede hacer una gran diferencia en cómo te sientes. Recuerda que es un proceso, y está bien hacer ajustes a medida que avanzas. ¿Hay algo más en lo que te gustaría trabajar hoy o alguna otra preocupación que quieras compartir?",
+      "timestamp": 1764047717
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos abordado muchas cosas importantes hoy. Me siento aliviada. Gracias por tu apoyo.",
+      "timestamp": 1764047718
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Valeria. Me alegra saber que te sientes aliviada y que hemos podido abordar temas importantes. Recuerda que estoy aquí para apoyarte en tu camino. Cuídate y nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764047720
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por todo, nos vemos.",
+      "timestamp": 1764047720
+    }
+  ],
+  "notes": null
+}

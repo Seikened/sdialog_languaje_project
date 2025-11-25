@@ -1,0 +1,429 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:23:37Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3655695085,
+  "id": "729b33ff-cf48-4866-976e-c740d2694360",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Elena Martínez": {
+      "name": "Elena Martínez",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(RI) | estudiante de Relaciones Internacionales en la Ibero de 6to semestre; le interesan los idiomas, las noticias del mundo y conocer gente de otros lugares.",
+      "personality": "idealista y sensible",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. No estoy muy segura de qué esperar de esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al inicio. Este es un espacio seguro donde podemos hablar abiertamente. ¿Te gustaría compartir qué es lo que más te inquieta?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Siento que tengo muchas cosas en la cabeza y a veces es difícil lidiar con ellas. Me preocupa no saber cómo avanzar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, tener muchas cosas en la cabeza puede ser abrumador. Hablemos sobre esas preocupaciones y exploremos juntos cómo podrías avanzar. ¿Hay algún tema específico que te gustaría abordar primero?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que me gustaría hablar sobre la presión académica y cómo me hace sentir. A veces siento que no puedo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La presión académica puede ser realmente pesada y generar un gran estrés. Cuéntame más sobre cómo te afecta eso en tu día a día."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento constantemente agotada y a veces pierdo la motivación. Me preocupa no cumplir con las expectativas, tanto las mías como las de los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que el agotamiento y la presión te hagan perder la motivación. Hablemos sobre esas expectativas y cómo podríamos trabajar para hacerlas más manejables. ¿Qué tipo de expectativas sientes que son más difíciles de afrontar?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Siento que las expectativas de mis profesores y de mi familia son muy altas. A veces pienso que no estoy a la altura, y eso me afecta mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Sentir que no estás a la altura de las expectativas puede ser muy desalentador. Es importante reconocer que cada persona tiene su propio ritmo y capacidades. ¿Has considerado cómo podrías comunicarte con ellos sobre cómo te sientes?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "No, la verdad es que me da miedo hablar de mis sentimientos. Temí que no entenderían o que se decepcionaran de mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural tener miedo a ser sincera sobre tus sentimientos, especialmente cuando hay expectativas involucradas. Pero a veces, compartir lo que sientes puede aliviar la carga. ¿Te gustaría que exploráramos algunas estrategias para abordar esa conversación?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría eso. Creo que sería un primer paso importante para sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, dar ese primer paso es fundamental. Podemos practicar cómo expresar tus sentimientos de una manera que te sientas cómoda. ¿Te gustaría empezar por escribir lo que sientes o tal vez formular una frase que puedas usar en la conversación?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que podría intentar formular una frase. Tal vez algo como \"me siento abrumada y a veces tengo dudas sobre mis capacidades\". ¿Te parece bien?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una buena frase, expresa claramente cómo te sientes. Podrías agregar que te gustaría hablar sobre esto con ellos para que puedan entenderte mejor. ¿Te gustaría intentar añadir algo más?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, podría añadir que me gustaría su apoyo y comprensión en lugar de solo expectativas. Creo que eso sería importante para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena excelente. Comunicar que necesitas apoyo y comprensión es clave. La frase podría ser algo así como: \"Me siento abrumada y tengo dudas sobre mis capacidades, y me gustaría contar con su apoyo y comprensión en lugar de solo expectativas.\" ¿Te sientes lista para intentarlo?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, creo que puedo intentarlo. Me siento un poco más segura al tener claro lo que quiero decir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. Tomar pequeños pasos puede marcar una gran diferencia. Recuerda que está bien ser vulnerable; tus sentimientos son importantes. ¿Hay algo más en lo que te gustaría trabajar hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Siento que hemos avanzado mucho hoy, pero me gustaría explorar más sobre cómo manejar mi ansiedad en situaciones sociales."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, manejar la ansiedad en situaciones sociales es un tema muy importante. ¿Puedes compartirme un poco sobre las situaciones sociales que más te generan ansiedad?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Cuando tengo que hablar en público o cuando me invitan a eventos donde no conozco a muchas personas, me siento muy ansiosa y me cuesta disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que esas situaciones generen ansiedad. Hablemos sobre algunas técnicas que podrías utilizar para sentirte más cómoda en esos momentos. ¿Te gustaría explorar estrategias de respiración o tal vez cómo prepararte antes de un evento?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría explorar técnicas de respiración. Creo que eso podría ayudarme a calmarme antes de enfrentar esas situaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, las técnicas de respiración son muy efectivas para manejar la ansiedad. Una técnica simple es la respiración abdominal: inhala profundamente por la nariz contando hasta cuatro, sostiene la respiración contando hasta cuatro nuevamente, y luego exhala lentamente por la boca contando hasta seis. ¿Te gustaría que lo practicáramos juntos?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me encantaría practicarlo. Creo que podría ayudarme a sentirme más tranquila."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, empecemos. Siéntate cómodamente y cierra los ojos si te sientes a gusto. Vamos a inhalar profundamente por la nariz... 1, 2, 3, 4... Mantén la respiración... 1, 2, 3, 4... Ahora exhala lentamente por la boca... 1, 2, 3, 4, 5, 6... \n\nRepitamos esto un par de veces más. Inhala... 1, 2, 3, 4... Mantén... 1, 2, 3, 4... Y exhala... 1, 2, 3, 4, 5, 6... \n\n¿Cómo te sientes?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento un poco más relajada, como si la tensión se estuviera desvaneciendo. Gracias por guiarme en esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es maravilloso saber que te sientes más relajada. La práctica de la respiración puede ser una herramienta valiosa en momentos de ansiedad. Recuerda que puedes utilizarla siempre que lo necesites. Si deseas seguir explorando más técnicas o cualquier otro tema, aquí estoy para ayudarte."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Gracias, creo que por ahora he aprendido mucho. Me siento más empoderada para enfrentar estas situaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Has dado pasos importantes hacia el empoderamiento. Recuerda que esto es un proceso y está bien avanzar a tu propio ritmo. Si necesitas hablar de nuevo, estaré aquí para apoyarte. ¡Nos vemos en la próxima sesión!"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "¡Gracias! Me siento agradecida por tu apoyo. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764048166
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. No estoy muy segura de qué esperar de esto.",
+      "timestamp": 1764048167
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al inicio. Este es un espacio seguro donde podemos hablar abiertamente. ¿Te gustaría compartir qué es lo que más te inquieta?",
+      "timestamp": 1764048168
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que tengo muchas cosas en la cabeza y a veces es difícil lidiar con ellas. Me preocupa no saber cómo avanzar.",
+      "timestamp": 1764048169
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, tener muchas cosas en la cabeza puede ser abrumador. Hablemos sobre esas preocupaciones y exploremos juntos cómo podrías avanzar. ¿Hay algún tema específico que te gustaría abordar primero?",
+      "timestamp": 1764048170
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que me gustaría hablar sobre la presión académica y cómo me hace sentir. A veces siento que no puedo manejarlo.",
+      "timestamp": 1764048172
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La presión académica puede ser realmente pesada y generar un gran estrés. Cuéntame más sobre cómo te afecta eso en tu día a día.",
+      "timestamp": 1764048173
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento constantemente agotada y a veces pierdo la motivación. Me preocupa no cumplir con las expectativas, tanto las mías como las de los demás.",
+      "timestamp": 1764048175
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que el agotamiento y la presión te hagan perder la motivación. Hablemos sobre esas expectativas y cómo podríamos trabajar para hacerlas más manejables. ¿Qué tipo de expectativas sientes que son más difíciles de afrontar?",
+      "timestamp": 1764048176
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que las expectativas de mis profesores y de mi familia son muy altas. A veces pienso que no estoy a la altura, y eso me afecta mucho.",
+      "timestamp": 1764048178
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sentir que no estás a la altura de las expectativas puede ser muy desalentador. Es importante reconocer que cada persona tiene su propio ritmo y capacidades. ¿Has considerado cómo podrías comunicarte con ellos sobre cómo te sientes?",
+      "timestamp": 1764048179
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, la verdad es que me da miedo hablar de mis sentimientos. Temí que no entenderían o que se decepcionaran de mí.",
+      "timestamp": 1764048181
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural tener miedo a ser sincera sobre tus sentimientos, especialmente cuando hay expectativas involucradas. Pero a veces, compartir lo que sientes puede aliviar la carga. ¿Te gustaría que exploráramos algunas estrategias para abordar esa conversación?",
+      "timestamp": 1764048182
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que sería un primer paso importante para sentirme mejor.",
+      "timestamp": 1764048183
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, dar ese primer paso es fundamental. Podemos practicar cómo expresar tus sentimientos de una manera que te sientas cómoda. ¿Te gustaría empezar por escribir lo que sientes o tal vez formular una frase que puedas usar en la conversación?",
+      "timestamp": 1764048185
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría intentar formular una frase. Tal vez algo como \"me siento abrumada y a veces tengo dudas sobre mis capacidades\". ¿Te parece bien?",
+      "timestamp": 1764048186
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una buena frase, expresa claramente cómo te sientes. Podrías agregar que te gustaría hablar sobre esto con ellos para que puedan entenderte mejor. ¿Te gustaría intentar añadir algo más?",
+      "timestamp": 1764048188
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría añadir que me gustaría su apoyo y comprensión en lugar de solo expectativas. Creo que eso sería importante para mí.",
+      "timestamp": 1764048189
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena excelente. Comunicar que necesitas apoyo y comprensión es clave. La frase podría ser algo así como: \"Me siento abrumada y tengo dudas sobre mis capacidades, y me gustaría contar con su apoyo y comprensión en lugar de solo expectativas.\" ¿Te sientes lista para intentarlo?",
+      "timestamp": 1764048191
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que puedo intentarlo. Me siento un poco más segura al tener claro lo que quiero decir.",
+      "timestamp": 1764048193
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. Tomar pequeños pasos puede marcar una gran diferencia. Recuerda que está bien ser vulnerable; tus sentimientos son importantes. ¿Hay algo más en lo que te gustaría trabajar hoy?",
+      "timestamp": 1764048194
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que hemos avanzado mucho hoy, pero me gustaría explorar más sobre cómo manejar mi ansiedad en situaciones sociales.",
+      "timestamp": 1764048197
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, manejar la ansiedad en situaciones sociales es un tema muy importante. ¿Puedes compartirme un poco sobre las situaciones sociales que más te generan ansiedad?",
+      "timestamp": 1764048198
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Cuando tengo que hablar en público o cuando me invitan a eventos donde no conozco a muchas personas, me siento muy ansiosa y me cuesta disfrutar.",
+      "timestamp": 1764048199
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que esas situaciones generen ansiedad. Hablemos sobre algunas técnicas que podrías utilizar para sentirte más cómoda en esos momentos. ¿Te gustaría explorar estrategias de respiración o tal vez cómo prepararte antes de un evento?",
+      "timestamp": 1764048201
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría explorar técnicas de respiración. Creo que eso podría ayudarme a calmarme antes de enfrentar esas situaciones.",
+      "timestamp": 1764048202
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, las técnicas de respiración son muy efectivas para manejar la ansiedad. Una técnica simple es la respiración abdominal: inhala profundamente por la nariz contando hasta cuatro, sostiene la respiración contando hasta cuatro nuevamente, y luego exhala lentamente por la boca contando hasta seis. ¿Te gustaría que lo practicáramos juntos?",
+      "timestamp": 1764048204
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me encantaría practicarlo. Creo que podría ayudarme a sentirme más tranquila.",
+      "timestamp": 1764048205
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, empecemos. Siéntate cómodamente y cierra los ojos si te sientes a gusto. Vamos a inhalar profundamente por la nariz... 1, 2, 3, 4... Mantén la respiración... 1, 2, 3, 4... Ahora exhala lentamente por la boca... 1, 2, 3, 4, 5, 6... \n\nRepitamos esto un par de veces más. Inhala... 1, 2, 3, 4... Mantén... 1, 2, 3, 4... Y exhala... 1, 2, 3, 4, 5, 6... \n\n¿Cómo te sientes?",
+      "timestamp": 1764048209
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajada, como si la tensión se estuviera desvaneciendo. Gracias por guiarme en esto.",
+      "timestamp": 1764048211
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es maravilloso saber que te sientes más relajada. La práctica de la respiración puede ser una herramienta valiosa en momentos de ansiedad. Recuerda que puedes utilizarla siempre que lo necesites. Si deseas seguir explorando más técnicas o cualquier otro tema, aquí estoy para ayudarte.",
+      "timestamp": 1764048213
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, creo que por ahora he aprendido mucho. Me siento más empoderada para enfrentar estas situaciones.",
+      "timestamp": 1764048214
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Has dado pasos importantes hacia el empoderamiento. Recuerda que esto es un proceso y está bien avanzar a tu propio ritmo. Si necesitas hablar de nuevo, estaré aquí para apoyarte. ¡Nos vemos en la próxima sesión!",
+      "timestamp": 1764048216
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Me siento agradecida por tu apoyo. ¡Hasta la próxima!",
+      "timestamp": 1764048217
+    }
+  ],
+  "notes": null
+}

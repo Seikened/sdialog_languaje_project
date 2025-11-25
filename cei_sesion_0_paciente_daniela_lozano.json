@@ -1,0 +1,343 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:11:12Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2035837441,
+  "id": "d5a2a6b5-9a53-4276-bcd6-349b4a1476a0",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Daniela Lozano": {
+      "name": "Daniela Lozano",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEI) | estudiante de Comercio Exterior y Logística Internacional en la Ibero de 5to semestre; le gustan los idiomas, salir con amigas y ver series de otros países.",
+      "personality": "sociable pero preocupadiza",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué es lo que más te preocupa?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me preocupa sentirme un poco deprimida últimamente. No sé si es por la escuela o algo más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. La presión de la escuela puede ser bastante abrumadora. Vamos a explorar esos sentimientos juntos. ¿Desde cuándo sientes que estás experimentando esta depresión?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Desde hace unas semanas, pero ha habido días que son peores que otros. Me siento muy cansada y sin ganas de hacer nada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento saber que te sientes así. Es importante reconocer esos días difíciles. ¿Hay algo en particular que te ayude a sentirte un poco mejor cuando te enfrentas a esos momentos?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "A veces, salir con mis amigas o ver series me ayuda, pero no siempre tengo ganas de hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que a veces te cueste encontrar la motivación. Salir con amigas y distraerse viendo series son actividades que pueden ser beneficiosas. ¿Te gustaría que trabajáramos en algunas estrategias para ayudarte a encontrar esa motivación cuando más lo necesites?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría mucho eso. Siento que necesito algunas herramientas para manejarlo mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, contar con herramientas puede hacer una gran diferencia. Podemos pensar en algunas técnicas de afrontamiento y ejercicios que se alineen con tus intereses. Empezaremos por identificar qué actividades te suelen gustar más. ¿Hay alguna actividad que disfrutes especialmente?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gusta mucho aprender idiomas, es algo que me apasiona."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Eso es maravilloso! Aprender idiomas puede ser una actividad muy enriquecedora y estimulante. Podríamos incorporar esto en tus rutinas diarias como una forma de mantenerte motivada. ¿Te gustaría que trabajáramos en un plan que incluya tiempo para practicar idiomas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso suena genial. Creo que podría ayudarme a distraerme y a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, me alegra que lo veas así. Podemos establecer un horario pequeño y realista para que dediques unos momentos cada día a practicar. Empecemos por decidir cuántos días a la semana te gustaría dedicarle y cómo te sientes respecto a eso."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Podría ser tres días a la semana. No quiero exigirme demasiado al principio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy razonable. Tres días a la semana es un buen comienzo. ¿Qué días te gustaría elegir y cuánto tiempo crees que podrías dedicarle cada día?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Podría ser lunes, miércoles y viernes, y dedicarle unos 30 minutos cada día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente elección. Así tendrás un buen ritmo sin sentirte abrumada. Recuerda que si algún día no puedes hacerlo, no hay problema; lo importante es la flexibilidad y no ser demasiado dura contigo misma. ¿Te gustaría que anotáramos esto como parte de tu plan?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría que lo anotáramos. Tenerlo escrito me hará sentir más comprometida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "He anotado tu plan de práctica de idiomas: lunes, miércoles y viernes, 30 minutos cada día. Es un gran primer paso. En nuestra próxima sesión, podremos revisar cómo te ha ido y ajustar lo que sea necesario. ¿Hay algo más que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que eso es todo por ahora. Me siento un poco más tranquila al tener un plan. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. Recuerda que estoy aquí para apoyarte. ¡Nos vemos en la próxima sesión! Cuídate mucho."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "¡Gracias! Nos vemos pronto. Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047441
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy segura de qué esperar.",
+      "timestamp": 1764047442
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué es lo que más te preocupa?",
+      "timestamp": 1764047444
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me preocupa sentirme un poco deprimida últimamente. No sé si es por la escuela o algo más.",
+      "timestamp": 1764047445
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. La presión de la escuela puede ser bastante abrumadora. Vamos a explorar esos sentimientos juntos. ¿Desde cuándo sientes que estás experimentando esta depresión?",
+      "timestamp": 1764047446
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Desde hace unas semanas, pero ha habido días que son peores que otros. Me siento muy cansada y sin ganas de hacer nada.",
+      "timestamp": 1764047446
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento saber que te sientes así. Es importante reconocer esos días difíciles. ¿Hay algo en particular que te ayude a sentirte un poco mejor cuando te enfrentas a esos momentos?",
+      "timestamp": 1764047448
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, salir con mis amigas o ver series me ayuda, pero no siempre tengo ganas de hacerlo.",
+      "timestamp": 1764047448
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que a veces te cueste encontrar la motivación. Salir con amigas y distraerse viendo series son actividades que pueden ser beneficiosas. ¿Te gustaría que trabajáramos en algunas estrategias para ayudarte a encontrar esa motivación cuando más lo necesites?",
+      "timestamp": 1764047450
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Siento que necesito algunas herramientas para manejarlo mejor.",
+      "timestamp": 1764047451
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, contar con herramientas puede hacer una gran diferencia. Podemos pensar en algunas técnicas de afrontamiento y ejercicios que se alineen con tus intereses. Empezaremos por identificar qué actividades te suelen gustar más. ¿Hay alguna actividad que disfrutes especialmente?",
+      "timestamp": 1764047453
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta mucho aprender idiomas, es algo que me apasiona.",
+      "timestamp": 1764047454
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso es maravilloso! Aprender idiomas puede ser una actividad muy enriquecedora y estimulante. Podríamos incorporar esto en tus rutinas diarias como una forma de mantenerte motivada. ¿Te gustaría que trabajáramos en un plan que incluya tiempo para practicar idiomas?",
+      "timestamp": 1764047456
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena genial. Creo que podría ayudarme a distraerme y a sentirme mejor.",
+      "timestamp": 1764047457
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, me alegra que lo veas así. Podemos establecer un horario pequeño y realista para que dediques unos momentos cada día a practicar. Empecemos por decidir cuántos días a la semana te gustaría dedicarle y cómo te sientes respecto a eso.",
+      "timestamp": 1764047459
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría ser tres días a la semana. No quiero exigirme demasiado al principio.",
+      "timestamp": 1764047460
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy razonable. Tres días a la semana es un buen comienzo. ¿Qué días te gustaría elegir y cuánto tiempo crees que podrías dedicarle cada día?",
+      "timestamp": 1764047461
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría ser lunes, miércoles y viernes, y dedicarle unos 30 minutos cada día.",
+      "timestamp": 1764047463
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente elección. Así tendrás un buen ritmo sin sentirte abrumada. Recuerda que si algún día no puedes hacerlo, no hay problema; lo importante es la flexibilidad y no ser demasiado dura contigo misma. ¿Te gustaría que anotáramos esto como parte de tu plan?",
+      "timestamp": 1764047465
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría que lo anotáramos. Tenerlo escrito me hará sentir más comprometida.",
+      "timestamp": 1764047465
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Plan de práctica de idiomas: Lunes, miércoles y viernes, 30 minutos cada día."
+        },
+        "id": "call_56tpM3TJkH9RjTsHmwury3Ju"
+      },
+      "timestamp": 1764047467
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Plan de práctica de idiomas: Lunes, miércoles y viernes, 30 minutos cada día.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_56tpM3TJkH9RjTsHmwury3Ju"
+      },
+      "timestamp": 1764047467
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He anotado tu plan de práctica de idiomas: lunes, miércoles y viernes, 30 minutos cada día. Es un gran primer paso. En nuestra próxima sesión, podremos revisar cómo te ha ido y ajustar lo que sea necesario. ¿Hay algo más que te gustaría hablar hoy?",
+      "timestamp": 1764047468
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso es todo por ahora. Me siento un poco más tranquila al tener un plan. Gracias.",
+      "timestamp": 1764047470
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. Recuerda que estoy aquí para apoyarte. ¡Nos vemos en la próxima sesión! Cuídate mucho.",
+      "timestamp": 1764047471
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos pronto. Cuídate.",
+      "timestamp": 1764047472
+    }
+  ],
+  "notes": null
+}

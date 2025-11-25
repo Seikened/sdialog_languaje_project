@@ -6,6 +6,11 @@ from config import arrancar
 from pacientes import pacientes
 from trigger import trigger_tool  # , entry_incidents
 from joblib import Parallel, delayed
+import threading
+from time import sleep
+import random
+
+lock_incidents = threading.Lock()
 
 
 # ARRANCAR --------------------------------------------------------
@@ -155,7 +160,8 @@ def run_session(persona, carrera, sesion_id: int):
     )
 
     valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
-
+    
+    sleep(random.uniform(20, 30)) 
     dialog = valeria_psicologo.dialog_with(
         paciente,
         context=contexto,
@@ -172,13 +178,15 @@ def run_session(persona, carrera, sesion_id: int):
     # Nota: esto escribe en incidents.json desde varios threads.
     # Si ves cosas raras, habrá que proteger esto con un lock o
     # procesarlo en una segunda pasada secuencial.
-    trigger_tool(
-        path_dialog=archivo_terapia,
-        path_incidents="incidents.json",
-        tool="get_phq9_questions",
-        major=carrera,
-        verbose=True,
-    )
+     # pequeño retraso para reducir colisiones en el lock
+    with lock_incidents:
+        trigger_tool(
+            path_dialog=archivo_terapia,
+            path_incidents="incidents.json",
+            tool="get_phq9_questions",
+            major=carrera,
+            verbose=True,
+        )
 
     return archivo_terapia
 
@@ -198,9 +206,13 @@ tareas = [
 ]
 
 # Número de workers en paralelo
-n_workers = 5  # ajusta según qué tanto quieres paralelizar
+n_workers = 2  # ajusta según qué tanto quieres paralelizar
 
-Parallel(n_jobs=n_workers, backend="threading")(
+Parallel(
+    n_jobs=n_workers, 
+    backend="threading",
+    prefer="threads",
+    )(
     delayed(run_session)(persona, carrera, sesion_id)
     for (persona, carrera, sesion_id) in tareas
 )

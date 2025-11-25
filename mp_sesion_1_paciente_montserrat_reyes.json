@@ -1,0 +1,306 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:22:16Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1742339586,
+  "id": "34f547e4-987b-4318-ba32-df73dfe27e54",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Montserrat Reyes": {
+      "name": "Montserrat Reyes",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(MP) | estudiante de Marketing y Publicidad en la Ibero de 3er semestre; le gusta tomar fotos, subir historias, ver tendencias en redes y salir con amigos.",
+      "personality": "extrovertida pero sensible al juicio",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, es la primera vez que vengo a terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa, muchos pacientes experimentan eso en su primera sesión. Estoy aquí para apoyarte en este proceso. ¿Te gustaría compartir qué te motivó a buscar terapia?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, siento que he estado un poco baja de ánimo últimamente y no sé cómo manejarlo. Quiero sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es valiente de tu parte reconocer cómo te sientes. A veces, hablar sobre nuestros pensamientos y emociones puede ayudarnos a ver las cosas desde otra perspectiva. ¿Te gustaría que exploráramos juntos lo que has estado sintiendo?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría. A veces me siento abrumada y no sé por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Sentirse abrumada puede ser muy desalentador. Puede ser útil identificar los momentos o situaciones que desencadenan esas emociones. ¿Hay algo específico que te haya generado esa sensación recientemente?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que la presión de la universidad y las redes sociales me están afectando. Me comparo con los demás y eso me hace sentir mal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La presión académica y las redes sociales pueden ser fuentes de mucha ansiedad. Compararse con los demás puede afectar nuestra autoestima. Es importante recordar que cada persona tiene su propio camino. ¿Te gustaría hablar más sobre cómo estas comparaciones te hacen sentir?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me siento insegura y a veces creo que no estoy logrando lo suficiente. Es como si todos estuvieran avanzando y yo me quedara atrás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirte así, especialmente en un entorno competitivo como el académico. A menudo, nuestras percepciones no reflejan la realidad. ¿Te gustaría que exploráramos algunas estrategias para ayudarte a manejar esos pensamientos de inseguridad?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría eso. Quiero aprender a sentirme mejor conmigo misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran objetivo, y estoy aquí para apoyarte en ese camino. Una técnica que podemos explorar es la práctica de la autocompasión, que consiste en tratarte a ti misma con la misma gentileza que ofrecerías a un amigo. ¿Te gustaría que te enseñara algunos ejercicios prácticos de autocompasión?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me encantaría. Creo que eso me podría ayudar mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, un ejercicio simple es escribir una carta a ti misma en un momento difícil, expresando comprensión y apoyo. Luego, leerla en voz alta puede ser poderoso. ¿Te gustaría que lo probáramos juntos en nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, eso suena bien. Me gustaría intentarlo. Gracias por la sugerencia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Montserrat. Estoy aquí para guiarte y ayudarte en este proceso. Recuerda que lo importante es avanzar a tu propio ritmo. ¿Hay algo más que te gustaría discutir hoy?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "No, creo que eso es todo por ahora. Gracias por escucharme y por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias a ti por abrirte y compartir tus pensamientos. Aquí te dejo un breve resumen de nuestra sesión:\n\n**Motivo de consulta:** Montserrat busca apoyo emocional debido a sentimientos de baja de ánimo y comparación con otros en el contexto de la universidad y redes sociales.\n\n**Síntomas principales:** Sensación de inseguridad, falta de progreso personal, y abrumamiento ante la presión académica.\n\n**Impresión general:** Montserrat muestra una clara autoconciencia de sus emociones y está dispuesta a trabajar en su bienestar.\n\n**Hipótesis clínicas iniciales:** La presión social y académica está contribuyendo a sus sentimientos de insuficiencia y ansiedad.\n\n**Plan para la siguiente sesión:** Introducir ejercicios de autocompasión, como la escritura de cartas personales para fomentar la autoaceptación y la entendimiento emocional.\n\nTe agradezco nuevamente por tu confianza. Espero verte en nuestra próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Gracias a ti por tu apoyo. Estoy ansiosa por nuestra próxima sesión y por trabajar en esto. ¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764048104
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, es la primera vez que vengo a terapia.",
+      "timestamp": 1764048104
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa, muchos pacientes experimentan eso en su primera sesión. Estoy aquí para apoyarte en este proceso. ¿Te gustaría compartir qué te motivó a buscar terapia?",
+      "timestamp": 1764048106
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, siento que he estado un poco baja de ánimo últimamente y no sé cómo manejarlo. Quiero sentirme mejor.",
+      "timestamp": 1764048107
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es valiente de tu parte reconocer cómo te sientes. A veces, hablar sobre nuestros pensamientos y emociones puede ayudarnos a ver las cosas desde otra perspectiva. ¿Te gustaría que exploráramos juntos lo que has estado sintiendo?",
+      "timestamp": 1764048108
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. A veces me siento abrumada y no sé por qué.",
+      "timestamp": 1764048109
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sentirse abrumada puede ser muy desalentador. Puede ser útil identificar los momentos o situaciones que desencadenan esas emociones. ¿Hay algo específico que te haya generado esa sensación recientemente?",
+      "timestamp": 1764048111
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que la presión de la universidad y las redes sociales me están afectando. Me comparo con los demás y eso me hace sentir mal.",
+      "timestamp": 1764048112
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La presión académica y las redes sociales pueden ser fuentes de mucha ansiedad. Compararse con los demás puede afectar nuestra autoestima. Es importante recordar que cada persona tiene su propio camino. ¿Te gustaría hablar más sobre cómo estas comparaciones te hacen sentir?",
+      "timestamp": 1764048114
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me siento insegura y a veces creo que no estoy logrando lo suficiente. Es como si todos estuvieran avanzando y yo me quedara atrás.",
+      "timestamp": 1764048115
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirte así, especialmente en un entorno competitivo como el académico. A menudo, nuestras percepciones no reflejan la realidad. ¿Te gustaría que exploráramos algunas estrategias para ayudarte a manejar esos pensamientos de inseguridad?",
+      "timestamp": 1764048117
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Quiero aprender a sentirme mejor conmigo misma.",
+      "timestamp": 1764048118
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran objetivo, y estoy aquí para apoyarte en ese camino. Una técnica que podemos explorar es la práctica de la autocompasión, que consiste en tratarte a ti misma con la misma gentileza que ofrecerías a un amigo. ¿Te gustaría que te enseñara algunos ejercicios prácticos de autocompasión?",
+      "timestamp": 1764048123
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me encantaría. Creo que eso me podría ayudar mucho.",
+      "timestamp": 1764048123
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, un ejercicio simple es escribir una carta a ti misma en un momento difícil, expresando comprensión y apoyo. Luego, leerla en voz alta puede ser poderoso. ¿Te gustaría que lo probáramos juntos en nuestra próxima sesión?",
+      "timestamp": 1764048125
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría intentarlo. Gracias por la sugerencia.",
+      "timestamp": 1764048127
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Montserrat. Estoy aquí para guiarte y ayudarte en este proceso. Recuerda que lo importante es avanzar a tu propio ritmo. ¿Hay algo más que te gustaría discutir hoy?",
+      "timestamp": 1764048128
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Gracias por escucharme y por tu apoyo.",
+      "timestamp": 1764048129
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "session_summary",
+      "content": "La sesión de terapia acaba de concluir. 1) Llama primero a la herramienta symmary_session('session_summary') para estructurar los puntos clave de la sesión. 2) Después de recibir la salida de la herramienta, redacta un resumen clínico breve en texto natural, dirigido al psicólogo (no al paciente), incluyendo: motivo de consulta, síntomas principales, impresión general según las respuestas del PHQ-9, hipótesis clínicas iniciales y plan para la siguiente sesión. No inicies una nueva conversación con el paciente; solo cierra la sesión con este resumen.",
+      "timestamp": 1764048129
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "session_summary"
+        },
+        "id": "call_4QS6dIprRDfAbvnV5XvNyT6r"
+      },
+      "timestamp": 1764048130
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"session_summary\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_4QS6dIprRDfAbvnV5XvNyT6r"
+      },
+      "timestamp": 1764048130
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias a ti por abrirte y compartir tus pensamientos. Aquí te dejo un breve resumen de nuestra sesión:\n\n**Motivo de consulta:** Montserrat busca apoyo emocional debido a sentimientos de baja de ánimo y comparación con otros en el contexto de la universidad y redes sociales.\n\n**Síntomas principales:** Sensación de inseguridad, falta de progreso personal, y abrumamiento ante la presión académica.\n\n**Impresión general:** Montserrat muestra una clara autoconciencia de sus emociones y está dispuesta a trabajar en su bienestar.\n\n**Hipótesis clínicas iniciales:** La presión social y académica está contribuyendo a sus sentimientos de insuficiencia y ansiedad.\n\n**Plan para la siguiente sesión:** Introducir ejercicios de autocompasión, como la escritura de cartas personales para fomentar la autoaceptación y la entendimiento emocional.\n\nTe agradezco nuevamente por tu confianza. Espero verte en nuestra próxima sesión. ¡Cuídate!",
+      "timestamp": 1764048135
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias a ti por tu apoyo. Estoy ansiosa por nuestra próxima sesión y por trabajar en esto. ¡Hasta luego!",
+      "timestamp": 1764048136
+    }
+  ],
+  "notes": null
+}

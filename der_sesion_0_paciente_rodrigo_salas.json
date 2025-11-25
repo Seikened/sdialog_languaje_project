@@ -1,0 +1,330 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:13:17Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3782272873,
+  "id": "aed7fda7-65e6-4424-9447-66ee8a04a749",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Rodrigo Salas": {
+      "name": "Rodrigo Salas",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DER) | estudiante de Derecho en la Ibero de 8vo semestre; le gusta debatir temas con amigos, ver series y salir de vez en cuando.",
+      "personality": "serio pero emocional",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso, nunca he estado en una sesión de terapia antes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en una situación así. Estoy aquí para apoyarte y hacer que te sientas lo más cómodo posible. ¿Te gustaría compartir qué es lo que más te inquieta?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me inquieta sentir que no estoy avanzando en mi vida, especialmente en mis estudios y en cómo me siento en general."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esa sensación de estancamiento puede ser muy difícil de manejar. Hablemos un poco más sobre tus estudios y cómo te sientes al respecto. ¿Qué aspectos te generan más frustración?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Siento presión por las expectativas, tanto de mí mismo como de los demás. A veces me pregunto si realmente estoy en el camino correcto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir esa presión, especialmente cuando hay expectativas externas e internas. Te invito a reflexionar sobre lo que realmente deseas en tu camino. ¿Hay algo específico que te gustaría explorar sobre tus metas o tu dirección en la vida?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me gustaría entender mejor si estoy eligiendo esta carrera por mí mismo o solo por lo que piensan los demás. Eso me causa confusión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy valioso que te cuestiones eso, ya que reconocer tus motivaciones puede ser clave para encontrar claridad. ¿Qué aspectos de tu carrera te entusiasman y cuáles sientes que son impulsados por las opiniones de los demás?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me entusiasma el debate y la posibilidad de ayudar a otros, pero a veces siento que elegí Derecho solo por la presión familiar y social."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un buen comienzo identificar esos sentimientos. La pasión por ayudar a otros es fundamental en cualquier carrera. Vamos a trabajar juntos para distinguir entre tus propios deseos y las expectativas ajenas. ¿Qué caminos has considerado que podrían alinearse más con tus verdaderas pasiones?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He pensado en explorar otras áreas como la mediación o incluso el activismo social, pero me da miedo dejar lo que ya he empezado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural sentir miedo al cambio, especialmente después de haber invertido tiempo y esfuerzo en algo. Consideremos esos miedos y lo que te está deteniendo. ¿Qué sería lo peor que podría pasar si decides explorar esas nuevas áreas?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Lo peor que podría pasar es sentir que decepciono a mi familia y a mis amigos, que han puesto tantas expectativas en mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible temer decepcionar a los seres queridos. A menudo, nuestros miedos están arraigados en el deseo de complacer a quienes nos rodean. Reflexionemos sobre cómo sería tu vida si decidieras priorizar tus propios deseos. ¿Qué te gustaría que dijeran tus seres queridos sobre ti si te ven feliz y realizado?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me gustaría que dijeran que soy valiente por seguir mis propias pasiones y que estoy haciendo lo que realmente amo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un deseo muy poderoso y significativo. La valentía de seguir tus pasiones es admirable y puede llevarte a una vida más plena. Pensemos en pequeños pasos que podrías dar hacia esa dirección. ¿Te gustaría explorar cómo podrías comenzar a integrar tus intereses en mediación o activismo en tu vida actual?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, creo que sería útil. Podría empezar buscando talleres o grupos que se centren en esos temas y ver si realmente me apasionan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente idea. Participar en talleres o grupos te permitirá explorar esos intereses sin comprometerte de inmediato. Además, te darás la oportunidad de conocer a personas con ideas afines. ¿Te gustaría que establezcamos un pequeño plan para que puedas empezar a investigar estas opciones?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me gustaría eso. Tener un plan me haría sentir más seguro y organizado en este proceso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos estableciendo algunos pasos simples. ¿Qué te parece si primero dedicas un tiempo a investigar en línea sobre talleres o grupos de mediación y activismo social en tu área? Podrías hacer una lista de lo que encuentres y luego discutimos tus opciones en nuestra próxima sesión. ¿Te gustaría establecer un plazo para esto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me parece bien. Podría dedicar este fin de semana para investigar y tener una lista lista para nuestra próxima sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Tener la lista lista para nuestra próxima sesión será un gran paso. Recuerda que este proceso es para ti y tu bienestar. Estoy aquí para apoyarte en cada etapa. Espero escuchar sobre tus hallazgos. ¡Nos vemos la próxima vez!"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Gracias, lo aprecio. Nos vemos la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Hasta luego! Cuídate mucho y nos vemos en la próxima sesión."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047565
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso, nunca he estado en una sesión de terapia antes.",
+      "timestamp": 1764047566
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en una situación así. Estoy aquí para apoyarte y hacer que te sientas lo más cómodo posible. ¿Te gustaría compartir qué es lo que más te inquieta?",
+      "timestamp": 1764047568
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me inquieta sentir que no estoy avanzando en mi vida, especialmente en mis estudios y en cómo me siento en general.",
+      "timestamp": 1764047568
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esa sensación de estancamiento puede ser muy difícil de manejar. Hablemos un poco más sobre tus estudios y cómo te sientes al respecto. ¿Qué aspectos te generan más frustración?",
+      "timestamp": 1764047570
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento presión por las expectativas, tanto de mí mismo como de los demás. A veces me pregunto si realmente estoy en el camino correcto.",
+      "timestamp": 1764047571
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir esa presión, especialmente cuando hay expectativas externas e internas. Te invito a reflexionar sobre lo que realmente deseas en tu camino. ¿Hay algo específico que te gustaría explorar sobre tus metas o tu dirección en la vida?",
+      "timestamp": 1764047573
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría entender mejor si estoy eligiendo esta carrera por mí mismo o solo por lo que piensan los demás. Eso me causa confusión.",
+      "timestamp": 1764047574
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy valioso que te cuestiones eso, ya que reconocer tus motivaciones puede ser clave para encontrar claridad. ¿Qué aspectos de tu carrera te entusiasman y cuáles sientes que son impulsados por las opiniones de los demás?",
+      "timestamp": 1764047575
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me entusiasma el debate y la posibilidad de ayudar a otros, pero a veces siento que elegí Derecho solo por la presión familiar y social.",
+      "timestamp": 1764047576
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un buen comienzo identificar esos sentimientos. La pasión por ayudar a otros es fundamental en cualquier carrera. Vamos a trabajar juntos para distinguir entre tus propios deseos y las expectativas ajenas. ¿Qué caminos has considerado que podrían alinearse más con tus verdaderas pasiones?",
+      "timestamp": 1764047578
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He pensado en explorar otras áreas como la mediación o incluso el activismo social, pero me da miedo dejar lo que ya he empezado.",
+      "timestamp": 1764047579
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural sentir miedo al cambio, especialmente después de haber invertido tiempo y esfuerzo en algo. Consideremos esos miedos y lo que te está deteniendo. ¿Qué sería lo peor que podría pasar si decides explorar esas nuevas áreas?",
+      "timestamp": 1764047580
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo peor que podría pasar es sentir que decepciono a mi familia y a mis amigos, que han puesto tantas expectativas en mí.",
+      "timestamp": 1764047582
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible temer decepcionar a los seres queridos. A menudo, nuestros miedos están arraigados en el deseo de complacer a quienes nos rodean. Reflexionemos sobre cómo sería tu vida si decidieras priorizar tus propios deseos. ¿Qué te gustaría que dijeran tus seres queridos sobre ti si te ven feliz y realizado?",
+      "timestamp": 1764047584
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría que dijeran que soy valiente por seguir mis propias pasiones y que estoy haciendo lo que realmente amo.",
+      "timestamp": 1764047585
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un deseo muy poderoso y significativo. La valentía de seguir tus pasiones es admirable y puede llevarte a una vida más plena. Pensemos en pequeños pasos que podrías dar hacia esa dirección. ¿Te gustaría explorar cómo podrías comenzar a integrar tus intereses en mediación o activismo en tu vida actual?",
+      "timestamp": 1764047587
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil. Podría empezar buscando talleres o grupos que se centren en esos temas y ver si realmente me apasionan.",
+      "timestamp": 1764047589
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente idea. Participar en talleres o grupos te permitirá explorar esos intereses sin comprometerte de inmediato. Además, te darás la oportunidad de conocer a personas con ideas afines. ¿Te gustaría que establezcamos un pequeño plan para que puedas empezar a investigar estas opciones?",
+      "timestamp": 1764047590
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Tener un plan me haría sentir más seguro y organizado en este proceso.",
+      "timestamp": 1764047591
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos estableciendo algunos pasos simples. ¿Qué te parece si primero dedicas un tiempo a investigar en línea sobre talleres o grupos de mediación y activismo social en tu área? Podrías hacer una lista de lo que encuentres y luego discutimos tus opciones en nuestra próxima sesión. ¿Te gustaría establecer un plazo para esto?",
+      "timestamp": 1764047593
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece bien. Podría dedicar este fin de semana para investigar y tener una lista lista para nuestra próxima sesión.",
+      "timestamp": 1764047594
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Tener la lista lista para nuestra próxima sesión será un gran paso. Recuerda que este proceso es para ti y tu bienestar. Estoy aquí para apoyarte en cada etapa. Espero escuchar sobre tus hallazgos. ¡Nos vemos la próxima vez!",
+      "timestamp": 1764047595
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, lo aprecio. Nos vemos la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764047596
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Cuídate mucho y nos vemos en la próxima sesión.",
+      "timestamp": 1764047597
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,319 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:51:19Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1431546692,
+  "id": "8a203b39-01f7-4026-958a-9dca6292db85",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Carlos Méndez": {
+      "name": "Carlos Méndez",
+      "age": 22,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IME) | estudiante de Ingeniería Mecánica y Eléctrica en la Ibero de 6to semestre; le gustan los autos, las películas de acción y pasar tiempo con sus amigos.",
+      "personality": "práctico y reservado",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Hola. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso, especialmente en una primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Siento que estoy abrumado con la escuela y a veces me cuesta concentrarme. Además, me siento un poco triste y no sé por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que te sientas abrumado. La presión escolar puede ser muy intensa. Hablemos un poco más sobre cómo te afecta esa tristeza. ¿Cuándo comenzaste a sentirla?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Empezó hace unos meses, pero ha ido empeorando últimamente. A veces me siento solo, incluso cuando estoy con mis amigos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento saber que te sientes así. La soledad puede ser muy difícil de manejar, incluso en compañía de otros. ¿Hay situaciones específicas en las que te sientes más solo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "A veces, cuando estoy con mis amigos, siento que no puedo conectar con ellos como antes. Es como si estuvieran en otra sintonía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy frustrante. La desconexión con amigos puede ser dolorosa. ¿Has podido hablar con ellos sobre cómo te sientes?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "No, no he encontrado el momento adecuado. Me cuesta abrirme y expresar lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que abrirse puede ser complicado. A veces, encontrar las palabras correctas es un reto. ¿Te gustaría que exploráramos algunas maneras de comunicar tus sentimientos a tus amigos?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, eso sería útil. No sé por dónde empezar, pero creo que me ayudaría."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos por lo básico. Puedes intentar compartir cómo te sientes en el momento, usando frases simples como \"últimamente me he sentido un poco desconectado\". ¿Te parece bien este enfoque?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, suena bien. Creo que eso podría ayudarme a expresar lo que siento sin complicarme demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te parezca útil. Ser honesto sobre tus sentimientos puede abrir la puerta a una mejor conexión con ellos. ¿Te gustaría practicar cómo podrías iniciar esa conversación?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me gustaría intentarlo. Quizás decir algo como \"Oigan, he estado sintiendo que me cuesta conectar con ustedes\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente inicio, es claro y directo. También podrías añadir cómo te has sentido al respecto, como \"me siento un poco triste\" o \"me gustaría saber si hay algo que haya cambiado\". ¿Te gustaría ajustar algo más?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Creo que eso lo haría más completo. Tal vez podría decir: \"Me cuesta conectar con ustedes y me siento un poco triste por eso\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena perfecto. Es honesto y expresa tus sentimientos claramente. Recuerda que tus amigos pueden estar más dispuestos a escucharte de lo que imaginas. ¿Cómo te sientes ahora al respecto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Me siento un poco más tranquilo al pensar en eso. Saber que puedo expresarlo me da un poco de esperanza."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. Tener la esperanza de poder compartir tus sentimientos es un gran paso. Recuerda que estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría profundizar hoy?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "No, creo que por ahora está bien. Me siento un poco más aliviado. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Carlos. Me alegra saber que te sientes un poco más aliviado. Recuerda que siempre puedes volver a hablar de esto. Cuídate y nos vemos en la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "¡Hasta luego! Gracias por escucharme."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046253
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión así.",
+      "timestamp": 1764046254
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso, especialmente en una primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?",
+      "timestamp": 1764046257
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que estoy abrumado con la escuela y a veces me cuesta concentrarme. Además, me siento un poco triste y no sé por qué.",
+      "timestamp": 1764046257
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que te sientas abrumado. La presión escolar puede ser muy intensa. Hablemos un poco más sobre cómo te afecta esa tristeza. ¿Cuándo comenzaste a sentirla?",
+      "timestamp": 1764046259
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Empezó hace unos meses, pero ha ido empeorando últimamente. A veces me siento solo, incluso cuando estoy con mis amigos.",
+      "timestamp": 1764046260
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento saber que te sientes así. La soledad puede ser muy difícil de manejar, incluso en compañía de otros. ¿Hay situaciones específicas en las que te sientes más solo?",
+      "timestamp": 1764046261
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, cuando estoy con mis amigos, siento que no puedo conectar con ellos como antes. Es como si estuvieran en otra sintonía.",
+      "timestamp": 1764046262
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy frustrante. La desconexión con amigos puede ser dolorosa. ¿Has podido hablar con ellos sobre cómo te sientes?",
+      "timestamp": 1764046263
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, no he encontrado el momento adecuado. Me cuesta abrirme y expresar lo que siento.",
+      "timestamp": 1764046264
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que abrirse puede ser complicado. A veces, encontrar las palabras correctas es un reto. ¿Te gustaría que exploráramos algunas maneras de comunicar tus sentimientos a tus amigos?",
+      "timestamp": 1764046265
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería útil. No sé por dónde empezar, pero creo que me ayudaría.",
+      "timestamp": 1764046266
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos por lo básico. Puedes intentar compartir cómo te sientes en el momento, usando frases simples como \"últimamente me he sentido un poco desconectado\". ¿Te parece bien este enfoque?",
+      "timestamp": 1764046267
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Creo que eso podría ayudarme a expresar lo que siento sin complicarme demasiado.",
+      "timestamp": 1764046268
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te parezca útil. Ser honesto sobre tus sentimientos puede abrir la puerta a una mejor conexión con ellos. ¿Te gustaría practicar cómo podrías iniciar esa conversación?",
+      "timestamp": 1764046270
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Quizás decir algo como \"Oigan, he estado sintiendo que me cuesta conectar con ustedes\".",
+      "timestamp": 1764046271
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente inicio, es claro y directo. También podrías añadir cómo te has sentido al respecto, como \"me siento un poco triste\" o \"me gustaría saber si hay algo que haya cambiado\". ¿Te gustaría ajustar algo más?",
+      "timestamp": 1764046272
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso lo haría más completo. Tal vez podría decir: \"Me cuesta conectar con ustedes y me siento un poco triste por eso\".",
+      "timestamp": 1764046273
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena perfecto. Es honesto y expresa tus sentimientos claramente. Recuerda que tus amigos pueden estar más dispuestos a escucharte de lo que imaginas. ¿Cómo te sientes ahora al respecto?",
+      "timestamp": 1764046274
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquilo al pensar en eso. Saber que puedo expresarlo me da un poco de esperanza.",
+      "timestamp": 1764046275
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. Tener la esperanza de poder compartir tus sentimientos es un gran paso. Recuerda que estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría profundizar hoy?",
+      "timestamp": 1764046276
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora está bien. Me siento un poco más aliviado. Gracias por tu ayuda.",
+      "timestamp": 1764046277
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Carlos. Me alegra saber que te sientes un poco más aliviado. Recuerda que siempre puedes volver a hablar de esto. Cuídate y nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764046278
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por escucharme.",
+      "timestamp": 1764046279
+    }
+  ],
+  "notes": null
+}

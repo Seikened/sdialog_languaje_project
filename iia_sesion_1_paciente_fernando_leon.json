@@ -1,0 +1,517 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:18:46Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 13268921,
+  "id": "d0a9320f-522d-448a-98a7-674454031d4f",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernando Leon": {
+      "name": "Fernando Leon",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IIA) | estudiante de ingeniería de inteligencia artificial en la universidad iberoamericana de 5to semestre, apasionado por la tecnología y los videojuegos",
+      "personality": "curioso y reflexivo",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Hola, gracias. Me siento un poco nervioso, es mi primera vez en terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trajo a la terapia?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, he estado sintiendo mucha tristeza y falta de energía últimamente, y eso me preocupa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y es importante que lo reconozcamos. La tristeza y la falta de energía pueden ser señales de que algo no está funcionando bien. ¿Cuánto tiempo has estado sintiéndote así?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Creo que ha sido un par de meses, pero se ha vuelto más intenso recientemente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. La duración e intensidad de esos sentimientos son relevantes. ¿Ha habido algún evento o cambio en tu vida que creas que haya podido contribuir a esto?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, he estado lidiando con el estrés de las clases y a veces me siento abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El estrés académico puede ser muy difícil de manejar. Es comprensible que te sientas abrumado. ¿Hay alguna estrategia que hayas intentando para manejar ese estrés?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "He intentado jugar videojuegos para distraerme, pero a veces ni eso me funciona."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno que estés buscando formas de distraerte, pero entiendo que no siempre es suficiente. A veces, es útil explorar otras maneras de manejar el estrés. ¿Te gustaría que hablemos sobre algunas estrategias diferentes?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, estaría bien. No sé por dónde empezar, pero estoy abierto a ideas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés abierto a explorar nuevas opciones. Podemos empezar por técnicas de relajación, como la respiración profunda o la meditación. También podríamos considerar la importancia de establecer una rutina diaria. ¿Te gustaría que profundizáramos en alguna de estas técnicas?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me gustaría saber más sobre la respiración profunda. Suena sencillo, pero tal vez pueda ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La respiración profunda es una técnica muy efectiva para reducir el estrés y la ansiedad. Consiste en inhalar lentamente por la nariz, llenando los pulmones de aire, y luego exhalar por la boca de manera controlada. ¿Te gustaría que te guíe en una breve práctica ahora?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ayudarme a sentirme más tranquilo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. Si puedes, cierra los ojos o baja la mirada. Inhala profundamente por la nariz contando hasta cuatro... 1, 2, 3, 4. Ahora, mantén el aire por un momento. Y exhala por la boca contando hasta cuatro... 1, 2, 3, 4. \n\nRepite esto un par de veces más a tu ritmo. ¿Cómo te sientes al hacerlo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me siento un poco más relajado, es una sensación agradable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. La respiración profunda puede ser una herramienta poderosa para encontrar calma en momentos de estrés. Puedes usarla en cualquier momento que sientas que lo necesitas. ¿Te gustaría seguir explorando otras técnicas o temas?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría aprender más sobre cómo manejar el estrés en general."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, manejar el estrés es fundamental para tu bienestar. Además de la respiración profunda, podemos hablar sobre la importancia de la actividad física, el tiempo para ti mismo y la práctica de la gratitud. ¿Hay algún área que te interese particularmente?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me interesa la actividad física, pero a veces me cuesta encontrar la motivación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La falta de motivación es algo común, especialmente cuando te sientes abrumado. Podríamos hablar sobre establecer metas pequeñas y realistas en lugar de grandes objetivos. A veces, encontrar una actividad que disfrutes también puede hacer la diferencia. ¿Hay algún deporte o actividad que te guste?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me gusta jugar fútbol con mis amigos, pero no lo he hecho en un tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El fútbol puede ser una excelente manera de liberar estrés y disfrutar con amigos. Tal vez podrías considerar volver a jugar de manera casual, incluso una vez a la semana. ¿Te parece que eso podría ser un buen primer paso?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, creo que podría ser un buen comienzo. Me gustaría intentar volver a jugar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Jugar al fútbol no solo te ayudará físicamente, sino que también te permitirá socializar y divertirte. Recuerda ser amable contigo mismo y disfrutar del proceso. ¿Te gustaría establecer un plan sobre cuándo podrías empezar a jugar?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Podría intentar jugar este fin de semana. Tal vez el sábado por la tarde."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Eso suena genial! Tener una fecha específica puede ayudarte a mantenerte motivado. Recuerda disfrutarlo y no presionarte demasiado. ¿Te gustaría hablar de algo más relacionado con tus sentimientos o estrés?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría hablar sobre cómo comunicarme mejor con mis amigos cuando me siento así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Comunicarte con tus amigos sobre cómo te sientes es muy importante. Puedes empezar siendo honesto y abierto sobre tus emociones. A veces, compartir tus pensamientos puede aliviarlos. ¿Hay alguna situación en particular en la que te gustaría mejorar la comunicación?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, a veces siento que no saben cómo ayudarme, y me cuesta expresar lo que necesito."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es comprensible. Puedes intentar ser claro y específico sobre lo que necesitas en esos momentos. Por ejemplo, puedes decirles que solo necesitas escuchar o que te gustaría hacer algo juntos para distraerte. Practicar cómo expresar tus necesidades puede ayudarte a sentirte más cómodo. ¿Te gustaría que trabajáramos en algunas frases que podrías usar?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría eso. Creo que tener algunas frases preparadas me ayudaría."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, aquí tienes algunas frases que podrías usar:\n\n1. \"Me siento un poco abrumado y me gustaría que solo me escuches.\"\n2. \"Aprecio tu apoyo, pero en este momento solo necesito un poco de tiempo a solas.\"\n3. \"¿Podríamos hacer algo juntos, como salir a caminar o jugar un rato? Me ayudaría mucho.\"\n\nPracticar estas frases puede ayudarte a sentirte más seguro al comunicarte. ¿Te gustaría probar una de ellas en un ejemplo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, podría intentar con la primera. \"Me siento un poco abrumado y me gustaría que solo me escuches.\" Suena bien para empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un excelente comienzo. Es una forma clara y honesta de expresar lo que necesitas. Practicar esa comunicación puede abrir puertas a más apoyo de tus amigos. ¿Te sientes preparado para usarla cuando lo necesites?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, creo que sí. Me siento un poco más seguro al respecto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. La comunicación asertiva es una habilidad que se fortalece con la práctica. Recuerda que está bien sentirte vulnerable y pedir apoyo. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "No, creo que hemos cubierto muchas cosas útiles. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra haber podido apoyarte. Recuerda que estás dando pasos importantes hacia tu bienestar. Cuídate y no dudes en volver si necesitas más asistencia. ¡Hasta pronto!"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "¡Hasta pronto! Gracias por tu apoyo."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047876
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, es mi primera vez en terapia.",
+      "timestamp": 1764047877
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trajo a la terapia?",
+      "timestamp": 1764047878
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo mucha tristeza y falta de energía últimamente, y eso me preocupa.",
+      "timestamp": 1764047879
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y es importante que lo reconozcamos. La tristeza y la falta de energía pueden ser señales de que algo no está funcionando bien. ¿Cuánto tiempo has estado sintiéndote así?",
+      "timestamp": 1764047880
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido un par de meses, pero se ha vuelto más intenso recientemente.",
+      "timestamp": 1764047881
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. La duración e intensidad de esos sentimientos son relevantes. ¿Ha habido algún evento o cambio en tu vida que creas que haya podido contribuir a esto?",
+      "timestamp": 1764047883
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado lidiando con el estrés de las clases y a veces me siento abrumado.",
+      "timestamp": 1764047883
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El estrés académico puede ser muy difícil de manejar. Es comprensible que te sientas abrumado. ¿Hay alguna estrategia que hayas intentando para manejar ese estrés?",
+      "timestamp": 1764047884
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado jugar videojuegos para distraerme, pero a veces ni eso me funciona.",
+      "timestamp": 1764047885
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno que estés buscando formas de distraerte, pero entiendo que no siempre es suficiente. A veces, es útil explorar otras maneras de manejar el estrés. ¿Te gustaría que hablemos sobre algunas estrategias diferentes?",
+      "timestamp": 1764047887
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estaría bien. No sé por dónde empezar, pero estoy abierto a ideas.",
+      "timestamp": 1764047887
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés abierto a explorar nuevas opciones. Podemos empezar por técnicas de relajación, como la respiración profunda o la meditación. También podríamos considerar la importancia de establecer una rutina diaria. ¿Te gustaría que profundizáramos en alguna de estas técnicas?",
+      "timestamp": 1764047889
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría saber más sobre la respiración profunda. Suena sencillo, pero tal vez pueda ayudarme.",
+      "timestamp": 1764047890
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La respiración profunda es una técnica muy efectiva para reducir el estrés y la ansiedad. Consiste en inhalar lentamente por la nariz, llenando los pulmones de aire, y luego exhalar por la boca de manera controlada. ¿Te gustaría que te guíe en una breve práctica ahora?",
+      "timestamp": 1764047891
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ayudarme a sentirme más tranquilo.",
+      "timestamp": 1764047892
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. Si puedes, cierra los ojos o baja la mirada. Inhala profundamente por la nariz contando hasta cuatro... 1, 2, 3, 4. Ahora, mantén el aire por un momento. Y exhala por la boca contando hasta cuatro... 1, 2, 3, 4. \n\nRepite esto un par de veces más a tu ritmo. ¿Cómo te sientes al hacerlo?",
+      "timestamp": 1764047895
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajado, es una sensación agradable.",
+      "timestamp": 1764047895
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. La respiración profunda puede ser una herramienta poderosa para encontrar calma en momentos de estrés. Puedes usarla en cualquier momento que sientas que lo necesitas. ¿Te gustaría seguir explorando otras técnicas o temas?",
+      "timestamp": 1764047897
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría aprender más sobre cómo manejar el estrés en general.",
+      "timestamp": 1764047898
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, manejar el estrés es fundamental para tu bienestar. Además de la respiración profunda, podemos hablar sobre la importancia de la actividad física, el tiempo para ti mismo y la práctica de la gratitud. ¿Hay algún área que te interese particularmente?",
+      "timestamp": 1764047900
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me interesa la actividad física, pero a veces me cuesta encontrar la motivación.",
+      "timestamp": 1764047901
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La falta de motivación es algo común, especialmente cuando te sientes abrumado. Podríamos hablar sobre establecer metas pequeñas y realistas en lugar de grandes objetivos. A veces, encontrar una actividad que disfrutes también puede hacer la diferencia. ¿Hay algún deporte o actividad que te guste?",
+      "timestamp": 1764047903
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta jugar fútbol con mis amigos, pero no lo he hecho en un tiempo.",
+      "timestamp": 1764047904
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El fútbol puede ser una excelente manera de liberar estrés y disfrutar con amigos. Tal vez podrías considerar volver a jugar de manera casual, incluso una vez a la semana. ¿Te parece que eso podría ser un buen primer paso?",
+      "timestamp": 1764047905
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ser un buen comienzo. Me gustaría intentar volver a jugar.",
+      "timestamp": 1764047906
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Jugar al fútbol no solo te ayudará físicamente, sino que también te permitirá socializar y divertirte. Recuerda ser amable contigo mismo y disfrutar del proceso. ¿Te gustaría establecer un plan sobre cuándo podrías empezar a jugar?",
+      "timestamp": 1764047908
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría intentar jugar este fin de semana. Tal vez el sábado por la tarde.",
+      "timestamp": 1764047909
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso suena genial! Tener una fecha específica puede ayudarte a mantenerte motivado. Recuerda disfrutarlo y no presionarte demasiado. ¿Te gustaría hablar de algo más relacionado con tus sentimientos o estrés?",
+      "timestamp": 1764047910
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre cómo comunicarme mejor con mis amigos cuando me siento así.",
+      "timestamp": 1764047911
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comunicarte con tus amigos sobre cómo te sientes es muy importante. Puedes empezar siendo honesto y abierto sobre tus emociones. A veces, compartir tus pensamientos puede aliviarlos. ¿Hay alguna situación en particular en la que te gustaría mejorar la comunicación?",
+      "timestamp": 1764047913
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces siento que no saben cómo ayudarme, y me cuesta expresar lo que necesito.",
+      "timestamp": 1764047913
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es comprensible. Puedes intentar ser claro y específico sobre lo que necesitas en esos momentos. Por ejemplo, puedes decirles que solo necesitas escuchar o que te gustaría hacer algo juntos para distraerte. Practicar cómo expresar tus necesidades puede ayudarte a sentirte más cómodo. ¿Te gustaría que trabajáramos en algunas frases que podrías usar?",
+      "timestamp": 1764047915
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que tener algunas frases preparadas me ayudaría.",
+      "timestamp": 1764047916
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, aquí tienes algunas frases que podrías usar:\n\n1. \"Me siento un poco abrumado y me gustaría que solo me escuches.\"\n2. \"Aprecio tu apoyo, pero en este momento solo necesito un poco de tiempo a solas.\"\n3. \"¿Podríamos hacer algo juntos, como salir a caminar o jugar un rato? Me ayudaría mucho.\"\n\nPracticar estas frases puede ayudarte a sentirte más seguro al comunicarte. ¿Te gustaría probar una de ellas en un ejemplo?",
+      "timestamp": 1764047918
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría intentar con la primera. \"Me siento un poco abrumado y me gustaría que solo me escuches.\" Suena bien para empezar.",
+      "timestamp": 1764047919
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un excelente comienzo. Es una forma clara y honesta de expresar lo que necesitas. Practicar esa comunicación puede abrir puertas a más apoyo de tus amigos. ¿Te sientes preparado para usarla cuando lo necesites?",
+      "timestamp": 1764047921
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sí. Me siento un poco más seguro al respecto.",
+      "timestamp": 1764047921
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. La comunicación asertiva es una habilidad que se fortalece con la práctica. Recuerda que está bien sentirte vulnerable y pedir apoyo. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?",
+      "timestamp": 1764047923
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos cubierto muchas cosas útiles. Gracias por tu ayuda.",
+      "timestamp": 1764047924
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra haber podido apoyarte. Recuerda que estás dando pasos importantes hacia tu bienestar. Cuídate y no dudes en volver si necesitas más asistencia. ¡Hasta pronto!",
+      "timestamp": 1764047925
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta pronto! Gracias por tu apoyo.",
+      "timestamp": 1764047926
+    }
+  ],
+  "notes": null
+}

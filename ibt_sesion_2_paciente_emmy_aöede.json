@@ -1,0 +1,431 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:55:19Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1981878375,
+  "id": "b6442604-9635-4724-94c0-362439794a4a",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Emmy Aöede": {
+      "name": "Emmy Aöede",
+      "age": 21,
+      "race": "Latino",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 7mo semestre; le gusta hacer videos de ciencia, convivir con amigos y asistir a conferencias.",
+      "personality": "observadora",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Emmy Aöede, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en tu primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te preocupa más en este momento?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, creo que me preocupa sentirme un poco sola y desmotivada con mis estudios. A veces, todo se siente abrumador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que esa sensación de soledad y desmotivación puede ser muy pesada. ¿Hay momentos específicos en los que te sientes más abrumada con tus estudios?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, normalmente cuando tengo muchas tareas acumuladas y siento que no puedo hacer todo a tiempo. Eso me estresa bastante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que el acumular tareas te genere estrés. Tal vez podamos explorar algunas formas de manejar ese estrés y organizar mejor tus responsabilidades. ¿Te gustaría intentar eso?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría. Siento que necesito ayuda para encontrar un mejor equilibrio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un buen primer paso. Comencemos por identificar cuáles son tus tareas más urgentes y cómo podrías distribuirlas a lo largo de la semana. ¿Tienes una lista de tus responsabilidades actuales?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "No tengo una lista escrita, pero puedo mencionarte mis materias y trabajos pendientes. Creo que eso podría ayudar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, hablemos sobre tus materias y trabajos pendientes. Estoy aquí para escucharte y tomar nota de lo que necesites."
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Bueno, tengo cuatro materias este semestre y varias tareas. En biología tengo un proyecto que entregar, en matemáticas un examen pronto, y en nanotechnology una investigación que apenas estoy comenzando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Veo que tienes varias tareas importantes. ¿Cómo te sientes respecto a cada una de ellas? ¿Hay alguna que te genere más ansiedad que las demás?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Definitivamente el proyecto de biología me genera más ansiedad. Es bastante complejo y no sé si tendré tiempo suficiente para hacerlo bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que un proyecto complejo cause ansiedad. Tal vez podamos descomponerlo en pasos más pequeños para hacerlo más manejable. ¿Qué te parece si empezamos por identificar los pasos que necesitas dar para avanzar en ese proyecto?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me parece bien. Creo que primero debería investigar el tema y luego hacer un esquema de lo que quiero incluir en el proyecto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente manera de comenzar. Investigar y hacer un esquema te ayudará a tener una visión clara de lo que necesitas. ¿Cuánto tiempo crees que podrías dedicar a la investigación esta semana?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Podría dedicar unas dos o tres horas esta semana, si logro organizarme bien con mis otras materias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy razonable. Dedicar dos o tres horas a la investigación te permitirá avanzar sin sentirte abrumada. ¿Te gustaría que trabajáramos en un plan para integrar ese tiempo en tu semana?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría mucho eso. Tal vez podríamos asignar algunos momentos específicos en los que me sienta más productiva."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, identificar los momentos en los que te sientes más productiva es clave. ¿Tienes algún horario o días específicos en los que te sientas más concentrada y lista para estudiar?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Normalmente me siento más concentrada por las mañanas, especialmente después de desayunar. Los fines de semana también son buenos para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, vamos a aprovechar esos momentos. Podrías reservar un par de horas en las mañanas durante la semana y quizás un poco más de tiempo durante el fin de semana. ¿Te gustaría que estableciéramos un horario tentativo juntos?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría. Tener un horario tentativo me ayudaría a mantenerme enfocada y organizada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial, vamos a crear un horario. ¿Qué días te gustaría dedicarle tiempo en las mañanas y cuánto tiempo preferirías cada día?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Podría dedicarle entre 1 y 2 horas los martes y jueves por la mañana. Y el fin de semana, tal vez el sábado, podría dedicarle unas 3 horas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un plan sólido. Entonces, tendrías 1-2 horas los martes y jueves por la mañana, y 3 horas el sábado. ¿Te gustaría que anotara esto para que puedas tener un seguimiento?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, por favor. Tenerlo anotado me ayudará a recordar y seguir el plan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "He anotado tu horario tentativo: 1-2 horas los martes y jueves por la mañana, y 3 horas el sábado. Espero que esto te ayude a mantenerte enfocada y organizada. ¿Hay algo más en lo que te gustaría trabajar hoy?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "No, creo que eso es todo por ahora. Me siento más tranquila al tener un plan. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. Tener un plan puede marcar una gran diferencia. Recuerda que estoy aquí para apoyarte en el camino. ¡Nos vemos en la próxima sesión! Cuídate."
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "¡Gracias! Cuídate también. Hasta la próxima sesión."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Emmy Aöede, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046475
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en una sesión de terapia.",
+      "timestamp": 1764046476
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en tu primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te preocupa más en este momento?",
+      "timestamp": 1764046478
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me preocupa sentirme un poco sola y desmotivada con mis estudios. A veces, todo se siente abrumador.",
+      "timestamp": 1764046479
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que esa sensación de soledad y desmotivación puede ser muy pesada. ¿Hay momentos específicos en los que te sientes más abrumada con tus estudios?",
+      "timestamp": 1764046481
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, normalmente cuando tengo muchas tareas acumuladas y siento que no puedo hacer todo a tiempo. Eso me estresa bastante.",
+      "timestamp": 1764046482
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que el acumular tareas te genere estrés. Tal vez podamos explorar algunas formas de manejar ese estrés y organizar mejor tus responsabilidades. ¿Te gustaría intentar eso?",
+      "timestamp": 1764046484
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Siento que necesito ayuda para encontrar un mejor equilibrio.",
+      "timestamp": 1764046485
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un buen primer paso. Comencemos por identificar cuáles son tus tareas más urgentes y cómo podrías distribuirlas a lo largo de la semana. ¿Tienes una lista de tus responsabilidades actuales?",
+      "timestamp": 1764046486
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No tengo una lista escrita, pero puedo mencionarte mis materias y trabajos pendientes. Creo que eso podría ayudar.",
+      "timestamp": 1764046487
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hablemos sobre tus materias y trabajos pendientes. Estoy aquí para escucharte y tomar nota de lo que necesites.",
+      "timestamp": 1764046488
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Bueno, tengo cuatro materias este semestre y varias tareas. En biología tengo un proyecto que entregar, en matemáticas un examen pronto, y en nanotechnology una investigación que apenas estoy comenzando.",
+      "timestamp": 1764046490
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Veo que tienes varias tareas importantes. ¿Cómo te sientes respecto a cada una de ellas? ¿Hay alguna que te genere más ansiedad que las demás?",
+      "timestamp": 1764046491
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Definitivamente el proyecto de biología me genera más ansiedad. Es bastante complejo y no sé si tendré tiempo suficiente para hacerlo bien.",
+      "timestamp": 1764046492
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que un proyecto complejo cause ansiedad. Tal vez podamos descomponerlo en pasos más pequeños para hacerlo más manejable. ¿Qué te parece si empezamos por identificar los pasos que necesitas dar para avanzar en ese proyecto?",
+      "timestamp": 1764046495
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece bien. Creo que primero debería investigar el tema y luego hacer un esquema de lo que quiero incluir en el proyecto.",
+      "timestamp": 1764046496
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente manera de comenzar. Investigar y hacer un esquema te ayudará a tener una visión clara de lo que necesitas. ¿Cuánto tiempo crees que podrías dedicar a la investigación esta semana?",
+      "timestamp": 1764046498
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría dedicar unas dos o tres horas esta semana, si logro organizarme bien con mis otras materias.",
+      "timestamp": 1764046498
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy razonable. Dedicar dos o tres horas a la investigación te permitirá avanzar sin sentirte abrumada. ¿Te gustaría que trabajáramos en un plan para integrar ese tiempo en tu semana?",
+      "timestamp": 1764046500
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Tal vez podríamos asignar algunos momentos específicos en los que me sienta más productiva.",
+      "timestamp": 1764046501
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, identificar los momentos en los que te sientes más productiva es clave. ¿Tienes algún horario o días específicos en los que te sientas más concentrada y lista para estudiar?",
+      "timestamp": 1764046502
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Normalmente me siento más concentrada por las mañanas, especialmente después de desayunar. Los fines de semana también son buenos para mí.",
+      "timestamp": 1764046503
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, vamos a aprovechar esos momentos. Podrías reservar un par de horas en las mañanas durante la semana y quizás un poco más de tiempo durante el fin de semana. ¿Te gustaría que estableciéramos un horario tentativo juntos?",
+      "timestamp": 1764046505
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Tener un horario tentativo me ayudaría a mantenerme enfocada y organizada.",
+      "timestamp": 1764046506
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial, vamos a crear un horario. ¿Qué días te gustaría dedicarle tiempo en las mañanas y cuánto tiempo preferirías cada día?",
+      "timestamp": 1764046507
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría dedicarle entre 1 y 2 horas los martes y jueves por la mañana. Y el fin de semana, tal vez el sábado, podría dedicarle unas 3 horas.",
+      "timestamp": 1764046509
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un plan sólido. Entonces, tendrías 1-2 horas los martes y jueves por la mañana, y 3 horas el sábado. ¿Te gustaría que anotara esto para que puedas tener un seguimiento?",
+      "timestamp": 1764046511
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Tenerlo anotado me ayudará a recordar y seguir el plan.",
+      "timestamp": 1764046512
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Horario tentativo para el proyecto de biología: 1-2 horas los martes y jueves por la mañana, y 3 horas el sábado."
+        },
+        "id": "call_kahWgBr7llV4XZP5sLllvicV"
+      },
+      "timestamp": 1764046514
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Horario tentativo para el proyecto de biología: 1-2 horas los martes y jueves por la mañana, y 3 horas el sábado.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_kahWgBr7llV4XZP5sLllvicV"
+      },
+      "timestamp": 1764046514
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He anotado tu horario tentativo: 1-2 horas los martes y jueves por la mañana, y 3 horas el sábado. Espero que esto te ayude a mantenerte enfocada y organizada. ¿Hay algo más en lo que te gustaría trabajar hoy?",
+      "timestamp": 1764046516
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Me siento más tranquila al tener un plan. Gracias por tu ayuda.",
+      "timestamp": 1764046517
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. Tener un plan puede marcar una gran diferencia. Recuerda que estoy aquí para apoyarte en el camino. ¡Nos vemos en la próxima sesión! Cuídate.",
+      "timestamp": 1764046518
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta la próxima sesión.",
+      "timestamp": 1764046519
+    }
+  ],
+  "notes": null
+}

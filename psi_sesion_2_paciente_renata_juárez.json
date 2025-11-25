@@ -1,0 +1,297 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:55:20Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3496198842,
+  "id": "e056f677-2593-4d49-a471-b76d16cafaa9",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Renata Juárez": {
+      "name": "Renata Juárez",
+      "age": 23,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(PSI) | estudiante de Psicología en la Ibero de 7mo semestre; le gustan los podcasts de conversación, leer cosas sobre emociones y convivir con gente cercana.",
+      "personality": "muy empática y reflexiva",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Renata Juárez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no sé bien qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en tu primera sesión. Estoy aquí para acompañarte y hacer de este un espacio seguro para ti. ¿Te gustaría que te explique un poco sobre cómo funcionará nuestra sesión?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría mucho que me explicaras. Quiero entender mejor qué sucederá y cómo puedo aprovechar esta experiencia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, durante nuestra sesión hablaremos sobre tus pensamientos y emociones, y yo te ayudaré a explorar y entender lo que estás viviendo. También utilizaremos algunas técnicas de terapia cognitivo-conductual que pueden ser útiles. Lo más importante es que te sientas cómoda y abierta a compartir. ¿Hay algún tema específico que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría hablar sobre cómo me he estado sintiendo últimamente. A veces me siento muy triste y me cuesta motivarme para hacer cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es importante que hablemos de esos sentimientos. La tristeza y la falta de motivación pueden ser desafiantes. ¿Te gustaría contarme un poco más sobre cuándo comenzaron esos sentimientos y si hay algo específico que sientas que los desencadena?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Claro, creo que empezaron hace un par de meses. Me he sentido un poco abrumada con mis estudios y algunas relaciones. A veces, es como si no tuviera energía para nada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy difícil, y es comprensible que te sientas abrumada con la carga de los estudios y las relaciones. A veces, nuestras responsabilidades pueden generar una sensación de agotamiento. ¿Has notado si hay momentos en que te sientes un poco mejor o más motivada?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, a veces me siento mejor cuando estoy con mis amigos o escuchando podcasts sobre emociones. Sin embargo, esos momentos no duran mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno saber que tienes momentos de conexión y bienestar, como cuando estás con tus amigos o escuchando podcasts. Esos son espacios importantes que pueden ofrecerte apoyo. Podemos trabajar en encontrar formas de potenciar esos momentos y hacer que se sientan más duraderos. ¿Te gustaría explorar algunas estrategias para hacerlo?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría mucho eso. Creo que podría ayudarme a mantenerme más positiva y motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos trabajar en ello. Una estrategia que podríamos explorar es la práctica del autocuidado, que incluye actividades que te hagan sentir bien y te ayuden a recargar energías. También podríamos hablar sobre establecer pequeñas metas diarias que sean alcanzables. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me parece una buena idea. Me gustaría aprender más sobre el autocuidado y cómo establecer esas metas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Para comenzar con el autocuidado, es útil identificar actividades que disfrutes y que te hagan sentir bien. Puede ser tan simple como leer, salir a caminar o practicar meditación. En cuanto a las metas, podemos dividirlas en pequeñas tareas, como dedicar 10 minutos al día a una actividad que te guste. ¿Tienes alguna actividad en mente que te gustaría incluir en tu rutina?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me gusta mucho leer, así que podría intentar dedicar un tiempo cada día a eso. También me gustaría salir a caminar un poco, tal vez un par de veces a la semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena excelente. Dedicar tiempo a la lectura y salir a caminar son formas maravillosas de cuidar de ti misma. Podrías comenzar con 15 minutos de lectura diaria y programar tus caminatas para los días que te sientas con más energía. ¿Te gustaría establecer un plan para comenzar esta semana?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, creo que eso me ayudaría a tener un poco más de estructura. Podría empezar mañana con 15 minutos de lectura y quizá caminar el miércoles y el sábado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un plan muy realista y alcanzable. Comenzar mañana con la lectura y tener tus caminatas programadas para el miércoles y el sábado te dará un buen impulso. Recuerda que está bien ser flexible y ajustar el plan si lo necesitas. Estoy aquí para apoyarte en este proceso. ¿Te sientes lista para probarlo?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me siento lista para intentarlo. Estoy agradecida por tu apoyo y por ayudarme a encontrar maneras de sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Estoy aquí para acompañarte en este camino, y es un paso positivo que hayas decidido intentarlo. Recuerda que cada pequeño esfuerzo cuenta. Siéntete libre de compartir cualquier avance o desafío en nuestra próxima sesión. ¡Cuídate mucho y nos vemos pronto!"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "¡Gracias! Cuídate también, nos vemos pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Renata Juárez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046472
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no sé bien qué esperar.",
+      "timestamp": 1764046477
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en tu primera sesión. Estoy aquí para acompañarte y hacer de este un espacio seguro para ti. ¿Te gustaría que te explique un poco sobre cómo funcionará nuestra sesión?",
+      "timestamp": 1764046479
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho que me explicaras. Quiero entender mejor qué sucederá y cómo puedo aprovechar esta experiencia.",
+      "timestamp": 1764046484
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, durante nuestra sesión hablaremos sobre tus pensamientos y emociones, y yo te ayudaré a explorar y entender lo que estás viviendo. También utilizaremos algunas técnicas de terapia cognitivo-conductual que pueden ser útiles. Lo más importante es que te sientas cómoda y abierta a compartir. ¿Hay algún tema específico que te gustaría abordar hoy?",
+      "timestamp": 1764046486
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre cómo me he estado sintiendo últimamente. A veces me siento muy triste y me cuesta motivarme para hacer cosas.",
+      "timestamp": 1764046487
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es importante que hablemos de esos sentimientos. La tristeza y la falta de motivación pueden ser desafiantes. ¿Te gustaría contarme un poco más sobre cuándo comenzaron esos sentimientos y si hay algo específico que sientas que los desencadena?",
+      "timestamp": 1764046490
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, creo que empezaron hace un par de meses. Me he sentido un poco abrumada con mis estudios y algunas relaciones. A veces, es como si no tuviera energía para nada.",
+      "timestamp": 1764046493
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy difícil, y es comprensible que te sientas abrumada con la carga de los estudios y las relaciones. A veces, nuestras responsabilidades pueden generar una sensación de agotamiento. ¿Has notado si hay momentos en que te sientes un poco mejor o más motivada?",
+      "timestamp": 1764046495
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces me siento mejor cuando estoy con mis amigos o escuchando podcasts sobre emociones. Sin embargo, esos momentos no duran mucho.",
+      "timestamp": 1764046498
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno saber que tienes momentos de conexión y bienestar, como cuando estás con tus amigos o escuchando podcasts. Esos son espacios importantes que pueden ofrecerte apoyo. Podemos trabajar en encontrar formas de potenciar esos momentos y hacer que se sientan más duraderos. ¿Te gustaría explorar algunas estrategias para hacerlo?",
+      "timestamp": 1764046500
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Creo que podría ayudarme a mantenerme más positiva y motivada.",
+      "timestamp": 1764046501
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar en ello. Una estrategia que podríamos explorar es la práctica del autocuidado, que incluye actividades que te hagan sentir bien y te ayuden a recargar energías. También podríamos hablar sobre establecer pequeñas metas diarias que sean alcanzables. ¿Te parece bien?",
+      "timestamp": 1764046503
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece una buena idea. Me gustaría aprender más sobre el autocuidado y cómo establecer esas metas.",
+      "timestamp": 1764046505
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Para comenzar con el autocuidado, es útil identificar actividades que disfrutes y que te hagan sentir bien. Puede ser tan simple como leer, salir a caminar o practicar meditación. En cuanto a las metas, podemos dividirlas en pequeñas tareas, como dedicar 10 minutos al día a una actividad que te guste. ¿Tienes alguna actividad en mente que te gustaría incluir en tu rutina?",
+      "timestamp": 1764046507
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta mucho leer, así que podría intentar dedicar un tiempo cada día a eso. También me gustaría salir a caminar un poco, tal vez un par de veces a la semana.",
+      "timestamp": 1764046509
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena excelente. Dedicar tiempo a la lectura y salir a caminar son formas maravillosas de cuidar de ti misma. Podrías comenzar con 15 minutos de lectura diaria y programar tus caminatas para los días que te sientas con más energía. ¿Te gustaría establecer un plan para comenzar esta semana?",
+      "timestamp": 1764046511
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso me ayudaría a tener un poco más de estructura. Podría empezar mañana con 15 minutos de lectura y quizá caminar el miércoles y el sábado.",
+      "timestamp": 1764046513
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un plan muy realista y alcanzable. Comenzar mañana con la lectura y tener tus caminatas programadas para el miércoles y el sábado te dará un buen impulso. Recuerda que está bien ser flexible y ajustar el plan si lo necesitas. Estoy aquí para apoyarte en este proceso. ¿Te sientes lista para probarlo?",
+      "timestamp": 1764046515
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me siento lista para intentarlo. Estoy agradecida por tu apoyo y por ayudarme a encontrar maneras de sentirme mejor.",
+      "timestamp": 1764046517
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Estoy aquí para acompañarte en este camino, y es un paso positivo que hayas decidido intentarlo. Recuerda que cada pequeño esfuerzo cuenta. Siéntete libre de compartir cualquier avance o desafío en nuestra próxima sesión. ¡Cuídate mucho y nos vemos pronto!",
+      "timestamp": 1764046519
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también, nos vemos pronto.",
+      "timestamp": 1764046520
+    }
+  ],
+  "notes": null
+}

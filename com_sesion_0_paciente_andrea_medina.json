@@ -1,0 +1,407 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:12:47Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3012605496,
+  "id": "c98b575c-3149-4dcb-ae58-bc9ca128e875",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Andrea Medina": {
+      "name": "Andrea Medina",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(COM) | estudiante de Comunicación en la Ibero de 5to semestre; le gusta grabar cosas con su celular, hacer historias, ver TikTok y platicar mucho.",
+      "personality": "expresiva y empática",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es totalmente normal sentir nerviosismo, especialmente en la primera sesión. Aquí estamos en un espacio seguro, donde puedes hablar libremente. ¿Te gustaría compartir qué te trae por aquí?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, creo que me gustaría compartirlo. He estado sintiéndome un poco apagada últimamente, como si nada me emocionara, y no sé por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, puede ser difícil sentirse así. A veces, esas emociones pueden ser difíciles de identificar. ¿Cuánto tiempo has estado sintiéndote apagada?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Desde hace unos meses, pero se ha ido intensificando y me preocupa un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que te preocupes si sientes que esos sentimientos han aumentado. Hablemos un poco más sobre lo que ha estado sucediendo en tu vida durante esos meses."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Claro, ha habido mucho estrés con la universidad y, a veces, siento que no puedo manejarlo todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El estrés puede afectar profundamente nuestro bienestar emocional. ¿Qué estrategias has intentado hasta ahora para manejar ese estrés?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "He intentado distraerme viendo TikTok o grabando cosas, pero a veces no ayuda tanto como me gustaría."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. A veces, las distracciones pueden proporcionar un alivio temporal, pero no siempre abordan la raíz del problema. ¿Te gustaría explorar algunas técnicas que podrían ayudarte a manejar el estrés de manera más efectiva?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría eso. Creo que necesito encontrar formas más saludables de lidiar con todo esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso, reconocer que quieres cambiar. Podemos trabajar juntos en algunas técnicas como la respiración profunda, la atención plena o la planificación de tareas. ¿Hay alguna de estas que te llame más la atención?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "La atención plena suena interesante, no estoy muy familiarizada con eso, pero creo que podría ayudarme a estar más presente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La atención plena es una excelente herramienta para estar más presente y reducir la ansiedad. Consiste en prestar atención al momento actual sin juzgar. Podemos comenzar con ejercicios simples de respiración. ¿Te gustaría probar uno ahora?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ser útil."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Te invito a que te sientes cómodamente, cierres los ojos si te sientes a gusto y tomes una respiración profunda por la nariz. Siente cómo se llena tu abdomen, y luego exhala lentamente por la boca. Hacemos esto juntos cinco veces. ¿Listo? Vamos a empezar. Inhala... y exhala..."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "(Inhalando y exhalando lentamente) Estoy lista... inhalo... y exhalo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, sigue con la respiración. Inhala profundamente... y exhala lentamente. Concéntrate en cómo el aire entra y sale de tu cuerpo. Esto te ayudará a conectar con el momento presente. Continúa así."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "(Inhalando y exhalando) Me siento un poco más tranquila... es agradable enfocarme solo en mi respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso. La respiración consciente puede ser una herramienta muy poderosa para encontrar calma. Cuando sientas estrés, puedes recurrir a esta técnica. ¿Cómo te sientes ahora después de este ejercicio?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Me siento un poco más relajada y ligera. Creo que esto podría ayudarme en momentos difíciles."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. La atención plena puede ser un gran recurso. Te animo a que lo practiques regularmente. ¿Te gustaría explorar más sobre cómo incorporar esto en tu vida diaria?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría. Creo que tener pequeñas rutinas diarias podría ser muy útil para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Establecer rutinas puede ser muy beneficioso. Podrías comenzar con pequeñas prácticas de atención plena, como dedicar unos minutos cada mañana a la respiración o a observar tus pensamientos. ¿Te gustaría crear un plan sencillo para empezar?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, eso suena bien. Me gustaría tener un plan que pueda seguir fácilmente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos con un plan de tres pasos. Primero, dedica cinco minutos cada mañana a la respiración consciente. Segundo, elige un momento durante el día para hacer una pausa y observar tus pensamientos sin juzgarlos. Y tercero, antes de dormir, escribe tres cosas por las que te sientes agradecida. ¿Te parece un buen comienzo?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me parece un buen comienzo. Creo que esos pasos son manejables y podrían ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te resulte manejable. Estos pequeños pasos pueden hacer una gran diferencia con el tiempo. Recuerda que estamos aquí para seguir trabajando juntos en esto. ¿Hay algo más en lo que te gustaría enfocarte hoy?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "No, creo que por ahora está bien. Me siento más aliviada después de nuestra charla y de los ejercicios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es genial de escuchar. Me alegra que te sientas aliviada y que nuestra charla haya sido útil. Recuerda que puedes regresar cuando lo necesites. Cuídate mucho y nos vemos en la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "¡Gracias! Cuídate también, y espero volver a platicar pronto. ¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047528
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en una sesión de terapia.",
+      "timestamp": 1764047529
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es totalmente normal sentir nerviosismo, especialmente en la primera sesión. Aquí estamos en un espacio seguro, donde puedes hablar libremente. ¿Te gustaría compartir qué te trae por aquí?",
+      "timestamp": 1764047530
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría compartirlo. He estado sintiéndome un poco apagada últimamente, como si nada me emocionara, y no sé por qué.",
+      "timestamp": 1764047531
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, puede ser difícil sentirse así. A veces, esas emociones pueden ser difíciles de identificar. ¿Cuánto tiempo has estado sintiéndote apagada?",
+      "timestamp": 1764047532
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Desde hace unos meses, pero se ha ido intensificando y me preocupa un poco.",
+      "timestamp": 1764047533
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que te preocupes si sientes que esos sentimientos han aumentado. Hablemos un poco más sobre lo que ha estado sucediendo en tu vida durante esos meses.",
+      "timestamp": 1764047534
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, ha habido mucho estrés con la universidad y, a veces, siento que no puedo manejarlo todo.",
+      "timestamp": 1764047535
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El estrés puede afectar profundamente nuestro bienestar emocional. ¿Qué estrategias has intentado hasta ahora para manejar ese estrés?",
+      "timestamp": 1764047536
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado distraerme viendo TikTok o grabando cosas, pero a veces no ayuda tanto como me gustaría.",
+      "timestamp": 1764047538
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. A veces, las distracciones pueden proporcionar un alivio temporal, pero no siempre abordan la raíz del problema. ¿Te gustaría explorar algunas técnicas que podrían ayudarte a manejar el estrés de manera más efectiva?",
+      "timestamp": 1764047539
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que necesito encontrar formas más saludables de lidiar con todo esto.",
+      "timestamp": 1764047541
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso, reconocer que quieres cambiar. Podemos trabajar juntos en algunas técnicas como la respiración profunda, la atención plena o la planificación de tareas. ¿Hay alguna de estas que te llame más la atención?",
+      "timestamp": 1764047543
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La atención plena suena interesante, no estoy muy familiarizada con eso, pero creo que podría ayudarme a estar más presente.",
+      "timestamp": 1764047544
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La atención plena es una excelente herramienta para estar más presente y reducir la ansiedad. Consiste en prestar atención al momento actual sin juzgar. Podemos comenzar con ejercicios simples de respiración. ¿Te gustaría probar uno ahora?",
+      "timestamp": 1764047545
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ser útil.",
+      "timestamp": 1764047546
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Te invito a que te sientes cómodamente, cierres los ojos si te sientes a gusto y tomes una respiración profunda por la nariz. Siente cómo se llena tu abdomen, y luego exhala lentamente por la boca. Hacemos esto juntos cinco veces. ¿Listo? Vamos a empezar. Inhala... y exhala...",
+      "timestamp": 1764047547
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "(Inhalando y exhalando lentamente) Estoy lista... inhalo... y exhalo.",
+      "timestamp": 1764047548
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, sigue con la respiración. Inhala profundamente... y exhala lentamente. Concéntrate en cómo el aire entra y sale de tu cuerpo. Esto te ayudará a conectar con el momento presente. Continúa así.",
+      "timestamp": 1764047550
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "(Inhalando y exhalando) Me siento un poco más tranquila... es agradable enfocarme solo en mi respiración.",
+      "timestamp": 1764047551
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso. La respiración consciente puede ser una herramienta muy poderosa para encontrar calma. Cuando sientas estrés, puedes recurrir a esta técnica. ¿Cómo te sientes ahora después de este ejercicio?",
+      "timestamp": 1764047552
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajada y ligera. Creo que esto podría ayudarme en momentos difíciles.",
+      "timestamp": 1764047553
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. La atención plena puede ser un gran recurso. Te animo a que lo practiques regularmente. ¿Te gustaría explorar más sobre cómo incorporar esto en tu vida diaria?",
+      "timestamp": 1764047555
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que tener pequeñas rutinas diarias podría ser muy útil para mí.",
+      "timestamp": 1764047555
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Establecer rutinas puede ser muy beneficioso. Podrías comenzar con pequeñas prácticas de atención plena, como dedicar unos minutos cada mañana a la respiración o a observar tus pensamientos. ¿Te gustaría crear un plan sencillo para empezar?",
+      "timestamp": 1764047557
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría tener un plan que pueda seguir fácilmente.",
+      "timestamp": 1764047558
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos con un plan de tres pasos. Primero, dedica cinco minutos cada mañana a la respiración consciente. Segundo, elige un momento durante el día para hacer una pausa y observar tus pensamientos sin juzgarlos. Y tercero, antes de dormir, escribe tres cosas por las que te sientes agradecida. ¿Te parece un buen comienzo?",
+      "timestamp": 1764047561
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece un buen comienzo. Creo que esos pasos son manejables y podrían ayudarme a sentirme mejor.",
+      "timestamp": 1764047562
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te resulte manejable. Estos pequeños pasos pueden hacer una gran diferencia con el tiempo. Recuerda que estamos aquí para seguir trabajando juntos en esto. ¿Hay algo más en lo que te gustaría enfocarte hoy?",
+      "timestamp": 1764047563
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora está bien. Me siento más aliviada después de nuestra charla y de los ejercicios.",
+      "timestamp": 1764047564
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es genial de escuchar. Me alegra que te sientas aliviada y que nuestra charla haya sido útil. Recuerda que puedes regresar cuando lo necesites. Cuídate mucho y nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764047566
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también, y espero volver a platicar pronto. ¡Hasta luego!",
+      "timestamp": 1764047567
+    }
+  ],
+  "notes": null
+}

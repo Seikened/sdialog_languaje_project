@@ -10,9 +10,9 @@ def graficar(dict_majors:dict, path_save:str="graficas_pacientes.png"):
 
     plt.figure(figsize=(10, 6))
     plt.bar(majors, counts, color='skyblue')
-    plt.xlabel('Majors')
-    plt.ylabel('Cantidad de Pacientes')
-    plt.title('Cantidad de Pacientes por Major')
+    plt.xlabel('Carreras')
+    plt.ylabel('Cantidad de Pacientes detectados')
+    plt.title(f'Cantidad de Pacientes por Carrera [total:{sum(counts)}]')
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(path_save)

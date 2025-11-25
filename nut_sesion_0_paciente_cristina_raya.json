@@ -1,0 +1,407 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:13:38Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3784974000,
+  "id": "66dfc3b2-a0ee-4417-adf4-36ff3fa7bf26",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Cristina Raya": {
+      "name": "Cristina Raya",
+      "age": 24,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(NUT) | estudiante de Nutrición en la Ibero de 5to semestre; le gusta cocinar postres, salir a caminar y salir a cafeterias",
+      "personality": "cuidada pero autoexigente",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa. No estoy muy acostumbrada a hablar de estas cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa la primera vez. Estoy aquí para escucharte y brindarte un espacio seguro. ¿Qué te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Gracias por entender. Últimamente he estado sintiéndome un poco abrumada y con falta de motivación. No sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo lo difícil que puede ser sentirse así. Es un buen primer paso reconocer esos sentimientos. ¿Qué situaciones específicas sientes que te han estado abrumando?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Principalmente la presión de mis estudios y la sensación de que no estoy cumpliendo con mis propias expectativas. Me siento un poco perdida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse perdido bajo tanta presión. A veces, nuestras expectativas pueden ser demasiado altas. ¿Podrías compartir cuáles son esas expectativas que sientes que no estás cumpliendo?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Espero tener excelentes calificaciones y ser la mejor en mi carrera, pero a veces siento que no doy la talla y eso me frustra."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas expectativas pueden ser realmente abrumadoras. La búsqueda de la perfección puede llevar a la frustración. ¿Te gustaría explorar cómo estas expectativas están afectando tu bienestar emocional?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, creo que sería útil. Siento que esa presión me está afectando emocionalmente y no sé cómo desconectarme de ese sentimiento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un paso importante reconocer cómo la presión te afecta. Podemos trabajar juntos en estrategias para manejar esos sentimientos y darte un respiro. ¿Te gustaría hablar sobre algunas técnicas de manejo del estrés?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me gustaría eso. Creo que necesito aprender a manejar mejor el estrés."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Una técnica útil es la respiración profunda. Te puedo guiar en un ejercicio breve para que lo probemos. ¿Estás lista?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, estoy lista. Me parece bien intentar algo nuevo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, empecemos. Siéntate cómodamente y cierra los ojos. Inhala profundamente por la nariz, sintiendo cómo se expande tu abdomen. Mantén el aire unos segundos y luego exhala lentamente por la boca. Repite esto tres veces. ¿Cómo te sientes después de hacerlo?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Me siento un poco más tranquila. Es extraño, pero creo que me ayuda a liberar algo de tensión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. La respiración profunda puede ser una herramienta poderosa. ¿Te gustaría integrar esta técnica en tu rutina diaria para ayudarte a manejar el estrés?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, definitivamente me gustaría intentarlo. Creo que podría ayudarme a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una actitud muy positiva. Practicarlo regularmente puede marcar una gran diferencia. También podemos explorar otras técnicas que se adapten a ti. ¿Te gustaría hablar sobre alguna otra estrategia específica?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me gustaría. Quizás algo relacionado con la organización o la gestión del tiempo. Siento que a veces me falta estructura."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La organización y la gestión del tiempo son clave para reducir la sensación de abrume. Una técnica efectiva es la creación de listas de tareas priorizadas. ¿Te gustaría que te ayude a crear una lista como ejercicio?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, eso suena muy bien. Creo que me ayudaría a tener más claridad sobre mis pendientes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Comencemos por anotar tus tareas más importantes. ¿Cuáles son las tareas que consideras prioritarias en este momento?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Mis tareas más importantes son estudiar para mis exámenes, entregar un proyecto y también algunas responsabilidades en casa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, esas son buenas prioridades. Ahora, ¿podrías estimar cuánto tiempo te llevará cada tarea y cuándo te gustaría completarlas? Esto nos ayudará a hacer una planificación más efectiva."
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Claro, creo que estudiar para los exámenes me llevará unos días, el proyecto lo necesito para el próximo martes y las tareas de casa las puedo hacer en el fin de semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, así que tenemos un plan. Puedes dedicar los próximos días a estudiar para tus exámenes, asegurándote de reservar tiempo específico cada día. El proyecto necesita atención antes del martes, y las tareas de casa para el fin de semana. ¿Te parece que puedes seguir esta estructura?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, creo que puedo seguir esa estructura. Me siento más tranquila al tener un plan. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un placer ayudarte a sentirte más tranquila y organizada. Tener un plan puede resultar muy reconfortante. ¿Hay algo más en lo que te gustaría trabajar hoy?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "No, creo que eso es suficiente por ahora. Me siento un poco más aliviada y agradezco tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más aliviada. Recuerda que estoy aquí para apoyarte en cualquier momento. Nos vemos en nuestra próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "¡Gracias! Cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047588
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa. No estoy muy acostumbrada a hablar de estas cosas.",
+      "timestamp": 1764047589
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa la primera vez. Estoy aquí para escucharte y brindarte un espacio seguro. ¿Qué te gustaría compartir hoy?",
+      "timestamp": 1764047591
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por entender. Últimamente he estado sintiéndome un poco abrumada y con falta de motivación. No sé cómo manejarlo.",
+      "timestamp": 1764047592
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo lo difícil que puede ser sentirse así. Es un buen primer paso reconocer esos sentimientos. ¿Qué situaciones específicas sientes que te han estado abrumando?",
+      "timestamp": 1764047592
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente la presión de mis estudios y la sensación de que no estoy cumpliendo con mis propias expectativas. Me siento un poco perdida.",
+      "timestamp": 1764047593
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse perdido bajo tanta presión. A veces, nuestras expectativas pueden ser demasiado altas. ¿Podrías compartir cuáles son esas expectativas que sientes que no estás cumpliendo?",
+      "timestamp": 1764047594
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Espero tener excelentes calificaciones y ser la mejor en mi carrera, pero a veces siento que no doy la talla y eso me frustra.",
+      "timestamp": 1764047595
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas expectativas pueden ser realmente abrumadoras. La búsqueda de la perfección puede llevar a la frustración. ¿Te gustaría explorar cómo estas expectativas están afectando tu bienestar emocional?",
+      "timestamp": 1764047596
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil. Siento que esa presión me está afectando emocionalmente y no sé cómo desconectarme de ese sentimiento.",
+      "timestamp": 1764047596
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un paso importante reconocer cómo la presión te afecta. Podemos trabajar juntos en estrategias para manejar esos sentimientos y darte un respiro. ¿Te gustaría hablar sobre algunas técnicas de manejo del estrés?",
+      "timestamp": 1764047597
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que necesito aprender a manejar mejor el estrés.",
+      "timestamp": 1764047598
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Una técnica útil es la respiración profunda. Te puedo guiar en un ejercicio breve para que lo probemos. ¿Estás lista?",
+      "timestamp": 1764047599
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. Me parece bien intentar algo nuevo.",
+      "timestamp": 1764047600
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, empecemos. Siéntate cómodamente y cierra los ojos. Inhala profundamente por la nariz, sintiendo cómo se expande tu abdomen. Mantén el aire unos segundos y luego exhala lentamente por la boca. Repite esto tres veces. ¿Cómo te sientes después de hacerlo?",
+      "timestamp": 1764047601
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila. Es extraño, pero creo que me ayuda a liberar algo de tensión.",
+      "timestamp": 1764047602
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. La respiración profunda puede ser una herramienta poderosa. ¿Te gustaría integrar esta técnica en tu rutina diaria para ayudarte a manejar el estrés?",
+      "timestamp": 1764047603
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente me gustaría intentarlo. Creo que podría ayudarme a sentirme más en control.",
+      "timestamp": 1764047604
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una actitud muy positiva. Practicarlo regularmente puede marcar una gran diferencia. También podemos explorar otras técnicas que se adapten a ti. ¿Te gustaría hablar sobre alguna otra estrategia específica?",
+      "timestamp": 1764047605
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Quizás algo relacionado con la organización o la gestión del tiempo. Siento que a veces me falta estructura.",
+      "timestamp": 1764047606
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La organización y la gestión del tiempo son clave para reducir la sensación de abrume. Una técnica efectiva es la creación de listas de tareas priorizadas. ¿Te gustaría que te ayude a crear una lista como ejercicio?",
+      "timestamp": 1764047607
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena muy bien. Creo que me ayudaría a tener más claridad sobre mis pendientes.",
+      "timestamp": 1764047608
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Comencemos por anotar tus tareas más importantes. ¿Cuáles son las tareas que consideras prioritarias en este momento?",
+      "timestamp": 1764047609
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Mis tareas más importantes son estudiar para mis exámenes, entregar un proyecto y también algunas responsabilidades en casa.",
+      "timestamp": 1764047609
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, esas son buenas prioridades. Ahora, ¿podrías estimar cuánto tiempo te llevará cada tarea y cuándo te gustaría completarlas? Esto nos ayudará a hacer una planificación más efectiva.",
+      "timestamp": 1764047611
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, creo que estudiar para los exámenes me llevará unos días, el proyecto lo necesito para el próximo martes y las tareas de casa las puedo hacer en el fin de semana.",
+      "timestamp": 1764047611
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, así que tenemos un plan. Puedes dedicar los próximos días a estudiar para tus exámenes, asegurándote de reservar tiempo específico cada día. El proyecto necesita atención antes del martes, y las tareas de casa para el fin de semana. ¿Te parece que puedes seguir esta estructura?",
+      "timestamp": 1764047613
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que puedo seguir esa estructura. Me siento más tranquila al tener un plan. Gracias.",
+      "timestamp": 1764047614
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un placer ayudarte a sentirte más tranquila y organizada. Tener un plan puede resultar muy reconfortante. ¿Hay algo más en lo que te gustaría trabajar hoy?",
+      "timestamp": 1764047615
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es suficiente por ahora. Me siento un poco más aliviada y agradezco tu apoyo.",
+      "timestamp": 1764047616
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más aliviada. Recuerda que estoy aquí para apoyarte en cualquier momento. Nos vemos en nuestra próxima sesión. ¡Cuídate!",
+      "timestamp": 1764047617
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta la próxima.",
+      "timestamp": 1764047618
+    }
+  ],
+  "notes": null
+}

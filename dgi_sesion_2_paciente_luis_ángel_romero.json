@@ -1,0 +1,286 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:49:42Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3512099370,
+  "id": "2e6a2e80-6d34-4db0-8531-d4c9f9036f07",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Luis Ángel Romero": {
+      "name": "Luis Ángel Romero",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DGI) | estudiante de Diseño Gráfico e Innovación en la Ibero de 6to semestre; le gusta ilustrar en su tablet, editar fotos y ver contenido visual en Instagram y TikTok.",
+      "personality": "extrovertido pero inseguro",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Hola, gracias. La verdad, estoy un poco nervioso porque es la primera vez que vengo a terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro donde puedas expresar lo que sientes. ¿Te gustaría compartir qué te motivó a buscar terapia?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, he estado sintiéndome un poco perdido y me cuesta mucho concentrarme en mis estudios de diseño. A veces me siento muy triste y no sé por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que te sientas así, y es valiente de tu parte reconocerlo. La tristeza y la falta de concentración pueden ser señales importantes. ¿Te gustaría explorar más sobre esos sentimientos?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría, pero a veces es difícil decir lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es totalmente comprensible, y aquí no hay presión. Puedes tomarte tu tiempo. A veces, hablar de pequeños detalles o situaciones puede ayudar a entender mejor lo que sientes. ¿Hay algún momento reciente que te haya hecho sentir así?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Claro, hace unos días tuve una crítica sobre uno de mis proyectos en clase, y me afectó mucho. Me sentí incapaz y eso me ha estado molestando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que hayas tenido que pasar por eso. Las críticas pueden ser muy difíciles de manejar, especialmente cuando nos sentimos vulnerables. ¿Te gustaría hablar sobre cómo reaccionaste a esa crítica y qué pensamientos te vinieron a la mente?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me sentí muy mal, como si no valiera la pena lo que hago. Pensé que tal vez no soy lo suficientemente bueno para este camino."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es doloroso sentir que nuestro valor está ligado a la crítica que recibimos. Esos pensamientos negativos pueden ser muy persistentes. Recordemos que cada artista tiene su propio proceso y que las críticas, aunque difíciles, pueden ser parte del crecimiento. ¿Te gustaría explorar maneras de desafiar esos pensamientos?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría. A veces me cuesta cambiar mi forma de pensar y ver las cosas de manera diferente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un paso importante querer cambiar esa forma de pensar. Podríamos trabajar juntos en técnicas de reestructuración cognitiva, que te ayuden a desafiar esos pensamientos negativos. ¿Te gustaría comenzar con algunos ejemplos o estrategias que podrías probar?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, eso suena bien. Me gustaría aprender algunas estrategias que pueda usar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Una estrategia efectiva es el \"diálogo interno positivo\". Intenta identificar esos pensamientos negativos y reescribirlos de una manera más constructiva. Por ejemplo, en lugar de pensar \"no soy lo suficientemente bueno\", podrías pensar \"estoy en un proceso de aprendizaje y cada crítica me ayuda a mejorar\". ¿Te parece útil esta idea?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me parece útil. Creo que podría ayudarme a ver las cosas de otra manera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. La práctica constante de este tipo de diálogos internos puede tener un gran impacto en cómo te sientes contigo mismo. Podemos trabajar en más ejemplos específicos en las próximas sesiones si te parece bien. ¿Hay algo más sobre lo que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "No, creo que eso es suficiente por hoy. Gracias por ayudarme a entender un poco mejor mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Luis Ángel. Me alegra saber que te sientes un poco más claro. Recuerda que estoy aquí para apoyarte en este proceso. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "¡Gracias! Cuídese también. Hasta la próxima."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046159
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad, estoy un poco nervioso porque es la primera vez que vengo a terapia.",
+      "timestamp": 1764046160
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro donde puedas expresar lo que sientes. ¿Te gustaría compartir qué te motivó a buscar terapia?",
+      "timestamp": 1764046162
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco perdido y me cuesta mucho concentrarme en mis estudios de diseño. A veces me siento muy triste y no sé por qué.",
+      "timestamp": 1764046163
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que te sientas así, y es valiente de tu parte reconocerlo. La tristeza y la falta de concentración pueden ser señales importantes. ¿Te gustaría explorar más sobre esos sentimientos?",
+      "timestamp": 1764046164
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría, pero a veces es difícil decir lo que siento.",
+      "timestamp": 1764046165
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es totalmente comprensible, y aquí no hay presión. Puedes tomarte tu tiempo. A veces, hablar de pequeños detalles o situaciones puede ayudar a entender mejor lo que sientes. ¿Hay algún momento reciente que te haya hecho sentir así?",
+      "timestamp": 1764046166
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hace unos días tuve una crítica sobre uno de mis proyectos en clase, y me afectó mucho. Me sentí incapaz y eso me ha estado molestando.",
+      "timestamp": 1764046168
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que hayas tenido que pasar por eso. Las críticas pueden ser muy difíciles de manejar, especialmente cuando nos sentimos vulnerables. ¿Te gustaría hablar sobre cómo reaccionaste a esa crítica y qué pensamientos te vinieron a la mente?",
+      "timestamp": 1764046169
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me sentí muy mal, como si no valiera la pena lo que hago. Pensé que tal vez no soy lo suficientemente bueno para este camino.",
+      "timestamp": 1764046170
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es doloroso sentir que nuestro valor está ligado a la crítica que recibimos. Esos pensamientos negativos pueden ser muy persistentes. Recordemos que cada artista tiene su propio proceso y que las críticas, aunque difíciles, pueden ser parte del crecimiento. ¿Te gustaría explorar maneras de desafiar esos pensamientos?",
+      "timestamp": 1764046172
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. A veces me cuesta cambiar mi forma de pensar y ver las cosas de manera diferente.",
+      "timestamp": 1764046173
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un paso importante querer cambiar esa forma de pensar. Podríamos trabajar juntos en técnicas de reestructuración cognitiva, que te ayuden a desafiar esos pensamientos negativos. ¿Te gustaría comenzar con algunos ejemplos o estrategias que podrías probar?",
+      "timestamp": 1764046174
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría aprender algunas estrategias que pueda usar.",
+      "timestamp": 1764046175
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Una estrategia efectiva es el \"diálogo interno positivo\". Intenta identificar esos pensamientos negativos y reescribirlos de una manera más constructiva. Por ejemplo, en lugar de pensar \"no soy lo suficientemente bueno\", podrías pensar \"estoy en un proceso de aprendizaje y cada crítica me ayuda a mejorar\". ¿Te parece útil esta idea?",
+      "timestamp": 1764046177
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece útil. Creo que podría ayudarme a ver las cosas de otra manera.",
+      "timestamp": 1764046177
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. La práctica constante de este tipo de diálogos internos puede tener un gran impacto en cómo te sientes contigo mismo. Podemos trabajar en más ejemplos específicos en las próximas sesiones si te parece bien. ¿Hay algo más sobre lo que te gustaría hablar hoy?",
+      "timestamp": 1764046179
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es suficiente por hoy. Gracias por ayudarme a entender un poco mejor mis sentimientos.",
+      "timestamp": 1764046180
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Luis Ángel. Me alegra saber que te sientes un poco más claro. Recuerda que estoy aquí para apoyarte en este proceso. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764046181
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídese también. Hasta la próxima.",
+      "timestamp": 1764046181
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego!",
+      "timestamp": 1764046182
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,319 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:23:13Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1571339625,
+  "id": "8747922d-e4ef-4b8f-a224-458a581c4c55",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Rodrigo Salas": {
+      "name": "Rodrigo Salas",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DER) | estudiante de Derecho en la Ibero de 8vo semestre; le gusta debatir temas con amigos, ver series y salir de vez en cuando.",
+      "personality": "serio pero emocional",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Hola. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión de terapia y no sé muy bien qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para ayudarte y juntos exploraremos lo que necesites. ¿Te gustaría compartir qué te trajo a la terapia?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, creo que he estado sintiendo un peso en mi pecho últimamente, como si la tristeza no me dejara avanzar. No sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que ese peso puede ser muy agobiante. La tristeza puede ser difícil de enfrentar, pero aquí estamos para trabajar en eso. ¿Te gustaría hablar un poco más sobre cuándo comenzaste a sentirte así?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Comenzó hace unos meses, después de unas malas calificaciones en la universidad. Me siento presionado y como si no pudiera cumplir con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que las malas calificaciones y la presión puedan afectar tu estado emocional. Las expectativas a veces pueden ser abrumadoras. ¿Cómo has estado manejando esos sentimientos desde entonces?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He intentado distraerme viendo series o saliendo con amigos, pero parece que la tristeza siempre regresa. No sé si realmente me estoy brindando el tiempo para sentir lo que debo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Buscar distracciones es una respuesta común, pero a veces es necesario permitirnos sentir lo que estamos experimentando. Es un paso importante. ¿Te gustaría explorar formas de enfrentar esos sentimientos en lugar de evitarlos?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, creo que sería útil. Me gustaría aprender a manejar mis emociones de una manera más saludable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran objetivo. Podemos trabajar en técnicas de regulación emocional y en cómo darte el espacio para procesar lo que sientes. Empecemos por identificar algunas emociones específicas que te están afectando. ¿Hay alguna en particular que te gustaría abordar primero?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Creo que la tristeza es la más fuerte en este momento. Siento que me arrastra y me impide disfrutar de las cosas que antes me gustaban."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La tristeza puede ser muy poderosa y puede afectar tu disfrute de la vida. Reconocer esto es un primer paso. Vamos a trabajar en entender mejor esa tristeza, y exploraremos formas de reconectarte con lo que antes te traía alegría. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me parece bien. Quiero entender mejor por qué me siento así y cómo puedo volver a disfrutar de las cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, Rodrigo. Para comenzar, podemos hacer un ejercicio de reflexión sobre las actividades que antes disfrutabas y cómo te hacían sentir. ¿Recuerdas alguna actividad que solías hacer y que te traía felicidad?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me gustaba mucho salir a jugar fútbol con mis amigos. Me hacía sentir libre y feliz, pero últimamente no he tenido ganas de hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas actividades que te hacían sentir libre son muy valiosas. A veces, cuando estamos tristes, tendemos a alejarnos de las cosas que nos brindan alegría. Hacer un esfuerzo por volver a esas actividades, aunque sea poco a poco, podría ayudarte. ¿Te gustaría intentar regresar a jugar al fútbol con tus amigos?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, creo que podría ser una buena idea. Aunque me cuesta un poco imaginarme hacerlo ahora, tal vez dar ese paso me ayude a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran paso reconocerlo. Puedes comenzar planteándote pequeños objetivos, como salir a jugar una vez esta semana. La clave es darte permiso para sentir, disfrutar y reconectar con esos momentos. Estoy aquí para apoyarte en todo este proceso. ¿Cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me siento un poco esperanzado. La idea de volver a jugar al fútbol parece un buen comienzo. Agradezco tu apoyo en esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escucharlo, Rodrigo. La esperanza es un gran motor para el cambio. Recuerda que cada pequeño paso cuenta y que estoy aquí para acompañarte en el camino. ¿Te gustaría que exploráramos algo más en esta sesión?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "No, creo que por ahora está bien. Me siento más ligero al hablar de esto y es un buen inicio. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas más ligero. Es normal que estos primeros pasos traigan algo de alivio. Recuerda que puedes volver a hablar conmigo cuando lo necesites. Te deseo lo mejor hasta nuestra próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Gracias, cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764048159
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión de terapia y no sé muy bien qué esperar.",
+      "timestamp": 1764048160
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para ayudarte y juntos exploraremos lo que necesites. ¿Te gustaría compartir qué te trajo a la terapia?",
+      "timestamp": 1764048162
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que he estado sintiendo un peso en mi pecho últimamente, como si la tristeza no me dejara avanzar. No sé cómo manejarlo.",
+      "timestamp": 1764048164
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que ese peso puede ser muy agobiante. La tristeza puede ser difícil de enfrentar, pero aquí estamos para trabajar en eso. ¿Te gustaría hablar un poco más sobre cuándo comenzaste a sentirte así?",
+      "timestamp": 1764048166
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comenzó hace unos meses, después de unas malas calificaciones en la universidad. Me siento presionado y como si no pudiera cumplir con las expectativas.",
+      "timestamp": 1764048167
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que las malas calificaciones y la presión puedan afectar tu estado emocional. Las expectativas a veces pueden ser abrumadoras. ¿Cómo has estado manejando esos sentimientos desde entonces?",
+      "timestamp": 1764048168
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado distraerme viendo series o saliendo con amigos, pero parece que la tristeza siempre regresa. No sé si realmente me estoy brindando el tiempo para sentir lo que debo.",
+      "timestamp": 1764048169
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Buscar distracciones es una respuesta común, pero a veces es necesario permitirnos sentir lo que estamos experimentando. Es un paso importante. ¿Te gustaría explorar formas de enfrentar esos sentimientos en lugar de evitarlos?",
+      "timestamp": 1764048171
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil. Me gustaría aprender a manejar mis emociones de una manera más saludable.",
+      "timestamp": 1764048172
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran objetivo. Podemos trabajar en técnicas de regulación emocional y en cómo darte el espacio para procesar lo que sientes. Empecemos por identificar algunas emociones específicas que te están afectando. ¿Hay alguna en particular que te gustaría abordar primero?",
+      "timestamp": 1764048173
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que la tristeza es la más fuerte en este momento. Siento que me arrastra y me impide disfrutar de las cosas que antes me gustaban.",
+      "timestamp": 1764048174
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La tristeza puede ser muy poderosa y puede afectar tu disfrute de la vida. Reconocer esto es un primer paso. Vamos a trabajar en entender mejor esa tristeza, y exploraremos formas de reconectarte con lo que antes te traía alegría. ¿Te parece bien?",
+      "timestamp": 1764048176
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero entender mejor por qué me siento así y cómo puedo volver a disfrutar de las cosas.",
+      "timestamp": 1764048178
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, Rodrigo. Para comenzar, podemos hacer un ejercicio de reflexión sobre las actividades que antes disfrutabas y cómo te hacían sentir. ¿Recuerdas alguna actividad que solías hacer y que te traía felicidad?",
+      "timestamp": 1764048179
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaba mucho salir a jugar fútbol con mis amigos. Me hacía sentir libre y feliz, pero últimamente no he tenido ganas de hacerlo.",
+      "timestamp": 1764048180
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas actividades que te hacían sentir libre son muy valiosas. A veces, cuando estamos tristes, tendemos a alejarnos de las cosas que nos brindan alegría. Hacer un esfuerzo por volver a esas actividades, aunque sea poco a poco, podría ayudarte. ¿Te gustaría intentar regresar a jugar al fútbol con tus amigos?",
+      "timestamp": 1764048183
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ser una buena idea. Aunque me cuesta un poco imaginarme hacerlo ahora, tal vez dar ese paso me ayude a sentirme mejor.",
+      "timestamp": 1764048184
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran paso reconocerlo. Puedes comenzar planteándote pequeños objetivos, como salir a jugar una vez esta semana. La clave es darte permiso para sentir, disfrutar y reconectar con esos momentos. Estoy aquí para apoyarte en todo este proceso. ¿Cómo te sientes al respecto?",
+      "timestamp": 1764048186
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco esperanzado. La idea de volver a jugar al fútbol parece un buen comienzo. Agradezco tu apoyo en esto.",
+      "timestamp": 1764048187
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escucharlo, Rodrigo. La esperanza es un gran motor para el cambio. Recuerda que cada pequeño paso cuenta y que estoy aquí para acompañarte en el camino. ¿Te gustaría que exploráramos algo más en esta sesión?",
+      "timestamp": 1764048190
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora está bien. Me siento más ligero al hablar de esto y es un buen inicio. Gracias por tu apoyo.",
+      "timestamp": 1764048191
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas más ligero. Es normal que estos primeros pasos traigan algo de alivio. Recuerda que puedes volver a hablar conmigo cuando lo necesites. Te deseo lo mejor hasta nuestra próxima sesión. ¡Cuídate!",
+      "timestamp": 1764048193
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate también. Hasta la próxima.",
+      "timestamp": 1764048193
+    }
+  ],
+  "notes": null
+}

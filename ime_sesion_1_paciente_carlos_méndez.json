@@ -1,0 +1,275 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:18:24Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1806142033,
+  "id": "54b2d73f-eb93-4982-96b9-ab01b2c382c0",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Carlos Méndez": {
+      "name": "Carlos Méndez",
+      "age": 22,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IME) | estudiante de Ingeniería Mecánica y Eléctrica en la Ibero de 6to semestre; le gustan los autos, las películas de acción y pasar tiempo con sus amigos.",
+      "personality": "práctico y reservado",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, no estoy acostumbrado a esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Te gustaría compartir qué es lo que más te inquieta?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Creo que lo que más me inquieta es la sensación de que no tengo control sobre mis emociones. A veces me siento muy abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, sentirse abrumado puede ser muy difícil de manejar. Hablemos de esas emociones y exploremos juntos qué situaciones te hacen sentir así. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me parece bien. Hay momentos en la escuela que me generan mucha presión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La presión escolar puede ser bastante intensa. ¿Puedes contarme un poco más sobre esas situaciones específicas que te hacen sentir presionado?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "A menudo, siento mucha presión con los exámenes y las entregas de proyectos. Me preocupa no cumplir con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir presión ante los exámenes y proyectos, ya que queremos dar lo mejor de nosotros mismos. ¿Cómo sueles manejar esa presión cuando se presenta?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "A veces trato de organizarme, pero muchas veces termino sintiéndome abrumado y no sé por dónde empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La organización puede ser una herramienta muy útil, pero cuando hay demasiada presión, es fácil perder el enfoque. Podemos trabajar en algunas estrategias para que te sientas más seguro al abordar esas tareas. ¿Te gustaría explorar algunas técnicas de manejo del tiempo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, eso me gustaría. Creo que aprender a manejar mejor mi tiempo me ayudaría a sentirme menos abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, manejar el tiempo puede marcar una gran diferencia. Una técnica que podría ayudarte es la técnica Pomodoro, que implica trabajar en intervalos cortos y tomar breves descansos. ¿Te gustaría que te explique cómo funciona?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me parece interesante. Me gustaría saber más sobre cómo aplicar esa técnica."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, la técnica Pomodoro consiste en trabajar durante 25 minutos en una tarea, luego tomar un descanso de 5 minutos. Después de cuatro \"Pomodoros\", haces un descanso más largo de 15-30 minutos. Esto puede ayudarte a mantenerte enfocado y reducir la sensación de agobio. ¿Te gustaría probarlo en tu próxima tarea?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, creo que podría funcionarme. A ver si así logro concentrarme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Recuerda que es importante ser paciente contigo mismo mientras te adaptas a esta nueva técnica. Estoy aquí para apoyarte en este proceso. ¿Hay algo más sobre lo que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "No, creo que por ahora eso es suficiente. Aprecio mucho tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes apoyado. Recuerda que aquí estaré para lo que necesites. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "¡Gracias! Cuídate también."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047883
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, no estoy acostumbrado a esto.",
+      "timestamp": 1764047884
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Te gustaría compartir qué es lo que más te inquieta?",
+      "timestamp": 1764047885
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que lo que más me inquieta es la sensación de que no tengo control sobre mis emociones. A veces me siento muy abrumado.",
+      "timestamp": 1764047886
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, sentirse abrumado puede ser muy difícil de manejar. Hablemos de esas emociones y exploremos juntos qué situaciones te hacen sentir así. ¿Te parece bien?",
+      "timestamp": 1764047888
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Hay momentos en la escuela que me generan mucha presión.",
+      "timestamp": 1764047889
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La presión escolar puede ser bastante intensa. ¿Puedes contarme un poco más sobre esas situaciones específicas que te hacen sentir presionado?",
+      "timestamp": 1764047890
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A menudo, siento mucha presión con los exámenes y las entregas de proyectos. Me preocupa no cumplir con las expectativas.",
+      "timestamp": 1764047890
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir presión ante los exámenes y proyectos, ya que queremos dar lo mejor de nosotros mismos. ¿Cómo sueles manejar esa presión cuando se presenta?",
+      "timestamp": 1764047891
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces trato de organizarme, pero muchas veces termino sintiéndome abrumado y no sé por dónde empezar.",
+      "timestamp": 1764047892
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La organización puede ser una herramienta muy útil, pero cuando hay demasiada presión, es fácil perder el enfoque. Podemos trabajar en algunas estrategias para que te sientas más seguro al abordar esas tareas. ¿Te gustaría explorar algunas técnicas de manejo del tiempo?",
+      "timestamp": 1764047895
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que aprender a manejar mejor mi tiempo me ayudaría a sentirme menos abrumado.",
+      "timestamp": 1764047895
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, manejar el tiempo puede marcar una gran diferencia. Una técnica que podría ayudarte es la técnica Pomodoro, que implica trabajar en intervalos cortos y tomar breves descansos. ¿Te gustaría que te explique cómo funciona?",
+      "timestamp": 1764047897
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece interesante. Me gustaría saber más sobre cómo aplicar esa técnica.",
+      "timestamp": 1764047898
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, la técnica Pomodoro consiste en trabajar durante 25 minutos en una tarea, luego tomar un descanso de 5 minutos. Después de cuatro \"Pomodoros\", haces un descanso más largo de 15-30 minutos. Esto puede ayudarte a mantenerte enfocado y reducir la sensación de agobio. ¿Te gustaría probarlo en tu próxima tarea?",
+      "timestamp": 1764047900
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría funcionarme. A ver si así logro concentrarme mejor.",
+      "timestamp": 1764047900
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Recuerda que es importante ser paciente contigo mismo mientras te adaptas a esta nueva técnica. Estoy aquí para apoyarte en este proceso. ¿Hay algo más sobre lo que te gustaría hablar hoy?",
+      "timestamp": 1764047901
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora eso es suficiente. Aprecio mucho tu ayuda.",
+      "timestamp": 1764047902
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes apoyado. Recuerda que aquí estaré para lo que necesites. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764047904
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también.",
+      "timestamp": 1764047904
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,231 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:06:07Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1126821810,
+  "id": "25aa0451-8df6-4e58-a9b1-fdf7eeb06155",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Diego Paredes": {
+      "name": "Diego Paredes",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DP) | estudiante de Diseño de Producto en la Ibero de 4to semestre; le gustan las cosas bien hechas, tomar fotos a objetos curiosos y ver series para despejarse.",
+      "personality": "perfeccionista y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Diego Paredes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para escucharte y acompañarte en este proceso. ¿Qué te gustaría compartir primero?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Creo que lo primero que necesito compartir es que últimamente me he sentido un poco perdido. No sé muy bien cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, sentirse perdido puede ser muy abrumador. Vamos a explorar juntos esa sensación y lo que puede estar detrás de ella. ¿Qué situaciones te han llevado a sentirte así?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Principalmente la presión de la escuela y querer hacer todo perfectamente. A veces siento que no cumplo con mis propias expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy común experimentar esa presión, especialmente en el ámbito académico. La búsqueda de la perfección puede generar mucha ansiedad. ¿Te gustaría hablar sobre qué expectativas tienes para ti mismo y cómo te afectan en tu día a día?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, tengo muchas expectativas sobre mis proyectos en la universidad. Quiero que todo salga bien, pero a veces me siento abrumado y eso me hace dudar de mí mismo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse abrumado cuando las expectativas son altas. A veces, esas dudas pueden entorpecer nuestro rendimiento. Hablemos sobre las estrategias que podrías utilizar para manejar mejor esa presión. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, me parece bien. Creo que necesito aprender a soltar un poco y ser más amable conmigo mismo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso. La autocompasión es fundamental. Podríamos trabajar en ejercicios que te ayuden a ser más amable contigo mismo. ¿Te gustaría intentar algunos en nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, me gustaría intentar eso. Creo que podría ayudarme a sentirme un poco mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés abierto a intentarlo. Será un proceso gradual, pero estoy aquí para apoyarte. Para concluir por hoy, ¿hay alguna otra cosa que te gustaría abordar antes de terminar nuestra sesión?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "No, creo que está bien por ahora. Aprecio mucho tu apoyo y el espacio para hablar de esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas así. Recuerda que aquí siempre tendrás un espacio seguro para compartir lo que necesites. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "¡Gracias! Nos vemos pronto. ¡Cuídate!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Diego Paredes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047144
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis sentimientos.",
+      "timestamp": 1764047147
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para escucharte y acompañarte en este proceso. ¿Qué te gustaría compartir primero?",
+      "timestamp": 1764047148
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que lo primero que necesito compartir es que últimamente me he sentido un poco perdido. No sé muy bien cómo manejarlo.",
+      "timestamp": 1764047149
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, sentirse perdido puede ser muy abrumador. Vamos a explorar juntos esa sensación y lo que puede estar detrás de ella. ¿Qué situaciones te han llevado a sentirte así?",
+      "timestamp": 1764047151
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente la presión de la escuela y querer hacer todo perfectamente. A veces siento que no cumplo con mis propias expectativas.",
+      "timestamp": 1764047152
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy común experimentar esa presión, especialmente en el ámbito académico. La búsqueda de la perfección puede generar mucha ansiedad. ¿Te gustaría hablar sobre qué expectativas tienes para ti mismo y cómo te afectan en tu día a día?",
+      "timestamp": 1764047153
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, tengo muchas expectativas sobre mis proyectos en la universidad. Quiero que todo salga bien, pero a veces me siento abrumado y eso me hace dudar de mí mismo.",
+      "timestamp": 1764047155
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse abrumado cuando las expectativas son altas. A veces, esas dudas pueden entorpecer nuestro rendimiento. Hablemos sobre las estrategias que podrías utilizar para manejar mejor esa presión. ¿Te parece bien?",
+      "timestamp": 1764047157
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Creo que necesito aprender a soltar un poco y ser más amable conmigo mismo.",
+      "timestamp": 1764047158
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso. La autocompasión es fundamental. Podríamos trabajar en ejercicios que te ayuden a ser más amable contigo mismo. ¿Te gustaría intentar algunos en nuestra próxima sesión?",
+      "timestamp": 1764047160
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentar eso. Creo que podría ayudarme a sentirme un poco mejor.",
+      "timestamp": 1764047161
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés abierto a intentarlo. Será un proceso gradual, pero estoy aquí para apoyarte. Para concluir por hoy, ¿hay alguna otra cosa que te gustaría abordar antes de terminar nuestra sesión?",
+      "timestamp": 1764047163
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que está bien por ahora. Aprecio mucho tu apoyo y el espacio para hablar de esto.",
+      "timestamp": 1764047164
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas así. Recuerda que aquí siempre tendrás un espacio seguro para compartir lo que necesites. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764047165
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos pronto. ¡Cuídate!",
+      "timestamp": 1764047167
+    }
+  ],
+  "notes": null
+}

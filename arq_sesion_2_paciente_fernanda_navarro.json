@@ -1,0 +1,407 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:49:22Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 615067133,
+  "id": "7ae5ddcb-f496-4d29-a256-d9e0c82b96ad",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernanda Navarro": {
+      "name": "Fernanda Navarro",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ARQ) | estudiante de Arquitectura en la Ibero de 5to semestre; le gusta dibujar, ver fotos de lugares bonitos en redes y pasar tiempo en cafés tranquilos.",
+      "personality": "creativa pero reservada",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia y no estoy acostumbrada a hablar de mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirte nerviosa, especialmente en una primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Te gustaría compartir un poco sobre lo que te trae hoy aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que he estado sintiéndome un poco perdida y triste últimamente, y no estoy segura de cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, sentirse perdido y triste puede ser muy difícil. Me gustaría explorar contigo qué situaciones o pensamientos han estado contribuyendo a esos sentimientos."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "He estado sintiéndome abrumada con mis estudios de arquitectura y a veces me parece que no puedo seguir el ritmo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que los estudios de arquitectura puedan ser una carga pesada. ¿Hay momentos específicos en los que sientes más esa presión?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, especialmente cuando tengo fechas de entrega o exámenes, me siento muy estresada y como si no pudiera con la presión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El estrés en momentos de alta presión puede ser abrumador. ¿Has encontrado alguna estrategia en el pasado que te haya ayudado a sobrellevar esos momentos difíciles?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "A veces dibujo o escucho música, pero no siempre me ayuda como antes. Me siento agotada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, el agotamiento puede hacer que incluso las actividades que antes te relajaban ya no tengan el mismo efecto. Es importante encontrar maneras de cuidarte en momentos difíciles. ¿Te gustaría que exploráramos nuevas estrategias para manejar ese estrés?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría eso. Siento que necesito encontrar algo que realmente funcione para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, juntos podemos buscar tácticas que se ajusten a tus necesidades. Comencemos por hablar sobre tus intereses y actividades que te gusten. ¿Hay algo más que disfrutes hacer en tu tiempo libre?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gusta pasar tiempo en cafés tranquilos y ver fotos de lugares bonitos en redes. Eso me inspira, pero a veces me siento demasiado cansada para salir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es maravilloso que encontrar inspiración en esos lugares te traiga alegría. Tal vez podrías intentar recrear esa atmósfera tranquila en casa. ¿Qué te parece la idea de dedicar un tiempo para disfrutar de esa energía sin tener que salir?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me parece una buena idea. Quizás podría crear un pequeño rincón en mi casa donde pueda relajarme y dibujar, algo que me haga sentir en un café."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un gran paso, crear un espacio que te inspire puede ser muy beneficioso. Asegúrate de que sea cómodo y agradable para ti. ¿Te gustaría que te ayudara a pensar en algunos elementos que podrías incluir en ese rincón?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, eso me gustaría. Quizás algo de luz suave, plantas y mis materiales de dibujo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son excelentes ideas. La luz suave y las plantas pueden crear un ambiente muy acogedor y relajante. Asegúrate de tener a la mano tus materiales de dibujo para que puedas empezar a usar ese espacio cada vez que lo necesites. ¿Te gustaría agregar algo más?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Tal vez una pequeña estantería para poner algunos libros que me inspiren, eso me podría ayudar a tener más ideas cuando dibuje."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Perfecto! Tener una pequeña estantería con libros inspiradores puede ser una gran fuente de motivación. Así podrás acceder a ellos fácilmente y quizás también a tus dibujos cuando necesites un impulso creativo. Me alegra que estés dando estos pasos hacia un espacio más personal y relajante."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, me siento un poco más animada al pensar en ello. Espero que realmente me ayude a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más animada. Recuerda que tomarte tiempo para ti misma y crear un espacio que te inspire es un acto de autocuidado. Estoy aquí para seguir apoyándote en este proceso."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, eso significa mucho para mí. Aprecio tu apoyo y me hace sentir un poco más segura."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un placer poder apoyarte. Confía en que con el tiempo y práctica, podrás encontrar formas de manejar el estrés y explorar tus sentimientos. Estoy aquí para ti en cada paso del camino."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Lo aprecio de verdad. Espero poder seguir trabajando en esto y sentirme mejor con el tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una actitud positiva, y estoy segura de que con tus esfuerzos y compromiso lo lograrás. Recuerda que cada pequeño paso cuenta. Estoy aquí para acompañarte en este viaje."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, eso me motiva a seguir adelante. Aprecio que estés aquí para ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Estoy aquí para apoyarte siempre que lo necesites. Si alguna vez sientes que necesitas volver a hablar o explorar más, no dudes en hacerlo. ¡Eres muy valiente por buscar ayuda!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, intentaré recordar eso. Me siento un poco más tranquila después de nuestra charla."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. Esa es una señal de que estás haciendo progresos. Siempre puedes volver a nuestras sesiones cuando lo necesites. Cuídate mucho y sigue practicando el autocuidado. ¡Hasta la próxima!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "¡Gracias! Cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046121
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia y no estoy acostumbrada a hablar de mis sentimientos.",
+      "timestamp": 1764046122
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirte nerviosa, especialmente en una primera sesión. Estoy aquí para ayudarte y apoyarte. ¿Te gustaría compartir un poco sobre lo que te trae hoy aquí?",
+      "timestamp": 1764046123
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que he estado sintiéndome un poco perdida y triste últimamente, y no estoy segura de cómo manejarlo.",
+      "timestamp": 1764046124
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, sentirse perdido y triste puede ser muy difícil. Me gustaría explorar contigo qué situaciones o pensamientos han estado contribuyendo a esos sentimientos.",
+      "timestamp": 1764046125
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He estado sintiéndome abrumada con mis estudios de arquitectura y a veces me parece que no puedo seguir el ritmo.",
+      "timestamp": 1764046126
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que los estudios de arquitectura puedan ser una carga pesada. ¿Hay momentos específicos en los que sientes más esa presión?",
+      "timestamp": 1764046127
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, especialmente cuando tengo fechas de entrega o exámenes, me siento muy estresada y como si no pudiera con la presión.",
+      "timestamp": 1764046127
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El estrés en momentos de alta presión puede ser abrumador. ¿Has encontrado alguna estrategia en el pasado que te haya ayudado a sobrellevar esos momentos difíciles?",
+      "timestamp": 1764046128
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces dibujo o escucho música, pero no siempre me ayuda como antes. Me siento agotada.",
+      "timestamp": 1764046129
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, el agotamiento puede hacer que incluso las actividades que antes te relajaban ya no tengan el mismo efecto. Es importante encontrar maneras de cuidarte en momentos difíciles. ¿Te gustaría que exploráramos nuevas estrategias para manejar ese estrés?",
+      "timestamp": 1764046131
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Siento que necesito encontrar algo que realmente funcione para mí.",
+      "timestamp": 1764046131
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, juntos podemos buscar tácticas que se ajusten a tus necesidades. Comencemos por hablar sobre tus intereses y actividades que te gusten. ¿Hay algo más que disfrutes hacer en tu tiempo libre?",
+      "timestamp": 1764046133
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta pasar tiempo en cafés tranquilos y ver fotos de lugares bonitos en redes. Eso me inspira, pero a veces me siento demasiado cansada para salir.",
+      "timestamp": 1764046134
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es maravilloso que encontrar inspiración en esos lugares te traiga alegría. Tal vez podrías intentar recrear esa atmósfera tranquila en casa. ¿Qué te parece la idea de dedicar un tiempo para disfrutar de esa energía sin tener que salir?",
+      "timestamp": 1764046135
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Quizás podría crear un pequeño rincón en mi casa donde pueda relajarme y dibujar, algo que me haga sentir en un café.",
+      "timestamp": 1764046136
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un gran paso, crear un espacio que te inspire puede ser muy beneficioso. Asegúrate de que sea cómodo y agradable para ti. ¿Te gustaría que te ayudara a pensar en algunos elementos que podrías incluir en ese rincón?",
+      "timestamp": 1764046138
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Quizás algo de luz suave, plantas y mis materiales de dibujo.",
+      "timestamp": 1764046139
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son excelentes ideas. La luz suave y las plantas pueden crear un ambiente muy acogedor y relajante. Asegúrate de tener a la mano tus materiales de dibujo para que puedas empezar a usar ese espacio cada vez que lo necesites. ¿Te gustaría agregar algo más?",
+      "timestamp": 1764046141
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez una pequeña estantería para poner algunos libros que me inspiren, eso me podría ayudar a tener más ideas cuando dibuje.",
+      "timestamp": 1764046142
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Perfecto! Tener una pequeña estantería con libros inspiradores puede ser una gran fuente de motivación. Así podrás acceder a ellos fácilmente y quizás también a tus dibujos cuando necesites un impulso creativo. Me alegra que estés dando estos pasos hacia un espacio más personal y relajante.",
+      "timestamp": 1764046144
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, me siento un poco más animada al pensar en ello. Espero que realmente me ayude a sentirme mejor.",
+      "timestamp": 1764046145
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más animada. Recuerda que tomarte tiempo para ti misma y crear un espacio que te inspire es un acto de autocuidado. Estoy aquí para seguir apoyándote en este proceso.",
+      "timestamp": 1764046147
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, eso significa mucho para mí. Aprecio tu apoyo y me hace sentir un poco más segura.",
+      "timestamp": 1764046148
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un placer poder apoyarte. Confía en que con el tiempo y práctica, podrás encontrar formas de manejar el estrés y explorar tus sentimientos. Estoy aquí para ti en cada paso del camino.",
+      "timestamp": 1764046150
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo aprecio de verdad. Espero poder seguir trabajando en esto y sentirme mejor con el tiempo.",
+      "timestamp": 1764046151
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una actitud positiva, y estoy segura de que con tus esfuerzos y compromiso lo lograrás. Recuerda que cada pequeño paso cuenta. Estoy aquí para acompañarte en este viaje.",
+      "timestamp": 1764046155
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, eso me motiva a seguir adelante. Aprecio que estés aquí para ayudarme.",
+      "timestamp": 1764046157
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Estoy aquí para apoyarte siempre que lo necesites. Si alguna vez sientes que necesitas volver a hablar o explorar más, no dudes en hacerlo. ¡Eres muy valiente por buscar ayuda!",
+      "timestamp": 1764046158
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, intentaré recordar eso. Me siento un poco más tranquila después de nuestra charla.",
+      "timestamp": 1764046159
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. Esa es una señal de que estás haciendo progresos. Siempre puedes volver a nuestras sesiones cuando lo necesites. Cuídate mucho y sigue practicando el autocuidado. ¡Hasta la próxima!",
+      "timestamp": 1764046161
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta la próxima.",
+      "timestamp": 1764046162
+    }
+  ],
+  "notes": null
+}

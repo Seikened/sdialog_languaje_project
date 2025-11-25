@@ -1,0 +1,583 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:19:10Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 465366727,
+  "id": "e1dbffb6-12c2-48a0-9917-ea002fbba5e1",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Valeria Campos": {
+      "name": "Valeria Campos",
+      "age": 23,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IND) | estudiante de Ingeniería Industrial en la Ibero de 7mo semestre; le gusta tener todo organizado, usar agendas, ir a cafés y pasar tiempo con sus amigas.",
+      "personality": "organizada pero ansiosa",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Valeria Campos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en terapia y no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para guiarte y apoyarte en este proceso. ¿Te gustaría que te explique cómo funcionan nuestras sesiones?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría saber cómo funcionan las sesiones. Quiero sentirme un poco más cómoda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, las sesiones suelen durar alrededor de 50 minutos. Hablaremos sobre lo que te preocupa y exploraremos tus pensamientos y emociones. Mi papel es escucharte y ayudarte a encontrar herramientas para manejar lo que sientes. ¿Hay algún tema en particular que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Creo que lo que más me preocupa es la ansiedad que siento con mis estudios. A veces me siento abrumada y no sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La ansiedad en los estudios es algo muy común y normal. Podemos trabajar juntos para identificar los desencadenantes de esa ansiedad y desarrollar estrategias para manejarla. ¿Cuándo sientes que la ansiedad se intensifica más?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Generalmente se intensifica cuando tengo exámenes o entregas importantes. Siento que tengo que ser perfecta y eso me agobia mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esa presión por ser perfecta puede ser realmente abrumadora. Hablaremos sobre esa necesidad de perfección y cómo puede afectar tu bienestar. ¿Te parece si comenzamos a explorar esos pensamientos?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me parece bien. Quiero entender mejor por qué siento esa necesidad de ser perfecta."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, explorar la raíz de esa necesidad puede ser muy revelador. ¿Puedes compartir conmigo cómo te sientes cuando piensas en la perfección y qué tipo de pensamientos surgen en esos momentos?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me siento muy ansiosa y estresada. Empiezo a pensar que si no logro hacer todo perfecto, no valgo la pena o decepciono a los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es doloroso sentir que tu valía depende de la perfección. Esa conexión puede intensificar la ansiedad y el estrés. Vamos a trabajar en separar tu valía personal de tus logros. ¿Te gustaría que exploremos algunas creencias que pueden estar alimentando esos pensamientos?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, eso me gustaría. Creo que entender esas creencias podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, identificar y cuestionar esas creencias es un paso importante. Empecemos por reflexionar sobre de dónde crees que provienen esas ideas sobre la perfección y la valía. ¿Recuerdas alguna experiencia en tu vida que pueda haber influido en estos pensamientos?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, creo que desde pequeña siempre se me ha hablado de la importancia de ser la mejor en todo, especialmente en la escuela. A veces siento que no cumplo con esas expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que esas expectativas tempranas hayan impactado tu forma de ver el éxito y la valía personal. Vamos a trabajar en desmantelar esas creencias y reemplazarlas por pensamientos más positivos y realistas. ¿Te gustaría intentar un ejercicio para empezar a cambiar esa perspectiva?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ayudarme a ver las cosas de otra manera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Vamos a hacer un ejercicio de reestructuración cognitiva. Te invitaré a que identifiques un pensamiento negativo que tengas sobre ti misma en relación con la perfección. Luego, juntos buscaremos una interpretación más equilibrada y amable. ¿Tienes un pensamiento en mente?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, un pensamiento que tengo a menudo es que si no saco la mejor calificación, soy un fracaso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un pensamiento muy duro. Ahora, intentemos reformularlo. ¿Qué tal si lo cambiamos por algo como: \"Hacer lo mejor que puedo es lo más importante, y mis calificaciones no definen mi valía como persona\"? ¿Cómo te suena esa perspectiva?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me suena mucho mejor. Creo que reconocer que mi esfuerzo cuenta más que el resultado podría aliviar un poco la presión que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Exactamente! Reconocer tu esfuerzo es fundamental y puede ser liberador. Practicar esta nueva perspectiva te ayudará a reducir la presión y a ser más compasiva contigo misma. ¿Te gustaría seguir explorando otras creencias o enfoques que puedan ayudarte?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, eso me gustaría. Siento que hay mucho más que podría explorar sobre mis pensamientos y cómo me afectan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés dispuesta a seguir explorando. Podemos hablar sobre otras situaciones en las que sientas esa presión o esos pensamientos limitantes. ¿Hay algún otro ámbito de tu vida, además de los estudios, donde sientas que la perfección juega un papel importante?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, en mis relaciones también siento esa presión. A veces creo que tengo que ser la amiga perfecta para que mis amigas me quieran."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir esa presión en las relaciones. La necesidad de ser la \"amiga perfecta\" puede llevarte a descuidar tus propias necesidades. Hablemos sobre cómo puedes ser auténtica en tus amistades sin sentirte presionada. ¿Qué significa para ti ser una buena amiga?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Para mí, ser una buena amiga significa estar presente, escuchar y apoyar, pero a veces me siento como si tuviera que hacer más para demostrarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas cualidades son realmente valiosas y demuestran el cariño que tienes por tus amigas. Recuerda que ser presente y escuchar ya es suficiente para construir relaciones significativas. Vamos a trabajar en cómo puedes ser más gentil contigo misma y permitirte ser auténtica sin la necesidad de \"hacer más\". ¿Te gustaría explorar cómo comunicar tus necesidades a tus amigas?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, eso me gustaría. Creo que comunicar mis necesidades sería un buen paso para sentirme más cómoda en mis amistades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, la comunicación es clave en cualquier relación. Podemos practicar cómo expresar tus necesidades de manera clara y honesta. Podrías empezar diciendo algo como: \"A veces me siento abrumada y necesito un poco de espacio para mí\". ¿Cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me siento un poco nerviosa, pero también aliviada de que eso podría ayudarme a ser más abierta con mis amigas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural sentir nervios al comunicarte de manera más abierta, pero es un paso importante hacia relaciones más saludables. Con el tiempo, esto puede aliviar muchas de las presiones que sientes. Recuerda que tus amigas también pueden apreciarlo. ¿Te gustaría trabajar en más frases o estrategias para ayudarte a sentirte más segura al comunicarte?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, eso me ayudaría. Quiero sentirme más segura al expresarme con ellas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Vamos a crear algunas frases que puedas usar. Por ejemplo, puedes decir: \"Quiero compartir algo que me preocupa\" o \"Me gustaría tener un tiempo para mí, espero que puedan entenderlo\". Practicar estas frases puede ayudarte a sentirte más cómoda. ¿Te gustaría intentar decir alguna de ellas en voz alta?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría intentarlo. Creo que practicarlo me ayudará. \"Quiero compartir algo que me preocupa\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Muy bien! Suena genial. Practicarlo en voz alta es un gran paso. ¿Te sientes un poco más cómoda al decirlo? Recuerda que tu voz y tus necesidades son importantes. Esto puede ayudarte a abrir el camino hacia conversaciones más sinceras con tus amigas."
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, un poco más cómoda. Creo que decirlo en voz alta me hace sentir más segura."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso de escuchar. La práctica definitivamente ayuda a construir confianza. A medida que continúes comunicando tus necesidades, te sentirás más empoderada en tus relaciones. ¿Hay algo más que te gustaría explorar o practicar antes de que termine nuestra sesión?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me gustaría hablar un poco más sobre cómo manejar la ansiedad en momentos de presión. A veces, esos momentos me paralizan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, manejar la ansiedad en momentos de presión es fundamental. Podemos hablar sobre técnicas de manejo del estrés, como la respiración profunda y la visualización positiva. ¿Te gustaría aprender una técnica simple de respiración que puedas usar en esos momentos?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, eso me gustaría. Creo que una técnica de respiración podría ayudarme a calmarme cuando me siento abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial, aquí tienes una técnica sencilla llamada \"respiración 4-7-8\". Inhala profundamente por la nariz contando hasta 4, mantén la respiración durante 7 segundos y luego exhala lentamente por la boca contando hasta 8. Practiquemos juntos un par de veces. ¿Listo? Inhala... 1, 2, 3, 4... Mantén... 1, 2, 3, 4, 5, 6, 7... Y exhala... 1, 2, 3, 4, 5, 6, 7, 8. ¿Cómo te sientes?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me siento un poco más tranquila. La respiración me ayuda a centrarme y a relajarme un poco. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que te sientas así. La respiración consciente es una herramienta poderosa para manejar la ansiedad. Recuerda que puedes usarla en cualquier momento que te sientas abrumada. ¿Hay algo más que te gustaría trabajar antes de terminar nuestra sesión?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "No, creo que hemos abordado muchas cosas valiosas hoy. Me siento agradecida por todo lo que hemos hablado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes así. Ha sido un placer trabajar contigo y explorar estos temas. Recuerda que puedes aplicar lo que has aprendido hoy. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "¡Gracias! Cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Valeria Campos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047884
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764047885
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para guiarte y apoyarte en este proceso. ¿Te gustaría que te explique cómo funcionan nuestras sesiones?",
+      "timestamp": 1764047886
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber cómo funcionan las sesiones. Quiero sentirme un poco más cómoda.",
+      "timestamp": 1764047887
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, las sesiones suelen durar alrededor de 50 minutos. Hablaremos sobre lo que te preocupa y exploraremos tus pensamientos y emociones. Mi papel es escucharte y ayudarte a encontrar herramientas para manejar lo que sientes. ¿Hay algún tema en particular que te gustaría abordar hoy?",
+      "timestamp": 1764047889
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que lo que más me preocupa es la ansiedad que siento con mis estudios. A veces me siento abrumada y no sé cómo manejarlo.",
+      "timestamp": 1764047889
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La ansiedad en los estudios es algo muy común y normal. Podemos trabajar juntos para identificar los desencadenantes de esa ansiedad y desarrollar estrategias para manejarla. ¿Cuándo sientes que la ansiedad se intensifica más?",
+      "timestamp": 1764047891
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Generalmente se intensifica cuando tengo exámenes o entregas importantes. Siento que tengo que ser perfecta y eso me agobia mucho.",
+      "timestamp": 1764047892
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esa presión por ser perfecta puede ser realmente abrumadora. Hablaremos sobre esa necesidad de perfección y cómo puede afectar tu bienestar. ¿Te parece si comenzamos a explorar esos pensamientos?",
+      "timestamp": 1764047894
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero entender mejor por qué siento esa necesidad de ser perfecta.",
+      "timestamp": 1764047895
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, explorar la raíz de esa necesidad puede ser muy revelador. ¿Puedes compartir conmigo cómo te sientes cuando piensas en la perfección y qué tipo de pensamientos surgen en esos momentos?",
+      "timestamp": 1764047896
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento muy ansiosa y estresada. Empiezo a pensar que si no logro hacer todo perfecto, no valgo la pena o decepciono a los demás.",
+      "timestamp": 1764047898
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es doloroso sentir que tu valía depende de la perfección. Esa conexión puede intensificar la ansiedad y el estrés. Vamos a trabajar en separar tu valía personal de tus logros. ¿Te gustaría que exploremos algunas creencias que pueden estar alimentando esos pensamientos?",
+      "timestamp": 1764047900
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que entender esas creencias podría ayudarme a sentirme mejor.",
+      "timestamp": 1764047901
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, identificar y cuestionar esas creencias es un paso importante. Empecemos por reflexionar sobre de dónde crees que provienen esas ideas sobre la perfección y la valía. ¿Recuerdas alguna experiencia en tu vida que pueda haber influido en estos pensamientos?",
+      "timestamp": 1764047902
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que desde pequeña siempre se me ha hablado de la importancia de ser la mejor en todo, especialmente en la escuela. A veces siento que no cumplo con esas expectativas.",
+      "timestamp": 1764047903
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que esas expectativas tempranas hayan impactado tu forma de ver el éxito y la valía personal. Vamos a trabajar en desmantelar esas creencias y reemplazarlas por pensamientos más positivos y realistas. ¿Te gustaría intentar un ejercicio para empezar a cambiar esa perspectiva?",
+      "timestamp": 1764047905
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ayudarme a ver las cosas de otra manera.",
+      "timestamp": 1764047906
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Vamos a hacer un ejercicio de reestructuración cognitiva. Te invitaré a que identifiques un pensamiento negativo que tengas sobre ti misma en relación con la perfección. Luego, juntos buscaremos una interpretación más equilibrada y amable. ¿Tienes un pensamiento en mente?",
+      "timestamp": 1764047908
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, un pensamiento que tengo a menudo es que si no saco la mejor calificación, soy un fracaso.",
+      "timestamp": 1764047908
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un pensamiento muy duro. Ahora, intentemos reformularlo. ¿Qué tal si lo cambiamos por algo como: \"Hacer lo mejor que puedo es lo más importante, y mis calificaciones no definen mi valía como persona\"? ¿Cómo te suena esa perspectiva?",
+      "timestamp": 1764047910
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me suena mucho mejor. Creo que reconocer que mi esfuerzo cuenta más que el resultado podría aliviar un poco la presión que siento.",
+      "timestamp": 1764047911
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Exactamente! Reconocer tu esfuerzo es fundamental y puede ser liberador. Practicar esta nueva perspectiva te ayudará a reducir la presión y a ser más compasiva contigo misma. ¿Te gustaría seguir explorando otras creencias o enfoques que puedan ayudarte?",
+      "timestamp": 1764047912
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Siento que hay mucho más que podría explorar sobre mis pensamientos y cómo me afectan.",
+      "timestamp": 1764047913
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés dispuesta a seguir explorando. Podemos hablar sobre otras situaciones en las que sientas esa presión o esos pensamientos limitantes. ¿Hay algún otro ámbito de tu vida, además de los estudios, donde sientas que la perfección juega un papel importante?",
+      "timestamp": 1764047915
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, en mis relaciones también siento esa presión. A veces creo que tengo que ser la amiga perfecta para que mis amigas me quieran.",
+      "timestamp": 1764047916
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir esa presión en las relaciones. La necesidad de ser la \"amiga perfecta\" puede llevarte a descuidar tus propias necesidades. Hablemos sobre cómo puedes ser auténtica en tus amistades sin sentirte presionada. ¿Qué significa para ti ser una buena amiga?",
+      "timestamp": 1764047918
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para mí, ser una buena amiga significa estar presente, escuchar y apoyar, pero a veces me siento como si tuviera que hacer más para demostrarlo.",
+      "timestamp": 1764047919
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas cualidades son realmente valiosas y demuestran el cariño que tienes por tus amigas. Recuerda que ser presente y escuchar ya es suficiente para construir relaciones significativas. Vamos a trabajar en cómo puedes ser más gentil contigo misma y permitirte ser auténtica sin la necesidad de \"hacer más\". ¿Te gustaría explorar cómo comunicar tus necesidades a tus amigas?",
+      "timestamp": 1764047921
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que comunicar mis necesidades sería un buen paso para sentirme más cómoda en mis amistades.",
+      "timestamp": 1764047922
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, la comunicación es clave en cualquier relación. Podemos practicar cómo expresar tus necesidades de manera clara y honesta. Podrías empezar diciendo algo como: \"A veces me siento abrumada y necesito un poco de espacio para mí\". ¿Cómo te sientes al respecto?",
+      "timestamp": 1764047923
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco nerviosa, pero también aliviada de que eso podría ayudarme a ser más abierta con mis amigas.",
+      "timestamp": 1764047925
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural sentir nervios al comunicarte de manera más abierta, pero es un paso importante hacia relaciones más saludables. Con el tiempo, esto puede aliviar muchas de las presiones que sientes. Recuerda que tus amigas también pueden apreciarlo. ¿Te gustaría trabajar en más frases o estrategias para ayudarte a sentirte más segura al comunicarte?",
+      "timestamp": 1764047927
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría. Quiero sentirme más segura al expresarme con ellas.",
+      "timestamp": 1764047928
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Vamos a crear algunas frases que puedas usar. Por ejemplo, puedes decir: \"Quiero compartir algo que me preocupa\" o \"Me gustaría tener un tiempo para mí, espero que puedan entenderlo\". Practicar estas frases puede ayudarte a sentirte más cómoda. ¿Te gustaría intentar decir alguna de ellas en voz alta?",
+      "timestamp": 1764047930
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que practicarlo me ayudará. \"Quiero compartir algo que me preocupa\".",
+      "timestamp": 1764047931
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Muy bien! Suena genial. Practicarlo en voz alta es un gran paso. ¿Te sientes un poco más cómoda al decirlo? Recuerda que tu voz y tus necesidades son importantes. Esto puede ayudarte a abrir el camino hacia conversaciones más sinceras con tus amigas.",
+      "timestamp": 1764047933
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, un poco más cómoda. Creo que decirlo en voz alta me hace sentir más segura.",
+      "timestamp": 1764047935
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso de escuchar. La práctica definitivamente ayuda a construir confianza. A medida que continúes comunicando tus necesidades, te sentirás más empoderada en tus relaciones. ¿Hay algo más que te gustaría explorar o practicar antes de que termine nuestra sesión?",
+      "timestamp": 1764047936
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar un poco más sobre cómo manejar la ansiedad en momentos de presión. A veces, esos momentos me paralizan.",
+      "timestamp": 1764047937
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, manejar la ansiedad en momentos de presión es fundamental. Podemos hablar sobre técnicas de manejo del estrés, como la respiración profunda y la visualización positiva. ¿Te gustaría aprender una técnica simple de respiración que puedas usar en esos momentos?",
+      "timestamp": 1764047939
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que una técnica de respiración podría ayudarme a calmarme cuando me siento abrumada.",
+      "timestamp": 1764047940
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial, aquí tienes una técnica sencilla llamada \"respiración 4-7-8\". Inhala profundamente por la nariz contando hasta 4, mantén la respiración durante 7 segundos y luego exhala lentamente por la boca contando hasta 8. Practiquemos juntos un par de veces. ¿Listo? Inhala... 1, 2, 3, 4... Mantén... 1, 2, 3, 4, 5, 6, 7... Y exhala... 1, 2, 3, 4, 5, 6, 7, 8. ¿Cómo te sientes?",
+      "timestamp": 1764047943
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila. La respiración me ayuda a centrarme y a relajarme un poco. Gracias.",
+      "timestamp": 1764047944
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que te sientas así. La respiración consciente es una herramienta poderosa para manejar la ansiedad. Recuerda que puedes usarla en cualquier momento que te sientas abrumada. ¿Hay algo más que te gustaría trabajar antes de terminar nuestra sesión?",
+      "timestamp": 1764047946
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos abordado muchas cosas valiosas hoy. Me siento agradecida por todo lo que hemos hablado.",
+      "timestamp": 1764047947
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes así. Ha sido un placer trabajar contigo y explorar estos temas. Recuerda que puedes aplicar lo que has aprendido hoy. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764047949
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta la próxima.",
+      "timestamp": 1764047950
+    }
+  ],
+  "notes": null
+}

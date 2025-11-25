@@ -1,0 +1,341 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:49:52Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 352509005,
+  "id": "bb143c37-8673-4c17-baf4-33927ea4ad35",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Mariana Flores": {
+      "name": "Mariana Flores",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DDI) | estudiante de Diseño Digital Interactivo en la Ibero de 3er semestre; le gustan los videojuegos con buena historia, ver videos cortos y estar en su compu.",
+      "personality": "tímida y muy imaginativa",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Mariana Flores, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Hola... eh, gracias. Me siento un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar de mis cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al inicio. Aquí estamos en un espacio seguro, donde puedes compartir lo que desees a tu ritmo. ¿Te gustaría empezar por contarnos qué te trae hoy aquí?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Bueno, últimamente he estado sintiéndome un poco triste y, a veces, no tengo energía para hacer lo que me gusta. Es complicado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la tristeza y la falta de energía pueden ser muy desafiantes. ¿Hay algún momento o situación en particular que te haya hecho sentir así?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, a veces en la universidad me siento abrumada con las tareas y eso me hace sentir menos motivada. Como que todo se vuelve pesado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que la presión de la universidad te afecte. La carga de tareas puede ser agobiante. ¿Has encontrado alguna forma de manejar esa sensación de abrumo hasta ahora?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "He intentado jugar videojuegos para distraerme un poco, pero a veces ni eso ayuda. Me siento atrapada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es difícil cuando las cosas que solían ayudarte ya no parecen funcionar. Sentirse atrapada puede ser abrumador. ¿Te gustaría explorar otras actividades o estrategias que podrían ayudarte a lidiar con esta sensación?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, creo que sería útil. Quisiera encontrar algo que me ayude a sentirme un poco mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés abierta a explorar nuevas estrategias. Podemos hablar sobre técnicas de manejo del estrés o actividades que te inspiren. ¿Te gustaría empezar por alguna de estas opciones?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me gustaría saber más sobre técnicas de manejo del estrés. Creo que eso podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Una técnica que muchos encuentran útil es la respiración profunda. Te guiaré a través de una pequeña práctica, si te parece bien. ¿Te gustaría intentarlo?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ser relajante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Siéntate cómodamente y cierra los ojos si te sientes a gusto. Inhalemos profundamente por la nariz contando hasta cuatro… uno, dos, tres, cuatro. Ahora, reten la respiración contando hasta cuatro… uno, dos, tres, cuatro. Y exhala lentamente por la boca contando hasta cuatro… uno, dos, tres, cuatro. Repetimos esto un par de veces más. ¿Cómo te sientes hasta ahora?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Me siento un poco más tranquila. Es agradable hacer una pausa y concentrarme en la respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar que te sientes más tranquila. Tomar pausas y concentrarte en la respiración puede ser muy reconfortante. ¿Te gustaría incorporar esta técnica en tu rutina diaria?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, creo que sería buena idea. Podría ayudarme a manejar mejor el estrés."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Definitivamente. Practicar la respiración profunda regularmente puede ayudarte a sentirte más en control. Podemos trabajar juntos en un plan para incluirlo en tu día a día. ¿Hay algún momento específico en tu rutina que crees que podrías dedicar a esto?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Tal vez por la mañana antes de comenzar mis clases. Eso podría ser un buen momento para relajarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena perfecto. Comenzar la mañana con un momento de calma puede marcar una gran diferencia en cómo te sientes durante el día. Podrías probar con unos minutos de respiración profunda antes de salir de casa. ¿Te gustaría que lo anotáramos como un objetivo para la próxima semana?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me gustaría anotarlo. Creo que tenerlo como objetivo me motivará a hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Anotaremos que practicarás la respiración profunda cada mañana antes de tus clases. Esto te ayudará a crear un hábito que puede aliviar el estrés. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "No, creo que eso es suficiente por hoy. Me siento un poco mejor solo por hablar de esto. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes un poco mejor. Recuerda que está bien tomarse su tiempo y que aquí tienes un espacio seguro. Nos veremos la próxima semana para seguir trabajando en tus objetivos. Cuídate mucho. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "¡Gracias! Cuídate también. Hasta luego."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Mariana Flores, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046152
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola... eh, gracias. Me siento un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar de mis cosas.",
+      "timestamp": 1764046153
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al inicio. Aquí estamos en un espacio seguro, donde puedes compartir lo que desees a tu ritmo. ¿Te gustaría empezar por contarnos qué te trae hoy aquí?",
+      "timestamp": 1764046155
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Bueno, últimamente he estado sintiéndome un poco triste y, a veces, no tengo energía para hacer lo que me gusta. Es complicado.",
+      "timestamp": 1764046156
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la tristeza y la falta de energía pueden ser muy desafiantes. ¿Hay algún momento o situación en particular que te haya hecho sentir así?",
+      "timestamp": 1764046158
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces en la universidad me siento abrumada con las tareas y eso me hace sentir menos motivada. Como que todo se vuelve pesado.",
+      "timestamp": 1764046159
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que la presión de la universidad te afecte. La carga de tareas puede ser agobiante. ¿Has encontrado alguna forma de manejar esa sensación de abrumo hasta ahora?",
+      "timestamp": 1764046161
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado jugar videojuegos para distraerme un poco, pero a veces ni eso ayuda. Me siento atrapada.",
+      "timestamp": 1764046162
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es difícil cuando las cosas que solían ayudarte ya no parecen funcionar. Sentirse atrapada puede ser abrumador. ¿Te gustaría explorar otras actividades o estrategias que podrían ayudarte a lidiar con esta sensación?",
+      "timestamp": 1764046164
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil. Quisiera encontrar algo que me ayude a sentirme un poco mejor.",
+      "timestamp": 1764046165
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés abierta a explorar nuevas estrategias. Podemos hablar sobre técnicas de manejo del estrés o actividades que te inspiren. ¿Te gustaría empezar por alguna de estas opciones?",
+      "timestamp": 1764046170
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber más sobre técnicas de manejo del estrés. Creo que eso podría ayudarme.",
+      "timestamp": 1764046171
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Una técnica que muchos encuentran útil es la respiración profunda. Te guiaré a través de una pequeña práctica, si te parece bien. ¿Te gustaría intentarlo?",
+      "timestamp": 1764046172
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ser relajante.",
+      "timestamp": 1764046174
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Siéntate cómodamente y cierra los ojos si te sientes a gusto. Inhalemos profundamente por la nariz contando hasta cuatro… uno, dos, tres, cuatro. Ahora, reten la respiración contando hasta cuatro… uno, dos, tres, cuatro. Y exhala lentamente por la boca contando hasta cuatro… uno, dos, tres, cuatro. Repetimos esto un par de veces más. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764046176
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila. Es agradable hacer una pausa y concentrarme en la respiración.",
+      "timestamp": 1764046177
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar que te sientes más tranquila. Tomar pausas y concentrarte en la respiración puede ser muy reconfortante. ¿Te gustaría incorporar esta técnica en tu rutina diaria?",
+      "timestamp": 1764046179
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería buena idea. Podría ayudarme a manejar mejor el estrés.",
+      "timestamp": 1764046180
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Definitivamente. Practicar la respiración profunda regularmente puede ayudarte a sentirte más en control. Podemos trabajar juntos en un plan para incluirlo en tu día a día. ¿Hay algún momento específico en tu rutina que crees que podrías dedicar a esto?",
+      "timestamp": 1764046182
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez por la mañana antes de comenzar mis clases. Eso podría ser un buen momento para relajarme.",
+      "timestamp": 1764046183
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena perfecto. Comenzar la mañana con un momento de calma puede marcar una gran diferencia en cómo te sientes durante el día. Podrías probar con unos minutos de respiración profunda antes de salir de casa. ¿Te gustaría que lo anotáramos como un objetivo para la próxima semana?",
+      "timestamp": 1764046185
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría anotarlo. Creo que tenerlo como objetivo me motivará a hacerlo.",
+      "timestamp": 1764046186
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Anotaremos que practicarás la respiración profunda cada mañana antes de tus clases. Esto te ayudará a crear un hábito que puede aliviar el estrés. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?",
+      "timestamp": 1764046188
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es suficiente por hoy. Me siento un poco mejor solo por hablar de esto. Gracias.",
+      "timestamp": 1764046189
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes un poco mejor. Recuerda que está bien tomarse su tiempo y que aquí tienes un espacio seguro. Nos veremos la próxima semana para seguir trabajando en tus objetivos. Cuídate mucho. ¡Hasta luego!",
+      "timestamp": 1764046191
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta luego.",
+      "timestamp": 1764046192
+    }
+  ],
+  "notes": null
+}

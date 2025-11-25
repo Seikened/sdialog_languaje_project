@@ -1,0 +1,782 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:24:57Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2827437771,
+  "id": "191c2b58-13b2-42a3-9fef-63ad851b9a5c",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Cristina Raya": {
+      "name": "Cristina Raya",
+      "age": 24,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(NUT) | estudiante de Nutrición en la Ibero de 5to semestre; le gusta cocinar postres, salir a caminar y salir a cafeterias",
+      "personality": "cuidada pero autoexigente",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. No sé muy bien qué esperar de esta sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa, especialmente en la primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir o explorar hoy?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, a veces tengo pensamientos oscuros y me cuesta ver lo positivo en las cosas. Quiero entender mejor por qué me siento así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y agradezco que compartas eso conmigo. Es un buen punto de partida. Vamos a trabajar juntas para entender esos pensamientos y cómo afectan tu bienestar. ¿Te gustaría hablar sobre alguna situación reciente en la que te hayas sentido así?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Claro, hace unos días tuvieron lugar algunas cosas en la universidad que me hicieron sentir muy abrumada. Me costó concentrarme y me sentí muy sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Siento que te hayas sentido así. La presión en la universidad puede ser abrumadora. ¿Podrías contarme más sobre lo que sucedió y cómo te afectó ese momento?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Tuve un examen y no me sentí preparada. Cuando vi mis compañeros estudiar y yo no podía concentrarme, me sentí muy insegura y triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir inseguridad en momentos así. Compararse con los demás puede intensificar esos sentimientos. ¿Cómo manejaste esos pensamientos y emociones en ese momento?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Traté de distraerme cocinando, pero los pensamientos regresaban. A veces me siento como si no estuviera haciendo lo suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Cocinar es una buena forma de distraerte y cuidarte. Sin embargo, esos pensamientos de no estar haciendo lo suficiente pueden ser muy pesados. Vamos a trabajar en estrategias para manejarlos. ¿Qué te gustaría lograr al final de nuestras sesiones juntas?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Me gustaría sentirme más segura de mí misma y tener herramientas para enfrentar esos pensamientos negativos. Quiero aprender a cuidar mi salud mental."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un objetivo muy valioso y alcanzable. Me alegra que estés dispuesta a trabajar en ello. Juntas desarrollaremos herramientas y técnicas que te ayudarán a fortalecer tu autoestima y manejar esos pensamientos. ¿Te parece bien si empezamos con algunas prácticas?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me parece bien. Estoy lista para aprender y mejorar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente actitud, eso es fundamental. Comencemos con una técnica simple llamada \"reestructuración cognitiva\", que te ayudará a identificar y desafiar esos pensamientos negativos. ¿Te gustaría que te explique cómo funciona?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, por favor, me gustaría entender cómo funciona."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro. La reestructuración cognitiva implica tres pasos: primero, identificar el pensamiento negativo; segundo, cuestionar su validez; y tercero, reemplazarlo con un pensamiento más equilibrado. Empezamos por observar un pensamiento negativo que tengas y luego trabajamos en cuestionarlo. ¿Tienes un ejemplo en mente?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, a menudo pienso que nunca seré lo suficientemente buena en la universidad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un buen ejemplo. Ahora, preguntémonos: ¿qué evidencia tienes de que nunca serás lo suficientemente buena? ¿Hay momentos en que has tenido éxito o cumplido tus objetivos? Esto nos ayudará a desafiar ese pensamiento."
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, he aprobado exámenes antes y he recibido buenos comentarios de mis profesores. Pero a veces, esos momentos parecen olvidarse cuando me siento mal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es común que en momentos difíciles olvidemos nuestros logros. Reconocer esos éxitos es clave. Intenta recordar esos momentos cuando surjan los pensamientos negativos. ¿Qué te parece si hacemos una lista de tus logros y cosas positivas que has recibido? Esto puede ayudarte a tener una referencia cuando te sientas así."
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Me parece una buena idea. Creo que tener esa lista podría ayudarme a recordar que he hecho cosas buenas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, dedicar tiempo a crear esa lista puede ser muy beneficioso. Puedes incluir exámenes aprobados, elogios de profesores o cualquier logro personal, grande o pequeño. La próxima vez que te sientas insegura, puedes revisarla y recordarte lo capaz que eres. ¿Te gustaría que trabajáramos en ello ahora?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me gustaría trabajar en eso ahora. Creo que puede ser un buen ejercicio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Empecemos por escribir un logro reciente que te haga sentir orgullosa. ¿Cuál sería el primero que te viene a la mente?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Aprobé un examen difícil de nutrición el semestre pasado. Me sentí muy feliz cuando vi la calificación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Eso es un gran logro! Aprobaste un examen difícil, lo cual es un testimonio de tu dedicación y esfuerzo. Vamos a anotarlo. ¿Qué más te gustaría agregar a tu lista?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "También recibí elogios de un profesor por un proyecto que presenté. Me sentí muy valorada por eso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es otro logro significativo. Recibir elogios por tu trabajo es motivo de orgullo y muestra que tus esfuerzos son reconocidos. Ahora, antes de continuar con la lista, quisiera explorar un poco más cómo te has sentido últimamente. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus emociones en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos información valiosa."
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me parece bien responderlo. Creo que puede ayudarme a entender mejor cómo me he sentido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, comenzamos con las preguntas. Recuerda responder con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Poco interés o placer en hacer cosas?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Diría que un 2, porque a veces me cuesta disfrutar lo que solía gustarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas durante las últimas dos semanas?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le daría un 2 también. Ha habido días en los que me he sentido así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es importante reconocer esos momentos. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o dormir demasiado?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le pondría un 1. A veces me cuesta dormir, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n4. ¿Te has sentido cansada o con poca energía en las últimas dos semanas?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le daría un 2. Hay días en que me siento muy fatigada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible, la fatiga puede afectar mucho. \n\n5. ¿Has tenido poco apetito o has comido en exceso?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le pondría un 1. A veces tengo poco apetito, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n6. ¿Te has sentido mal contigo misma, o como un fracaso?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le diría un 2. A menudo me siento así, especialmente cuando comparo mis logros con los de los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es un sentimiento difícil de llevar. \n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer o ver la televisión?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le daría un 2. A veces me cuesta enfocarme en lo que estoy haciendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n8. ¿Te has sentido tan inquieta o agitada que te mueves más de lo normal, o por el contrario, te mueves o hablas tan lento que otras personas podrían notarlo?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le pondría un 1. A veces me siento un poco inquieta, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu sinceridad. \n\n9. Finalmente, ¿has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Le daría un 0. No he tenido esos pensamientos, pero a veces me siento muy triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno saber que no has tenido esos pensamientos. La tristeza puede ser difícil de manejar. \n\nAhora que hemos completado el cuestionario, haremos una revisión de tus respuestas para entender mejor cómo te has estado sintiendo. Esto nos ayudará a seguir avanzando en nuestras sesiones. ¿Te gustaría que hablemos sobre algún aspecto en particular que te haya llamado la atención?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, creo que la parte de sentirme mal conmigo misma y la dificultad para concentrarme son aspectos que me gustaría explorar más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, esos son temas importantes. Sentirte mal contigo misma puede afectar tu autoestima y confianza. Además, la dificultad para concentrarte puede relacionarse con tu bienestar emocional. \n\nComencemos con el sentimiento de no estar a la altura. ¿Podrías contarme más sobre las situaciones que suelen desencadenar esos pensamientos?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Generalmente, se desencadenan cuando comparo mis calificaciones o esfuerzo con el de mis compañeros. Me siento como si no estuviera haciendo lo suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse así en un entorno competitivo. La comparación puede ser perjudicial para tu autoestima y bienestar. Recuerda que cada persona tiene su propio camino y ritmos de aprendizaje. \n\nPodemos trabajar en estrategias para disminuir esa comparación y enfocarte en tus propias metas y logros. ¿Te gustaría explorar algunas técnicas para abordar esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me gustaría explorar esas técnicas. Creo que podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Una técnica útil es practicar la autoafirmación. Esto implica reconocer y validar tus logros y cualidades positivas. Te invito a que cada día, escribas una afirmación positiva sobre ti misma. Por ejemplo, \"Estoy haciendo lo mejor que puedo y eso es suficiente\". \n\nOtra técnica es establecer metas personales, en lugar de compararlas con las de otros. ¿Qué opinas de estas ideas?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Me parecen muy útiles. Creo que reconocer mis logros y establecer metas personales me podría ayudar a enfocarme en mí misma y dejar de compararme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, enfocarte en tus propios logros y objetivos te permitirá ver cuánto has avanzado y cuánto eres capaz. También es importante ser amable contigo misma y reconocer que todos tenemos elecciones diferentes y enfrentamos distintos desafíos. \n\nSi te parece bien, podríamos establecer una pequeña tarea para la próxima sesión: practicar las afirmaciones y pensar en una meta personal que te gustaría alcanzar. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me parece muy bien. Estoy dispuesta a intentarlo y ver cómo me siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. Estoy aquí para apoyarte en este proceso. Recuerda que cada pequeño paso cuenta y que está bien tomarse su tiempo. \n\nPara finalizar nuestra sesión de hoy, quiero recordarte que estoy aquí para acompañarte en cada paso. ¿Hay algo más que te gustaría abordar antes de terminar?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "No, creo que hemos cubierto bastante por hoy. Gracias por tu apoyo y por ayudarme a entender mejor mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, ha sido un placer poder acompañarte hoy. Estoy aquí para ayudarte en este camino. Te animo a que practiques las afirmaciones y reflexiones sobre tu meta personal. \n\nCuídate mucho y nos vemos en la próxima sesión. ¡Hasta pronto!"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "¡Hasta pronto! Gracias de nuevo. Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764048220
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. No sé muy bien qué esperar de esta sesión.",
+      "timestamp": 1764048221
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa, especialmente en la primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir o explorar hoy?",
+      "timestamp": 1764048222
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces tengo pensamientos oscuros y me cuesta ver lo positivo en las cosas. Quiero entender mejor por qué me siento así.",
+      "timestamp": 1764048222
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y agradezco que compartas eso conmigo. Es un buen punto de partida. Vamos a trabajar juntas para entender esos pensamientos y cómo afectan tu bienestar. ¿Te gustaría hablar sobre alguna situación reciente en la que te hayas sentido así?",
+      "timestamp": 1764048224
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hace unos días tuvieron lugar algunas cosas en la universidad que me hicieron sentir muy abrumada. Me costó concentrarme y me sentí muy sola.",
+      "timestamp": 1764048225
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que te hayas sentido así. La presión en la universidad puede ser abrumadora. ¿Podrías contarme más sobre lo que sucedió y cómo te afectó ese momento?",
+      "timestamp": 1764048226
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tuve un examen y no me sentí preparada. Cuando vi mis compañeros estudiar y yo no podía concentrarme, me sentí muy insegura y triste.",
+      "timestamp": 1764048227
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir inseguridad en momentos así. Compararse con los demás puede intensificar esos sentimientos. ¿Cómo manejaste esos pensamientos y emociones en ese momento?",
+      "timestamp": 1764048228
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Traté de distraerme cocinando, pero los pensamientos regresaban. A veces me siento como si no estuviera haciendo lo suficiente.",
+      "timestamp": 1764048229
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Cocinar es una buena forma de distraerte y cuidarte. Sin embargo, esos pensamientos de no estar haciendo lo suficiente pueden ser muy pesados. Vamos a trabajar en estrategias para manejarlos. ¿Qué te gustaría lograr al final de nuestras sesiones juntas?",
+      "timestamp": 1764048230
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría sentirme más segura de mí misma y tener herramientas para enfrentar esos pensamientos negativos. Quiero aprender a cuidar mi salud mental.",
+      "timestamp": 1764048231
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un objetivo muy valioso y alcanzable. Me alegra que estés dispuesta a trabajar en ello. Juntas desarrollaremos herramientas y técnicas que te ayudarán a fortalecer tu autoestima y manejar esos pensamientos. ¿Te parece bien si empezamos con algunas prácticas?",
+      "timestamp": 1764048232
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy lista para aprender y mejorar.",
+      "timestamp": 1764048233
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente actitud, eso es fundamental. Comencemos con una técnica simple llamada \"reestructuración cognitiva\", que te ayudará a identificar y desafiar esos pensamientos negativos. ¿Te gustaría que te explique cómo funciona?",
+      "timestamp": 1764048235
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor, me gustaría entender cómo funciona.",
+      "timestamp": 1764048235
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro. La reestructuración cognitiva implica tres pasos: primero, identificar el pensamiento negativo; segundo, cuestionar su validez; y tercero, reemplazarlo con un pensamiento más equilibrado. Empezamos por observar un pensamiento negativo que tengas y luego trabajamos en cuestionarlo. ¿Tienes un ejemplo en mente?",
+      "timestamp": 1764048237
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a menudo pienso que nunca seré lo suficientemente buena en la universidad.",
+      "timestamp": 1764048238
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un buen ejemplo. Ahora, preguntémonos: ¿qué evidencia tienes de que nunca serás lo suficientemente buena? ¿Hay momentos en que has tenido éxito o cumplido tus objetivos? Esto nos ayudará a desafiar ese pensamiento.",
+      "timestamp": 1764048240
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he aprobado exámenes antes y he recibido buenos comentarios de mis profesores. Pero a veces, esos momentos parecen olvidarse cuando me siento mal.",
+      "timestamp": 1764048241
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es común que en momentos difíciles olvidemos nuestros logros. Reconocer esos éxitos es clave. Intenta recordar esos momentos cuando surjan los pensamientos negativos. ¿Qué te parece si hacemos una lista de tus logros y cosas positivas que has recibido? Esto puede ayudarte a tener una referencia cuando te sientas así.",
+      "timestamp": 1764048243
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Creo que tener esa lista podría ayudarme a recordar que he hecho cosas buenas.",
+      "timestamp": 1764048244
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, dedicar tiempo a crear esa lista puede ser muy beneficioso. Puedes incluir exámenes aprobados, elogios de profesores o cualquier logro personal, grande o pequeño. La próxima vez que te sientas insegura, puedes revisarla y recordarte lo capaz que eres. ¿Te gustaría que trabajáramos en ello ahora?",
+      "timestamp": 1764048245
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría trabajar en eso ahora. Creo que puede ser un buen ejercicio.",
+      "timestamp": 1764048246
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Empecemos por escribir un logro reciente que te haga sentir orgullosa. ¿Cuál sería el primero que te viene a la mente?",
+      "timestamp": 1764048247
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprobé un examen difícil de nutrición el semestre pasado. Me sentí muy feliz cuando vi la calificación.",
+      "timestamp": 1764048248
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso es un gran logro! Aprobaste un examen difícil, lo cual es un testimonio de tu dedicación y esfuerzo. Vamos a anotarlo. ¿Qué más te gustaría agregar a tu lista?",
+      "timestamp": 1764048250
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "También recibí elogios de un profesor por un proyecto que presenté. Me sentí muy valorada por eso.",
+      "timestamp": 1764048250
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764048250
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es otro logro significativo. Recibir elogios por tu trabajo es motivo de orgullo y muestra que tus esfuerzos son reconocidos. Ahora, antes de continuar con la lista, quisiera explorar un poco más cómo te has sentido últimamente. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus emociones en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos información valiosa.",
+      "timestamp": 1764048254
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien responderlo. Creo que puede ayudarme a entender mejor cómo me he sentido.",
+      "timestamp": 1764048254
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764048254
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "phq9"
+        },
+        "id": "call_yAStHInbUmpW3LA5KfwyaqRA"
+      },
+      "timestamp": 1764048255
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_yAStHInbUmpW3LA5KfwyaqRA"
+      },
+      "timestamp": 1764048255
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, comenzamos con las preguntas. Recuerda responder con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Poco interés o placer en hacer cosas?",
+      "timestamp": 1764048258
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 2, porque a veces me cuesta disfrutar lo que solía gustarme.",
+      "timestamp": 1764048259
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas durante las últimas dos semanas?",
+      "timestamp": 1764048260
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2 también. Ha habido días en los que me he sentido así.",
+      "timestamp": 1764048261
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es importante reconocer esos momentos. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o dormir demasiado?",
+      "timestamp": 1764048262
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 1. A veces me cuesta dormir, pero no siempre.",
+      "timestamp": 1764048263
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n4. ¿Te has sentido cansada o con poca energía en las últimas dos semanas?",
+      "timestamp": 1764048264
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. Hay días en que me siento muy fatigada.",
+      "timestamp": 1764048264
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible, la fatiga puede afectar mucho. \n\n5. ¿Has tenido poco apetito o has comido en exceso?",
+      "timestamp": 1764048266
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 1. A veces tengo poco apetito, pero no siempre.",
+      "timestamp": 1764048267
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n6. ¿Te has sentido mal contigo misma, o como un fracaso?",
+      "timestamp": 1764048268
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le diría un 2. A menudo me siento así, especialmente cuando comparo mis logros con los de los demás.",
+      "timestamp": 1764048269
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764048269
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es un sentimiento difícil de llevar. \n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer o ver la televisión?",
+      "timestamp": 1764048270
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces me cuesta enfocarme en lo que estoy haciendo.",
+      "timestamp": 1764048271
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n8. ¿Te has sentido tan inquieta o agitada que te mueves más de lo normal, o por el contrario, te mueves o hablas tan lento que otras personas podrían notarlo?",
+      "timestamp": 1764048273
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 1. A veces me siento un poco inquieta, pero no siempre.",
+      "timestamp": 1764048274
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu sinceridad. \n\n9. Finalmente, ¿has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?",
+      "timestamp": 1764048276
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 0. No he tenido esos pensamientos, pero a veces me siento muy triste.",
+      "timestamp": 1764048276
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno saber que no has tenido esos pensamientos. La tristeza puede ser difícil de manejar. \n\nAhora que hemos completado el cuestionario, haremos una revisión de tus respuestas para entender mejor cómo te has estado sintiendo. Esto nos ayudará a seguir avanzando en nuestras sesiones. ¿Te gustaría que hablemos sobre algún aspecto en particular que te haya llamado la atención?",
+      "timestamp": 1764048279
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que la parte de sentirme mal conmigo misma y la dificultad para concentrarme son aspectos que me gustaría explorar más.",
+      "timestamp": 1764048280
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, esos son temas importantes. Sentirte mal contigo misma puede afectar tu autoestima y confianza. Además, la dificultad para concentrarte puede relacionarse con tu bienestar emocional. \n\nComencemos con el sentimiento de no estar a la altura. ¿Podrías contarme más sobre las situaciones que suelen desencadenar esos pensamientos?",
+      "timestamp": 1764048282
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Generalmente, se desencadenan cuando comparo mis calificaciones o esfuerzo con el de mis compañeros. Me siento como si no estuviera haciendo lo suficiente.",
+      "timestamp": 1764048283
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse así en un entorno competitivo. La comparación puede ser perjudicial para tu autoestima y bienestar. Recuerda que cada persona tiene su propio camino y ritmos de aprendizaje. \n\nPodemos trabajar en estrategias para disminuir esa comparación y enfocarte en tus propias metas y logros. ¿Te gustaría explorar algunas técnicas para abordar esto?",
+      "timestamp": 1764048285
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría explorar esas técnicas. Creo que podría ayudarme a sentirme mejor.",
+      "timestamp": 1764048285
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Una técnica útil es practicar la autoafirmación. Esto implica reconocer y validar tus logros y cualidades positivas. Te invito a que cada día, escribas una afirmación positiva sobre ti misma. Por ejemplo, \"Estoy haciendo lo mejor que puedo y eso es suficiente\". \n\nOtra técnica es establecer metas personales, en lugar de compararlas con las de otros. ¿Qué opinas de estas ideas?",
+      "timestamp": 1764048288
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parecen muy útiles. Creo que reconocer mis logros y establecer metas personales me podría ayudar a enfocarme en mí misma y dejar de compararme.",
+      "timestamp": 1764048289
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, enfocarte en tus propios logros y objetivos te permitirá ver cuánto has avanzado y cuánto eres capaz. También es importante ser amable contigo misma y reconocer que todos tenemos elecciones diferentes y enfrentamos distintos desafíos. \n\nSi te parece bien, podríamos establecer una pequeña tarea para la próxima sesión: practicar las afirmaciones y pensar en una meta personal que te gustaría alcanzar. ¿Te parece bien?",
+      "timestamp": 1764048291
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece muy bien. Estoy dispuesta a intentarlo y ver cómo me siento.",
+      "timestamp": 1764048292
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. Estoy aquí para apoyarte en este proceso. Recuerda que cada pequeño paso cuenta y que está bien tomarse su tiempo. \n\nPara finalizar nuestra sesión de hoy, quiero recordarte que estoy aquí para acompañarte en cada paso. ¿Hay algo más que te gustaría abordar antes de terminar?",
+      "timestamp": 1764048294
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos cubierto bastante por hoy. Gracias por tu apoyo y por ayudarme a entender mejor mis sentimientos.",
+      "timestamp": 1764048295
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, ha sido un placer poder acompañarte hoy. Estoy aquí para ayudarte en este camino. Te animo a que practiques las afirmaciones y reflexiones sobre tu meta personal. \n\nCuídate mucho y nos vemos en la próxima sesión. ¡Hasta pronto!",
+      "timestamp": 1764048297
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta pronto! Gracias de nuevo. Cuídate.",
+      "timestamp": 1764048297
+    }
+  ],
+  "notes": null
+}

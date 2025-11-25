@@ -1,0 +1,451 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:50:48Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 825138470,
+  "id": "768fac07-81e3-4f5a-b01a-f9a58ee428ed",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernando Leon": {
+      "name": "Fernando Leon",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IIA) | estudiante de ingeniería de inteligencia artificial en la universidad iberoamericana de 5to semestre, apasionado por la tecnología y los videojuegos",
+      "personality": "curioso y reflexivo",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy seguro de qué esperar de esta sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al principio. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir sobre esos nervios?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, a veces siento que la presión de la universidad y la falta de motivación me abruman. Eso me hace sentir un poco triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica puede ser muy abrumadora. ¿Te gustaría explorar cómo esa falta de motivación ha afectado tus días y tu bienestar en general?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Claro, últimamente he estado luchando por concentrarme en mis estudios y eso me hace sentir frustrado. Siento que no avanzo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir frustración cuando no sientes que estás avanzando. ¿Has notado si hay momentos específicos o situaciones que intensifican esa falta de concentración?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, cuando tengo muchas tareas acumuladas o cuando me comparo con mis compañeros, eso me desanima aún más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La comparación con los demás puede ser realmente perjudicial para nuestra autoestima y motivación. ¿Te gustaría que trabajemos en estrategias para manejar esa comparación y mejorar tu concentración?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría eso. Creo que aprender a manejar esos pensamientos podría ayudarme mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, trabajar en esos pensamientos es un gran paso. Podemos explorar técnicas de reestructuración cognitiva que te ayuden a verlo desde otra perspectiva. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, suena bien. Estoy listo para aprender algo que me pueda ayudar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Excelente actitud! Comencemos con identificar esos pensamientos negativos automáticos que surgen cuando te comparas con tus compañeros. ¿Puedes darme un ejemplo de uno de esos pensamientos?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Claro, a veces pienso que ellos son más inteligentes o que están más avanzados que yo, lo que me hace sentir inferior."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esos pensamientos pueden ser muy dañinos. Vamos a trabajar en desafiarlos. ¿Qué evidencia tienes que apoye esa creencia de que ellos son más inteligentes que tú?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "A veces siento que sacan mejores calificaciones, pero sé que no siempre reflejan nuestro potencial."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, las calificaciones son solo un aspecto y no definen tu valor ni tu potencial. Vamos a reformular ese pensamiento. ¿Qué podrías decirte a ti mismo en lugar de sentirte inferior?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Podría decirme que cada uno tiene su propio ritmo de aprendizaje y que tengo habilidades únicas que también puedo desarrollar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Eso es un gran cambio de perspectiva! Reconocer tu propio ritmo y valor es fundamental. ¿Cómo te sientes al pensar en esos aspectos positivos sobre ti mismo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me siento un poco más tranquilo, como si tuviera un poco más de esperanza. Es un buen recordatorio de que está bien avanzar a mi propio ritmo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Es un gran avance. Recuerda que cada paso que das cuenta, independientemente del ritmo. ¿Te gustaría que trabajemos en más estrategias para mantener esa tranquilidad?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría. Creo que tener herramientas para mantener la calma me ayudaría mucho en momentos de presión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto, podemos explorar algunas técnicas de relajación y mindfulness para ayudarte en esos momentos. Una técnica efectiva es la respiración profunda. ¿Te gustaría probarla juntos ahora?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me parece bien. Estoy dispuesto a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos. Siéntate cómodamente, cierra los ojos si te sientes cómodo y respira hondo por la nariz, sintiendo cómo se expande tu abdomen. Vamos a contar hasta cuatro mientras inhalamos... 1, 2, 3, 4. Ahora exhalamos lentamente por la boca... 1, 2, 3, 4. ¿Te sientes un poco más relajado?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me siento un poco más relajado. La respiración profunda realmente ayuda a calmar la mente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Eso es maravilloso! La respiración profunda puede ser una herramienta poderosa en momentos de estrés. ¿Te gustaría practicarla regularmente o explorar otras técnicas también?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me gustaría practicar la respiración profunda regularmente. Creo que puede ser útil para manejar la ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es una excelente idea. Puedes integrarla en tu rutina diaria, incluso solo unos minutos. También podemos combinarla con otras técnicas de relajación, si te interesa. ¿Qué piensas?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría combinarla con otras técnicas. Creo que tener más herramientas podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos explorar la visualización y la meditación guiada como herramientas complementarias. Te ayudarán a crear un espacio mental positivo. ¿Te gustaría que comenzáramos con la visualización en nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me encantaría hacer eso en la próxima sesión. Me parece que la visualización puede ser muy útil."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. La visualización puede ser muy poderosa para reducir la ansiedad y aumentar la motivación. Estoy deseando verlo en nuestra próxima sesión. ¿Hay algo más que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "No, creo que hoy he compartido bastante. Estoy agradecido por la ayuda que me has dado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra haber podido ayudarte, Fernando. Recuerda practicar lo que hemos trabajado hoy. Nos vemos en la próxima sesión. ¡Cuídate! ¡Hasta luego!"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "¡Hasta luego! Gracias por todo. Cuídate también."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046211
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy seguro de qué esperar de esta sesión.",
+      "timestamp": 1764046212
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al principio. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir sobre esos nervios?",
+      "timestamp": 1764046213
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces siento que la presión de la universidad y la falta de motivación me abruman. Eso me hace sentir un poco triste.",
+      "timestamp": 1764046214
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica puede ser muy abrumadora. ¿Te gustaría explorar cómo esa falta de motivación ha afectado tus días y tu bienestar en general?",
+      "timestamp": 1764046215
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, últimamente he estado luchando por concentrarme en mis estudios y eso me hace sentir frustrado. Siento que no avanzo.",
+      "timestamp": 1764046216
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir frustración cuando no sientes que estás avanzando. ¿Has notado si hay momentos específicos o situaciones que intensifican esa falta de concentración?",
+      "timestamp": 1764046217
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, cuando tengo muchas tareas acumuladas o cuando me comparo con mis compañeros, eso me desanima aún más.",
+      "timestamp": 1764046218
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La comparación con los demás puede ser realmente perjudicial para nuestra autoestima y motivación. ¿Te gustaría que trabajemos en estrategias para manejar esa comparación y mejorar tu concentración?",
+      "timestamp": 1764046220
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que aprender a manejar esos pensamientos podría ayudarme mucho.",
+      "timestamp": 1764046220
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, trabajar en esos pensamientos es un gran paso. Podemos explorar técnicas de reestructuración cognitiva que te ayuden a verlo desde otra perspectiva. ¿Te parece bien?",
+      "timestamp": 1764046221
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Estoy listo para aprender algo que me pueda ayudar.",
+      "timestamp": 1764046222
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Excelente actitud! Comencemos con identificar esos pensamientos negativos automáticos que surgen cuando te comparas con tus compañeros. ¿Puedes darme un ejemplo de uno de esos pensamientos?",
+      "timestamp": 1764046223
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, a veces pienso que ellos son más inteligentes o que están más avanzados que yo, lo que me hace sentir inferior.",
+      "timestamp": 1764046224
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esos pensamientos pueden ser muy dañinos. Vamos a trabajar en desafiarlos. ¿Qué evidencia tienes que apoye esa creencia de que ellos son más inteligentes que tú?",
+      "timestamp": 1764046225
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces siento que sacan mejores calificaciones, pero sé que no siempre reflejan nuestro potencial.",
+      "timestamp": 1764046226
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, las calificaciones son solo un aspecto y no definen tu valor ni tu potencial. Vamos a reformular ese pensamiento. ¿Qué podrías decirte a ti mismo en lugar de sentirte inferior?",
+      "timestamp": 1764046227
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría decirme que cada uno tiene su propio ritmo de aprendizaje y que tengo habilidades únicas que también puedo desarrollar.",
+      "timestamp": 1764046228
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso es un gran cambio de perspectiva! Reconocer tu propio ritmo y valor es fundamental. ¿Cómo te sientes al pensar en esos aspectos positivos sobre ti mismo?",
+      "timestamp": 1764046229
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquilo, como si tuviera un poco más de esperanza. Es un buen recordatorio de que está bien avanzar a mi propio ritmo.",
+      "timestamp": 1764046230
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Es un gran avance. Recuerda que cada paso que das cuenta, independientemente del ritmo. ¿Te gustaría que trabajemos en más estrategias para mantener esa tranquilidad?",
+      "timestamp": 1764046232
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que tener herramientas para mantener la calma me ayudaría mucho en momentos de presión.",
+      "timestamp": 1764046233
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto, podemos explorar algunas técnicas de relajación y mindfulness para ayudarte en esos momentos. Una técnica efectiva es la respiración profunda. ¿Te gustaría probarla juntos ahora?",
+      "timestamp": 1764046234
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesto a intentarlo.",
+      "timestamp": 1764046235
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos. Siéntate cómodamente, cierra los ojos si te sientes cómodo y respira hondo por la nariz, sintiendo cómo se expande tu abdomen. Vamos a contar hasta cuatro mientras inhalamos... 1, 2, 3, 4. Ahora exhalamos lentamente por la boca... 1, 2, 3, 4. ¿Te sientes un poco más relajado?",
+      "timestamp": 1764046237
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me siento un poco más relajado. La respiración profunda realmente ayuda a calmar la mente.",
+      "timestamp": 1764046238
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso es maravilloso! La respiración profunda puede ser una herramienta poderosa en momentos de estrés. ¿Te gustaría practicarla regularmente o explorar otras técnicas también?",
+      "timestamp": 1764046239
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría practicar la respiración profunda regularmente. Creo que puede ser útil para manejar la ansiedad.",
+      "timestamp": 1764046240
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es una excelente idea. Puedes integrarla en tu rutina diaria, incluso solo unos minutos. También podemos combinarla con otras técnicas de relajación, si te interesa. ¿Qué piensas?",
+      "timestamp": 1764046241
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría combinarla con otras técnicas. Creo que tener más herramientas podría ayudarme a sentirme mejor.",
+      "timestamp": 1764046242
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos explorar la visualización y la meditación guiada como herramientas complementarias. Te ayudarán a crear un espacio mental positivo. ¿Te gustaría que comenzáramos con la visualización en nuestra próxima sesión?",
+      "timestamp": 1764046243
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me encantaría hacer eso en la próxima sesión. Me parece que la visualización puede ser muy útil.",
+      "timestamp": 1764046244
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. La visualización puede ser muy poderosa para reducir la ansiedad y aumentar la motivación. Estoy deseando verlo en nuestra próxima sesión. ¿Hay algo más que te gustaría abordar hoy?",
+      "timestamp": 1764046245
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hoy he compartido bastante. Estoy agradecido por la ayuda que me has dado.",
+      "timestamp": 1764046246
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra haber podido ayudarte, Fernando. Recuerda practicar lo que hemos trabajado hoy. Nos vemos en la próxima sesión. ¡Cuídate! ¡Hasta luego!",
+      "timestamp": 1764046247
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por todo. Cuídate también.",
+      "timestamp": 1764046248
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,561 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:52:40Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2148983716,
+  "id": "1504c54e-281f-4e83-8c18-5720d948befb",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Daniela Lozano": {
+      "name": "Daniela Lozano",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEI) | estudiante de Comercio Exterior y Logística Internacional en la Ibero de 5to semestre; le gustan los idiomas, salir con amigas y ver series de otros países.",
+      "personality": "sociable pero preocupadiza",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, pero quiero intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa la primera vez. Estoy aquí para apoyarte. ¿Te gustaría compartir qué es lo que te preocupa?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me preocupa cómo me siento últimamente. Siento que no tengo energía y a veces me cuesta concentrarme en mis clases."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la falta de energía y concentración puede ser muy frustrante. ¿Desde cuándo has estado sintiendo esto?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que ha sido un par de meses. Comenzó de a poco y luego se intensificó."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Es importante reconocer cómo ha ido evolucionando. ¿Has notado si hay situaciones específicas que agraven esos sentimientos?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "A veces, cuando tengo demasiadas cosas que hacer o si no puedo salir con mis amigas, me siento peor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso tiene sentido, el estrés y la falta de apoyo social pueden afectar nuestra energía y estado de ánimo. ¿Cómo manejas esos momentos cuando sientes que todo se acumula?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Trato de distraerme viendo series o escuchando música, pero a veces ni eso ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, a veces las distracciones no son suficientes para aliviar la carga emocional. ¿Has considerado otras formas de autocuidado o estrategias que podrían ayudarte en esos momentos difíciles?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "No estoy muy segura de qué más podría hacer. Me gustaría encontrar algo que realmente funcione para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente válido querer explorar nuevas estrategias. Podemos trabajar juntas para encontrar actividades que se ajusten a tus necesidades y que te ayuden a reconectar contigo misma. ¿Te gustaría explorar algunas opciones?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría. Estoy abierta a escuchar lo que sugieras."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, podemos considerar técnicas como la meditación, el ejercicio físico o incluso prácticas de escritura exprés. ¿Te suena alguna de estas opciones?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "La meditación me interesa, he escuchado que puede ser útil."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La meditación puede ser muy beneficiosa para la concentración y la reducción del estrés. Podemos empezar con ejercicios simples y cortos. ¿Te gustaría probar una breve práctica de meditación aquí mismo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ayudarme a relajarme un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Vamos a hacer una práctica breve. Siéntate cómodamente, cierra los ojos y respira profundamente. Inhala por la nariz… y exhala lentamente por la boca. Repite esto un par de veces. Si te parece bien, puedo guiarte durante unos minutos."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Está bien, gracias. Me siento un poco más tranquila al pensar en hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que ya te sientas un poco más tranquila. La meditación es una herramienta poderosa para conectar con uno mismo. Vamos a continuar respirando profundamente juntos..."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Está bien, voy a seguir tu guía. Trataré de concentrarme en mi respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Concéntrate en la sensación del aire entrando y saliendo de tus pulmones. Si tus pensamientos se desvían, suavemente regresa tu atención a tu respiración. Estoy aquí contigo."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me está ayudando a enfocarme y sentirme un poco más en paz. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Tomarse un momento para conectarse con uno mismo puede ser muy poderoso. ¿Te gustaría continuar con esta práctica, o prefieres enfocarnos en otro tema?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Siento que esto me ha hecho bien, pero también me gustaría hablar sobre cómo seguir mejorando en el día a día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto, podemos explorar eso. Crear una rutina diaria que incorpore momentos de autocuidado y meditación puede ser muy beneficioso. ¿Te gustaría que trabajáramos en una rutina que funcione para ti?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso suena bien. Me gustaría tener una rutina que pueda seguir y que me ayude a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, empecemos por establecer algunos momentos clave durante tu día. ¿Qué horario se adapta mejor a ti para incluir actividades como la meditación y el autocuidado?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que podría ser por la mañana, antes de comenzar mis clases. Así podría empezar el día con más energía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente idea. Comenzar el día con una práctica de meditación puede establecer un tono positivo. ¿Te gustaría sugerir un tiempo específico para esta actividad?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Podría intentar hacerlo durante unos diez minutos, tal vez a las 7 de la mañana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, diez minutos a las 7 de la mañana suena muy bien. Puedes empezar con la meditación y luego considerar añadir un momento para un desayuno nutritivo. ¿Qué te parece?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me parece genial. Comenzar con la meditación y luego un buen desayuno me ayudará a sentirme más preparada para el día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, esa combinación puede ser muy efectiva. Además, podrías pensar en incluir una breve actividad física, como estiramientos, para activar tu cuerpo. ¿Te gustaría añadir eso también?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso sería bueno. Unos estiramientos después de meditar suena como una forma excelente de despertar mi cuerpo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Entonces, tu rutina matutina sería: meditación durante diez minutos, seguido de estiramientos y luego un desayuno nutritivo. ¿Te gustaría que trabajáramos en algunas ideas de estiramientos que pudieras hacer?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría eso. No estoy muy segura de qué estiramientos podría hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos incluir estiramientos simples como tocar tus pies, estirar los brazos hacia arriba y girar suavemente el torso. Estos movimientos son excelentes para empezar el día. ¿Te gustaría que te detallara cómo hacer alguno de ellos?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, por favor. Me gustaría saber cómo hacer esos estiramientos correctamente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos con el estiramiento de tocar los pies. \n\n1. Ponte de pie con los pies al ancho de los hombros.\n2. Inhala profundamente y al exhalar, inclínate hacia adelante, tratando de tocar tus pies. No te preocupes si no llegas a tocarlos, lo importante es sentir el estiramiento en la espalda y las piernas. \n3. Mantén la posición durante 15-30 segundos, sintiendo cómo respiras. Luego, levántate lentamente.\n\n¿Listo para intentar este estiramiento en tu rutina?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me parece sencillo y creo que puedo hacerlo. Lo intentaré en mi rutina. ¡Gracias por la explicación!"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra que te resulte útil. Recuerda que lo más importante es escuchar a tu cuerpo y ser amable contigo misma. ¿Hay algo más en lo que te gustaría profundizar hoy?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que hemos cubierto bastante por ahora. Estoy agradecida por toda la ayuda y las ideas que me has dado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra haber podido ayudarte. Recuerda que siempre puedes regresar y compartir tus experiencias. Te deseo lo mejor en tu nueva rutina. ¡Hasta la próxima!"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "¡Gracias! Estoy emocionada por empezar. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046305
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, pero quiero intentarlo.",
+      "timestamp": 1764046306
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa la primera vez. Estoy aquí para apoyarte. ¿Te gustaría compartir qué es lo que te preocupa?",
+      "timestamp": 1764046307
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me preocupa cómo me siento últimamente. Siento que no tengo energía y a veces me cuesta concentrarme en mis clases.",
+      "timestamp": 1764046308
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la falta de energía y concentración puede ser muy frustrante. ¿Desde cuándo has estado sintiendo esto?",
+      "timestamp": 1764046309
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido un par de meses. Comenzó de a poco y luego se intensificó.",
+      "timestamp": 1764046310
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Es importante reconocer cómo ha ido evolucionando. ¿Has notado si hay situaciones específicas que agraven esos sentimientos?",
+      "timestamp": 1764046311
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, cuando tengo demasiadas cosas que hacer o si no puedo salir con mis amigas, me siento peor.",
+      "timestamp": 1764046312
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso tiene sentido, el estrés y la falta de apoyo social pueden afectar nuestra energía y estado de ánimo. ¿Cómo manejas esos momentos cuando sientes que todo se acumula?",
+      "timestamp": 1764046313
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Trato de distraerme viendo series o escuchando música, pero a veces ni eso ayuda.",
+      "timestamp": 1764046314
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, a veces las distracciones no son suficientes para aliviar la carga emocional. ¿Has considerado otras formas de autocuidado o estrategias que podrían ayudarte en esos momentos difíciles?",
+      "timestamp": 1764046315
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No estoy muy segura de qué más podría hacer. Me gustaría encontrar algo que realmente funcione para mí.",
+      "timestamp": 1764046317
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente válido querer explorar nuevas estrategias. Podemos trabajar juntas para encontrar actividades que se ajusten a tus necesidades y que te ayuden a reconectar contigo misma. ¿Te gustaría explorar algunas opciones?",
+      "timestamp": 1764046318
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Estoy abierta a escuchar lo que sugieras.",
+      "timestamp": 1764046319
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, podemos considerar técnicas como la meditación, el ejercicio físico o incluso prácticas de escritura exprés. ¿Te suena alguna de estas opciones?",
+      "timestamp": 1764046320
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La meditación me interesa, he escuchado que puede ser útil.",
+      "timestamp": 1764046321
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La meditación puede ser muy beneficiosa para la concentración y la reducción del estrés. Podemos empezar con ejercicios simples y cortos. ¿Te gustaría probar una breve práctica de meditación aquí mismo?",
+      "timestamp": 1764046322
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ayudarme a relajarme un poco.",
+      "timestamp": 1764046323
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Vamos a hacer una práctica breve. Siéntate cómodamente, cierra los ojos y respira profundamente. Inhala por la nariz… y exhala lentamente por la boca. Repite esto un par de veces. Si te parece bien, puedo guiarte durante unos minutos.",
+      "timestamp": 1764046324
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, gracias. Me siento un poco más tranquila al pensar en hacerlo.",
+      "timestamp": 1764046325
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que ya te sientas un poco más tranquila. La meditación es una herramienta poderosa para conectar con uno mismo. Vamos a continuar respirando profundamente juntos...",
+      "timestamp": 1764046326
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, voy a seguir tu guía. Trataré de concentrarme en mi respiración.",
+      "timestamp": 1764046327
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Concéntrate en la sensación del aire entrando y saliendo de tus pulmones. Si tus pensamientos se desvían, suavemente regresa tu atención a tu respiración. Estoy aquí contigo.",
+      "timestamp": 1764046329
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me está ayudando a enfocarme y sentirme un poco más en paz. Gracias por guiarme.",
+      "timestamp": 1764046330
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Tomarse un momento para conectarse con uno mismo puede ser muy poderoso. ¿Te gustaría continuar con esta práctica, o prefieres enfocarnos en otro tema?",
+      "timestamp": 1764046331
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que esto me ha hecho bien, pero también me gustaría hablar sobre cómo seguir mejorando en el día a día.",
+      "timestamp": 1764046332
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto, podemos explorar eso. Crear una rutina diaria que incorpore momentos de autocuidado y meditación puede ser muy beneficioso. ¿Te gustaría que trabajáramos en una rutina que funcione para ti?",
+      "timestamp": 1764046333
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría tener una rutina que pueda seguir y que me ayude a sentirme mejor.",
+      "timestamp": 1764046334
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, empecemos por establecer algunos momentos clave durante tu día. ¿Qué horario se adapta mejor a ti para incluir actividades como la meditación y el autocuidado?",
+      "timestamp": 1764046336
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría ser por la mañana, antes de comenzar mis clases. Así podría empezar el día con más energía.",
+      "timestamp": 1764046337
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente idea. Comenzar el día con una práctica de meditación puede establecer un tono positivo. ¿Te gustaría sugerir un tiempo específico para esta actividad?",
+      "timestamp": 1764046338
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría intentar hacerlo durante unos diez minutos, tal vez a las 7 de la mañana.",
+      "timestamp": 1764046339
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, diez minutos a las 7 de la mañana suena muy bien. Puedes empezar con la meditación y luego considerar añadir un momento para un desayuno nutritivo. ¿Qué te parece?",
+      "timestamp": 1764046340
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece genial. Comenzar con la meditación y luego un buen desayuno me ayudará a sentirme más preparada para el día.",
+      "timestamp": 1764046341
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, esa combinación puede ser muy efectiva. Además, podrías pensar en incluir una breve actividad física, como estiramientos, para activar tu cuerpo. ¿Te gustaría añadir eso también?",
+      "timestamp": 1764046342
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería bueno. Unos estiramientos después de meditar suena como una forma excelente de despertar mi cuerpo.",
+      "timestamp": 1764046344
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Entonces, tu rutina matutina sería: meditación durante diez minutos, seguido de estiramientos y luego un desayuno nutritivo. ¿Te gustaría que trabajáramos en algunas ideas de estiramientos que pudieras hacer?",
+      "timestamp": 1764046346
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. No estoy muy segura de qué estiramientos podría hacer.",
+      "timestamp": 1764046347
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos incluir estiramientos simples como tocar tus pies, estirar los brazos hacia arriba y girar suavemente el torso. Estos movimientos son excelentes para empezar el día. ¿Te gustaría que te detallara cómo hacer alguno de ellos?",
+      "timestamp": 1764046349
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Me gustaría saber cómo hacer esos estiramientos correctamente.",
+      "timestamp": 1764046350
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos con el estiramiento de tocar los pies. \n\n1. Ponte de pie con los pies al ancho de los hombros.\n2. Inhala profundamente y al exhalar, inclínate hacia adelante, tratando de tocar tus pies. No te preocupes si no llegas a tocarlos, lo importante es sentir el estiramiento en la espalda y las piernas. \n3. Mantén la posición durante 15-30 segundos, sintiendo cómo respiras. Luego, levántate lentamente.\n\n¿Listo para intentar este estiramiento en tu rutina?",
+      "timestamp": 1764046354
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece sencillo y creo que puedo hacerlo. Lo intentaré en mi rutina. ¡Gracias por la explicación!",
+      "timestamp": 1764046355
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra que te resulte útil. Recuerda que lo más importante es escuchar a tu cuerpo y ser amable contigo misma. ¿Hay algo más en lo que te gustaría profundizar hoy?",
+      "timestamp": 1764046357
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que hemos cubierto bastante por ahora. Estoy agradecida por toda la ayuda y las ideas que me has dado.",
+      "timestamp": 1764046358
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra haber podido ayudarte. Recuerda que siempre puedes regresar y compartir tus experiencias. Te deseo lo mejor en tu nueva rutina. ¡Hasta la próxima!",
+      "timestamp": 1764046359
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Estoy emocionada por empezar. ¡Hasta la próxima!",
+      "timestamp": 1764046360
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,429 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:08:27Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3496421327,
+  "id": "080f5dfb-7b22-4cf1-8b6b-9954fc28c15a",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Alejandro Torres": {
+      "name": "Alejandro Torres",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 5to semestre; le gusta ver videos de ciencia ligeros, convivir con pocos amigos y pasar tardes tranquilas en casa.",
+      "personality": "callado y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Hola. Estoy un poco nervioso, la verdad. No estoy acostumbrado a hablar de lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo al principio. Estoy aquí para escucharte y apoyarte en este proceso. ¿Te gustaría compartir qué es lo que más te preocupa?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "A veces me siento muy solo y no sé cómo manejar esos pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La soledad puede ser un sentimiento muy difícil de afrontar. Es importante reconocer esos pensamientos. ¿Cómo te afectan en tu día a día?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me hacen sentir apagado y me cuesta concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso debe ser muy frustrante. La falta de concentración puede impactar mucho en tu vida. ¿Has encontrado alguna manera de sobrellevar esos momentos difíciles?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "A veces trato de distraerme viendo videos de ciencia, pero no siempre funciona."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Distraerte con cosas que te interesan es un buen comienzo. Sin embargo, es natural que a veces no funcione. ¿Te gustaría explorar otras estrategias para manejar esos momentos de soledad?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que sería útil. No sé por dónde empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos comenzar por identificar actividades que te gusten y que fomenten la conexión, ya sea con otras personas o contigo mismo. ¿Hay algo que siempre hayas querido hacer o probar?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Siempre he querido unirme a un club de ciencia o algo así, pero no me atrevo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Unirte a un club de ciencia puede ser una gran manera de conocer personas con intereses similares y sentirte más conectado. ¿Qué te detiene de dar ese paso?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me da miedo que no encaje o que no me acepten."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural sentir miedo al rechazo, pero recuerda que muchas personas en esos clubes pueden sentir lo mismo. Podríamos trabajar en estrategias para ayudarte a sentirte más seguro al abordar esa situación. ¿Te gustaría intentar eso?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que sí. Me gustaría sentirme más seguro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Vamos a trabajar en construir esa confianza. Podríamos comenzar identificando tus fortalezas y cualidades positivas. ¿Te gustaría compartir algunas de las cosas que te hacen sentir orgulloso de ti mismo?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me gusta que soy curioso y que disfruto aprender cosas nuevas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son cualidades maravillosas y muy valiosas. Esa curiosidad es un gran impulso para conectar con otros. Podemos usar eso a tu favor. ¿Qué te parece si comenzamos a pensar en cómo podrías compartir esa curiosidad en el club?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Podría proponer temas interesantes o preguntas para discutir. Eso podría ayudarme a integrarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente idea. Proponer temas o preguntas no solo te dará confianza, sino que también mostrará tu interés en el grupo. ¿Tienes algún tema en mente que te gustaría proponer?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me gustaría hablar sobre los últimos avances en biotecnología, es un tema que me apasiona."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Ese es un tema fascinante! Hablar sobre biotecnología puede atraer la atención de otros que comparten tu interés. Te animo a que prepares algunas preguntas o puntos de discusión al respecto. ¿Te gustaría que trabajáramos juntos en algunas ideas para eso?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría. Creo que tener algunas ideas preparadas me ayudaría a sentirme más seguro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos a listar algunas preguntas o aspectos interesantes sobre biotecnología que podrían generar una buena conversación. Por ejemplo, ¿qué tal discutir sobre las aplicaciones de la biotecnología en la salud?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, eso suena bien. También podríamos hablar sobre la biotecnología en la agricultura, como los cultivos modificados."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente enfoque, esos son temas muy relevantes. Puedes proponer preguntas como: \"¿Cómo creen que los cultivos modificados pueden ayudar a resolver problemas de seguridad alimentaria?\" Esto puede fomentar un debate interesante. ¿Te gustaría pensar en más preguntas o puntos de discusión?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, podría preguntar sobre los aspectos éticos de la biotecnología. Es un tema que genera mucha opinión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una gran idea. Las cuestiones éticas son cruciales y pueden generar debates profundos. Podrías preguntar: \"¿Qué piensan sobre los posibles riesgos y beneficios de la biotecnología en nuestra sociedad?\" Esto seguramente invitará a una conversación enriquecedora. ¿Te sientes un poco más preparado ahora?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me siento un poco más preparado. Gracias por ayudarme a organizar mis ideas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más preparado. Recuerda que es un proceso y está bien avanzar poco a poco. Estoy aquí para apoyarte en cualquier momento que lo necesites. ¿Hay algo más sobre lo que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "No, creo que eso es todo por ahora. Gracias por escucharme y ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, ha sido un placer acompañarte en esta conversación. Te animo a que sigas explorando tus intereses y a que des ese paso hacia el club de ciencia. ¡Te deseo lo mejor! Hasta la próxima."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Gracias, hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047267
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. Estoy un poco nervioso, la verdad. No estoy acostumbrado a hablar de lo que siento.",
+      "timestamp": 1764047268
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo al principio. Estoy aquí para escucharte y apoyarte en este proceso. ¿Te gustaría compartir qué es lo que más te preocupa?",
+      "timestamp": 1764047268
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento muy solo y no sé cómo manejar esos pensamientos.",
+      "timestamp": 1764047269
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La soledad puede ser un sentimiento muy difícil de afrontar. Es importante reconocer esos pensamientos. ¿Cómo te afectan en tu día a día?",
+      "timestamp": 1764047270
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me hacen sentir apagado y me cuesta concentrarme en mis estudios.",
+      "timestamp": 1764047271
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso debe ser muy frustrante. La falta de concentración puede impactar mucho en tu vida. ¿Has encontrado alguna manera de sobrellevar esos momentos difíciles?",
+      "timestamp": 1764047272
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces trato de distraerme viendo videos de ciencia, pero no siempre funciona.",
+      "timestamp": 1764047273
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Distraerte con cosas que te interesan es un buen comienzo. Sin embargo, es natural que a veces no funcione. ¿Te gustaría explorar otras estrategias para manejar esos momentos de soledad?",
+      "timestamp": 1764047274
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil. No sé por dónde empezar.",
+      "timestamp": 1764047276
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos comenzar por identificar actividades que te gusten y que fomenten la conexión, ya sea con otras personas o contigo mismo. ¿Hay algo que siempre hayas querido hacer o probar?",
+      "timestamp": 1764047277
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siempre he querido unirme a un club de ciencia o algo así, pero no me atrevo.",
+      "timestamp": 1764047278
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Unirte a un club de ciencia puede ser una gran manera de conocer personas con intereses similares y sentirte más conectado. ¿Qué te detiene de dar ese paso?",
+      "timestamp": 1764047279
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me da miedo que no encaje o que no me acepten.",
+      "timestamp": 1764047281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural sentir miedo al rechazo, pero recuerda que muchas personas en esos clubes pueden sentir lo mismo. Podríamos trabajar en estrategias para ayudarte a sentirte más seguro al abordar esa situación. ¿Te gustaría intentar eso?",
+      "timestamp": 1764047282
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sí. Me gustaría sentirme más seguro.",
+      "timestamp": 1764047283
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Vamos a trabajar en construir esa confianza. Podríamos comenzar identificando tus fortalezas y cualidades positivas. ¿Te gustaría compartir algunas de las cosas que te hacen sentir orgulloso de ti mismo?",
+      "timestamp": 1764047286
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta que soy curioso y que disfruto aprender cosas nuevas.",
+      "timestamp": 1764047287
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son cualidades maravillosas y muy valiosas. Esa curiosidad es un gran impulso para conectar con otros. Podemos usar eso a tu favor. ¿Qué te parece si comenzamos a pensar en cómo podrías compartir esa curiosidad en el club?",
+      "timestamp": 1764047289
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría proponer temas interesantes o preguntas para discutir. Eso podría ayudarme a integrarme.",
+      "timestamp": 1764047290
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente idea. Proponer temas o preguntas no solo te dará confianza, sino que también mostrará tu interés en el grupo. ¿Tienes algún tema en mente que te gustaría proponer?",
+      "timestamp": 1764047291
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre los últimos avances en biotecnología, es un tema que me apasiona.",
+      "timestamp": 1764047292
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Ese es un tema fascinante! Hablar sobre biotecnología puede atraer la atención de otros que comparten tu interés. Te animo a que prepares algunas preguntas o puntos de discusión al respecto. ¿Te gustaría que trabajáramos juntos en algunas ideas para eso?",
+      "timestamp": 1764047293
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que tener algunas ideas preparadas me ayudaría a sentirme más seguro.",
+      "timestamp": 1764047294
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos a listar algunas preguntas o aspectos interesantes sobre biotecnología que podrían generar una buena conversación. Por ejemplo, ¿qué tal discutir sobre las aplicaciones de la biotecnología en la salud?",
+      "timestamp": 1764047296
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. También podríamos hablar sobre la biotecnología en la agricultura, como los cultivos modificados.",
+      "timestamp": 1764047296
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente enfoque, esos son temas muy relevantes. Puedes proponer preguntas como: \"¿Cómo creen que los cultivos modificados pueden ayudar a resolver problemas de seguridad alimentaria?\" Esto puede fomentar un debate interesante. ¿Te gustaría pensar en más preguntas o puntos de discusión?",
+      "timestamp": 1764047298
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría preguntar sobre los aspectos éticos de la biotecnología. Es un tema que genera mucha opinión.",
+      "timestamp": 1764047300
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una gran idea. Las cuestiones éticas son cruciales y pueden generar debates profundos. Podrías preguntar: \"¿Qué piensan sobre los posibles riesgos y beneficios de la biotecnología en nuestra sociedad?\" Esto seguramente invitará a una conversación enriquecedora. ¿Te sientes un poco más preparado ahora?",
+      "timestamp": 1764047302
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me siento un poco más preparado. Gracias por ayudarme a organizar mis ideas.",
+      "timestamp": 1764047303
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más preparado. Recuerda que es un proceso y está bien avanzar poco a poco. Estoy aquí para apoyarte en cualquier momento que lo necesites. ¿Hay algo más sobre lo que te gustaría hablar hoy?",
+      "timestamp": 1764047304
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Gracias por escucharme y ayudarme.",
+      "timestamp": 1764047304
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, ha sido un placer acompañarte en esta conversación. Te animo a que sigas explorando tus intereses y a que des ese paso hacia el club de ciencia. ¡Te deseo lo mejor! Hasta la próxima.",
+      "timestamp": 1764047306
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, hasta la próxima.",
+      "timestamp": 1764047307
+    }
+  ],
+  "notes": null
+}

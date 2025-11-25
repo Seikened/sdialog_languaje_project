@@ -1,0 +1,387 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:54:04Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1034126744,
+  "id": "5c88378a-4856-4e10-9667-15ddd1e55b31",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Rodrigo Salas": {
+      "name": "Rodrigo Salas",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DER) | estudiante de Derecho en la Ibero de 8vo semestre; le gusta debatir temas con amigos, ver series y salir de vez en cuando.",
+      "personality": "serio pero emocional",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Hola. La verdad es que estoy un poco nervioso, no estoy acostumbrado a hablar de mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al principio. Aquí estamos en un espacio seguro, sin juicios. Puedes tomarte tu tiempo. ¿Hay algo específico que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Creo que me gustaría hablar sobre cómo me siento últimamente, he estado teniendo pensamientos oscuros y no sé cómo manejarlos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco que compartas eso conmigo. Los pensamientos oscuros pueden ser muy difíciles de afrontar. ¿Podrías contarme un poco más sobre esos pensamientos y cuándo suelen aparecer?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Suelen aparecer cuando estoy solo, especialmente por las noches. A veces siento que no tengo un propósito claro y eso me preocupa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que la soledad y la falta de propósito pueden intensificar esos pensamientos. Es importante explorar esas emociones. ¿Hay momentos en los que sientes que tienes un propósito, o actividades que disfrutas?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me gusta debatir temas con mis amigos y estudiar Derecho, pero a veces siento que ni eso me llena del todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno saber que tienes intereses que te apasionan. A veces, incluso las cosas que disfrutamos pueden no ser suficientes para llenarnos. ¿Te gustaría explorar más a fondo qué es lo que te falta o qué esperas de esas actividades?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, creo que me falta un sentido de realización. A veces siento que simplemente estoy pasando el tiempo, en lugar de realmente aprovechar mis experiencias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa sensación de simplemente \"pasar el tiempo\" puede ser muy frustrante. ¿Qué te haría sentir que estás aprovechando más tus experiencias o que estás en el camino hacia una realización personal?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Quizás encontrar un propósito más claro, algo que me motive de verdad y que me haga sentir que estoy contribuyendo a algo más grande."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Buscar un propósito más claro puede ser muy enriquecedor. Puede ayudar a explorar tus valores y lo que realmente te importa. ¿Hay alguna causa o tema en particular que te resuene o te apasione?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me interesa mucho la justicia social y los derechos humanos. Siento que hay tanto por hacer en esos ámbitos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es maravilloso que tengas esa pasión por la justicia social y los derechos humanos. Contribuir a esos campos puede brindarte un gran sentido de propósito. ¿Has considerado alguna forma en la que te gustaría participar o involucrarte más en esas áreas?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He pensado en hacer voluntariado o participar en proyectos relacionados con esos temas, pero no estoy seguro de por dónde empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran primer paso considerar el voluntariado. Hay muchas organizaciones que trabajan en justicia social y derechos humanos. Podrías investigar organizaciones locales o incluso en línea. ¿Te gustaría que exploráramos algunas opciones juntos?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me gustaría eso. Creo que necesito un poco de orientación para poder dar ese paso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, estoy aquí para ayudarte. Podemos buscar algunas organizaciones o proyectos que se alineen con tus intereses. ¿Prefieres enfocarte en algo local, o estás abierto a oportunidades en línea también?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Estoy abierto a ambas opciones. Creo que cualquier oportunidad que me ayude a involucrarme sería valiosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Hay muchas opciones. Te recomendaría comenzar por investigar organizaciones locales que se dediquen a la justicia social, así como plataformas en línea donde se ofrecen proyectos de voluntariado. ¿Te gustaría que te ayudara a crear una lista de posibles organizaciones?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, eso sería muy útil. Me gustaría tener una lista para poder investigar y ver en cuál podría involucrarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Voy a prepararte una lista con algunas organizaciones. ¿Te gustaría que incluya también enlaces a sus sitios web para que puedas obtener más información fácilmente?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, eso estaría genial. Tener los enlaces facilitaría mucho la búsqueda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "He creado un resumen con algunas organizaciones que podrías considerar:\n\n1. **Amnistía Internacional** - [www.amnistia.org](https://www.amnistia.org)\n   - Trabaja por los derechos humanos a nivel mundial.\n\n2. **Human Rights Watch** - [www.hrw.org](https://www.hrw.org)\n   - Se centra en la investigación y defensa de los derechos humanos globalmente.\n\n3. **Fundación S.O.S. Racismo** - [www.sosracismo.org](https://www.sosracismo.org)\n   - Enfocada en la lucha contra la discriminación y el racismo en España.\n\n4. **Voluntariado Internacional** - [www.vsi.org](https://www.vsi.org)\n   - Ofrece oportunidades de voluntariado en proyectos sociales en el extranjero.\n\n5. **Cruz Roja** - [www.cruzroja.es](https://www.cruzroja.es)\n   - Tiene diversos programas de apoyo a comunidades desfavorecidas.\n\nSi quieres, podemos ver estos sitios juntos en nuestra próxima sesión. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, suena perfecto. Me gustaría verlos juntos y discutir cuál podría ser un buen fit para mí. Gracias por la ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Rodrigo. Estoy aquí para apoyarte en este proceso. Estoy segura de que encontraremos una opción que te inspire y te ayude a sentirte más realizado. Nos vemos en nuestra próxima sesión. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Gracias, cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046403
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. La verdad es que estoy un poco nervioso, no estoy acostumbrado a hablar de mis sentimientos.",
+      "timestamp": 1764046404
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al principio. Aquí estamos en un espacio seguro, sin juicios. Puedes tomarte tu tiempo. ¿Hay algo específico que te gustaría compartir hoy?",
+      "timestamp": 1764046406
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que me gustaría hablar sobre cómo me siento últimamente, he estado teniendo pensamientos oscuros y no sé cómo manejarlos.",
+      "timestamp": 1764046407
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco que compartas eso conmigo. Los pensamientos oscuros pueden ser muy difíciles de afrontar. ¿Podrías contarme un poco más sobre esos pensamientos y cuándo suelen aparecer?",
+      "timestamp": 1764046408
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Suelen aparecer cuando estoy solo, especialmente por las noches. A veces siento que no tengo un propósito claro y eso me preocupa.",
+      "timestamp": 1764046409
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que la soledad y la falta de propósito pueden intensificar esos pensamientos. Es importante explorar esas emociones. ¿Hay momentos en los que sientes que tienes un propósito, o actividades que disfrutas?",
+      "timestamp": 1764046411
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gusta debatir temas con mis amigos y estudiar Derecho, pero a veces siento que ni eso me llena del todo.",
+      "timestamp": 1764046412
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno saber que tienes intereses que te apasionan. A veces, incluso las cosas que disfrutamos pueden no ser suficientes para llenarnos. ¿Te gustaría explorar más a fondo qué es lo que te falta o qué esperas de esas actividades?",
+      "timestamp": 1764046414
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me falta un sentido de realización. A veces siento que simplemente estoy pasando el tiempo, en lugar de realmente aprovechar mis experiencias.",
+      "timestamp": 1764046415
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sensación de simplemente \"pasar el tiempo\" puede ser muy frustrante. ¿Qué te haría sentir que estás aprovechando más tus experiencias o que estás en el camino hacia una realización personal?",
+      "timestamp": 1764046416
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Quizás encontrar un propósito más claro, algo que me motive de verdad y que me haga sentir que estoy contribuyendo a algo más grande.",
+      "timestamp": 1764046418
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Buscar un propósito más claro puede ser muy enriquecedor. Puede ayudar a explorar tus valores y lo que realmente te importa. ¿Hay alguna causa o tema en particular que te resuene o te apasione?",
+      "timestamp": 1764046419
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me interesa mucho la justicia social y los derechos humanos. Siento que hay tanto por hacer en esos ámbitos.",
+      "timestamp": 1764046420
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es maravilloso que tengas esa pasión por la justicia social y los derechos humanos. Contribuir a esos campos puede brindarte un gran sentido de propósito. ¿Has considerado alguna forma en la que te gustaría participar o involucrarte más en esas áreas?",
+      "timestamp": 1764046422
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He pensado en hacer voluntariado o participar en proyectos relacionados con esos temas, pero no estoy seguro de por dónde empezar.",
+      "timestamp": 1764046423
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran primer paso considerar el voluntariado. Hay muchas organizaciones que trabajan en justicia social y derechos humanos. Podrías investigar organizaciones locales o incluso en línea. ¿Te gustaría que exploráramos algunas opciones juntos?",
+      "timestamp": 1764046424
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que necesito un poco de orientación para poder dar ese paso.",
+      "timestamp": 1764046425
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, estoy aquí para ayudarte. Podemos buscar algunas organizaciones o proyectos que se alineen con tus intereses. ¿Prefieres enfocarte en algo local, o estás abierto a oportunidades en línea también?",
+      "timestamp": 1764046426
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy abierto a ambas opciones. Creo que cualquier oportunidad que me ayude a involucrarme sería valiosa.",
+      "timestamp": 1764046427
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Hay muchas opciones. Te recomendaría comenzar por investigar organizaciones locales que se dediquen a la justicia social, así como plataformas en línea donde se ofrecen proyectos de voluntariado. ¿Te gustaría que te ayudara a crear una lista de posibles organizaciones?",
+      "timestamp": 1764046429
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería muy útil. Me gustaría tener una lista para poder investigar y ver en cuál podría involucrarme.",
+      "timestamp": 1764046430
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Voy a prepararte una lista con algunas organizaciones. ¿Te gustaría que incluya también enlaces a sus sitios web para que puedas obtener más información fácilmente?",
+      "timestamp": 1764046432
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso estaría genial. Tener los enlaces facilitaría mucho la búsqueda.",
+      "timestamp": 1764046432
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Crear una lista de organizaciones locales y en línea enfocadas en justicia social y derechos humanos para que el paciente, Rodrigo Salas, pueda investigar y decidir en cuál involucrarse."
+        },
+        "id": "call_Srv6HCanA5IgzHNettj1qnEV"
+      },
+      "timestamp": 1764046434
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Crear una lista de organizaciones locales y en línea enfocadas en justicia social y derechos humanos para que el paciente, Rodrigo Salas, pueda investigar y decidir en cuál involucrarse.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_Srv6HCanA5IgzHNettj1qnEV"
+      },
+      "timestamp": 1764046434
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He creado un resumen con algunas organizaciones que podrías considerar:\n\n1. **Amnistía Internacional** - [www.amnistia.org](https://www.amnistia.org)\n   - Trabaja por los derechos humanos a nivel mundial.\n\n2. **Human Rights Watch** - [www.hrw.org](https://www.hrw.org)\n   - Se centra en la investigación y defensa de los derechos humanos globalmente.\n\n3. **Fundación S.O.S. Racismo** - [www.sosracismo.org](https://www.sosracismo.org)\n   - Enfocada en la lucha contra la discriminación y el racismo en España.\n\n4. **Voluntariado Internacional** - [www.vsi.org](https://www.vsi.org)\n   - Ofrece oportunidades de voluntariado en proyectos sociales en el extranjero.\n\n5. **Cruz Roja** - [www.cruzroja.es](https://www.cruzroja.es)\n   - Tiene diversos programas de apoyo a comunidades desfavorecidas.\n\nSi quieres, podemos ver estos sitios juntos en nuestra próxima sesión. ¿Te parece bien?",
+      "timestamp": 1764046440
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena perfecto. Me gustaría verlos juntos y discutir cuál podría ser un buen fit para mí. Gracias por la ayuda.",
+      "timestamp": 1764046441
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Rodrigo. Estoy aquí para apoyarte en este proceso. Estoy segura de que encontraremos una opción que te inspire y te ayude a sentirte más realizado. Nos vemos en nuestra próxima sesión. ¡Cuídate mucho!",
+      "timestamp": 1764046443
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate también. Hasta la próxima.",
+      "timestamp": 1764046443
+    }
+  ],
+  "notes": null
+}

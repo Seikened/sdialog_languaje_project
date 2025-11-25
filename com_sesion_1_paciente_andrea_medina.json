@@ -1,0 +1,319 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:23:20Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1654333059,
+  "id": "881ea75e-04a5-42a5-a610-8dc4d9b543e9",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Andrea Medina": {
+      "name": "Andrea Medina",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(COM) | estudiante de Comunicación en la Ibero de 5to semestre; le gusta grabar cosas con su celular, hacer historias, ver TikTok y platicar mucho.",
+      "personality": "expresiva y empática",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a esto. Me siento un poco abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al principio. Puedes tomarte tu tiempo para compartir lo que sientas. ¿Hay algo específico que te esté abrumando?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, siento que hay muchas cosas en mi mente; a veces me siento triste sin una razón clara. Me gustaría entender por qué me siento así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entender esas emociones es un buen paso. Empecemos por explorar esos momentos en los que sientes tristeza. ¿Hay situaciones o pensamientos que aparezcan con más frecuencia?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "A veces, cuando estoy sola o cuando veo redes sociales, me siento muy mal. Comparo mi vida con la de los demás y eso me afecta."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La comparación con los demás es algo que puede ser muy perjudicial. A menudo, nos enfocamos en lo que no tenemos. ¿Podrías contarme más sobre cómo te sientes cuando estás en esas situaciones?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Me siento insuficiente, como si no estuviera logrando nada. A veces me da ansiedad y me cuesta disfrutar de las cosas que antes me gustaban."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa sensación de insuficiencia y ansiedad puede ser bastante desgastante. Es importante reconocer esos momentos y cómo afectan tu disfrute. ¿Te gustaría que trabajáramos juntas en estrategias para afrontar esos pensamientos?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría mucho. Creo que necesito herramientas para manejar esos sentimientos y no dejar que me afecten tanto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos trabajar en algunas estrategias. Un buen comienzo podría ser llevar un diario de emociones, donde puedas anotar tus pensamientos y sentimientos. ¿Te gustaría intentar eso?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, suena bien. Creo que escribir puede ayudarme a ver las cosas de una manera diferente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Escribir te permitirá expresar lo que sientes y reflexionar sobre ello. Podemos establecer un tiempo específico cada día para hacerlo, ¿te gustaría que lo hiciéramos?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría. Tal vez unos minutos por la mañana o antes de dormir podrían funcionar bien para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, establecer una rutina matutina o nocturna puede ser muy beneficioso. Comenzar con diez minutos cada día sería un buen objetivo. ¿Te gustaría que te diera algunas preguntas guía para empezar a escribir?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, eso me ayudaría mucho. Tener algunas preguntas como guía me haría sentir más enfocada en lo que quiero escribir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De acuerdo, aquí tienes algunas preguntas que puedes usar: \n\n1. ¿Qué emociones estoy sintiendo hoy y por qué?\n2. ¿Qué situaciones me han hecho sentir feliz o agradecida últimamente?\n3. ¿Hay algún pensamiento negativo recurrente que me gustaría analizar?\n\nPuedes elegir las que más resuene contigo cada día. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me parece perfecto. Creo que esas preguntas me ayudarán a entender mejor mis emociones. Gracias por las sugerencias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra que te resulten útiles. Estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría explorar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Creo que por ahora eso es suficiente, pero me gustaría hablar más sobre cómo manejar la ansiedad en otro momento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos profundizar en la ansiedad en nuestra próxima sesión. Es un tema importante y hay muchas técnicas que podemos explorar. Gracias por compartirme tus pensamientos hoy."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Gracias a ti por escucharme y ayudarme a sentirme más cómoda. Me siento un poco mejor al hablar de todo esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Es un gran paso hacia el bienestar. Recuerda que estoy aquí para apoyarte siempre. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "¡Gracias! Nos vemos pronto, cuídate mucho."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764048165
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a esto. Me siento un poco abrumada.",
+      "timestamp": 1764048167
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al principio. Puedes tomarte tu tiempo para compartir lo que sientas. ¿Hay algo específico que te esté abrumando?",
+      "timestamp": 1764048168
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, siento que hay muchas cosas en mi mente; a veces me siento triste sin una razón clara. Me gustaría entender por qué me siento así.",
+      "timestamp": 1764048169
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entender esas emociones es un buen paso. Empecemos por explorar esos momentos en los que sientes tristeza. ¿Hay situaciones o pensamientos que aparezcan con más frecuencia?",
+      "timestamp": 1764048170
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, cuando estoy sola o cuando veo redes sociales, me siento muy mal. Comparo mi vida con la de los demás y eso me afecta.",
+      "timestamp": 1764048172
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La comparación con los demás es algo que puede ser muy perjudicial. A menudo, nos enfocamos en lo que no tenemos. ¿Podrías contarme más sobre cómo te sientes cuando estás en esas situaciones?",
+      "timestamp": 1764048174
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento insuficiente, como si no estuviera logrando nada. A veces me da ansiedad y me cuesta disfrutar de las cosas que antes me gustaban.",
+      "timestamp": 1764048175
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sensación de insuficiencia y ansiedad puede ser bastante desgastante. Es importante reconocer esos momentos y cómo afectan tu disfrute. ¿Te gustaría que trabajáramos juntas en estrategias para afrontar esos pensamientos?",
+      "timestamp": 1764048177
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho. Creo que necesito herramientas para manejar esos sentimientos y no dejar que me afecten tanto.",
+      "timestamp": 1764048179
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar en algunas estrategias. Un buen comienzo podría ser llevar un diario de emociones, donde puedas anotar tus pensamientos y sentimientos. ¿Te gustaría intentar eso?",
+      "timestamp": 1764048180
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Creo que escribir puede ayudarme a ver las cosas de una manera diferente.",
+      "timestamp": 1764048181
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Escribir te permitirá expresar lo que sientes y reflexionar sobre ello. Podemos establecer un tiempo específico cada día para hacerlo, ¿te gustaría que lo hiciéramos?",
+      "timestamp": 1764048183
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Tal vez unos minutos por la mañana o antes de dormir podrían funcionar bien para mí.",
+      "timestamp": 1764048184
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, establecer una rutina matutina o nocturna puede ser muy beneficioso. Comenzar con diez minutos cada día sería un buen objetivo. ¿Te gustaría que te diera algunas preguntas guía para empezar a escribir?",
+      "timestamp": 1764048185
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría mucho. Tener algunas preguntas como guía me haría sentir más enfocada en lo que quiero escribir.",
+      "timestamp": 1764048188
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De acuerdo, aquí tienes algunas preguntas que puedes usar: \n\n1. ¿Qué emociones estoy sintiendo hoy y por qué?\n2. ¿Qué situaciones me han hecho sentir feliz o agradecida últimamente?\n3. ¿Hay algún pensamiento negativo recurrente que me gustaría analizar?\n\nPuedes elegir las que más resuene contigo cada día. ¿Te parece bien?",
+      "timestamp": 1764048190
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece perfecto. Creo que esas preguntas me ayudarán a entender mejor mis emociones. Gracias por las sugerencias.",
+      "timestamp": 1764048191
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra que te resulten útiles. Estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría explorar en nuestra sesión de hoy?",
+      "timestamp": 1764048192
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que por ahora eso es suficiente, pero me gustaría hablar más sobre cómo manejar la ansiedad en otro momento.",
+      "timestamp": 1764048194
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos profundizar en la ansiedad en nuestra próxima sesión. Es un tema importante y hay muchas técnicas que podemos explorar. Gracias por compartirme tus pensamientos hoy.",
+      "timestamp": 1764048196
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias a ti por escucharme y ayudarme a sentirme más cómoda. Me siento un poco mejor al hablar de todo esto.",
+      "timestamp": 1764048197
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Es un gran paso hacia el bienestar. Recuerda que estoy aquí para apoyarte siempre. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764048198
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos pronto, cuídate mucho.",
+      "timestamp": 1764048200
+    }
+  ],
+  "notes": null
+}

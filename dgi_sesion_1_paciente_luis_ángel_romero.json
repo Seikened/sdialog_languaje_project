@@ -1,0 +1,883 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:17:35Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1227611675,
+  "id": "b4d5f417-a6e6-4325-9659-e7becbc29170",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Luis Ángel Romero": {
+      "name": "Luis Ángel Romero",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DGI) | estudiante de Diseño Gráfico e Innovación en la Ibero de 6to semestre; le gusta ilustrar en su tablet, editar fotos y ver contenido visual en Instagram y TikTok.",
+      "personality": "extrovertido pero inseguro",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso, es mi primera vez en una terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para acompañarte y hacerte sentir lo más cómodo posible. ¿Hay algo en particular que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, he estado sintiendo un poco de tristeza últimamente y no sé bien por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que te sientas así. Para explorar un poco más cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podemos revisar juntos. ¿Te gustaría responderlo?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría hacerlo. Creo que puede ayudarme a entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes algunas preguntas para reflexionar. Trata de responderlas en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\":\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Cómo te sientes al responder estas preguntas?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Siento un poco de presión, pero creo que es importante. Intentaré responder con honestidad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es muy valioso, gracias por tu disposición. Tómate tu tiempo para responder y recuerda que aquí estoy para apoyarte en todo momento. Cuando estés listo, comparte tus respuestas."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Está bien, lo haré. Un momento... Para la primera pregunta, diría que un 2. Para la segunda, un 2 también."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir esas respuestas. Sigue adelante, estoy aquí para escucharte. ¿Cuál es tu respuesta para la tercera pregunta?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Para la tercera pregunta, creo que un 2 también. A veces me siento así, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es bueno que reconozcas esos momentos. ¿Cómo te va con las siguientes preguntas?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Para la cuarta, un 1; para la quinta, un 2; para la sexta, un 1. Estoy tratando de manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es positivo que estés reconociendo tus esfuerzos y cómo te sientes. ¿Te gustaría continuar con las últimas cuatro preguntas?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, claro. Para la séptima, diría un 2. Para la octava, un 1. Para la novena, un 1 también. Y para la décima, afortunadamente un 0."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas, es un paso muy importante para entender tus emociones. Parece que hay ciertos desafíos que estás enfrentando, pero también hay aspectos positivos. ¿Te gustaría hablar más sobre alguno de estos sentimientos o experiencias en particular?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría hablar sobre la tristeza que siento a veces. No sé por qué, y eso me confunde."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La confusión sobre la tristeza es algo común, y es valioso que quieras explorarlo. A veces, los sentimientos pueden surgir sin una razón clara. ¿Te parece si comenzamos por hablar de alguna situación reciente que te haya causado esos sentimientos?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, creo que podría ayudar. Recientemente, he estado teniendo dificultades en la escuela y me siento abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que sentirte abrumado en la escuela pueda impactar tu estado emocional. La presión académica puede ser muy intensa. ¿Cómo has estado manejando esa sensación de abrumo?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "He intentado distraerme con mis ilustraciones y ver contenido en redes, pero a veces no funciona y la tristeza regresa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural buscar distracciones, pero a veces esas estrategias no son suficientes para enfrentar lo que sentimos. Las ilustraciones son una forma hermosa de expresión; ¿has considerado usar esa creatividad para explorar tus emociones?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, lo he pensado. Creo que podría dibujar lo que siento, pero a veces me cuesta poner mis emociones en papel."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que expresar tus emociones en el papel pueda ser un reto. A veces, nuestros sentimientos son complejos y difíciles de plasmar. Para explorar más a fondo lo que has estado sintiendo, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender tus emociones en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que ya hemos hecho ese cuestionario. Pero estoy dispuesto a hacer algo más que me ayude a entender mis emociones mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes razón, lo hicimos recientemente. Podemos intentar una técnica diferente, como el \"diálogo interno\" o escribir una carta a tus emociones. Esto puede ayudarte a articular lo que sientes sin la presión de hacerlo en un dibujo. ¿Te gustaría probar alguna de estas opciones?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, creo que escribir una carta a mis emociones podría ser útil. Me gustaría intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Escribir una carta puede ser una forma poderosa de conectar con tus sentimientos. Puedes comenzar dirigiéndote a tus emociones, contándoles cómo te sientes en este momento y lo que te gustaría expresarles. Tómate tu tiempo y, cuando estés listo, comparte lo que escribas."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Está bien, lo haré. *Empieza a escribir*... \"Querida tristeza, a veces me siento perdido y no entiendo por qué. Me gustaría que me dijeras qué necesitas de mí\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran comienzo. Tu carta muestra una disposición a dialogar con tus emociones. ¿Te gustaría seguir escribiendo o compartir lo que sientes mientras lo haces? Estoy aquí para apoyarte."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Me gustaría seguir escribiendo. A veces, siento que tu presencia me abruma, pero también sé que debo entenderte mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy valioso lo que estás escribiendo. Reconocer que la tristeza puede ser abrumadora, pero que también deseas entenderla es un gran paso. ¿Cómo te sientes al expresar estos pensamientos?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Me siento un poco aliviado. Es más fácil ponerlo en palabras que mantenerlo guardado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar que te sientes aliviado. Expresar lo que llevamos dentro puede ser liberador y puede ayudarte a procesar esas emociones. Sigue escribiendo lo que necesites; estoy aquí contigo."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Gracias, eso significa mucho. *Continúa escribiendo*... \"A veces me siento solo y dudo de mí mismo. Quiero aprender a vivir contigo sin que me controle.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una reflexión muy profunda. Reconocer esa soledad y el deseo de aprender a convivir con la tristeza muestra fortaleza. Es un paso importante hacia el autoconocimiento. ¿Cómo te sientes al poner esas palabras en la carta?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Siento que estoy comenzando a ver las cosas de otra manera. Es como si al escribirlo, me diera un poco más de claridad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso. A veces, externalizar nuestros sentimientos puede brindarnos la claridad que buscamos. Continúa escribiendo todo lo que necesites. Estoy aquí para apoyarte en este proceso."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "*Escribe más*... \"Quiero aprender a aceptar mis emociones y no tener miedo de sentirlas. Me gustaría encontrar maneras de ser más fuerte.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un deseo muy positivo y valiente. Aceptar nuestras emociones, incluso las que son difíciles, es fundamental para sanar y crecer. Buscar maneras de fortalecer tu relación contigo mismo es un gran paso. ¿Hay algo específico que te gustaría explorar para lograr esa aceptación y fortaleza?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Me gustaría saber cómo puedo ser más amable conmigo mismo y no juzgarme tanto. Creo que eso me ayudaría."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La autocompasión es esencial para el bienestar emocional. Practicar ser amable contigo mismo puede incluir reconocer tus logros, incluso los pequeños, y hablarte con cariño, como lo harías con un amigo. ¿Te gustaría que trabajáramos juntos en algunas estrategias específicas para fomentar esa amabilidad hacia ti mismo?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría mucho. Creo que podría ayudarme a sentirme mejor conmigo mismo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos comenzar con algunas estrategias simples. Una técnica es llevar un diario de gratitud, donde anotes al menos tres cosas que aprecias de ti mismo o de tu día cada noche. También puedes practicar afirmaciones positivas, repitiéndote cosas como \"soy suficiente\" o \"merezo ser feliz\". ¿Te gustaría probar alguna de estas ideas?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me parece bien. Creo que llevar un diario de gratitud podría ser una buena forma de empezar a ver las cosas de manera diferente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te resuene la idea del diario de gratitud. Puedes empezar con algo sencillo, como escribir tres cosas cada día que te hagan sentir agradecido, ya sean grandes o pequeñas. Con el tiempo, eso puede ayudarte a cultivar una mentalidad más positiva. Estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría explorar hoy?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que por ahora eso está bien. He aprendido cosas útiles hoy y me siento un poco más tranquilo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas más tranquilo y que hayas aprendido cosas útiles. Sin embargo, he notado algunos síntomas que podrían estar relacionados con la depresión. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podría ser útil. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que ya hemos hecho ese cuestionario, pero estoy dispuesto a hablar sobre cómo me siento si eso puede ayudar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es cierto que ya revisamos el cuestionario, pero es importante volver a tocar esos puntos si sientes que necesitas explorarlos más a fondo. Hablemos sobre cómo te has sentido. ¿Hay algún aspecto específico de tus emociones que te gustaría discutir más?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría hablar más sobre esa sensación de soledad y cómo a veces me cuesta conectar con los demás. Eso me afecta bastante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que la soledad puede ser una carga pesada y es importante examinar cómo afecta tu vida y tus relaciones. Para explorar más a fondo cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podría ser útil. ¿Te gustaría responderlo? Esto NO sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Ya mencionamos el cuestionario, pero si siento que necesito más apoyo, me parece bien hablar sobre lo que he experimentado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Está bien, es importante que te sientas cómodo. Hablar sobre lo que has experimentado puede ser realmente útil. Cuéntame más sobre cómo te has sentido en relación a esa soledad y las dificultades para conectar con los demás. ¿Qué situaciones específicas han hecho que te sientas así?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "A veces, siento que no encajo con mis compañeros en la universidad. Me da miedo abrirme a ellos, y eso me hace sentir más solo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente natural sentir que no encajas en ciertos grupos, especialmente en un entorno como la universidad, donde todo es nuevo y puede ser abrumador. El miedo a abrirte puede dificultar la formación de conexiones. ¿Has considerado algún pequeño paso que puedas dar para empezar a abrirte a los demás?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "He pensado en intentar hablar más con ellos, quizás sobre cosas que nos interesen, pero me cuesta dar ese primer paso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Dar el primer paso puede ser complicado, especialmente cuando hay miedo involucrado. Hablar sobre intereses comunes puede ser un buen enfoque para romper el hielo. Sin embargo, he notado algunos síntomas que podrían estar relacionados con la depresión. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podría ser útil. ¿Te gustaría responderlo? Esto NO sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Entiendo que es importante, pero creo que lo que necesito en este momento es hablar sobre lo que siento y encontrar maneras de conectarme mejor con los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes razón, a veces es más efectivo centrarse en hablar sobre tus emociones y experiencias. Conectar con los demás puede comenzar con pequeños pasos, como hacer preguntas sobre sus intereses o compartir algo sobre ti mismo. ¿Te gustaría que exploráramos algunas preguntas o temas que puedas usar para iniciar esas conversaciones?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, eso me ayudaría. Quiero sentirme más cómodo hablando con ellos y hacer nuevas conexiones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, aquí hay algunas preguntas que podrías usar para iniciar una conversación:\n\n1. ¿Cuál es tu serie/película/libro favorito en este momento?\n2. ¿Qué te trae más alegría en tu tiempo libre?\n3. ¿Hay algún proyecto o actividad en la que estés trabajando que te emocione?\n4. ¿Qué música estás escuchando últimamente?\n\nPuedes comenzar con algo simple y ver cómo va la conversación. Lo más importante es ser auténtico y recordar que los demás también pueden sentir la misma inquietud. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, esas preguntas suenan bien y son sencillas. Creo que podrían ayudarme a abrir una conversación. Gracias por las sugerencias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te resulten útiles. Recuerda que cada pequeño paso cuenta, y es normal sentirse un poco nervioso al principio. Practicar y ser amable contigo mismo en este proceso es clave. Estoy aquí para apoyarte en cualquier momento. ¿Hay algo más en lo que te gustaría trabajar hoy?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Por ahora creo que eso es todo. Me siento mejor al haber hablado y tener algunas ideas para conectar con los demás. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que te sientas mejor y que hayas encontrado algunas ideas útiles. Recuerda que estoy aquí para apoyarte en tu camino. Cuida de ti mismo y no dudes en regresar si necesitas más ayuda o simplemente alguien con quien hablar. ¡Que tengas un buen día! \n\n¡Hasta luego!"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Gracias, hasta luego."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047756
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso, es mi primera vez en una terapia.",
+      "timestamp": 1764047757
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para acompañarte y hacerte sentir lo más cómodo posible. ¿Hay algo en particular que te gustaría compartir hoy?",
+      "timestamp": 1764047758
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo un poco de tristeza últimamente y no sé bien por qué.",
+      "timestamp": 1764047759
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047759
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que te sientas así. Para explorar un poco más cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podemos revisar juntos. ¿Te gustaría responderlo?",
+      "timestamp": 1764047760
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacerlo. Creo que puede ayudarme a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764047761
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "sentimientos de tristeza"
+        },
+        "id": "call_NCX6iA4bkhw8CVwCs9XzZB7l"
+      },
+      "timestamp": 1764047762
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"sentimientos de tristeza\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_NCX6iA4bkhw8CVwCs9XzZB7l"
+      },
+      "timestamp": 1764047762
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes algunas preguntas para reflexionar. Trata de responderlas en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\":\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Cómo te sientes al responder estas preguntas?",
+      "timestamp": 1764047767
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento un poco de presión, pero creo que es importante. Intentaré responder con honestidad.",
+      "timestamp": 1764047769
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es muy valioso, gracias por tu disposición. Tómate tu tiempo para responder y recuerda que aquí estoy para apoyarte en todo momento. Cuando estés listo, comparte tus respuestas.",
+      "timestamp": 1764047770
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, lo haré. Un momento... Para la primera pregunta, diría que un 2. Para la segunda, un 2 también.",
+      "timestamp": 1764047771
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir esas respuestas. Sigue adelante, estoy aquí para escucharte. ¿Cuál es tu respuesta para la tercera pregunta?",
+      "timestamp": 1764047772
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para la tercera pregunta, creo que un 2 también. A veces me siento así, pero no siempre.",
+      "timestamp": 1764047773
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es bueno que reconozcas esos momentos. ¿Cómo te va con las siguientes preguntas?",
+      "timestamp": 1764047774
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para la cuarta, un 1; para la quinta, un 2; para la sexta, un 1. Estoy tratando de manejarlo.",
+      "timestamp": 1764047775
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es positivo que estés reconociendo tus esfuerzos y cómo te sientes. ¿Te gustaría continuar con las últimas cuatro preguntas?",
+      "timestamp": 1764047776
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro. Para la séptima, diría un 2. Para la octava, un 1. Para la novena, un 1 también. Y para la décima, afortunadamente un 0.",
+      "timestamp": 1764047777
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas, es un paso muy importante para entender tus emociones. Parece que hay ciertos desafíos que estás enfrentando, pero también hay aspectos positivos. ¿Te gustaría hablar más sobre alguno de estos sentimientos o experiencias en particular?",
+      "timestamp": 1764047778
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre la tristeza que siento a veces. No sé por qué, y eso me confunde.",
+      "timestamp": 1764047780
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La confusión sobre la tristeza es algo común, y es valioso que quieras explorarlo. A veces, los sentimientos pueden surgir sin una razón clara. ¿Te parece si comenzamos por hablar de alguna situación reciente que te haya causado esos sentimientos?",
+      "timestamp": 1764047781
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ayudar. Recientemente, he estado teniendo dificultades en la escuela y me siento abrumado.",
+      "timestamp": 1764047783
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que sentirte abrumado en la escuela pueda impactar tu estado emocional. La presión académica puede ser muy intensa. ¿Cómo has estado manejando esa sensación de abrumo?",
+      "timestamp": 1764047784
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado distraerme con mis ilustraciones y ver contenido en redes, pero a veces no funciona y la tristeza regresa.",
+      "timestamp": 1764047786
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural buscar distracciones, pero a veces esas estrategias no son suficientes para enfrentar lo que sentimos. Las ilustraciones son una forma hermosa de expresión; ¿has considerado usar esa creatividad para explorar tus emociones?",
+      "timestamp": 1764047787
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, lo he pensado. Creo que podría dibujar lo que siento, pero a veces me cuesta poner mis emociones en papel.",
+      "timestamp": 1764047789
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047789
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que expresar tus emociones en el papel pueda ser un reto. A veces, nuestros sentimientos son complejos y difíciles de plasmar. Para explorar más a fondo lo que has estado sintiendo, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender tus emociones en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva.",
+      "timestamp": 1764047791
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya hemos hecho ese cuestionario. Pero estoy dispuesto a hacer algo más que me ayude a entender mis emociones mejor.",
+      "timestamp": 1764047792
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes razón, lo hicimos recientemente. Podemos intentar una técnica diferente, como el \"diálogo interno\" o escribir una carta a tus emociones. Esto puede ayudarte a articular lo que sientes sin la presión de hacerlo en un dibujo. ¿Te gustaría probar alguna de estas opciones?",
+      "timestamp": 1764047793
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que escribir una carta a mis emociones podría ser útil. Me gustaría intentarlo.",
+      "timestamp": 1764047794
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047794
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Escribir una carta puede ser una forma poderosa de conectar con tus sentimientos. Puedes comenzar dirigiéndote a tus emociones, contándoles cómo te sientes en este momento y lo que te gustaría expresarles. Tómate tu tiempo y, cuando estés listo, comparte lo que escribas.",
+      "timestamp": 1764047797
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, lo haré. *Empieza a escribir*... \"Querida tristeza, a veces me siento perdido y no entiendo por qué. Me gustaría que me dijeras qué necesitas de mí\".",
+      "timestamp": 1764047798
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran comienzo. Tu carta muestra una disposición a dialogar con tus emociones. ¿Te gustaría seguir escribiendo o compartir lo que sientes mientras lo haces? Estoy aquí para apoyarte.",
+      "timestamp": 1764047800
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría seguir escribiendo. A veces, siento que tu presencia me abruma, pero también sé que debo entenderte mejor.",
+      "timestamp": 1764047801
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy valioso lo que estás escribiendo. Reconocer que la tristeza puede ser abrumadora, pero que también deseas entenderla es un gran paso. ¿Cómo te sientes al expresar estos pensamientos?",
+      "timestamp": 1764047802
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco aliviado. Es más fácil ponerlo en palabras que mantenerlo guardado.",
+      "timestamp": 1764047803
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar que te sientes aliviado. Expresar lo que llevamos dentro puede ser liberador y puede ayudarte a procesar esas emociones. Sigue escribiendo lo que necesites; estoy aquí contigo.",
+      "timestamp": 1764047804
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, eso significa mucho. *Continúa escribiendo*... \"A veces me siento solo y dudo de mí mismo. Quiero aprender a vivir contigo sin que me controle.\"",
+      "timestamp": 1764047806
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una reflexión muy profunda. Reconocer esa soledad y el deseo de aprender a convivir con la tristeza muestra fortaleza. Es un paso importante hacia el autoconocimiento. ¿Cómo te sientes al poner esas palabras en la carta?",
+      "timestamp": 1764047808
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que estoy comenzando a ver las cosas de otra manera. Es como si al escribirlo, me diera un poco más de claridad.",
+      "timestamp": 1764047809
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso. A veces, externalizar nuestros sentimientos puede brindarnos la claridad que buscamos. Continúa escribiendo todo lo que necesites. Estoy aquí para apoyarte en este proceso.",
+      "timestamp": 1764047810
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "*Escribe más*... \"Quiero aprender a aceptar mis emociones y no tener miedo de sentirlas. Me gustaría encontrar maneras de ser más fuerte.\"",
+      "timestamp": 1764047811
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un deseo muy positivo y valiente. Aceptar nuestras emociones, incluso las que son difíciles, es fundamental para sanar y crecer. Buscar maneras de fortalecer tu relación contigo mismo es un gran paso. ¿Hay algo específico que te gustaría explorar para lograr esa aceptación y fortaleza?",
+      "timestamp": 1764047813
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría saber cómo puedo ser más amable conmigo mismo y no juzgarme tanto. Creo que eso me ayudaría.",
+      "timestamp": 1764047814
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La autocompasión es esencial para el bienestar emocional. Practicar ser amable contigo mismo puede incluir reconocer tus logros, incluso los pequeños, y hablarte con cariño, como lo harías con un amigo. ¿Te gustaría que trabajáramos juntos en algunas estrategias específicas para fomentar esa amabilidad hacia ti mismo?",
+      "timestamp": 1764047815
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho. Creo que podría ayudarme a sentirme mejor conmigo mismo.",
+      "timestamp": 1764047816
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos comenzar con algunas estrategias simples. Una técnica es llevar un diario de gratitud, donde anotes al menos tres cosas que aprecias de ti mismo o de tu día cada noche. También puedes practicar afirmaciones positivas, repitiéndote cosas como \"soy suficiente\" o \"merezo ser feliz\". ¿Te gustaría probar alguna de estas ideas?",
+      "timestamp": 1764047818
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Creo que llevar un diario de gratitud podría ser una buena forma de empezar a ver las cosas de manera diferente.",
+      "timestamp": 1764047820
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te resuene la idea del diario de gratitud. Puedes empezar con algo sencillo, como escribir tres cosas cada día que te hagan sentir agradecido, ya sean grandes o pequeñas. Con el tiempo, eso puede ayudarte a cultivar una mentalidad más positiva. Estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría explorar hoy?",
+      "timestamp": 1764047822
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que por ahora eso está bien. He aprendido cosas útiles hoy y me siento un poco más tranquilo.",
+      "timestamp": 1764047823
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047823
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas más tranquilo y que hayas aprendido cosas útiles. Sin embargo, he notado algunos síntomas que podrían estar relacionados con la depresión. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podría ser útil. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva.",
+      "timestamp": 1764047825
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya hemos hecho ese cuestionario, pero estoy dispuesto a hablar sobre cómo me siento si eso puede ayudar.",
+      "timestamp": 1764047826
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047826
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es cierto que ya revisamos el cuestionario, pero es importante volver a tocar esos puntos si sientes que necesitas explorarlos más a fondo. Hablemos sobre cómo te has sentido. ¿Hay algún aspecto específico de tus emociones que te gustaría discutir más?",
+      "timestamp": 1764047827
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar más sobre esa sensación de soledad y cómo a veces me cuesta conectar con los demás. Eso me afecta bastante.",
+      "timestamp": 1764047828
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047828
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que la soledad puede ser una carga pesada y es importante examinar cómo afecta tu vida y tus relaciones. Para explorar más a fondo cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podría ser útil. ¿Te gustaría responderlo? Esto NO sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva.",
+      "timestamp": 1764047830
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ya mencionamos el cuestionario, pero si siento que necesito más apoyo, me parece bien hablar sobre lo que he experimentado.",
+      "timestamp": 1764047831
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047831
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, es importante que te sientas cómodo. Hablar sobre lo que has experimentado puede ser realmente útil. Cuéntame más sobre cómo te has sentido en relación a esa soledad y las dificultades para conectar con los demás. ¿Qué situaciones específicas han hecho que te sientas así?",
+      "timestamp": 1764047833
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, siento que no encajo con mis compañeros en la universidad. Me da miedo abrirme a ellos, y eso me hace sentir más solo.",
+      "timestamp": 1764047834
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente natural sentir que no encajas en ciertos grupos, especialmente en un entorno como la universidad, donde todo es nuevo y puede ser abrumador. El miedo a abrirte puede dificultar la formación de conexiones. ¿Has considerado algún pequeño paso que puedas dar para empezar a abrirte a los demás?",
+      "timestamp": 1764047836
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He pensado en intentar hablar más con ellos, quizás sobre cosas que nos interesen, pero me cuesta dar ese primer paso.",
+      "timestamp": 1764047837
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047837
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Dar el primer paso puede ser complicado, especialmente cuando hay miedo involucrado. Hablar sobre intereses comunes puede ser un buen enfoque para romper el hielo. Sin embargo, he notado algunos síntomas que podrían estar relacionados con la depresión. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podría ser útil. ¿Te gustaría responderlo? Esto NO sustituye una evaluación profesional completa, pero puede darnos una mejor perspectiva.",
+      "timestamp": 1764047839
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que es importante, pero creo que lo que necesito en este momento es hablar sobre lo que siento y encontrar maneras de conectarme mejor con los demás.",
+      "timestamp": 1764047840
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes razón, a veces es más efectivo centrarse en hablar sobre tus emociones y experiencias. Conectar con los demás puede comenzar con pequeños pasos, como hacer preguntas sobre sus intereses o compartir algo sobre ti mismo. ¿Te gustaría que exploráramos algunas preguntas o temas que puedas usar para iniciar esas conversaciones?",
+      "timestamp": 1764047842
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría. Quiero sentirme más cómodo hablando con ellos y hacer nuevas conexiones.",
+      "timestamp": 1764047843
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, aquí hay algunas preguntas que podrías usar para iniciar una conversación:\n\n1. ¿Cuál es tu serie/película/libro favorito en este momento?\n2. ¿Qué te trae más alegría en tu tiempo libre?\n3. ¿Hay algún proyecto o actividad en la que estés trabajando que te emocione?\n4. ¿Qué música estás escuchando últimamente?\n\nPuedes comenzar con algo simple y ver cómo va la conversación. Lo más importante es ser auténtico y recordar que los demás también pueden sentir la misma inquietud. ¿Te parece bien?",
+      "timestamp": 1764047846
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, esas preguntas suenan bien y son sencillas. Creo que podrían ayudarme a abrir una conversación. Gracias por las sugerencias.",
+      "timestamp": 1764047848
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te resulten útiles. Recuerda que cada pequeño paso cuenta, y es normal sentirse un poco nervioso al principio. Practicar y ser amable contigo mismo en este proceso es clave. Estoy aquí para apoyarte en cualquier momento. ¿Hay algo más en lo que te gustaría trabajar hoy?",
+      "timestamp": 1764047849
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora creo que eso es todo. Me siento mejor al haber hablado y tener algunas ideas para conectar con los demás. Gracias por tu apoyo.",
+      "timestamp": 1764047852
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que te sientas mejor y que hayas encontrado algunas ideas útiles. Recuerda que estoy aquí para apoyarte en tu camino. Cuida de ti mismo y no dudes en regresar si necesitas más ayuda o simplemente alguien con quien hablar. ¡Que tengas un buen día! \n\n¡Hasta luego!",
+      "timestamp": 1764047854
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, hasta luego.",
+      "timestamp": 1764047854
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,253 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:49:10Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1117307844,
+  "id": "7536ff97-03ec-4998-af2d-5abcb424e40b",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Diego Paredes": {
+      "name": "Diego Paredes",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DP) | estudiante de Diseño de Producto en la Ibero de 4to semestre; le gustan las cosas bien hechas, tomar fotos a objetos curiosos y ver series para despejarse.",
+      "personality": "perfeccionista y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Diego Paredes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para acompañarte y apoyarte en este proceso. ¿Te gustaría compartir qué te motivó a buscar terapia?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, he estado sintiéndome un poco perdido y con una carga emocional que no puedo manejar solo. La presión de la escuela a veces es abrumadora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica puede ser muy intensa y a veces nos deja sintiéndonos agobiados. ¿Te gustaría hablar más sobre cómo esa carga emocional te está afectando en tu día a día?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Claro, me cuesta concentrarme en mis estudios y me siento cansado todo el tiempo. A veces, incluso me desanima mi pasión por el diseño."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Es difícil cuando algo que te apasiona se convierte en una fuente de desánimo. ¿Qué aspectos del diseño te solían entusiasmar más antes de que comenzaras a sentirte así?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Me encanta crear cosas nuevas y experimentar con diferentes materiales. La idea de hacer algo funcional y estético siempre me emocionó, pero últimamente siento que no logro hacerlo bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que la falta de confianza en tus habilidades pueda afectar tu creatividad. Recordar por qué te apasiona el diseño puede ser un buen primer paso para reconectar con esa emoción. ¿Te gustaría explorar algunos ejercicios que te ayuden a redescubrir esa chispa?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, creo que eso podría ayudarme. Estoy dispuesto a intentar ejercicios que me ayuden a reconectar con mi pasión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran paso estar abierto a nuevos ejercicios. Podríamos empezar con un ejercicio de creatividad libre, donde dediques un tiempo corto a crear algo sin preocuparte por el resultado. ¿Te gustaría intentar dedicar 10 minutos a bocetar una idea que te inspire, sin juzgarte?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, suena bien. Creo que liberarme de la presión del resultado podría ser justo lo que necesito para volver a disfrutar del proceso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, el objetivo es disfrutar y explorar tu creatividad sin restricciones. Si te parece bien, podemos programar un tiempo en tu semana para hacer esto y luego compartir cómo te fue en nuestra próxima sesión. ¿Te parece?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, me parece una buena idea. Programar un tiempo para hacerlo me ayudará a mantenerme enfocado en lo que realmente me gusta."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. Tener esa estructura puede ser muy beneficioso. Recuerda que este espacio es para ti y puedes compartir cualquier avance o desafío que encuentres en el proceso. ¿Hay algo más que te gustaría tratar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "No, creo que por ahora es suficiente. Me siento un poco más aliviado al hablar de esto. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar que te sientes más aliviado. Estoy aquí para apoyarte en este proceso. Nos vemos en nuestra próxima sesión, ¡cuídate mucho! Adiós."
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Adiós, gracias por todo. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Diego Paredes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046130
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión de terapia.",
+      "timestamp": 1764046131
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para acompañarte y apoyarte en este proceso. ¿Te gustaría compartir qué te motivó a buscar terapia?",
+      "timestamp": 1764046132
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco perdido y con una carga emocional que no puedo manejar solo. La presión de la escuela a veces es abrumadora.",
+      "timestamp": 1764046133
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica puede ser muy intensa y a veces nos deja sintiéndonos agobiados. ¿Te gustaría hablar más sobre cómo esa carga emocional te está afectando en tu día a día?",
+      "timestamp": 1764046134
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, me cuesta concentrarme en mis estudios y me siento cansado todo el tiempo. A veces, incluso me desanima mi pasión por el diseño.",
+      "timestamp": 1764046135
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Es difícil cuando algo que te apasiona se convierte en una fuente de desánimo. ¿Qué aspectos del diseño te solían entusiasmar más antes de que comenzaras a sentirte así?",
+      "timestamp": 1764046137
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me encanta crear cosas nuevas y experimentar con diferentes materiales. La idea de hacer algo funcional y estético siempre me emocionó, pero últimamente siento que no logro hacerlo bien.",
+      "timestamp": 1764046138
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que la falta de confianza en tus habilidades pueda afectar tu creatividad. Recordar por qué te apasiona el diseño puede ser un buen primer paso para reconectar con esa emoción. ¿Te gustaría explorar algunos ejercicios que te ayuden a redescubrir esa chispa?",
+      "timestamp": 1764046140
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme. Estoy dispuesto a intentar ejercicios que me ayuden a reconectar con mi pasión.",
+      "timestamp": 1764046141
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran paso estar abierto a nuevos ejercicios. Podríamos empezar con un ejercicio de creatividad libre, donde dediques un tiempo corto a crear algo sin preocuparte por el resultado. ¿Te gustaría intentar dedicar 10 minutos a bocetar una idea que te inspire, sin juzgarte?",
+      "timestamp": 1764046143
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Creo que liberarme de la presión del resultado podría ser justo lo que necesito para volver a disfrutar del proceso.",
+      "timestamp": 1764046144
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, el objetivo es disfrutar y explorar tu creatividad sin restricciones. Si te parece bien, podemos programar un tiempo en tu semana para hacer esto y luego compartir cómo te fue en nuestra próxima sesión. ¿Te parece?",
+      "timestamp": 1764046145
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece una buena idea. Programar un tiempo para hacerlo me ayudará a mantenerme enfocado en lo que realmente me gusta.",
+      "timestamp": 1764046146
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. Tener esa estructura puede ser muy beneficioso. Recuerda que este espacio es para ti y puedes compartir cualquier avance o desafío que encuentres en el proceso. ¿Hay algo más que te gustaría tratar en nuestra sesión de hoy?",
+      "timestamp": 1764046147
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora es suficiente. Me siento un poco más aliviado al hablar de esto. Gracias por tu apoyo.",
+      "timestamp": 1764046148
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar que te sientes más aliviado. Estoy aquí para apoyarte en este proceso. Nos vemos en nuestra próxima sesión, ¡cuídate mucho! Adiós.",
+      "timestamp": 1764046149
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Adiós, gracias por todo. ¡Hasta la próxima!",
+      "timestamp": 1764046150
+    }
+  ],
+  "notes": null
+}

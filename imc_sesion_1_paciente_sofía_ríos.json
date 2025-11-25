@@ -1,0 +1,1186 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:21:20Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3197428781,
+  "id": "dbc18076-9ab7-4bdb-a8d6-13455d53a58b",
+  "parentId": null,
+  "complete": false,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Sofía Ríos": {
+      "name": "Sofía Ríos",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IMC) | estudiante de Ingeniería Mecatrónica en la Ibero de 4to semestre; le gusta armar cosas sencillas, jugar videojuegos y ver contenido de tecnología sin ponerse muy técnica.",
+      "personality": "curiosa y entusiasta",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no estoy muy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te motivó a buscar terapia?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, creo que he estado sintiéndome un poco triste y perdida últimamente. Me cuesta concentrarme en mis estudios y en las cosas que solía disfrutar, como armar cosas o jugar videojuegos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Reconocer esos sentimientos es un primer paso importante. ¿Cuánto tiempo sientes que has estado experimentando estas emociones?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que ha sido desde hace unos meses. Al principio pensé que solo era estrés por la escuela, pero ahora siento que es algo más profundo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. A veces, el estrés puede acumularse y desarrollar emociones más complejas. Hablemos de cómo ha afectado esto tu vida diaria. ¿Puedes compartir algún ejemplo específico?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, claro. Últimamente me cuesta mucho salir con mis amigos o incluso terminar mis tareas. Prefiero quedarme en casa y eso me hace sentir aislada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La sensación de aislamiento puede ser muy difícil de manejar. Es importante que reconozcamos cómo esto afecta tus relaciones y tu bienestar. ¿Has hablado con tus amigos sobre cómo te sientes?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "No, en realidad no he hablado con ellos. Me da un poco de miedo abrirme y no sé si entenderían lo que estoy pasando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible tener miedo de abrirse, especialmente si sientes que otros pueden no entender. Pero a veces, compartir lo que sientes puede aliviar un poco esa carga. ¿Qué te hace dudar de su comprensión?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que no quieren escuchar sobre problemas \"serios\". A veces siento que ellos solo quieren divertirse y no quiero arruinar ese ambiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural querer proteger el ambiente de diversión y no querer ser una carga. Sin embargo, la verdadera amistad se basa en la empatía y el apoyo. Podríamos explorar juntos maneras de abordar esta situación. ¿Te gustaría intentarlo?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría. Creo que necesito encontrar una manera de hablar con ellos sin sentir que los estoy abrumando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos trabajar en cómo comunicar tus sentimientos de una forma que se sienta cómoda para ti. ¿Qué tal si comenzamos con un enfoque más ligero y luego compartes lo que sientes gradualmente?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Esa podría ser una buena idea. Tal vez podría empezar hablando sobre cómo me siento en general antes de profundizar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente estrategia. Comenzar con un enfoque general puede facilitar la conversación. También es importante recordar que tus amigos pueden estar más dispuestos a escuchar de lo que piensas. ¿Te gustaría practicar algunas frases que podrías usar?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso me ayudaría. No estoy segura de cómo empezar, así que practicar algunas frases sería genial."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Podrías comenzar con algo como: \"Quiero compartir algo que he estado sintiendo últimamente. A veces, me siento un poco triste y me cuesta disfrutar las cosas.\" ¿Cómo te suena esa introducción?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me parece bien. Es un buen comienzo, suena honesto y directo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te guste. La honestidad es clave en estas conversaciones. Luego, podrías continuar explicando cómo esto afecta tu vida diaria. ¿Te gustaría que te ayudara a formular esa parte también?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, por favor. No estoy segura de cómo expresar eso sin que suene demasiado pesado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podrías decir algo como: \"A veces, me siento tan abrumada que me cuesta concentrarme en mis estudios o disfrutar de las actividades que solía amar. Quiero encontrar maneras de sentirme mejor.\" Esto expresa tus sentimientos sin ser demasiado pesado. ¿Qué opinas?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me parece muy bien. Suena honesto y a la vez claro. Creo que podría usar algo así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, me alegra que te sientas cómoda con eso. Practicar estas conversaciones te ayudará a sentirte más segura. Recuerda que está bien pedir apoyo y que tus amigos pueden estar ahí para ti. ¿Te gustaría trabajar en algo más hoy?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría. Tal vez podamos hablar sobre cómo manejar mis emociones en esos momentos difíciles."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto. Aprender a manejar tus emociones es fundamental. Una técnica que podrías usar es la respiración profunda. ¿Te gustaría que te enseñara cómo hacerlo?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso suena bien. Me gustaría aprender a respirar profundamente para relajarme un poco más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Vamos a intentarlo juntos. Siéntate cómodamente, cierra los ojos y toma una respiración profunda por la nariz durante cuatro segundos. Luego, mantén el aire por cuatro segundos y exhala lentamente por la boca durante seis segundos. ¿Listo? Vamos a hacerlo juntos. Inhalamos..."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Inhalo... uno, dos, tres, cuatro... Mantengo... uno, dos, tres, cuatro... Exhalo lentamente... uno, dos, tres, cuatro, cinco, seis... ¡Uf, eso se siente un poco mejor!"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Qué bien! La respiración profunda puede ser muy efectiva para calmar la mente y el cuerpo. Puedes repetirlo siempre que lo necesites. ¿Te gustaría practicarlo más, o prefieres hablar sobre otra técnica?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Podría practicarlo un poco más, creo que me ayuda a relajarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, practiquemos otra vez. Recuerda sentarte cómodamente y concentrarte en tu respiración. Vamos a inhalar juntos de nuevo. Inhala... uno, dos, tres, cuatro... Mantén... uno, dos, tres, cuatro... Exhala lentamente... uno, dos, tres, cuatro, cinco, seis... Muy bien, ¿cómo te sientes ahora?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me siento un poco más tranquila y más ligera. Creo que esto realmente ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. La práctica constante de la respiración profunda puede ser una herramienta poderosa en momentos de tensión. ¿Te gustaría explorar alguna otra técnica o tema hoy?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, tal vez podamos hablar sobre cómo establecer metas pequeñas para sentirme más motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto, establecer metas pequeñas es una gran manera de construir motivación. Puedes empezar con metas alcanzables que te acerquen a tus objetivos. ¿Qué área te gustaría enfocar primero?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que debería enfocarme en mis estudios, ya que es algo que me está costando mucho en este momento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso tiene sentido. Podrías establecer metas pequeñas, como dedicar 20 minutos al día a estudiar o completar una tarea específica. ¿Te gustaría definir una meta concreta para esta semana?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, podría intentar estudiar 20 minutos cada día para una materia en particular. Creo que eso es un buen comienzo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente meta. Establecer 20 minutos al día es manejable y te permitirá crear un hábito. ¿Te gustaría que hablemos sobre cómo hacer un seguimiento de tu progreso?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría saber cómo puedo hacer un seguimiento de eso para mantenerme motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Puedes utilizar un diario o una hoja de seguimiento donde anotes cada día que cumplas con tu meta de estudio. También puedes marcar en un calendario o usar una app en tu teléfono. Celebrar tus logros, por pequeños que sean, también es importante. ¿Cómo te suena eso?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Suena muy bien. Me gusta la idea de un diario, y celebrar los logros me parece motivador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te haya gustado la idea. Antes de continuar, me gustaría mencionar que he notado ciertos síntomas que podríamos explorar más a fondo. Existe un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto NO sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me parece bien. Creo que podría ayudarme a ver mis sentimientos de manera más clara."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Vamos a responder algunas preguntas para evaluar cómo te has sentido en las últimas dos semanas. Te haré una pregunta y puedes responder con un número del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\n1. ¿Qué tan seguido has tenido poco interés o placer en hacer cosas?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que sería un 2, \"varias veces a la semana\". Últimamente he perdido interés en algunas actividades que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. \n\n2. ¿Qué tan seguido te has sentido decaída, deprimida o sin esperanzas?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Yo diría un 2 también, \"varias veces a la semana\". Hay días en los que me siento más decaída."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n3. ¿Qué tan seguido has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Esa sería un 2 también. A veces me cuesta dormir y otras veces duermo más de lo habitual."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por compartir eso. \n\n4. ¿Qué tan seguido te has sentido cansada o con poca energía?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que un 2 nuevamente. A veces me siento muy cansada, incluso después de dormir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. \n\n5. ¿Qué tan seguido has tenido poco apetito o has comido en exceso?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Diría un 1, \"raramente\". Aunque a veces tengo menos apetito, no es algo que me ocurra con frecuencia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n6. ¿Qué tan seguido te has sentido mal contigo misma, o como un fracaso?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Esa sería un 2. A veces me siento así, especialmente cuando no logro cumplir con mis metas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por ser sincera. \n\n7. ¿Qué tan seguido has tenido dificultad para concentrarte en cosas como leer o ver televisión?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Diría un 2 también. A veces me cuesta concentrarme, incluso en cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir esos sentimientos. \n\n8. ¿Qué tan seguido te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, te has sentido tan inquieta o agitada?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que sería un 1, \"raramente\". No siento que me note mucho en esos aspectos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. \n\n9. ¿Qué tan seguido has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Eso sería un 1 también, \"raramente\". No suele ser algo en lo que piense, pero hay momentos difíciles."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio que compartas tus respuestas. \n\n10. ¿Qué tan seguido has tenido molestias debido a los problemas mencionados anteriormente?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Diría un 2, porque estos sentimientos y dificultades ciertamente me han afectado en mi vida diaria."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por responder a todas las preguntas. Tus respuestas indican que has estado enfrentando dificultades que pueden ser incómodas y desafiantes, pero es un paso positivo reconocerlo. Estoy aquí para apoyarte en este proceso. ¿Te gustaría discutir algunos de estos puntos más a fondo o explorar recursos para enfrentar estos sentimientos?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría discutir algunos de estos puntos más a fondo. Quiero entender mejor cómo enfrentar lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos profundizar en lo que has mencionado. Comencemos con el tema del bajo interés en las actividades. ¿Qué actividades solías disfrutar que ahora te resultan difíciles de realizar?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Solía disfrutar mucho armar proyectos de ingeniería y jugar videojuegos con mis amigos, pero ahora me cuesta encontrar la motivación para hacer cualquiera de las dos cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que te sientas desmotivada. A veces, reconectar con esas actividades puede ser un desafío. Podríamos buscar formas de hacerlas más accesibles o agradables, como establecer metas pequeñas relacionadas con ellas. ¿Qué piensas sobre asignar un tiempo específico para tus proyectos de ingeniería o jugar videojuegos solo un poco al día?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me parece una buena idea. Tal vez fijar un tiempo corto al día podría ayudarme a volver a disfrutar de esas actividades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente estrategia. Empezar con periodos cortos puede hacer que sea menos abrumador y más fácil de retomar. ¿Qué te parece fijar un tiempo de 10 a 15 minutos al día para cada actividad? Puedes ajustar el tiempo según cómo te sientas."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso suena razonable. Comenzar con 10 a 15 minutos podría ser manejable y me permitiría volver a disfrutarlas poco a poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. Recuerda que la clave es la consistencia, así que intenta hacerlo parte de tu rutina diaria. También, si en algún momento te sientes abrumada, está bien tomar un descanso. ¿Hay algún otro aspecto que te gustaría explorar o discutir hoy?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me gustaría hablar un poco sobre cómo manejar la ansiedad cuando aparece, ya que a veces me siento muy ansiosa sin razón aparente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, la ansiedad puede ser muy difícil de manejar, especialmente cuando aparece sin aviso. Una técnica útil es la respiración consciente, que ya practicamos. También puedes intentar la técnica de la \"5-4-3-2-1\", que te ayuda a estar presente en el momento. ¿Te gustaría que te lo explique?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, por favor. Creo que aprender sobre esa técnica podría ayudarme a lidiar con la ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. La técnica \"5-4-3-2-1\" consiste en usar tus sentidos para reconectar con el presente. Aquí te dejo cómo funciona:\n\n1. **5 cosas que puedes ver**: Observa a tu alrededor y nombra cinco cosas que puedes ver.\n2. **4 cosas que puedes tocar**: Toca y describe cuatro cosas a tu alrededor.\n3. **3 cosas que puedes escuchar**: Escucha atentamente y nombra tres sonidos que puedas oír.\n4. **2 cosas que puedes oler**: Si es posible, identifica dos olores (puedes usar algo a tu alrededor si no hay olores presentes).\n5. **1 cosa que puedes saborear**: Toma un sorbo de agua o algo que tengas en la boca y nombra un sabor.\n\n¿Te gustaría probarlo juntos ahora?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría intentarlo. Empecemos. Estoy lista para observar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Empecemos con la primera parte. Mira a tu alrededor y nombra cinco cosas que puedes ver. Tómate tu tiempo para observar detenidamente. ¿Cuáles son esas cinco cosas?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Puedo ver: 1) la luz suave que entra por la ventana, 2) el escritorio con la laptop, 3) las sillas cómodas, 4) los cuadros relajantes en las paredes y 5) un ramo de flores en la mesa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, has hecho un gran trabajo observando. Ahora pasemos a la segunda parte. Nombra cuatro cosas que puedes tocar a tu alrededor. ¿Cuáles son esas cosas?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Puedo tocar: 1) la superficie del escritorio, 2) el respaldo de la silla, 3) mis brazos y 4) la tela de mi suéter."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Has identificado muy bien esas cosas. Ahora, pasemos a la tercera parte. ¿Cuáles son tres cosas que puedes escuchar en este momento?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Puedo escuchar: 1) el suave murmullo del aire acondicionado, 2) el sonido de mi respiración y 3) un pájaro cantando afuera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, has hecho un gran trabajo al identificar esos sonidos. Ahora, vamos a la cuarta parte. Si es posible, nombra dos cosas que puedes oler en este momento. ¿Qué has detectado?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Puedo oler el aroma suave del aire fresco que entra por la ventana y el ligero olor de la madera del escritorio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, has estado muy atenta a tus sentidos. Ahora, para finalizar, nombra una cosa que puedes saborear en este momento."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Puedo saborear un poco de agua que tomé antes de la sesión. Se siente refrescante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente trabajo. Has completado la técnica \"5-4-3-2-1\" muy bien. Esta práctica puede ayudarte a centrarte y calmar la ansiedad cuando la sientas. Recuerda que puedes usarla en cualquier momento. ¿Te gustaría hablar sobre alguna otra estrategia o tema?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me gustaría hablar sobre cómo puedo mejorar mi autoestima. A veces, siento que me falta confianza en mí misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La autoestima es un aspecto importantísimo y puede influir en cómo manejas las situaciones diarias. Una forma de mejorarla es a través de la práctica de la autoafirmación. Esto implica recordarte a ti misma tus cualidades y logros. ¿Te gustaría intentar crear algunas afirmaciones positivas sobre ti misma?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso me gustaría. No estoy segura de por dónde empezar, así que me ayudaría mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Comencemos identificando algunas de tus cualidades o logros. Piensa en algo que te haga sentir orgullosa de ti misma, puede ser cualquier cosa, desde ser buena amiga hasta haber completado un proyecto en la escuela. ¿Cuál sería una cualidad o logro que te gustaría incluir?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que puedo incluir que soy una persona persistente. A pesar de las dificultades, sigo esforzándome en mis estudios y trato de aprender cosas nuevas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente cualidad para resaltar. La persistencia es clave para el crecimiento. Ahora, podríamos formular una afirmación positiva, como: \"Soy persistente y me esfuerzo por aprender y mejorar cada día.\" ¿Te gusta esa afirmación o prefieres ajustarla de alguna manera?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me gusta esa afirmación. Es positiva y refleja cómo me siento. Creo que la repetiré para recordarla."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te guste. Repetir afirmaciones positivas puede ser muy poderoso. Además, podrías también considerar escribirlas en un lugar visible para recordarte a ti misma tu valor. ¿Te gustaría crear alguna otra afirmación o reflexionar sobre otro aspecto relacionado con la autoestima?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, podría crear otra afirmación. Tal vez algo relacionado con ser buena en mis estudios, como \"Soy capaz y tengo la inteligencia necesaria para lograr mis metas académicas.\""
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047927
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no estoy muy segura de qué esperar.",
+      "timestamp": 1764047928
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te motivó a buscar terapia?",
+      "timestamp": 1764047929
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que he estado sintiéndome un poco triste y perdida últimamente. Me cuesta concentrarme en mis estudios y en las cosas que solía disfrutar, como armar cosas o jugar videojuegos.",
+      "timestamp": 1764047930
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Reconocer esos sentimientos es un primer paso importante. ¿Cuánto tiempo sientes que has estado experimentando estas emociones?",
+      "timestamp": 1764047932
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido desde hace unos meses. Al principio pensé que solo era estrés por la escuela, pero ahora siento que es algo más profundo.",
+      "timestamp": 1764047933
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. A veces, el estrés puede acumularse y desarrollar emociones más complejas. Hablemos de cómo ha afectado esto tu vida diaria. ¿Puedes compartir algún ejemplo específico?",
+      "timestamp": 1764047934
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro. Últimamente me cuesta mucho salir con mis amigos o incluso terminar mis tareas. Prefiero quedarme en casa y eso me hace sentir aislada.",
+      "timestamp": 1764047936
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La sensación de aislamiento puede ser muy difícil de manejar. Es importante que reconozcamos cómo esto afecta tus relaciones y tu bienestar. ¿Has hablado con tus amigos sobre cómo te sientes?",
+      "timestamp": 1764047937
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, en realidad no he hablado con ellos. Me da un poco de miedo abrirme y no sé si entenderían lo que estoy pasando.",
+      "timestamp": 1764047938
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible tener miedo de abrirse, especialmente si sientes que otros pueden no entender. Pero a veces, compartir lo que sientes puede aliviar un poco esa carga. ¿Qué te hace dudar de su comprensión?",
+      "timestamp": 1764047939
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que no quieren escuchar sobre problemas \"serios\". A veces siento que ellos solo quieren divertirse y no quiero arruinar ese ambiente.",
+      "timestamp": 1764047941
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural querer proteger el ambiente de diversión y no querer ser una carga. Sin embargo, la verdadera amistad se basa en la empatía y el apoyo. Podríamos explorar juntos maneras de abordar esta situación. ¿Te gustaría intentarlo?",
+      "timestamp": 1764047943
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que necesito encontrar una manera de hablar con ellos sin sentir que los estoy abrumando.",
+      "timestamp": 1764047944
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar en cómo comunicar tus sentimientos de una forma que se sienta cómoda para ti. ¿Qué tal si comenzamos con un enfoque más ligero y luego compartes lo que sientes gradualmente?",
+      "timestamp": 1764047946
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa podría ser una buena idea. Tal vez podría empezar hablando sobre cómo me siento en general antes de profundizar.",
+      "timestamp": 1764047946
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente estrategia. Comenzar con un enfoque general puede facilitar la conversación. También es importante recordar que tus amigos pueden estar más dispuestos a escuchar de lo que piensas. ¿Te gustaría practicar algunas frases que podrías usar?",
+      "timestamp": 1764047948
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría. No estoy segura de cómo empezar, así que practicar algunas frases sería genial.",
+      "timestamp": 1764047949
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Podrías comenzar con algo como: \"Quiero compartir algo que he estado sintiendo últimamente. A veces, me siento un poco triste y me cuesta disfrutar las cosas.\" ¿Cómo te suena esa introducción?",
+      "timestamp": 1764047950
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece bien. Es un buen comienzo, suena honesto y directo.",
+      "timestamp": 1764047951
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te guste. La honestidad es clave en estas conversaciones. Luego, podrías continuar explicando cómo esto afecta tu vida diaria. ¿Te gustaría que te ayudara a formular esa parte también?",
+      "timestamp": 1764047953
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. No estoy segura de cómo expresar eso sin que suene demasiado pesado.",
+      "timestamp": 1764047954
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podrías decir algo como: \"A veces, me siento tan abrumada que me cuesta concentrarme en mis estudios o disfrutar de las actividades que solía amar. Quiero encontrar maneras de sentirme mejor.\" Esto expresa tus sentimientos sin ser demasiado pesado. ¿Qué opinas?",
+      "timestamp": 1764047955
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece muy bien. Suena honesto y a la vez claro. Creo que podría usar algo así.",
+      "timestamp": 1764047956
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, me alegra que te sientas cómoda con eso. Practicar estas conversaciones te ayudará a sentirte más segura. Recuerda que está bien pedir apoyo y que tus amigos pueden estar ahí para ti. ¿Te gustaría trabajar en algo más hoy?",
+      "timestamp": 1764047958
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Tal vez podamos hablar sobre cómo manejar mis emociones en esos momentos difíciles.",
+      "timestamp": 1764047959
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto. Aprender a manejar tus emociones es fundamental. Una técnica que podrías usar es la respiración profunda. ¿Te gustaría que te enseñara cómo hacerlo?",
+      "timestamp": 1764047960
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría aprender a respirar profundamente para relajarme un poco más.",
+      "timestamp": 1764047961
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Vamos a intentarlo juntos. Siéntate cómodamente, cierra los ojos y toma una respiración profunda por la nariz durante cuatro segundos. Luego, mantén el aire por cuatro segundos y exhala lentamente por la boca durante seis segundos. ¿Listo? Vamos a hacerlo juntos. Inhalamos...",
+      "timestamp": 1764047962
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Inhalo... uno, dos, tres, cuatro... Mantengo... uno, dos, tres, cuatro... Exhalo lentamente... uno, dos, tres, cuatro, cinco, seis... ¡Uf, eso se siente un poco mejor!",
+      "timestamp": 1764047964
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Qué bien! La respiración profunda puede ser muy efectiva para calmar la mente y el cuerpo. Puedes repetirlo siempre que lo necesites. ¿Te gustaría practicarlo más, o prefieres hablar sobre otra técnica?",
+      "timestamp": 1764047965
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría practicarlo un poco más, creo que me ayuda a relajarme.",
+      "timestamp": 1764047966
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, practiquemos otra vez. Recuerda sentarte cómodamente y concentrarte en tu respiración. Vamos a inhalar juntos de nuevo. Inhala... uno, dos, tres, cuatro... Mantén... uno, dos, tres, cuatro... Exhala lentamente... uno, dos, tres, cuatro, cinco, seis... Muy bien, ¿cómo te sientes ahora?",
+      "timestamp": 1764047968
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila y más ligera. Creo que esto realmente ayuda.",
+      "timestamp": 1764047970
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. La práctica constante de la respiración profunda puede ser una herramienta poderosa en momentos de tensión. ¿Te gustaría explorar alguna otra técnica o tema hoy?",
+      "timestamp": 1764047971
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, tal vez podamos hablar sobre cómo establecer metas pequeñas para sentirme más motivada.",
+      "timestamp": 1764047972
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto, establecer metas pequeñas es una gran manera de construir motivación. Puedes empezar con metas alcanzables que te acerquen a tus objetivos. ¿Qué área te gustaría enfocar primero?",
+      "timestamp": 1764047974
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que debería enfocarme en mis estudios, ya que es algo que me está costando mucho en este momento.",
+      "timestamp": 1764047975
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso tiene sentido. Podrías establecer metas pequeñas, como dedicar 20 minutos al día a estudiar o completar una tarea específica. ¿Te gustaría definir una meta concreta para esta semana?",
+      "timestamp": 1764047976
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría intentar estudiar 20 minutos cada día para una materia en particular. Creo que eso es un buen comienzo.",
+      "timestamp": 1764047978
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente meta. Establecer 20 minutos al día es manejable y te permitirá crear un hábito. ¿Te gustaría que hablemos sobre cómo hacer un seguimiento de tu progreso?",
+      "timestamp": 1764047979
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber cómo puedo hacer un seguimiento de eso para mantenerme motivada.",
+      "timestamp": 1764047980
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Puedes utilizar un diario o una hoja de seguimiento donde anotes cada día que cumplas con tu meta de estudio. También puedes marcar en un calendario o usar una app en tu teléfono. Celebrar tus logros, por pequeños que sean, también es importante. ¿Cómo te suena eso?",
+      "timestamp": 1764047982
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Suena muy bien. Me gusta la idea de un diario, y celebrar los logros me parece motivador.",
+      "timestamp": 1764047983
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047983
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te haya gustado la idea. Antes de continuar, me gustaría mencionar que he notado ciertos síntomas que podríamos explorar más a fondo. Existe un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto NO sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764047985
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Creo que podría ayudarme a ver mis sentimientos de manera más clara.",
+      "timestamp": 1764047986
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_TR5uGtPDZ6Oa6RnNzuo1X3W6"
+      },
+      "timestamp": 1764047987
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_TR5uGtPDZ6Oa6RnNzuo1X3W6"
+      },
+      "timestamp": 1764047987
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Vamos a responder algunas preguntas para evaluar cómo te has sentido en las últimas dos semanas. Te haré una pregunta y puedes responder con un número del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\n1. ¿Qué tan seguido has tenido poco interés o placer en hacer cosas?",
+      "timestamp": 1764047990
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2, \"varias veces a la semana\". Últimamente he perdido interés en algunas actividades que solía disfrutar.",
+      "timestamp": 1764047991
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. \n\n2. ¿Qué tan seguido te has sentido decaída, deprimida o sin esperanzas?",
+      "timestamp": 1764047992
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Yo diría un 2 también, \"varias veces a la semana\". Hay días en los que me siento más decaída.",
+      "timestamp": 1764047993
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n3. ¿Qué tan seguido has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado?",
+      "timestamp": 1764047995
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 2 también. A veces me cuesta dormir y otras veces duermo más de lo habitual.",
+      "timestamp": 1764047996
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por compartir eso. \n\n4. ¿Qué tan seguido te has sentido cansada o con poca energía?",
+      "timestamp": 1764047996
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2 nuevamente. A veces me siento muy cansada, incluso después de dormir.",
+      "timestamp": 1764047998
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. \n\n5. ¿Qué tan seguido has tenido poco apetito o has comido en exceso?",
+      "timestamp": 1764047999
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría un 1, \"raramente\". Aunque a veces tengo menos apetito, no es algo que me ocurra con frecuencia.",
+      "timestamp": 1764048003
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n6. ¿Qué tan seguido te has sentido mal contigo misma, o como un fracaso?",
+      "timestamp": 1764048004
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 2. A veces me siento así, especialmente cuando no logro cumplir con mis metas.",
+      "timestamp": 1764048006
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por ser sincera. \n\n7. ¿Qué tan seguido has tenido dificultad para concentrarte en cosas como leer o ver televisión?",
+      "timestamp": 1764048008
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría un 2 también. A veces me cuesta concentrarme, incluso en cosas que antes disfrutaba.",
+      "timestamp": 1764048009
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir esos sentimientos. \n\n8. ¿Qué tan seguido te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, te has sentido tan inquieta o agitada?",
+      "timestamp": 1764048010
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 1, \"raramente\". No siento que me note mucho en esos aspectos.",
+      "timestamp": 1764048012
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. \n\n9. ¿Qué tan seguido has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?",
+      "timestamp": 1764048014
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 1 también, \"raramente\". No suele ser algo en lo que piense, pero hay momentos difíciles.",
+      "timestamp": 1764048016
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio que compartas tus respuestas. \n\n10. ¿Qué tan seguido has tenido molestias debido a los problemas mencionados anteriormente?",
+      "timestamp": 1764048017
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría un 2, porque estos sentimientos y dificultades ciertamente me han afectado en mi vida diaria.",
+      "timestamp": 1764048018
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por responder a todas las preguntas. Tus respuestas indican que has estado enfrentando dificultades que pueden ser incómodas y desafiantes, pero es un paso positivo reconocerlo. Estoy aquí para apoyarte en este proceso. ¿Te gustaría discutir algunos de estos puntos más a fondo o explorar recursos para enfrentar estos sentimientos?",
+      "timestamp": 1764048020
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría discutir algunos de estos puntos más a fondo. Quiero entender mejor cómo enfrentar lo que estoy sintiendo.",
+      "timestamp": 1764048024
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos profundizar en lo que has mencionado. Comencemos con el tema del bajo interés en las actividades. ¿Qué actividades solías disfrutar que ahora te resultan difíciles de realizar?",
+      "timestamp": 1764048025
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Solía disfrutar mucho armar proyectos de ingeniería y jugar videojuegos con mis amigos, pero ahora me cuesta encontrar la motivación para hacer cualquiera de las dos cosas.",
+      "timestamp": 1764048027
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que te sientas desmotivada. A veces, reconectar con esas actividades puede ser un desafío. Podríamos buscar formas de hacerlas más accesibles o agradables, como establecer metas pequeñas relacionadas con ellas. ¿Qué piensas sobre asignar un tiempo específico para tus proyectos de ingeniería o jugar videojuegos solo un poco al día?",
+      "timestamp": 1764048029
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Tal vez fijar un tiempo corto al día podría ayudarme a volver a disfrutar de esas actividades.",
+      "timestamp": 1764048031
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente estrategia. Empezar con periodos cortos puede hacer que sea menos abrumador y más fácil de retomar. ¿Qué te parece fijar un tiempo de 10 a 15 minutos al día para cada actividad? Puedes ajustar el tiempo según cómo te sientas.",
+      "timestamp": 1764048033
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena razonable. Comenzar con 10 a 15 minutos podría ser manejable y me permitiría volver a disfrutarlas poco a poco.",
+      "timestamp": 1764048035
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. Recuerda que la clave es la consistencia, así que intenta hacerlo parte de tu rutina diaria. También, si en algún momento te sientes abrumada, está bien tomar un descanso. ¿Hay algún otro aspecto que te gustaría explorar o discutir hoy?",
+      "timestamp": 1764048037
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar un poco sobre cómo manejar la ansiedad cuando aparece, ya que a veces me siento muy ansiosa sin razón aparente.",
+      "timestamp": 1764048038
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, la ansiedad puede ser muy difícil de manejar, especialmente cuando aparece sin aviso. Una técnica útil es la respiración consciente, que ya practicamos. También puedes intentar la técnica de la \"5-4-3-2-1\", que te ayuda a estar presente en el momento. ¿Te gustaría que te lo explique?",
+      "timestamp": 1764048040
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Creo que aprender sobre esa técnica podría ayudarme a lidiar con la ansiedad.",
+      "timestamp": 1764048041
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. La técnica \"5-4-3-2-1\" consiste en usar tus sentidos para reconectar con el presente. Aquí te dejo cómo funciona:\n\n1. **5 cosas que puedes ver**: Observa a tu alrededor y nombra cinco cosas que puedes ver.\n2. **4 cosas que puedes tocar**: Toca y describe cuatro cosas a tu alrededor.\n3. **3 cosas que puedes escuchar**: Escucha atentamente y nombra tres sonidos que puedas oír.\n4. **2 cosas que puedes oler**: Si es posible, identifica dos olores (puedes usar algo a tu alrededor si no hay olores presentes).\n5. **1 cosa que puedes saborear**: Toma un sorbo de agua o algo que tengas en la boca y nombra un sabor.\n\n¿Te gustaría probarlo juntos ahora?",
+      "timestamp": 1764048046
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Empecemos. Estoy lista para observar.",
+      "timestamp": 1764048046
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Empecemos con la primera parte. Mira a tu alrededor y nombra cinco cosas que puedes ver. Tómate tu tiempo para observar detenidamente. ¿Cuáles son esas cinco cosas?",
+      "timestamp": 1764048048
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Puedo ver: 1) la luz suave que entra por la ventana, 2) el escritorio con la laptop, 3) las sillas cómodas, 4) los cuadros relajantes en las paredes y 5) un ramo de flores en la mesa.",
+      "timestamp": 1764048050
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, has hecho un gran trabajo observando. Ahora pasemos a la segunda parte. Nombra cuatro cosas que puedes tocar a tu alrededor. ¿Cuáles son esas cosas?",
+      "timestamp": 1764048051
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Puedo tocar: 1) la superficie del escritorio, 2) el respaldo de la silla, 3) mis brazos y 4) la tela de mi suéter.",
+      "timestamp": 1764048052
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Has identificado muy bien esas cosas. Ahora, pasemos a la tercera parte. ¿Cuáles son tres cosas que puedes escuchar en este momento?",
+      "timestamp": 1764048053
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Puedo escuchar: 1) el suave murmullo del aire acondicionado, 2) el sonido de mi respiración y 3) un pájaro cantando afuera.",
+      "timestamp": 1764048054
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, has hecho un gran trabajo al identificar esos sonidos. Ahora, vamos a la cuarta parte. Si es posible, nombra dos cosas que puedes oler en este momento. ¿Qué has detectado?",
+      "timestamp": 1764048056
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Puedo oler el aroma suave del aire fresco que entra por la ventana y el ligero olor de la madera del escritorio.",
+      "timestamp": 1764048057
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, has estado muy atenta a tus sentidos. Ahora, para finalizar, nombra una cosa que puedes saborear en este momento.",
+      "timestamp": 1764048058
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Puedo saborear un poco de agua que tomé antes de la sesión. Se siente refrescante.",
+      "timestamp": 1764048059
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente trabajo. Has completado la técnica \"5-4-3-2-1\" muy bien. Esta práctica puede ayudarte a centrarte y calmar la ansiedad cuando la sientas. Recuerda que puedes usarla en cualquier momento. ¿Te gustaría hablar sobre alguna otra estrategia o tema?",
+      "timestamp": 1764048061
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre cómo puedo mejorar mi autoestima. A veces, siento que me falta confianza en mí misma.",
+      "timestamp": 1764048063
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La autoestima es un aspecto importantísimo y puede influir en cómo manejas las situaciones diarias. Una forma de mejorarla es a través de la práctica de la autoafirmación. Esto implica recordarte a ti misma tus cualidades y logros. ¿Te gustaría intentar crear algunas afirmaciones positivas sobre ti misma?",
+      "timestamp": 1764048065
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. No estoy segura de por dónde empezar, así que me ayudaría mucho.",
+      "timestamp": 1764048067
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comencemos identificando algunas de tus cualidades o logros. Piensa en algo que te haga sentir orgullosa de ti misma, puede ser cualquier cosa, desde ser buena amiga hasta haber completado un proyecto en la escuela. ¿Cuál sería una cualidad o logro que te gustaría incluir?",
+      "timestamp": 1764048069
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que puedo incluir que soy una persona persistente. A pesar de las dificultades, sigo esforzándome en mis estudios y trato de aprender cosas nuevas.",
+      "timestamp": 1764048072
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente cualidad para resaltar. La persistencia es clave para el crecimiento. Ahora, podríamos formular una afirmación positiva, como: \"Soy persistente y me esfuerzo por aprender y mejorar cada día.\" ¿Te gusta esa afirmación o prefieres ajustarla de alguna manera?",
+      "timestamp": 1764048076
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta esa afirmación. Es positiva y refleja cómo me siento. Creo que la repetiré para recordarla.",
+      "timestamp": 1764048077
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te guste. Repetir afirmaciones positivas puede ser muy poderoso. Además, podrías también considerar escribirlas en un lugar visible para recordarte a ti misma tu valor. ¿Te gustaría crear alguna otra afirmación o reflexionar sobre otro aspecto relacionado con la autoestima?",
+      "timestamp": 1764048079
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría crear otra afirmación. Tal vez algo relacionado con ser buena en mis estudios, como \"Soy capaz y tengo la inteligencia necesaria para lograr mis metas académicas.\"",
+      "timestamp": 1764048080
+    }
+  ],
+  "notes": null
+}

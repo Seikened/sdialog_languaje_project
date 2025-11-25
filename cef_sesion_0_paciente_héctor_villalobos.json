@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:11:42Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3665921063,
+  "id": "8a68a775-ee26-4337-ad48-04ccfbda01a4",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Héctor Villalobos": {
+      "name": "Héctor Villalobos",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEF) | estudiante de Contaduría y Estrategias Financieras en la Ibero de 8vo semestre; le gusta salir a comer, ver series tranquilas y pasar tiempo con su familia.",
+      "personality": "reservado y metódico",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para acompañarte y apoyarte. ¿Hay algo en particular que te gustaría compartir sobre lo que te preocupa?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, he estado sintiendo mucha tristeza últimamente y me cuesta concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. La tristeza puede afectar mucho nuestra vida diaria, incluyendo el estudio. ¿Te gustaría profundizar en cuándo empezaste a notar estos sentimientos?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que todo comenzó hace unos meses, cuando empecé a tener más presión en la universidad y me sentí un poco aislado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica y el aislamiento pueden ser muy difíciles de manejar. Es importante reconocer cómo estos factores pueden influir en tus emociones. ¿Has encontrado alguna forma de lidiar con esa presión hasta ahora?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "He intentado distraerme viendo series o saliendo a comer con amigos, pero no siempre ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno que busques distracciones, pero a veces estas estrategias no son suficientes. Podríamos explorar otras maneras de manejar esa presión y tu tristeza. ¿Te gustaría hablar sobre cómo te sientes al relacionarte con tus amigos en esos momentos?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "A veces me siento mejor con ellos, pero hay momentos en los que me siento desconectado y prefiero estar solo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La desconexión puede ser un signo de cómo te sientes por dentro, y es válido querer estar solo a veces. ¿Crees que hay algo específico que te impide sentirte más conectado con ellos, o es algo más general que sientes?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Es más bien algo general. A veces siento que no entiendo bien lo que estoy pasando, y eso me aleja."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente comprensible sentir confusión sobre tus propias emociones. A veces, entender lo que estamos sintiendo puede ser un proceso complicado. ¿Te gustaría que trabajemos juntos en explorar esas emociones más a fondo?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría. Creo que entenderlas podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, podemos comenzar a desglosar esas emociones. Podría ayudarte recordar momentos específicos en los que te has sentido triste o desconectado. ¿Hay algún evento reciente que te venga a la mente?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, hace unas semanas, después de una presentación importante en clase, me sentí muy vacío y desanimado a pesar de que salió bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un buen punto de partida. A veces, la presión por el rendimiento puede dejarnos con una sensación de vacío, incluso después de una experiencia positiva. ¿Cómo te sentiste en ese momento y qué pensamientos pasaron por tu mente después de la presentación?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Me sentí aliviado por un momento, pero luego pensé que no era suficiente y me cuestioné si realmente valía la pena."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que esos pensamientos surjan, especialmente cuando hay una alta expectativa sobre nosotros mismos. Eso puede contribuir a sentimientos de insuficiencia. Es importante recordar que tu valor no se mide solo por tus logros. ¿Te gustaría explorar cómo esos pensamientos afectan tu bienestar emocional?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría. Creo que esos pensamientos me hacen sentir más ansioso y triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa conexión entre esos pensamientos y tus emociones es clave para entender tu experiencia. A menudo, los pensamientos negativos pueden intensificar la ansiedad y la tristeza. Podríamos trabajar en identificar y desafiar esos pensamientos para que no tengan tanto control sobre ti. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me parece bien. Quiero aprender a manejar esos pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Podemos empezar a identificar esos pensamientos negativos y trabajar en estrategias para transformarlos. Te propongo escribirlos cuando surjan y luego analizarlos juntos. ¿Te gustaría comenzar a practicar esto?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría intentarlo. Creo que escribirlo podría ayudarme a ver las cosas de una manera diferente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés dispuesto a intentarlo. La escritura puede ser una herramienta poderosa para ganar claridad. En nuestra próxima sesión, podemos compartir lo que has escrito y trabajar juntos en esos pensamientos. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me parece bien. Estoy listo para intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso, Héctor. Estoy aquí para apoyarte en este proceso. Recuerda que es un camino y está bien tomarse su tiempo. Nos vemos en nuestra próxima sesión, hasta entonces cuídate mucho. ¡Adiós!"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "¡Gracias! Cuídate también. Adiós."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047473
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en una sesión de terapia.",
+      "timestamp": 1764047473
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para acompañarte y apoyarte. ¿Hay algo en particular que te gustaría compartir sobre lo que te preocupa?",
+      "timestamp": 1764047475
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo mucha tristeza últimamente y me cuesta concentrarme en mis estudios.",
+      "timestamp": 1764047475
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. La tristeza puede afectar mucho nuestra vida diaria, incluyendo el estudio. ¿Te gustaría profundizar en cuándo empezaste a notar estos sentimientos?",
+      "timestamp": 1764047476
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que todo comenzó hace unos meses, cuando empecé a tener más presión en la universidad y me sentí un poco aislado.",
+      "timestamp": 1764047477
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica y el aislamiento pueden ser muy difíciles de manejar. Es importante reconocer cómo estos factores pueden influir en tus emociones. ¿Has encontrado alguna forma de lidiar con esa presión hasta ahora?",
+      "timestamp": 1764047478
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado distraerme viendo series o saliendo a comer con amigos, pero no siempre ayuda.",
+      "timestamp": 1764047479
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno que busques distracciones, pero a veces estas estrategias no son suficientes. Podríamos explorar otras maneras de manejar esa presión y tu tristeza. ¿Te gustaría hablar sobre cómo te sientes al relacionarte con tus amigos en esos momentos?",
+      "timestamp": 1764047481
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento mejor con ellos, pero hay momentos en los que me siento desconectado y prefiero estar solo.",
+      "timestamp": 1764047482
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La desconexión puede ser un signo de cómo te sientes por dentro, y es válido querer estar solo a veces. ¿Crees que hay algo específico que te impide sentirte más conectado con ellos, o es algo más general que sientes?",
+      "timestamp": 1764047484
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es más bien algo general. A veces siento que no entiendo bien lo que estoy pasando, y eso me aleja.",
+      "timestamp": 1764047484
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente comprensible sentir confusión sobre tus propias emociones. A veces, entender lo que estamos sintiendo puede ser un proceso complicado. ¿Te gustaría que trabajemos juntos en explorar esas emociones más a fondo?",
+      "timestamp": 1764047485
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que entenderlas podría ayudarme a sentirme mejor.",
+      "timestamp": 1764047486
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, podemos comenzar a desglosar esas emociones. Podría ayudarte recordar momentos específicos en los que te has sentido triste o desconectado. ¿Hay algún evento reciente que te venga a la mente?",
+      "timestamp": 1764047487
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, hace unas semanas, después de una presentación importante en clase, me sentí muy vacío y desanimado a pesar de que salió bien.",
+      "timestamp": 1764047488
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un buen punto de partida. A veces, la presión por el rendimiento puede dejarnos con una sensación de vacío, incluso después de una experiencia positiva. ¿Cómo te sentiste en ese momento y qué pensamientos pasaron por tu mente después de la presentación?",
+      "timestamp": 1764047489
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me sentí aliviado por un momento, pero luego pensé que no era suficiente y me cuestioné si realmente valía la pena.",
+      "timestamp": 1764047490
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que esos pensamientos surjan, especialmente cuando hay una alta expectativa sobre nosotros mismos. Eso puede contribuir a sentimientos de insuficiencia. Es importante recordar que tu valor no se mide solo por tus logros. ¿Te gustaría explorar cómo esos pensamientos afectan tu bienestar emocional?",
+      "timestamp": 1764047492
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que esos pensamientos me hacen sentir más ansioso y triste.",
+      "timestamp": 1764047493
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa conexión entre esos pensamientos y tus emociones es clave para entender tu experiencia. A menudo, los pensamientos negativos pueden intensificar la ansiedad y la tristeza. Podríamos trabajar en identificar y desafiar esos pensamientos para que no tengan tanto control sobre ti. ¿Te parece bien?",
+      "timestamp": 1764047494
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero aprender a manejar esos pensamientos.",
+      "timestamp": 1764047495
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Podemos empezar a identificar esos pensamientos negativos y trabajar en estrategias para transformarlos. Te propongo escribirlos cuando surjan y luego analizarlos juntos. ¿Te gustaría comenzar a practicar esto?",
+      "timestamp": 1764047497
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que escribirlo podría ayudarme a ver las cosas de una manera diferente.",
+      "timestamp": 1764047498
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés dispuesto a intentarlo. La escritura puede ser una herramienta poderosa para ganar claridad. En nuestra próxima sesión, podemos compartir lo que has escrito y trabajar juntos en esos pensamientos. ¿Te parece bien?",
+      "timestamp": 1764047499
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy listo para intentarlo.",
+      "timestamp": 1764047500
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso, Héctor. Estoy aquí para apoyarte en este proceso. Recuerda que es un camino y está bien tomarse su tiempo. Nos vemos en nuestra próxima sesión, hasta entonces cuídate mucho. ¡Adiós!",
+      "timestamp": 1764047501
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Adiós.",
+      "timestamp": 1764047502
+    }
+  ],
+  "notes": null
+}

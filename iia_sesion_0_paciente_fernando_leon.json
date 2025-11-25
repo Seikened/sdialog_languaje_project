@@ -1,0 +1,407 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:08:27Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 317789713,
+  "id": "401fe067-8166-4718-990f-f801f086424e",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernando Leon": {
+      "name": "Fernando Leon",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IIA) | estudiante de ingeniería de inteligencia artificial en la universidad iberoamericana de 5to semestre, apasionado por la tecnología y los videojuegos",
+      "personality": "curioso y reflexivo",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Hola, gracias. Me siento un poco nervioso, para ser sincero. No estoy acostumbrado a estar en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para apoyarte. ¿Quieres contarme un poco sobre qué te trae hoy aquí?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Siento que he estado lidiando con algunos pensamientos oscuros y, a veces, me siento muy abatido. La verdad es que me preocupa un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que esos sentimientos pueden ser abrumadores. Es importante que hablemos de ello. ¿Puedes describirme más sobre esos pensamientos oscuros y cuándo suelen aparecer?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Por lo general, aparecen en momentos de estrés, como cuando tengo muchas tareas de la universidad o cuando estoy solo. Siento que no puedo escapar de ellos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que el estrés y la soledad puedan intensificar esos pensamientos. Vamos a trabajar juntos para encontrar formas de manejarlos. ¿Has intentado alguna estrategia para lidiar con ellos en esos momentos?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "He intentado distraerme con videojuegos, pero a veces ni eso funciona. Me siento atrapado en mis propios pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es difícil cuando las distracciones no son efectivas. A veces, entender y enfrentar esos pensamientos puede ser más útil que intentar evitarlos. ¿Te gustaría explorar algunas técnicas que podrían ayudarte en esos momentos?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría. Creo que podría ser útil aprender a manejar mejor esos pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, trabajaremos en eso. Una técnica que suele ser efectiva es la reestructuración cognitiva, que te ayuda a identificar y desafiar esos pensamientos negativos. ¿Te gustaría que te explique cómo funciona?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, por favor, me encantaría entender cómo funciona y cómo podría aplicarla."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La reestructuración cognitiva implica tres pasos: primero, identificar el pensamiento negativo; luego, cuestionarlo y buscar evidencia que lo contradiga; y por último, reemplazarlo con un pensamiento más realista o positivo. ¿Te gustaría practicar este proceso juntos con un ejemplo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría practicarlo. Creo que eso podría ayudarme a ver las cosas de otra manera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Empecemos con un pensamiento negativo que hayas tenido recientemente. ¿Puedes compartir uno que te haya afectado?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Últimamente he pensado que nunca podré terminar bien mis estudios y que estoy decepcionando a mi familia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un pensamiento muy pesado. Ahora, el primer paso es identificarlo: \"Nunca podré terminar bien mis estudios y estoy decepcionando a mi familia\". ¿Qué evidencia tienes que apoye esa creencia?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Bueno, he tenido algunas calificaciones bajas en algunos cursos, pero también he tenido buenos resultados en otros."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un buen inicio. Ahora, cuestionemos ese pensamiento: ¿es realmente cierto que nunca terminarás bien tus estudios, considerando que también has tenido buenos resultados? ¿Y qué otras opciones podrían existir en lugar de decepcionar a tu familia?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Podría ser que solo estoy enfrentando un desafío temporal. También podría pensar que mis esfuerzos son lo que realmente importa y que mi familia me apoyaría sin importar las calificaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, eso es un avance significativo. Ahora, puedes reemplazar el pensamiento negativo por: \"Estoy enfrentando un desafío temporal y mis esfuerzos son valiosos. Mi familia me apoya independientemente de mis calificaciones\". ¿Cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me siento un poco más aliviado al pensar así. Suena más realista y menos abrumador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. Es un gran paso hacia el manejo de tus pensamientos. Recuerda que practicar esto regularmente puede ayudarte a reforzar esa nueva perspectiva. ¿Te gustaría explorar otra técnica o profundizar más en esta?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me gustaría profundizar más en esta técnica. Creo que podría beneficiarme mucho si la practico más a fondo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, profundicemos. Una buena práctica es llevar un diario donde anotes tus pensamientos negativos, la evidencia que los respalda y las alternativas más realistas. ¿Te gustaría que te ayude a estructurar cómo hacerlo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, eso suena útil. Me gustaría saber cómo estructurarlo para que sea más efectivo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Puedes dividir tu diario en tres columnas: \n\n1. **Pensamiento negativo**: Escribe el pensamiento que te preocupa.\n2. **Evidencia**: Anota la evidencia que apoya y también la que contradice ese pensamiento.\n3. **Pensamiento alternativo**: Formula un pensamiento más realista y positivo.\n\nPractica esto al menos una vez al día. ¿Te parece un enfoque viable?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me parece un enfoque muy viable. Creo que tener una estructura me ayudará a ser más consciente de mis pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. La conciencia es crucial para el cambio. Recuerda ser amable contigo mismo durante este proceso. Estaré aquí para apoyarte en cada paso. ¿Te gustaría explorar algún otro tema antes de finalizar nuestra sesión?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "No, creo que eso ha sido muy útil por ahora. Aprecio tu apoyo y orientación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Fernando. Me alegra que hayas encontrado útil nuestra sesión. Te animo a practicar lo que hemos hablado y a seguir siendo amable contigo mismo. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "¡Gracias! Cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047273
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, para ser sincero. No estoy acostumbrado a estar en una sesión de terapia.",
+      "timestamp": 1764047274
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para apoyarte. ¿Quieres contarme un poco sobre qué te trae hoy aquí?",
+      "timestamp": 1764047275
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que he estado lidiando con algunos pensamientos oscuros y, a veces, me siento muy abatido. La verdad es que me preocupa un poco.",
+      "timestamp": 1764047276
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que esos sentimientos pueden ser abrumadores. Es importante que hablemos de ello. ¿Puedes describirme más sobre esos pensamientos oscuros y cuándo suelen aparecer?",
+      "timestamp": 1764047277
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por lo general, aparecen en momentos de estrés, como cuando tengo muchas tareas de la universidad o cuando estoy solo. Siento que no puedo escapar de ellos.",
+      "timestamp": 1764047279
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que el estrés y la soledad puedan intensificar esos pensamientos. Vamos a trabajar juntos para encontrar formas de manejarlos. ¿Has intentado alguna estrategia para lidiar con ellos en esos momentos?",
+      "timestamp": 1764047280
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado distraerme con videojuegos, pero a veces ni eso funciona. Me siento atrapado en mis propios pensamientos.",
+      "timestamp": 1764047281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es difícil cuando las distracciones no son efectivas. A veces, entender y enfrentar esos pensamientos puede ser más útil que intentar evitarlos. ¿Te gustaría explorar algunas técnicas que podrían ayudarte en esos momentos?",
+      "timestamp": 1764047282
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que podría ser útil aprender a manejar mejor esos pensamientos.",
+      "timestamp": 1764047283
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, trabajaremos en eso. Una técnica que suele ser efectiva es la reestructuración cognitiva, que te ayuda a identificar y desafiar esos pensamientos negativos. ¿Te gustaría que te explique cómo funciona?",
+      "timestamp": 1764047285
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor, me encantaría entender cómo funciona y cómo podría aplicarla.",
+      "timestamp": 1764047285
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La reestructuración cognitiva implica tres pasos: primero, identificar el pensamiento negativo; luego, cuestionarlo y buscar evidencia que lo contradiga; y por último, reemplazarlo con un pensamiento más realista o positivo. ¿Te gustaría practicar este proceso juntos con un ejemplo?",
+      "timestamp": 1764047287
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría practicarlo. Creo que eso podría ayudarme a ver las cosas de otra manera.",
+      "timestamp": 1764047288
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Empecemos con un pensamiento negativo que hayas tenido recientemente. ¿Puedes compartir uno que te haya afectado?",
+      "timestamp": 1764047288
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Últimamente he pensado que nunca podré terminar bien mis estudios y que estoy decepcionando a mi familia.",
+      "timestamp": 1764047289
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un pensamiento muy pesado. Ahora, el primer paso es identificarlo: \"Nunca podré terminar bien mis estudios y estoy decepcionando a mi familia\". ¿Qué evidencia tienes que apoye esa creencia?",
+      "timestamp": 1764047291
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Bueno, he tenido algunas calificaciones bajas en algunos cursos, pero también he tenido buenos resultados en otros.",
+      "timestamp": 1764047291
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un buen inicio. Ahora, cuestionemos ese pensamiento: ¿es realmente cierto que nunca terminarás bien tus estudios, considerando que también has tenido buenos resultados? ¿Y qué otras opciones podrían existir en lugar de decepcionar a tu familia?",
+      "timestamp": 1764047293
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría ser que solo estoy enfrentando un desafío temporal. También podría pensar que mis esfuerzos son lo que realmente importa y que mi familia me apoyaría sin importar las calificaciones.",
+      "timestamp": 1764047294
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, eso es un avance significativo. Ahora, puedes reemplazar el pensamiento negativo por: \"Estoy enfrentando un desafío temporal y mis esfuerzos son valiosos. Mi familia me apoya independientemente de mis calificaciones\". ¿Cómo te sientes al respecto?",
+      "timestamp": 1764047296
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más aliviado al pensar así. Suena más realista y menos abrumador.",
+      "timestamp": 1764047296
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. Es un gran paso hacia el manejo de tus pensamientos. Recuerda que practicar esto regularmente puede ayudarte a reforzar esa nueva perspectiva. ¿Te gustaría explorar otra técnica o profundizar más en esta?",
+      "timestamp": 1764047298
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría profundizar más en esta técnica. Creo que podría beneficiarme mucho si la practico más a fondo.",
+      "timestamp": 1764047299
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, profundicemos. Una buena práctica es llevar un diario donde anotes tus pensamientos negativos, la evidencia que los respalda y las alternativas más realistas. ¿Te gustaría que te ayude a estructurar cómo hacerlo?",
+      "timestamp": 1764047300
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena útil. Me gustaría saber cómo estructurarlo para que sea más efectivo.",
+      "timestamp": 1764047301
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Puedes dividir tu diario en tres columnas: \n\n1. **Pensamiento negativo**: Escribe el pensamiento que te preocupa.\n2. **Evidencia**: Anota la evidencia que apoya y también la que contradice ese pensamiento.\n3. **Pensamiento alternativo**: Formula un pensamiento más realista y positivo.\n\nPractica esto al menos una vez al día. ¿Te parece un enfoque viable?",
+      "timestamp": 1764047302
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece un enfoque muy viable. Creo que tener una estructura me ayudará a ser más consciente de mis pensamientos.",
+      "timestamp": 1764047303
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. La conciencia es crucial para el cambio. Recuerda ser amable contigo mismo durante este proceso. Estaré aquí para apoyarte en cada paso. ¿Te gustaría explorar algún otro tema antes de finalizar nuestra sesión?",
+      "timestamp": 1764047305
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso ha sido muy útil por ahora. Aprecio tu apoyo y orientación.",
+      "timestamp": 1764047306
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Fernando. Me alegra que hayas encontrado útil nuestra sesión. Te animo a practicar lo que hemos hablado y a seguir siendo amable contigo mismo. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764047307
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta la próxima.",
+      "timestamp": 1764047307
+    }
+  ],
+  "notes": null
+}

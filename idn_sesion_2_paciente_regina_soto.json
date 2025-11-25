@@ -1,0 +1,385 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:53:00Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1956833948,
+  "id": "db367cce-87f3-4155-bece-e5fea0a67e14",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Regina Soto": {
+      "name": "Regina Soto",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IDN) | estudiante de Inteligencia de Negocios en la Ibero de 6to semestre; le gusta ir a cafés, usar su laptop para tareas, ver videos y platicar con amigas.",
+      "personality": "analítica y perfeccionista",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Regina Soto, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte en este proceso y hacer que te sientas lo más cómoda posible. ¿Qué te llevó a buscar terapia?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "He estado sintiendo síntomas de depresión y a veces me cuesta concentrarme en mis estudios. Quiero entender mejor lo que me está pasando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entender lo que sientes es un gran primer paso. Hablemos de esos síntomas de depresión. ¿Podrías describir cómo se manifiestan en tu día a día?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "A menudo me siento cansada, incluso cuando duermo bien, y me cuesta disfrutar las cosas que antes me gustaban, como salir con amigas o estudiar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas experiencias son muy importantes y pueden ser signos de lo que estás sintiendo. ¿Desde cuándo has notado estos cambios en tu estado de ánimo y en tus intereses?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "He notado estos cambios desde hace unos meses, más o menos desde que comenzó el semestre. La carga de trabajo ha sido bastante pesada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica puede ser un factor estresante. Vamos a explorar cómo esa carga de trabajo está afectando tu bienestar emocional y tu capacidad para manejar el estrés. ¿Te gustaría compartir más sobre tu carga de estudio actual?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, estoy en sexto semestre de Inteligencia de Negocios y tengo muchas tareas y proyectos. A veces siento que no puedo con todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy desafiante. La sensación de agobio puede intensificar los síntomas de la depresión. ¿Has encontrado maneras de manejar ese estrés o de organizar tus tareas hasta ahora?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "He intentado hacer listas de tareas, pero a menudo termino sintiéndome abrumada y procrastinando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La procrastinación es una respuesta común al sentirse abrumada. Es un mecanismo de defensa que a veces usamos. Analicemos juntos algunas estrategias que podrían ayudarte a manejar mejor esa carga y la procrastinación. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, me parece bien. Estoy dispuesta a aprender nuevas estrategias para manejar mejor mi tiempo y mi estrés."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es estupendo. Un primer paso podría ser establecer pequeñas metas diarias. Podríamos trabajar en descomponer tus tareas en partes más manejables. ¿Te gustaría intentar eso?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, creo que descomponer las tareas podría ayudarme a sentirme menos abrumada. Estoy dispuesta a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Te sugiero que empecemos con una tarea que te parezca importante. Piensa en una que puedas dividir en pasos más pequeños. ¿Cuál elegirías para trabajar en eso hoy?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Podría elegir un proyecto que tengo para la clase de análisis de datos. Es bastante grande y me gustaría dividirlo en secciones más pequeñas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, dividir el proyecto en secciones más pequeñas te ayudará a verlo de una manera más manejable. ¿Cuáles son las diferentes partes del proyecto que podrías identificar?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Podría comenzar con la investigación de datos, luego hacer un análisis preliminar, después crear la presentación y finalmente preparar el informe escrito."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un gran plan. Ahora, podrías asignar un tiempo específico para cada una de esas secciones. ¿Estás dispuesta a establecer un plazo para la primera parte, que es la investigación de datos?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, podría dedicarle unas dos horas este fin de semana para hacer la investigación de datos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy realista y alcanzable. Recuerda, lo importante es avanzar un paso a la vez. ¿Cómo te sientes ahora, pensando en este enfoque más organizado?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Me siento un poco más tranquila y con más control. Tener un plan me da esperanza de que puedo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es maravilloso escuchar eso. Tener un plan puede hacer una gran diferencia en cómo te sientes. Recuerda que está bien pedir ayuda si la necesitas. ¿Te gustaría que trabajáramos en más estrategias para el manejo del estrés en futuras sesiones?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, definitivamente me gustaría trabajar en más estrategias. Siento que eso me ayudaría mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saberlo. Podemos explorar muchas herramientas y técnicas que te serán útiles. Para la próxima sesión, podrías intentar aplicar lo que hemos hablado y compartir cómo te fue. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, me parece bien. Estoy dispuesta a intentarlo y ver cómo me va. Gracias por su ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, estoy aquí para apoyarte. Me alegra que te sientas dispuesta a intentarlo. Nos vemos en nuestra próxima sesión. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "¡Gracias! Nos vemos en la próxima sesión. Cuídate también. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Regina Soto, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046339
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia.",
+      "timestamp": 1764046340
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte en este proceso y hacer que te sientas lo más cómoda posible. ¿Qué te llevó a buscar terapia?",
+      "timestamp": 1764046342
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He estado sintiendo síntomas de depresión y a veces me cuesta concentrarme en mis estudios. Quiero entender mejor lo que me está pasando.",
+      "timestamp": 1764046344
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entender lo que sientes es un gran primer paso. Hablemos de esos síntomas de depresión. ¿Podrías describir cómo se manifiestan en tu día a día?",
+      "timestamp": 1764046345
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A menudo me siento cansada, incluso cuando duermo bien, y me cuesta disfrutar las cosas que antes me gustaban, como salir con amigas o estudiar.",
+      "timestamp": 1764046347
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas experiencias son muy importantes y pueden ser signos de lo que estás sintiendo. ¿Desde cuándo has notado estos cambios en tu estado de ánimo y en tus intereses?",
+      "timestamp": 1764046348
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He notado estos cambios desde hace unos meses, más o menos desde que comenzó el semestre. La carga de trabajo ha sido bastante pesada.",
+      "timestamp": 1764046350
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica puede ser un factor estresante. Vamos a explorar cómo esa carga de trabajo está afectando tu bienestar emocional y tu capacidad para manejar el estrés. ¿Te gustaría compartir más sobre tu carga de estudio actual?",
+      "timestamp": 1764046351
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy en sexto semestre de Inteligencia de Negocios y tengo muchas tareas y proyectos. A veces siento que no puedo con todo.",
+      "timestamp": 1764046353
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy desafiante. La sensación de agobio puede intensificar los síntomas de la depresión. ¿Has encontrado maneras de manejar ese estrés o de organizar tus tareas hasta ahora?",
+      "timestamp": 1764046354
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado hacer listas de tareas, pero a menudo termino sintiéndome abrumada y procrastinando.",
+      "timestamp": 1764046355
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La procrastinación es una respuesta común al sentirse abrumada. Es un mecanismo de defensa que a veces usamos. Analicemos juntos algunas estrategias que podrían ayudarte a manejar mejor esa carga y la procrastinación. ¿Te parece bien?",
+      "timestamp": 1764046357
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesta a aprender nuevas estrategias para manejar mejor mi tiempo y mi estrés.",
+      "timestamp": 1764046358
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es estupendo. Un primer paso podría ser establecer pequeñas metas diarias. Podríamos trabajar en descomponer tus tareas en partes más manejables. ¿Te gustaría intentar eso?",
+      "timestamp": 1764046359
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que descomponer las tareas podría ayudarme a sentirme menos abrumada. Estoy dispuesta a intentarlo.",
+      "timestamp": 1764046360
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Te sugiero que empecemos con una tarea que te parezca importante. Piensa en una que puedas dividir en pasos más pequeños. ¿Cuál elegirías para trabajar en eso hoy?",
+      "timestamp": 1764046362
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría elegir un proyecto que tengo para la clase de análisis de datos. Es bastante grande y me gustaría dividirlo en secciones más pequeñas.",
+      "timestamp": 1764046365
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, dividir el proyecto en secciones más pequeñas te ayudará a verlo de una manera más manejable. ¿Cuáles son las diferentes partes del proyecto que podrías identificar?",
+      "timestamp": 1764046366
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría comenzar con la investigación de datos, luego hacer un análisis preliminar, después crear la presentación y finalmente preparar el informe escrito.",
+      "timestamp": 1764046367
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un gran plan. Ahora, podrías asignar un tiempo específico para cada una de esas secciones. ¿Estás dispuesta a establecer un plazo para la primera parte, que es la investigación de datos?",
+      "timestamp": 1764046369
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría dedicarle unas dos horas este fin de semana para hacer la investigación de datos.",
+      "timestamp": 1764046370
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy realista y alcanzable. Recuerda, lo importante es avanzar un paso a la vez. ¿Cómo te sientes ahora, pensando en este enfoque más organizado?",
+      "timestamp": 1764046371
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila y con más control. Tener un plan me da esperanza de que puedo manejarlo.",
+      "timestamp": 1764046373
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es maravilloso escuchar eso. Tener un plan puede hacer una gran diferencia en cómo te sientes. Recuerda que está bien pedir ayuda si la necesitas. ¿Te gustaría que trabajáramos en más estrategias para el manejo del estrés en futuras sesiones?",
+      "timestamp": 1764046374
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente me gustaría trabajar en más estrategias. Siento que eso me ayudaría mucho.",
+      "timestamp": 1764046375
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saberlo. Podemos explorar muchas herramientas y técnicas que te serán útiles. Para la próxima sesión, podrías intentar aplicar lo que hemos hablado y compartir cómo te fue. ¿Te parece bien?",
+      "timestamp": 1764046377
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesta a intentarlo y ver cómo me va. Gracias por su ayuda.",
+      "timestamp": 1764046378
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, estoy aquí para apoyarte. Me alegra que te sientas dispuesta a intentarlo. Nos vemos en nuestra próxima sesión. ¡Cuídate mucho!",
+      "timestamp": 1764046379
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos en la próxima sesión. Cuídate también. ¡Adiós!",
+      "timestamp": 1764046380
+    }
+  ],
+  "notes": null
+}

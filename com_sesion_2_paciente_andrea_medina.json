@@ -1,0 +1,385 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:53:49Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3428999861,
+  "id": "8b799fc1-140e-47cf-ad1b-2f0f17748536",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Andrea Medina": {
+      "name": "Andrea Medina",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(COM) | estudiante de Comunicación en la Ibero de 5to semestre; le gusta grabar cosas con su celular, hacer historias, ver TikTok y platicar mucho.",
+      "personality": "expresiva y empática",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no estoy muy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en una primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Hay algo en particular que te gustaría compartir o explorar hoy?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría hablar un poco sobre cómo me he estado sintiendo últimamente. A veces siento que estoy atrapada y no puedo salir de ese espacio oscuro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que esa sensación de estar atrapada puede ser abrumadora. Me gustaría que me contaras más sobre esos momentos oscuros. ¿Qué es lo que más te pesa en este momento?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "A veces me siento muy sola, incluso cuando estoy con amigos. Me preocupa no estar cumpliendo mis metas en la universidad y eso me hace sentir que no estoy haciendo lo suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir esa soledad y preocupación por no alcanzar tus metas. A menudo, la presión que sentimos puede intensificar esas emociones. ¿Te gustaría que exploráramos más a fondo esas metas y cómo te hacen sentir?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, creo que eso sería útil. Siento que me exijo mucho, pero a veces no sé si estoy en el camino correcto o si solo me estoy llenando de expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es común tener esas dudas, especialmente cuando te pones mucha presión. Reflexionar sobre tus expectativas y lo que realmente quieres puede ser un buen primer paso. ¿Qué crees que podría ser una meta más realista y alineada contigo misma?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Creo que una meta más realista podría ser disfrutar más del proceso de aprender y no solo enfocarme en los resultados. A veces me olvido de que está bien cometer errores."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una visión muy saludable y valiosa. Permitirnos disfrutar del proceso y aceptar los errores como parte del aprendizaje puede liberarte de mucha presión. ¿Cómo podrías empezar a implementar esa mentalidad en tu día a día?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Podría intentar recordar que está bien tomarse un descanso cuando lo necesite y no ser tan dura conmigo misma. Tal vez también podría compartir más mis inquietudes con mis amigos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un excelente plan. Tomarte descansos y abrirte a tus amigos puede aliviar esa carga emocional. ¿Te gustaría que trabajáramos en algunas estrategias para recordarte esas cosas en momentos difíciles?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría mucho eso. A veces en el momento, todo se siente abrumador y me cuesta recordar lo que es importante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos crear un par de recordatorios que te ayuden a reconectar contigo misma en esos momentos. Por ejemplo, podrías hacer una lista de afirmaciones positivas o estrategias que te recuerden que está bien tomarte un tiempo para ti. ¿Te gustaría comenzar con algunas afirmaciones?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, eso suena bien. Creo que algunas afirmaciones positivas podrían ayudarme a sentirme mejor y recordarme que soy suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Aquí tienes algunas afirmaciones que podrías considerar: \"Soy suficiente tal como soy\", \"Es normal cometer errores\", y \"Cada paso que doy me acerca a mis metas.\" Puedes repetirlas en voz alta o escribirlas en un lugar visible. ¿Te gustaría agregar alguna afirmación personal que resuene contigo?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Me gusta \"Soy suficiente tal como soy\". También me gustaría agregar: \"Soy capaz de aprender y crecer con cada experiencia\". Eso me anima a seguir adelante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas afirmaciones son maravillosas y muy poderosas. Recordarlas te ayudará a mantener una perspectiva positiva. ¿Te gustaría que también habláramos sobre cómo puedes integrar estas afirmaciones en tu rutina diaria?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, eso sería genial. Creo que sería útil encontrar formas de recordarlas todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Una buena manera de integrar estas afirmaciones es estableciendo un momento específico cada día, como al despertar o antes de dormir, para repetirte estas frases. También podrías escribirlas en un diario, o incluso grabarlas en tu teléfono y escucharlas. ¿Te parece que alguna de estas opciones podría funcionar para ti?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Me gusta la idea de escribirlas en un diario y repetirlas por la mañana. Creo que podría ayudarme a empezar el día con una mentalidad más positiva."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente decisión. Comenzar el día con una mentalidad positiva puede impactar cómo enfrentas las situaciones. Recuerda ser amable contigo misma en el proceso. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "No, creo que hemos hablado de muchas cosas importantes y me siento un poco más ligera. Gracias por ayudarme a ver las cosas de otra manera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más ligera y que nuestra conversación te ha sido útil. Siempre estoy aquí para apoyarte en tu proceso. Recuerda que está bien tomarte tu tiempo. ¿Te gustaría programar otra sesión para seguir trabajando en esto?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría mucho programar otra sesión. Siento que aún tengo más cosas que explorar y agradecería continuar con este proceso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, estaré encantada de continuar trabajando contigo. Podemos programar otra sesión para la próxima semana, ¿te parece bien?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me parece excelente. Gracias por toda tu ayuda hoy. Me siento un poco más esperanzada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Andrea. Me alegra mucho saber que te sientes más esperanzada. Recuerda que cada paso cuenta, y estoy aquí para acompañarte. ¡Nos vemos la próxima semana! Cuídate mucho."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "¡Gracias! Cuídate también, nos vemos la próxima semana. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046388
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no estoy muy segura de qué esperar.",
+      "timestamp": 1764046389
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en una primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Hay algo en particular que te gustaría compartir o explorar hoy?",
+      "timestamp": 1764046390
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar un poco sobre cómo me he estado sintiendo últimamente. A veces siento que estoy atrapada y no puedo salir de ese espacio oscuro.",
+      "timestamp": 1764046391
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que esa sensación de estar atrapada puede ser abrumadora. Me gustaría que me contaras más sobre esos momentos oscuros. ¿Qué es lo que más te pesa en este momento?",
+      "timestamp": 1764046392
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento muy sola, incluso cuando estoy con amigos. Me preocupa no estar cumpliendo mis metas en la universidad y eso me hace sentir que no estoy haciendo lo suficiente.",
+      "timestamp": 1764046393
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir esa soledad y preocupación por no alcanzar tus metas. A menudo, la presión que sentimos puede intensificar esas emociones. ¿Te gustaría que exploráramos más a fondo esas metas y cómo te hacen sentir?",
+      "timestamp": 1764046395
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso sería útil. Siento que me exijo mucho, pero a veces no sé si estoy en el camino correcto o si solo me estoy llenando de expectativas.",
+      "timestamp": 1764046396
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es común tener esas dudas, especialmente cuando te pones mucha presión. Reflexionar sobre tus expectativas y lo que realmente quieres puede ser un buen primer paso. ¿Qué crees que podría ser una meta más realista y alineada contigo misma?",
+      "timestamp": 1764046398
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que una meta más realista podría ser disfrutar más del proceso de aprender y no solo enfocarme en los resultados. A veces me olvido de que está bien cometer errores.",
+      "timestamp": 1764046399
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una visión muy saludable y valiosa. Permitirnos disfrutar del proceso y aceptar los errores como parte del aprendizaje puede liberarte de mucha presión. ¿Cómo podrías empezar a implementar esa mentalidad en tu día a día?",
+      "timestamp": 1764046401
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría intentar recordar que está bien tomarse un descanso cuando lo necesite y no ser tan dura conmigo misma. Tal vez también podría compartir más mis inquietudes con mis amigos.",
+      "timestamp": 1764046402
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un excelente plan. Tomarte descansos y abrirte a tus amigos puede aliviar esa carga emocional. ¿Te gustaría que trabajáramos en algunas estrategias para recordarte esas cosas en momentos difíciles?",
+      "timestamp": 1764046404
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. A veces en el momento, todo se siente abrumador y me cuesta recordar lo que es importante.",
+      "timestamp": 1764046405
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos crear un par de recordatorios que te ayuden a reconectar contigo misma en esos momentos. Por ejemplo, podrías hacer una lista de afirmaciones positivas o estrategias que te recuerden que está bien tomarte un tiempo para ti. ¿Te gustaría comenzar con algunas afirmaciones?",
+      "timestamp": 1764046406
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Creo que algunas afirmaciones positivas podrían ayudarme a sentirme mejor y recordarme que soy suficiente.",
+      "timestamp": 1764046407
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Aquí tienes algunas afirmaciones que podrías considerar: \"Soy suficiente tal como soy\", \"Es normal cometer errores\", y \"Cada paso que doy me acerca a mis metas.\" Puedes repetirlas en voz alta o escribirlas en un lugar visible. ¿Te gustaría agregar alguna afirmación personal que resuene contigo?",
+      "timestamp": 1764046409
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta \"Soy suficiente tal como soy\". También me gustaría agregar: \"Soy capaz de aprender y crecer con cada experiencia\". Eso me anima a seguir adelante.",
+      "timestamp": 1764046412
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas afirmaciones son maravillosas y muy poderosas. Recordarlas te ayudará a mantener una perspectiva positiva. ¿Te gustaría que también habláramos sobre cómo puedes integrar estas afirmaciones en tu rutina diaria?",
+      "timestamp": 1764046413
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería genial. Creo que sería útil encontrar formas de recordarlas todos los días.",
+      "timestamp": 1764046414
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Una buena manera de integrar estas afirmaciones es estableciendo un momento específico cada día, como al despertar o antes de dormir, para repetirte estas frases. También podrías escribirlas en un diario, o incluso grabarlas en tu teléfono y escucharlas. ¿Te parece que alguna de estas opciones podría funcionar para ti?",
+      "timestamp": 1764046416
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta la idea de escribirlas en un diario y repetirlas por la mañana. Creo que podría ayudarme a empezar el día con una mentalidad más positiva.",
+      "timestamp": 1764046418
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente decisión. Comenzar el día con una mentalidad positiva puede impactar cómo enfrentas las situaciones. Recuerda ser amable contigo misma en el proceso. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?",
+      "timestamp": 1764046420
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos hablado de muchas cosas importantes y me siento un poco más ligera. Gracias por ayudarme a ver las cosas de otra manera.",
+      "timestamp": 1764046421
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más ligera y que nuestra conversación te ha sido útil. Siempre estoy aquí para apoyarte en tu proceso. Recuerda que está bien tomarte tu tiempo. ¿Te gustaría programar otra sesión para seguir trabajando en esto?",
+      "timestamp": 1764046423
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho programar otra sesión. Siento que aún tengo más cosas que explorar y agradecería continuar con este proceso.",
+      "timestamp": 1764046425
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, estaré encantada de continuar trabajando contigo. Podemos programar otra sesión para la próxima semana, ¿te parece bien?",
+      "timestamp": 1764046426
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece excelente. Gracias por toda tu ayuda hoy. Me siento un poco más esperanzada.",
+      "timestamp": 1764046427
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Andrea. Me alegra mucho saber que te sientes más esperanzada. Recuerda que cada paso cuenta, y estoy aquí para acompañarte. ¡Nos vemos la próxima semana! Cuídate mucho.",
+      "timestamp": 1764046428
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también, nos vemos la próxima semana. ¡Adiós!",
+      "timestamp": 1764046429
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:13:49Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2180964696,
+  "id": "378d9f92-3e9a-482a-9272-45613cf7f5c2",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Elena Martínez": {
+      "name": "Elena Martínez",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(RI) | estudiante de Relaciones Internacionales en la Ibero de 6to semestre; le interesan los idiomas, las noticias del mundo y conocer gente de otros lugares.",
+      "personality": "idealista y sensible",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Hola. La verdad es que estoy un poco nerviosa. No estoy acostumbrada a estar en este tipo de situaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en una situación nueva. Aquí estamos para crear un espacio seguro y cómodo. ¿Te gustaría compartir qué es lo que más te inquieta?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me inquieta no saber cómo expresar lo que siento. A veces me siento abrumada y no sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso puede ser realmente abrumador. A veces, verbalizar nuestros sentimientos puede ser difícil. ¿Te gustaría intentar hablar sobre una situación reciente que te haya hecho sentir así?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, hay una situación en la universidad donde me siento un poco perdida. No sé si estoy tomando las decisiones correctas para mi futuro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse perdida en momentos de decisión importante. La universidad puede ser un periodo confuso. ¿Qué decisiones específicas estás considerando que te generan más dudas?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Estoy pensando en si cambiarme de carrera o enfocarme en un intercambio a otro país, pero tengo miedo de lo que pueda pasar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural sentir miedo ante decisiones tan importantes. Cambiar de carrera o irse al extranjero son pasos significativos. ¿Qué es lo que más te preocupa de cada una de estas opciones?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me preocupa arrepentirme de dejar Relaciones Internacionales, porque es algo que siempre me ha apasionado, pero también temo perder la oportunidad de vivir una experiencia única en el extranjero."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un dilema difícil, y es normal tener miedo al arrepentimiento. Quizás podríamos explorar juntos lo que cada opción significaría para ti y cómo se alinea con tus valores y sueños. ¿Te gustaría hacer un ejercicio para evaluar ambas opciones?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, creo que eso podría ayudarme a aclarar mis pensamientos. Estoy dispuesta a probarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Comencemos identificando las ventajas y desventajas de cada opción. Primero, hablemos de las ventajas de quedarte en Relaciones Internacionales. ¿Qué sería lo mejor para ti en esa decisión?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Una ventaja sería seguir aprendiendo sobre temas que me apasionan, como las relaciones entre países. También me gustaría poder conectar con personas que tienen intereses similares."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son ventajas muy valiosas, conectar con personas afines puede enriquecer tu experiencia. Ahora, ¿cuáles serían las desventajas de quedarte en Relaciones Internacionales?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Una desventaja podría ser que siento que me estoy perdiendo de experiencias fuera de mi zona de confort. También tengo miedo de no estar aprovechando al máximo mis oportunidades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son consideraciones importantes. Ahora, pasemos a las ventajas de realizar el intercambio. ¿Qué aspectos positivos imaginas que podrías obtener de esa experiencia?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que podría aprender un nuevo idioma, conocer diferentes culturas y hacer amigos de todo el mundo. Además, sería una forma emocionante de crecer personalmente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son oportunidades increíbles que pueden enriquecer tu vida. Ahora, ¿qué desventajas puedes identificar en la idea de irte de intercambio y dejar Relaciones Internacionales?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Una desventaja sería alejarme de mi familia y amigos, lo que me haría sentir sola. También tengo miedo de que la carrera no sea igual de valiosa en el extranjero."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esos son sentimientos comprensibles, el apoyo de la familia y amigos es fundamental. También es válido preocuparse por el valor de tu carrera en otro país. ¿Te gustaría pensar en formas de abordar esas desventajas, o quizás considerar cómo podrías mantener tu conexión con tus seres queridos durante el intercambio?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, creo que sería útil pensar en eso. Podría hacer videollamadas regularmente y planear visitas para no sentirme tan sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un gran plan. Mantener la comunicación puede ayudarte a sentirte más conectada. También podrías investigar sobre grupos de apoyo en el lugar donde planeas ir, así podrías conocer personas nuevas rápidamente. ¿Cómo te sientes acerca de lo que hemos explorado hasta ahora?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento un poco más clara sobre mis opciones. Aun así, sigo con un poco de miedo, pero creo que puedo manejarlo mejor ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir miedo, pero me alegra saber que te sientes más clara. El miedo puede ser una señal de que estás entrando en algo significativo. Recuerda que cada paso que tomes es parte de tu crecimiento personal. ¿Hay algo más en lo que te gustaría profundizar hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "No, creo que hemos cubierto bastante. Gracias por ayudarme a ver las cosas desde otra perspectiva."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes mejor y que la sesión te ha sido útil. La próxima vez podemos seguir explorando tus pensamientos y decisiones. ¡Cuídate mucho y nos vemos pronto!"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "¡Gracias! Cuídate también. ¡Hasta pronto!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047594
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. La verdad es que estoy un poco nerviosa. No estoy acostumbrada a estar en este tipo de situaciones.",
+      "timestamp": 1764047595
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en una situación nueva. Aquí estamos para crear un espacio seguro y cómodo. ¿Te gustaría compartir qué es lo que más te inquieta?",
+      "timestamp": 1764047596
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me inquieta no saber cómo expresar lo que siento. A veces me siento abrumada y no sé cómo manejarlo.",
+      "timestamp": 1764047597
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso puede ser realmente abrumador. A veces, verbalizar nuestros sentimientos puede ser difícil. ¿Te gustaría intentar hablar sobre una situación reciente que te haya hecho sentir así?",
+      "timestamp": 1764047598
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, hay una situación en la universidad donde me siento un poco perdida. No sé si estoy tomando las decisiones correctas para mi futuro.",
+      "timestamp": 1764047599
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse perdida en momentos de decisión importante. La universidad puede ser un periodo confuso. ¿Qué decisiones específicas estás considerando que te generan más dudas?",
+      "timestamp": 1764047603
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy pensando en si cambiarme de carrera o enfocarme en un intercambio a otro país, pero tengo miedo de lo que pueda pasar.",
+      "timestamp": 1764047603
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural sentir miedo ante decisiones tan importantes. Cambiar de carrera o irse al extranjero son pasos significativos. ¿Qué es lo que más te preocupa de cada una de estas opciones?",
+      "timestamp": 1764047605
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me preocupa arrepentirme de dejar Relaciones Internacionales, porque es algo que siempre me ha apasionado, pero también temo perder la oportunidad de vivir una experiencia única en el extranjero.",
+      "timestamp": 1764047606
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un dilema difícil, y es normal tener miedo al arrepentimiento. Quizás podríamos explorar juntos lo que cada opción significaría para ti y cómo se alinea con tus valores y sueños. ¿Te gustaría hacer un ejercicio para evaluar ambas opciones?",
+      "timestamp": 1764047607
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme a aclarar mis pensamientos. Estoy dispuesta a probarlo.",
+      "timestamp": 1764047608
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Comencemos identificando las ventajas y desventajas de cada opción. Primero, hablemos de las ventajas de quedarte en Relaciones Internacionales. ¿Qué sería lo mejor para ti en esa decisión?",
+      "timestamp": 1764047609
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Una ventaja sería seguir aprendiendo sobre temas que me apasionan, como las relaciones entre países. También me gustaría poder conectar con personas que tienen intereses similares.",
+      "timestamp": 1764047610
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son ventajas muy valiosas, conectar con personas afines puede enriquecer tu experiencia. Ahora, ¿cuáles serían las desventajas de quedarte en Relaciones Internacionales?",
+      "timestamp": 1764047611
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Una desventaja podría ser que siento que me estoy perdiendo de experiencias fuera de mi zona de confort. También tengo miedo de no estar aprovechando al máximo mis oportunidades.",
+      "timestamp": 1764047612
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son consideraciones importantes. Ahora, pasemos a las ventajas de realizar el intercambio. ¿Qué aspectos positivos imaginas que podrías obtener de esa experiencia?",
+      "timestamp": 1764047613
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría aprender un nuevo idioma, conocer diferentes culturas y hacer amigos de todo el mundo. Además, sería una forma emocionante de crecer personalmente.",
+      "timestamp": 1764047614
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son oportunidades increíbles que pueden enriquecer tu vida. Ahora, ¿qué desventajas puedes identificar en la idea de irte de intercambio y dejar Relaciones Internacionales?",
+      "timestamp": 1764047616
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Una desventaja sería alejarme de mi familia y amigos, lo que me haría sentir sola. También tengo miedo de que la carrera no sea igual de valiosa en el extranjero.",
+      "timestamp": 1764047617
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esos son sentimientos comprensibles, el apoyo de la familia y amigos es fundamental. También es válido preocuparse por el valor de tu carrera en otro país. ¿Te gustaría pensar en formas de abordar esas desventajas, o quizás considerar cómo podrías mantener tu conexión con tus seres queridos durante el intercambio?",
+      "timestamp": 1764047620
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil pensar en eso. Podría hacer videollamadas regularmente y planear visitas para no sentirme tan sola.",
+      "timestamp": 1764047621
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un gran plan. Mantener la comunicación puede ayudarte a sentirte más conectada. También podrías investigar sobre grupos de apoyo en el lugar donde planeas ir, así podrías conocer personas nuevas rápidamente. ¿Cómo te sientes acerca de lo que hemos explorado hasta ahora?",
+      "timestamp": 1764047623
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más clara sobre mis opciones. Aun así, sigo con un poco de miedo, pero creo que puedo manejarlo mejor ahora.",
+      "timestamp": 1764047624
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir miedo, pero me alegra saber que te sientes más clara. El miedo puede ser una señal de que estás entrando en algo significativo. Recuerda que cada paso que tomes es parte de tu crecimiento personal. ¿Hay algo más en lo que te gustaría profundizar hoy?",
+      "timestamp": 1764047625
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos cubierto bastante. Gracias por ayudarme a ver las cosas desde otra perspectiva.",
+      "timestamp": 1764047627
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes mejor y que la sesión te ha sido útil. La próxima vez podemos seguir explorando tus pensamientos y decisiones. ¡Cuídate mucho y nos vemos pronto!",
+      "timestamp": 1764047628
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. ¡Hasta pronto!",
+      "timestamp": 1764047629
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,460 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T04:58:30Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1406727185,
+  "id": "16ea1347-237f-4f92-9b53-68d8aff9a760",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Valeria Campos": {
+      "name": "Valeria Campos",
+      "age": 23,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IND) | estudiante de Ingeniería Industrial en la Ibero de 7mo semestre; le gusta tener todo organizado, usar agendas, ir a cafés y pasar tiempo con sus amigas.",
+      "personality": "organizada pero ansiosa",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Valeria Campos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar de mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al principio. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te trae aquí hoy?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, creo que últimamente he estado sintiendo mucha tristeza y ansiedad, y no sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que esos sentimientos pueden ser abrumadores. Para explorar mejor lo que has estado sintiendo, hay un cuestionario llamado PHQ-9 que puede ayudarnos. Te haré algunas preguntas sobre tus emociones en las últimas dos semanas. ¿Te sientes cómoda respondiéndolo?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, creo que puedo intentarlo. Espero que esto me ayude a entenderme un poco mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes algunas preguntas que te ayudarán a reflexionar sobre tus sentimientos:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nToma tu tiempo para responder. Estoy aquí para ayudarte a procesar tus respuestas."
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Gracias, lo haré con calma. En general, he estado sintiendo poco interés en hacer cosas y me siento decaída. También me cuesta concentrarme en mis estudios y a veces tengo dificultad para dormir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés atravesando por esos sentimientos tan difíciles. Es un paso valiente reconocerlo. Hablemos más sobre cómo estas experiencias han afectado tu vida diaria y tus estudios. ¿Cómo te sientes cuando intentas estudiar?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Cuando intento estudiar, a menudo me siento abrumada y no puedo concentrarme. Es como si la ansiedad me bloquease. Me siento frustrada porque quiero tener éxito, pero no puedo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La ansiedad puede ser realmente paralizante y es comprensible que te sientas frustrada. Hablemos sobre algunas estrategias que podríamos explorar para ayudarte a manejar esa ansiedad y mejorar tu concentración. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me parece bien. Estoy dispuesta a aprender nuevas estrategias para sentirme mejor y poder concentrarme más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es excelente. Una estrategia que podemos probar es la técnica del \"tiempo de estudio con descansos\". Esto implica estudiar en intervalos cortos, por ejemplo, 25 minutos, y luego tomar un descanso de 5 minutos. Esto puede ayudarte a mantener la concentración y reducir la sensación de agobio. ¿Te gustaría intentarlo?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, creo que podría funcionar para mí. Necesito algo que me ayude a organizarme mejor y no sentirme tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te parezca útil. Además, podrías utilizar una lista de tareas para organizar lo que necesitas estudiar. Escribir lo que tienes que hacer puede ayudarte a visualizarlo y hacerlo más manejable. ¿Qué opinas de esto?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me gusta la idea de usar una lista de tareas. Siempre me ha ayudado a mantenerme organizada y puede que me dé un poco más de claridad sobre lo que tengo que hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Perfecto! Tener una lista puede proporcionarte un sentido de logro a medida que vayas completando las tareas. También podríamos incorporar momentos de autocuidado en tu rutina diaria. ¿Te gustaría hablar sobre qué actividades te ayudan a relajarte o a sentirte bien?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría. Me encanta pasar tiempo en cafés con mis amigas, y también disfruto de leer o escuchar música. Esas cosas me hacen sentir más tranquila."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son actividades maravillosas. Pasar tiempo con amigos y sumergirte en un buen libro o en música puede ser muy reconfortante. Tal vez podrías programar tiempo durante la semana para hacer esas actividades, combinándolas con tus estudios. ¿Te gustaría probar esa idea?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, creo que eso podría ayudarme a equilibrar mejor mis estudios y mi bienestar. Necesito recordar darme tiempo para mí misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, el equilibrio es fundamental para tu bienestar. Recuerda que cuidar de ti misma no solo te ayudará a sentirte mejor, sino que también potenciará tu capacidad para estudiar. Estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría explorar hoy?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Agradezco mucho tu apoyo. Me gustaría explorar un poco más sobre cómo manejar la ansiedad en momentos de estrés, si es posible."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto, puedo ofrecerte algunas técnicas para manejar la ansiedad en momentos de estrés. Una opción efectiva es la respiración profunda. Cuando te sientas abrumada, intenta inhalar lentamente por la nariz, mantener el aire un momento, y luego exhalar despacio por la boca. ¿Te gustaría practicarlo juntos?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría practicarlo. Creo que esa técnica podría ayudarme a calmarme cuando me siento ansiosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, empecemos. Siéntate cómodamente y cierra los ojos si te sientes cómoda haciéndolo. Inhala profundamente por la nariz contando hasta cuatro... (1, 2, 3, 4). Ahora, mantén el aire por un momento... y exhala lentamente por la boca contando hasta cuatro... (1, 2, 3, 4). \n\nRepetimos esto un par de veces más. Inhala... (1, 2, 3, 4). Mantén... y exhala... (1, 2, 3, 4). \n\n¿Cómo te sientes después de practicar esto?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me siento un poco más tranquila. La respiración profunda me ayudó a relajarme un poco. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más tranquila. La respiración profunda es una herramienta poderosa que puedes llevar contigo para momentos de ansiedad. Practicarla regularmente puede ayudarte a sentirte más en control. ¿Te gustaría establecer un plan para integrarla en tu rutina diaria?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría hacer eso. Creo que podría ayudarme a manejar la ansiedad y recordar tomar pausas durante el día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena excelente. Puedes comenzar por dedicar unos minutos cada mañana y cada tarde a practicar la respiración profunda. También podrías poner recordatorios en tu teléfono para hacer pausas breves. ¿Te gustaría que establezcamos un tiempo específico para comenzar?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me parece una buena idea. Podría hacerlo después de desayunar y también antes de dormir. Me ayuda tener un horario definido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una gran elección. Practicar la respiración profunda después de desayunar y antes de dormir puede establecer un buen ritmo para tu día. Recuerda ser amable contigo misma mientras te adaptas a este nuevo hábito. Si en algún momento sientes que necesitas más apoyo, no dudes en decírmelo. ¿Hay algo más que quieras discutir hoy?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "No, creo que hemos cubierto muchas cosas útiles hoy. Me siento mejor al tener un plan y algunas herramientas para manejar mis emociones. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Has dado pasos importantes hacia tu bienestar y eso es admirable. Recuerda que estoy aquí para ayudarte en tu camino. Nos vemos en la próxima sesión. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "¡Gracias! Cuídate también, nos vemos pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Valeria Campos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764046650
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar de mis sentimientos.",
+      "timestamp": 1764046651
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al principio. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te trae aquí hoy?",
+      "timestamp": 1764046652
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que últimamente he estado sintiendo mucha tristeza y ansiedad, y no sé cómo manejarlo.",
+      "timestamp": 1764046653
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764046653
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que esos sentimientos pueden ser abrumadores. Para explorar mejor lo que has estado sintiendo, hay un cuestionario llamado PHQ-9 que puede ayudarnos. Te haré algunas preguntas sobre tus emociones en las últimas dos semanas. ¿Te sientes cómoda respondiéndolo?",
+      "timestamp": 1764046655
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que puedo intentarlo. Espero que esto me ayude a entenderme un poco mejor.",
+      "timestamp": 1764046656
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "depresion"
+        },
+        "id": "call_O0flMib9XPB4etrtkvq14aTN"
+      },
+      "timestamp": 1764046657
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"depresion\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_O0flMib9XPB4etrtkvq14aTN"
+      },
+      "timestamp": 1764046657
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes algunas preguntas que te ayudarán a reflexionar sobre tus sentimientos:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nToma tu tiempo para responder. Estoy aquí para ayudarte a procesar tus respuestas.",
+      "timestamp": 1764046663
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, lo haré con calma. En general, he estado sintiendo poco interés en hacer cosas y me siento decaída. También me cuesta concentrarme en mis estudios y a veces tengo dificultad para dormir.",
+      "timestamp": 1764046664
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés atravesando por esos sentimientos tan difíciles. Es un paso valiente reconocerlo. Hablemos más sobre cómo estas experiencias han afectado tu vida diaria y tus estudios. ¿Cómo te sientes cuando intentas estudiar?",
+      "timestamp": 1764046666
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Cuando intento estudiar, a menudo me siento abrumada y no puedo concentrarme. Es como si la ansiedad me bloquease. Me siento frustrada porque quiero tener éxito, pero no puedo.",
+      "timestamp": 1764046668
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La ansiedad puede ser realmente paralizante y es comprensible que te sientas frustrada. Hablemos sobre algunas estrategias que podríamos explorar para ayudarte a manejar esa ansiedad y mejorar tu concentración. ¿Te parece bien?",
+      "timestamp": 1764046670
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesta a aprender nuevas estrategias para sentirme mejor y poder concentrarme más.",
+      "timestamp": 1764046671
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es excelente. Una estrategia que podemos probar es la técnica del \"tiempo de estudio con descansos\". Esto implica estudiar en intervalos cortos, por ejemplo, 25 minutos, y luego tomar un descanso de 5 minutos. Esto puede ayudarte a mantener la concentración y reducir la sensación de agobio. ¿Te gustaría intentarlo?",
+      "timestamp": 1764046673
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría funcionar para mí. Necesito algo que me ayude a organizarme mejor y no sentirme tan abrumada.",
+      "timestamp": 1764046675
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te parezca útil. Además, podrías utilizar una lista de tareas para organizar lo que necesitas estudiar. Escribir lo que tienes que hacer puede ayudarte a visualizarlo y hacerlo más manejable. ¿Qué opinas de esto?",
+      "timestamp": 1764046677
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta la idea de usar una lista de tareas. Siempre me ha ayudado a mantenerme organizada y puede que me dé un poco más de claridad sobre lo que tengo que hacer.",
+      "timestamp": 1764046678
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Perfecto! Tener una lista puede proporcionarte un sentido de logro a medida que vayas completando las tareas. También podríamos incorporar momentos de autocuidado en tu rutina diaria. ¿Te gustaría hablar sobre qué actividades te ayudan a relajarte o a sentirte bien?",
+      "timestamp": 1764046680
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Me encanta pasar tiempo en cafés con mis amigas, y también disfruto de leer o escuchar música. Esas cosas me hacen sentir más tranquila.",
+      "timestamp": 1764046681
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son actividades maravillosas. Pasar tiempo con amigos y sumergirte en un buen libro o en música puede ser muy reconfortante. Tal vez podrías programar tiempo durante la semana para hacer esas actividades, combinándolas con tus estudios. ¿Te gustaría probar esa idea?",
+      "timestamp": 1764046684
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme a equilibrar mejor mis estudios y mi bienestar. Necesito recordar darme tiempo para mí misma.",
+      "timestamp": 1764046686
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, el equilibrio es fundamental para tu bienestar. Recuerda que cuidar de ti misma no solo te ayudará a sentirte mejor, sino que también potenciará tu capacidad para estudiar. Estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría explorar hoy?",
+      "timestamp": 1764046688
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco mucho tu apoyo. Me gustaría explorar un poco más sobre cómo manejar la ansiedad en momentos de estrés, si es posible.",
+      "timestamp": 1764046689
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto, puedo ofrecerte algunas técnicas para manejar la ansiedad en momentos de estrés. Una opción efectiva es la respiración profunda. Cuando te sientas abrumada, intenta inhalar lentamente por la nariz, mantener el aire un momento, y luego exhalar despacio por la boca. ¿Te gustaría practicarlo juntos?",
+      "timestamp": 1764046691
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría practicarlo. Creo que esa técnica podría ayudarme a calmarme cuando me siento ansiosa.",
+      "timestamp": 1764046692
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, empecemos. Siéntate cómodamente y cierra los ojos si te sientes cómoda haciéndolo. Inhala profundamente por la nariz contando hasta cuatro... (1, 2, 3, 4). Ahora, mantén el aire por un momento... y exhala lentamente por la boca contando hasta cuatro... (1, 2, 3, 4). \n\nRepetimos esto un par de veces más. Inhala... (1, 2, 3, 4). Mantén... y exhala... (1, 2, 3, 4). \n\n¿Cómo te sientes después de practicar esto?",
+      "timestamp": 1764046695
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila. La respiración profunda me ayudó a relajarme un poco. Gracias por guiarme.",
+      "timestamp": 1764046696
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más tranquila. La respiración profunda es una herramienta poderosa que puedes llevar contigo para momentos de ansiedad. Practicarla regularmente puede ayudarte a sentirte más en control. ¿Te gustaría establecer un plan para integrarla en tu rutina diaria?",
+      "timestamp": 1764046698
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacer eso. Creo que podría ayudarme a manejar la ansiedad y recordar tomar pausas durante el día.",
+      "timestamp": 1764046700
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena excelente. Puedes comenzar por dedicar unos minutos cada mañana y cada tarde a practicar la respiración profunda. También podrías poner recordatorios en tu teléfono para hacer pausas breves. ¿Te gustaría que establezcamos un tiempo específico para comenzar?",
+      "timestamp": 1764046702
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece una buena idea. Podría hacerlo después de desayunar y también antes de dormir. Me ayuda tener un horario definido.",
+      "timestamp": 1764046703
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una gran elección. Practicar la respiración profunda después de desayunar y antes de dormir puede establecer un buen ritmo para tu día. Recuerda ser amable contigo misma mientras te adaptas a este nuevo hábito. Si en algún momento sientes que necesitas más apoyo, no dudes en decírmelo. ¿Hay algo más que quieras discutir hoy?",
+      "timestamp": 1764046705
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos cubierto muchas cosas útiles hoy. Me siento mejor al tener un plan y algunas herramientas para manejar mis emociones. Gracias por tu apoyo.",
+      "timestamp": 1764046707
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Has dado pasos importantes hacia tu bienestar y eso es admirable. Recuerda que estoy aquí para ayudarte en tu camino. Nos vemos en la próxima sesión. ¡Cuídate mucho!",
+      "timestamp": 1764046708
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también, nos vemos pronto.",
+      "timestamp": 1764046710
+    }
+  ],
+  "notes": null
+}

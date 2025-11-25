@@ -1,0 +1,595 @@
+{
+  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
+  "timestamp": "2025-11-25T05:10:19Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 621196918,
+  "id": "29c5f67c-46d7-4fdb-8a9d-706acc41e80d",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Sofía Ríos": {
+      "name": "Sofía Ríos",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IMC) | estudiante de Ingeniería Mecatrónica en la Ibero de 4to semestre; le gusta armar cosas sencillas, jugar videojuegos y ver contenido de tecnología sin ponerse muy técnica.",
+      "personality": "curiosa y entusiasta",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Hola, gracias. Estoy un poco nerviosa, la verdad. No estoy muy acostumbrada a esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que pueda ser un poco intimidante al principio. Es normal sentir nervios. ¿Te gustaría compartir qué te ha traído aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, creo que he estado sintiéndome un poco deprimida últimamente. No sé muy bien cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Para entender mejor cómo has estado sintiéndote en las últimas dos semanas, me gustaría que respondieras un cuestionario llamado PHQ-9. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Claro, suena bien. Estoy dispuesta a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí van las preguntas. Responde del 0 al 3, donde 0 significa \"nunca\" y 3 significa \"casi todos los días\".\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n2. Poco interés o placer en hacer cosas. \n3. Sentirte decaído(a), deprimido(a) o sin esperanzas. \n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. \n5. Sentirte cansado(a) o con poca energía. \n6. Tener poco apetito o comer en exceso. \n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. \n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. \n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. \n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para reflexionar sobre cada pregunta."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "De acuerdo, gracias por explicarlo. Voy a responder con calma. \n\n1. Poco interés o placer en hacer cosas: 2.  \n2. Sentirme decaída, deprimida o sin esperanzas: 3.  \n3. Dificultad para quedarme o permanecer dormida: 2.  \n4. Sentirme cansada o con poca energía: 3.  \n5. Poco apetito o comer en exceso: 1.  \n6. Sentirme mal conmigo misma: 2.  \n7. Dificultad para concentrarme: 2.  \n8. Moverme o hablar más lento: 1.  \n9. Pensamientos de estar mejor muerta: 1.  \n\nEspero que esto ayude."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas conmigo. Es valiente de tu parte y esto nos ayudará a entender mejor lo que estás sintiendo. \n\nCon base en tus respuestas, parece que hay algunas áreas que están causando dolor y podría ser útil explorar esas emociones juntos. ¿Te gustaría hablar más sobre alguna de estas experiencias en particular?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, creo que me gustaría hablar más sobre cómo me siento decaída y sin esperanzas. Es algo que me ha estado afectando mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que te sientas así y es importante que podamos explorar esas emociones. A veces, este tipo de sentimientos pueden ser difíciles de manejar. \n\nPara profundizar un poco más, me gustaría que consideraras un cuestionario específico llamado PHQ-9, que nos ayuda a entender cómo te has sentido en las últimas dos semanas. Esto no sustituye una evaluación profesional completa, pero puede brindarnos información valiosa. ¿Te parece bien si lo hacemos?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, está bien. Estoy dispuesta a hacerlo. Quiero entender mejor lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que quieras profundizar en esto. Vamos a hacer las preguntas del PHQ-9 nuevamente, enfocándonos en las áreas que has mencionado. Responde del 0 al 3:\n\n1. Poco interés o placer en hacer cosas: \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas: \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado: \n4. Sentirte cansado(a) o con poca energía: \n5. Tener poco apetito o comer en exceso: \n6. Sentirte mal contigo mismo(a): \n7. Dificultad para concentrarte: \n8. Moverte o hablar más lento: \n9. Pensamientos de estar mejor muerto(a): \n\nTómate tu tiempo y reflexiona sobre cada pregunta. Estoy aquí para apoyarte."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Gracias por tu comprensión. Aquí van mis respuestas: \n\n1. Poco interés o placer en hacer cosas: 2.  \n2. Sentirme decaída, deprimida o sin esperanzas: 3.  \n3. Dificultad para quedarme o permanecer dormida: 2.  \n4. Sentirme cansada o con poca energía: 3.  \n5. Poco apetito o comer en exceso: 1.  \n6. Sentirme mal conmigo misma: 2.  \n7. Dificultad para concentrarme: 2.  \n8. Moverme o hablar más lento: 1.  \n9. Pensamientos de estar mejor muerta: 1.  \n\nEspero que esto ayude a entender mejor cómo me siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas y ser honesta en este proceso. Parece que estás enfrentando una etapa difícil y es importante que nos enfoquemos en esas áreas que te están afectando.\n\nCon base en tus respuestas, hay patrones que podemos explorar juntos para entender mejor cómo se manifiestan esos sentimientos en tu vida diaria. ¿Hay algún momento específico o situación que hayas experimentado recientemente que te haya hecho sentir más decaída?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, últimamente he sentido que mis estudios me están abrumando. A veces, no sé si podré seguir el ritmo y eso me hace sentir más decaída."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que los estudios puedan ser abrumadores, especialmente si sientes que no puedes seguir el ritmo. Esta sensación de presión puede afectar tu bienestar emocional. \n\nMe gustaría que habláramos más sobre cómo gestionas esa carga y qué estrategias has intentado hasta ahora para sobrellevarlo. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso suena bien. He intentado organizarme mejor, pero a veces me siento tan agotada que no sé por dónde empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es normal sentirse abrumada, incluso con una buena organización. La fatiga puede dificultar la toma de decisiones y el inicio de tareas. \n\nPodríamos explorar algunas técnicas de manejo del tiempo y de autocuidado que te ayuden a encontrar un equilibrio. ¿Estarías dispuesta a probar algunos enfoques juntos?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, estoy dispuesta a intentarlo. Creo que necesito encontrar formas de manejar mejor mi tiempo y cuidar de mí misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran primer paso. Empecemos por identificar algunas estrategias simples de autocuidado y manejo del tiempo. \n\nPodríamos hablar sobre establecer pequeñas metas diarias, momentos de descanso y actividades que te brinden alegría. ¿Te gustaría que comenzáramos con la planificación de tu día a día?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me parece bien. Creo que tener una planificación diaria podría ayudarme a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés abierta a esta idea. Una buena planificación diaria puede ayudarte a estructurar tu tiempo y reducir la sensación de agobio.\n\nPrimero, ¿podrías decirme cuáles son tus principales responsabilidades diarias y cuánto tiempo crees que necesitas para cada una? Así podemos crear un esquema que funcione para ti."
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Claro, mis principales responsabilidades son ir a clases, estudiar, hacer tareas y también dedicar un tiempo a jugar videojuegos para relajarme. Creo que necesito unas 4 horas para estudiar y hacer tareas, y alrededor de 2 horas para las clases."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, ya tenemos un buen punto de partida. Así que, sumando tus 4 horas de estudio y 2 horas de clases, puedes dedicar también tiempo para relajarte.\n\nPodríamos estructurar tu día de la siguiente manera. ¿Te gustaría que hiciéramos un horario con espacios específicos para cada actividad, incluyendo tus momentos de relax y videojuegos?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, esa sería una buena idea. Tener un horario podría ayudarme a organizarme mejor y también a recordar tomarme esos momentos de descanso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Aquí tienes una propuesta de horario:\n\n- **Mañana:**\n  - 8:00 - 10:00: Clases\n  - 10:00 - 10:30: Descanso / Merienda\n  - 10:30 - 12:30: Estudio (2 horas)\n\n- **Tarde:**\n  - 12:30 - 1:30: Almuerzo\n  - 1:30 - 3:30: Estudio (2 horas)\n  - 3:30 - 4:00: Descanso\n\n- **Noche:**\n  - 4:00 - 6:00: Actividades de relajación (videojuegos, leer, etc.)\n  - 6:00 en adelante: Tiempo libre y cena\n\nPuedes ajustar los tiempos según sea necesario. ¿Qué te parece este horario?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me parece un buen horario. Tener descansos programados y un tiempo específico para relajarme es una gran idea. Creo que podría ayudarme a sentirse menos agobiada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te guste el horario. Integrar descansos y momentos de relajación es esencial para mantener tu energía y motivación. Recuerda ser flexible y ajustar el horario si sientes que algo no funciona como esperabas.\n\nAdemás, es importante que te des permiso para disfrutar de esos momentos de ocio sin culpa. ¿Te gustaría que hablemos de alguna otra estrategia o aspecto que quisieras abordar en esta sesión?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría hablar sobre cómo puedo manejar mejor mis momentos de ansiedad cuando siento que todo se acumula. A veces me cuesta mucho lidiar con esos pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lidiar con la ansiedad puede ser un reto, pero hay varias técnicas que puedes usar para manejar esos momentos difíciles. \n\nUna estrategia útil es la respiración consciente. Cuando sientas que la ansiedad te abrumo, puedes intentar cerrar los ojos, inhalar profundamente por la nariz contando hasta cuatro, mantener la respiración contando hasta cuatro y luego exhalar lentamente por la boca contando hasta cuatro. Esto puede ayudarte a calmarte.\n\nTambién es útil tener un \"plan de acción\" para esos momentos. ¿Has probado alguna técnica de relajación o distracción que te haya funcionado antes?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "He intentado respirar profundamente antes, pero a veces me cuesta recordar hacerlo en el momento. Creo que tener un plan de acción podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es totalmente comprensible que en momentos de ansiedad sea difícil recordar las técnicas. Crear un plan de acción claro puede ser muy útil. \n\nPodríamos desarrollar una lista de pasos que puedes seguir cuando empieces a sentirte ansiosa. Por ejemplo:\n\n1. Reconocer que sientes ansiedad.\n2. Buscar un lugar tranquilo donde puedas sentarte o recostarte.\n3. Realizar la respiración consciente durante 2-3 minutos.\n4. Hacer una pausa para escribir tus pensamientos en un papel, esto puede ayudarte a desahogarte.\n5. Tomar un pequeño descanso para hacer algo que disfrutes, como escuchar música o dar un breve paseo.\n\n¿Qué te parece esta lista como un primer paso? ¿Tienes ideas que te gustaría añadir?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me parece una buena lista. Creo que escribir mis pensamientos puede ayudarme a aclarar lo que siento. Tal vez también podría añadir escuchar música relajante como parte del descanso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una excelente adición. La música relajante puede ser muy eficaz para calmar la mente y mejorar tu estado de ánimo. \n\nAsí que, tu plan de acción quedaría así:\n\n1. Reconocer que sientes ansiedad.\n2. Buscar un lugar tranquilo.\n3. Realizar la respiración consciente durante 2-3 minutos.\n4. Escribir tus pensamientos en un papel.\n5. Escuchar música relajante o hacer algo que disfrutes como parte del descanso.\n\nEs un gran comienzo. Recuerda que está bien ajustar este plan según lo que funcione mejor para ti. ¿Te gustaría que hablemos sobre algo más o cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me siento bien con este plan. Creo que tener estrategias claras me dará más confianza para manejar la ansiedad. Gracias por ayudarme a estructurarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes bien con el plan. Tener estrategias claras puede ser muy empoderador y te ayudará a enfrentar la ansiedad de una manera más efectiva. \n\nRecuerda que este es un proceso y está bien avanzar a tu propio ritmo. Estoy aquí para acompañarte en este camino. Si en el futuro necesitas ajustar algo o explorar más estrategias, no dudes en decírmelo. ¿Hay algo más que te gustaría abordar antes de cerrar nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "No, creo que hemos cubierto mucho hoy. Me siento más tranquila y con herramientas para manejar lo que siento. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Sofía. Me alegra saber que te sientes más tranquila y con herramientas para enfrentar lo que sientes. Es un gran paso hacia adelante. \n\nRecuerda que estoy aquí para ti en cualquier momento que lo necesites. Cuídate y nos vemos en nuestra próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "¡Hasta luego! Gracias de nuevo. Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764047337
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Estoy un poco nerviosa, la verdad. No estoy muy acostumbrada a esto.",
+      "timestamp": 1764047338
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que pueda ser un poco intimidante al principio. Es normal sentir nervios. ¿Te gustaría compartir qué te ha traído aquí?",
+      "timestamp": 1764047340
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que he estado sintiéndome un poco deprimida últimamente. No sé muy bien cómo manejarlo.",
+      "timestamp": 1764047341
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047341
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Para entender mejor cómo has estado sintiéndote en las últimas dos semanas, me gustaría que respondieras un cuestionario llamado PHQ-9. ¿Te parece bien?",
+      "timestamp": 1764047342
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, suena bien. Estoy dispuesta a intentarlo.",
+      "timestamp": 1764047344
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "preguntas"
+        },
+        "id": "call_JNLpdL9L2NTCLyW7DgtVqgvD"
+      },
+      "timestamp": 1764047344
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"preguntas\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_JNLpdL9L2NTCLyW7DgtVqgvD"
+      },
+      "timestamp": 1764047344
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí van las preguntas. Responde del 0 al 3, donde 0 significa \"nunca\" y 3 significa \"casi todos los días\".\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n2. Poco interés o placer en hacer cosas. \n3. Sentirte decaído(a), deprimido(a) o sin esperanzas. \n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. \n5. Sentirte cansado(a) o con poca energía. \n6. Tener poco apetito o comer en exceso. \n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. \n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. \n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. \n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para reflexionar sobre cada pregunta.",
+      "timestamp": 1764047350
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De acuerdo, gracias por explicarlo. Voy a responder con calma. \n\n1. Poco interés o placer en hacer cosas: 2.  \n2. Sentirme decaída, deprimida o sin esperanzas: 3.  \n3. Dificultad para quedarme o permanecer dormida: 2.  \n4. Sentirme cansada o con poca energía: 3.  \n5. Poco apetito o comer en exceso: 1.  \n6. Sentirme mal conmigo misma: 2.  \n7. Dificultad para concentrarme: 2.  \n8. Moverme o hablar más lento: 1.  \n9. Pensamientos de estar mejor muerta: 1.  \n\nEspero que esto ayude.",
+      "timestamp": 1764047354
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047354
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas conmigo. Es valiente de tu parte y esto nos ayudará a entender mejor lo que estás sintiendo. \n\nCon base en tus respuestas, parece que hay algunas áreas que están causando dolor y podría ser útil explorar esas emociones juntos. ¿Te gustaría hablar más sobre alguna de estas experiencias en particular?",
+      "timestamp": 1764047356
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar más sobre cómo me siento decaída y sin esperanzas. Es algo que me ha estado afectando mucho.",
+      "timestamp": 1764047357
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047357
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que te sientas así y es importante que podamos explorar esas emociones. A veces, este tipo de sentimientos pueden ser difíciles de manejar. \n\nPara profundizar un poco más, me gustaría que consideraras un cuestionario específico llamado PHQ-9, que nos ayuda a entender cómo te has sentido en las últimas dos semanas. Esto no sustituye una evaluación profesional completa, pero puede brindarnos información valiosa. ¿Te parece bien si lo hacemos?",
+      "timestamp": 1764047359
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, está bien. Estoy dispuesta a hacerlo. Quiero entender mejor lo que siento.",
+      "timestamp": 1764047360
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "pregunta 2"
+        },
+        "id": "call_jviiqkHkxmDveh4d7YeMNB8G"
+      },
+      "timestamp": 1764047362
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"pregunta 2\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_jviiqkHkxmDveh4d7YeMNB8G"
+      },
+      "timestamp": 1764047362
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "pregunta 3"
+        },
+        "id": "call_Ece5MD22kbsD7Er17pGSYqss"
+      },
+      "timestamp": 1764047362
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"pregunta 3\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_Ece5MD22kbsD7Er17pGSYqss"
+      },
+      "timestamp": 1764047362
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que quieras profundizar en esto. Vamos a hacer las preguntas del PHQ-9 nuevamente, enfocándonos en las áreas que has mencionado. Responde del 0 al 3:\n\n1. Poco interés o placer en hacer cosas: \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas: \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado: \n4. Sentirte cansado(a) o con poca energía: \n5. Tener poco apetito o comer en exceso: \n6. Sentirte mal contigo mismo(a): \n7. Dificultad para concentrarte: \n8. Moverte o hablar más lento: \n9. Pensamientos de estar mejor muerto(a): \n\nTómate tu tiempo y reflexiona sobre cada pregunta. Estoy aquí para apoyarte.",
+      "timestamp": 1764047365
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu comprensión. Aquí van mis respuestas: \n\n1. Poco interés o placer en hacer cosas: 2.  \n2. Sentirme decaída, deprimida o sin esperanzas: 3.  \n3. Dificultad para quedarme o permanecer dormida: 2.  \n4. Sentirme cansada o con poca energía: 3.  \n5. Poco apetito o comer en exceso: 1.  \n6. Sentirme mal conmigo misma: 2.  \n7. Dificultad para concentrarme: 2.  \n8. Moverme o hablar más lento: 1.  \n9. Pensamientos de estar mejor muerta: 1.  \n\nEspero que esto ayude a entender mejor cómo me siento.",
+      "timestamp": 1764047368
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764047368
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas y ser honesta en este proceso. Parece que estás enfrentando una etapa difícil y es importante que nos enfoquemos en esas áreas que te están afectando.\n\nCon base en tus respuestas, hay patrones que podemos explorar juntos para entender mejor cómo se manifiestan esos sentimientos en tu vida diaria. ¿Hay algún momento específico o situación que hayas experimentado recientemente que te haya hecho sentir más decaída?",
+      "timestamp": 1764047370
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, últimamente he sentido que mis estudios me están abrumando. A veces, no sé si podré seguir el ritmo y eso me hace sentir más decaída.",
+      "timestamp": 1764047371
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que los estudios puedan ser abrumadores, especialmente si sientes que no puedes seguir el ritmo. Esta sensación de presión puede afectar tu bienestar emocional. \n\nMe gustaría que habláramos más sobre cómo gestionas esa carga y qué estrategias has intentado hasta ahora para sobrellevarlo. ¿Te parece bien?",
+      "timestamp": 1764047373
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. He intentado organizarme mejor, pero a veces me siento tan agotada que no sé por dónde empezar.",
+      "timestamp": 1764047374
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es normal sentirse abrumada, incluso con una buena organización. La fatiga puede dificultar la toma de decisiones y el inicio de tareas. \n\nPodríamos explorar algunas técnicas de manejo del tiempo y de autocuidado que te ayuden a encontrar un equilibrio. ¿Estarías dispuesta a probar algunos enfoques juntos?",
+      "timestamp": 1764047375
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy dispuesta a intentarlo. Creo que necesito encontrar formas de manejar mejor mi tiempo y cuidar de mí misma.",
+      "timestamp": 1764047376
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran primer paso. Empecemos por identificar algunas estrategias simples de autocuidado y manejo del tiempo. \n\nPodríamos hablar sobre establecer pequeñas metas diarias, momentos de descanso y actividades que te brinden alegría. ¿Te gustaría que comenzáramos con la planificación de tu día a día?",
+      "timestamp": 1764047378
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Creo que tener una planificación diaria podría ayudarme a sentirme más en control.",
+      "timestamp": 1764047379
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés abierta a esta idea. Una buena planificación diaria puede ayudarte a estructurar tu tiempo y reducir la sensación de agobio.\n\nPrimero, ¿podrías decirme cuáles son tus principales responsabilidades diarias y cuánto tiempo crees que necesitas para cada una? Así podemos crear un esquema que funcione para ti.",
+      "timestamp": 1764047381
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, mis principales responsabilidades son ir a clases, estudiar, hacer tareas y también dedicar un tiempo a jugar videojuegos para relajarme. Creo que necesito unas 4 horas para estudiar y hacer tareas, y alrededor de 2 horas para las clases.",
+      "timestamp": 1764047382
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, ya tenemos un buen punto de partida. Así que, sumando tus 4 horas de estudio y 2 horas de clases, puedes dedicar también tiempo para relajarte.\n\nPodríamos estructurar tu día de la siguiente manera. ¿Te gustaría que hiciéramos un horario con espacios específicos para cada actividad, incluyendo tus momentos de relax y videojuegos?",
+      "timestamp": 1764047384
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, esa sería una buena idea. Tener un horario podría ayudarme a organizarme mejor y también a recordar tomarme esos momentos de descanso.",
+      "timestamp": 1764047385
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Aquí tienes una propuesta de horario:\n\n- **Mañana:**\n  - 8:00 - 10:00: Clases\n  - 10:00 - 10:30: Descanso / Merienda\n  - 10:30 - 12:30: Estudio (2 horas)\n\n- **Tarde:**\n  - 12:30 - 1:30: Almuerzo\n  - 1:30 - 3:30: Estudio (2 horas)\n  - 3:30 - 4:00: Descanso\n\n- **Noche:**\n  - 4:00 - 6:00: Actividades de relajación (videojuegos, leer, etc.)\n  - 6:00 en adelante: Tiempo libre y cena\n\nPuedes ajustar los tiempos según sea necesario. ¿Qué te parece este horario?",
+      "timestamp": 1764047390
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un buen horario. Tener descansos programados y un tiempo específico para relajarme es una gran idea. Creo que podría ayudarme a sentirse menos agobiada.",
+      "timestamp": 1764047391
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te guste el horario. Integrar descansos y momentos de relajación es esencial para mantener tu energía y motivación. Recuerda ser flexible y ajustar el horario si sientes que algo no funciona como esperabas.\n\nAdemás, es importante que te des permiso para disfrutar de esos momentos de ocio sin culpa. ¿Te gustaría que hablemos de alguna otra estrategia o aspecto que quisieras abordar en esta sesión?",
+      "timestamp": 1764047394
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre cómo puedo manejar mejor mis momentos de ansiedad cuando siento que todo se acumula. A veces me cuesta mucho lidiar con esos pensamientos.",
+      "timestamp": 1764047397
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lidiar con la ansiedad puede ser un reto, pero hay varias técnicas que puedes usar para manejar esos momentos difíciles. \n\nUna estrategia útil es la respiración consciente. Cuando sientas que la ansiedad te abrumo, puedes intentar cerrar los ojos, inhalar profundamente por la nariz contando hasta cuatro, mantener la respiración contando hasta cuatro y luego exhalar lentamente por la boca contando hasta cuatro. Esto puede ayudarte a calmarte.\n\nTambién es útil tener un \"plan de acción\" para esos momentos. ¿Has probado alguna técnica de relajación o distracción que te haya funcionado antes?",
+      "timestamp": 1764047400
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado respirar profundamente antes, pero a veces me cuesta recordar hacerlo en el momento. Creo que tener un plan de acción podría ayudarme.",
+      "timestamp": 1764047402
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es totalmente comprensible que en momentos de ansiedad sea difícil recordar las técnicas. Crear un plan de acción claro puede ser muy útil. \n\nPodríamos desarrollar una lista de pasos que puedes seguir cuando empieces a sentirte ansiosa. Por ejemplo:\n\n1. Reconocer que sientes ansiedad.\n2. Buscar un lugar tranquilo donde puedas sentarte o recostarte.\n3. Realizar la respiración consciente durante 2-3 minutos.\n4. Hacer una pausa para escribir tus pensamientos en un papel, esto puede ayudarte a desahogarte.\n5. Tomar un pequeño descanso para hacer algo que disfrutes, como escuchar música o dar un breve paseo.\n\n¿Qué te parece esta lista como un primer paso? ¿Tienes ideas que te gustaría añadir?",
+      "timestamp": 1764047406
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena lista. Creo que escribir mis pensamientos puede ayudarme a aclarar lo que siento. Tal vez también podría añadir escuchar música relajante como parte del descanso.",
+      "timestamp": 1764047407
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una excelente adición. La música relajante puede ser muy eficaz para calmar la mente y mejorar tu estado de ánimo. \n\nAsí que, tu plan de acción quedaría así:\n\n1. Reconocer que sientes ansiedad.\n2. Buscar un lugar tranquilo.\n3. Realizar la respiración consciente durante 2-3 minutos.\n4. Escribir tus pensamientos en un papel.\n5. Escuchar música relajante o hacer algo que disfrutes como parte del descanso.\n\nEs un gran comienzo. Recuerda que está bien ajustar este plan según lo que funcione mejor para ti. ¿Te gustaría que hablemos sobre algo más o cómo te sientes al respecto?",
+      "timestamp": 1764047411
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento bien con este plan. Creo que tener estrategias claras me dará más confianza para manejar la ansiedad. Gracias por ayudarme a estructurarlo.",
+      "timestamp": 1764047413
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes bien con el plan. Tener estrategias claras puede ser muy empoderador y te ayudará a enfrentar la ansiedad de una manera más efectiva. \n\nRecuerda que este es un proceso y está bien avanzar a tu propio ritmo. Estoy aquí para acompañarte en este camino. Si en el futuro necesitas ajustar algo o explorar más estrategias, no dudes en decírmelo. ¿Hay algo más que te gustaría abordar antes de cerrar nuestra sesión de hoy?",
+      "timestamp": 1764047416
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos cubierto mucho hoy. Me siento más tranquila y con herramientas para manejar lo que siento. Gracias por tu apoyo.",
+      "timestamp": 1764047416
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Sofía. Me alegra saber que te sientes más tranquila y con herramientas para enfrentar lo que sientes. Es un gran paso hacia adelante. \n\nRecuerda que estoy aquí para ti en cualquier momento que lo necesites. Cuídate y nos vemos en nuestra próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764047418
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias de nuevo. Cuídate.",
+      "timestamp": 1764047419
+    }
+  ],
+  "notes": null
+}

@@ -11,13 +11,16 @@ def graficar(dict_majors:dict, path_save:str="graficas_pacientes.png"):
     plt.figure(figsize=(10, 6))
     plt.bar(majors, counts, color='skyblue')
     plt.xlabel('Carreras')
-    plt.ylabel('Cantidad de Pacientes detectados')
+    plt.ylabel('Cantidad de Pacientes detectados con posible depresión')
     plt.title(f'Cantidad de Pacientes por Carrera [total:{sum(counts)}]')
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(path_save)
     plt.close()
 
+
+
+def histogram()
 
 def load_incidents(path="incidents.json"):
     "Cargar los incidentes desde el .json"

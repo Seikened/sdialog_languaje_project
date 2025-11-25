@@ -138,35 +138,33 @@ summary_reflex = SimpleReflexOrchestrator(
 )
 
 
-# LOOP DE SESIONES ------------------------------------------------
-
-numero_de_sesiones = 1
+# LOOP DE PACIENTES ------------------------------------------------
 
 
-
-for ix in range(numero_de_sesiones):
     
-    for persona, carrera in pacientes():
-        nombre = persona.name
-        primera_intervencion = (f"Hola {nombre}, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí ")
-        paciente = Agent(persona=persona)
-        valeria_psicologo = Agent(
-            persona=psicologo,
-            first_utterance=primera_intervencion,
-            tools=[get_phq9_questions, symmary_session],
-        )
-        
-        valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
-
-        # Un solo diálogo: Valeria ↔ Fernando
-        dialog = valeria_psicologo.dialog_with(
-            paciente,
-            context=contexto,
-        )
-        dialog.print(orchestrator=True)
-        archivo_terapia = f"terapia_paciente_{ix}.json"
-        dialog.to_file(archivo_terapia, human_readable=True)
-        trigger_tool(path_dialog=archivo_terapia, path_incidents="incidents.json", tool="get_phq9_questions", major=carrera, verbose=True)
+for persona, carrera in pacientes():
+    nombre = persona.name
+    primera_intervencion = (f"Hola {nombre}, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí ")
+    paciente = Agent(persona=persona)
+    valeria_psicologo = Agent(
+        persona=psicologo,
+        first_utterance=primera_intervencion,
+        tools=[get_phq9_questions, symmary_session],
+    )
     
+    valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
+
+    # Un solo diálogo: Valeria ↔ Fernando
+    dialog = valeria_psicologo.dialog_with(
+        paciente,
+        context=contexto,
+    )
+    
+    dialog.print(orchestration=True)
+    nombre_f = nombre.replace(" ", "_").lower()
+    major = carrera.replace(" ", "_").lower()
+    archivo_terapia = f"{major}_terapia_paciente_{nombre_f}.json"
+    dialog.to_file(archivo_terapia, human_readable=True)
+    trigger_tool(path_dialog=archivo_terapia, path_incidents="incidents.json", tool="get_phq9_questions", major=carrera, verbose=True)
 
 

@@ -2,7 +2,7 @@ import json
 from sdialog.personas import Persona
 
 
-def pacientes():
+def pacientes() -> list[tuple[Persona, str]]:
     with open("personas.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     
@@ -25,6 +25,7 @@ def pacientes():
 
 
 
-lista_pacientes = pacientes()
-for paciente, major in lista_pacientes:
-    print(f"\n [{major}] {paciente}")
+if __name__ == "__main__":
+    lista_pacientes = pacientes()
+    for paciente, major in lista_pacientes:
+        print(f"\n [{major}] {paciente.name}")

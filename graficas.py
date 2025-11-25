@@ -28,7 +28,7 @@ def load_incidents(path="incidents.json"):
 
 
 
-
-incidentes = load_incidents()
-graficar(incidentes, path_save="graficas_pacientes.png")
+if __name__ == "__main__":
+    incidentes = load_incidents()
+    graficar(incidentes, path_save="graficas_pacientes.png")
         

@@ -2,39 +2,16 @@ from sdialog import Context
 from sdialog.agents import Agent
 from sdialog.personas import Persona
 from sdialog.orchestrators import SimpleReflexOrchestrator
-from .config import arrancar
+from config import arrancar
+from pacientes import pacientes
+from trigger import trigger_tool #, entry_incidents
 
+
+# ARRANCAR --------------------------------------------------------
 arrancar()
 
 
-
-
-
-
-
-
-
-
 # PERSONAS --------------------------------------------------------
-
-paciente = Persona(
-    name="Fernando Leon", 
-    age=24,
-    race="Latino",
-    language="español",
-    background=(
-        "estudiante de ingeniería de inteligencia artificial en la universidad iberoamericana "
-        "de 5to semestre, apasionado por la tecnología y los videojuegos"
-    ),
-    gender="masculino",
-    role="paciente", 
-    personality="curioso",
-    rules="Habla solo en español",
-    circumstances=(
-        "Está en una sesión de terapia por primera vez y se siente un poco nervioso "
-        "y tiene síntomas de depresión"
-    ),
-)
 
 psicologo = Persona(
     name="Valeria", 
@@ -128,28 +105,17 @@ phq9_reflex = SimpleReflexOrchestrator(
 
 def summary_reflex_condition(utt: str) -> bool:
     ending_keywords = [
-        "gracias por tu ayuda",
-        "hemos terminado",
-        "eso es todo por hoy",
-        "nos vemos la próxima sesión",
-        "nos vemos en la próxima sesión",
-        "hasta luego",
-        "¡hasta luego!",
-        "¡hasta la próxima!",
-        "adiós",
-        "me despido",
-        "terminamos aquí",
-        "eso es todo",
-        "gracias por todo",
-        "muchas gracias por todo",
-        "gracias por escucharme",
-        "por hoy está bien",
-        "creo que por hoy es suficiente",
-        "podemos dejarlo hasta aquí",
-        "lo dejamos hasta aquí",
-        "nos vemos la próxima vez",
-        "nos vemos en la siguiente sesión",
-        "de nada",
+        "gracias por tu ayuda", "hemos terminado",
+        "eso es todo por hoy","nos vemos la próxima sesión",
+        "nos vemos en la próxima sesión","hasta luego",
+        "¡hasta luego!","¡hasta la próxima!",
+        "adiós","me despido",
+        "terminamos aquí","eso es todo",
+        "gracias por todo","muchas gracias por todo",
+        "gracias por escucharme","por hoy está bien",
+        "creo que por hoy es suficiente","podemos dejarlo hasta aquí",
+        "lo dejamos hasta aquí","nos vemos la próxima vez",
+        "nos vemos en la siguiente sesión","de nada",
     ]
     text = utt.lower()
     return any(phrase in text for phrase in ending_keywords)
@@ -179,32 +145,28 @@ numero_de_sesiones = 1
 
 
 for ix in range(numero_de_sesiones):
-    primera_intervencion = (
-        f"Hola Fernando, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí "
-        f"en esta que es nuestra sesión número {ix + 1}?"
-    )
+    
+    for persona, carrera in pacientes():
+        nombre = persona.name
+        primera_intervencion = (f"Hola {nombre}, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí ")
+        paciente = Agent(persona=persona)
+        valeria_psicologo = Agent(
+            persona=psicologo,
+            first_utterance=primera_intervencion,
+            tools=[get_phq9_questions, symmary_session],
+        )
+        
+        valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
 
-    fernando_paciente = Agent(persona=paciente)
-
-
-    valeria_psicologo = Agent(
-        persona=psicologo,
-        first_utterance=primera_intervencion,
-        tools=[get_phq9_questions, symmary_session],
-    )
-
-    # Encadenamos los reflex sobre Valeria
-    valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
-
-    # Un solo diálogo: Valeria ↔ Fernando
-    dialog = valeria_psicologo.dialog_with(
-        fernando_paciente,
-        context=contexto,
-    )
-    dialog.print(orchestrator=True)
-
-
-    dialog.to_file(f"dialog_session_{ix}.json", human_readable=True)
+        # Un solo diálogo: Valeria ↔ Fernando
+        dialog = valeria_psicologo.dialog_with(
+            paciente,
+            context=contexto,
+        )
+        dialog.print(orchestrator=True)
+        archivo_terapia = f"terapia_paciente_{ix}.json"
+        dialog.to_file(archivo_terapia, human_readable=True)
+        trigger_tool(path_dialog=archivo_terapia, path_incidents="incidents.json", tool="get_phq9_questions", major=carrera, verbose=True)
     
 
 

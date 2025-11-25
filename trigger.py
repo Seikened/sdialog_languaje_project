@@ -50,14 +50,14 @@ def entry_incidents(reset_data: bool = False, path="incidents.json", major: str 
         return json.dumps(data, indent=indent, ensure_ascii=False)
     return None
 
-def trgger_tool(path_dialog:str ="dialog_session_0.json",path_incidents:str="incidents.json",tool:str = "get_phq9_questions", verbose:bool=False):
+
+def trigger_tool(path_dialog:str ="dialog_session_0.json",path_incidents:str="incidents.json",tool:str = "get_phq9_questions",major:str = "IIA", verbose:bool=False):
     "Abrir el .json de la transcripción guardada de la sesión"
     with open(path_dialog, "r") as f:
         data = json.load(f)
     for evento in data["events"]:
         if evento["action"] == "tool" and evento["actionLabel"]=="call":
             if evento["content"]["name"]==tool:
-                major = "IIA" # TODO: Obtener el major desde el context llamado
                 data = entry_incidents(reset_data=False, path=path_incidents, major=major)
                 evento_f = json.dumps(evento, indent=indent, ensure_ascii=True)
                 if verbose:
@@ -74,6 +74,7 @@ if __name__ == "__main__":
         path_dialog="dialog_session_0.json",
         path_incidents="incidents.json",
         tool="get_phq9_questions", 
+        major="IIA",
         verbose=True
     )
 

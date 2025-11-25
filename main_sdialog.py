@@ -2,33 +2,12 @@ from sdialog import Context
 from sdialog.agents import Agent
 from sdialog.personas import Persona
 from sdialog.orchestrators import SimpleReflexOrchestrator
-from .config import arrancar, DICT_MAJORS
-import json
+from .config import arrancar
 
 arrancar()
 
 
-# TOOLS --------------------------------------------------------
-def entry_incidents(path = "incidents.json"):
-    "Abrir el .json de incidentes"
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data
 
-
-
-def trgger_tool(path="dialog_session_0.json",tool = "get_phq9_questions",    verbose=False):
-    "Abrir el .json de la transcripción guardada de la sesión"
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    for evento in data["events"]:
-        if evento["action"] == "tool" and evento["actionLabel"]=="call":
-            if evento["content"]["name"]==tool:
-                evento_f = json.dumps(evento, indent=2, ensure_ascii=True)
-                if verbose:
-                    print(f"Evento: {evento_f}")
-                return evento_f
-    return None
 
 
 

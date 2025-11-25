@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+38fca57ab97cf565916ed5809189f1033cee6bc4",
-  "timestamp": "2025-11-25T02:40:29Z",
+  "version": "0.4.2+504b1b3ea61eb9f318ff47d7a41567b41d4b09e9",
+  "timestamp": "2025-11-25T03:22:24Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 2037350939,
-  "id": "dbbca58a-d58f-404f-9b6b-e1f3de11ed59",
+  "seed": 1974340605,
+  "id": "ddebe2e2-a336-4879-8958-21ac51f4dc6b",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,351 +54,151 @@
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es la primera vez que vengo a terapia."
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en terapia y no sé qué esperar."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nervioso en la primera sesión. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?"
+      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para guiarte y hacer que te sientas cómodo. ¿Quieres comenzar hablándome un poco sobre lo que te trae hoy?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Sí, creo que últimamente me he sentido un poco deprimido y no sé cómo manejarlo."
+      "text": "Sí, claro. Últimamente me he sentido un poco deprimido, no tengo muchas ganas de hacer cosas que antes disfrutaba, como ilustrar o ver contenido en redes."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, es un paso importante reconocer esos sentimientos. Para explorar cómo te has sentido en las últimas dos semanas, podemos hacer un cuestionario llamado PHQ-9. ¿Estás de acuerdo en responderlo? Esto nos ayudará a tener una mejor comprensión de tu situación, pero recuerda que no sustituye una evaluación profesional completa."
+      "text": "Entiendo, y gracias por compartir eso. Para profundizar en cómo te has sentido en las últimas dos semanas, me gustaría que respondiéramos un cuestionario llamado PHQ-9. Esto nos ayudará a explorar tus síntomas, pero ten en cuenta que esto no sustituye una evaluación profesional completa. ¿Te parece bien?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Sí, estoy de acuerdo. Creo que puede ayudarme a entender mejor lo que estoy sintiendo."
+      "text": "Está bien, me parece bien. Estoy dispuesto a responderlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, comencemos. Aquí tienes la primera pregunta:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?"
+      "text": "Perfecto, aquí van algunas preguntas. Te agradecería que las respondas en una escala del 0 al 3, donde 0 significa \"nunca\" y 3 \"casi todos los días\".\n\n1. Durante las últimas 2 semanas, ¿cómo te has sentido en relación a: \n   - Poco interés o placer en hacer cosas.\n\n¿Qué puntuación le darías a eso?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "He tenido molestias casi todos los días, especialmente con la tristeza y la falta de energía."
+      "text": "Le daría un 2, porque a veces siento interés, pero la mayoría de las veces no tengo ganas de hacer nada."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. Vamos a continuar con la segunda pregunta:\n\n2. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has sentido esto en las últimas dos semanas? Responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'."
+      "text": "Gracias por tu honestidad. Ahora, la siguiente pregunta: \n\n2. ¿Cómo te has sentido en relación a sentirte decaído, deprimido o sin esperanzas? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le pondría un 2, porque a veces todavía disfruto algunas cosas, pero la mayoría del tiempo no tengo ganas de hacer nada."
+      "text": "Le daría un 3, porque me he sentido así casi todos los días últimamente."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, eso es valioso para saber. Pasemos a la tercera pregunta:\n\n3. ¿Te has sentido decaído, deprimido o sin esperanzas en las últimas dos semanas? ¿Qué número le pondrías del 0 al 3?"
+      "text": "Lamento que te sientas así. Esto es muy importante de abordar. Ahora, la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido, o por el contrario, has estado durmiendo demasiado? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le pondría un 3, me he sentido así casi todos los días."
+      "text": "Le daría un 2, porque a veces me cuesta mucho quedarme dormido, pero otras noches duermo más de lo normal."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento que te sientas así. Es un paso importante hablar de ello. Ahora, continuemos con la cuarta pregunta:\n\n4. ¿Has tenido dificultad para quedarte o permanecer dormido, o has dormido demasiado en las últimas dos semanas? ¿Cómo lo calificarías del 0 al 3?"
+      "text": "Gracias por compartir eso. Ahora, la siguiente pregunta:\n\n4. ¿Te has sentido cansado o con poca energía? ¿Qué puntuación le darías en esa área?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le daría un 2, a veces me cuesta dormir y otras veces duermo más de lo normal tratando de escapar de todo."
+      "text": "Le daría un 3, me siento cansado y sin energía casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. Es comprensible querer escapar cuando las cosas son difíciles. Vamos a la quinta pregunta:\n\n5. ¿Has sentido que te falta energía o que te sientes cansado casi todos los días? ¿Qué número le asignarías del 0 al 3?"
+      "text": "Entiendo, y lamento que estés pasando por esto. Vamos con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le pondría un 3, casi siempre me siento cansado y sin energía."
+      "text": "Le daría un 2, porque a veces no tengo hambre y otras veces como más de lo normal."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por ser honesto. Ahora, continuemos con la sexta pregunta:\n\n6. ¿Has tenido poco apetito o has estado comiendo en exceso en las últimas dos semanas? ¿Cómo lo calificarías del 0 al 3?"
+      "text": "Agradezco tu sincera respuesta. Continuemos con la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo, como si fueras un fracaso o que has decepcionado a tu familia? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le daría un 2, a veces no tengo ganas de comer, pero hay días en los que como más de lo normal."
+      "text": "Le daría un 3, porque me siento así casi todos los días, siento que no estoy a la altura."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu respuesta. Vamos a la séptima pregunta:\n\n7. ¿Te has sentido mal contigo mismo o has sentido que eres un fracaso o que has quedado mal contigo mismo o con tu familia en las últimas dos semanas? ¿Qué número le pondrías del 0 al 3?"
+      "text": "Lamento que estés sintiendo eso. Es un paso valiente reconocerlo. Ahora, vamos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le pondría un 3, me he sentido así casi todos los días, como si no estuviera logrando lo que se espera de mí."
+      "text": "Le daría un 2, a veces puedo concentrarme, pero hay momentos en que me cuesta mucho."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento que te sientas así. Es importante que reconozcamos esos sentimientos. Ahora, pasemos a la octava pregunta:\n\n8. ¿Has tenido dificultad para concentrarte en cosas, como leer el periódico o ver la televisión, en las últimas dos semanas? ¿Qué número le asignarías del 0 al 3?"
+      "text": "Gracias por compartirlo. Ahora, la siguiente pregunta:\n\n8. ¿Te has sentido tan inquieto o agitado que te mueves más de lo normal, o por el contrario, tan lento que otros podrían notarlo? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le daría un 2, a veces puedo concentrarme, pero en general me cuesta mucho enfocarme."
+      "text": "Le daría un 1, a veces me siento un poco inquieto, pero no creo que los demás lo noten."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, y agradezco que compartas esto. Ahora, continuemos con la novena pregunta:\n\n9. ¿Te has sentido tan inquieto o agitado que te mueves mucho más de lo normal, o has notado que te mueves o hablas más lento de lo habitual? ¿Cómo lo calificarías del 0 al 3?"
+      "text": "Agradezco tu honestidad. Ahora, la penúltima pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le pondría un 1, a veces estoy inquieto, pero no siempre."
+      "text": "Le daría un 1, he tenido pensamientos oscuros, pero no he llegado a pensar que quiero lastimarme."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu honestidad. Ahora vamos a la décima y última pregunta:\n\n10. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera en las últimas dos semanas? ¿Qué número le pondrías del 0 al 3?"
+      "text": "Es importante que reconozcas esos pensamientos, y te agradezco que los compartas. Vamos con la última pregunta:\n\n10. Durante las últimas dos semanas, ¿qué tan seguido has tenido molestias debido a estos problemas en general? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Le daría un 2, he tenido esos pensamientos de vez en cuando y me asustan un poco."
+      "text": "Le daría un 2, porque he estado lidiando con estos problemas varias veces a la semana."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento que hayas tenido esos pensamientos, es importante reconocerlos y hablar abiertamente sobre ellos. Gracias por tu valentía al compartir. ¿Te gustaría que exploráramos más a fondo esos sentimientos y pensamientos?"
+      "text": "Gracias por compartir tus respuestas. Es muy valioso que te hayas abierto sobre cómo te sientes. Esto nos ayudará a trabajar juntos en tu bienestar. ¿Te gustaría que hablemos de algunas estrategias para abordar esos sentimientos?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Sí, creo que es necesario. No sé cómo manejarlo solo."
+      "text": "Sí, me gustaría mucho. Estoy dispuesto a escuchar y aprender sobre lo que puedo hacer."
     },
     {
       "speaker": "Valeria",
-      "text": "Es muy valiente de tu parte buscar ayuda. Comencemos a trabajar en estrategias y herramientas que te ayuden a manejar esos pensamientos. Te apoyaré en este proceso. ¿Te gustaría que comenzáramos con algunas técnicas de respiración o mindfulness?"
+      "text": "Me alegra escuchar eso. Una estrategia que podríamos explorar es la terapia cognitivo-conductual, que nos ayudará a identificar y desafiar esos pensamientos negativos. También podríamos trabajar en la programación de pequeñas actividades que te traigan placer. ¿Te parece un buen lugar para comenzar?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Sí, me gustaría eso. Creo que podría ayudarme a sentirme un poco mejor."
+      "text": "Sí, me parece un buen lugar para empezar. Quiero intentar sentirme mejor."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente decisión. Vamos a probar una técnica de respiración simple. Te invito a cerrar los ojos y a tomar una respiración profunda por la nariz, sintiendo cómo se expande tu abdomen. Mantén el aire unos segundos y luego exhala lentamente por la boca, soltando cualquier tensión. ¿Listo para intentarlo juntos?"
+      "text": "Eso es un gran paso, y estoy aquí para apoyarte en este camino. Empecemos a establecer algunas metas pequeñas y alcanzables para que puedas experimentar esos momentos de placer nuevamente. ¿Tienes alguna actividad en mente que te gustaría intentar?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Sí, estoy listo. Intentaré hacerlo."
+      "text": "Podría intentar ilustrar de nuevo, aunque solo sea un poco. Me gustaba mucho antes."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto. Comencemos. Inhala profundamente por la nariz… mantén… y ahora exhala lentamente por la boca. Vamos a repetirlo un par de veces más. Inhala… mantén… y exhala. Una vez más, inhala… mantén… y exhala. ¿Cómo te sientes después de este ejercicio?"
+      "text": "¡Eso suena maravilloso! Ilustrar puede ser una excelente manera de conectar contigo mismo y expresarte. ¿Te gustaría que estableciéramos una meta de tiempo para practicar la ilustración esta semana?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Me siento un poco más relajado, gracias. Es agradable poder enfocarme en mi respiración."
+      "text": "Sí, podríamos establecer una meta de al menos 30 minutos para ilustrar un par de veces esta semana."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra mucho escuchar eso. La respiración consciente puede ser muy útil para calmar la mente y el cuerpo. Podemos practicarlo más en nuestras sesiones. ¿Te gustaría explorar algún otro aspecto de lo que estás sintiendo?"
+      "text": "Me parece una meta excelente y alcanzable. Te animo a que lo agendes en tu semana. Además, trata de crear un ambiente agradable para ti mientras ilustras. ¿Te gustaría que revisáramos cómo te sientes después de cumplir con esa meta en nuestra próxima sesión?"
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Sí, me gustaría. A veces me siento abrumado y no sé cómo expresarlo."
+      "text": "Sí, me gustaría mucho. Quiero ver si puedo disfrutar de eso de nuevo."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, sentirse abrumado puede ser muy difícil. A veces, verbalizar esos sentimientos puede ayudar a aligerar la carga. ¿Qué situaciones o pensamientos específicos te hacen sentir así?"
+      "text": "Estoy aquí para apoyarte en ese proceso. Me alegra que estés dispuesto a intentarlo. Para finalizar nuestra sesión de hoy, quiero recordarte que está bien pedir ayuda y que cada pequeño paso cuenta. Nos vemos la próxima semana, y espero escuchar sobre tu experiencia con la ilustración. ¡Cuídate mucho! \n\nAdiós."
     },
     {
       "speaker": "Luis Ángel Romero",
-      "text": "Principalmente la presión de la escuela y la sensación de que no estoy a la altura de las expectativas. Me agobia mucho."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Es comprensible sentirte así, especialmente bajo la presión de cumplir expectativas. Podemos trabajar juntos para encontrar maneras de manejar esa presión y redefinir esas expectativas. ¿Te gustaría que exploráramos algunas estrategias para reducir el estrés académico?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, me gustaría eso. Creo que necesito aprender a manejar mejor el estrés."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto, aquí hay algunas estrategias que podemos explorar:\n\n1. **Organización del tiempo:** Hacer un horario o lista de tareas puede ayudarte a visualizar tus responsabilidades y reducir la sensación de agobio.\n\n2. **Técnicas de relajación:** Además de la respiración, podemos incorporar ejercicios de relajación muscular o meditación.\n\n3. **Descansos programados:** Tomar descansos breves durante el estudio para despejar la mente puede mejorar tu concentración.\n\n4. **Comunicación:** Hablar con tus profesores o compañeros sobre tus preocupaciones puede aliviar parte de la presión.\n\n¿Cuál de estas estrategias te gustaría explorar primero?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me gustaría empezar con la organización del tiempo, creo que podría ayudarme mucho."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto. La organización del tiempo puede ser muy efectiva. Te invito a crear un horario semanal. Aquí hay algunos pasos que podemos seguir:\n\n1. **Haz una lista de tus tareas:** Anota todas las asignaciones, exámenes y otros compromisos.\n\n2. **Prioriza tus tareas:** Identifica cuáles son más urgentes o importantes.\n\n3. **Asigna bloques de tiempo:** Decide cuánto tiempo dedicarás a cada tarea, incluyendo descansos.\n\n4. **Sé flexible:** Es importante que tu horario sea adaptable a cambios.\n\n¿Te gustaría que trabajáramos juntos en un ejemplo de horario?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, me gustaría. Creo que sería útil tener un ejemplo para seguir."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Excelente. Comencemos con un ejemplo de horario. Imagina que tu semana se ve así:\n\n**Lunes a Viernes:**\n\n- **8:00 - 9:00 am:** Desayuno y preparación para el día.\n- **9:00 - 11:00 am:** Estudio para materia A (lectura y toma de apuntes).\n- **11:00 - 11:15 am:** Descanso.\n- **11:15 - 1:00 pm:** Estudio para materia B (practicar problemas).\n- **1:00 - 2:00 pm:** Almuerzo.\n- **2:00 - 4:00 pm:** Clases o actividades académicas.\n- **4:00 - 4:30 pm:** Descanso o actividad recreativa.\n- **4:30 - 6:00 pm:** Revisión de tareas y proyectos.\n- **6:00 - 7:00 pm:** Cena.\n- **7:00 - 8:00 pm:** Tiempo libre (relajación, hobbies).\n\nEste es solo un ejemplo. ¿Qué te parece, y cómo te gustaría adaptarlo a tus necesidades?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me parece un buen inicio. Podría ajustar los tiempos de estudio para que sean más cortos, quizás hacer sesiones de una hora y descansar más. También podría incluir tiempo para dibujar, que es algo que me gusta."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena perfecto. Adaptar el horario a tus preferencias y necesidades es clave. Aquí tienes un ejemplo ajustado:\n\n**Lunes a Viernes:**\n\n- **8:00 - 9:00 am:** Desayuno y preparación para el día.\n- **9:00 - 10:00 am:** Estudio para materia A.\n- **10:00 - 10:15 am:** Descanso.\n- **10:15 - 11:15 am:** Estudio para materia B.\n- **11:15 - 11:30 am:** Descanso.\n- **11:30 - 12:30 pm:** Estudio para materia C.\n- **12:30 - 1:30 pm:** Almuerzo.\n- **1:30 - 2:30 pm:** Clases o actividades académicas.\n- **2:30 - 3:00 pm:** Tiempo para dibujar.\n- **3:00 - 4:00 pm:** Revisión de tareas y proyectos.\n- **4:00 - 5:00 pm:** Tiempo libre (relajación, hobbies).\n- **5:00 - 6:00 pm:** Cena.\n- **6:00 - 7:00 pm:** Estudio adicional si es necesario.\n\n¿Te parece que este horario se ajusta mejor a lo que necesitas?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, me parece mucho mejor. Me gusta que incluya tiempo para dibujar. Creo que así podré manejar mejor mis tareas y también relajarme."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra mucho escuchar eso. Incluir tiempo para actividades que disfrutas es fundamental para mantener el equilibrio y la motivación. Recuerda que la organización es un proceso flexible; puedes ajustarlo según lo necesites.¿Te gustaría hablar sobre otra estrategia para manejar el estrés o necesitas algo más en particular?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, me gustaría hablar sobre las técnicas de relajación, creo que podrían ayudarme mucho."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Claro, las técnicas de relajación pueden ser muy efectivas para reducir el estrés. Aquí tienes algunas que podríamos practicar:\n\n1. **Relajación muscular progresiva:** Consiste en tensar y luego relajar cada grupo muscular del cuerpo, comenzando desde los pies hasta la cabeza.\n\n2. **Meditación guiada:** Escuchar una meditación puede ayudarte a calmar la mente y centrarte en el momento presente.\n\n3. **Visualización:** Imaginar un lugar tranquilo y relajante puede ser útil para escapar del estrés.\n\n4. **Ejercicios de respiración:** Ya practicamos uno, pero hay varias técnicas que podemos explorar.\n\n¿Cuál de estas técnicas te gustaría intentar primero?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me gustaría probar la relajación muscular progresiva. Creo que sería bueno relajar mi cuerpo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Excelente elección. La relajación muscular progresiva es muy efectiva. Vamos a hacerlo juntos. Te invito a seguir estos pasos:\n\n1. **Encuentra una posición cómoda:** Siéntate o recuéstate en un lugar tranquilo.\n\n2. **Cierra los ojos:** Respira profundamente y concéntrate en tu respiración.\n\n3. **Tensar y relajar:** Comenzaremos por los pies. Tensa los músculos de tus pies contándolos hasta 5 y luego relájate. Siente la diferencia.\n\n4. **Sube por el cuerpo:** Continúa con las pantorrillas, tensando y relajando, luego los muslos, los glúteos, el abdomen, los brazos, los hombros y finalmente la cara.\n\n5. **Finaliza:** Una vez que llegues a la cara, respira profundamente y siente cómo se libera la tensión en todo tu cuerpo.\n\n¿Listo para intentarlo? Comenzamos con los pies. Tensa los músculos… mantén… y relaja."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Estoy listo. Vamos a empezar. Tenso los músculos de mis pies… mantengo… y relajo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto. Ahora, pasemos a las pantorrillas. Tensa los músculos de las pantorrillas… mantén… y relaja. Siente cómo se libera la tensión."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos de las pantorrillas… mantengo… y relajo. Se siente bien, gracias."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra que lo sientas así. Ahora, subamos a los muslos. Tensa los músculos de los muslos… mantén… y relaja. Siente cómo se sueltan."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos de los muslos… mantengo… y relajo. Se siente mucho más relajado."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es genial. Ahora pasemos a los glúteos. Tensa los músculos de los glúteos… mantén… y relaja. Permite que la tensión se disuelva."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos de los glúteos… mantengo… y relajo. Siento cómo se libera la tensión."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Excelente. Ahora vamos al abdomen. Tensa los músculos del abdomen… mantén… y relaja. Siente cómo se aflojan."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos del abdomen… mantengo… y relajo. Se siente muy bien, gracias."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra que lo estés disfrutando. Ahora, pasemos a los brazos. Tensa los músculos de los brazos… mantén… y relaja. Siente la diferencia."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos de los brazos… mantengo… y relajo. Es agradable, me siento más ligero."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es maravilloso. Ahora vamos a los hombros. Tensa los músculos de los hombros… mantén… y relaja. Permite que se suelten."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos de los hombros… mantengo… y relajo. Se siente muy liberador."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra mucho que lo sientas así. Ahora, vamos a la cara. Tensa los músculos de la cara, incluyendo la mandíbula y la frente… mantén… y relaja. Siente cómo se libera la tensión acumulada."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Tenso los músculos de la cara… mantengo… y relajo. Siento que toda la tensión se va."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es excelente. Ahora, tómate un momento para respirar profundamente y disfrutar de esa sensación de relajación en todo tu cuerpo. Cuando estés listo, puedes abrir los ojos. ¿Cómo te sientes ahora?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me siento mucho más relajado y ligero. Gracias por guiarme en esto, ha sido muy útil."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra mucho que te hayas sentido así. La relajación muscular progresiva puede ser una herramienta poderosa para manejar el estrés. Recuerda que puedes practicarla cuando lo necesites. ¿Te gustaría hablar sobre algo más o hay algo específico en lo que te gustaría trabajar en nuestra próxima sesión?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me gustaría seguir trabajando en las estrategias para manejar el estrés académico y quizás hablar sobre cómo mejorar mi autoestima."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Claro, nos enfocaremos en ambas cosas. Para manejar el estrés académico, podemos seguir explorando técnicas de organización y relajación, y también discutir cómo establecer metas realistas. \n\nEn cuanto a la autoestima, podemos trabajar en identificar tus fortalezas y en desarrollar una mentalidad más positiva hacia ti mismo. \n\n¿Te gustaría comenzar por alguna de estas áreas en particular?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me gustaría comenzar con la autoestima. Creo que eso podría ayudarme mucho."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Excelente elección. La autoestima es fundamental para tu bienestar. Podemos empezar trabajando en identificar tus fortalezas y cualidades positivas. \n\nTe invito a hacer una lista de al menos cinco cosas que te gusten de ti mismo o en las que creas que eres bueno. Pueden ser habilidades, rasgos de personalidad o logros. ¿Te gustaría intentarlo?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, creo que puedo intentarlo. A ver... \n\n1. Me gusta ilustrar y creo que tengo talento para eso.\n2. Soy una persona amable y siempre trato de ayudar a los demás.\n3. Me esfuerzo por aprender cosas nuevas cada día.\n4. Tengo un buen sentido del humor.\n5. Soy perseverante y no me rindo fácilmente.\n\n¿Crees que está bien?"
-    },
-    {
-      "speaker": "Valeria",
-      "text": "¡Eso es excelente! Has hecho una lista muy positiva y significativa. Cada uno de esos puntos refleja tus cualidades y lo que te hace único. \n\nEs importante recordarlas y valorarlas, sobre todo en momentos de duda. Podrías escribirlas en un lugar visible para que las veas diariamente. ¿Te gustaría que exploráramos alguna de estas cualidades en particular y cómo puedes potenciarlas aún más?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, me gustaría explorar más sobre mi talento para ilustrar. Creo que podría potenciarlo si me dedicara más tiempo a practicar."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena genial. Dedicar tiempo a practicar tus ilustraciones puede mejorar tus habilidades y, al mismo tiempo, fortalecer tu autoestima. Aquí tienes algunas ideas para potenciar tu talento:\n\n1. **Establece una rutina de práctica:** Dedica un tiempo específico cada semana solo para dibujar.\n\n2. **Explora diferentes estilos:** Experimenta con diferentes técnicas y estilos de ilustración para descubrir lo que más te gusta.\n\n3. **Toma clases o tutoriales:** Aprender de otros puede darte nuevas perspectivas y técnicas.\n\n4. **Únete a una comunidad:** Conectar con otros ilustradores, ya sea en línea o en persona, puede inspirarte y motivarte.\n\n5. **Comparte tu trabajo:** Publicar tus ilustraciones en redes sociales o en un portafolio puede ayudarte a recibir comentarios positivos y construir tu confianza.\n\n¿Cuál de estas ideas te gustaría implementar primero?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me gustaría establecer una rutina de práctica. Creo que eso me ayudaría a dedicarle más tiempo a la ilustración."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Establecer una rutina de práctica es una excelente manera de desarrollar tu talento. Aquí tienes algunos pasos para crear tu rutina:\n\n1. **Decide la frecuencia:** ¿Cuántas veces a la semana te gustaría dibujar? Comienza con un número que sientas que puedes manejar.\n\n2. **Establece una duración:** Decide cuánto tiempo dedicarás a cada sesión de dibujo. Puede ser desde 30 minutos hasta 2 horas, dependiendo de tus horarios.\n\n3. **Crea un espacio:** Prepara un lugar cómodo y tranquilo donde puedas dibujar sin distracciones.\n\n4. **Hazlo específico:** Piensa en lo que quieres practicar en cada sesión, como ilustrar un personaje, paisaje o experimentar con una técnica nueva.\n\n5. **Sé flexible:** Si un día no puedes seguir tu rutina, está bien; lo importante es volver a ella cuando puedas.\n\n¿Cuánto tiempo y cuántas veces a la semana te gustaría practicar? Podemos ajustar la rutina juntos."
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Me gustaría practicar tres veces a la semana, y creo que dedicarle una hora a cada sesión sería suficiente."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena muy bien. Aquí tienes un ejemplo de cómo podría verse tu rutina de práctica de ilustración:\n\n**Rutina de Práctica de Ilustración:**\n\n- **Días de práctica:** Lunes, Miércoles y Viernes\n- **Hora:** 1 hora por sesión (puedes elegir la hora del día que mejor se adapte a ti)\n\n**Ejemplo de enfoque para cada sesión:**\n- **Lunes:** Dibujo de personajes (crear uno nuevo o practicar la anatomía).\n- **Miércoles:** Ilustración de paisajes (experimentar con diferentes escenarios).\n- **Viernes:** Técnicas (probar diferentes estilos o herramientas).\n\nRecuerda ser flexible y ajustarlo según tus necesidades. ¿Te parece bien este plan?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "Sí, me parece un plan excelente. Siento que tener un enfoque me ayudará a mejorar. ¡Gracias!"
-    },
-    {
-      "speaker": "Valeria",
-      "text": "¡De nada! Me alegra que te sientas así. Tener un enfoque y dedicación te ayudará a potenciar tu talento. Recuerda disfrutar del proceso y no ser demasiado crítico contigo mismo. \n\nSi en algún momento deseas compartir tus avances o necesitas más apoyo, aquí estaré. ¿Hay algo más en lo que te gustaría trabajar o discutir hoy?"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "No, creo que por hoy está bien. Me siento más positivo y con más herramientas para manejar mis sentimientos. ¡Gracias por tu ayuda!"
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Ha sido un placer acompañarte hoy, y me alegra saber que te sientes más positivo y con más herramientas. Recuerda que aquí estoy para apoyarte en tu proceso. Nos vemos en la próxima sesión. ¡Cuídate mucho!"
-    },
-    {
-      "speaker": "Luis Ángel Romero",
-      "text": "¡Gracias! Nos vemos pronto. Cuídate."
+      "text": "Adiós, gracias por tu apoyo. Estoy deseando la próxima sesión. ¡Cuídate!"
     }
   ],
   "events": [
@@ -407,49 +207,49 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
-      "timestamp": 1764038279
+      "timestamp": 1764040898
     },
     {
       "agent": "Luis Ángel Romero",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es la primera vez que vengo a terapia.",
-      "timestamp": 1764038281
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en terapia y no sé qué esperar.",
+      "timestamp": 1764040899
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nervioso en la primera sesión. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?",
-      "timestamp": 1764038282
+      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para guiarte y hacer que te sientas cómodo. ¿Quieres comenzar hablándome un poco sobre lo que te trae hoy?",
+      "timestamp": 1764040900
     },
     {
       "agent": "Luis Ángel Romero",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que últimamente me he sentido un poco deprimido y no sé cómo manejarlo.",
-      "timestamp": 1764038282
+      "content": "Sí, claro. Últimamente me he sentido un poco deprimido, no tengo muchas ganas de hacer cosas que antes disfrutaba, como ilustrar o ver contenido en redes.",
+      "timestamp": 1764040902
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038282
+      "timestamp": 1764040902
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, es un paso importante reconocer esos sentimientos. Para explorar cómo te has sentido en las últimas dos semanas, podemos hacer un cuestionario llamado PHQ-9. ¿Estás de acuerdo en responderlo? Esto nos ayudará a tener una mejor comprensión de tu situación, pero recuerda que no sustituye una evaluación profesional completa.",
-      "timestamp": 1764038285
+      "content": "Entiendo, y gracias por compartir eso. Para profundizar en cómo te has sentido en las últimas dos semanas, me gustaría que respondiéramos un cuestionario llamado PHQ-9. Esto nos ayudará a explorar tus síntomas, pero ten en cuenta que esto no sustituye una evaluación profesional completa. ¿Te parece bien?",
+      "timestamp": 1764040905
     },
     {
       "agent": "Luis Ángel Romero",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, estoy de acuerdo. Creo que puede ayudarme a entender mejor lo que estoy sintiendo.",
-      "timestamp": 1764038285
+      "content": "Está bien, me parece bien. Estoy dispuesto a responderlo.",
+      "timestamp": 1764040905
     },
     {
       "agent": "Valeria",
@@ -458,11 +258,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "inicio"
+          "item": "depresión en las últimas dos semanas"
         },
-        "id": "call_OEgLxVIqSSitYkmmfnlzP7gD"
+        "id": "call_sCB1V0eIHpzEPkSnuwTd72y4"
       },
-      "timestamp": 1764038286
+      "timestamp": 1764040907
     },
     {
       "agent": "Valeria",
@@ -470,629 +270,265 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"inicio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_OEgLxVIqSSitYkmmfnlzP7gD"
+        "output": "{\"item\": \"depresión en las últimas dos semanas\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_sCB1V0eIHpzEPkSnuwTd72y4"
       },
-      "timestamp": 1764038286
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto, comencemos. Aquí tienes la primera pregunta:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?",
-      "timestamp": 1764038287
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "He tenido molestias casi todos los días, especialmente con la tristeza y la falta de energía.",
-      "timestamp": 1764038291
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038291
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias por compartir eso. Vamos a continuar con la segunda pregunta:\n\n2. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has sentido esto en las últimas dos semanas? Responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'.",
-      "timestamp": 1764038293
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le pondría un 2, porque a veces todavía disfruto algunas cosas, pero la mayoría del tiempo no tengo ganas de hacer nada.",
-      "timestamp": 1764038294
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Entiendo, eso es valioso para saber. Pasemos a la tercera pregunta:\n\n3. ¿Te has sentido decaído, deprimido o sin esperanzas en las últimas dos semanas? ¿Qué número le pondrías del 0 al 3?",
-      "timestamp": 1764038296
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le pondría un 3, me he sentido así casi todos los días.",
-      "timestamp": 1764038296
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Lamento que te sientas así. Es un paso importante hablar de ello. Ahora, continuemos con la cuarta pregunta:\n\n4. ¿Has tenido dificultad para quedarte o permanecer dormido, o has dormido demasiado en las últimas dos semanas? ¿Cómo lo calificarías del 0 al 3?",
-      "timestamp": 1764038298
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le daría un 2, a veces me cuesta dormir y otras veces duermo más de lo normal tratando de escapar de todo.",
-      "timestamp": 1764038299
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias por compartir eso. Es comprensible querer escapar cuando las cosas son difíciles. Vamos a la quinta pregunta:\n\n5. ¿Has sentido que te falta energía o que te sientes cansado casi todos los días? ¿Qué número le asignarías del 0 al 3?",
-      "timestamp": 1764038301
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le pondría un 3, casi siempre me siento cansado y sin energía.",
-      "timestamp": 1764038302
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038302
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias por ser honesto. Ahora, continuemos con la sexta pregunta:\n\n6. ¿Has tenido poco apetito o has estado comiendo en exceso en las últimas dos semanas? ¿Cómo lo calificarías del 0 al 3?",
-      "timestamp": 1764038304
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le daría un 2, a veces no tengo ganas de comer, pero hay días en los que como más de lo normal.",
-      "timestamp": 1764038304
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias por tu respuesta. Vamos a la séptima pregunta:\n\n7. ¿Te has sentido mal contigo mismo o has sentido que eres un fracaso o que has quedado mal contigo mismo o con tu familia en las últimas dos semanas? ¿Qué número le pondrías del 0 al 3?",
-      "timestamp": 1764038306
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le pondría un 3, me he sentido así casi todos los días, como si no estuviera logrando lo que se espera de mí.",
-      "timestamp": 1764038307
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Lamento que te sientas así. Es importante que reconozcamos esos sentimientos. Ahora, pasemos a la octava pregunta:\n\n8. ¿Has tenido dificultad para concentrarte en cosas, como leer el periódico o ver la televisión, en las últimas dos semanas? ¿Qué número le asignarías del 0 al 3?",
-      "timestamp": 1764038309
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le daría un 2, a veces puedo concentrarme, pero en general me cuesta mucho enfocarme.",
-      "timestamp": 1764038310
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Entiendo, y agradezco que compartas esto. Ahora, continuemos con la novena pregunta:\n\n9. ¿Te has sentido tan inquieto o agitado que te mueves mucho más de lo normal, o has notado que te mueves o hablas más lento de lo habitual? ¿Cómo lo calificarías del 0 al 3?",
-      "timestamp": 1764038311
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le pondría un 1, a veces estoy inquieto, pero no siempre.",
-      "timestamp": 1764038312
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias por tu honestidad. Ahora vamos a la décima y última pregunta:\n\n10. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera en las últimas dos semanas? ¿Qué número le pondrías del 0 al 3?",
-      "timestamp": 1764038313
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le daría un 2, he tenido esos pensamientos de vez en cuando y me asustan un poco.",
-      "timestamp": 1764038314
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Lamento que hayas tenido esos pensamientos, es importante reconocerlos y hablar abiertamente sobre ellos. Gracias por tu valentía al compartir. ¿Te gustaría que exploráramos más a fondo esos sentimientos y pensamientos?",
-      "timestamp": 1764038316
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que es necesario. No sé cómo manejarlo solo.",
-      "timestamp": 1764038317
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es muy valiente de tu parte buscar ayuda. Comencemos a trabajar en estrategias y herramientas que te ayuden a manejar esos pensamientos. Te apoyaré en este proceso. ¿Te gustaría que comenzáramos con algunas técnicas de respiración o mindfulness?",
-      "timestamp": 1764038318
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría eso. Creo que podría ayudarme a sentirme un poco mejor.",
-      "timestamp": 1764038319
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Excelente decisión. Vamos a probar una técnica de respiración simple. Te invito a cerrar los ojos y a tomar una respiración profunda por la nariz, sintiendo cómo se expande tu abdomen. Mantén el aire unos segundos y luego exhala lentamente por la boca, soltando cualquier tensión. ¿Listo para intentarlo juntos?",
-      "timestamp": 1764038321
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, estoy listo. Intentaré hacerlo.",
-      "timestamp": 1764038321
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto. Comencemos. Inhala profundamente por la nariz… mantén… y ahora exhala lentamente por la boca. Vamos a repetirlo un par de veces más. Inhala… mantén… y exhala. Una vez más, inhala… mantén… y exhala. ¿Cómo te sientes después de este ejercicio?",
-      "timestamp": 1764038323
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me siento un poco más relajado, gracias. Es agradable poder enfocarme en mi respiración.",
-      "timestamp": 1764038324
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra mucho escuchar eso. La respiración consciente puede ser muy útil para calmar la mente y el cuerpo. Podemos practicarlo más en nuestras sesiones. ¿Te gustaría explorar algún otro aspecto de lo que estás sintiendo?",
-      "timestamp": 1764038325
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría. A veces me siento abrumado y no sé cómo expresarlo.",
-      "timestamp": 1764038326
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Entiendo, sentirse abrumado puede ser muy difícil. A veces, verbalizar esos sentimientos puede ayudar a aligerar la carga. ¿Qué situaciones o pensamientos específicos te hacen sentir así?",
-      "timestamp": 1764038327
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Principalmente la presión de la escuela y la sensación de que no estoy a la altura de las expectativas. Me agobia mucho.",
-      "timestamp": 1764038329
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es comprensible sentirte así, especialmente bajo la presión de cumplir expectativas. Podemos trabajar juntos para encontrar maneras de manejar esa presión y redefinir esas expectativas. ¿Te gustaría que exploráramos algunas estrategias para reducir el estrés académico?",
-      "timestamp": 1764038331
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría eso. Creo que necesito aprender a manejar mejor el estrés.",
-      "timestamp": 1764038332
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto, aquí hay algunas estrategias que podemos explorar:\n\n1. **Organización del tiempo:** Hacer un horario o lista de tareas puede ayudarte a visualizar tus responsabilidades y reducir la sensación de agobio.\n\n2. **Técnicas de relajación:** Además de la respiración, podemos incorporar ejercicios de relajación muscular o meditación.\n\n3. **Descansos programados:** Tomar descansos breves durante el estudio para despejar la mente puede mejorar tu concentración.\n\n4. **Comunicación:** Hablar con tus profesores o compañeros sobre tus preocupaciones puede aliviar parte de la presión.\n\n¿Cuál de estas estrategias te gustaría explorar primero?",
-      "timestamp": 1764038334
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gustaría empezar con la organización del tiempo, creo que podría ayudarme mucho.",
-      "timestamp": 1764038335
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto. La organización del tiempo puede ser muy efectiva. Te invito a crear un horario semanal. Aquí hay algunos pasos que podemos seguir:\n\n1. **Haz una lista de tus tareas:** Anota todas las asignaciones, exámenes y otros compromisos.\n\n2. **Prioriza tus tareas:** Identifica cuáles son más urgentes o importantes.\n\n3. **Asigna bloques de tiempo:** Decide cuánto tiempo dedicarás a cada tarea, incluyendo descansos.\n\n4. **Sé flexible:** Es importante que tu horario sea adaptable a cambios.\n\n¿Te gustaría que trabajáramos juntos en un ejemplo de horario?",
-      "timestamp": 1764038339
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría. Creo que sería útil tener un ejemplo para seguir.",
-      "timestamp": 1764038340
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Excelente. Comencemos con un ejemplo de horario. Imagina que tu semana se ve así:\n\n**Lunes a Viernes:**\n\n- **8:00 - 9:00 am:** Desayuno y preparación para el día.\n- **9:00 - 11:00 am:** Estudio para materia A (lectura y toma de apuntes).\n- **11:00 - 11:15 am:** Descanso.\n- **11:15 - 1:00 pm:** Estudio para materia B (practicar problemas).\n- **1:00 - 2:00 pm:** Almuerzo.\n- **2:00 - 4:00 pm:** Clases o actividades académicas.\n- **4:00 - 4:30 pm:** Descanso o actividad recreativa.\n- **4:30 - 6:00 pm:** Revisión de tareas y proyectos.\n- **6:00 - 7:00 pm:** Cena.\n- **7:00 - 8:00 pm:** Tiempo libre (relajación, hobbies).\n\nEste es solo un ejemplo. ¿Qué te parece, y cómo te gustaría adaptarlo a tus necesidades?",
-      "timestamp": 1764038345
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me parece un buen inicio. Podría ajustar los tiempos de estudio para que sean más cortos, quizás hacer sesiones de una hora y descansar más. También podría incluir tiempo para dibujar, que es algo que me gusta.",
-      "timestamp": 1764038347
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena perfecto. Adaptar el horario a tus preferencias y necesidades es clave. Aquí tienes un ejemplo ajustado:\n\n**Lunes a Viernes:**\n\n- **8:00 - 9:00 am:** Desayuno y preparación para el día.\n- **9:00 - 10:00 am:** Estudio para materia A.\n- **10:00 - 10:15 am:** Descanso.\n- **10:15 - 11:15 am:** Estudio para materia B.\n- **11:15 - 11:30 am:** Descanso.\n- **11:30 - 12:30 pm:** Estudio para materia C.\n- **12:30 - 1:30 pm:** Almuerzo.\n- **1:30 - 2:30 pm:** Clases o actividades académicas.\n- **2:30 - 3:00 pm:** Tiempo para dibujar.\n- **3:00 - 4:00 pm:** Revisión de tareas y proyectos.\n- **4:00 - 5:00 pm:** Tiempo libre (relajación, hobbies).\n- **5:00 - 6:00 pm:** Cena.\n- **6:00 - 7:00 pm:** Estudio adicional si es necesario.\n\n¿Te parece que este horario se ajusta mejor a lo que necesitas?",
-      "timestamp": 1764038352
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me parece mucho mejor. Me gusta que incluya tiempo para dibujar. Creo que así podré manejar mejor mis tareas y también relajarme.",
-      "timestamp": 1764038353
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra mucho escuchar eso. Incluir tiempo para actividades que disfrutas es fundamental para mantener el equilibrio y la motivación. Recuerda que la organización es un proceso flexible; puedes ajustarlo según lo necesites.¿Te gustaría hablar sobre otra estrategia para manejar el estrés o necesitas algo más en particular?",
-      "timestamp": 1764038355
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría hablar sobre las técnicas de relajación, creo que podrían ayudarme mucho.",
-      "timestamp": 1764038356
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Claro, las técnicas de relajación pueden ser muy efectivas para reducir el estrés. Aquí tienes algunas que podríamos practicar:\n\n1. **Relajación muscular progresiva:** Consiste en tensar y luego relajar cada grupo muscular del cuerpo, comenzando desde los pies hasta la cabeza.\n\n2. **Meditación guiada:** Escuchar una meditación puede ayudarte a calmar la mente y centrarte en el momento presente.\n\n3. **Visualización:** Imaginar un lugar tranquilo y relajante puede ser útil para escapar del estrés.\n\n4. **Ejercicios de respiración:** Ya practicamos uno, pero hay varias técnicas que podemos explorar.\n\n¿Cuál de estas técnicas te gustaría intentar primero?",
-      "timestamp": 1764038359
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gustaría probar la relajación muscular progresiva. Creo que sería bueno relajar mi cuerpo.",
-      "timestamp": 1764038360
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Excelente elección. La relajación muscular progresiva es muy efectiva. Vamos a hacerlo juntos. Te invito a seguir estos pasos:\n\n1. **Encuentra una posición cómoda:** Siéntate o recuéstate en un lugar tranquilo.\n\n2. **Cierra los ojos:** Respira profundamente y concéntrate en tu respiración.\n\n3. **Tensar y relajar:** Comenzaremos por los pies. Tensa los músculos de tus pies contándolos hasta 5 y luego relájate. Siente la diferencia.\n\n4. **Sube por el cuerpo:** Continúa con las pantorrillas, tensando y relajando, luego los muslos, los glúteos, el abdomen, los brazos, los hombros y finalmente la cara.\n\n5. **Finaliza:** Una vez que llegues a la cara, respira profundamente y siente cómo se libera la tensión en todo tu cuerpo.\n\n¿Listo para intentarlo? Comenzamos con los pies. Tensa los músculos… mantén… y relaja.",
-      "timestamp": 1764038365
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Estoy listo. Vamos a empezar. Tenso los músculos de mis pies… mantengo… y relajo.",
-      "timestamp": 1764038366
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto. Ahora, pasemos a las pantorrillas. Tensa los músculos de las pantorrillas… mantén… y relaja. Siente cómo se libera la tensión.",
-      "timestamp": 1764038367
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos de las pantorrillas… mantengo… y relajo. Se siente bien, gracias.",
-      "timestamp": 1764038368
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra que lo sientas así. Ahora, subamos a los muslos. Tensa los músculos de los muslos… mantén… y relaja. Siente cómo se sueltan.",
-      "timestamp": 1764038369
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos de los muslos… mantengo… y relajo. Se siente mucho más relajado.",
-      "timestamp": 1764038374
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es genial. Ahora pasemos a los glúteos. Tensa los músculos de los glúteos… mantén… y relaja. Permite que la tensión se disuelva.",
-      "timestamp": 1764038375
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos de los glúteos… mantengo… y relajo. Siento cómo se libera la tensión.",
-      "timestamp": 1764038376
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Excelente. Ahora vamos al abdomen. Tensa los músculos del abdomen… mantén… y relaja. Siente cómo se aflojan.",
-      "timestamp": 1764038378
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos del abdomen… mantengo… y relajo. Se siente muy bien, gracias.",
-      "timestamp": 1764038379
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra que lo estés disfrutando. Ahora, pasemos a los brazos. Tensa los músculos de los brazos… mantén… y relaja. Siente la diferencia.",
-      "timestamp": 1764038380
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos de los brazos… mantengo… y relajo. Es agradable, me siento más ligero.",
-      "timestamp": 1764038381
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es maravilloso. Ahora vamos a los hombros. Tensa los músculos de los hombros… mantén… y relaja. Permite que se suelten.",
-      "timestamp": 1764038384
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos de los hombros… mantengo… y relajo. Se siente muy liberador.",
-      "timestamp": 1764038385
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra mucho que lo sientas así. Ahora, vamos a la cara. Tensa los músculos de la cara, incluyendo la mandíbula y la frente… mantén… y relaja. Siente cómo se libera la tensión acumulada.",
-      "timestamp": 1764038386
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tenso los músculos de la cara… mantengo… y relajo. Siento que toda la tensión se va.",
-      "timestamp": 1764038387
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es excelente. Ahora, tómate un momento para respirar profundamente y disfrutar de esa sensación de relajación en todo tu cuerpo. Cuando estés listo, puedes abrir los ojos. ¿Cómo te sientes ahora?",
-      "timestamp": 1764038389
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me siento mucho más relajado y ligero. Gracias por guiarme en esto, ha sido muy útil.",
-      "timestamp": 1764038389
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra mucho que te hayas sentido así. La relajación muscular progresiva puede ser una herramienta poderosa para manejar el estrés. Recuerda que puedes practicarla cuando lo necesites. ¿Te gustaría hablar sobre algo más o hay algo específico en lo que te gustaría trabajar en nuestra próxima sesión?",
-      "timestamp": 1764038391
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gustaría seguir trabajando en las estrategias para manejar el estrés académico y quizás hablar sobre cómo mejorar mi autoestima.",
-      "timestamp": 1764038392
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Claro, nos enfocaremos en ambas cosas. Para manejar el estrés académico, podemos seguir explorando técnicas de organización y relajación, y también discutir cómo establecer metas realistas. \n\nEn cuanto a la autoestima, podemos trabajar en identificar tus fortalezas y en desarrollar una mentalidad más positiva hacia ti mismo. \n\n¿Te gustaría comenzar por alguna de estas áreas en particular?",
-      "timestamp": 1764038395
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gustaría comenzar con la autoestima. Creo que eso podría ayudarme mucho.",
-      "timestamp": 1764038395
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Excelente elección. La autoestima es fundamental para tu bienestar. Podemos empezar trabajando en identificar tus fortalezas y cualidades positivas. \n\nTe invito a hacer una lista de al menos cinco cosas que te gusten de ti mismo o en las que creas que eres bueno. Pueden ser habilidades, rasgos de personalidad o logros. ¿Te gustaría intentarlo?",
-      "timestamp": 1764038398
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que puedo intentarlo. A ver... \n\n1. Me gusta ilustrar y creo que tengo talento para eso.\n2. Soy una persona amable y siempre trato de ayudar a los demás.\n3. Me esfuerzo por aprender cosas nuevas cada día.\n4. Tengo un buen sentido del humor.\n5. Soy perseverante y no me rindo fácilmente.\n\n¿Crees que está bien?",
-      "timestamp": 1764038400
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "¡Eso es excelente! Has hecho una lista muy positiva y significativa. Cada uno de esos puntos refleja tus cualidades y lo que te hace único. \n\nEs importante recordarlas y valorarlas, sobre todo en momentos de duda. Podrías escribirlas en un lugar visible para que las veas diariamente. ¿Te gustaría que exploráramos alguna de estas cualidades en particular y cómo puedes potenciarlas aún más?",
-      "timestamp": 1764038403
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría explorar más sobre mi talento para ilustrar. Creo que podría potenciarlo si me dedicara más tiempo a practicar.",
-      "timestamp": 1764038404
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena genial. Dedicar tiempo a practicar tus ilustraciones puede mejorar tus habilidades y, al mismo tiempo, fortalecer tu autoestima. Aquí tienes algunas ideas para potenciar tu talento:\n\n1. **Establece una rutina de práctica:** Dedica un tiempo específico cada semana solo para dibujar.\n\n2. **Explora diferentes estilos:** Experimenta con diferentes técnicas y estilos de ilustración para descubrir lo que más te gusta.\n\n3. **Toma clases o tutoriales:** Aprender de otros puede darte nuevas perspectivas y técnicas.\n\n4. **Únete a una comunidad:** Conectar con otros ilustradores, ya sea en línea o en persona, puede inspirarte y motivarte.\n\n5. **Comparte tu trabajo:** Publicar tus ilustraciones en redes sociales o en un portafolio puede ayudarte a recibir comentarios positivos y construir tu confianza.\n\n¿Cuál de estas ideas te gustaría implementar primero?",
-      "timestamp": 1764038409
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gustaría establecer una rutina de práctica. Creo que eso me ayudaría a dedicarle más tiempo a la ilustración.",
-      "timestamp": 1764038410
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Establecer una rutina de práctica es una excelente manera de desarrollar tu talento. Aquí tienes algunos pasos para crear tu rutina:\n\n1. **Decide la frecuencia:** ¿Cuántas veces a la semana te gustaría dibujar? Comienza con un número que sientas que puedes manejar.\n\n2. **Establece una duración:** Decide cuánto tiempo dedicarás a cada sesión de dibujo. Puede ser desde 30 minutos hasta 2 horas, dependiendo de tus horarios.\n\n3. **Crea un espacio:** Prepara un lugar cómodo y tranquilo donde puedas dibujar sin distracciones.\n\n4. **Hazlo específico:** Piensa en lo que quieres practicar en cada sesión, como ilustrar un personaje, paisaje o experimentar con una técnica nueva.\n\n5. **Sé flexible:** Si un día no puedes seguir tu rutina, está bien; lo importante es volver a ella cuando puedas.\n\n¿Cuánto tiempo y cuántas veces a la semana te gustaría practicar? Podemos ajustar la rutina juntos.",
-      "timestamp": 1764038415
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gustaría practicar tres veces a la semana, y creo que dedicarle una hora a cada sesión sería suficiente.",
-      "timestamp": 1764038416
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena muy bien. Aquí tienes un ejemplo de cómo podría verse tu rutina de práctica de ilustración:\n\n**Rutina de Práctica de Ilustración:**\n\n- **Días de práctica:** Lunes, Miércoles y Viernes\n- **Hora:** 1 hora por sesión (puedes elegir la hora del día que mejor se adapte a ti)\n\n**Ejemplo de enfoque para cada sesión:**\n- **Lunes:** Dibujo de personajes (crear uno nuevo o practicar la anatomía).\n- **Miércoles:** Ilustración de paisajes (experimentar con diferentes escenarios).\n- **Viernes:** Técnicas (probar diferentes estilos o herramientas).\n\nRecuerda ser flexible y ajustarlo según tus necesidades. ¿Te parece bien este plan?",
-      "timestamp": 1764038420
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me parece un plan excelente. Siento que tener un enfoque me ayudará a mejorar. ¡Gracias!",
-      "timestamp": 1764038421
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "¡De nada! Me alegra que te sientas así. Tener un enfoque y dedicación te ayudará a potenciar tu talento. Recuerda disfrutar del proceso y no ser demasiado crítico contigo mismo. \n\nSi en algún momento deseas compartir tus avances o necesitas más apoyo, aquí estaré. ¿Hay algo más en lo que te gustaría trabajar o discutir hoy?",
-      "timestamp": 1764038423
-    },
-    {
-      "agent": "Luis Ángel Romero",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "No, creo que por hoy está bien. Me siento más positivo y con más herramientas para manejar mis sentimientos. ¡Gracias por tu ayuda!",
-      "timestamp": 1764038424
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "session_summary",
-      "content": "La sesión de terapia acaba de concluir. 1) Llama primero a la herramienta symmary_session('session_summary') para estructurar los puntos clave de la sesión. 2) Después de recibir la salida de la herramienta, redacta un resumen clínico breve en texto natural, dirigido al psicólogo (no al paciente), incluyendo: motivo de consulta, síntomas principales, impresión general según las respuestas del PHQ-9, hipótesis clínicas iniciales y plan para la siguiente sesión. No inicies una nueva conversación con el paciente; solo cierra la sesión con este resumen.",
-      "timestamp": 1764038424
+      "timestamp": 1764040907
     },
     {
       "agent": "Valeria",
       "action": "tool",
       "actionLabel": "call",
       "content": {
-        "name": "symmary_session",
+        "name": "get_phq9_questions",
         "args": {
-          "item": "session_summary"
+          "item": "interés y placer en las cosas"
         },
-        "id": "call_zBjU6xTfvKJ16EEG1OU62Y8u"
+        "id": "call_5C0VNHolWsr6iNPLQfQ5YslP"
       },
-      "timestamp": 1764038425
+      "timestamp": 1764040907
     },
     {
       "agent": "Valeria",
       "action": "tool",
       "actionLabel": "output",
       "content": {
-        "name": "symmary_session",
-        "output": "{\"item\": \"session_summary\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
-        "call_id": "call_zBjU6xTfvKJ16EEG1OU62Y8u"
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"interés y placer en las cosas\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_5C0VNHolWsr6iNPLQfQ5YslP"
       },
-      "timestamp": 1764038425
+      "timestamp": 1764040907
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Ha sido un placer acompañarte hoy, y me alegra saber que te sientes más positivo y con más herramientas. Recuerda que aquí estoy para apoyarte en tu proceso. Nos vemos en la próxima sesión. ¡Cuídate mucho!",
-      "timestamp": 1764038426
+      "content": "Perfecto, aquí van algunas preguntas. Te agradecería que las respondas en una escala del 0 al 3, donde 0 significa \"nunca\" y 3 \"casi todos los días\".\n\n1. Durante las últimas 2 semanas, ¿cómo te has sentido en relación a: \n   - Poco interés o placer en hacer cosas.\n\n¿Qué puntuación le darías a eso?",
+      "timestamp": 1764040909
     },
     {
       "agent": "Luis Ángel Romero",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Gracias! Nos vemos pronto. Cuídate.",
-      "timestamp": 1764038429
+      "content": "Le daría un 2, porque a veces siento interés, pero la mayoría de las veces no tengo ganas de hacer nada.",
+      "timestamp": 1764040910
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. Ahora, la siguiente pregunta: \n\n2. ¿Cómo te has sentido en relación a sentirte decaído, deprimido o sin esperanzas? ¿Qué puntuación le darías?",
+      "timestamp": 1764040911
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, porque me he sentido así casi todos los días últimamente.",
+      "timestamp": 1764040912
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Esto es muy importante de abordar. Ahora, la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido, o por el contrario, has estado durmiendo demasiado? ¿Qué puntuación le darías?",
+      "timestamp": 1764040913
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, porque a veces me cuesta mucho quedarme dormido, pero otras noches duermo más de lo normal.",
+      "timestamp": 1764040914
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora, la siguiente pregunta:\n\n4. ¿Te has sentido cansado o con poca energía? ¿Qué puntuación le darías en esa área?",
+      "timestamp": 1764040915
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, me siento cansado y sin energía casi todos los días.",
+      "timestamp": 1764040917
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764040917
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y lamento que estés pasando por esto. Vamos con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Qué puntuación le darías?",
+      "timestamp": 1764040918
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, porque a veces no tengo hambre y otras veces como más de lo normal.",
+      "timestamp": 1764040919
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu sincera respuesta. Continuemos con la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo, como si fueras un fracaso o que has decepcionado a tu familia? ¿Qué puntuación le darías?",
+      "timestamp": 1764040920
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, porque me siento así casi todos los días, siento que no estoy a la altura.",
+      "timestamp": 1764040921
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso. Es un paso valiente reconocerlo. Ahora, vamos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Qué puntuación le darías?",
+      "timestamp": 1764040922
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, a veces puedo concentrarme, pero hay momentos en que me cuesta mucho.",
+      "timestamp": 1764040924
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Ahora, la siguiente pregunta:\n\n8. ¿Te has sentido tan inquieto o agitado que te mueves más de lo normal, o por el contrario, tan lento que otros podrían notarlo? ¿Qué puntuación le darías?",
+      "timestamp": 1764040925
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, a veces me siento un poco inquieto, pero no creo que los demás lo noten.",
+      "timestamp": 1764040927
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu honestidad. Ahora, la penúltima pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera? ¿Qué puntuación le darías?",
+      "timestamp": 1764040928
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, he tenido pensamientos oscuros, pero no he llegado a pensar que quiero lastimarme.",
+      "timestamp": 1764040929
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es importante que reconozcas esos pensamientos, y te agradezco que los compartas. Vamos con la última pregunta:\n\n10. Durante las últimas dos semanas, ¿qué tan seguido has tenido molestias debido a estos problemas en general? ¿Qué puntuación le darías?",
+      "timestamp": 1764040930
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, porque he estado lidiando con estos problemas varias veces a la semana.",
+      "timestamp": 1764040931
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas. Es muy valioso que te hayas abierto sobre cómo te sientes. Esto nos ayudará a trabajar juntos en tu bienestar. ¿Te gustaría que hablemos de algunas estrategias para abordar esos sentimientos?",
+      "timestamp": 1764040932
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho. Estoy dispuesto a escuchar y aprender sobre lo que puedo hacer.",
+      "timestamp": 1764040933
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. Una estrategia que podríamos explorar es la terapia cognitivo-conductual, que nos ayudará a identificar y desafiar esos pensamientos negativos. También podríamos trabajar en la programación de pequeñas actividades que te traigan placer. ¿Te parece un buen lugar para comenzar?",
+      "timestamp": 1764040935
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece un buen lugar para empezar. Quiero intentar sentirme mejor.",
+      "timestamp": 1764040936
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso, y estoy aquí para apoyarte en este camino. Empecemos a establecer algunas metas pequeñas y alcanzables para que puedas experimentar esos momentos de placer nuevamente. ¿Tienes alguna actividad en mente que te gustaría intentar?",
+      "timestamp": 1764040937
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría intentar ilustrar de nuevo, aunque solo sea un poco. Me gustaba mucho antes.",
+      "timestamp": 1764040938
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso suena maravilloso! Ilustrar puede ser una excelente manera de conectar contigo mismo y expresarte. ¿Te gustaría que estableciéramos una meta de tiempo para practicar la ilustración esta semana?",
+      "timestamp": 1764040939
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podríamos establecer una meta de al menos 30 minutos para ilustrar un par de veces esta semana.",
+      "timestamp": 1764040940
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una meta excelente y alcanzable. Te animo a que lo agendes en tu semana. Además, trata de crear un ambiente agradable para ti mientras ilustras. ¿Te gustaría que revisáramos cómo te sientes después de cumplir con esa meta en nuestra próxima sesión?",
+      "timestamp": 1764040941
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho. Quiero ver si puedo disfrutar de eso de nuevo.",
+      "timestamp": 1764040941
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy aquí para apoyarte en ese proceso. Me alegra que estés dispuesto a intentarlo. Para finalizar nuestra sesión de hoy, quiero recordarte que está bien pedir ayuda y que cada pequeño paso cuenta. Nos vemos la próxima semana, y espero escuchar sobre tu experiencia con la ilustración. ¡Cuídate mucho! \n\nAdiós.",
+      "timestamp": 1764040943
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Adiós, gracias por tu apoyo. Estoy deseando la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764040944
     }
   ],
   "notes": null

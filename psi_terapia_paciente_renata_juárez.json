@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+38fca57ab97cf565916ed5809189f1033cee6bc4",
-  "timestamp": "2025-11-25T02:35:15Z",
+  "version": "0.4.2+504b1b3ea61eb9f318ff47d7a41567b41d4b09e9",
+  "timestamp": "2025-11-25T03:18:52Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 3048719369,
-  "id": "1861e8dd-167c-408d-b63c-f12eb260cefe",
+  "seed": 3694336220,
+  "id": "4a95e4e0-1f5e-47c6-9c5a-2b8c0a058f77",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,103 +54,159 @@
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Hola, gracias. Estoy un poco nerviosa, pero también curiosa de ver cómo es esto."
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en una sesión de terapia y no estoy segura de qué esperar."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentir nerviosismo al inicio. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te intriga sobre la terapia?"
+      "text": "Es completamente normal sentirse nerviosa en tu primera sesión. Aquí estamos para hablar con tranquilidad y sin juicio. ¿Te gustaría compartir qué te llevó a buscar ayuda?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Me intriga mucho cómo puede ayudarme a entender mejor mis emociones y a sentirme más ligera."
+      "text": "Claro, he estado sintiendo mucha tristeza y a veces me cuesta encontrar motivación. Creo que es importante abordar estos sentimientos, pero me cuesta abrirme."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa es una excelente meta. Entender nuestras emociones puede ser liberador. ¿Hay alguna emoción en particular que te gustaría explorar hoy?"
+      "text": "Entiendo, y es muy valiente de tu parte querer abordar esos sentimientos. Para profundizar un poco más, hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Sí, creo que me gustaría hablar sobre la tristeza que he estado sintiendo últimamente."
+      "text": "Sí, me parece bien. Creo que podría ayudarme a entender mejor lo que estoy sintiendo."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, la tristeza puede ser muy pesada de llevar. Para explorar esto de manera más estructurada, hay un cuestionario llamado PHQ-9 que nos ayuda a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto puede darnos más claridad, aunque no sustituye una evaluación profesional completa."
+      "text": "Perfecto, aquí tienes algunas preguntas para reflexionar sobre cómo te has estado sintiendo:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a sentirte decaído(a), deprimido(a) o sin esperanzas?\n2. Poco interés o placer en hacer cosas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTe invito a que respondas cada una de estas preguntas con una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". ¿Te gustaría empezar?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Claro, me parece bien. Estoy abierta a responderlo y ver qué podemos descubrir juntas."
+      "text": "Sí, puedo intentarlo. \n\n1. Diría que 2, a menudo me siento decaída.\n2. Para esto, creo que 2 también, he perdido interés en muchas cosas.\n3. Tal vez un 1, he tenido problemas para dormir, pero no siempre.\n4. Le doy un 2, me siento cansada la mayor parte del tiempo.\n5. Un 1, a veces como más de lo habitual.\n6. Para esta, un 2. Me siento mal conmigo misma a menudo.\n7. Un 2, me cuesta concentrarme.\n8. Un 0, no me muevo ni hablo lento.\n9. Quiero decir un 1, aunque no tengo pensamientos de lastimarme, a veces deseo que las cosas fueran diferentes."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, aquí tienes algunas preguntas del PHQ-9. Responde cada una según lo que has sentido en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nPara cada pregunta, utiliza una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". Cuando estés lista, comenzamos."
+      "text": "Gracias por compartir tus respuestas, Renata. Has hecho un gran esfuerzo al reflexionar sobre tus sentimientos. Es útil entender cómo te has estado sintiendo en diferentes áreas. ¿Hay alguna de estas preocupaciones que te gustaría explorar más a fondo?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Estoy lista, gracias por explicarme. Comencemos. \n\n1. 2 \n2. 3 \n3. 1 \n4. 2 \n5. 1 \n6. 2 \n7. 2 \n8. 1 \n9. 0"
+      "text": "Sí, creo que me gustaría explorar más sobre el sentimiento de no tener interés en las cosas y la tristeza que me acompaña."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir tus respuestas conmigo. Es valiente de tu parte. Veo que hay algunas áreas donde te sientes bastante afectada, especialmente en relación al interés y la tristeza. ¿Te gustaría que exploráramos más a fondo cómo estas emociones han estado afectando tu vida diaria?"
+      "text": "Es un paso importante querer explorar esos sentimientos. Para poder entender mejor tu situación, me gustaría que respondieras un cuestionario llamado PHQ-9, que nos ayudará a revisar cómo te has estado sintiendo en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser muy útil."
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Sí, me gustaría. Siento que estas emociones me han hecho perder un poco de energía y conexión con las cosas que solía disfrutar."
+      "text": "Parece que ya lo respondí, pero si hay algo más que pueda hacer o explorar, estoy dispuesta."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible que esas emociones puedan afectar tu energía y conexión. A veces, cuando nos sentimos así, pueden surgir pensamientos y patrones que nos alejan de lo que nos gusta. ¿Podrías compartir algún ejemplo de una actividad que solías disfrutar y que ahora te resulta difícil conectar con ella?"
+      "text": "Tienes razón, ya hemos revisado el PHQ-9. Podemos enfocarnos en la pérdida de interés. ¿Hay actividades específicas que solías disfrutar y ahora sientes que ya no te importan?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Solía disfrutar mucho leer y salir a caminar, pero últimamente me cuesta encontrar motivación para hacer ambas cosas."
+      "text": "Sí, solía disfrutar mucho de leer y salir con mis amigos, pero últimamente he perdido el interés en ambas cosas."
     },
     {
       "speaker": "Valeria",
-      "text": "Esos son pasatiempos muy enriquecedores. La falta de motivación puede ser especialmente frustrante. A veces, empezar con pequeños pasos o establecer metas pequeñas puede ayudar. ¿Te gustaría trabajar en algunas estrategias para retomar esas actividades, paso a paso?"
+      "text": "Entiendo, perder interés en actividades que antes disfrutabas puede ser muy frustrante. ¿Recuerdas algún evento o cambio en tu vida que creas que pudo haber influido en esta pérdida de interés?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Sí, me gustaría eso. Creo que pequeños pasos podrían hacer una diferencia."
+      "text": "Sí, creo que el estrés de la universidad y algunas relaciones que no han sido tan positivas han influido bastante en cómo me siento."
     },
     {
       "speaker": "Valeria",
-      "text": "Genial, empecemos por la lectura. Podrías proponerte leer solo cinco páginas al día. ¿Te parece un objetivo manejable? Luego, para caminar, tal vez podrías intentar dar un paseo corto de cinco minutos. ¿Qué piensas de estas ideas?"
+      "text": "Eso tiene mucho sentido. El estrés académico y las relaciones difíciles pueden afectar profundamente tu bienestar emocional. ¿Te gustaría hablar más sobre cómo manejas ese estrés en la universidad o sobre esas relaciones?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Me parece un buen comienzo. Leer cinco páginas suena manejable, y dar un paseo corto también podría ayudarme a sentirme mejor."
+      "text": "Sí, me gustaría hablar sobre eso. A veces siento que el estrés me abruma y me cuesta encontrar maneras efectivas de manejarlo. Las relaciones también me generan confusión y ansiedad."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que te parezcan manejables. La clave es ser amable contigo misma y celebrar cada pequeño logro. ¿Te gustaría que establezcamos un plan para que puedas implementar estos cambios esta semana? Esto podría ayudarte a mantener el compromiso."
+      "text": "Es completamente comprensible sentirse abrumada. Identificar maneras de manejar el estrés es un primer paso importante. ¿Has probado alguna técnica de manejo de estrés, como la meditación, el ejercicio o la expresión artística?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Sí, eso sería útil. Me gustaría tener un plan para seguir y poder ver cómo me siento después de intentarlo."
+      "text": "He intentado hacer ejercicio de vez en cuando, pero no siempre tengo la motivación para seguir. La meditación me gustaría probar, pero no sé por dónde comenzar."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, vamos a crear un plan simple. Para esta semana:\n\n1. **Lectura**: Lee cinco páginas al día, elige un momento específico para hacerlo, ya sea por la mañana o antes de dormir.\n2. **Caminata**: Sal a caminar cinco minutos cada día, tal vez después de comer o al final del día.\n\n¿Qué días te gustaría empezar? ¿Hay algún espacio específico en tu rutina que creas que sería fácil de acomodar para estas actividades?"
+      "text": "Es bueno que ya hayas intentado hacer ejercicio; incluso pequeños esfuerzos cuentan. Para la meditación, puedes empezar con sesiones cortas, tan solo cinco minutos al día. Hay muchas aplicaciones y videos en línea que pueden guiarte. ¿Te gustaría que exploráramos algunos recursos o técnicas de meditación juntos?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Puedo empezar mañana. Creo que podría leer por la noche antes de dormir y caminar después de comer."
+      "text": "Sí, me encantaría explorar algunos recursos. Creo que podría ayudarme a encontrar un poco de calma en medio del estrés."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena excelente. Comenzar mañana te dará una oportunidad fresca. Así que, para resumir:\n\n- **Lectura**: Cinco páginas cada noche antes de dormir.\n- **Caminata**: Cinco minutos después de comer.\n\nTe animo a que te mantengas abierta a cómo te sientes con estas actividades. La próxima vez que nos veamos, podremos discutir cómo fue la experiencia. ¿Te parece bien?"
+      "text": "Excelente decisión. Puedo recomendarte algunas aplicaciones para la meditación, como Headspace o Calm, que ofrecen meditaciones guiadas para principiantes. También hay muchos videos en YouTube que puedes seguir. Además, podrías empezar con ejercicios de respiración profunda para calmarte en momentos de estrés. ¿Te gustaría aprender una técnica básica de respiración ahora?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "Sí, me parece perfecto. Estoy deseando ver cómo me siento después de intentarlo. ¡Gracias por ayudarme!"
+      "text": "Sí, me gustaría aprender una técnica básica de respiración. Creo que eso podría ser útil en momentos de estrés."
     },
     {
       "speaker": "Valeria",
-      "text": "De nada, me alegra poder acompañarte en este proceso. Recuerda ser amable contigo misma y no presionarte demasiado. Te espero en nuestra próxima sesión para escuchar cómo te ha ido. ¡Cuídate!"
+      "text": "Perfecto. Aquí hay una técnica sencilla de respiración que puedes probar:\n\n1. Siéntate cómodamente con la espalda recta.\n2. Inhala lentamente por la nariz durante cuatro segundos, sintiendo cómo se expande tu abdomen.\n3. Mantén la respiración durante cuatro segundos.\n4. Exhala lentamente por la boca durante seis segundos, sintiendo cómo se relaja tu abdomen.\n5. Repite esto durante cinco ciclos.\n\nPuedes practicarlo en cualquier momento que sientas que el estrés te abruma. ¿Te gustaría intentarlo juntos aquí?"
     },
     {
       "speaker": "Renata Juárez",
-      "text": "¡Gracias! Cuídate también. Hasta la próxima."
+      "text": "Sí, me gustaría intentarlo. Creo que practicarlo en este momento me podría ayudar a conectarme y relajarme un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, hagámoslo juntos. \n\nEmpecemos:\n\n1. Siéntate cómodamente y cierra los ojos si te sientes cómoda.\n2. Inhala lentamente por la nariz, contando hasta cuatro: 1... 2... 3... 4.\n3. Mantén la respiración: 1... 2... 3... 4.\n4. Ahora exhales suavemente por la boca durante seis segundos: 1... 2... 3... 4... 5... 6.\n\nRepetimos una vez más. Inhala: 1... 2... 3... 4. Mantén: 1... 2... 3... 4. Exhala: 1... 2... 3... 4... 5... 6.\n\nSiente cómo tu cuerpo se relaja un poco más con cada respiración. ¿Cómo te sientes ahora?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me siento un poco más tranquila, como si la tensión se hubiera aliviado un poco. Gracias por guiarme en esto, creo que podría ayudarme a manejar el estrés."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que te sientas más tranquila. La respiración consciente puede ser una herramienta muy poderosa en momentos de estrés. Recuerda que puedes practicarla siempre que lo necesites. ¿Te gustaría explorar alguna otra técnica o tema relacionado con cómo manejar la ansiedad y el estrés?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría explorar otras técnicas. Creo que tener varias herramientas podría ayudarme a manejar mejor lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, hay varias técnicas que puedes probar. Algunas de ellas incluyen:\n\n1. **Ejercicio físico**: El movimiento, incluso una caminata corta, libera endorfinas y mejora el estado de ánimo.\n2. **Diario personal**: Escribir tus pensamientos y sentimientos puede ayudar a procesar lo que sientes.\n3. **Mindfulness**: Practicar la atención plena te ayuda a estar presente y a observar tus pensamientos sin juzgarlos.\n4. **Conexión social**: Hablar con amigos o familiares sobre cómo te sientes puede proporcionar apoyo y alivio.\n\n¿Hay alguna de estas técnicas que te llama más la atención y te gustaría explorar más a fondo?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me interesa mucho la idea de llevar un diario personal. Siento que podría ser una buena manera de procesar mis pensamientos y emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Llevar un diario personal puede ser muy terapéutico. Te permite expresar tus emociones y reflexionar sobre tus experiencias. Aquí hay algunos consejos para comenzar:\n\n1. **Elige un momento**: Dedica un tiempo específico cada día o semana para escribir.\n2. **No te preocupes por la perfección**: Escribe libremente lo que sientas sin preocuparte por la gramática o la estructura.\n3. **Haz preguntas**: Fórmate preguntas sobre cómo te sientes o por qué. Por ejemplo, \"¿Qué me ha hecho sentir así hoy?\".\n4. **Incluye lo positivo**: Anota cosas por las que estás agradecida, esto puede mejorar tu perspectiva.\n\n¿Te gustaría que te ayudara a crear una plantilla o un ejemplo de lo que podrías escribir en tu diario?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría tener un ejemplo o una plantilla para comenzar. Creo que tener una guía me ayudaría a sentirme menos abrumada al escribir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí tienes una plantilla sencilla que puedes seguir para tu diario personal:\n\n---\n\n**Fecha:**\n\n**1. Cómo me siento hoy:**\n(Describe tus emociones, usa palabras como feliz, triste, ansiosa, etc.)\n\n**2. Razones de mis sentimientos:**\n(Reflexiona sobre qué situaciones o pensamientos te llevaron a sentirte así.)\n\n**3. Momentos positivos del día:**\n(Anota al menos una o dos cosas buenas que sucedieron hoy.)\n\n**4. Lo que aprendí hoy:**\n(Escribe algo nuevo que descubriste sobre ti misma o sobre tu situación.)\n\n**5. Un objetivo pequeño para mañana:**\n(Puede ser algo simple, como salir a caminar o escribir en el diario nuevamente.)\n\n---\n\nPuedes ajustar esta plantilla según te parezca y agregar o quitar secciones que no resuenen contigo. ¿Te parece útil?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me parece muy útil. Me gusta cómo está estructurada, y creo que me ayudará a reflexionar sobre mis sentimientos. Gracias por la guía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra que te resulte útil. Recuerda que tomarte el tiempo para reflexionar sobre tus sentimientos es un paso importante hacia el bienestar. Si en algún momento te sientes abrumada o necesitas apoyo, aquí estoy para ayudarte. ¿Hay algo más que te gustaría discutir hoy?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Por ahora, creo que eso es suficiente. Me siento más ligera después de nuestra conversación. Agradezco mucho tu apoyo y orientación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más ligera. Ha sido un placer acompañarte en esta conversación. Recuerda que puedes volver cuando necesites hablar o explorar más. ¡Cuídate mucho y nos vemos en la próxima sesión! \n\n¡Hasta luego!"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "¡Hasta luego! Gracias por tu apoyo, lo aprecio."
     }
   ],
   "events": [
@@ -159,63 +215,49 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Renata Juárez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
-      "timestamp": 1764038074
+      "timestamp": 1764040670
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Estoy un poco nerviosa, pero también curiosa de ver cómo es esto.",
-      "timestamp": 1764038075
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en una sesión de terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764040671
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentir nerviosismo al inicio. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te intriga sobre la terapia?",
-      "timestamp": 1764038076
+      "content": "Es completamente normal sentirse nerviosa en tu primera sesión. Aquí estamos para hablar con tranquilidad y sin juicio. ¿Te gustaría compartir qué te llevó a buscar ayuda?",
+      "timestamp": 1764040671
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me intriga mucho cómo puede ayudarme a entender mejor mis emociones y a sentirme más ligera.",
-      "timestamp": 1764038078
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Esa es una excelente meta. Entender nuestras emociones puede ser liberador. ¿Hay alguna emoción en particular que te gustaría explorar hoy?",
-      "timestamp": 1764038079
-    },
-    {
-      "agent": "Renata Juárez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que me gustaría hablar sobre la tristeza que he estado sintiendo últimamente.",
-      "timestamp": 1764038080
+      "content": "Claro, he estado sintiendo mucha tristeza y a veces me cuesta encontrar motivación. Creo que es importante abordar estos sentimientos, pero me cuesta abrirme.",
+      "timestamp": 1764040672
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038080
+      "timestamp": 1764040672
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, la tristeza puede ser muy pesada de llevar. Para explorar esto de manera más estructurada, hay un cuestionario llamado PHQ-9 que nos ayuda a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto puede darnos más claridad, aunque no sustituye una evaluación profesional completa.",
-      "timestamp": 1764038082
+      "content": "Entiendo, y es muy valiente de tu parte querer abordar esos sentimientos. Para profundizar un poco más, hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764040675
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, me parece bien. Estoy abierta a responderlo y ver qué podemos descubrir juntas.",
-      "timestamp": 1764038083
+      "content": "Sí, me parece bien. Creo que podría ayudarme a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764040675
     },
     {
       "agent": "Valeria",
@@ -224,11 +266,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "PHQ-9"
+          "item": "¿Con qué frecuencia has estado molesto por sentirse triste, deprimido o hoplessness en las últimas dos semanas?"
         },
-        "id": "call_3auAYP5bAlzCHoZnOYASTjXE"
+        "id": "call_x9m7gXcpLYCwGpqEU0MDlTOU"
       },
-      "timestamp": 1764038084
+      "timestamp": 1764040677
     },
     {
       "agent": "Valeria",
@@ -236,136 +278,255 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_3auAYP5bAlzCHoZnOYASTjXE"
+        "output": "{\"item\": \"¿Con qué frecuencia has estado molesto por sentirse triste, deprimido o hoplessness en las últimas dos semanas?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_x9m7gXcpLYCwGpqEU0MDlTOU"
       },
-      "timestamp": 1764038084
+      "timestamp": 1764040677
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, aquí tienes algunas preguntas del PHQ-9. Responde cada una según lo que has sentido en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nPara cada pregunta, utiliza una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". Cuando estés lista, comenzamos.",
-      "timestamp": 1764038090
+      "content": "Perfecto, aquí tienes algunas preguntas para reflexionar sobre cómo te has estado sintiendo:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a sentirte decaído(a), deprimido(a) o sin esperanzas?\n2. Poco interés o placer en hacer cosas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTe invito a que respondas cada una de estas preguntas con una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". ¿Te gustaría empezar?",
+      "timestamp": 1764040683
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Estoy lista, gracias por explicarme. Comencemos. \n\n1. 2 \n2. 3 \n3. 1 \n4. 2 \n5. 1 \n6. 2 \n7. 2 \n8. 1 \n9. 0",
-      "timestamp": 1764038092
+      "content": "Sí, puedo intentarlo. \n\n1. Diría que 2, a menudo me siento decaída.\n2. Para esto, creo que 2 también, he perdido interés en muchas cosas.\n3. Tal vez un 1, he tenido problemas para dormir, pero no siempre.\n4. Le doy un 2, me siento cansada la mayor parte del tiempo.\n5. Un 1, a veces como más de lo habitual.\n6. Para esta, un 2. Me siento mal conmigo misma a menudo.\n7. Un 2, me cuesta concentrarme.\n8. Un 0, no me muevo ni hablo lento.\n9. Quiero decir un 1, aunque no tengo pensamientos de lastimarme, a veces deseo que las cosas fueran diferentes.",
+      "timestamp": 1764040686
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir tus respuestas conmigo. Es valiente de tu parte. Veo que hay algunas áreas donde te sientes bastante afectada, especialmente en relación al interés y la tristeza. ¿Te gustaría que exploráramos más a fondo cómo estas emociones han estado afectando tu vida diaria?",
-      "timestamp": 1764038094
+      "content": "Gracias por compartir tus respuestas, Renata. Has hecho un gran esfuerzo al reflexionar sobre tus sentimientos. Es útil entender cómo te has estado sintiendo en diferentes áreas. ¿Hay alguna de estas preocupaciones que te gustaría explorar más a fondo?",
+      "timestamp": 1764040687
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría. Siento que estas emociones me han hecho perder un poco de energía y conexión con las cosas que solía disfrutar.",
-      "timestamp": 1764038094
+      "content": "Sí, creo que me gustaría explorar más sobre el sentimiento de no tener interés en las cosas y la tristeza que me acompaña.",
+      "timestamp": 1764040688
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764040688
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible que esas emociones puedan afectar tu energía y conexión. A veces, cuando nos sentimos así, pueden surgir pensamientos y patrones que nos alejan de lo que nos gusta. ¿Podrías compartir algún ejemplo de una actividad que solías disfrutar y que ahora te resulta difícil conectar con ella?",
-      "timestamp": 1764038096
+      "content": "Es un paso importante querer explorar esos sentimientos. Para poder entender mejor tu situación, me gustaría que respondieras un cuestionario llamado PHQ-9, que nos ayudará a revisar cómo te has estado sintiendo en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser muy útil.",
+      "timestamp": 1764040689
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Solía disfrutar mucho leer y salir a caminar, pero últimamente me cuesta encontrar motivación para hacer ambas cosas.",
-      "timestamp": 1764038097
+      "content": "Parece que ya lo respondí, pero si hay algo más que pueda hacer o explorar, estoy dispuesta.",
+      "timestamp": 1764040690
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esos son pasatiempos muy enriquecedores. La falta de motivación puede ser especialmente frustrante. A veces, empezar con pequeños pasos o establecer metas pequeñas puede ayudar. ¿Te gustaría trabajar en algunas estrategias para retomar esas actividades, paso a paso?",
-      "timestamp": 1764038099
+      "content": "Tienes razón, ya hemos revisado el PHQ-9. Podemos enfocarnos en la pérdida de interés. ¿Hay actividades específicas que solías disfrutar y ahora sientes que ya no te importan?",
+      "timestamp": 1764040691
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría eso. Creo que pequeños pasos podrían hacer una diferencia.",
-      "timestamp": 1764038100
+      "content": "Sí, solía disfrutar mucho de leer y salir con mis amigos, pero últimamente he perdido el interés en ambas cosas.",
+      "timestamp": 1764040692
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Genial, empecemos por la lectura. Podrías proponerte leer solo cinco páginas al día. ¿Te parece un objetivo manejable? Luego, para caminar, tal vez podrías intentar dar un paseo corto de cinco minutos. ¿Qué piensas de estas ideas?",
-      "timestamp": 1764038102
+      "content": "Entiendo, perder interés en actividades que antes disfrutabas puede ser muy frustrante. ¿Recuerdas algún evento o cambio en tu vida que creas que pudo haber influido en esta pérdida de interés?",
+      "timestamp": 1764040693
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me parece un buen comienzo. Leer cinco páginas suena manejable, y dar un paseo corto también podría ayudarme a sentirme mejor.",
-      "timestamp": 1764038103
+      "content": "Sí, creo que el estrés de la universidad y algunas relaciones que no han sido tan positivas han influido bastante en cómo me siento.",
+      "timestamp": 1764040694
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que te parezcan manejables. La clave es ser amable contigo misma y celebrar cada pequeño logro. ¿Te gustaría que establezcamos un plan para que puedas implementar estos cambios esta semana? Esto podría ayudarte a mantener el compromiso.",
-      "timestamp": 1764038104
+      "content": "Eso tiene mucho sentido. El estrés académico y las relaciones difíciles pueden afectar profundamente tu bienestar emocional. ¿Te gustaría hablar más sobre cómo manejas ese estrés en la universidad o sobre esas relaciones?",
+      "timestamp": 1764040695
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, eso sería útil. Me gustaría tener un plan para seguir y poder ver cómo me siento después de intentarlo.",
-      "timestamp": 1764038105
+      "content": "Sí, me gustaría hablar sobre eso. A veces siento que el estrés me abruma y me cuesta encontrar maneras efectivas de manejarlo. Las relaciones también me generan confusión y ansiedad.",
+      "timestamp": 1764040696
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, vamos a crear un plan simple. Para esta semana:\n\n1. **Lectura**: Lee cinco páginas al día, elige un momento específico para hacerlo, ya sea por la mañana o antes de dormir.\n2. **Caminata**: Sal a caminar cinco minutos cada día, tal vez después de comer o al final del día.\n\n¿Qué días te gustaría empezar? ¿Hay algún espacio específico en tu rutina que creas que sería fácil de acomodar para estas actividades?",
-      "timestamp": 1764038109
+      "content": "Es completamente comprensible sentirse abrumada. Identificar maneras de manejar el estrés es un primer paso importante. ¿Has probado alguna técnica de manejo de estrés, como la meditación, el ejercicio o la expresión artística?",
+      "timestamp": 1764040698
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Puedo empezar mañana. Creo que podría leer por la noche antes de dormir y caminar después de comer.",
-      "timestamp": 1764038110
+      "content": "He intentado hacer ejercicio de vez en cuando, pero no siempre tengo la motivación para seguir. La meditación me gustaría probar, pero no sé por dónde comenzar.",
+      "timestamp": 1764040698
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena excelente. Comenzar mañana te dará una oportunidad fresca. Así que, para resumir:\n\n- **Lectura**: Cinco páginas cada noche antes de dormir.\n- **Caminata**: Cinco minutos después de comer.\n\nTe animo a que te mantengas abierta a cómo te sientes con estas actividades. La próxima vez que nos veamos, podremos discutir cómo fue la experiencia. ¿Te parece bien?",
-      "timestamp": 1764038112
+      "content": "Es bueno que ya hayas intentado hacer ejercicio; incluso pequeños esfuerzos cuentan. Para la meditación, puedes empezar con sesiones cortas, tan solo cinco minutos al día. Hay muchas aplicaciones y videos en línea que pueden guiarte. ¿Te gustaría que exploráramos algunos recursos o técnicas de meditación juntos?",
+      "timestamp": 1764040700
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece perfecto. Estoy deseando ver cómo me siento después de intentarlo. ¡Gracias por ayudarme!",
-      "timestamp": 1764038113
+      "content": "Sí, me encantaría explorar algunos recursos. Creo que podría ayudarme a encontrar un poco de calma en medio del estrés.",
+      "timestamp": 1764040701
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "De nada, me alegra poder acompañarte en este proceso. Recuerda ser amable contigo misma y no presionarte demasiado. Te espero en nuestra próxima sesión para escuchar cómo te ha ido. ¡Cuídate!",
-      "timestamp": 1764038114
+      "content": "Excelente decisión. Puedo recomendarte algunas aplicaciones para la meditación, como Headspace o Calm, que ofrecen meditaciones guiadas para principiantes. También hay muchos videos en YouTube que puedes seguir. Además, podrías empezar con ejercicios de respiración profunda para calmarte en momentos de estrés. ¿Te gustaría aprender una técnica básica de respiración ahora?",
+      "timestamp": 1764040703
     },
     {
       "agent": "Renata Juárez",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Gracias! Cuídate también. Hasta la próxima.",
-      "timestamp": 1764038115
+      "content": "Sí, me gustaría aprender una técnica básica de respiración. Creo que eso podría ser útil en momentos de estrés.",
+      "timestamp": 1764040704
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Aquí hay una técnica sencilla de respiración que puedes probar:\n\n1. Siéntate cómodamente con la espalda recta.\n2. Inhala lentamente por la nariz durante cuatro segundos, sintiendo cómo se expande tu abdomen.\n3. Mantén la respiración durante cuatro segundos.\n4. Exhala lentamente por la boca durante seis segundos, sintiendo cómo se relaja tu abdomen.\n5. Repite esto durante cinco ciclos.\n\nPuedes practicarlo en cualquier momento que sientas que el estrés te abruma. ¿Te gustaría intentarlo juntos aquí?",
+      "timestamp": 1764040707
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que practicarlo en este momento me podría ayudar a conectarme y relajarme un poco.",
+      "timestamp": 1764040708
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hagámoslo juntos. \n\nEmpecemos:\n\n1. Siéntate cómodamente y cierra los ojos si te sientes cómoda.\n2. Inhala lentamente por la nariz, contando hasta cuatro: 1... 2... 3... 4.\n3. Mantén la respiración: 1... 2... 3... 4.\n4. Ahora exhales suavemente por la boca durante seis segundos: 1... 2... 3... 4... 5... 6.\n\nRepetimos una vez más. Inhala: 1... 2... 3... 4. Mantén: 1... 2... 3... 4. Exhala: 1... 2... 3... 4... 5... 6.\n\nSiente cómo tu cuerpo se relaja un poco más con cada respiración. ¿Cómo te sientes ahora?",
+      "timestamp": 1764040711
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila, como si la tensión se hubiera aliviado un poco. Gracias por guiarme en esto, creo que podría ayudarme a manejar el estrés.",
+      "timestamp": 1764040712
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que te sientas más tranquila. La respiración consciente puede ser una herramienta muy poderosa en momentos de estrés. Recuerda que puedes practicarla siempre que lo necesites. ¿Te gustaría explorar alguna otra técnica o tema relacionado con cómo manejar la ansiedad y el estrés?",
+      "timestamp": 1764040713
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría explorar otras técnicas. Creo que tener varias herramientas podría ayudarme a manejar mejor lo que siento.",
+      "timestamp": 1764040714
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hay varias técnicas que puedes probar. Algunas de ellas incluyen:\n\n1. **Ejercicio físico**: El movimiento, incluso una caminata corta, libera endorfinas y mejora el estado de ánimo.\n2. **Diario personal**: Escribir tus pensamientos y sentimientos puede ayudar a procesar lo que sientes.\n3. **Mindfulness**: Practicar la atención plena te ayuda a estar presente y a observar tus pensamientos sin juzgarlos.\n4. **Conexión social**: Hablar con amigos o familiares sobre cómo te sientes puede proporcionar apoyo y alivio.\n\n¿Hay alguna de estas técnicas que te llama más la atención y te gustaría explorar más a fondo?",
+      "timestamp": 1764040717
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me interesa mucho la idea de llevar un diario personal. Siento que podría ser una buena manera de procesar mis pensamientos y emociones.",
+      "timestamp": 1764040718
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Llevar un diario personal puede ser muy terapéutico. Te permite expresar tus emociones y reflexionar sobre tus experiencias. Aquí hay algunos consejos para comenzar:\n\n1. **Elige un momento**: Dedica un tiempo específico cada día o semana para escribir.\n2. **No te preocupes por la perfección**: Escribe libremente lo que sientas sin preocuparte por la gramática o la estructura.\n3. **Haz preguntas**: Fórmate preguntas sobre cómo te sientes o por qué. Por ejemplo, \"¿Qué me ha hecho sentir así hoy?\".\n4. **Incluye lo positivo**: Anota cosas por las que estás agradecida, esto puede mejorar tu perspectiva.\n\n¿Te gustaría que te ayudara a crear una plantilla o un ejemplo de lo que podrías escribir en tu diario?",
+      "timestamp": 1764040722
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría tener un ejemplo o una plantilla para comenzar. Creo que tener una guía me ayudaría a sentirme menos abrumada al escribir.",
+      "timestamp": 1764040723
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí tienes una plantilla sencilla que puedes seguir para tu diario personal:\n\n---\n\n**Fecha:**\n\n**1. Cómo me siento hoy:**\n(Describe tus emociones, usa palabras como feliz, triste, ansiosa, etc.)\n\n**2. Razones de mis sentimientos:**\n(Reflexiona sobre qué situaciones o pensamientos te llevaron a sentirte así.)\n\n**3. Momentos positivos del día:**\n(Anota al menos una o dos cosas buenas que sucedieron hoy.)\n\n**4. Lo que aprendí hoy:**\n(Escribe algo nuevo que descubriste sobre ti misma o sobre tu situación.)\n\n**5. Un objetivo pequeño para mañana:**\n(Puede ser algo simple, como salir a caminar o escribir en el diario nuevamente.)\n\n---\n\nPuedes ajustar esta plantilla según te parezca y agregar o quitar secciones que no resuenen contigo. ¿Te parece útil?",
+      "timestamp": 1764040726
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece muy útil. Me gusta cómo está estructurada, y creo que me ayudará a reflexionar sobre mis sentimientos. Gracias por la guía.",
+      "timestamp": 1764040727
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra que te resulte útil. Recuerda que tomarte el tiempo para reflexionar sobre tus sentimientos es un paso importante hacia el bienestar. Si en algún momento te sientes abrumada o necesitas apoyo, aquí estoy para ayudarte. ¿Hay algo más que te gustaría discutir hoy?",
+      "timestamp": 1764040729
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora, creo que eso es suficiente. Me siento más ligera después de nuestra conversación. Agradezco mucho tu apoyo y orientación.",
+      "timestamp": 1764040730
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más ligera. Ha sido un placer acompañarte en esta conversación. Recuerda que puedes volver cuando necesites hablar o explorar más. ¡Cuídate mucho y nos vemos en la próxima sesión! \n\n¡Hasta luego!",
+      "timestamp": 1764040732
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por tu apoyo, lo aprecio.",
+      "timestamp": 1764040732
     }
   ],
   "notes": null

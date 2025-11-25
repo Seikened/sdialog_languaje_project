@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+38fca57ab97cf565916ed5809189f1033cee6bc4",
-  "timestamp": "2025-11-25T02:49:34Z",
+  "version": "0.4.2+504b1b3ea61eb9f318ff47d7a41567b41d4b09e9",
+  "timestamp": "2025-11-25T03:29:33Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 3812366868,
-  "id": "837d100d-d00a-4110-944f-55608a534128",
+  "seed": 3466626348,
+  "id": "f43a4381-d8d7-49d3-a7db-8edc7a76a84a",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,191 +54,215 @@
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no sé qué esperar."
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no estoy segura de qué esperar."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué te llevó a buscar terapia?"
+      "text": "Es completamente normal sentirse nerviosa la primera vez. Estoy aquí para acompañarte y hacer que te sientas lo más cómoda posible. ¿Hay algo en particular que te gustaría compartir sobre tus sentimientos?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, creo que eso me ayudaría. Últimamente he estado sintiéndome bastante triste y preocupada por muchas cosas, y ya no sé cómo manejarlo."
+      "text": "Últimamente me he sentido un poco deprimida y preocupada por mis estudios. Me cuesta concentrarme y a veces me siento muy sola."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, y es importante que hablemos de eso. Hay un cuestionario llamado PHQ-9 que nos ayudará a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos información útil."
+      "text": "Entiendo que te sientas así, y es importante que exploremos esos sentimientos. Hay un cuestionario llamado PHQ-9 que nos ayuda a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no reemplaza una evaluación profesional completa, pero puede darnos más información."
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Está bien, puedo hacerlo. Solo espero que me ayude a entender mejor lo que estoy sintiendo."
+      "text": "Sí, me parece bien. Quiero entender mejor lo que estoy sintiendo."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, aquí hay algunas preguntas para comenzar. Responde de la manera que te sientas más cómoda:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas. \n3. Sentirte decaído(a), deprimido(a) o sin esperanzas. \n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. \n5. Sentirte cansado(a) o con poca energía. \n6. Tener poco apetito o comer en exceso. \n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. \n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. \n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para reflexionar sobre cada una."
+      "text": "Perfecto. Comencemos con las preguntas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Por favor, califica cada uno del 0 al 3:  \n- 0 = nunca  \n- 1 = algunos días  \n- 2 = más de la mitad de los días  \n- 3 = casi todos los días  \n\nVamos a ver cómo te sientes con el siguiente ítem: **Poco interés o placer en hacer cosas.** ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Gracias por darme el tiempo. Creo que puedo responder a esas preguntas, aunque es un poco difícil. \n\n1. Creo que he tenido poco interés en hacer cosas. \n2. Sí, me he sentido decaída y sin esperanzas.\n3. A veces tengo dificultad para dormir, pero también he dormido demasiado en otros días.\n4. Me siento cansada y con poca energía la mayor parte del tiempo. \n5. No he tenido mucho apetito, pero a veces como de más.\n6. Me siento mal conmigo misma y a veces pienso que no estoy a la altura.\n7. A veces me cuesta concentrarme en cosas simples.\n8. No creo que me mueva o hable lento, pero a veces me siento inquieta.\n9. No tengo pensamientos de hacerme daño, pero a veces deseo que las cosas fueran diferentes.\n\nEspero que esto ayude."
+      "text": "Creo que lo calificaría como un 2, porque a veces me siento un poco interesada en algunas cosas, pero la mayoría del tiempo no tengo ganas de hacer nada."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir tus respuestas, es un paso valiente hacia la comprensión de lo que sientes. Basado en lo que mencionas, me gustaría que respondas a cada pregunta con un número del 0 al 3, donde 0 es 'nunca', 1 es 'pocos días', 2 es 'más de la mitad de los días' y 3 es 'casi todos los días'. \n\nEmpecemos:\n\n1. Poco interés o placer en hacer cosas. ¿Qué respuestas le darías?"
+      "text": "Gracias por compartir eso. Ahora continuemos con el siguiente ítem: **Sentirte decaído(a), deprimido(a) o sin esperanzas.** ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 2, porque he sentido poco interés en hacer cosas más de la mitad de los días."
+      "text": "Ese lo calificaría como un 3, me he sentido así casi todos los días últimamente."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por esa respuesta. Continuemos con la siguiente:\n\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Qué número le asignarías a esto?"
+      "text": "Lamento que estés sintiendo eso. Es importante reconocerlo. Vamos con el siguiente ítem: **Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.** ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le asignaría un 2, porque he estado sintiéndome así más de la mitad de los días."
+      "text": "Lo calificaría como un 2, a veces me cuesta dormir y otras veces duermo más de lo habitual, como una forma de escapar."
     },
     {
       "speaker": "Valeria",
-      "text": "Lo entiendo. Sigamos con la siguiente:\n\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Cuál sería tu puntuación para esto?"
+      "text": "Entiendo, gracias por tu sinceridad. Ahora, pasemos al siguiente ítem: **Sentirte cansado(a) o con poca energía.** ¿Qué calificación le das?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 1, ya que he tenido dificultades para dormir en algunos días, pero en otros he dormido demasiado."
+      "text": "Le daría un 3, me siento cansada y sin energía la mayor parte del tiempo."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. Ahora, pasemos a la siguiente:\n\n4. Sentirte cansado(a) o con poca energía. ¿Qué puntuación le darías?"
+      "text": "Gracias por compartir eso. Continuemos con el siguiente ítem: **Tener poco apetito o comer en exceso.** ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 3, porque me siento cansada y con poca energía casi todos los días."
+      "text": "Lo calificaría como un 2, a veces no tengo apetito, pero en otras ocasiones como más de la cuenta."
     },
     {
       "speaker": "Valeria",
-      "text": "Es valioso que hayas compartido eso. Ahora vamos con la siguiente pregunta:\n\n5. Tener poco apetito o comer en exceso. ¿Cuál sería tu puntuación aquí?"
+      "text": "Entiendo, es importante tener en cuenta esos patrones. Ahora, vamos con el siguiente ítem: **Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.** ¿Qué calificación le darías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 2, porque he tenido poco apetito más de la mitad de los días, aunque a veces como de más."
+      "text": "Ese lo calificaría como un 3, a menudo me siento así y me pesa mucho."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu sinceridad. Continuemos con la siguiente:\n\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Qué número le asignarías?"
+      "text": "Lamento que estés pasando por eso. Es esencial reconocer esos sentimientos. Continuemos con el siguiente ítem: **Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.** ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le asignaría un 2, porque a menudo me siento mal conmigo misma y como si no estuviera a la altura."
+      "text": "Lo calificaría como un 3, me cuesta mucho concentrarme en cualquier cosa, incluso en cosas que solía disfrutar."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, y valoro que compartas eso. Pasemos a la siguiente:\n\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Cuál sería tu puntuación para esto?"
+      "text": "Gracias por compartirlo. Ahora vamos al siguiente ítem: **Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.** ¿Qué calificación le das?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 1, porque a veces me cuesta concentrarme, pero no siempre."
+      "text": "Le daría un 1, a veces me siento un poco inquieta, pero no creo que los demás lo noten mucho."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu respuesta. Ahora, sigamos con la siguiente:\n\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Qué puntuación le darías?"
+      "text": "Gracias por tu honestidad. Por último, el último ítem: **Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.** ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 1, ya que a veces me siento inquieta, pero no creo que otros lo noten."
+      "text": "Lo calificaría como un 2, he tenido algunos pensamientos oscuros, pero no quiero lastimarme."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. Ahora, pasemos a la penúltima pregunta:\n\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Cuál sería tu puntuación aquí?"
+      "text": "Es muy valiente de tu parte compartir esos pensamientos. Gracias por tu sinceridad. A partir de tus respuestas, parece que estás pasando por un momento difícil y es importante que hablemos sobre cómo te sientes y cómo podemos trabajar juntos para mejorar tu bienestar. ¿Cómo te gustaría proceder a partir de aquí?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le daría un 0, porque aunque he tenido momentos difíciles, no tengo pensamientos de hacerme daño."
+      "text": "Me gustaría entender mejor mis sentimientos y encontrar formas de lidiar con ellos. Estoy abierta a escuchar lo que sugieres."
     },
     {
       "speaker": "Valeria",
-      "text": "Es un alivio escuchar eso. Ahora, finalmente, la última pregunta:\n\n10. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los problemas descritos? ¿Qué número le asignarías?"
+      "text": "Es un gran paso que estés abierta a trabajar en ello. Podemos explorar diferentes técnicas de regulación emocional y estrategias para mejorar tu concentración y bienestar general. También sería útil hablar más sobre tus pensamientos y cómo afectan tu día a día. ¿Te gustaría empezar por alguna de estas áreas en particular?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Le asignaría un 1, porque he tenido molestias en algunos días, pero no de manera constante."
+      "text": "Podríamos empezar a hablar sobre mis pensamientos, creo que eso me afecta mucho en mi día a día."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por responder a todas las preguntas con tanta honestidad. Esto nos da una buena base para entender tus sentimientos y preocupaciones. ¿Te gustaría hablar más sobre alguna de estas áreas en particular?"
+      "text": "Claro, hablemos de esos pensamientos. ¿Puedes compartir algunos ejemplos de las ideas o pensamientos que te han estado afectando más?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me gustaría hablar más sobre cómo me siento mal conmigo misma. A veces es difícil lidiar con eso."
+      "text": "A veces me siento como si no valiera la pena, como si no estuviera logrando nada y eso me lleva a pensar que no tengo futuro."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo que lidiar con esos sentimientos puede ser realmente desafiante. ¿Podrías contarme un poco más sobre las situaciones o pensamientos que suelen llevarte a sentirte así?"
+      "text": "Lamento que estés sintiendo eso. Es doloroso pensar que no tienes valor ni futuro. A menudo, esos pensamientos pueden ser distorsiones de la realidad. Trabajaremos en la identificación de esos pensamientos negativos y en la construcción de una visión más equilibrada de ti misma. ¿Te parece bien si comenzamos a desafiar esos pensamientos juntos?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "A menudo me comparo con mis amigas y siento que no estoy logrando lo mismo que ellas. También me preocupa no estar a la altura en la universidad."
+      "text": "Sí, me parece bien. Quiero aprender a ver las cosas de una manera diferente."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible que las comparaciones con los demás puedan afectar tu autoestima. La presión académica también puede ser abrumadora. ¿Cómo te sientes después de hacer esas comparaciones?"
+      "text": "Eso es un gran objetivo. Comencemos identificando un pensamiento negativo específico que hayas tenido recientemente. Luego, podemos trabajar juntos para desafiarlo y encontrar una forma más constructiva de verlo. ¿Tienes algún pensamiento en mente que quieras explorar?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Me siento mal y frustrada. A veces pienso que no soy suficiente y eso me hace dudar de mí misma."
+      "text": "Sí, hay un pensamiento que me repito a menudo: \"No soy suficiente y nunca seré buena en lo que hago.\""
     },
     {
       "speaker": "Valeria",
-      "text": "Es doloroso sentirte de esa manera, y es importante reconocer esas emociones. Recordemos que cada persona tiene su propio camino y ritmo. ¿Te gustaría explorar algunas estrategias que podrían ayudarte a manejar esos sentimientos de duda?"
+      "text": "Ese es un pensamiento muy duro y es comprensible que te afecte. Vamos a desglosarlo. Primero, ¿qué evidencia tienes que respalde ese pensamiento? ¿Hay momentos o logros que digan lo contrario?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me gustaría eso. Creo que necesito herramientas para manejar mejor esos pensamientos y comparaciones."
+      "text": "A veces siento que no logro lo que espero en mis estudios, pero también he tenido buenos resultados en algunas materias y mis amigas me dicen que soy buena en lo que hago."
     },
     {
       "speaker": "Valeria",
-      "text": "Claro, hay varias estrategias que podemos considerar. Una de ellas es la práctica de la auto-compasión, que consiste en tratarte con la misma amabilidad que le ofrecerías a un amigo en una situación similar. \n\nTambién podríamos trabajar en la identificación y reestructuración de esos pensamientos negativos. ¿Te gustaría comenzar con alguna de estas estrategias?"
+      "text": "Es importante que reconozcas esos logros y el apoyo que recibes. Lo que tus amigas dicen también tiene valor. Vamos a reformular ese pensamiento. En lugar de \"No soy suficiente y nunca seré buena en lo que hago\", podrías decirte: \"A veces enfrento desafíos, pero he tenido logros y puedo mejorar con práctica.\" ¿Cómo te sientes al respecto?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, creo que la auto-compasión puede ser un buen comienzo. A veces me olvido de ser amable conmigo misma."
+      "text": "Me gusta esa reformulación, suena más positiva y realista. Creo que puede ayudarme a tener una perspectiva diferente."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso es un excelente primer paso. La auto-compasión implica reconocer que todos enfrentamos dificultades y que es normal sentirse así. Te propongo que practiques hablarte con amabilidad en momentos de autocrítica. \n\nUn ejercicio que podrías intentar es escribir una carta a ti misma en momentos difíciles, como si fueras una amiga que está ofreciendo apoyo. ¿Te gustaría explorar cómo podría verse esa carta?"
+      "text": "Me alegra saber que te resuena esa reformulación. Cambiar la forma en que nos hablamos a nosotros mismos es un paso importante. Te animo a que la repitas cuando te encuentres con esos pensamientos negativos. Practicar esto puede ayudarte a reforzar una mentalidad más positiva. ¿Te gustaría discutir alguna otra estrategia para seguir trabajando en tus pensamientos?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me parece una buena idea. Creo que escribirlo podría ayudarme a ver las cosas desde otra perspectiva."
+      "text": "Sí, sería útil. Me gustaría aprender más sobre cómo manejar esos pensamientos cuando surgen en el día a día."
     },
     {
       "speaker": "Valeria",
-      "text": "¡Exactamente! Al escribir esa carta, puedes expresar tus sentimientos y recordar que mereces amor y comprensión, incluso en momentos difíciles. Intenta incluir frases como \"Está bien sentirme así\" y \"Soy suficiente tal como soy\". Recuerda que el objetivo es ser amable contigo misma. \n\n¿Cuándo crees que podrías tomarte un momento para escribirla?"
+      "text": "Una técnica efectiva es la *detención del pensamiento*, que consiste en reconocer cuando surge un pensamiento negativo y detenerlo. Luego, puedes reemplazarlo con la reformulación que hemos trabajado. También puedes practicar la *atención plena*, que te ayudará a centrarte en el momento presente y disminuir el impacto de esos pensamientos. ¿Te gustaría explorar más sobre alguna de estas estrategias?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Podría intentarlo este fin de semana. Creo que tener un momento tranquilo me ayudaría a reflexionar mejor."
+      "text": "Me gustaría explorar la atención plena, creo que podría ayudarme a sentirme más presente y menos abrumada por mis pensamientos."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena perfecto. Tomarte ese tiempo para reflexionar y escribir puede ser muy beneficioso. Recuerda ser paciente contigo misma en el proceso. ¿Te gustaría que revisáramos lo que escribas en nuestra próxima sesión?"
+      "text": "La atención plena es una herramienta maravillosa para conectar contigo misma y manejar el estrés. Una técnica básica es la meditación de atención plena. Consiste en dedicar unos minutos a sentarte en un lugar tranquilo, cerrar los ojos y concentrarte en tu respiración. Si te distraes con pensamientos, simplemente reconócelos y vuelve a enfocarte en tu respiración. ¿Te gustaría intentarlo juntos en nuestra próxima sesión o prefieres comenzar a practicarlo ahora?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me gustaría eso. Creo que sería útil compartirlo y recibir tu retroalimentación."
+      "text": "Me gustaría intentar practicarlo ahora. Siento que sería útil para mí en este momento."
     },
     {
       "speaker": "Valeria",
-      "text": "Claro, estaré encantada de leerlo y ofrecerte mi retroalimentación. Este ejercicio puede ser realmente poderoso para tu auto-comprensión. \n\nPor ahora, ¿hay algo más que te gustaría discutir antes de finalizar nuestra sesión de hoy?"
+      "text": "Perfecto, hagámoslo. Te invito a que te sientes cómodamente en tu silla, con los pies apoyados en el suelo y las manos sobre tus muslos o en tu regazo. \n\nCierra los ojos suavemente y toma una respiración profunda. Inhala por la nariz, sintiendo cómo el aire llena tu abdomen, y luego exhala lentamente por la boca. \n\nVamos a repetir esto un par de veces, sintiendo la calma en cada respiración. Cuando estés lista, intenta llevar tu atención a cómo se siente tu cuerpo en el presente. ¿Cómo te sientes?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "No, creo que hemos hablado de muchas cosas importantes hoy. Gracias por tu apoyo, me siento un poco más tranquila."
+      "text": "Me siento un poco más relajada al respirar así. Es agradable poder concentrarme en mi respiración y dejar de lado los pensamientos un momento."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra saber que te sientes más tranquila. Aprecio tu apertura y disposición para trabajar en ti misma. Recuerda que estoy aquí para acompañarte en este camino. \n\nNos vemos en la próxima sesión. ¡Cuídate mucho!"
+      "text": "Me alegra mucho que te sientas más relajada. La respiración consciente puede ser un ancla poderosa para el momento presente. Siempre que te sientas abrumada, recuerda que puedes recurrir a esta técnica. ¿Te gustaría continuar practicando o te gustaría hablar sobre alguna otra cosa por ahora?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Gracias, cuídate también. Hasta la próxima."
+      "text": "Creo que por ahora es suficiente práctica para mí. Me gustaría hablar sobre cómo seguir aplicando esto en mi vida diaria."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, es una buena idea. Para incorporar la atención plena en tu vida diaria, puedes empezar con pequeñas actividades. Por ejemplo, dedica unos minutos cada mañana a practicar la respiración consciente. También puedes hacerlo al comer, prestando atención a los sabores y texturas de los alimentos. \n\nAdemás, te recomiendo establecer momentos específicos durante el día para hacer pausas breves y practicar la atención plena. ¿Sientes que esto es algo que podrías implementar en tu rutina?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, definitivamente creo que puedo intentarlo. Me gusta la idea de hacerlo en las mañanas y durante las comidas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena genial. Establecer una rutina te ayudará a integrar la atención plena de manera más natural en tu vida. Recuerda ser amable contigo misma durante este proceso; puede llevar tiempo acostumbrarte a estas prácticas. \n\nSi en algún momento te sientes perdida o tienes dudas, no dudes en compartirlo en nuestras próximas sesiones. Estoy aquí para apoyarte. ¿Hay algo más que te gustaría discutir hoy?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "No, creo que por ahora eso es suficiente. Me siento un poco más aliviada y agradezco lo que hemos trabajado hoy."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes aliviada y que nuestro trabajo hoy ha sido útil para ti. Recuerda que este es un proceso y cada paso cuenta. Cuídate y te espero en nuestra próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "¡Gracias! Hasta luego."
     }
   ],
   "events": [
@@ -247,49 +271,49 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
-      "timestamp": 1764038904
+      "timestamp": 1764041306
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no sé qué esperar.",
-      "timestamp": 1764038905
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764041307
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué te llevó a buscar terapia?",
-      "timestamp": 1764038906
+      "content": "Es completamente normal sentirse nerviosa la primera vez. Estoy aquí para acompañarte y hacer que te sientas lo más cómoda posible. ¿Hay algo en particular que te gustaría compartir sobre tus sentimientos?",
+      "timestamp": 1764041309
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que eso me ayudaría. Últimamente he estado sintiéndome bastante triste y preocupada por muchas cosas, y ya no sé cómo manejarlo.",
-      "timestamp": 1764038907
+      "content": "Últimamente me he sentido un poco deprimida y preocupada por mis estudios. Me cuesta concentrarme y a veces me siento muy sola.",
+      "timestamp": 1764041309
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038907
+      "timestamp": 1764041309
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, y es importante que hablemos de eso. Hay un cuestionario llamado PHQ-9 que nos ayudará a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos información útil.",
-      "timestamp": 1764038909
+      "content": "Entiendo que te sientas así, y es importante que exploremos esos sentimientos. Hay un cuestionario llamado PHQ-9 que nos ayuda a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no reemplaza una evaluación profesional completa, pero puede darnos más información.",
+      "timestamp": 1764041311
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Está bien, puedo hacerlo. Solo espero que me ayude a entender mejor lo que estoy sintiendo.",
-      "timestamp": 1764038910
+      "content": "Sí, me parece bien. Quiero entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764041311
     },
     {
       "agent": "Valeria",
@@ -298,11 +322,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "inicial"
+          "item": "cuestionario"
         },
-        "id": "call_dttyhzhZDkpe9P7WDCplIhqT"
+        "id": "call_VI7CxqrkeojqXcCgncHYTBsT"
       },
-      "timestamp": 1764038911
+      "timestamp": 1764041312
     },
     {
       "agent": "Valeria",
@@ -310,311 +334,353 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"inicial\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_dttyhzhZDkpe9P7WDCplIhqT"
+        "output": "{\"item\": \"cuestionario\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_VI7CxqrkeojqXcCgncHYTBsT"
       },
-      "timestamp": 1764038911
+      "timestamp": 1764041312
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, aquí hay algunas preguntas para comenzar. Responde de la manera que te sientas más cómoda:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas. \n3. Sentirte decaído(a), deprimido(a) o sin esperanzas. \n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. \n5. Sentirte cansado(a) o con poca energía. \n6. Tener poco apetito o comer en exceso. \n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. \n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. \n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para reflexionar sobre cada una.",
-      "timestamp": 1764038915
+      "content": "Perfecto. Comencemos con las preguntas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Por favor, califica cada uno del 0 al 3:  \n- 0 = nunca  \n- 1 = algunos días  \n- 2 = más de la mitad de los días  \n- 3 = casi todos los días  \n\nVamos a ver cómo te sientes con el siguiente ítem: **Poco interés o placer en hacer cosas.** ¿Cómo lo calificarías?",
+      "timestamp": 1764041315
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por darme el tiempo. Creo que puedo responder a esas preguntas, aunque es un poco difícil. \n\n1. Creo que he tenido poco interés en hacer cosas. \n2. Sí, me he sentido decaída y sin esperanzas.\n3. A veces tengo dificultad para dormir, pero también he dormido demasiado en otros días.\n4. Me siento cansada y con poca energía la mayor parte del tiempo. \n5. No he tenido mucho apetito, pero a veces como de más.\n6. Me siento mal conmigo misma y a veces pienso que no estoy a la altura.\n7. A veces me cuesta concentrarme en cosas simples.\n8. No creo que me mueva o hable lento, pero a veces me siento inquieta.\n9. No tengo pensamientos de hacerme daño, pero a veces deseo que las cosas fueran diferentes.\n\nEspero que esto ayude.",
-      "timestamp": 1764038920
+      "content": "Creo que lo calificaría como un 2, porque a veces me siento un poco interesada en algunas cosas, pero la mayoría del tiempo no tengo ganas de hacer nada.",
+      "timestamp": 1764041316
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora continuemos con el siguiente ítem: **Sentirte decaído(a), deprimido(a) o sin esperanzas.** ¿Cómo lo calificarías?",
+      "timestamp": 1764041318
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese lo calificaría como un 3, me he sentido así casi todos los días últimamente.",
+      "timestamp": 1764041319
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso. Es importante reconocerlo. Vamos con el siguiente ítem: **Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.** ¿Cómo lo calificarías?",
+      "timestamp": 1764041320
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como un 2, a veces me cuesta dormir y otras veces duermo más de lo habitual, como una forma de escapar.",
+      "timestamp": 1764041321
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por tu sinceridad. Ahora, pasemos al siguiente ítem: **Sentirte cansado(a) o con poca energía.** ¿Qué calificación le das?",
+      "timestamp": 1764041322
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, me siento cansada y sin energía la mayor parte del tiempo.",
+      "timestamp": 1764041323
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038920
+      "timestamp": 1764041323
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir tus respuestas, es un paso valiente hacia la comprensión de lo que sientes. Basado en lo que mencionas, me gustaría que respondas a cada pregunta con un número del 0 al 3, donde 0 es 'nunca', 1 es 'pocos días', 2 es 'más de la mitad de los días' y 3 es 'casi todos los días'. \n\nEmpecemos:\n\n1. Poco interés o placer en hacer cosas. ¿Qué respuestas le darías?",
-      "timestamp": 1764038923
+      "content": "Gracias por compartir eso. Continuemos con el siguiente ítem: **Tener poco apetito o comer en exceso.** ¿Cómo lo calificarías?",
+      "timestamp": 1764041324
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2, porque he sentido poco interés en hacer cosas más de la mitad de los días.",
-      "timestamp": 1764038924
+      "content": "Lo calificaría como un 2, a veces no tengo apetito, pero en otras ocasiones como más de la cuenta.",
+      "timestamp": 1764041325
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por esa respuesta. Continuemos con la siguiente:\n\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Qué número le asignarías a esto?",
-      "timestamp": 1764038925
+      "content": "Entiendo, es importante tener en cuenta esos patrones. Ahora, vamos con el siguiente ítem: **Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.** ¿Qué calificación le darías?",
+      "timestamp": 1764041326
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le asignaría un 2, porque he estado sintiéndome así más de la mitad de los días.",
-      "timestamp": 1764038926
+      "content": "Ese lo calificaría como un 3, a menudo me siento así y me pesa mucho.",
+      "timestamp": 1764041328
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lo entiendo. Sigamos con la siguiente:\n\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Cuál sería tu puntuación para esto?",
-      "timestamp": 1764038927
+      "content": "Lamento que estés pasando por eso. Es esencial reconocer esos sentimientos. Continuemos con el siguiente ítem: **Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.** ¿Cómo lo calificarías?",
+      "timestamp": 1764041329
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 1, ya que he tenido dificultades para dormir en algunos días, pero en otros he dormido demasiado.",
-      "timestamp": 1764038928
+      "content": "Lo calificaría como un 3, me cuesta mucho concentrarme en cualquier cosa, incluso en cosas que solía disfrutar.",
+      "timestamp": 1764041329
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. Ahora, pasemos a la siguiente:\n\n4. Sentirte cansado(a) o con poca energía. ¿Qué puntuación le darías?",
-      "timestamp": 1764038929
+      "content": "Gracias por compartirlo. Ahora vamos al siguiente ítem: **Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.** ¿Qué calificación le das?",
+      "timestamp": 1764041331
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 3, porque me siento cansada y con poca energía casi todos los días.",
-      "timestamp": 1764038930
+      "content": "Le daría un 1, a veces me siento un poco inquieta, pero no creo que los demás lo noten mucho.",
+      "timestamp": 1764041331
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es valioso que hayas compartido eso. Ahora vamos con la siguiente pregunta:\n\n5. Tener poco apetito o comer en exceso. ¿Cuál sería tu puntuación aquí?",
-      "timestamp": 1764038931
+      "content": "Gracias por tu honestidad. Por último, el último ítem: **Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.** ¿Cómo lo calificarías?",
+      "timestamp": 1764041332
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2, porque he tenido poco apetito más de la mitad de los días, aunque a veces como de más.",
-      "timestamp": 1764038932
+      "content": "Lo calificaría como un 2, he tenido algunos pensamientos oscuros, pero no quiero lastimarme.",
+      "timestamp": 1764041333
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu sinceridad. Continuemos con la siguiente:\n\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Qué número le asignarías?",
-      "timestamp": 1764038934
+      "content": "Es muy valiente de tu parte compartir esos pensamientos. Gracias por tu sinceridad. A partir de tus respuestas, parece que estás pasando por un momento difícil y es importante que hablemos sobre cómo te sientes y cómo podemos trabajar juntos para mejorar tu bienestar. ¿Cómo te gustaría proceder a partir de aquí?",
+      "timestamp": 1764041335
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le asignaría un 2, porque a menudo me siento mal conmigo misma y como si no estuviera a la altura.",
-      "timestamp": 1764038935
+      "content": "Me gustaría entender mejor mis sentimientos y encontrar formas de lidiar con ellos. Estoy abierta a escuchar lo que sugieres.",
+      "timestamp": 1764041336
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, y valoro que compartas eso. Pasemos a la siguiente:\n\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Cuál sería tu puntuación para esto?",
-      "timestamp": 1764038936
+      "content": "Es un gran paso que estés abierta a trabajar en ello. Podemos explorar diferentes técnicas de regulación emocional y estrategias para mejorar tu concentración y bienestar general. También sería útil hablar más sobre tus pensamientos y cómo afectan tu día a día. ¿Te gustaría empezar por alguna de estas áreas en particular?",
+      "timestamp": 1764041337
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 1, porque a veces me cuesta concentrarme, pero no siempre.",
-      "timestamp": 1764038937
+      "content": "Podríamos empezar a hablar sobre mis pensamientos, creo que eso me afecta mucho en mi día a día.",
+      "timestamp": 1764041338
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu respuesta. Ahora, sigamos con la siguiente:\n\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Qué puntuación le darías?",
-      "timestamp": 1764038939
+      "content": "Claro, hablemos de esos pensamientos. ¿Puedes compartir algunos ejemplos de las ideas o pensamientos que te han estado afectando más?",
+      "timestamp": 1764041339
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 1, ya que a veces me siento inquieta, pero no creo que otros lo noten.",
-      "timestamp": 1764038940
+      "content": "A veces me siento como si no valiera la pena, como si no estuviera logrando nada y eso me lleva a pensar que no tengo futuro.",
+      "timestamp": 1764041340
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. Ahora, pasemos a la penúltima pregunta:\n\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Cuál sería tu puntuación aquí?",
-      "timestamp": 1764038942
+      "content": "Lamento que estés sintiendo eso. Es doloroso pensar que no tienes valor ni futuro. A menudo, esos pensamientos pueden ser distorsiones de la realidad. Trabajaremos en la identificación de esos pensamientos negativos y en la construcción de una visión más equilibrada de ti misma. ¿Te parece bien si comenzamos a desafiar esos pensamientos juntos?",
+      "timestamp": 1764041341
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 0, porque aunque he tenido momentos difíciles, no tengo pensamientos de hacerme daño.",
-      "timestamp": 1764038943
+      "content": "Sí, me parece bien. Quiero aprender a ver las cosas de una manera diferente.",
+      "timestamp": 1764041342
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es un alivio escuchar eso. Ahora, finalmente, la última pregunta:\n\n10. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los problemas descritos? ¿Qué número le asignarías?",
-      "timestamp": 1764038944
+      "content": "Eso es un gran objetivo. Comencemos identificando un pensamiento negativo específico que hayas tenido recientemente. Luego, podemos trabajar juntos para desafiarlo y encontrar una forma más constructiva de verlo. ¿Tienes algún pensamiento en mente que quieras explorar?",
+      "timestamp": 1764041343
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le asignaría un 1, porque he tenido molestias en algunos días, pero no de manera constante.",
-      "timestamp": 1764038945
+      "content": "Sí, hay un pensamiento que me repito a menudo: \"No soy suficiente y nunca seré buena en lo que hago.\"",
+      "timestamp": 1764041344
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por responder a todas las preguntas con tanta honestidad. Esto nos da una buena base para entender tus sentimientos y preocupaciones. ¿Te gustaría hablar más sobre alguna de estas áreas en particular?",
-      "timestamp": 1764038946
+      "content": "Ese es un pensamiento muy duro y es comprensible que te afecte. Vamos a desglosarlo. Primero, ¿qué evidencia tienes que respalde ese pensamiento? ¿Hay momentos o logros que digan lo contrario?",
+      "timestamp": 1764041345
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría hablar más sobre cómo me siento mal conmigo misma. A veces es difícil lidiar con eso.",
-      "timestamp": 1764038947
+      "content": "A veces siento que no logro lo que espero en mis estudios, pero también he tenido buenos resultados en algunas materias y mis amigas me dicen que soy buena en lo que hago.",
+      "timestamp": 1764041346
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo que lidiar con esos sentimientos puede ser realmente desafiante. ¿Podrías contarme un poco más sobre las situaciones o pensamientos que suelen llevarte a sentirte así?",
-      "timestamp": 1764038949
+      "content": "Es importante que reconozcas esos logros y el apoyo que recibes. Lo que tus amigas dicen también tiene valor. Vamos a reformular ese pensamiento. En lugar de \"No soy suficiente y nunca seré buena en lo que hago\", podrías decirte: \"A veces enfrento desafíos, pero he tenido logros y puedo mejorar con práctica.\" ¿Cómo te sientes al respecto?",
+      "timestamp": 1764041349
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "A menudo me comparo con mis amigas y siento que no estoy logrando lo mismo que ellas. También me preocupa no estar a la altura en la universidad.",
-      "timestamp": 1764038950
+      "content": "Me gusta esa reformulación, suena más positiva y realista. Creo que puede ayudarme a tener una perspectiva diferente.",
+      "timestamp": 1764041350
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible que las comparaciones con los demás puedan afectar tu autoestima. La presión académica también puede ser abrumadora. ¿Cómo te sientes después de hacer esas comparaciones?",
-      "timestamp": 1764038952
+      "content": "Me alegra saber que te resuena esa reformulación. Cambiar la forma en que nos hablamos a nosotros mismos es un paso importante. Te animo a que la repitas cuando te encuentres con esos pensamientos negativos. Practicar esto puede ayudarte a reforzar una mentalidad más positiva. ¿Te gustaría discutir alguna otra estrategia para seguir trabajando en tus pensamientos?",
+      "timestamp": 1764041351
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me siento mal y frustrada. A veces pienso que no soy suficiente y eso me hace dudar de mí misma.",
-      "timestamp": 1764038952
+      "content": "Sí, sería útil. Me gustaría aprender más sobre cómo manejar esos pensamientos cuando surgen en el día a día.",
+      "timestamp": 1764041352
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es doloroso sentirte de esa manera, y es importante reconocer esas emociones. Recordemos que cada persona tiene su propio camino y ritmo. ¿Te gustaría explorar algunas estrategias que podrían ayudarte a manejar esos sentimientos de duda?",
-      "timestamp": 1764038954
+      "content": "Una técnica efectiva es la *detención del pensamiento*, que consiste en reconocer cuando surge un pensamiento negativo y detenerlo. Luego, puedes reemplazarlo con la reformulación que hemos trabajado. También puedes practicar la *atención plena*, que te ayudará a centrarte en el momento presente y disminuir el impacto de esos pensamientos. ¿Te gustaría explorar más sobre alguna de estas estrategias?",
+      "timestamp": 1764041354
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría eso. Creo que necesito herramientas para manejar mejor esos pensamientos y comparaciones.",
-      "timestamp": 1764038955
+      "content": "Me gustaría explorar la atención plena, creo que podría ayudarme a sentirme más presente y menos abrumada por mis pensamientos.",
+      "timestamp": 1764041355
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, hay varias estrategias que podemos considerar. Una de ellas es la práctica de la auto-compasión, que consiste en tratarte con la misma amabilidad que le ofrecerías a un amigo en una situación similar. \n\nTambién podríamos trabajar en la identificación y reestructuración de esos pensamientos negativos. ¿Te gustaría comenzar con alguna de estas estrategias?",
-      "timestamp": 1764038957
+      "content": "La atención plena es una herramienta maravillosa para conectar contigo misma y manejar el estrés. Una técnica básica es la meditación de atención plena. Consiste en dedicar unos minutos a sentarte en un lugar tranquilo, cerrar los ojos y concentrarte en tu respiración. Si te distraes con pensamientos, simplemente reconócelos y vuelve a enfocarte en tu respiración. ¿Te gustaría intentarlo juntos en nuestra próxima sesión o prefieres comenzar a practicarlo ahora?",
+      "timestamp": 1764041358
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que la auto-compasión puede ser un buen comienzo. A veces me olvido de ser amable conmigo misma.",
-      "timestamp": 1764038958
+      "content": "Me gustaría intentar practicarlo ahora. Siento que sería útil para mí en este momento.",
+      "timestamp": 1764041359
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso es un excelente primer paso. La auto-compasión implica reconocer que todos enfrentamos dificultades y que es normal sentirse así. Te propongo que practiques hablarte con amabilidad en momentos de autocrítica. \n\nUn ejercicio que podrías intentar es escribir una carta a ti misma en momentos difíciles, como si fueras una amiga que está ofreciendo apoyo. ¿Te gustaría explorar cómo podría verse esa carta?",
-      "timestamp": 1764038960
+      "content": "Perfecto, hagámoslo. Te invito a que te sientes cómodamente en tu silla, con los pies apoyados en el suelo y las manos sobre tus muslos o en tu regazo. \n\nCierra los ojos suavemente y toma una respiración profunda. Inhala por la nariz, sintiendo cómo el aire llena tu abdomen, y luego exhala lentamente por la boca. \n\nVamos a repetir esto un par de veces, sintiendo la calma en cada respiración. Cuando estés lista, intenta llevar tu atención a cómo se siente tu cuerpo en el presente. ¿Cómo te sientes?",
+      "timestamp": 1764041361
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece una buena idea. Creo que escribirlo podría ayudarme a ver las cosas desde otra perspectiva.",
-      "timestamp": 1764038962
+      "content": "Me siento un poco más relajada al respirar así. Es agradable poder concentrarme en mi respiración y dejar de lado los pensamientos un momento.",
+      "timestamp": 1764041362
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Exactamente! Al escribir esa carta, puedes expresar tus sentimientos y recordar que mereces amor y comprensión, incluso en momentos difíciles. Intenta incluir frases como \"Está bien sentirme así\" y \"Soy suficiente tal como soy\". Recuerda que el objetivo es ser amable contigo misma. \n\n¿Cuándo crees que podrías tomarte un momento para escribirla?",
-      "timestamp": 1764038963
+      "content": "Me alegra mucho que te sientas más relajada. La respiración consciente puede ser un ancla poderosa para el momento presente. Siempre que te sientas abrumada, recuerda que puedes recurrir a esta técnica. ¿Te gustaría continuar practicando o te gustaría hablar sobre alguna otra cosa por ahora?",
+      "timestamp": 1764041364
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Podría intentarlo este fin de semana. Creo que tener un momento tranquilo me ayudaría a reflexionar mejor.",
-      "timestamp": 1764038965
+      "content": "Creo que por ahora es suficiente práctica para mí. Me gustaría hablar sobre cómo seguir aplicando esto en mi vida diaria.",
+      "timestamp": 1764041365
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena perfecto. Tomarte ese tiempo para reflexionar y escribir puede ser muy beneficioso. Recuerda ser paciente contigo misma en el proceso. ¿Te gustaría que revisáramos lo que escribas en nuestra próxima sesión?",
-      "timestamp": 1764038966
+      "content": "Claro, es una buena idea. Para incorporar la atención plena en tu vida diaria, puedes empezar con pequeñas actividades. Por ejemplo, dedica unos minutos cada mañana a practicar la respiración consciente. También puedes hacerlo al comer, prestando atención a los sabores y texturas de los alimentos. \n\nAdemás, te recomiendo establecer momentos específicos durante el día para hacer pausas breves y practicar la atención plena. ¿Sientes que esto es algo que podrías implementar en tu rutina?",
+      "timestamp": 1764041368
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría eso. Creo que sería útil compartirlo y recibir tu retroalimentación.",
-      "timestamp": 1764038967
+      "content": "Sí, definitivamente creo que puedo intentarlo. Me gusta la idea de hacerlo en las mañanas y durante las comidas.",
+      "timestamp": 1764041368
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, estaré encantada de leerlo y ofrecerte mi retroalimentación. Este ejercicio puede ser realmente poderoso para tu auto-comprensión. \n\nPor ahora, ¿hay algo más que te gustaría discutir antes de finalizar nuestra sesión de hoy?",
-      "timestamp": 1764038968
+      "content": "Eso suena genial. Establecer una rutina te ayudará a integrar la atención plena de manera más natural en tu vida. Recuerda ser amable contigo misma durante este proceso; puede llevar tiempo acostumbrarte a estas prácticas. \n\nSi en algún momento te sientes perdida o tienes dudas, no dudes en compartirlo en nuestras próximas sesiones. Estoy aquí para apoyarte. ¿Hay algo más que te gustaría discutir hoy?",
+      "timestamp": 1764041370
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "No, creo que hemos hablado de muchas cosas importantes hoy. Gracias por tu apoyo, me siento un poco más tranquila.",
-      "timestamp": 1764038972
+      "content": "No, creo que por ahora eso es suficiente. Me siento un poco más aliviada y agradezco lo que hemos trabajado hoy.",
+      "timestamp": 1764041371
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra saber que te sientes más tranquila. Aprecio tu apertura y disposición para trabajar en ti misma. Recuerda que estoy aquí para acompañarte en este camino. \n\nNos vemos en la próxima sesión. ¡Cuídate mucho!",
-      "timestamp": 1764038974
+      "content": "Me alegra saber que te sientes aliviada y que nuestro trabajo hoy ha sido útil para ti. Recuerda que este es un proceso y cada paso cuenta. Cuídate y te espero en nuestra próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764041373
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias, cuídate también. Hasta la próxima.",
-      "timestamp": 1764038974
+      "content": "¡Gracias! Hasta luego.",
+      "timestamp": 1764041373
     }
   ],
   "notes": null

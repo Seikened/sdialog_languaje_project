@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+38fca57ab97cf565916ed5809189f1033cee6bc4",
-  "timestamp": "2025-11-25T02:36:08Z",
+  "version": "0.4.2+504b1b3ea61eb9f318ff47d7a41567b41d4b09e9",
+  "timestamp": "2025-11-25T03:20:44Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 3944275875,
-  "id": "49b2af3a-4b09-482c-b01b-d698e5b91e3b",
+  "seed": 4188270919,
+  "id": "2197aec6-9e7d-4c69-bd7c-10343f7e3fe5",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,91 +54,231 @@
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa y no sé muy bien qué esperar."
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez aquí."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa, especialmente en una primera sesión. Aquí estamos para crear un espacio seguro donde puedas hablar abiertamente. ¿Hay algo en particular que te preocupe?"
+      "text": "Es completamente normal sentirse así en la primera sesión. Estoy aquí para apoyarte y que te sientas cómoda. ¿Te gustaría compartir qué te llevó a buscar ayuda?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, a veces me siento muy abrumada... como si todo fuera demasiado pesado."
+      "text": "Sí, he estado sintiéndome un poco abrumada y a veces triste sin saber por qué. Quiero entender mejor lo que me está pasando."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo que esa sensación de agobio puede ser difícil de manejar. ¿Puedes contarme un poco más sobre qué es lo que te hace sentir así?"
+      "text": "Entiendo, y es un paso importante querer explorar esos sentimientos. Hay un cuestionario llamado PHQ-9 que nos ayudará a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Siento que tengo mucha presión con la escuela y mis propios pensamientos a menudo me abruman."
+      "text": "Sí, creo que eso me ayudaría a aclarar mis pensamientos."
     },
     {
       "speaker": "Valeria",
-      "text": "La presión escolar y los pensamientos constantes pueden ser muy abrumadores. Es importante poder identificar esos pensamientos. ¿Hay algún pensamiento en particular que te esté afectando más en este momento?"
+      "text": "Perfecto, aquí están las preguntas del cuestionario PHQ-9. Te las iré leyendo una a una. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "A veces pienso que no soy lo suficientemente buena en mi carrera, lo cual me hace dudar de mí misma."
+      "text": "De acuerdo, estoy lista para escuchar la primera pregunta."
     },
     {
       "speaker": "Valeria",
-      "text": "Esas dudas sobre uno mismo son más comunes de lo que piensas, pero pueden ser muy pesadas. Hablemos sobre esos pensamientos y cómo afectan tu autoestima. ¿Recuerdas cuándo comenzaron a aparecer con más frecuencia?"
+      "text": "1. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has experimentado esto en las últimas dos semanas?  \n0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días."
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Empezaron a aparecer más cuando comencé el quinto semestre, siento que las expectativas son más altas y me asustan."
+      "text": "Creo que ha sido un 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible sentirte así al enfrentar mayores expectativas. El cambio en la carga académica puede ser un gran desafío. ¿Has encontrado alguna manera de lidiar con esa presión hasta ahora?"
+      "text": "Gracias por compartir eso. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas en las últimas dos semanas? ¿Con qué frecuencia?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "A veces dibujo para relajarme, pero muchas veces me cuesta encontrar tiempo o ganas para hacerlo."
+      "text": "Creo que sería un 3, casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "El dibujo es una excelente forma de expresarte y relajarte. Es normal que a veces sea difícil encontrar el tiempo o la energía. ¿Te gustaría explorar maneras de incorporar ese tiempo creativo en tu rutina?"
+      "text": "Lo siento mucho por lo que estás sintiendo. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Con qué frecuencia has experimentado esto?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, me gustaría, creo que me ayudaría a sentirme mejor."
+      "text": "Este es un 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que estés abierta a ello. Podemos trabajar juntas para establecer un pequeño espacio en tu rutina dedicado a dibujar. ¿Te parece si empezamos con algo sencillo, como asignar unos minutos al día?"
+      "text": "Gracias por tu honestidad. \n\n4. ¿Te has sentido cansada o con poca energía en las últimas dos semanas? ¿Qué frecuencia has notado?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, me parece bien. Aunque sea poco tiempo, creo que podría ayudarme."
+      "text": "Eso sería un 3, casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Exactamente, incluso unos minutos pueden hacer una gran diferencia. ¿Qué te parece si establecemos un objetivo de cinco minutos al día para empezar? Podemos revisar cómo te sientes la próxima vez que nos veamos."
+      "text": "Entiendo, es un punto importante. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Con qué frecuencia?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Me parece una buena idea. Empezar con cinco minutos suena manejable para mí."
+      "text": "Creo que es un 1, algunos días."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, me alegra que lo veas así. Recuerda ser amable contigo misma en este proceso. ¿Hay algo más de lo que te gustaría hablar hoy?"
+      "text": "Gracias por compartir eso. \n\n6. ¿Te has sentido mal contigo misma, o has sentido que eres un fracaso o que has defraudado a tu familia? ¿Con qué frecuencia ha sucedido esto?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Creo que por ahora eso es suficiente. Estoy empezando a sentirme un poco más aliviada."
+      "text": "Eso sería un 3, casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra escuchar que te sientes más aliviada. Es un paso importante, y estoy aquí para apoyarte. Nos vemos la próxima semana para seguir trabajando juntas. ¡Cuídate!"
+      "text": "Lamento que estés sintiendo eso. \n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Con qué frecuencia has notado esto?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Gracias, cuídate también. Hasta la próxima."
+      "text": "Sería un 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "¡Hasta la próxima! Cuídate mucho."
+      "text": "Gracias por tu respuesta. \n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o te has sentido tan inquieta o agitada que te mueves mucho más de lo normal? ¿Con qué frecuencia has experimentado esto?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que eso sería un 1, algunos días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Con qué frecuencia?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Eso sería un 1, algunos días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio que compartas tus sentimientos. \n\n10. Por último, ¿has tenido molestias debido a alguno de estos problemas en general? ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que sería un 3, casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser tan abierta al responder. Lo que has compartido es muy valioso para entender cómo te sientes. Es importante que reconozcamos estas emociones y pensamientos. ¿Cómo te sientes después de haber contestado el cuestionario?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me siento un poco aliviada de haberlo compartido, aunque todavía hay una mezcla de emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir una mezcla de emociones después de compartir cosas tan personales. El alivio es un paso positivo. Estoy aquí para ayudarte a procesar esos sentimientos. ¿Te gustaría profundizar en alguno de los temas que mencionaste?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que me gustaría hablar más sobre la tristeza que he estado sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un tema muy importante para explorar. A menudo, la tristeza puede estar relacionada con diferentes experiencias o factores en nuestra vida. Para entender mejor lo que estás sintiendo, existe un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que ya respondí las preguntas del PHQ-9. ¿Podemos hablar de lo que siento?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes razón, ya hemos respondido esas preguntas. Hablemos sobre tu tristeza. ¿Puedes contarme más sobre cuándo comenzó y qué la desencadena?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Siento que empezó hace un par de meses, tal vez relacionado con el estrés de la escuela y algunas expectativas que tengo sobre mí misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, el estrés académico y las expectativas pueden ser muy abrumadores. Es natural que esas presiones influyan en cómo te sientes. ¿Hay situaciones específicas que sientas que intensifican esa tristeza?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "A veces, cuando tengo muchas tareas y siento que no puedo cumplir con todo, eso me hace sentir aún más triste y frustrada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente válido sentirte así, especialmente bajo tanta presión. A veces, esos sentimientos pueden ser indicadores de un estado emocional más profundo. Como ya hemos mencionado, existe un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Recuerda que esto no sustituye una evaluación profesional completa."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Ya respondí el cuestionario antes, pero creo que me gustaría seguir hablando sobre lo que siento en lugar de volver a hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes toda la razón, y me disculpo por la confusión. Centrémonos en tus sentimientos. ¿Te gustaría hablar sobre cómo manejas esa carga de tareas y las expectativas que sientes?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "A veces intento organizarme, pero hay días en que me siento tan abrumada que no sé ni por dónde empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es comprensible. La sensación de estar abrumada puede dificultar el inicio de cualquier tarea. ¿Has probado alguna estrategia específica para organizarte que funcione mejor en esos días difíciles?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "He intentado hacer listas de tareas, pero a veces me frustro si no puedo cumplir con todo lo que escribí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es normal sentirse frustrada cuando las cosas no salen como planeas. Quizás podríamos explorar alguna forma más flexible de organizar tus tareas, como priorizar solo unas pocas cosas cada día en lugar de una lista extensa. ¿Te parece que eso podría ayudar?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que eso podría ser útil. A veces me siento abrumada por la cantidad de cosas y priorizar podría hacer las cosas más manejables."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. Priorizar puede permitirte enfocarte en lo más importante y reducir la presión que sientes. También podrías establecer tiempos específicos para cada tarea, lo que puede ayudarte a mantenerte en el camino sin sentirte abrumada. ¿Te gustaría que trabajáramos juntas para crear un plan simple de priorización?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría eso. Tener un plan podría ayudarme a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Comencemos por identificar las tareas más importantes que tienes. ¿Cuáles son las tres principales que sientes que debes abordar primero?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que primero debería terminar un proyecto de arquitectura, luego estudiar para un examen, y por último, hacer un trabajo de grupo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, esas son tareas importantes. Ahora, para cada una, podríamos asignar un tiempo específico para trabajar en ellas. ¿Cuánto tiempo crees que necesitarías para cada tarea y en qué días planes trabajar en ellas?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Para el proyecto de arquitectura, creo que necesitaría unas 3 horas y podría trabajar en él el sábado. Para el examen, unas 2 horas el domingo y para el trabajo de grupo, tal vez 1 hora el lunes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Tienes un plan claro. Para el sábado, 3 horas en el proyecto de arquitectura; el domingo, 2 horas de estudio para el examen; y el lunes, 1 hora para el trabajo de grupo. Recuerda también permitirte descansos durante esas horas para evitar el agotamiento. ¿Cómo te sientes con este plan?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me siento más tranquila ahora que tengo un plan. Creo que tener horarios me ayudará a organizarme mejor y no sentirme tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Tener un plan puede marcar una gran diferencia en cómo te sientes y en cómo enfrentas tus tareas. Recuerda ser amable contigo misma y ajustar el plan si es necesario. Estoy aquí para apoyarte en este proceso. ¿Hay algo más sobre lo que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que por ahora eso es suficiente. Me siento un poco más aliviada después de hablar sobre esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas aliviada. Es un paso importante hacia el entendimiento y la gestión de tus emociones. Recuerda que aquí estoy para apoyarte en cualquier momento que lo necesites. Cuídate mucho y nos vemos en la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, cuídate también. Hasta luego."
     }
   ],
   "events": [
@@ -147,161 +287,451 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
-      "timestamp": 1764038144
+      "timestamp": 1764040776
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa y no sé muy bien qué esperar.",
-      "timestamp": 1764038145
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez aquí.",
+      "timestamp": 1764040776
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa, especialmente en una primera sesión. Aquí estamos para crear un espacio seguro donde puedas hablar abiertamente. ¿Hay algo en particular que te preocupe?",
-      "timestamp": 1764038146
+      "content": "Es completamente normal sentirse así en la primera sesión. Estoy aquí para apoyarte y que te sientas cómoda. ¿Te gustaría compartir qué te llevó a buscar ayuda?",
+      "timestamp": 1764040778
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, a veces me siento muy abrumada... como si todo fuera demasiado pesado.",
-      "timestamp": 1764038147
+      "content": "Sí, he estado sintiéndome un poco abrumada y a veces triste sin saber por qué. Quiero entender mejor lo que me está pasando.",
+      "timestamp": 1764040778
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764040778
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo que esa sensación de agobio puede ser difícil de manejar. ¿Puedes contarme un poco más sobre qué es lo que te hace sentir así?",
-      "timestamp": 1764038148
+      "content": "Entiendo, y es un paso importante querer explorar esos sentimientos. Hay un cuestionario llamado PHQ-9 que nos ayudará a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?",
+      "timestamp": 1764040780
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Siento que tengo mucha presión con la escuela y mis propios pensamientos a menudo me abruman.",
-      "timestamp": 1764038148
+      "content": "Sí, creo que eso me ayudaría a aclarar mis pensamientos.",
+      "timestamp": 1764040780
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_iurbnDtUDrthIS7OOwPEXnP2"
+      },
+      "timestamp": 1764040782
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_iurbnDtUDrthIS7OOwPEXnP2"
+      },
+      "timestamp": 1764040782
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "La presión escolar y los pensamientos constantes pueden ser muy abrumadores. Es importante poder identificar esos pensamientos. ¿Hay algún pensamiento en particular que te esté afectando más en este momento?",
-      "timestamp": 1764038149
+      "content": "Perfecto, aquí están las preguntas del cuestionario PHQ-9. Te las iré leyendo una a una. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?",
+      "timestamp": 1764040783
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces pienso que no soy lo suficientemente buena en mi carrera, lo cual me hace dudar de mí misma.",
-      "timestamp": 1764038150
+      "content": "De acuerdo, estoy lista para escuchar la primera pregunta.",
+      "timestamp": 1764040784
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esas dudas sobre uno mismo son más comunes de lo que piensas, pero pueden ser muy pesadas. Hablemos sobre esos pensamientos y cómo afectan tu autoestima. ¿Recuerdas cuándo comenzaron a aparecer con más frecuencia?",
-      "timestamp": 1764038152
+      "content": "1. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has experimentado esto en las últimas dos semanas?  \n0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días.",
+      "timestamp": 1764040785
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Empezaron a aparecer más cuando comencé el quinto semestre, siento que las expectativas son más altas y me asustan.",
-      "timestamp": 1764038153
+      "content": "Creo que ha sido un 2, más de la mitad de los días.",
+      "timestamp": 1764040786
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible sentirte así al enfrentar mayores expectativas. El cambio en la carga académica puede ser un gran desafío. ¿Has encontrado alguna manera de lidiar con esa presión hasta ahora?",
-      "timestamp": 1764038155
+      "content": "Gracias por compartir eso. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas en las últimas dos semanas? ¿Con qué frecuencia?",
+      "timestamp": 1764040787
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces dibujo para relajarme, pero muchas veces me cuesta encontrar tiempo o ganas para hacerlo.",
-      "timestamp": 1764038156
+      "content": "Creo que sería un 3, casi todos los días.",
+      "timestamp": 1764040788
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "El dibujo es una excelente forma de expresarte y relajarte. Es normal que a veces sea difícil encontrar el tiempo o la energía. ¿Te gustaría explorar maneras de incorporar ese tiempo creativo en tu rutina?",
-      "timestamp": 1764038157
+      "content": "Lo siento mucho por lo que estás sintiendo. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Con qué frecuencia has experimentado esto?",
+      "timestamp": 1764040789
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría, creo que me ayudaría a sentirme mejor.",
-      "timestamp": 1764038158
+      "content": "Este es un 2, más de la mitad de los días.",
+      "timestamp": 1764040790
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que estés abierta a ello. Podemos trabajar juntas para establecer un pequeño espacio en tu rutina dedicado a dibujar. ¿Te parece si empezamos con algo sencillo, como asignar unos minutos al día?",
-      "timestamp": 1764038159
+      "content": "Gracias por tu honestidad. \n\n4. ¿Te has sentido cansada o con poca energía en las últimas dos semanas? ¿Qué frecuencia has notado?",
+      "timestamp": 1764040792
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece bien. Aunque sea poco tiempo, creo que podría ayudarme.",
-      "timestamp": 1764038160
+      "content": "Eso sería un 3, casi todos los días.",
+      "timestamp": 1764040792
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Exactamente, incluso unos minutos pueden hacer una gran diferencia. ¿Qué te parece si establecemos un objetivo de cinco minutos al día para empezar? Podemos revisar cómo te sientes la próxima vez que nos veamos.",
-      "timestamp": 1764038162
+      "content": "Entiendo, es un punto importante. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Con qué frecuencia?",
+      "timestamp": 1764040793
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me parece una buena idea. Empezar con cinco minutos suena manejable para mí.",
-      "timestamp": 1764038163
+      "content": "Creo que es un 1, algunos días.",
+      "timestamp": 1764040795
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, me alegra que lo veas así. Recuerda ser amable contigo misma en este proceso. ¿Hay algo más de lo que te gustaría hablar hoy?",
-      "timestamp": 1764038164
+      "content": "Gracias por compartir eso. \n\n6. ¿Te has sentido mal contigo misma, o has sentido que eres un fracaso o que has defraudado a tu familia? ¿Con qué frecuencia ha sucedido esto?",
+      "timestamp": 1764040796
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que por ahora eso es suficiente. Estoy empezando a sentirme un poco más aliviada.",
-      "timestamp": 1764038165
+      "content": "Eso sería un 3, casi todos los días.",
+      "timestamp": 1764040797
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra escuchar que te sientes más aliviada. Es un paso importante, y estoy aquí para apoyarte. Nos vemos la próxima semana para seguir trabajando juntas. ¡Cuídate!",
-      "timestamp": 1764038167
+      "content": "Lamento que estés sintiendo eso. \n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Con qué frecuencia has notado esto?",
+      "timestamp": 1764040798
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias, cuídate también. Hasta la próxima.",
-      "timestamp": 1764038167
+      "content": "Sería un 2, más de la mitad de los días.",
+      "timestamp": 1764040800
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Hasta la próxima! Cuídate mucho.",
-      "timestamp": 1764038168
+      "content": "Gracias por tu respuesta. \n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o te has sentido tan inquieta o agitada que te mueves mucho más de lo normal? ¿Con qué frecuencia has experimentado esto?",
+      "timestamp": 1764040801
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso sería un 1, algunos días.",
+      "timestamp": 1764040802
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Con qué frecuencia?",
+      "timestamp": 1764040804
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 1, algunos días.",
+      "timestamp": 1764040805
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio que compartas tus sentimientos. \n\n10. Por último, ¿has tenido molestias debido a alguno de estos problemas en general? ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764040806
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 3, casi todos los días.",
+      "timestamp": 1764040807
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser tan abierta al responder. Lo que has compartido es muy valioso para entender cómo te sientes. Es importante que reconozcamos estas emociones y pensamientos. ¿Cómo te sientes después de haber contestado el cuestionario?",
+      "timestamp": 1764040809
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco aliviada de haberlo compartido, aunque todavía hay una mezcla de emociones.",
+      "timestamp": 1764040810
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir una mezcla de emociones después de compartir cosas tan personales. El alivio es un paso positivo. Estoy aquí para ayudarte a procesar esos sentimientos. ¿Te gustaría profundizar en alguno de los temas que mencionaste?",
+      "timestamp": 1764040812
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar más sobre la tristeza que he estado sintiendo.",
+      "timestamp": 1764040813
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764040813
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un tema muy importante para explorar. A menudo, la tristeza puede estar relacionada con diferentes experiencias o factores en nuestra vida. Para entender mejor lo que estás sintiendo, existe un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?",
+      "timestamp": 1764040815
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya respondí las preguntas del PHQ-9. ¿Podemos hablar de lo que siento?",
+      "timestamp": 1764040816
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes razón, ya hemos respondido esas preguntas. Hablemos sobre tu tristeza. ¿Puedes contarme más sobre cuándo comenzó y qué la desencadena?",
+      "timestamp": 1764040817
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que empezó hace un par de meses, tal vez relacionado con el estrés de la escuela y algunas expectativas que tengo sobre mí misma.",
+      "timestamp": 1764040818
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, el estrés académico y las expectativas pueden ser muy abrumadores. Es natural que esas presiones influyan en cómo te sientes. ¿Hay situaciones específicas que sientas que intensifican esa tristeza?",
+      "timestamp": 1764040819
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, cuando tengo muchas tareas y siento que no puedo cumplir con todo, eso me hace sentir aún más triste y frustrada.",
+      "timestamp": 1764040820
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764040820
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente válido sentirte así, especialmente bajo tanta presión. A veces, esos sentimientos pueden ser indicadores de un estado emocional más profundo. Como ya hemos mencionado, existe un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Recuerda que esto no sustituye una evaluación profesional completa.",
+      "timestamp": 1764040822
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ya respondí el cuestionario antes, pero creo que me gustaría seguir hablando sobre lo que siento en lugar de volver a hacerlo.",
+      "timestamp": 1764040823
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes toda la razón, y me disculpo por la confusión. Centrémonos en tus sentimientos. ¿Te gustaría hablar sobre cómo manejas esa carga de tareas y las expectativas que sientes?",
+      "timestamp": 1764040824
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces intento organizarme, pero hay días en que me siento tan abrumada que no sé ni por dónde empezar.",
+      "timestamp": 1764040824
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es comprensible. La sensación de estar abrumada puede dificultar el inicio de cualquier tarea. ¿Has probado alguna estrategia específica para organizarte que funcione mejor en esos días difíciles?",
+      "timestamp": 1764040825
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado hacer listas de tareas, pero a veces me frustro si no puedo cumplir con todo lo que escribí.",
+      "timestamp": 1764040826
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es normal sentirse frustrada cuando las cosas no salen como planeas. Quizás podríamos explorar alguna forma más flexible de organizar tus tareas, como priorizar solo unas pocas cosas cada día en lugar de una lista extensa. ¿Te parece que eso podría ayudar?",
+      "timestamp": 1764040828
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ser útil. A veces me siento abrumada por la cantidad de cosas y priorizar podría hacer las cosas más manejables.",
+      "timestamp": 1764040829
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. Priorizar puede permitirte enfocarte en lo más importante y reducir la presión que sientes. También podrías establecer tiempos específicos para cada tarea, lo que puede ayudarte a mantenerte en el camino sin sentirte abrumada. ¿Te gustaría que trabajáramos juntas para crear un plan simple de priorización?",
+      "timestamp": 1764040832
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Tener un plan podría ayudarme a sentirme más en control.",
+      "timestamp": 1764040832
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Comencemos por identificar las tareas más importantes que tienes. ¿Cuáles son las tres principales que sientes que debes abordar primero?",
+      "timestamp": 1764040834
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que primero debería terminar un proyecto de arquitectura, luego estudiar para un examen, y por último, hacer un trabajo de grupo.",
+      "timestamp": 1764040834
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, esas son tareas importantes. Ahora, para cada una, podríamos asignar un tiempo específico para trabajar en ellas. ¿Cuánto tiempo crees que necesitarías para cada tarea y en qué días planes trabajar en ellas?",
+      "timestamp": 1764040836
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para el proyecto de arquitectura, creo que necesitaría unas 3 horas y podría trabajar en él el sábado. Para el examen, unas 2 horas el domingo y para el trabajo de grupo, tal vez 1 hora el lunes.",
+      "timestamp": 1764040837
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Tienes un plan claro. Para el sábado, 3 horas en el proyecto de arquitectura; el domingo, 2 horas de estudio para el examen; y el lunes, 1 hora para el trabajo de grupo. Recuerda también permitirte descansos durante esas horas para evitar el agotamiento. ¿Cómo te sientes con este plan?",
+      "timestamp": 1764040839
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento más tranquila ahora que tengo un plan. Creo que tener horarios me ayudará a organizarme mejor y no sentirme tan abrumada.",
+      "timestamp": 1764040839
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Tener un plan puede marcar una gran diferencia en cómo te sientes y en cómo enfrentas tus tareas. Recuerda ser amable contigo misma y ajustar el plan si es necesario. Estoy aquí para apoyarte en este proceso. ¿Hay algo más sobre lo que te gustaría hablar hoy?",
+      "timestamp": 1764040841
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que por ahora eso es suficiente. Me siento un poco más aliviada después de hablar sobre esto.",
+      "timestamp": 1764040842
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas aliviada. Es un paso importante hacia el entendimiento y la gestión de tus emociones. Recuerda que aquí estoy para apoyarte en cualquier momento que lo necesites. Cuídate mucho y nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764040843
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate también. Hasta luego.",
+      "timestamp": 1764040844
     }
   ],
   "notes": null

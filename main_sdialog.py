@@ -4,7 +4,8 @@ from sdialog.personas import Persona
 from sdialog.orchestrators import SimpleReflexOrchestrator
 from config import arrancar
 from pacientes import pacientes
-from trigger import trigger_tool #, entry_incidents
+from trigger import trigger_tool  # , entry_incidents
+from joblib import Parallel, delayed
 
 
 # ARRANCAR --------------------------------------------------------
@@ -14,28 +15,26 @@ arrancar()
 # PERSONAS --------------------------------------------------------
 
 psicologo = Persona(
-    name="Valeria", 
+    name="Valeria",
     age=30,
     race="Latina",
     language="español",
     background="psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
     gender="femenino",
-    role="psicóloga", 
+    role="psicóloga",
     personality="curiosa empática",
     rules="Habla solo en español",
     circumstances="Está conduciendo una sesión de terapia con un nuevo paciente",
 )
 
 
-
-
 # CONTEXTOS --------------------------------------------------------
 
 contexto = Context(
-  location="Consultorio de psicología",
-  environment="silencioso, una luz suave entra por la ventana",
-  circumstances="Sesión un viernes por la tarde noche",
-  objects=["escritorio con laptop", "sillas cómodas", "cuadros relajantes en las paredes"],
+    location="Consultorio de psicología",
+    environment="silencioso, una luz suave entra por la ventana",
+    circumstances="Sesión un viernes por la tarde noche",
+    objects=["escritorio con laptop", "sillas cómodas", "cuadros relajantes en las paredes"],
 )
 
 
@@ -106,16 +105,16 @@ phq9_reflex = SimpleReflexOrchestrator(
 def summary_reflex_condition(utt: str) -> bool:
     ending_keywords = [
         "gracias por tu ayuda", "hemos terminado",
-        "eso es todo por hoy","nos vemos la próxima sesión",
-        "nos vemos en la próxima sesión","hasta luego",
-        "¡hasta luego!","¡hasta la próxima!",
-        "adiós","me despido",
-        "terminamos aquí","eso es todo",
-        "gracias por todo","muchas gracias por todo",
-        "gracias por escucharme","por hoy está bien",
-        "creo que por hoy es suficiente","podemos dejarlo hasta aquí",
-        "lo dejamos hasta aquí","nos vemos la próxima vez",
-        "nos vemos en la siguiente sesión","de nada",
+        "eso es todo por hoy", "nos vemos la próxima sesión",
+        "nos vemos en la próxima sesión", "hasta luego",
+        "¡hasta luego!", "¡hasta la próxima!",
+        "adiós", "me despido",
+        "terminamos aquí", "eso es todo",
+        "gracias por todo", "muchas gracias por todo",
+        "gracias por escucharme", "por hoy está bien",
+        "creo que por hoy es suficiente", "podemos dejarlo hasta aquí",
+        "lo dejamos hasta aquí", "nos vemos la próxima vez",
+        "nos vemos en la siguiente sesión", "de nada",
     ]
     text = utt.lower()
     return any(phrase in text for phrase in ending_keywords)
@@ -138,33 +137,70 @@ summary_reflex = SimpleReflexOrchestrator(
 )
 
 
-# LOOP DE PACIENTES ------------------------------------------------
+# FUNCIÓN PARA UNA SESIÓN (UNIT OF WORK) --------------------------
+
+def run_session(persona, carrera, sesion_id: int):
+    nombre = persona.name
+    primera_intervencion = (
+        f"Hola {nombre}, toma asiento por favor. "
+        f"¿Cómo te sientes hoy al estar aquí?"
+    )
+
+    paciente = Agent(persona=persona)
+
+    valeria_psicologo = Agent(
+        persona=psicologo,
+        first_utterance=primera_intervencion,
+        tools=[get_phq9_questions, symmary_session],
+    )
+
+    valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
+
+    dialog = valeria_psicologo.dialog_with(
+        paciente,
+        context=contexto,
+    )
+
+    dialog.print(orchestration=True)
+
+    nombre_f = nombre.replace(" ", "_").lower()
+    major = carrera.replace(" ", "_").lower()
+    archivo_terapia = f"{major}_sesion_{sesion_id}_paciente_{nombre_f}.json"
+
+    dialog.to_file(archivo_terapia, human_readable=True)
+
+    # Nota: esto escribe en incidents.json desde varios threads.
+    # Si ves cosas raras, habrá que proteger esto con un lock o
+    # procesarlo en una segunda pasada secuencial.
+    trigger_tool(
+        path_dialog=archivo_terapia,
+        path_incidents="incidents.json",
+        tool="get_phq9_questions",
+        major=carrera,
+        verbose=True,
+    )
+
+    return archivo_terapia
+
+
+# LOOP DE PACIENTES EN PARALELO CON JOBLIB ------------------------
 
 sesiones = 5
-for sesion in range(sesiones):
-    for persona, carrera in pacientes():
-        nombre = persona.name
-        primera_intervencion = (f"Hola {nombre}, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí ")
-        paciente = Agent(persona=persona)
-        valeria_psicologo = Agent(
-            persona=psicologo,
-            first_utterance=primera_intervencion,
-            tools=[get_phq9_questions, symmary_session],
-        )
-        
-        valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
 
-        # Un solo diálogo: Valeria ↔ Fernando
-        dialog = valeria_psicologo.dialog_with(
-            paciente,
-            context=contexto,
-        )
-        
-        dialog.print(orchestration=True)
-        nombre_f = nombre.replace(" ", "_").lower()
-        major = carrera.replace(" ", "_").lower()
-        archivo_terapia = f"{major}_terapia_paciente_{nombre_f}.json"
-        dialog.to_file(archivo_terapia, human_readable=True)
-        trigger_tool(path_dialog=archivo_terapia, path_incidents="incidents.json", tool="get_phq9_questions", major=carrera, verbose=True)
+# Si pacientes() es generador, lo materializamos una sola vez
+lista_pacientes = list(pacientes())
 
+# Armamos todas las tareas (persona, carrera, sesion_id)
+tareas = [
+    (persona, carrera, sesion_id)
+    for sesion_id in range(sesiones)
+    for (persona, carrera) in lista_pacientes
+]
 
+# Número de workers en paralelo
+n_workers = 5  # ajusta según qué tanto quieres paralelizar
+
+Parallel(n_jobs=n_workers, backend="threading")(
+    delayed(run_session)(persona, carrera, sesion_id)
+    for (persona, carrera, sesion_id) in tareas
+)

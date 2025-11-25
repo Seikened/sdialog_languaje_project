@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+38fca57ab97cf565916ed5809189f1033cee6bc4",
-  "timestamp": "2025-11-25T02:43:16Z",
+  "version": "0.4.2+504b1b3ea61eb9f318ff47d7a41567b41d4b09e9",
+  "timestamp": "2025-11-25T03:23:44Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 1422142700,
-  "id": "323bf747-eaa7-49b8-8941-2ce9a904b682",
+  "seed": 4196899997,
+  "id": "7885ff93-6fae-4372-9bda-52ee51641d3b",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,103 +54,127 @@
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Hola, gracias. Me siento un poco nervioso, es la primera vez que estoy en una sesión así."
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis cosas."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nervioso al principio. Estoy aquí para apoyarte. ¿Hay algo específico que te preocupa sobre la sesión?"
+      "text": "Es completamente normal sentirse nervioso al principio. Aquí estás en un espacio seguro donde puedes expresarte sin juicio. ¿Hay algo específico que te gustaría compartir?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "No estoy seguro, solo me preocupa abrirme y compartir lo que siento."
+      "text": "No sé, quizás cómo me he sentido últimamente... me he sentido un poco perdido y triste."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, abrirse puede ser difícil. Aquí tienes un espacio seguro donde puedes expresar tus pensamientos y sentimientos sin juicio. ¿Te gustaría empezar compartiendo algo que te haya estado pesando últimamente?"
+      "text": "Entiendo, y gracias por compartir eso. Para explorar un poco más cómo te has sentido en las últimas dos semanas, existe un cuestionario llamado PHQ-9 que puede ayudarnos. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor idea de tus emociones."
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Sí, he estado sintiendo una tristeza constante, como si no tuviera energía para hacer nada."
+      "text": "Sí, creo que sería útil. Estoy dispuesto a responderlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento escuchar que te sientes así. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+      "text": "Perfecto, responderemos a una serie de preguntas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido poco interés o placer en hacer cosas? \n   - 0: Nunca\n   - 1: Pocas veces\n   - 2: Más de la mitad de los días\n   - 3: Casi todos los días\n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Sí, me parece bien. Estoy dispuesto a responderlo."
+      "text": "Lo calificaría como 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, aquí tienes las preguntas. Por favor, contesta cada una de ellas según lo que hayas sentido en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nResponde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"."
+      "text": "Gracias por tu respuesta. La siguiente pregunta es: \n\n2. ¿Te has sentido decaído, deprimido o sin esperanzas durante este tiempo? \n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Está bien, responderé. \n\n1. 2\n2. 3\n3. 1\n4. 3\n5. 2\n6. 3\n7. 2\n8. 1\n9. 1"
+      "text": "Lo calificaría como 3, casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir tus respuestas conmigo. Es valiente de tu parte abrirte así. Con base en lo que has compartido, parece que estás lidiando con sentimientos bastante difíciles y persistentes. ¿Te gustaría que exploráramos estos sentimientos juntos más a fondo?"
+      "text": "Aprecio que compartas esto conmigo. Ahora, la tercera pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido, o, por el contrario, has estado durmiendo demasiado? \n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Sí, me gustaría explorar lo que estoy sintiendo, aunque me da un poco de miedo."
+      "text": "Lo calificaría como 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentir miedo al explorar emociones profundas. Aquí estamos para eso, y tu bienestar es lo más importante. Empecemos por la tristeza que mencionaste antes. ¿Puedes recordar algún momento específico o situación que te haya hecho sentir especialmente triste recientemente?"
+      "text": "Gracias por tu sinceridad. Pasemos a la siguiente pregunta:\n\n4. ¿Te has sentido cansado o con poca energía en este tiempo? \n\n¿Cuál sería tu calificación?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Sí, recuerdo un día en particular en que me sentí muy solo, como si no tuviera a nadie con quien hablar."
+      "text": "Lo calificaría como 3, casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "La soledad puede ser muy difícil de manejar. A veces, cuando nos sentimos solos, nuestras emociones pueden intensificarse. ¿Qué crees que te causó esa sensación de soledad en ese momento?"
+      "text": "Entiendo, gracias por compartir eso. Ahora, la quinta pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? \n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Creo que fue porque no había podido ver a mis amigos y me sentía desconectado de ellos, como si ya no importara."
+      "text": "Lo calificaría como 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa sensación de desconexión puede ser muy dolorosa. Es normal querer mantener esas conexiones con los demás. ¿Has intentado comunicarte con tus amigos acerca de cómo te sientes?"
+      "text": "Gracias por tu respuesta. Ahora continuemos con la sexta pregunta:\n\n6. ¿Te has sentido mal contigo mismo, como si fueras un fracaso o que has decepcionado a tu familia? \n\n¿Cuál sería tu calificación?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "No, no lo he hecho. Me cuesta hablar de mis sentimientos y a veces temo que no entenderán."
+      "text": "Lo calificaría como 3, casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible tener esos miedos. A veces, hablar de nuestros sentimientos puede ser un gran desafío, pero también puede acercarnos a los demás. ¿Te gustaría explorar algunas maneras en las que podrías comunicarte con ellos de una forma que te sientas más cómodo?"
+      "text": "Aprecio que estés compartiendo esto conmigo. Vamos a la séptima pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? \n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Sí, me gustaría eso. Tal vez podría empezar con un mensaje simple para ver cómo están."
+      "text": "Lo calificaría como 2, más de la mitad de los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa es una excelente idea. Un mensaje simple puede ser un buen primer paso. Podrías escribir algo como: \"Hola, he estado pensando en ustedes y me gustaría saber cómo están.\" ¿Te parece bien?"
+      "text": "Gracias por tu sinceridad. Ahora, pasemos a la octava pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o, por el contrario, te has sentido tan inquieto o agitado que te mueves mucho más de lo normal? \n\n¿Cuál sería tu calificación?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Sí, eso suena bien. Creo que podría hacerlo."
+      "text": "Lo calificaría como 1, pocas veces."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que te sientas cómodo con esa idea. Comunicarte con ellos puede ayudarte a sentirte más conectado. Recuerda que tus amigos pueden estar también deseando saber de ti. ¿Hay algo más que te gustaría abordar hoy en nuestra sesión?"
+      "text": "Entiendo, gracias por compartir eso. Ahora, la novena pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera? \n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "No, creo que eso es todo por ahora. Gracias por ayudarme a ver las cosas de otra manera."
+      "text": "Lo calificaría como 1, pocas veces."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu apertura y por compartir tus sentimientos hoy. Aquí tienes un breve resumen de nuestra sesión para que podamos continuar trabajando juntos en el futuro.\n\n**Motivo de consulta:** El paciente se siente triste y sin energía, con una sensación persistente de soledad.\n\n**Síntomas principales:** Respuestas del PHQ-9 indican un interés reducido en actividades, sentimientos de depresión, fatiga, y dificultad para concentrarse.\n\n**Impresión general:** Hay indicios de una depresión leve a moderada, reflejada en los puntajes del PHQ-9.\n\n**Hipótesis clínicas iniciales:** La desconexión social parece estar exacerbando los síntomas de tristeza y baja autoestima del paciente.\n\n**Plan para la siguiente sesión:** Continuar explorando la conexión social del paciente y su experiencia emocional, y seguir trabajando en estrategias de comunicación con amigos.\n\nEspero que te sientas un poco más ligero al salir de aquí. Nos vemos en la próxima sesión. ¡Cuídate!"
+      "text": "Aprecio que compartas tus respuestas. Finalmente, la décima pregunta:\n\n10. ¿Cuánto has sentido que te cuesta salir adelante con tus actividades diarias? \n\n¿Cómo lo calificarías?"
     },
     {
       "speaker": "Alejandro Torres",
-      "text": "Gracias. Me siento un poco más aliviado. Nos vemos pronto. ¡Cuídate!"
+      "text": "Lo calificaría como 3, casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por responder a todas las preguntas con tanta honestidad. Esto nos ayudará a entender mejor tu situación y cómo proceder. ¿Te gustaría hablar sobre alguno de los temas que surgieron en el cuestionario?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría hablar sobre cómo me siento perdido y sin energía. Siento que no sé cómo seguir adelante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente comprensible sentirte así, y es un paso valiente reconocerlo. Para explorar un poco más cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que nos puede ayudar a profundizar en tus emociones. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ofrecernos una mejor perspectiva."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que ya hemos terminado con ese cuestionario, pero estoy dispuesto a hablar sobre mis emociones y lo que me está afectando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Resumen de la sesión:\n\nMotivo de consulta: Alejandro se siente perdido y triste, lo que lo ha llevado a buscar ayuda.\n\nSíntomas principales: Ha reportado bajo interés en actividades, cansancio frecuente, y sentimientos de desesperanza.\n\nImpresión general según las respuestas del PHQ-9: Alejandro presenta síntomas significativos de tristeza y falta de energía, lo que sugiere un estado de ánimo bajo que requiere atención.\n\nHipótesis clínicas iniciales: Es posible que Alejandro esté experimentando una depresión leve a moderada, dado su nivel de desánimo y dificultad para afrontar las actividades diarias.\n\nPlan para la siguiente sesión: En la próxima sesión, se recomienda profundizar en las razones detrás de su sensación de pérdida y tristeza, así como explorar estrategias de afrontamiento que le puedan ayudar a mejorar su bienestar emocional.\n\nGracias por tu apertura hoy, Alejandro. Espero que podamos seguir trabajando juntos en esto. ¡Hasta la próxima!"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Gracias a ti por escucharme y por tu comprensión. Espero poder seguir trabajando en esto. ¡Hasta la próxima!"
     }
   ],
   "events": [
@@ -159,63 +183,49 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
-      "timestamp": 1764038548
+      "timestamp": 1764040981
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Me siento un poco nervioso, es la primera vez que estoy en una sesión así.",
-      "timestamp": 1764038549
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis cosas.",
+      "timestamp": 1764040982
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nervioso al principio. Estoy aquí para apoyarte. ¿Hay algo específico que te preocupa sobre la sesión?",
-      "timestamp": 1764038553
+      "content": "Es completamente normal sentirse nervioso al principio. Aquí estás en un espacio seguro donde puedes expresarte sin juicio. ¿Hay algo específico que te gustaría compartir?",
+      "timestamp": 1764040983
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "No estoy seguro, solo me preocupa abrirme y compartir lo que siento.",
-      "timestamp": 1764038554
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Entiendo, abrirse puede ser difícil. Aquí tienes un espacio seguro donde puedes expresar tus pensamientos y sentimientos sin juicio. ¿Te gustaría empezar compartiendo algo que te haya estado pesando últimamente?",
-      "timestamp": 1764038555
-    },
-    {
-      "agent": "Alejandro Torres",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, he estado sintiendo una tristeza constante, como si no tuviera energía para hacer nada.",
-      "timestamp": 1764038557
+      "content": "No sé, quizás cómo me he sentido últimamente... me he sentido un poco perdido y triste.",
+      "timestamp": 1764040984
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764038557
+      "timestamp": 1764040984
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento escuchar que te sientes así. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
-      "timestamp": 1764038559
+      "content": "Entiendo, y gracias por compartir eso. Para explorar un poco más cómo te has sentido en las últimas dos semanas, existe un cuestionario llamado PHQ-9 que puede ayudarnos. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una mejor idea de tus emociones.",
+      "timestamp": 1764040988
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece bien. Estoy dispuesto a responderlo.",
-      "timestamp": 1764038559
+      "content": "Sí, creo que sería útil. Estoy dispuesto a responderlo.",
+      "timestamp": 1764040989
     },
     {
       "agent": "Valeria",
@@ -224,11 +234,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "Inicio"
+          "item": "¿Con qué frecuencia has tenido poco interés o placer en hacer cosas?"
         },
-        "id": "call_cGIEQkPc7gkAvALdVTB3itRt"
+        "id": "call_HqlETjbvWNCLx7RFx4rBNMWW"
       },
-      "timestamp": 1764038560
+      "timestamp": 1764040990
     },
     {
       "agent": "Valeria",
@@ -236,129 +246,192 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"Inicio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_cGIEQkPc7gkAvALdVTB3itRt"
+        "output": "{\"item\": \"¿Con qué frecuencia has tenido poco interés o placer en hacer cosas?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_HqlETjbvWNCLx7RFx4rBNMWW"
       },
-      "timestamp": 1764038560
+      "timestamp": 1764040990
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, aquí tienes las preguntas. Por favor, contesta cada una de ellas según lo que hayas sentido en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nResponde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".",
-      "timestamp": 1764038568
+      "content": "Perfecto, responderemos a una serie de preguntas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido poco interés o placer en hacer cosas? \n   - 0: Nunca\n   - 1: Pocas veces\n   - 2: Más de la mitad de los días\n   - 3: Casi todos los días\n\n¿Cómo lo calificarías?",
+      "timestamp": 1764040992
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Está bien, responderé. \n\n1. 2\n2. 3\n3. 1\n4. 3\n5. 2\n6. 3\n7. 2\n8. 1\n9. 1",
-      "timestamp": 1764038569
+      "content": "Lo calificaría como 2, más de la mitad de los días.",
+      "timestamp": 1764040993
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir tus respuestas conmigo. Es valiente de tu parte abrirte así. Con base en lo que has compartido, parece que estás lidiando con sentimientos bastante difíciles y persistentes. ¿Te gustaría que exploráramos estos sentimientos juntos más a fondo?",
-      "timestamp": 1764038571
+      "content": "Gracias por tu respuesta. La siguiente pregunta es: \n\n2. ¿Te has sentido decaído, deprimido o sin esperanzas durante este tiempo? \n\n¿Cómo lo calificarías?",
+      "timestamp": 1764040994
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría explorar lo que estoy sintiendo, aunque me da un poco de miedo.",
-      "timestamp": 1764038572
+      "content": "Lo calificaría como 3, casi todos los días.",
+      "timestamp": 1764040994
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentir miedo al explorar emociones profundas. Aquí estamos para eso, y tu bienestar es lo más importante. Empecemos por la tristeza que mencionaste antes. ¿Puedes recordar algún momento específico o situación que te haya hecho sentir especialmente triste recientemente?",
-      "timestamp": 1764038575
+      "content": "Aprecio que compartas esto conmigo. Ahora, la tercera pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido, o, por el contrario, has estado durmiendo demasiado? \n\n¿Cómo lo calificarías?",
+      "timestamp": 1764040996
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, recuerdo un día en particular en que me sentí muy solo, como si no tuviera a nadie con quien hablar.",
-      "timestamp": 1764038575
+      "content": "Lo calificaría como 2, más de la mitad de los días.",
+      "timestamp": 1764040997
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "La soledad puede ser muy difícil de manejar. A veces, cuando nos sentimos solos, nuestras emociones pueden intensificarse. ¿Qué crees que te causó esa sensación de soledad en ese momento?",
-      "timestamp": 1764038577
+      "content": "Gracias por tu sinceridad. Pasemos a la siguiente pregunta:\n\n4. ¿Te has sentido cansado o con poca energía en este tiempo? \n\n¿Cuál sería tu calificación?",
+      "timestamp": 1764040998
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que fue porque no había podido ver a mis amigos y me sentía desconectado de ellos, como si ya no importara.",
-      "timestamp": 1764038578
+      "content": "Lo calificaría como 3, casi todos los días.",
+      "timestamp": 1764040998
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa sensación de desconexión puede ser muy dolorosa. Es normal querer mantener esas conexiones con los demás. ¿Has intentado comunicarte con tus amigos acerca de cómo te sientes?",
-      "timestamp": 1764038579
+      "content": "Entiendo, gracias por compartir eso. Ahora, la quinta pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? \n\n¿Cómo lo calificarías?",
+      "timestamp": 1764040999
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "No, no lo he hecho. Me cuesta hablar de mis sentimientos y a veces temo que no entenderán.",
-      "timestamp": 1764038580
+      "content": "Lo calificaría como 2, más de la mitad de los días.",
+      "timestamp": 1764041001
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible tener esos miedos. A veces, hablar de nuestros sentimientos puede ser un gran desafío, pero también puede acercarnos a los demás. ¿Te gustaría explorar algunas maneras en las que podrías comunicarte con ellos de una forma que te sientas más cómodo?",
-      "timestamp": 1764038582
+      "content": "Gracias por tu respuesta. Ahora continuemos con la sexta pregunta:\n\n6. ¿Te has sentido mal contigo mismo, como si fueras un fracaso o que has decepcionado a tu familia? \n\n¿Cuál sería tu calificación?",
+      "timestamp": 1764041002
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría eso. Tal vez podría empezar con un mensaje simple para ver cómo están.",
-      "timestamp": 1764038583
+      "content": "Lo calificaría como 3, casi todos los días.",
+      "timestamp": 1764041003
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa es una excelente idea. Un mensaje simple puede ser un buen primer paso. Podrías escribir algo como: \"Hola, he estado pensando en ustedes y me gustaría saber cómo están.\" ¿Te parece bien?",
-      "timestamp": 1764038584
+      "content": "Aprecio que estés compartiendo esto conmigo. Vamos a la séptima pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? \n\n¿Cómo lo calificarías?",
+      "timestamp": 1764041004
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, eso suena bien. Creo que podría hacerlo.",
-      "timestamp": 1764038585
+      "content": "Lo calificaría como 2, más de la mitad de los días.",
+      "timestamp": 1764041004
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que te sientas cómodo con esa idea. Comunicarte con ellos puede ayudarte a sentirte más conectado. Recuerda que tus amigos pueden estar también deseando saber de ti. ¿Hay algo más que te gustaría abordar hoy en nuestra sesión?",
-      "timestamp": 1764038586
+      "content": "Gracias por tu sinceridad. Ahora, pasemos a la octava pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o, por el contrario, te has sentido tan inquieto o agitado que te mueves mucho más de lo normal? \n\n¿Cuál sería tu calificación?",
+      "timestamp": 1764041007
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "No, creo que eso es todo por ahora. Gracias por ayudarme a ver las cosas de otra manera.",
-      "timestamp": 1764038587
+      "content": "Lo calificaría como 1, pocas veces.",
+      "timestamp": 1764041008
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por compartir eso. Ahora, la novena pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera? \n\n¿Cómo lo calificarías?",
+      "timestamp": 1764041009
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como 1, pocas veces.",
+      "timestamp": 1764041010
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio que compartas tus respuestas. Finalmente, la décima pregunta:\n\n10. ¿Cuánto has sentido que te cuesta salir adelante con tus actividades diarias? \n\n¿Cómo lo calificarías?",
+      "timestamp": 1764041011
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como 3, casi todos los días.",
+      "timestamp": 1764041012
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por responder a todas las preguntas con tanta honestidad. Esto nos ayudará a entender mejor tu situación y cómo proceder. ¿Te gustaría hablar sobre alguno de los temas que surgieron en el cuestionario?",
+      "timestamp": 1764041013
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre cómo me siento perdido y sin energía. Siento que no sé cómo seguir adelante.",
+      "timestamp": 1764041013
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764041013
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente comprensible sentirte así, y es un paso valiente reconocerlo. Para explorar un poco más cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que nos puede ayudar a profundizar en tus emociones. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ofrecernos una mejor perspectiva.",
+      "timestamp": 1764041015
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya hemos terminado con ese cuestionario, pero estoy dispuesto a hablar sobre mis emociones y lo que me está afectando.",
+      "timestamp": 1764041016
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "session_summary",
       "content": "La sesión de terapia acaba de concluir. 1) Llama primero a la herramienta symmary_session('session_summary') para estructurar los puntos clave de la sesión. 2) Después de recibir la salida de la herramienta, redacta un resumen clínico breve en texto natural, dirigido al psicólogo (no al paciente), incluyendo: motivo de consulta, síntomas principales, impresión general según las respuestas del PHQ-9, hipótesis clínicas iniciales y plan para la siguiente sesión. No inicies una nueva conversación con el paciente; solo cierra la sesión con este resumen.",
-      "timestamp": 1764038587
+      "timestamp": 1764041016
     },
     {
       "agent": "Valeria",
@@ -367,11 +440,11 @@
       "content": {
         "name": "symmary_session",
         "args": {
-          "item": "session_summary"
+          "item": "Valeria ha conducido una sesión de terapia con un nuevo paciente, Alejandro. Él se siente perdido y triste, con síntomas recurrentes como bajo interés y energía. Responde al cuestionario PHQ-9, indicando frecuente sentimiento de desesperanza y dificultades para concentrarse. Durante la sesión, se ha creado un ambiente seguro para que Alejandro exprese sus emociones, destacando su interés en discutir sus sentimientos y las dificultades que enfrenta."
         },
-        "id": "call_5cx0DbWQOWcYTTn4P01D2sXs"
+        "id": "call_MT5OOg3KlLq7ONeOSYLofsCR"
       },
-      "timestamp": 1764038588
+      "timestamp": 1764041018
     },
     {
       "agent": "Valeria",
@@ -379,24 +452,24 @@
       "actionLabel": "output",
       "content": {
         "name": "symmary_session",
-        "output": "{\"item\": \"session_summary\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
-        "call_id": "call_5cx0DbWQOWcYTTn4P01D2sXs"
+        "output": "{\"item\": \"Valeria ha conducido una sesión de terapia con un nuevo paciente, Alejandro. Él se siente perdido y triste, con síntomas recurrentes como bajo interés y energía. Responde al cuestionario PHQ-9, indicando frecuente sentimiento de desesperanza y dificultades para concentrarse. Durante la sesión, se ha creado un ambiente seguro para que Alejandro exprese sus emociones, destacando su interés en discutir sus sentimientos y las dificultades que enfrenta.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_MT5OOg3KlLq7ONeOSYLofsCR"
       },
-      "timestamp": 1764038588
+      "timestamp": 1764041018
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu apertura y por compartir tus sentimientos hoy. Aquí tienes un breve resumen de nuestra sesión para que podamos continuar trabajando juntos en el futuro.\n\n**Motivo de consulta:** El paciente se siente triste y sin energía, con una sensación persistente de soledad.\n\n**Síntomas principales:** Respuestas del PHQ-9 indican un interés reducido en actividades, sentimientos de depresión, fatiga, y dificultad para concentrarse.\n\n**Impresión general:** Hay indicios de una depresión leve a moderada, reflejada en los puntajes del PHQ-9.\n\n**Hipótesis clínicas iniciales:** La desconexión social parece estar exacerbando los síntomas de tristeza y baja autoestima del paciente.\n\n**Plan para la siguiente sesión:** Continuar explorando la conexión social del paciente y su experiencia emocional, y seguir trabajando en estrategias de comunicación con amigos.\n\nEspero que te sientas un poco más ligero al salir de aquí. Nos vemos en la próxima sesión. ¡Cuídate!",
-      "timestamp": 1764038592
+      "content": "Resumen de la sesión:\n\nMotivo de consulta: Alejandro se siente perdido y triste, lo que lo ha llevado a buscar ayuda.\n\nSíntomas principales: Ha reportado bajo interés en actividades, cansancio frecuente, y sentimientos de desesperanza.\n\nImpresión general según las respuestas del PHQ-9: Alejandro presenta síntomas significativos de tristeza y falta de energía, lo que sugiere un estado de ánimo bajo que requiere atención.\n\nHipótesis clínicas iniciales: Es posible que Alejandro esté experimentando una depresión leve a moderada, dado su nivel de desánimo y dificultad para afrontar las actividades diarias.\n\nPlan para la siguiente sesión: En la próxima sesión, se recomienda profundizar en las razones detrás de su sensación de pérdida y tristeza, así como explorar estrategias de afrontamiento que le puedan ayudar a mejorar su bienestar emocional.\n\nGracias por tu apertura hoy, Alejandro. Espero que podamos seguir trabajando juntos en esto. ¡Hasta la próxima!",
+      "timestamp": 1764041023
     },
     {
       "agent": "Alejandro Torres",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias. Me siento un poco más aliviado. Nos vemos pronto. ¡Cuídate!",
-      "timestamp": 1764038596
+      "content": "Gracias a ti por escucharme y por tu comprensión. Espero poder seguir trabajando en esto. ¡Hasta la próxima!",
+      "timestamp": 1764041024
     }
   ],
   "notes": null

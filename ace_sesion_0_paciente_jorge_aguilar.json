@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T05:10:44Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T16:59:42Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 3879549960,
-  "id": "8c60f8a3-be50-411b-bd0d-0cda06ac89bd",
+  "seed": 360441065,
+  "id": "d8257b69-e263-46e8-886f-440a766f4b2c",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,95 +54,127 @@
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Hola, gracias. Pues, la verdad es que me siento un poco nervioso, es mi primera vez en terapia y no sé muy bien qué esperar."
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso, es la primera vez que estoy en una terapia."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nervioso en tu primera sesión. Aquí estamos para hablar de lo que desees y poder apoyarte. ¿Hay algo específico que te gustaría compartir o preguntar?"
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trae hoy aquí?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Sí, creo que me gustaría hablar sobre cómo me he sentido últimamente, he estado lidiando con pensamientos negativos y a veces me siento un poco perdido."
+      "text": "Sí, creo que he estado sintiendo un poco de tristeza y ansiedad últimamente, y me gustaría entender mejor lo que me está pasando."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, esos sentimientos pueden ser muy difíciles de enfrentar. ¿Podrías contarme más sobre esos pensamientos negativos y cómo te afectan en tu día a día?"
+      "text": "Entiendo, Jorge. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que nos puede ayudar. ¿Estás de acuerdo en responderlo? Recuerda que esto no sustituye una evaluación profesional completa."
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Claro, a menudo me siento abrumado por la presión de la escuela y la vida social. A veces pienso que no soy lo suficientemente bueno y eso me hace dudar de mí mismo."
+      "text": "Sí, estoy de acuerdo. Creo que podría ayudarme a ver las cosas más claras."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible sentirse abrumado en situaciones así. La presión puede hacer que cuestionemos nuestra valía. ¿Podrías darme un ejemplo de una situación reciente en la que te hayas sentido así?"
+      "text": "Perfecto, vamos a comenzar con las preguntas. Responde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. ¿Poco interés o placer en hacer cosas?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Sí, el otro día tuve una presentación en clase y me puse tan nervioso que no podía pensar bien. Después, sentí que no había hecho un buen trabajo y me afectó todo el día."
+      "text": "Creo que un 2. A veces me cuesta encontrar placer en las cosas que solía disfrutar."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento que hayas tenido esa experiencia. Las presentaciones pueden provocar una gran ansiedad. ¿Qué pensamientos pasaron por tu mente después de la presentación que te hicieron sentir así?"
+      "text": "Gracias por compartir eso, Jorge. La siguiente pregunta es: \n\n2. ¿Sentirte decaído(a), deprimido(a) o sin esperanzas?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Después de la presentación, empecé a pensar que mis compañeros se burlaban de mí y que no me tomarían en serio. Me sentí muy mal conmigo mismo."
+      "text": "Le daría un 3. He estado sintiéndome muy decaído y sin muchas esperanzas últimamente."
     },
     {
       "speaker": "Valeria",
-      "text": "Es doloroso sentir que los demás no te toman en serio, y esos pensamientos pueden ser muy pesados. Vamos a trabajar juntos para entender y cambiar esa percepción. ¿Qué te gustaría que sucediera para sentirte más seguro en situaciones así?"
+      "text": "Entiendo, eso es muy importante. Ahora, la tercera pregunta: \n\n3. ¿Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Me gustaría sentirme más preparado y confiado antes de hablar en público, quizás practicar más o aprender a manejar mi ansiedad en esos momentos."
+      "text": "Le daría un 2. He tenido problemas para dormir, aunque a veces también duermo más de lo normal."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena como un buen enfoque. Practicar y aprender a manejar la ansiedad puede ayudarte a sentirte más seguro. Podemos explorar técnicas específicas que te permitan enfrentar esas situaciones con mayor confianza. ¿Te gustaría empezar por alguna técnica en particular?"
+      "text": "Gracias por tu honestidad, Jorge. Continuemos con la próxima pregunta:\n\n4. ¿Sentirte cansado(a) o con poca energía?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Sí, me gustaría aprender sobre técnicas de respiración o alguna forma de relajarme antes de una presentación. Creo que eso podría ayudarme bastante."
+      "text": "Creo que un 3. Me siento muy cansado y sin energía casi todo el tiempo."
     },
     {
       "speaker": "Valeria",
-      "text": "Claro, las técnicas de respiración son muy efectivas para calmar la ansiedad. Una que podrías probar es la respiración profunda. Consiste en inhalar lentamente por la nariz, sostener la respiración por unos segundos y luego exhalar lentamente por la boca. ¿Te gustaría practicarla juntos ahora?"
+      "text": "Gracias por compartir eso, Jorge. La próxima pregunta es:\n\n5. ¿Tener poco apetito o comer en exceso?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Sí, me parece bien. Gracias por guiarme. Estoy listo para intentarlo."
+      "text": "Le daría un 2. No tengo mucho apetito a veces, pero hay momentos en que como más de lo normal."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, empecemos. Siéntate cómodamente, cierra los ojos si te sientes cómodo. Inhalemos profundamente por la nariz contando hasta cuatro… (inhala) 1, 2, 3, 4. Ahora, sostén la respiración… 1, 2, 3, 4. Y exhalamos lentamente por la boca contando hasta seis… (exhala) 1, 2, 3, 4, 5, 6. Vamos a repetirlo dos veces más. ¿Listo?"
+      "text": "Entiendo, gracias por tu respuesta. Ahora pasemos a la siguiente pregunta:\n\n6. ¿Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Sí, estoy listo. Vamos a hacerlo. Inhalemos por la nariz… 1, 2, 3, 4. Sostenemos… 1, 2, 3, 4. Y exhalamos por la boca… 1, 2, 3, 4, 5, 6."
+      "text": "Le daría un 3. A menudo me siento así, especialmente cuando pienso en mis expectativas y en lo que no he logrado."
     },
     {
       "speaker": "Valeria",
-      "text": "Muy bien, excelente trabajo. Ahora una vez más. Inhalamos por la nariz… 1, 2, 3, 4. Sostenemos… 1, 2, 3, 4. Y exhalamos por la boca… 1, 2, 3, 4, 5, 6. ¿Cómo te sientes después de practicarlo?"
+      "text": "Eso es muy significativo, Jorge. La siguiente pregunta es:\n\n7. ¿Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Me siento un poco más relajado, creo que esta técnica puede ayudarme a calmarme en momentos de ansiedad. Gracias por esto."
+      "text": "Le daría un 3. Me cuesta mucho concentrarme en cualquier cosa, incluso en actividades que antes disfrutaba."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra escuchar que te sientes más relajado. Es un buen paso hacia el manejo de la ansiedad. Podemos seguir practicando y desarrollando más estrategias en nuestras próximas sesiones. ¿Te gustaría que hablemos de algo más hoy?"
+      "text": "Entiendo, eso puede ser muy frustrante. Ahora, la siguiente pregunta:\n\n8. ¿Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "Creo que por ahora está bien. Me siento un poco más aliviado y me gustaría reflexionar sobre lo que hemos hablado. Gracias por tu apoyo."
+      "text": "Creo que un 2. A veces siento que me muevo más de lo normal, especialmente cuando estoy ansioso."
     },
     {
       "speaker": "Valeria",
-      "text": "De nada, me alegra ser de ayuda. Reflexionar sobre lo que hemos hablado es importante. Te invito a que tomes tu tiempo y pienses en las técnicas que exploramos. Nos vemos en la próxima sesión. ¡Cuídate!"
+      "text": "Gracias por tu sinceridad, Jorge. Ahora, pasemos a la penúltima pregunta:\n\n9. ¿Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera?"
     },
     {
       "speaker": "Jorge Aguilar",
-      "text": "¡Gracias! Nos vemos pronto. ¡Cuídate también!"
+      "text": "Le daría un 2. A veces tengo pensamientos oscuros, pero no quiero lastimarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy valioso que lo compartas, Jorge. Ahora, para finalizar:\n\n10. ¿Tener pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Lo siento, creo que cometí un error en la pregunta anterior. La respuesta a esta pregunta es un 1. No he tenido esos pensamientos con frecuencia, pero hay momentos difíciles."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "No hay problema, Jorge. Aprecio tu claridad y honestidad. Haremos un resumen de tus respuestas para tener una mejor perspectiva sobre cómo te sientes. \n\nEsto nos ayudará a trabajar en conjunto para encontrar estrategias que te apoyen. ¿Te gustaría que continuáramos con eso?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría. Creo que entender mejor lo que estoy sintiendo puede ayudarme mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí tienes un resumen de tus respuestas:\n\n1. Placer en actividades: 2\n2. Sentimientos de tristeza: 3\n3. Dificultad para dormir: 2\n4. Cansancio: 3\n5. Apetito: 2\n6. Sentimientos de fracaso: 3\n7. Dificultad para concentrarse: 3\n8. Movimientos: 2\n9. Pensamientos oscuros: 2\n10. Pensamientos de lastimarse: 1\n\nEsto indica que estás experimentando una combinación significativa de tristeza, cansancio y dificultades para concentrarte. En la próxima sesión, podemos trabajar en estrategias para abordar estos sentimientos y mejorar tu bienestar. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me parece bien. Me gustaría aprender y trabajar en esas estrategias. Gracias por ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Jorge. Estoy aquí para apoyarte en este proceso. Nos vemos en la próxima sesión para continuar trabajando juntos. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "¡Gracias! Cuídate también. ¡Hasta la próxima!"
     }
   ],
   "events": [
@@ -151,168 +183,286 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764047410
+      "timestamp": 1764089941
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Pues, la verdad es que me siento un poco nervioso, es mi primera vez en terapia y no sé muy bien qué esperar.",
-      "timestamp": 1764047412
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso, es la primera vez que estoy en una terapia.",
+      "timestamp": 1764089943
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nervioso en tu primera sesión. Aquí estamos para hablar de lo que desees y poder apoyarte. ¿Hay algo específico que te gustaría compartir o preguntar?",
-      "timestamp": 1764047413
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trae hoy aquí?",
+      "timestamp": 1764089943
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que me gustaría hablar sobre cómo me he sentido últimamente, he estado lidiando con pensamientos negativos y a veces me siento un poco perdido.",
-      "timestamp": 1764047414
+      "content": "Sí, creo que he estado sintiendo un poco de tristeza y ansiedad últimamente, y me gustaría entender mejor lo que me está pasando.",
+      "timestamp": 1764089945
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764089945
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, esos sentimientos pueden ser muy difíciles de enfrentar. ¿Podrías contarme más sobre esos pensamientos negativos y cómo te afectan en tu día a día?",
-      "timestamp": 1764047415
+      "content": "Entiendo, Jorge. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que nos puede ayudar. ¿Estás de acuerdo en responderlo? Recuerda que esto no sustituye una evaluación profesional completa.",
+      "timestamp": 1764089947
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, a menudo me siento abrumado por la presión de la escuela y la vida social. A veces pienso que no soy lo suficientemente bueno y eso me hace dudar de mí mismo.",
-      "timestamp": 1764047416
+      "content": "Sí, estoy de acuerdo. Creo que podría ayudarme a ver las cosas más claras.",
+      "timestamp": 1764089948
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "depresion"
+        },
+        "id": "call_F6hjHsl0skiPQt8yd0WdXua9"
+      },
+      "timestamp": 1764089948
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"depresion\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_F6hjHsl0skiPQt8yd0WdXua9"
+      },
+      "timestamp": 1764089948
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible sentirse abrumado en situaciones así. La presión puede hacer que cuestionemos nuestra valía. ¿Podrías darme un ejemplo de una situación reciente en la que te hayas sentido así?",
-      "timestamp": 1764047417
+      "content": "Perfecto, vamos a comenzar con las preguntas. Responde en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. ¿Poco interés o placer en hacer cosas?",
+      "timestamp": 1764089950
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, el otro día tuve una presentación en clase y me puse tan nervioso que no podía pensar bien. Después, sentí que no había hecho un buen trabajo y me afectó todo el día.",
-      "timestamp": 1764047418
+      "content": "Creo que un 2. A veces me cuesta encontrar placer en las cosas que solía disfrutar.",
+      "timestamp": 1764089951
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento que hayas tenido esa experiencia. Las presentaciones pueden provocar una gran ansiedad. ¿Qué pensamientos pasaron por tu mente después de la presentación que te hicieron sentir así?",
-      "timestamp": 1764047420
+      "content": "Gracias por compartir eso, Jorge. La siguiente pregunta es: \n\n2. ¿Sentirte decaído(a), deprimido(a) o sin esperanzas?",
+      "timestamp": 1764089952
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Después de la presentación, empecé a pensar que mis compañeros se burlaban de mí y que no me tomarían en serio. Me sentí muy mal conmigo mismo.",
-      "timestamp": 1764047421
+      "content": "Le daría un 3. He estado sintiéndome muy decaído y sin muchas esperanzas últimamente.",
+      "timestamp": 1764089953
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es doloroso sentir que los demás no te toman en serio, y esos pensamientos pueden ser muy pesados. Vamos a trabajar juntos para entender y cambiar esa percepción. ¿Qué te gustaría que sucediera para sentirte más seguro en situaciones así?",
-      "timestamp": 1764047422
+      "content": "Entiendo, eso es muy importante. Ahora, la tercera pregunta: \n\n3. ¿Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado?",
+      "timestamp": 1764089954
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me gustaría sentirme más preparado y confiado antes de hablar en público, quizás practicar más o aprender a manejar mi ansiedad en esos momentos.",
-      "timestamp": 1764047423
+      "content": "Le daría un 2. He tenido problemas para dormir, aunque a veces también duermo más de lo normal.",
+      "timestamp": 1764089955
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena como un buen enfoque. Practicar y aprender a manejar la ansiedad puede ayudarte a sentirte más seguro. Podemos explorar técnicas específicas que te permitan enfrentar esas situaciones con mayor confianza. ¿Te gustaría empezar por alguna técnica en particular?",
-      "timestamp": 1764047424
+      "content": "Gracias por tu honestidad, Jorge. Continuemos con la próxima pregunta:\n\n4. ¿Sentirte cansado(a) o con poca energía?",
+      "timestamp": 1764089956
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría aprender sobre técnicas de respiración o alguna forma de relajarme antes de una presentación. Creo que eso podría ayudarme bastante.",
-      "timestamp": 1764047426
+      "content": "Creo que un 3. Me siento muy cansado y sin energía casi todo el tiempo.",
+      "timestamp": 1764089957
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764089957
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, las técnicas de respiración son muy efectivas para calmar la ansiedad. Una que podrías probar es la respiración profunda. Consiste en inhalar lentamente por la nariz, sostener la respiración por unos segundos y luego exhalar lentamente por la boca. ¿Te gustaría practicarla juntos ahora?",
-      "timestamp": 1764047428
+      "content": "Gracias por compartir eso, Jorge. La próxima pregunta es:\n\n5. ¿Tener poco apetito o comer en exceso?",
+      "timestamp": 1764089958
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece bien. Gracias por guiarme. Estoy listo para intentarlo.",
-      "timestamp": 1764047430
+      "content": "Le daría un 2. No tengo mucho apetito a veces, pero hay momentos en que como más de lo normal.",
+      "timestamp": 1764089959
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, empecemos. Siéntate cómodamente, cierra los ojos si te sientes cómodo. Inhalemos profundamente por la nariz contando hasta cuatro… (inhala) 1, 2, 3, 4. Ahora, sostén la respiración… 1, 2, 3, 4. Y exhalamos lentamente por la boca contando hasta seis… (exhala) 1, 2, 3, 4, 5, 6. Vamos a repetirlo dos veces más. ¿Listo?",
-      "timestamp": 1764047433
+      "content": "Entiendo, gracias por tu respuesta. Ahora pasemos a la siguiente pregunta:\n\n6. ¿Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia?",
+      "timestamp": 1764089960
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, estoy listo. Vamos a hacerlo. Inhalemos por la nariz… 1, 2, 3, 4. Sostenemos… 1, 2, 3, 4. Y exhalamos por la boca… 1, 2, 3, 4, 5, 6.",
-      "timestamp": 1764047435
+      "content": "Le daría un 3. A menudo me siento así, especialmente cuando pienso en mis expectativas y en lo que no he logrado.",
+      "timestamp": 1764089961
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Muy bien, excelente trabajo. Ahora una vez más. Inhalamos por la nariz… 1, 2, 3, 4. Sostenemos… 1, 2, 3, 4. Y exhalamos por la boca… 1, 2, 3, 4, 5, 6. ¿Cómo te sientes después de practicarlo?",
-      "timestamp": 1764047437
+      "content": "Eso es muy significativo, Jorge. La siguiente pregunta es:\n\n7. ¿Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión?",
+      "timestamp": 1764089962
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me siento un poco más relajado, creo que esta técnica puede ayudarme a calmarme en momentos de ansiedad. Gracias por esto.",
-      "timestamp": 1764047438
+      "content": "Le daría un 3. Me cuesta mucho concentrarme en cualquier cosa, incluso en actividades que antes disfrutaba.",
+      "timestamp": 1764089963
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra escuchar que te sientes más relajado. Es un buen paso hacia el manejo de la ansiedad. Podemos seguir practicando y desarrollando más estrategias en nuestras próximas sesiones. ¿Te gustaría que hablemos de algo más hoy?",
-      "timestamp": 1764047441
+      "content": "Entiendo, eso puede ser muy frustrante. Ahora, la siguiente pregunta:\n\n8. ¿Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal?",
+      "timestamp": 1764089965
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que por ahora está bien. Me siento un poco más aliviado y me gustaría reflexionar sobre lo que hemos hablado. Gracias por tu apoyo.",
-      "timestamp": 1764047442
+      "content": "Creo que un 2. A veces siento que me muevo más de lo normal, especialmente cuando estoy ansioso.",
+      "timestamp": 1764089966
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "De nada, me alegra ser de ayuda. Reflexionar sobre lo que hemos hablado es importante. Te invito a que tomes tu tiempo y pienses en las técnicas que exploramos. Nos vemos en la próxima sesión. ¡Cuídate!",
-      "timestamp": 1764047443
+      "content": "Gracias por tu sinceridad, Jorge. Ahora, pasemos a la penúltima pregunta:\n\n9. ¿Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera?",
+      "timestamp": 1764089968
     },
     {
       "agent": "Jorge Aguilar",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Gracias! Nos vemos pronto. ¡Cuídate también!",
-      "timestamp": 1764047444
+      "content": "Le daría un 2. A veces tengo pensamientos oscuros, pero no quiero lastimarme.",
+      "timestamp": 1764089968
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy valioso que lo compartas, Jorge. Ahora, para finalizar:\n\n10. ¿Tener pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera?",
+      "timestamp": 1764089970
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo siento, creo que cometí un error en la pregunta anterior. La respuesta a esta pregunta es un 1. No he tenido esos pensamientos con frecuencia, pero hay momentos difíciles.",
+      "timestamp": 1764089970
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No hay problema, Jorge. Aprecio tu claridad y honestidad. Haremos un resumen de tus respuestas para tener una mejor perspectiva sobre cómo te sientes. \n\nEsto nos ayudará a trabajar en conjunto para encontrar estrategias que te apoyen. ¿Te gustaría que continuáramos con eso?",
+      "timestamp": 1764089972
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que entender mejor lo que estoy sintiendo puede ayudarme mucho.",
+      "timestamp": 1764089973
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Resumen de respuestas de Jorge: 1. Placer en actividades: 2; 2. Sentimientos de tristeza: 3; 3. Dificultad para dormir: 2; 4. Cansancio: 3; 5. Apetito: 2; 6. Sentimientos de fracaso: 3; 7. Dificultad para concentrarse: 3; 8. Movimientos: 2; 9. Pensamientos oscuros: 2; 10. Pensamientos de lastimarse: 1."
+        },
+        "id": "call_z9kQXcFDkP2uJk5Rs8MNYKKj"
+      },
+      "timestamp": 1764089976
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Resumen de respuestas de Jorge: 1. Placer en actividades: 2; 2. Sentimientos de tristeza: 3; 3. Dificultad para dormir: 2; 4. Cansancio: 3; 5. Apetito: 2; 6. Sentimientos de fracaso: 3; 7. Dificultad para concentrarse: 3; 8. Movimientos: 2; 9. Pensamientos oscuros: 2; 10. Pensamientos de lastimarse: 1.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_z9kQXcFDkP2uJk5Rs8MNYKKj"
+      },
+      "timestamp": 1764089976
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí tienes un resumen de tus respuestas:\n\n1. Placer en actividades: 2\n2. Sentimientos de tristeza: 3\n3. Dificultad para dormir: 2\n4. Cansancio: 3\n5. Apetito: 2\n6. Sentimientos de fracaso: 3\n7. Dificultad para concentrarse: 3\n8. Movimientos: 2\n9. Pensamientos oscuros: 2\n10. Pensamientos de lastimarse: 1\n\nEsto indica que estás experimentando una combinación significativa de tristeza, cansancio y dificultades para concentrarte. En la próxima sesión, podemos trabajar en estrategias para abordar estos sentimientos y mejorar tu bienestar. ¿Te parece bien?",
+      "timestamp": 1764089979
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Me gustaría aprender y trabajar en esas estrategias. Gracias por ayudarme.",
+      "timestamp": 1764089981
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Jorge. Estoy aquí para apoyarte en este proceso. Nos vemos en la próxima sesión para continuar trabajando juntos. ¡Cuídate mucho!",
+      "timestamp": 1764089982
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. ¡Hasta la próxima!",
+      "timestamp": 1764089982
     }
   ],
   "notes": null

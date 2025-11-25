@@ -1,0 +1,856 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T18:11:05Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1122460452,
+  "id": "002ecd5b-2294-46ab-a0b1-05ea7b64b356",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Montserrat Reyes": {
+      "name": "Montserrat Reyes",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(MP) | estudiante de Marketing y Publicidad en la Ibero de 3er semestre; le gusta tomar fotos, subir historias, ver tendencias en redes y salir con amigos.",
+      "personality": "extrovertida pero sensible al juicio",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no sé qué esperar de esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa antes de una sesión. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué es lo que más te preocupa?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Siento que últimamente he estado muy apagada y no sé por qué. Es como si todo me abrumara."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esa sensación de estar abrumada puede ser muy pesada. ¿Puedes recordar algún momento específico en el que te hayas sentido así?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, a veces cuando estoy con mis amigos, debería estar disfrutando, pero me siento distante y desconectada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es difícil sentirse así, especialmente en momentos que deberían ser agradables. ¿Qué crees que te hace sentir distante en esas ocasiones?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que a veces me comparo con los demás y eso me hace sentir menos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La comparación puede ser realmente dañina para nuestra autoestima. Es importante reconocer esos pensamientos. ¿Te gustaría explorar más sobre cómo estas comparaciones te afectan?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que sería útil, porque a veces me siento atrapada en ese ciclo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos trabajar en eso. Podríamos comenzar identificando las situaciones o las personas con las que te comparas más. ¿Te parece?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me parece bien. A menudo me comparo con mis compañeras de clase y en redes sociales."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esas comparaciones pueden ser muy comunes hoy en día. Vamos a profundizar en cómo esos estándares que ves afectan tu bienestar. ¿Qué es lo que más te inquieta de ellas?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me inquieta que siento que nunca puedo alcanzar esos estándares y eso me hace sentir insuficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa sensación de insuficiencia puede ser muy dolorosa. Es fundamental recordar que los estándares que vemos a menudo son solo una parte de la historia. ¿Te gustaría que hablemos sobre formas de cambiar esa perspectiva?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría. Creo que necesito ayuda para ver las cosas de una manera diferente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un paso valioso querer cambiar tu perspectiva. Podemos trabajar juntos en desarrollar una mentalidad más compasiva hacia ti misma. ¿Te gustaría que comenzáramos a practicar algunas técnicas de reestructuración cognitiva?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, eso suena bien. Estoy dispuesta a intentar algo nuevo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, me alegra saberlo. Empezaremos identificando pensamientos negativos que surgen cuando te comparas. ¿Puedes darme un ejemplo reciente de un pensamiento así?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Recuerdo que vi una historia de una amiga que parecía tan feliz y pensé que yo nunca podría ser así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese pensamiento es bastante común. Vamos a desglosarlo. ¿Qué evidencia tienes de que no puedes ser feliz como ella?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "A veces creo que mis problemas son más grandes que los suyos, pero tal vez no sea justo compararlos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, comparar nuestros problemas puede ser engañoso, ya que cada persona enfrenta sus propias luchas. Podemos trabajar en reconocer tus propios logros y momentos de felicidad. ¿Te gustaría practicar eso?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que eso podría ayudarme a ver las cosas de manera diferente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. ¿Puedes recordar un momento reciente en el que te sentiste orgullosa de ti misma, por pequeño que sea?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, la semana pasada terminé un proyecto escolar que me costó mucho trabajo y me sentí bien al recibir buenos comentarios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran logro, es importante celebrar esos momentos. Además, me gustaría abordar cómo te has estado sintiendo en general. Existe un cuestionario llamado PHQ-9 que nos ayuda a explorar tus sentimientos en las últimas dos semanas. ¿Estás de acuerdo en responderlo?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, claro, me gustaría hacerlo. Creo que podría ayudarme a entender mejor lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes algunas preguntas que vamos a revisar. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nVoy a hacerte estas preguntas en escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". ¿Listo para empezar?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, estoy lista. Vamos a hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Empezamos con la primera pregunta: ¿Qué tan seguido has tenido molestias debido a los siguientes problemas en las últimas 2 semanas?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Para el primer problema, creo que sería un 2. A veces he perdido un poco el interés en cosas que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Para la segunda pregunta: ¿Poco interés o placer en hacer cosas? ¿Cómo lo puntuarías del 0 al 3?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Ese sería un 2 también. Me cuesta un poco disfrutar de actividades que antes me gustaban."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. Para la tercera pregunta: ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Para esa pregunta, creo que un 3. Me he sentido así casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Es importante reconocerlo. Pasemos a la cuarta pregunta: ¿Tienes dificultad para quedarte o permanecer dormida, o dormir demasiado? ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Para esa, diría que un 2. A veces me cuesta dormir, pero hay días en que duermo demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser honesta. Ahora, para la quinta pregunta: ¿Te has sentido cansada o con poca energía? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Eso sería un 3. Me siento cansada y sin energía casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiendo eso. Pasemos a la sexta pregunta: ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Para esa, creo que un 1. A veces no tengo mucho apetito, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir. Ahora, para la séptima pregunta: ¿Te has sentido mal contigo misma, o como un fracaso? ¿Qué puntuación le darías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Esa sería un 3. Me siento así casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiendo eso, suena muy difícil. Ahora, pasemos a la octava pregunta: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Para esa, creo que un 2. A veces me cuesta concentrarme en lo que estoy haciendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad. Ahora, para la novena pregunta: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o te has sentido tan inquieta o agitada que te mueves más de lo normal? ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Diría que un 1. A veces me siento un poco inquieta, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Para la última pregunta: ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Para esa, creo que un 1. A veces he tenido pensamientos oscuros, pero no son frecuentes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco mucho que compartas tus respuestas. Es útil para entender cómo te sientes. Considerando tus puntuaciones, parece que hay áreas en las que podríamos trabajar. ¿Te gustaría hablar sobre los próximos pasos para abordarlo?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría saber qué pasos podemos seguir para sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos comenzar estableciendo metas pequeñas y alcanzables, así como trabajar en técnicas de manejo del estrés. También sería útil explorar más a fondo tus pensamientos negativos. ¿Te parece bien si comenzamos con alguna de estas estrategias?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me parece bien. Quiero intentar cualquier cosa que me ayude a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso. Empecemos con establecer una pequeña meta para la próxima semana. ¿Qué actividad disfrutarías hacer y que te gustaría incorporar en tu rutina diaria?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me gustaría intentar salir a caminar un poco cada día. Creo que me ayudaría a despejar la mente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente meta. Caminar puede ser muy beneficioso para la mente y el cuerpo. ¿Te gustaría fijar un tiempo específico para hacerlo cada día?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, podría intentar salir a caminar por 20 minutos por la tarde, después de clases."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una idea maravillosa. Así que te propones caminar 20 minutos por la tarde después de clases. ¿Te gustaría que hiciéramos un pequeño plan para asegurarnos de que lo cumplas?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, eso me ayudaría mucho. Un plan suena bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes un plan sencillo: \n\n1. **Seleccionar un lugar**: Elige un lugar agradable donde te guste caminar.\n2. **Horarios**: Establece un horario específico cada día, por ejemplo, a las 5:00 p.m.\n3. **Preparación**: Prepara tus cosas (zapatillas, música, etc.) antes de salir.\n4. **Compromiso**: Escríbelo en un lugar visible, como tu agenda o tu teléfono.\n5. **Reflexión**: Después de cada caminata, tómate un momento para reflexionar sobre cómo te sientes.\n\n¿Qué piensas de este plan?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me parece un buen plan, me gusta la idea de reflexionar después de cada caminata. Creo que puedo hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te guste el plan. Reflexionar puede ayudarte a tomar conciencia de tus pensamientos y emociones. Recuerda ser amable contigo misma durante este proceso. ¿Te gustaría programar nuestra próxima sesión para seguir avanzando?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría programar la próxima sesión. Quiero seguir trabajando en esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, programemos una nueva sesión. ¿Qué día y hora te vendría bien para continuar con nuestro trabajo?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Podría estar disponible el próximo viernes a la misma hora, si eso funciona para ti."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Sí, eso funciona muy bien para mí. Entonces, nos vemos el próximo viernes a la misma hora. Recuerda practicar tu caminata y reflexionar sobre tus emociones. ¡Nos vemos pronto!"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "¡Gracias! Haré lo posible por seguir el plan. Nos vemos el viernes. ¡Cuídate!"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Montserrat. Cuídate también y recuerda ser amable contigo misma. ¡Hasta el viernes!"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "¡Hasta el viernes! Gracias, lo tendré en cuenta. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764094165
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no sé qué esperar de esto.",
+      "timestamp": 1764094167
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa antes de una sesión. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué es lo que más te preocupa?",
+      "timestamp": 1764094168
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que últimamente he estado muy apagada y no sé por qué. Es como si todo me abrumara.",
+      "timestamp": 1764094169
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esa sensación de estar abrumada puede ser muy pesada. ¿Puedes recordar algún momento específico en el que te hayas sentido así?",
+      "timestamp": 1764094171
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces cuando estoy con mis amigos, debería estar disfrutando, pero me siento distante y desconectada.",
+      "timestamp": 1764094172
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es difícil sentirse así, especialmente en momentos que deberían ser agradables. ¿Qué crees que te hace sentir distante en esas ocasiones?",
+      "timestamp": 1764094173
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que a veces me comparo con los demás y eso me hace sentir menos.",
+      "timestamp": 1764094174
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La comparación puede ser realmente dañina para nuestra autoestima. Es importante reconocer esos pensamientos. ¿Te gustaría explorar más sobre cómo estas comparaciones te afectan?",
+      "timestamp": 1764094175
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil, porque a veces me siento atrapada en ese ciclo.",
+      "timestamp": 1764094177
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar en eso. Podríamos comenzar identificando las situaciones o las personas con las que te comparas más. ¿Te parece?",
+      "timestamp": 1764094178
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. A menudo me comparo con mis compañeras de clase y en redes sociales.",
+      "timestamp": 1764094179
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esas comparaciones pueden ser muy comunes hoy en día. Vamos a profundizar en cómo esos estándares que ves afectan tu bienestar. ¿Qué es lo que más te inquieta de ellas?",
+      "timestamp": 1764094181
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me inquieta que siento que nunca puedo alcanzar esos estándares y eso me hace sentir insuficiente.",
+      "timestamp": 1764094182
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sensación de insuficiencia puede ser muy dolorosa. Es fundamental recordar que los estándares que vemos a menudo son solo una parte de la historia. ¿Te gustaría que hablemos sobre formas de cambiar esa perspectiva?",
+      "timestamp": 1764094183
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que necesito ayuda para ver las cosas de una manera diferente.",
+      "timestamp": 1764094184
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un paso valioso querer cambiar tu perspectiva. Podemos trabajar juntos en desarrollar una mentalidad más compasiva hacia ti misma. ¿Te gustaría que comenzáramos a practicar algunas técnicas de reestructuración cognitiva?",
+      "timestamp": 1764094186
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Estoy dispuesta a intentar algo nuevo.",
+      "timestamp": 1764094187
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, me alegra saberlo. Empezaremos identificando pensamientos negativos que surgen cuando te comparas. ¿Puedes darme un ejemplo reciente de un pensamiento así?",
+      "timestamp": 1764094188
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Recuerdo que vi una historia de una amiga que parecía tan feliz y pensé que yo nunca podría ser así.",
+      "timestamp": 1764094189
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese pensamiento es bastante común. Vamos a desglosarlo. ¿Qué evidencia tienes de que no puedes ser feliz como ella?",
+      "timestamp": 1764094190
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces creo que mis problemas son más grandes que los suyos, pero tal vez no sea justo compararlos.",
+      "timestamp": 1764094192
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, comparar nuestros problemas puede ser engañoso, ya que cada persona enfrenta sus propias luchas. Podemos trabajar en reconocer tus propios logros y momentos de felicidad. ¿Te gustaría practicar eso?",
+      "timestamp": 1764094193
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme a ver las cosas de manera diferente.",
+      "timestamp": 1764094194
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. ¿Puedes recordar un momento reciente en el que te sentiste orgullosa de ti misma, por pequeño que sea?",
+      "timestamp": 1764094196
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, la semana pasada terminé un proyecto escolar que me costó mucho trabajo y me sentí bien al recibir buenos comentarios.",
+      "timestamp": 1764094197
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094197
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran logro, es importante celebrar esos momentos. Además, me gustaría abordar cómo te has estado sintiendo en general. Existe un cuestionario llamado PHQ-9 que nos ayuda a explorar tus sentimientos en las últimas dos semanas. ¿Estás de acuerdo en responderlo?",
+      "timestamp": 1764094198
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro, me gustaría hacerlo. Creo que podría ayudarme a entender mejor lo que siento.",
+      "timestamp": 1764094199
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "preguntas"
+        },
+        "id": "call_iaXTozsG8mWmzbseobnL0JMy"
+      },
+      "timestamp": 1764094200
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"preguntas\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_iaXTozsG8mWmzbseobnL0JMy"
+      },
+      "timestamp": 1764094200
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes algunas preguntas que vamos a revisar. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n2. Poco interés o placer en hacer cosas.\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n5. Sentirte cansado(a) o con poca energía.\n6. Tener poco apetito o comer en exceso.\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nVoy a hacerte estas preguntas en escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". ¿Listo para empezar?",
+      "timestamp": 1764094206
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. Vamos a hacerlo.",
+      "timestamp": 1764094206
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Empezamos con la primera pregunta: ¿Qué tan seguido has tenido molestias debido a los siguientes problemas en las últimas 2 semanas?",
+      "timestamp": 1764094208
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para el primer problema, creo que sería un 2. A veces he perdido un poco el interés en cosas que solía disfrutar.",
+      "timestamp": 1764094209
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Para la segunda pregunta: ¿Poco interés o placer en hacer cosas? ¿Cómo lo puntuarías del 0 al 3?",
+      "timestamp": 1764094210
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese sería un 2 también. Me cuesta un poco disfrutar de actividades que antes me gustaban.",
+      "timestamp": 1764094212
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. Para la tercera pregunta: ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Cómo lo puntuarías?",
+      "timestamp": 1764094214
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, creo que un 3. Me he sentido así casi todos los días.",
+      "timestamp": 1764094215
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Es importante reconocerlo. Pasemos a la cuarta pregunta: ¿Tienes dificultad para quedarte o permanecer dormida, o dormir demasiado? ¿Cuál sería tu puntuación?",
+      "timestamp": 1764094216
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa, diría que un 2. A veces me cuesta dormir, pero hay días en que duermo demasiado.",
+      "timestamp": 1764094217
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser honesta. Ahora, para la quinta pregunta: ¿Te has sentido cansada o con poca energía? ¿Cómo lo puntuarías?",
+      "timestamp": 1764094218
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 3. Me siento cansada y sin energía casi todos los días.",
+      "timestamp": 1764094220
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso. Pasemos a la sexta pregunta: ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cómo lo puntuarías?",
+      "timestamp": 1764094221
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa, creo que un 1. A veces no tengo mucho apetito, pero no siempre.",
+      "timestamp": 1764094223
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir. Ahora, para la séptima pregunta: ¿Te has sentido mal contigo misma, o como un fracaso? ¿Qué puntuación le darías?",
+      "timestamp": 1764094225
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 3. Me siento así casi todos los días.",
+      "timestamp": 1764094226
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso, suena muy difícil. Ahora, pasemos a la octava pregunta: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cómo lo puntuarías?",
+      "timestamp": 1764094227
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa, creo que un 2. A veces me cuesta concentrarme en lo que estoy haciendo.",
+      "timestamp": 1764094229
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad. Ahora, para la novena pregunta: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o te has sentido tan inquieta o agitada que te mueves más de lo normal? ¿Cuál sería tu puntuación?",
+      "timestamp": 1764094231
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 1. A veces me siento un poco inquieta, pero no siempre.",
+      "timestamp": 1764094232
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Para la última pregunta: ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cómo lo puntuarías?",
+      "timestamp": 1764094234
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa, creo que un 1. A veces he tenido pensamientos oscuros, pero no son frecuentes.",
+      "timestamp": 1764094235
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco mucho que compartas tus respuestas. Es útil para entender cómo te sientes. Considerando tus puntuaciones, parece que hay áreas en las que podríamos trabajar. ¿Te gustaría hablar sobre los próximos pasos para abordarlo?",
+      "timestamp": 1764094238
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber qué pasos podemos seguir para sentirme mejor.",
+      "timestamp": 1764094239
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos comenzar estableciendo metas pequeñas y alcanzables, así como trabajar en técnicas de manejo del estrés. También sería útil explorar más a fondo tus pensamientos negativos. ¿Te parece bien si comenzamos con alguna de estas estrategias?",
+      "timestamp": 1764094241
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero intentar cualquier cosa que me ayude a sentirme mejor.",
+      "timestamp": 1764094242
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso. Empecemos con establecer una pequeña meta para la próxima semana. ¿Qué actividad disfrutarías hacer y que te gustaría incorporar en tu rutina diaria?",
+      "timestamp": 1764094243
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría intentar salir a caminar un poco cada día. Creo que me ayudaría a despejar la mente.",
+      "timestamp": 1764094245
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente meta. Caminar puede ser muy beneficioso para la mente y el cuerpo. ¿Te gustaría fijar un tiempo específico para hacerlo cada día?",
+      "timestamp": 1764094246
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría intentar salir a caminar por 20 minutos por la tarde, después de clases.",
+      "timestamp": 1764094247
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una idea maravillosa. Así que te propones caminar 20 minutos por la tarde después de clases. ¿Te gustaría que hiciéramos un pequeño plan para asegurarnos de que lo cumplas?",
+      "timestamp": 1764094249
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría mucho. Un plan suena bien.",
+      "timestamp": 1764094250
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes un plan sencillo: \n\n1. **Seleccionar un lugar**: Elige un lugar agradable donde te guste caminar.\n2. **Horarios**: Establece un horario específico cada día, por ejemplo, a las 5:00 p.m.\n3. **Preparación**: Prepara tus cosas (zapatillas, música, etc.) antes de salir.\n4. **Compromiso**: Escríbelo en un lugar visible, como tu agenda o tu teléfono.\n5. **Reflexión**: Después de cada caminata, tómate un momento para reflexionar sobre cómo te sientes.\n\n¿Qué piensas de este plan?",
+      "timestamp": 1764094255
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un buen plan, me gusta la idea de reflexionar después de cada caminata. Creo que puedo hacerlo.",
+      "timestamp": 1764094256
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te guste el plan. Reflexionar puede ayudarte a tomar conciencia de tus pensamientos y emociones. Recuerda ser amable contigo misma durante este proceso. ¿Te gustaría programar nuestra próxima sesión para seguir avanzando?",
+      "timestamp": 1764094257
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría programar la próxima sesión. Quiero seguir trabajando en esto.",
+      "timestamp": 1764094258
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, programemos una nueva sesión. ¿Qué día y hora te vendría bien para continuar con nuestro trabajo?",
+      "timestamp": 1764094259
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría estar disponible el próximo viernes a la misma hora, si eso funciona para ti.",
+      "timestamp": 1764094260
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso funciona muy bien para mí. Entonces, nos vemos el próximo viernes a la misma hora. Recuerda practicar tu caminata y reflexionar sobre tus emociones. ¡Nos vemos pronto!",
+      "timestamp": 1764094261
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Haré lo posible por seguir el plan. Nos vemos el viernes. ¡Cuídate!",
+      "timestamp": 1764094263
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Montserrat. Cuídate también y recuerda ser amable contigo misma. ¡Hasta el viernes!",
+      "timestamp": 1764094264
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta el viernes! Gracias, lo tendré en cuenta. ¡Adiós!",
+      "timestamp": 1764094265
+    }
+  ],
+  "notes": null
+}

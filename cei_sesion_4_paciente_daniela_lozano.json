@@ -1,0 +1,694 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T18:09:05Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1726745268,
+  "id": "e4c8dcd4-3210-4c28-a4e6-5696ec00f3d9",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Daniela Lozano": {
+      "name": "Daniela Lozano",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEI) | estudiante de Comercio Exterior y Logística Internacional en la Ibero de 5to semestre; le gustan los idiomas, salir con amigas y ver series de otros países.",
+      "personality": "sociable pero preocupadiza",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad es que no sé qué esperar de esta sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa antes de una primera sesión. Aquí estamos para hablar de lo que desees y explorar tus pensamientos y sentimientos. ¿Hay algo en particular que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, últimamente he estado sintiéndome un poco abrumada y triste, y me cuesta concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es difícil cuando nos sentimos así. Te gustaría profundizar en qué ha estado causando esa sensación de agobio y tristeza en tu vida diaria."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Claro, creo que la presión de los estudios y algunas situaciones personales me han estado afectando mucho. Me siento como si no pudiera manejar todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa sensación de no poder manejar todo puede ser realmente abrumadora. Hablemos más sobre esas presiones. ¿Qué aspectos de tus estudios y de tu vida personal sientes que son los más difíciles de manejar en este momento?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Principalmente el estrés de mis clases, tengo tantas tareas y exámenes que a veces siento que no tengo tiempo para mí. Además, algunas amistades también me han estado preocupando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica y las relaciones interpersonales pueden crear un gran peso emocional. Para explorar cómo te has estado sintiendo en las últimas dos semanas, me gustaría que respondieras un breve cuestionario llamado PHQ-9. Este cuestionario puede ayudarnos a entender mejor tus emociones. ¿Estás de acuerdo en responderlo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, creo que eso podría ayudarme. Estoy dispuesta a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí van las preguntas. Responde con un número del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Poco interés o placer en hacer cosas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le pondría un 2, he tenido poco interés en algunas actividades que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Ahora, la segunda pregunta: ¿Sentirte decaído(a), deprimido(a) o sin esperanzas? ¿Cómo lo calificarías en una escala del 0 al 3?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le daría un 2 también, me he sentido decaída y a veces sin esperanzas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo aprecio mucho. Continuemos, la tercera pregunta: ¿Tienes dificultad para quedarte o permanecer dormido(a), o duermes demasiado? ¿Qué calificación le darías?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le daría un 1, a veces me cuesta dormir, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. La cuarta pregunta es: ¿Te sientes cansado(a) o con poca energía? ¿Cómo lo calificarías del 0 al 3?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le pondría un 3, me siento muy cansada y sin energía la mayor parte del tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso puede ser realmente difícil. Ahora, la quinta pregunta: ¿Tienes poco apetito o comes en exceso? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le daría un 1, no he tenido mucho apetito, pero no como en exceso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. La sexta pregunta es: ¿Te sientes mal contigo mismo(a) — o sientes que eres un fracaso o que has decepcionado a ti mismo(a) o a tu familia? ¿Cuál es tu calificación?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le daría un 2, a veces me siento así, como si no estuviera cumpliendo con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo agradezco mucho. Ahora vamos con la séptima pregunta: ¿Tienes dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Qué calificación le darías?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le pondría un 2, a menudo me cuesta concentrarme en lo que estoy haciendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad. La octava pregunta es: ¿Te mueves o hablas tan lento que otras personas podrían notarlo, o sientes que estás tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le daría un 1, a veces me siento inquieta, pero no creo que las personas lo noten."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es comprensible. Por último, la novena pregunta: ¿Has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Le daría un 1, a veces he tenido pensamientos oscuros, pero no es algo que desee realmente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco que hayas compartido eso. Es importante abordar esos pensamientos con cuidado. Ahora, con base en tus respuestas, haremos un análisis para entender mejor cómo te has estado sintiendo. ¿Te gustaría discutir tus respuestas y cómo podemos trabajar juntos en esto?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría mucho discutirlo. Quiero entender mejor lo que está pasando y cómo puedo sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, hablemos sobre tus respuestas. Observamos que realmente te sientes abrumada y con poca energía, lo que puede estar afectando tu vida diaria y tus estudios. Es importante que exploremos estrategias para manejar esas emociones y el estrés. ¿Te gustaría comenzar hablando sobre las presiones académicas específicas que enfrentas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, creo que eso sería útil. Las tareas y los exámenes son muy estresantes, y a veces siento que no puedo con todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esa sensación de no poder con todo puede ser realmente pesada. Hablemos sobre cómo puedes organizar tus tareas y establecer prioridades para que te sientas más en control. ¿Has tratado de hacer una lista de tus tareas y dividirlas en pasos más pequeños?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "No lo he hecho, pero creo que podría ayudarme. A veces me siento perdida con tantas cosas que hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Hacer una lista y dividir las tareas en pasos más manejables puede ayudarte a tener una visión más clara y reducir la sensación de agobio. ¿Te gustaría que trabajemos juntas en un plan para organizar tus tareas y establecer algunos objetivos alcanzables?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso me gustaría mucho. Creo que tener un plan me ayudaría a sentirme más enfocada y menos abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Comencemos por identificar las tareas más urgentes y las que pueden esperar un poco más. ¿Qué tareas o exámenes tienes programados para la próxima semana?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Para la próxima semana tengo un examen de administración y una entrega de trabajo de logística. Ambas son bastante importantes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entendido. Veamos cómo podemos organizarte para que te sientas preparada. Podríamos dividir el estudio para el examen de administración y la entrega de logística en días específicos. ¿Qué te parece si establecemos metas diarias para trabajar en ambas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me parece una buena idea. Establecer metas diarias podría ayudarme a no sentirme abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, vamos a hacerlo. Para el examen de administración, ¿cuántas horas crees que necesitarías estudiar? Y para el trabajo de logística, ¿cuánto tiempo crees que te llevará completarlo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que necesitaría al menos 4 horas para estudiar para el examen y unas 5 horas para completar el trabajo de logística."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Está bien, entonces podemos dividir esas horas a lo largo de la semana. ¿Qué te parece si reservamos dos días específicos para estudiar para el examen y otros dos días para trabajar en el proyecto de logística? Así podrás mantener un equilibrio."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me parece una buena estrategia. Así podré enfocarme en cada tarea y no sentirme tan apurada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, enfocarte en cada tarea te permitirá avanzar sin sentirte abrumada. ¿Te gustaría sugerir qué días podrías dedicar a cada actividad? Podemos ajustar el plan según tu disponibilidad."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Podría estudiar el examen el lunes y el miércoles, y trabajar en el proyecto de logística el martes y el jueves. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece un excelente plan. Así tendrás tiempo suficiente para prepararte para el examen y trabajar en el proyecto sin sentirte presionada. ¿Te gustaría establecer horarios específicos para cada actividad durante esos días?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, creo que establecer horarios me ayudaría a mantenerme enfocada. Podría estudiar de 3 a 5 el lunes y miércoles, y trabajar en el proyecto de logística de 3 a 6 el martes y jueves."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Así tendrás un horario estructurado. Recuerda tomar breves descansos durante tus sesiones de estudio para mantenerte fresca. ¿Te gustaría añadir algo más a tu plan o tienes alguna otra pregunta sobre cómo manejar este proceso?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "No, creo que tengo todo claro por ahora. Solo espero que este plan me ayude a sentirme más tranquila."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Estoy segura de que este plan te ayudará a sentirte más en control y tranquila. Recuerda ser amable contigo misma durante este proceso. Si en algún momento sientes que necesitas apoyo adicional, no dudes en comunicármelo. ¡Estoy aquí para ayudarte!"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Muchas gracias, en serio. Aprecio mucho tu apoyo y consejos. Me siento un poco más esperanzada ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Es un paso importante y valioso para ti. Recuerda que el camino hacia el bienestar puede tener altibajos, pero aquí estoy para acompañarte. ¡Nos vemos en la próxima sesión! Cuida de ti."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Gracias, cuídate mucho también. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764094060
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad es que no sé qué esperar de esta sesión.",
+      "timestamp": 1764094061
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa antes de una primera sesión. Aquí estamos para hablar de lo que desees y explorar tus pensamientos y sentimientos. ¿Hay algo en particular que te gustaría compartir hoy?",
+      "timestamp": 1764094062
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, últimamente he estado sintiéndome un poco abrumada y triste, y me cuesta concentrarme en mis estudios.",
+      "timestamp": 1764094063
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es difícil cuando nos sentimos así. Te gustaría profundizar en qué ha estado causando esa sensación de agobio y tristeza en tu vida diaria.",
+      "timestamp": 1764094064
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, creo que la presión de los estudios y algunas situaciones personales me han estado afectando mucho. Me siento como si no pudiera manejar todo.",
+      "timestamp": 1764094066
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sensación de no poder manejar todo puede ser realmente abrumadora. Hablemos más sobre esas presiones. ¿Qué aspectos de tus estudios y de tu vida personal sientes que son los más difíciles de manejar en este momento?",
+      "timestamp": 1764094068
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente el estrés de mis clases, tengo tantas tareas y exámenes que a veces siento que no tengo tiempo para mí. Además, algunas amistades también me han estado preocupando.",
+      "timestamp": 1764094069
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094069
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica y las relaciones interpersonales pueden crear un gran peso emocional. Para explorar cómo te has estado sintiendo en las últimas dos semanas, me gustaría que respondieras un breve cuestionario llamado PHQ-9. Este cuestionario puede ayudarnos a entender mejor tus emociones. ¿Estás de acuerdo en responderlo?",
+      "timestamp": 1764094071
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme. Estoy dispuesta a responderlo.",
+      "timestamp": 1764094072
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094072
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "phq9"
+        },
+        "id": "call_9WD6OHkZipHMoAmnHF4uqYr5"
+      },
+      "timestamp": 1764094073
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_9WD6OHkZipHMoAmnHF4uqYr5"
+      },
+      "timestamp": 1764094073
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí van las preguntas. Responde con un número del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Poco interés o placer en hacer cosas?",
+      "timestamp": 1764094075
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 2, he tenido poco interés en algunas actividades que antes disfrutaba.",
+      "timestamp": 1764094076
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094076
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora, la segunda pregunta: ¿Sentirte decaído(a), deprimido(a) o sin esperanzas? ¿Cómo lo calificarías en una escala del 0 al 3?",
+      "timestamp": 1764094078
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2 también, me he sentido decaída y a veces sin esperanzas.",
+      "timestamp": 1764094079
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo aprecio mucho. Continuemos, la tercera pregunta: ¿Tienes dificultad para quedarte o permanecer dormido(a), o duermes demasiado? ¿Qué calificación le darías?",
+      "timestamp": 1764094080
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, a veces me cuesta dormir, pero no siempre.",
+      "timestamp": 1764094082
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. La cuarta pregunta es: ¿Te sientes cansado(a) o con poca energía? ¿Cómo lo calificarías del 0 al 3?",
+      "timestamp": 1764094083
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 3, me siento muy cansada y sin energía la mayor parte del tiempo.",
+      "timestamp": 1764094084
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso puede ser realmente difícil. Ahora, la quinta pregunta: ¿Tienes poco apetito o comes en exceso? ¿Cuál sería tu calificación?",
+      "timestamp": 1764094085
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, no he tenido mucho apetito, pero no como en exceso.",
+      "timestamp": 1764094086
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. La sexta pregunta es: ¿Te sientes mal contigo mismo(a) — o sientes que eres un fracaso o que has decepcionado a ti mismo(a) o a tu familia? ¿Cuál es tu calificación?",
+      "timestamp": 1764094089
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, a veces me siento así, como si no estuviera cumpliendo con las expectativas.",
+      "timestamp": 1764094090
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo agradezco mucho. Ahora vamos con la séptima pregunta: ¿Tienes dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Qué calificación le darías?",
+      "timestamp": 1764094091
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 2, a menudo me cuesta concentrarme en lo que estoy haciendo.",
+      "timestamp": 1764094093
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad. La octava pregunta es: ¿Te mueves o hablas tan lento que otras personas podrían notarlo, o sientes que estás tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal? ¿Cómo lo calificarías?",
+      "timestamp": 1764094096
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, a veces me siento inquieta, pero no creo que las personas lo noten.",
+      "timestamp": 1764094097
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es comprensible. Por último, la novena pregunta: ¿Has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cuál sería tu calificación?",
+      "timestamp": 1764094098
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, a veces he tenido pensamientos oscuros, pero no es algo que desee realmente.",
+      "timestamp": 1764094100
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco que hayas compartido eso. Es importante abordar esos pensamientos con cuidado. Ahora, con base en tus respuestas, haremos un análisis para entender mejor cómo te has estado sintiendo. ¿Te gustaría discutir tus respuestas y cómo podemos trabajar juntos en esto?",
+      "timestamp": 1764094102
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho discutirlo. Quiero entender mejor lo que está pasando y cómo puedo sentirme mejor.",
+      "timestamp": 1764094103
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, hablemos sobre tus respuestas. Observamos que realmente te sientes abrumada y con poca energía, lo que puede estar afectando tu vida diaria y tus estudios. Es importante que exploremos estrategias para manejar esas emociones y el estrés. ¿Te gustaría comenzar hablando sobre las presiones académicas específicas que enfrentas?",
+      "timestamp": 1764094107
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso sería útil. Las tareas y los exámenes son muy estresantes, y a veces siento que no puedo con todo.",
+      "timestamp": 1764094108
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esa sensación de no poder con todo puede ser realmente pesada. Hablemos sobre cómo puedes organizar tus tareas y establecer prioridades para que te sientas más en control. ¿Has tratado de hacer una lista de tus tareas y dividirlas en pasos más pequeños?",
+      "timestamp": 1764094110
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No lo he hecho, pero creo que podría ayudarme. A veces me siento perdida con tantas cosas que hacer.",
+      "timestamp": 1764094111
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hacer una lista y dividir las tareas en pasos más manejables puede ayudarte a tener una visión más clara y reducir la sensación de agobio. ¿Te gustaría que trabajemos juntas en un plan para organizar tus tareas y establecer algunos objetivos alcanzables?",
+      "timestamp": 1764094114
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría mucho. Creo que tener un plan me ayudaría a sentirme más enfocada y menos abrumada.",
+      "timestamp": 1764094115
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Comencemos por identificar las tareas más urgentes y las que pueden esperar un poco más. ¿Qué tareas o exámenes tienes programados para la próxima semana?",
+      "timestamp": 1764094117
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para la próxima semana tengo un examen de administración y una entrega de trabajo de logística. Ambas son bastante importantes.",
+      "timestamp": 1764094118
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entendido. Veamos cómo podemos organizarte para que te sientas preparada. Podríamos dividir el estudio para el examen de administración y la entrega de logística en días específicos. ¿Qué te parece si establecemos metas diarias para trabajar en ambas?",
+      "timestamp": 1764094121
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Establecer metas diarias podría ayudarme a no sentirme abrumada.",
+      "timestamp": 1764094123
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, vamos a hacerlo. Para el examen de administración, ¿cuántas horas crees que necesitarías estudiar? Y para el trabajo de logística, ¿cuánto tiempo crees que te llevará completarlo?",
+      "timestamp": 1764094124
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que necesitaría al menos 4 horas para estudiar para el examen y unas 5 horas para completar el trabajo de logística.",
+      "timestamp": 1764094126
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, entonces podemos dividir esas horas a lo largo de la semana. ¿Qué te parece si reservamos dos días específicos para estudiar para el examen y otros dos días para trabajar en el proyecto de logística? Así podrás mantener un equilibrio.",
+      "timestamp": 1764094128
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena estrategia. Así podré enfocarme en cada tarea y no sentirme tan apurada.",
+      "timestamp": 1764094129
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, enfocarte en cada tarea te permitirá avanzar sin sentirte abrumada. ¿Te gustaría sugerir qué días podrías dedicar a cada actividad? Podemos ajustar el plan según tu disponibilidad.",
+      "timestamp": 1764094130
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría estudiar el examen el lunes y el miércoles, y trabajar en el proyecto de logística el martes y el jueves. ¿Te parece bien?",
+      "timestamp": 1764094132
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un excelente plan. Así tendrás tiempo suficiente para prepararte para el examen y trabajar en el proyecto sin sentirte presionada. ¿Te gustaría establecer horarios específicos para cada actividad durante esos días?",
+      "timestamp": 1764094133
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que establecer horarios me ayudaría a mantenerme enfocada. Podría estudiar de 3 a 5 el lunes y miércoles, y trabajar en el proyecto de logística de 3 a 6 el martes y jueves.",
+      "timestamp": 1764094135
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Así tendrás un horario estructurado. Recuerda tomar breves descansos durante tus sesiones de estudio para mantenerte fresca. ¿Te gustaría añadir algo más a tu plan o tienes alguna otra pregunta sobre cómo manejar este proceso?",
+      "timestamp": 1764094137
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que tengo todo claro por ahora. Solo espero que este plan me ayude a sentirme más tranquila.",
+      "timestamp": 1764094139
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy segura de que este plan te ayudará a sentirte más en control y tranquila. Recuerda ser amable contigo misma durante este proceso. Si en algún momento sientes que necesitas apoyo adicional, no dudes en comunicármelo. ¡Estoy aquí para ayudarte!",
+      "timestamp": 1764094140
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muchas gracias, en serio. Aprecio mucho tu apoyo y consejos. Me siento un poco más esperanzada ahora.",
+      "timestamp": 1764094141
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Es un paso importante y valioso para ti. Recuerda que el camino hacia el bienestar puede tener altibajos, pero aquí estoy para acompañarte. ¡Nos vemos en la próxima sesión! Cuida de ti.",
+      "timestamp": 1764094144
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate mucho también. ¡Hasta la próxima!",
+      "timestamp": 1764094145
+    }
+  ],
+  "notes": null
+}

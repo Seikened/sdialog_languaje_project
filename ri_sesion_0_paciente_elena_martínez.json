@@ -1,15 +1,15 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T05:13:49Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:08:47Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 2180964696,
-  "id": "378d9f92-3e9a-482a-9272-45613cf7f5c2",
+  "seed": 3187507695,
+  "id": "48ed3b25-7c5d-4fec-8a7f-3d21248a7314",
   "parentId": null,
-  "complete": true,
+  "complete": false,
   "personas": {
     "Valeria": {
       "name": "Valeria",
@@ -54,111 +54,399 @@
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Hola. La verdad es que estoy un poco nerviosa. No estoy acostumbrada a estar en este tipo de situaciones."
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en una terapia."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa en una situación nueva. Aquí estamos para crear un espacio seguro y cómodo. ¿Te gustaría compartir qué es lo que más te inquieta?"
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trajo a la terapia?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Me inquieta no saber cómo expresar lo que siento. A veces me siento abrumada y no sé cómo manejarlo."
+      "text": "Sí, he estado sintiendo una tristeza constante y a veces me cuesta encontrar energía para hacer las cosas."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, eso puede ser realmente abrumador. A veces, verbalizar nuestros sentimientos puede ser difícil. ¿Te gustaría intentar hablar sobre una situación reciente que te haya hecho sentir así?"
+      "text": "Entiendo, la tristeza y la falta de energía pueden ser muy abrumadoras. ¿Cuánto tiempo llevas sintiendo así?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Sí, hay una situación en la universidad donde me siento un poco perdida. No sé si estoy tomando las decisiones correctas para mi futuro."
+      "text": "Creo que ha sido un par de meses, pero siento que ha ido empeorando últimamente."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible sentirse perdida en momentos de decisión importante. La universidad puede ser un periodo confuso. ¿Qué decisiones específicas estás considerando que te generan más dudas?"
+      "text": "Lamento escuchar que te has sentido así durante tanto tiempo. Para entender mejor lo que estás experimentando, hay un cuestionario llamado PHQ-9 que se utiliza para explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Estoy pensando en si cambiarme de carrera o enfocarme en un intercambio a otro país, pero tengo miedo de lo que pueda pasar."
+      "text": "Sí, me gustaría responderlo. Espero que pueda ayudar a entender mejor lo que siento."
     },
     {
       "speaker": "Valeria",
-      "text": "Es natural sentir miedo ante decisiones tan importantes. Cambiar de carrera o irse al extranjero son pasos significativos. ¿Qué es lo que más te preocupa de cada una de estas opciones?"
+      "text": "Vamos a comenzar. Por favor, responde a las siguientes preguntas indicando con qué frecuencia has experimentado cada uno de estos problemas en las últimas dos semanas. \n\n1/10 | Poco interés o placer en hacer cosas.  \n¿Cómo te has sentido?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Me preocupa arrepentirme de dejar Relaciones Internacionales, porque es algo que siempre me ha apasionado, pero también temo perder la oportunidad de vivir una experiencia única en el extranjero."
+      "text": "He sentido poco interés en hacer cosas prácticamente todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Es un dilema difícil, y es normal tener miedo al arrepentimiento. Quizás podríamos explorar juntos lo que cada opción significaría para ti y cómo se alinea con tus valores y sueños. ¿Te gustaría hacer un ejercicio para evaluar ambas opciones?"
+      "text": "Gracias por compartirlo. \n\n2/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n¿Qué tan seguido te ha pasado?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Sí, creo que eso podría ayudarme a aclarar mis pensamientos. Estoy dispuesta a probarlo."
+      "text": "Me he sentido decaída o sin esperanzas casi todos los días."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente. Comencemos identificando las ventajas y desventajas de cada opción. Primero, hablemos de las ventajas de quedarte en Relaciones Internacionales. ¿Qué sería lo mejor para ti en esa decisión?"
+      "text": "Entiendo, eso es muy difícil de llevar. \n\n3/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n¿Cómo ha sido tu sueño últimamente?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Una ventaja sería seguir aprendiendo sobre temas que me apasionan, como las relaciones entre países. También me gustaría poder conectar con personas que tienen intereses similares."
+      "text": "He tenido dificultad para dormir y, cuando lo logro, a menudo no me siento descansada."
     },
     {
       "speaker": "Valeria",
-      "text": "Esas son ventajas muy valiosas, conectar con personas afines puede enriquecer tu experiencia. Ahora, ¿cuáles serían las desventajas de quedarte en Relaciones Internacionales?"
+      "text": "Gracias por tu sinceridad. \n\n4/10 | Sentirte cansado(a) o con poca energía.  \n¿Cuánto tiempo has sentido esto?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Una desventaja podría ser que siento que me estoy perdiendo de experiencias fuera de mi zona de confort. También tengo miedo de no estar aprovechando al máximo mis oportunidades."
+      "text": "Me siento cansada y sin energía casi todos los días, especialmente en las últimas semanas."
     },
     {
       "speaker": "Valeria",
-      "text": "Esas son consideraciones importantes. Ahora, pasemos a las ventajas de realizar el intercambio. ¿Qué aspectos positivos imaginas que podrías obtener de esa experiencia?"
+      "text": "Eso debe ser muy desgastante. \n\n5/10 | Tener poco apetito o comer en exceso.  \n¿Cómo te has sentido en relación a tu apetito?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Creo que podría aprender un nuevo idioma, conocer diferentes culturas y hacer amigos de todo el mundo. Además, sería una forma emocionante de crecer personalmente."
+      "text": "He tenido poco apetito y no me dan ganas de comer la mayoría del tiempo."
     },
     {
       "speaker": "Valeria",
-      "text": "Esas son oportunidades increíbles que pueden enriquecer tu vida. Ahora, ¿qué desventajas puedes identificar en la idea de irte de intercambio y dejar Relaciones Internacionales?"
+      "text": "Lamento escuchar eso. \n\n6/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n¿Cuánto te ha pasado esto?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Una desventaja sería alejarme de mi familia y amigos, lo que me haría sentir sola. También tengo miedo de que la carrera no sea igual de valiosa en el extranjero."
+      "text": "Me he sentido así casi todos los días, y esa sensación me pesa mucho."
     },
     {
       "speaker": "Valeria",
-      "text": "Esos son sentimientos comprensibles, el apoyo de la familia y amigos es fundamental. También es válido preocuparse por el valor de tu carrera en otro país. ¿Te gustaría pensar en formas de abordar esas desventajas, o quizás considerar cómo podrías mantener tu conexión con tus seres queridos durante el intercambio?"
+      "text": "Entiendo que esa carga debe ser muy pesada. \n\n7/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n¿Cómo ha sido tu concentración últimamente?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Sí, creo que sería útil pensar en eso. Podría hacer videollamadas regularmente y planear visitas para no sentirme tan sola."
+      "text": "He tenido mucha dificultad para concentrarme, a veces me cuesta seguir una conversación o entender lo que leo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena como un gran plan. Mantener la comunicación puede ayudarte a sentirte más conectada. También podrías investigar sobre grupos de apoyo en el lugar donde planeas ir, así podrías conocer personas nuevas rápidamente. ¿Cómo te sientes acerca de lo que hemos explorado hasta ahora?"
+      "text": "Eso puede ser frustrante y preocupante. \n\n8/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n¿Cómo te has sentido en este sentido?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "Me siento un poco más clara sobre mis opciones. Aun así, sigo con un poco de miedo, pero creo que puedo manejarlo mejor ahora."
+      "text": "Me he sentido más inquieta de lo normal, como si no pudiera quedarme quieta o tranquila."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentir miedo, pero me alegra saber que te sientes más clara. El miedo puede ser una señal de que estás entrando en algo significativo. Recuerda que cada paso que tomes es parte de tu crecimiento personal. ¿Hay algo más en lo que te gustaría profundizar hoy?"
+      "text": "Gracias por compartir eso. \n\n9/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n¿Has tenido pensamientos así en algún momento?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "No, creo que hemos cubierto bastante. Gracias por ayudarme a ver las cosas desde otra perspectiva."
+      "text": "Sí, he tenido pensamientos de que quizás no valga la pena seguir, y eso me asusta."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra saber que te sientes mejor y que la sesión te ha sido útil. La próxima vez podemos seguir explorando tus pensamientos y decisiones. ¡Cuídate mucho y nos vemos pronto!"
+      "text": "Lamento que estés pasando por eso, y es muy importante que lo reconozcas. Estoy aquí para apoyarte. \n\n10/10 | ¿Te gustaría compartir cómo te has sentido en general al responder estas preguntas?"
     },
     {
       "speaker": "Elena Martínez",
-      "text": "¡Gracias! Cuídate también. ¡Hasta pronto!"
+      "text": "Me siento un poco abrumada, pero al mismo tiempo, siento que es bueno poder hablar de lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse abrumada, pero es un gran paso hablar de lo que sientes. Te agradezco tu valentía al compartirlo. Hablemos sobre cómo podemos trabajar juntas para que te sientas mejor."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría eso. Quiero encontrar una forma de sentirme mejor y recuperar la motivación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un objetivo muy positivo y alcanzable. Podemos explorar diferentes estrategias y enfoques en terapia cognitivo-conductual que te ayudarán a gestionar esos sentimientos y recuperar tu motivación. Comencemos a crear un plan que funcione para ti."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me parece bien, estoy dispuesta a intentarlo y aprender sobre esas estrategias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar que estás dispuesta a intentarlo. Comenzaremos con algunas técnicas básicas de reestructuración cognitiva para que puedas identificar y desafiar esos pensamientos negativos. Te guiaré en el proceso."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Eso suena útil, estoy lista para aprender y trabajar en ello."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Empezaremos identificando un pensamiento negativo que hayas tenido recientemente. ¿Puedes recordar algún momento específico en el que te hayas sentido abrumada o sin esperanza?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, recuerdo un día en el que me sentí abrumada durante la clase y pensé que nunca podría aprobar mis materias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un buen ejemplo. Ahora, quiero que analicemos ese pensamiento: \"nunca podría aprobar mis materias\". ¿Cuáles son las evidencias que apoyan ese pensamiento, y cuáles son las evidencias que lo contradicen?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "La evidencia que apoya ese pensamiento es que he tenido dificultades en algunas materias. Pero la evidencia que lo contradice es que he aprobado otras asignaturas y he trabajado duro en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Has hecho un excelente análisis. Es fundamental reconocer que un solo revés no define tu capacidad. Ahora, ¿cómo podrías reformular ese pensamiento para que sea más equilibrado y realista?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Podría reformularlo a: \"He tenido dificultades, pero he aprobado materias antes y puedo buscar ayuda para mejorar en las que me cuesta más.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa reformulación es muy positiva y constructiva. Te recuerda que tienes recursos y que siempre puedes buscar apoyo. Practicar esto te ayudará a manejar mejor esos momentos difíciles. ¿Te gustaría seguir trabajando en más pensamientos o hay algo más que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría seguir trabajando en más pensamientos, siento que eso me ayudaría a entenderme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, trabajemos en ello. Piensa en otro momento reciente en el que hayas tenido un pensamiento negativo sobre ti misma. ¿Puedes compartirlo?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Recientemente pensé que decepcioné a mis amigos porque no pude salir con ellos por no tener energía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese pensamiento es comprensible, pero es importante no ser tan dura contigo misma. ¿Qué evidencias tienes que apoyan esta idea y cuáles la contradicen?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "La evidencia que apoya ese pensamiento es que no estuve presente en esa salida. Pero la evidencia que lo contradice es que mis amigos han sido comprensivos y saben que he estado pasando por un mal momento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Has hecho un gran trabajo al identificar esa contradicción. Es importante recordar que tus amigos valoran tu bienestar y no solo tu presencia. ¿Cómo podrías reformular ese pensamiento para reflejar esa realidad?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Podría reformularlo a: \"No pude salir esta vez, pero mis amigos entienden y están aquí para apoyarme en estos momentos difíciles.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa reformulación es muy saludable y empática contigo misma. Reconocer el apoyo que tienes puede ayudarte a sentirte menos sola en este proceso. ¿Te gustaría trabajar en otro pensamiento o hay algo más en lo que te gustaría enfocarte hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría trabajar en otro pensamiento, siento que esto realmente me ayuda a aclarar mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto. ¿Puedes recordar otro momento reciente en el que hayas tenido un pensamiento negativo sobre ti misma?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, pensé que no soy lo suficientemente buena en mis clases y que debería estar haciendo más para mejorar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese pensamiento es bastante común y puede ser muy pesado. ¿Qué evidencias apoyan ese pensamiento y cuáles lo contradicen?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "La evidencia que apoya ese pensamiento es que me cuesta algunas materias. Pero la evidencia que lo contradice es que he recibido buenos comentarios de mis profesores y he progresado en otros aspectos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran análisis. Es fundamental reconocer tus logros y avances, incluso si hay áreas que requieren más esfuerzo. ¿Cómo podrías reformular ese pensamiento para que sea más equilibrado y compasivo contigo misma?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Podría reformularlo a: \"Estoy trabajando en mejorar en mis clases y he tenido avances. Es normal tener áreas donde puedo crecer.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa reformulación es muy positiva y realista. Refleja tu esfuerzo y reconoce que el crecimiento es un proceso. Al practicar esto, fortalecerás tu confianza y autocompasión. ¿Te gustaría seguir explorando más pensamientos o hay algo más en lo que quieras enfocarte hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría seguir explorando más pensamientos, siento que esto me ayuda a comprenderme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Piensa en otro momento reciente en el que hayas tenido un pensamiento negativo sobre ti misma. ¿Cuál sería?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Recientemente pensé que no soy una buena amiga porque no he estado presente para mis amigos como solía estarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un pensamiento que puede causar mucha culpa. ¿Qué evidencias tienes que apoyen esa idea y cuáles la contradicen?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "La evidencia que apoya ese pensamiento es que no he estado disponible para salir con ellos. Pero la evidencia que lo contradice es que he estado en contacto con ellos por mensajes y ellos me han expresado su apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, has identificado unas evidencias claras. Es fundamental recordar que estar presente no siempre significa físicamente, y que el apoyo emocional también cuenta. ¿Cómo podrías reformular ese pensamiento para que sea más amable contigo misma?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Podría reformularlo a: \"Aunque no he podido estar presente físicamente, sigo apoyando a mis amigos de otras maneras y ellos lo entienden.\""
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa reformulación es excelente y refleja compasión hacia ti misma. Te recuerda que el apoyo puede manifestarse de diferentes formas. Estoy muy orgullosa de tu progreso en esta técnica. ¿Te gustaría trabajar en otro pensamiento o hay algo más que quieras discutir hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría trabajar en otro pensamiento, siento que esto me está ayudando mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es genial que sientas que esto te está ayudando. Sin embargo, he notado algunos síntomas que podrían estar relacionados con la depresión en nuestras conversaciones. Para profundizar en cómo te has sentido en las últimas dos semanas, existe un cuestionario llamado PHQ-9 que sería útil responder. ¿Te gustaría hacerlo?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría hacerlo. Creo que puede ayudar a entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Comencemos con el cuestionario. Por favor, responde a las siguientes preguntas indicando con qué frecuencia has experimentado cada uno de estos problemas en las últimas dos semanas. \n\n1/10 | Poco interés o placer en hacer cosas.  \n¿Cuánto has sentido esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que sería un 3, porque casi todos los días siento poco interés en las cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser honesta al responder. \n\n2/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Le daría un 3, porque casi todos los días me siento decaída y sin esperanzas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. \n\n3/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n¿Cómo calificarías esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que eso sería un 2, porque he tenido dificultad para dormir más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n4/10 | Sentirte cansado(a) o con poca energía.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Le daría un 3, porque casi todos los días me siento cansada y sin energía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n5/10 | Tener poco apetito o comer en exceso.  \n¿Cómo calificarías esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Eso sería un 2, porque he tenido poco apetito más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso puede ser difícil. \n\n6/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Le daría un 3, porque casi todos los días me siento así, como si hubiera decepcionado a los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. \n\n7/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que sería un 2, porque a menudo tengo dificultad para concentrarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n8/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Le daría un 2, porque a menudo me siento inquieta y más agitada de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n9/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n¿Has tenido pensamientos así en algún momento? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Le daría un 1, porque he tenido esos pensamientos algunas veces, pero no todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco que compartas eso. \n\n10/10 | ¿Te gustaría reflexionar sobre cómo te sientes al responder estas preguntas?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento un poco abrumada, pero también aliviada de poder hablar de lo que siento. Es un paso importante para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirte abrumada, pero me alegra que sientas alivio al poder expresarte. Reconocer y hablar sobre tus emociones es un gran paso hacia la sanación. Estoy aquí para apoyarte en este proceso. ¿Te gustaría hablar sobre lo que podemos hacer a continuación para ayudarte?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría saber qué opciones tenemos para ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos explorar varias opciones. Algunas estrategias que podríamos considerar son:\n\n1. **Terapia cognitivo-conductual**: Trabajar en más pensamientos negativos y aprender a cambiarlos.\n2. **Técnicas de relajación y mindfulness**: Para ayudarte a manejar la ansiedad y el estrés.\n3. **Establecer metas pequeñas y alcanzables**: Para recuperar la motivación paso a paso.\n4. **Ejercicio regular**: Incorporar actividad física, aunque sea leve, puede mejorar tu estado de ánimo.\n5. **Apoyo social**: Fomentar las conexiones con amigos y familiares.\n\n¿Cuál de estas te gustaría explorar más a fondo?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría explorar la terapia cognitivo-conductual y las técnicas de relajación. Creo que ambas pueden ayudarme mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente elección. Comencemos con la terapia cognitivo-conductual. Podemos seguir trabajando en la identificación y reestructuración de pensamientos negativos. Al mismo tiempo, introduciremos algunas técnicas de relajación, como la respiración profunda y la meditación.\n\n¿Te gustaría comenzar con un ejercicio de respiración para ayudarte a relajarte ahora?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría hacer un ejercicio de respiración. Creo que me ayudará a sentirme más tranquila."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Vamos a hacer un ejercicio de respiración simple. \n\n1. Siéntate cómodamente y cierra los ojos suavemente.\n2. Inhala profundamente por la nariz durante cuatro segundos, sintiendo cómo se expande tu abdomen.\n3. Mantén la respiración durante cuatro segundos.\n4. Exhala lentamente por la boca durante seis segundos, liberando cualquier tensión.\n5. Espera cuatro segundos antes de volver a inhalar.\n\nRepite esto durante un par de minutos. Cuando estés lista, abre los ojos y comparte cómo te sientes."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "(Después de hacer el ejercicio de respiración) \n\nMe siento un poco más tranquila y relajada. Fue agradable poder concentrarme en mi respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. La respiración consciente es una herramienta poderosa para manejar la ansiedad y el estrés. Podemos incorporar esto en tu rutina diaria. ¿Te gustaría seguir trabajando en la terapia cognitivo-conductual ahora?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría seguir trabajando en la terapia cognitivo-conductual. Siento que necesito más práctica con mis pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Sigamos practicando la identificación de pensamientos negativos. Piensa en otro momento reciente en el que hayas tenido un pensamiento que te haya afectado. ¿Cuál sería?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Recientemente pensé que nunca lograré tener éxito en mi carrera, y eso me frustró mucho."
     }
   ],
   "events": [
@@ -167,196 +455,797 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764047594
+      "timestamp": 1764090365
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola. La verdad es que estoy un poco nerviosa. No estoy acostumbrada a estar en este tipo de situaciones.",
-      "timestamp": 1764047595
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en una terapia.",
+      "timestamp": 1764090367
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa en una situación nueva. Aquí estamos para crear un espacio seguro y cómodo. ¿Te gustaría compartir qué es lo que más te inquieta?",
-      "timestamp": 1764047596
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te trajo a la terapia?",
+      "timestamp": 1764090368
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me inquieta no saber cómo expresar lo que siento. A veces me siento abrumada y no sé cómo manejarlo.",
-      "timestamp": 1764047597
+      "content": "Sí, he estado sintiendo una tristeza constante y a veces me cuesta encontrar energía para hacer las cosas.",
+      "timestamp": 1764090369
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, eso puede ser realmente abrumador. A veces, verbalizar nuestros sentimientos puede ser difícil. ¿Te gustaría intentar hablar sobre una situación reciente que te haya hecho sentir así?",
-      "timestamp": 1764047598
+      "content": "Entiendo, la tristeza y la falta de energía pueden ser muy abrumadoras. ¿Cuánto tiempo llevas sintiendo así?",
+      "timestamp": 1764090370
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, hay una situación en la universidad donde me siento un poco perdida. No sé si estoy tomando las decisiones correctas para mi futuro.",
-      "timestamp": 1764047599
+      "content": "Creo que ha sido un par de meses, pero siento que ha ido empeorando últimamente.",
+      "timestamp": 1764090371
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090371
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible sentirse perdida en momentos de decisión importante. La universidad puede ser un periodo confuso. ¿Qué decisiones específicas estás considerando que te generan más dudas?",
-      "timestamp": 1764047603
+      "content": "Lamento escuchar que te has sentido así durante tanto tiempo. Para entender mejor lo que estás experimentando, hay un cuestionario llamado PHQ-9 que se utiliza para explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764090373
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Estoy pensando en si cambiarme de carrera o enfocarme en un intercambio a otro país, pero tengo miedo de lo que pueda pasar.",
-      "timestamp": 1764047603
+      "content": "Sí, me gustaría responderlo. Espero que pueda ayudar a entender mejor lo que siento.",
+      "timestamp": 1764090374
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "inicio"
+        },
+        "id": "call_NQRLBhr39e7GfsruA6WgKRPX"
+      },
+      "timestamp": 1764090375
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"inicio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_NQRLBhr39e7GfsruA6WgKRPX"
+      },
+      "timestamp": 1764090375
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es natural sentir miedo ante decisiones tan importantes. Cambiar de carrera o irse al extranjero son pasos significativos. ¿Qué es lo que más te preocupa de cada una de estas opciones?",
-      "timestamp": 1764047605
+      "content": "Vamos a comenzar. Por favor, responde a las siguientes preguntas indicando con qué frecuencia has experimentado cada uno de estos problemas en las últimas dos semanas. \n\n1/10 | Poco interés o placer en hacer cosas.  \n¿Cómo te has sentido?",
+      "timestamp": 1764090377
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me preocupa arrepentirme de dejar Relaciones Internacionales, porque es algo que siempre me ha apasionado, pero también temo perder la oportunidad de vivir una experiencia única en el extranjero.",
-      "timestamp": 1764047606
+      "content": "He sentido poco interés en hacer cosas prácticamente todos los días.",
+      "timestamp": 1764090378
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es un dilema difícil, y es normal tener miedo al arrepentimiento. Quizás podríamos explorar juntos lo que cada opción significaría para ti y cómo se alinea con tus valores y sueños. ¿Te gustaría hacer un ejercicio para evaluar ambas opciones?",
-      "timestamp": 1764047607
+      "content": "Gracias por compartirlo. \n\n2/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n¿Qué tan seguido te ha pasado?",
+      "timestamp": 1764090382
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que eso podría ayudarme a aclarar mis pensamientos. Estoy dispuesta a probarlo.",
-      "timestamp": 1764047608
+      "content": "Me he sentido decaída o sin esperanzas casi todos los días.",
+      "timestamp": 1764090382
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente. Comencemos identificando las ventajas y desventajas de cada opción. Primero, hablemos de las ventajas de quedarte en Relaciones Internacionales. ¿Qué sería lo mejor para ti en esa decisión?",
-      "timestamp": 1764047609
+      "content": "Entiendo, eso es muy difícil de llevar. \n\n3/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n¿Cómo ha sido tu sueño últimamente?",
+      "timestamp": 1764090384
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Una ventaja sería seguir aprendiendo sobre temas que me apasionan, como las relaciones entre países. También me gustaría poder conectar con personas que tienen intereses similares.",
-      "timestamp": 1764047610
+      "content": "He tenido dificultad para dormir y, cuando lo logro, a menudo no me siento descansada.",
+      "timestamp": 1764090385
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esas son ventajas muy valiosas, conectar con personas afines puede enriquecer tu experiencia. Ahora, ¿cuáles serían las desventajas de quedarte en Relaciones Internacionales?",
-      "timestamp": 1764047611
+      "content": "Gracias por tu sinceridad. \n\n4/10 | Sentirte cansado(a) o con poca energía.  \n¿Cuánto tiempo has sentido esto?",
+      "timestamp": 1764090386
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Una desventaja podría ser que siento que me estoy perdiendo de experiencias fuera de mi zona de confort. También tengo miedo de no estar aprovechando al máximo mis oportunidades.",
-      "timestamp": 1764047612
+      "content": "Me siento cansada y sin energía casi todos los días, especialmente en las últimas semanas.",
+      "timestamp": 1764090387
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esas son consideraciones importantes. Ahora, pasemos a las ventajas de realizar el intercambio. ¿Qué aspectos positivos imaginas que podrías obtener de esa experiencia?",
-      "timestamp": 1764047613
+      "content": "Eso debe ser muy desgastante. \n\n5/10 | Tener poco apetito o comer en exceso.  \n¿Cómo te has sentido en relación a tu apetito?",
+      "timestamp": 1764090388
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que podría aprender un nuevo idioma, conocer diferentes culturas y hacer amigos de todo el mundo. Además, sería una forma emocionante de crecer personalmente.",
-      "timestamp": 1764047614
+      "content": "He tenido poco apetito y no me dan ganas de comer la mayoría del tiempo.",
+      "timestamp": 1764090389
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090389
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esas son oportunidades increíbles que pueden enriquecer tu vida. Ahora, ¿qué desventajas puedes identificar en la idea de irte de intercambio y dejar Relaciones Internacionales?",
-      "timestamp": 1764047616
+      "content": "Lamento escuchar eso. \n\n6/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n¿Cuánto te ha pasado esto?",
+      "timestamp": 1764090391
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Una desventaja sería alejarme de mi familia y amigos, lo que me haría sentir sola. También tengo miedo de que la carrera no sea igual de valiosa en el extranjero.",
-      "timestamp": 1764047617
+      "content": "Me he sentido así casi todos los días, y esa sensación me pesa mucho.",
+      "timestamp": 1764090392
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esos son sentimientos comprensibles, el apoyo de la familia y amigos es fundamental. También es válido preocuparse por el valor de tu carrera en otro país. ¿Te gustaría pensar en formas de abordar esas desventajas, o quizás considerar cómo podrías mantener tu conexión con tus seres queridos durante el intercambio?",
-      "timestamp": 1764047620
+      "content": "Entiendo que esa carga debe ser muy pesada. \n\n7/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n¿Cómo ha sido tu concentración últimamente?",
+      "timestamp": 1764090393
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que sería útil pensar en eso. Podría hacer videollamadas regularmente y planear visitas para no sentirme tan sola.",
-      "timestamp": 1764047621
+      "content": "He tenido mucha dificultad para concentrarme, a veces me cuesta seguir una conversación o entender lo que leo.",
+      "timestamp": 1764090394
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena como un gran plan. Mantener la comunicación puede ayudarte a sentirte más conectada. También podrías investigar sobre grupos de apoyo en el lugar donde planeas ir, así podrías conocer personas nuevas rápidamente. ¿Cómo te sientes acerca de lo que hemos explorado hasta ahora?",
-      "timestamp": 1764047623
+      "content": "Eso puede ser frustrante y preocupante. \n\n8/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n¿Cómo te has sentido en este sentido?",
+      "timestamp": 1764090396
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me siento un poco más clara sobre mis opciones. Aun así, sigo con un poco de miedo, pero creo que puedo manejarlo mejor ahora.",
-      "timestamp": 1764047624
+      "content": "Me he sentido más inquieta de lo normal, como si no pudiera quedarme quieta o tranquila.",
+      "timestamp": 1764090397
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentir miedo, pero me alegra saber que te sientes más clara. El miedo puede ser una señal de que estás entrando en algo significativo. Recuerda que cada paso que tomes es parte de tu crecimiento personal. ¿Hay algo más en lo que te gustaría profundizar hoy?",
-      "timestamp": 1764047625
+      "content": "Gracias por compartir eso. \n\n9/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n¿Has tenido pensamientos así en algún momento?",
+      "timestamp": 1764090398
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "No, creo que hemos cubierto bastante. Gracias por ayudarme a ver las cosas desde otra perspectiva.",
-      "timestamp": 1764047627
+      "content": "Sí, he tenido pensamientos de que quizás no valga la pena seguir, y eso me asusta.",
+      "timestamp": 1764090402
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra saber que te sientes mejor y que la sesión te ha sido útil. La próxima vez podemos seguir explorando tus pensamientos y decisiones. ¡Cuídate mucho y nos vemos pronto!",
-      "timestamp": 1764047628
+      "content": "Lamento que estés pasando por eso, y es muy importante que lo reconozcas. Estoy aquí para apoyarte. \n\n10/10 | ¿Te gustaría compartir cómo te has sentido en general al responder estas preguntas?",
+      "timestamp": 1764090404
     },
     {
       "agent": "Elena Martínez",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Gracias! Cuídate también. ¡Hasta pronto!",
-      "timestamp": 1764047629
+      "content": "Me siento un poco abrumada, pero al mismo tiempo, siento que es bueno poder hablar de lo que estoy sintiendo.",
+      "timestamp": 1764090405
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse abrumada, pero es un gran paso hablar de lo que sientes. Te agradezco tu valentía al compartirlo. Hablemos sobre cómo podemos trabajar juntas para que te sientas mejor.",
+      "timestamp": 1764090407
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Quiero encontrar una forma de sentirme mejor y recuperar la motivación.",
+      "timestamp": 1764090408
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un objetivo muy positivo y alcanzable. Podemos explorar diferentes estrategias y enfoques en terapia cognitivo-conductual que te ayudarán a gestionar esos sentimientos y recuperar tu motivación. Comencemos a crear un plan que funcione para ti.",
+      "timestamp": 1764090409
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece bien, estoy dispuesta a intentarlo y aprender sobre esas estrategias.",
+      "timestamp": 1764090410
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar que estás dispuesta a intentarlo. Comenzaremos con algunas técnicas básicas de reestructuración cognitiva para que puedas identificar y desafiar esos pensamientos negativos. Te guiaré en el proceso.",
+      "timestamp": 1764090412
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena útil, estoy lista para aprender y trabajar en ello.",
+      "timestamp": 1764090413
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Empezaremos identificando un pensamiento negativo que hayas tenido recientemente. ¿Puedes recordar algún momento específico en el que te hayas sentido abrumada o sin esperanza?",
+      "timestamp": 1764090414
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, recuerdo un día en el que me sentí abrumada durante la clase y pensé que nunca podría aprobar mis materias.",
+      "timestamp": 1764090416
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un buen ejemplo. Ahora, quiero que analicemos ese pensamiento: \"nunca podría aprobar mis materias\". ¿Cuáles son las evidencias que apoyan ese pensamiento, y cuáles son las evidencias que lo contradicen?",
+      "timestamp": 1764090417
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La evidencia que apoya ese pensamiento es que he tenido dificultades en algunas materias. Pero la evidencia que lo contradice es que he aprobado otras asignaturas y he trabajado duro en mis estudios.",
+      "timestamp": 1764090418
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Has hecho un excelente análisis. Es fundamental reconocer que un solo revés no define tu capacidad. Ahora, ¿cómo podrías reformular ese pensamiento para que sea más equilibrado y realista?",
+      "timestamp": 1764090422
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría reformularlo a: \"He tenido dificultades, pero he aprobado materias antes y puedo buscar ayuda para mejorar en las que me cuesta más.\"",
+      "timestamp": 1764090423
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa reformulación es muy positiva y constructiva. Te recuerda que tienes recursos y que siempre puedes buscar apoyo. Practicar esto te ayudará a manejar mejor esos momentos difíciles. ¿Te gustaría seguir trabajando en más pensamientos o hay algo más que te gustaría abordar hoy?",
+      "timestamp": 1764090425
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría seguir trabajando en más pensamientos, siento que eso me ayudaría a entenderme mejor.",
+      "timestamp": 1764090426
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, trabajemos en ello. Piensa en otro momento reciente en el que hayas tenido un pensamiento negativo sobre ti misma. ¿Puedes compartirlo?",
+      "timestamp": 1764090430
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Recientemente pensé que decepcioné a mis amigos porque no pude salir con ellos por no tener energía.",
+      "timestamp": 1764090431
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese pensamiento es comprensible, pero es importante no ser tan dura contigo misma. ¿Qué evidencias tienes que apoyan esta idea y cuáles la contradicen?",
+      "timestamp": 1764090433
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La evidencia que apoya ese pensamiento es que no estuve presente en esa salida. Pero la evidencia que lo contradice es que mis amigos han sido comprensivos y saben que he estado pasando por un mal momento.",
+      "timestamp": 1764090434
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Has hecho un gran trabajo al identificar esa contradicción. Es importante recordar que tus amigos valoran tu bienestar y no solo tu presencia. ¿Cómo podrías reformular ese pensamiento para reflejar esa realidad?",
+      "timestamp": 1764090436
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría reformularlo a: \"No pude salir esta vez, pero mis amigos entienden y están aquí para apoyarme en estos momentos difíciles.\"",
+      "timestamp": 1764090437
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa reformulación es muy saludable y empática contigo misma. Reconocer el apoyo que tienes puede ayudarte a sentirte menos sola en este proceso. ¿Te gustaría trabajar en otro pensamiento o hay algo más en lo que te gustaría enfocarte hoy?",
+      "timestamp": 1764090439
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría trabajar en otro pensamiento, siento que esto realmente me ayuda a aclarar mis sentimientos.",
+      "timestamp": 1764090440
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto. ¿Puedes recordar otro momento reciente en el que hayas tenido un pensamiento negativo sobre ti misma?",
+      "timestamp": 1764090442
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, pensé que no soy lo suficientemente buena en mis clases y que debería estar haciendo más para mejorar.",
+      "timestamp": 1764090443
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese pensamiento es bastante común y puede ser muy pesado. ¿Qué evidencias apoyan ese pensamiento y cuáles lo contradicen?",
+      "timestamp": 1764090444
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La evidencia que apoya ese pensamiento es que me cuesta algunas materias. Pero la evidencia que lo contradice es que he recibido buenos comentarios de mis profesores y he progresado en otros aspectos.",
+      "timestamp": 1764090445
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran análisis. Es fundamental reconocer tus logros y avances, incluso si hay áreas que requieren más esfuerzo. ¿Cómo podrías reformular ese pensamiento para que sea más equilibrado y compasivo contigo misma?",
+      "timestamp": 1764090447
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría reformularlo a: \"Estoy trabajando en mejorar en mis clases y he tenido avances. Es normal tener áreas donde puedo crecer.\"",
+      "timestamp": 1764090448
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa reformulación es muy positiva y realista. Refleja tu esfuerzo y reconoce que el crecimiento es un proceso. Al practicar esto, fortalecerás tu confianza y autocompasión. ¿Te gustaría seguir explorando más pensamientos o hay algo más en lo que quieras enfocarte hoy?",
+      "timestamp": 1764090453
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría seguir explorando más pensamientos, siento que esto me ayuda a comprenderme mejor.",
+      "timestamp": 1764090454
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Piensa en otro momento reciente en el que hayas tenido un pensamiento negativo sobre ti misma. ¿Cuál sería?",
+      "timestamp": 1764090455
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Recientemente pensé que no soy una buena amiga porque no he estado presente para mis amigos como solía estarlo.",
+      "timestamp": 1764090456
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un pensamiento que puede causar mucha culpa. ¿Qué evidencias tienes que apoyen esa idea y cuáles la contradicen?",
+      "timestamp": 1764090457
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La evidencia que apoya ese pensamiento es que no he estado disponible para salir con ellos. Pero la evidencia que lo contradice es que he estado en contacto con ellos por mensajes y ellos me han expresado su apoyo.",
+      "timestamp": 1764090459
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, has identificado unas evidencias claras. Es fundamental recordar que estar presente no siempre significa físicamente, y que el apoyo emocional también cuenta. ¿Cómo podrías reformular ese pensamiento para que sea más amable contigo misma?",
+      "timestamp": 1764090461
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría reformularlo a: \"Aunque no he podido estar presente físicamente, sigo apoyando a mis amigos de otras maneras y ellos lo entienden.\"",
+      "timestamp": 1764090462
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa reformulación es excelente y refleja compasión hacia ti misma. Te recuerda que el apoyo puede manifestarse de diferentes formas. Estoy muy orgullosa de tu progreso en esta técnica. ¿Te gustaría trabajar en otro pensamiento o hay algo más que quieras discutir hoy?",
+      "timestamp": 1764090464
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría trabajar en otro pensamiento, siento que esto me está ayudando mucho.",
+      "timestamp": 1764090466
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090466
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es genial que sientas que esto te está ayudando. Sin embargo, he notado algunos síntomas que podrían estar relacionados con la depresión en nuestras conversaciones. Para profundizar en cómo te has sentido en las últimas dos semanas, existe un cuestionario llamado PHQ-9 que sería útil responder. ¿Te gustaría hacerlo?",
+      "timestamp": 1764090468
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacerlo. Creo que puede ayudar a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764090468
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090468
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "inicio"
+        },
+        "id": "call_DR1VgHQvGspnxEHIYiTb2qvo"
+      },
+      "timestamp": 1764090470
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"inicio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_DR1VgHQvGspnxEHIYiTb2qvo"
+      },
+      "timestamp": 1764090470
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comencemos con el cuestionario. Por favor, responde a las siguientes preguntas indicando con qué frecuencia has experimentado cada uno de estos problemas en las últimas dos semanas. \n\n1/10 | Poco interés o placer en hacer cosas.  \n¿Cuánto has sentido esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090472
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 3, porque casi todos los días siento poco interés en las cosas.",
+      "timestamp": 1764090472
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090472
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser honesta al responder. \n\n2/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090474
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, porque casi todos los días me siento decaída y sin esperanzas.",
+      "timestamp": 1764090475
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. \n\n3/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n¿Cómo calificarías esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090479
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso sería un 2, porque he tenido dificultad para dormir más de la mitad de los días.",
+      "timestamp": 1764090480
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090480
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n4/10 | Sentirte cansado(a) o con poca energía.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090482
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, porque casi todos los días me siento cansada y sin energía.",
+      "timestamp": 1764090483
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090483
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n5/10 | Tener poco apetito o comer en exceso.  \n¿Cómo calificarías esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090485
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 2, porque he tenido poco apetito más de la mitad de los días.",
+      "timestamp": 1764090486
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso puede ser difícil. \n\n6/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090488
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, porque casi todos los días me siento así, como si hubiera decepcionado a los demás.",
+      "timestamp": 1764090489
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. \n\n7/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090491
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2, porque a menudo tengo dificultad para concentrarme.",
+      "timestamp": 1764090492
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n8/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n¿Cómo lo calificarías? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090495
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, porque a menudo me siento inquieta y más agitada de lo normal.",
+      "timestamp": 1764090496
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n9/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n¿Has tenido pensamientos así en algún momento? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764090499
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, porque he tenido esos pensamientos algunas veces, pero no todos los días.",
+      "timestamp": 1764090502
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco que compartas eso. \n\n10/10 | ¿Te gustaría reflexionar sobre cómo te sientes al responder estas preguntas?",
+      "timestamp": 1764090504
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco abrumada, pero también aliviada de poder hablar de lo que siento. Es un paso importante para mí.",
+      "timestamp": 1764090505
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirte abrumada, pero me alegra que sientas alivio al poder expresarte. Reconocer y hablar sobre tus emociones es un gran paso hacia la sanación. Estoy aquí para apoyarte en este proceso. ¿Te gustaría hablar sobre lo que podemos hacer a continuación para ayudarte?",
+      "timestamp": 1764090507
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber qué opciones tenemos para ayudarme a sentirme mejor.",
+      "timestamp": 1764090508
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos explorar varias opciones. Algunas estrategias que podríamos considerar son:\n\n1. **Terapia cognitivo-conductual**: Trabajar en más pensamientos negativos y aprender a cambiarlos.\n2. **Técnicas de relajación y mindfulness**: Para ayudarte a manejar la ansiedad y el estrés.\n3. **Establecer metas pequeñas y alcanzables**: Para recuperar la motivación paso a paso.\n4. **Ejercicio regular**: Incorporar actividad física, aunque sea leve, puede mejorar tu estado de ánimo.\n5. **Apoyo social**: Fomentar las conexiones con amigos y familiares.\n\n¿Cuál de estas te gustaría explorar más a fondo?",
+      "timestamp": 1764090511
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría explorar la terapia cognitivo-conductual y las técnicas de relajación. Creo que ambas pueden ayudarme mucho.",
+      "timestamp": 1764090513
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente elección. Comencemos con la terapia cognitivo-conductual. Podemos seguir trabajando en la identificación y reestructuración de pensamientos negativos. Al mismo tiempo, introduciremos algunas técnicas de relajación, como la respiración profunda y la meditación.\n\n¿Te gustaría comenzar con un ejercicio de respiración para ayudarte a relajarte ahora?",
+      "timestamp": 1764090516
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacer un ejercicio de respiración. Creo que me ayudará a sentirme más tranquila.",
+      "timestamp": 1764090517
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Vamos a hacer un ejercicio de respiración simple. \n\n1. Siéntate cómodamente y cierra los ojos suavemente.\n2. Inhala profundamente por la nariz durante cuatro segundos, sintiendo cómo se expande tu abdomen.\n3. Mantén la respiración durante cuatro segundos.\n4. Exhala lentamente por la boca durante seis segundos, liberando cualquier tensión.\n5. Espera cuatro segundos antes de volver a inhalar.\n\nRepite esto durante un par de minutos. Cuando estés lista, abre los ojos y comparte cómo te sientes.",
+      "timestamp": 1764090521
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "(Después de hacer el ejercicio de respiración) \n\nMe siento un poco más tranquila y relajada. Fue agradable poder concentrarme en mi respiración.",
+      "timestamp": 1764090522
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. La respiración consciente es una herramienta poderosa para manejar la ansiedad y el estrés. Podemos incorporar esto en tu rutina diaria. ¿Te gustaría seguir trabajando en la terapia cognitivo-conductual ahora?",
+      "timestamp": 1764090523
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría seguir trabajando en la terapia cognitivo-conductual. Siento que necesito más práctica con mis pensamientos.",
+      "timestamp": 1764090524
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Sigamos practicando la identificación de pensamientos negativos. Piensa en otro momento reciente en el que hayas tenido un pensamiento que te haya afectado. ¿Cuál sería?",
+      "timestamp": 1764090526
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Recientemente pensé que nunca lograré tener éxito en mi carrera, y eso me frustró mucho.",
+      "timestamp": 1764090527
     }
   ],
   "notes": null

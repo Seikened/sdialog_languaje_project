@@ -1,0 +1,691 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:54:56Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1004644464,
+  "id": "a6d9f352-c611-45a2-b50b-95e998b8169b",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Rodrigo Salas": {
+      "name": "Rodrigo Salas",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DER) | estudiante de Derecho en la Ibero de 8vo semestre; le gusta debatir temas con amigos, ver series y salir de vez en cuando.",
+      "personality": "serio pero emocional",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso. Es mi primera vez en terapia y no estoy seguro de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que puedas sentirte nervioso, es completamente normal. Estoy aquí para apoyarte y guiarte en este proceso. ¿Te gustaría compartir qué te llevó a buscar terapia?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, creo que últimamente he estado sintiéndome un poco perdido y, a menudo, me siento triste sin razón aparente. Quiero entender mejor lo que me está pasando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un buen paso el reconocer esos sentimientos. Para explorar cómo te has sentido en las últimas dos semanas, existe un cuestionario llamado PHQ-9. ¿Te gustaría responderlo? Esto nos puede ayudar a entender mejor tu situación, aunque no sustituye una evaluación profesional completa."
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me parece bien. Estoy dispuesto a responder el cuestionario para poder profundizar en cómo me he estado sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, comenzamos con el cuestionario. Te haré una serie de preguntas y me gustaría que me digas qué tan seguido has tenido molestias debido a los siguientes problemas en las últimas dos semanas. \n\n1. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He sentido poco interés en hacer cosas casi todos los días. Ya no disfruto de actividades que antes me gustaban, como salir con mis amigos o ver series."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, es un paso importante. Ahora, la segunda pregunta: \n\n2. ¿Te has sentido decaído, deprimido o sin esperanzas? ¿Con qué frecuencia has experimentado esto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, he estado sintiéndome decaído casi todos los días. A veces parece que no hay salida y me cuesta ver algo positivo en el futuro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo siento mucho, Rodrigo. Es comprensible sentirse así, y es valioso que lo reconozcas. Pasemos a la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido, o has estado durmiendo demasiado? ¿Con qué frecuencia?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He tenido dificultad para dormir casi todas las noches. Me cuesta quedarme dormido y cuando lo logro, me despierto varias veces durante la noche."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy agotador y puede afectar tu bienestar general. Ahora, continuemos con la siguiente pregunta:\n\n4. ¿Te has sentido cansado o con poca energía? ¿Qué tan frecuente ha sido eso en las últimas dos semanas?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me he sentido cansado y con poca energía casi todos los días. A veces, ni siquiera tengo ganas de levantarme de la cama."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que eso es muy difícil de afrontar. Vamos a continuar con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Con qué frecuencia ha sucedido esto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He tenido poco apetito la mayoría de los días. No tengo ganas de comer y muchas veces simplemente olvido hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es preocupante escuchar que has perdido el apetito, eso puede afectar tu energía y estado de ánimo. Sigamos con la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo, como si fueras un fracaso o que has decepcionado a alguien? ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Me he sentido así casi todos los días. A menudo pienso que no estoy cumpliendo con las expectativas de los demás, y eso me hace sentir muy mal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiendo eso, es realmente pesado cargar con esas expectativas. Pasemos a la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer o ver la televisión? ¿Con qué frecuencia te ha pasado?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, he tenido dificultad para concentrarme casi siempre. A veces, ni siquiera puedo seguir el hilo de una serie que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir esto, la falta de concentración puede ser muy frustrante. Ahora, la penúltima pregunta:\n\n8. ¿Te has sentido inquieto o agitado, o has notado que te mueves o hablas más lento de lo normal? ¿Con qué frecuencia has experimentado esto?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He sentido inquietud varias veces a la semana. A veces, me muevo o hablo más lento, y eso me frustra aún más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que eso te genere frustración. Vamos a la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera? ¿Con qué frecuencia has tenido esos pensamientos?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "He tenido esos pensamientos en algunas ocasiones, especialmente en momentos de mucha tristeza. Me asusta sentirme así y no saber cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés experimentando esos pensamientos, es realmente preocupante y entiendo que puede ser aterrador. Es muy importante hablar sobre ello. \n\nComo mencioné antes, existe un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría que lo respondiéramos juntos? Esto no sustituye una evaluación profesional completa, pero puede brindarnos información valiosa."
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me gustaría que lo respondiéramos juntos. Creo que puede ayudarme a entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Comencemos nuevamente con la primera pregunta. \n\n1. Durante las últimas dos semanas, ¿qué tan seguido has tenido molestias debido a la falta de interés o placer en hacer cosas? ¿Puedes calificarlo del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Le daría un 3, casi todos los días he sentido falta de interés en hacer cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n2. En cuanto a sentirte decaído, deprimido o sin esperanzas, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Lo calificaría con un 3 también, me he sentido decaído casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu sinceridad. \n\n3. ¿Qué calificación le darías a la dificultad para quedarte o permanecer dormido, o dormir demasiado?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Le daría un 3, he tenido dificultades para dormir casi todas las noches."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n4. En cuanto a sentirte cansado o con poca energía, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Lo calificaría con un 3, me he sentido cansado y con poca energía casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por tu respuesta. \n\n5. ¿Cómo calificarías el poco apetito o comer en exceso?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Le daría un 2, he tenido poco apetito varios días, aunque algunos días he comido algo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco tu honestidad. \n\n6. ¿Qué calificación le darías a sentirte mal contigo mismo, como si fueras un fracaso o decepcionado?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Le daría un 3, me he sentido así casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo lamento mucho, es difícil lidiar con esos sentimientos. \n\n7. En cuanto a la dificultad para concentrarte, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Lo calificaría con un 3, he tenido mucha dificultad para concentrarme casi siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser tan abierto. \n\n8. ¿Cómo calificarías el sentirte inquieto o agitado?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Le daría un 2, he sentido inquietud varias veces a la semana, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco tu claridad. \n\n9. Finalmente, ¿qué calificación le darías a los pensamientos de que estarías mejor muerto o de lastimarte?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Le daría un 1, he tenido esos pensamientos en algunas ocasiones, pero no son constantes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, es importante reconocerlo. Vamos a reflexionar sobre tus respuestas. Es claro que has estado enfrentando muchos desafíos y es valioso que estés aquí para hablar de ellos. ¿Te gustaría que hiciéramos un resumen de lo que hemos explorado hoy?"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Sí, me gustaría hacer un resumen. Creo que es importante entender todo lo que hemos hablado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí tienes un resumen de nuestra sesión hoy:\n\n- Has estado sintiéndote perdido y triste sin razón aparente, lo que te ha llevado a buscar terapia.\n- Has experimentado poco interés en actividades, sentimientos de decaimiento, dificultades para dormir, cansancio constante, y poca energía.\n- Has sentido malestar contigo mismo y dificultades para concentrarte.\n- Has tenido momentos de inquietud, y aunque has tenido algunos pensamientos negativos, no son constantes.\n\nPara la siguiente sesión, podemos trabajar en desarrollar estrategias para abordar estos sentimientos y mejorar tu bienestar. Además, sería útil seguir explorando tus pensamientos y emociones.\n\nSi tienes alguna pregunta o algo más que quisieras discutir antes de finalizar, estoy aquí para escucharte."
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Agradezco mucho el resumen y todo lo que hemos hablado hoy. No tengo preguntas por ahora, pero estoy dispuesto a trabajar en las estrategias para sentirme mejor en la próxima sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que estás dispuesto a trabajar en ello. Es un paso muy positivo. Recuerda que estar aquí y ser honesto sobre tus sentimientos ya es un gran avance. Nos vemos en la próxima sesión, cuídate mucho. \n\n¡Hasta luego!"
+    },
+    {
+      "speaker": "Rodrigo Salas",
+      "text": "Gracias, cuídate también. Nos vemos en la próxima sesión. ¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Rodrigo Salas, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764093223
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso. Es mi primera vez en terapia y no estoy seguro de qué esperar.",
+      "timestamp": 1764093224
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que puedas sentirte nervioso, es completamente normal. Estoy aquí para apoyarte y guiarte en este proceso. ¿Te gustaría compartir qué te llevó a buscar terapia?",
+      "timestamp": 1764093225
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que últimamente he estado sintiéndome un poco perdido y, a menudo, me siento triste sin razón aparente. Quiero entender mejor lo que me está pasando.",
+      "timestamp": 1764093227
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093227
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un buen paso el reconocer esos sentimientos. Para explorar cómo te has sentido en las últimas dos semanas, existe un cuestionario llamado PHQ-9. ¿Te gustaría responderlo? Esto nos puede ayudar a entender mejor tu situación, aunque no sustituye una evaluación profesional completa.",
+      "timestamp": 1764093229
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesto a responder el cuestionario para poder profundizar en cómo me he estado sintiendo.",
+      "timestamp": 1764093230
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "inicio"
+        },
+        "id": "call_ERwGkBmdvygoUM0QHaQ7UeUE"
+      },
+      "timestamp": 1764093231
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"inicio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_ERwGkBmdvygoUM0QHaQ7UeUE"
+      },
+      "timestamp": 1764093231
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, comenzamos con el cuestionario. Te haré una serie de preguntas y me gustaría que me digas qué tan seguido has tenido molestias debido a los siguientes problemas en las últimas dos semanas. \n\n1. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764093233
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He sentido poco interés en hacer cosas casi todos los días. Ya no disfruto de actividades que antes me gustaban, como salir con mis amigos o ver series.",
+      "timestamp": 1764093234
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, es un paso importante. Ahora, la segunda pregunta: \n\n2. ¿Te has sentido decaído, deprimido o sin esperanzas? ¿Con qué frecuencia has experimentado esto?",
+      "timestamp": 1764093235
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome decaído casi todos los días. A veces parece que no hay salida y me cuesta ver algo positivo en el futuro.",
+      "timestamp": 1764093236
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo siento mucho, Rodrigo. Es comprensible sentirse así, y es valioso que lo reconozcas. Pasemos a la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido, o has estado durmiendo demasiado? ¿Con qué frecuencia?",
+      "timestamp": 1764093238
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido dificultad para dormir casi todas las noches. Me cuesta quedarme dormido y cuando lo logro, me despierto varias veces durante la noche.",
+      "timestamp": 1764093239
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy agotador y puede afectar tu bienestar general. Ahora, continuemos con la siguiente pregunta:\n\n4. ¿Te has sentido cansado o con poca energía? ¿Qué tan frecuente ha sido eso en las últimas dos semanas?",
+      "timestamp": 1764093241
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me he sentido cansado y con poca energía casi todos los días. A veces, ni siquiera tengo ganas de levantarme de la cama.",
+      "timestamp": 1764093242
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que eso es muy difícil de afrontar. Vamos a continuar con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Con qué frecuencia ha sucedido esto?",
+      "timestamp": 1764093244
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido poco apetito la mayoría de los días. No tengo ganas de comer y muchas veces simplemente olvido hacerlo.",
+      "timestamp": 1764093245
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es preocupante escuchar que has perdido el apetito, eso puede afectar tu energía y estado de ánimo. Sigamos con la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo, como si fueras un fracaso o que has decepcionado a alguien? ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764093246
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me he sentido así casi todos los días. A menudo pienso que no estoy cumpliendo con las expectativas de los demás, y eso me hace sentir muy mal.",
+      "timestamp": 1764093249
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso, es realmente pesado cargar con esas expectativas. Pasemos a la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer o ver la televisión? ¿Con qué frecuencia te ha pasado?",
+      "timestamp": 1764093250
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he tenido dificultad para concentrarme casi siempre. A veces, ni siquiera puedo seguir el hilo de una serie que antes disfrutaba.",
+      "timestamp": 1764093252
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir esto, la falta de concentración puede ser muy frustrante. Ahora, la penúltima pregunta:\n\n8. ¿Te has sentido inquieto o agitado, o has notado que te mueves o hablas más lento de lo normal? ¿Con qué frecuencia has experimentado esto?",
+      "timestamp": 1764093254
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He sentido inquietud varias veces a la semana. A veces, me muevo o hablo más lento, y eso me frustra aún más.",
+      "timestamp": 1764093255
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que eso te genere frustración. Vamos a la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera? ¿Con qué frecuencia has tenido esos pensamientos?",
+      "timestamp": 1764093257
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido esos pensamientos en algunas ocasiones, especialmente en momentos de mucha tristeza. Me asusta sentirme así y no saber cómo manejarlo.",
+      "timestamp": 1764093259
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093259
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés experimentando esos pensamientos, es realmente preocupante y entiendo que puede ser aterrador. Es muy importante hablar sobre ello. \n\nComo mencioné antes, existe un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría que lo respondiéramos juntos? Esto no sustituye una evaluación profesional completa, pero puede brindarnos información valiosa.",
+      "timestamp": 1764093261
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría que lo respondiéramos juntos. Creo que puede ayudarme a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764093263
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "continuar"
+        },
+        "id": "call_OrXsuhsrcaplReEq5vKaJdTI"
+      },
+      "timestamp": 1764093265
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"continuar\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_OrXsuhsrcaplReEq5vKaJdTI"
+      },
+      "timestamp": 1764093265
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comencemos nuevamente con la primera pregunta. \n\n1. Durante las últimas dos semanas, ¿qué tan seguido has tenido molestias debido a la falta de interés o placer en hacer cosas? ¿Puedes calificarlo del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"?",
+      "timestamp": 1764093267
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, casi todos los días he sentido falta de interés en hacer cosas.",
+      "timestamp": 1764093269
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n2. En cuanto a sentirte decaído, deprimido o sin esperanzas, ¿cómo lo calificarías?",
+      "timestamp": 1764093270
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría con un 3 también, me he sentido decaído casi todos los días.",
+      "timestamp": 1764093271
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu sinceridad. \n\n3. ¿Qué calificación le darías a la dificultad para quedarte o permanecer dormido, o dormir demasiado?",
+      "timestamp": 1764093272
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, he tenido dificultades para dormir casi todas las noches.",
+      "timestamp": 1764093273
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n4. En cuanto a sentirte cansado o con poca energía, ¿cómo lo calificarías?",
+      "timestamp": 1764093274
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría con un 3, me he sentido cansado y con poca energía casi todos los días.",
+      "timestamp": 1764093275
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por tu respuesta. \n\n5. ¿Cómo calificarías el poco apetito o comer en exceso?",
+      "timestamp": 1764093276
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, he tenido poco apetito varios días, aunque algunos días he comido algo.",
+      "timestamp": 1764093277
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu honestidad. \n\n6. ¿Qué calificación le darías a sentirte mal contigo mismo, como si fueras un fracaso o decepcionado?",
+      "timestamp": 1764093278
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, me he sentido así casi todos los días.",
+      "timestamp": 1764093278
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo lamento mucho, es difícil lidiar con esos sentimientos. \n\n7. En cuanto a la dificultad para concentrarte, ¿cómo lo calificarías?",
+      "timestamp": 1764093280
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría con un 3, he tenido mucha dificultad para concentrarme casi siempre.",
+      "timestamp": 1764093281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser tan abierto. \n\n8. ¿Cómo calificarías el sentirte inquieto o agitado?",
+      "timestamp": 1764093282
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, he sentido inquietud varias veces a la semana, pero no siempre.",
+      "timestamp": 1764093283
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu claridad. \n\n9. Finalmente, ¿qué calificación le darías a los pensamientos de que estarías mejor muerto o de lastimarte?",
+      "timestamp": 1764093284
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, he tenido esos pensamientos en algunas ocasiones, pero no son constantes.",
+      "timestamp": 1764093285
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, es importante reconocerlo. Vamos a reflexionar sobre tus respuestas. Es claro que has estado enfrentando muchos desafíos y es valioso que estés aquí para hablar de ellos. ¿Te gustaría que hiciéramos un resumen de lo que hemos explorado hoy?",
+      "timestamp": 1764093286
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacer un resumen. Creo que es importante entender todo lo que hemos hablado.",
+      "timestamp": 1764093287
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "resumen de la sesión"
+        },
+        "id": "call_FHhcrffcrEyvlsW8HAdov0Sq"
+      },
+      "timestamp": 1764093288
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"resumen de la sesión\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_FHhcrffcrEyvlsW8HAdov0Sq"
+      },
+      "timestamp": 1764093288
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí tienes un resumen de nuestra sesión hoy:\n\n- Has estado sintiéndote perdido y triste sin razón aparente, lo que te ha llevado a buscar terapia.\n- Has experimentado poco interés en actividades, sentimientos de decaimiento, dificultades para dormir, cansancio constante, y poca energía.\n- Has sentido malestar contigo mismo y dificultades para concentrarte.\n- Has tenido momentos de inquietud, y aunque has tenido algunos pensamientos negativos, no son constantes.\n\nPara la siguiente sesión, podemos trabajar en desarrollar estrategias para abordar estos sentimientos y mejorar tu bienestar. Además, sería útil seguir explorando tus pensamientos y emociones.\n\nSi tienes alguna pregunta o algo más que quisieras discutir antes de finalizar, estoy aquí para escucharte.",
+      "timestamp": 1764093292
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco mucho el resumen y todo lo que hemos hablado hoy. No tengo preguntas por ahora, pero estoy dispuesto a trabajar en las estrategias para sentirme mejor en la próxima sesión.",
+      "timestamp": 1764093293
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que estás dispuesto a trabajar en ello. Es un paso muy positivo. Recuerda que estar aquí y ser honesto sobre tus sentimientos ya es un gran avance. Nos vemos en la próxima sesión, cuídate mucho. \n\n¡Hasta luego!",
+      "timestamp": 1764093295
+    },
+    {
+      "agent": "Rodrigo Salas",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate también. Nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764093296
+    }
+  ],
+  "notes": null
+}

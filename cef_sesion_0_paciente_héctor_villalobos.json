@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T05:11:42Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:02:14Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 3665921063,
-  "id": "8a68a775-ee26-4337-ad48-04ccfbda01a4",
+  "seed": 92968753,
+  "id": "aa6fcc86-c6d2-426f-9e58-f1b0413b4d28",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,111 +54,119 @@
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en una sesión de terapia."
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en terapia."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para acompañarte y apoyarte. ¿Hay algo en particular que te gustaría compartir sobre lo que te preocupa?"
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y que te sientas cómodo. ¿Qué te gustaría compartir conmigo hoy?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, he estado sintiendo mucha tristeza últimamente y me cuesta concentrarme en mis estudios."
+      "text": "Quisiera hablar sobre cómo me he estado sintiendo últimamente. Me siento un poco perdido y abrumado."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento que te sientas así. La tristeza puede afectar mucho nuestra vida diaria, incluyendo el estudio. ¿Te gustaría profundizar en cuándo empezaste a notar estos sentimientos?"
+      "text": "Entiendo que te sientas así, y es valioso que estés dispuesto a hablar sobre tus sentimientos. ¿Puedes contarme más sobre qué situaciones te han llevado a sentirte abrumado?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Creo que todo comenzó hace unos meses, cuando empecé a tener más presión en la universidad y me sentí un poco aislado."
+      "text": "Principalmente la presión de la escuela y las expectativas. A veces siento que no puedo cumplir con todo."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, la presión académica y el aislamiento pueden ser muy difíciles de manejar. Es importante reconocer cómo estos factores pueden influir en tus emociones. ¿Has encontrado alguna forma de lidiar con esa presión hasta ahora?"
+      "text": "Eso suena muy estresante. La presión académica puede ser realmente abrumadora. ¿Cómo manejas esas expectativas cuando sientes que no puedes cumplir con ellas?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "He intentado distraerme viendo series o saliendo a comer con amigos, pero no siempre ayuda."
+      "text": "Normalmente trato de organizarme, pero a veces me siento tan agotado que no sé por dónde empezar."
     },
     {
       "speaker": "Valeria",
-      "text": "Es bueno que busques distracciones, pero a veces estas estrategias no son suficientes. Podríamos explorar otras maneras de manejar esa presión y tu tristeza. ¿Te gustaría hablar sobre cómo te sientes al relacionarte con tus amigos en esos momentos?"
+      "text": "Te comprendo, el agotamiento puede dificultar la organización. Quisiera explorar un poco más cómo te has estado sintiendo. Existe un cuestionario llamado PHQ-9 que nos ayuda a evaluar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "A veces me siento mejor con ellos, pero hay momentos en los que me siento desconectado y prefiero estar solo."
+      "text": "Sí, creo que podría ser útil. Estoy dispuesto a responderlo."
     },
     {
       "speaker": "Valeria",
-      "text": "La desconexión puede ser un signo de cómo te sientes por dentro, y es válido querer estar solo a veces. ¿Crees que hay algo específico que te impide sentirte más conectado con ellos, o es algo más general que sientes?"
+      "text": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Por favor, responde a cada una con la frecuencia con la que has experimentado cada situación en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) o sentir que eres un fracaso.\n7. Tener dificultad para concentrarte en cosas.\n8. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Con qué frecuencia has sentido cada uno de estos problemas? Puedes usar una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"."
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Es más bien algo general. A veces siento que no entiendo bien lo que estoy pasando, y eso me aleja."
+      "text": "Está bien, aquí van mis respuestas:\n\n1. 2\n2. 3\n3. 2\n4. 3\n5. 2\n6. 2\n7. 2\n8. 1 \n\nEsas son mis frecuencias en las últimas dos semanas."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente comprensible sentir confusión sobre tus propias emociones. A veces, entender lo que estamos sintiendo puede ser un proceso complicado. ¿Te gustaría que trabajemos juntos en explorar esas emociones más a fondo?"
+      "text": "Gracias por compartir tus respuestas, Héctor. La frecuencia de tus sentimientos indica que has estado enfrentando desafíos significativos. Es importante prestar atención a esto. ¿Cómo te sientes al ver tus respuestas reflejadas así?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, me gustaría. Creo que entenderlas podría ayudarme a sentirme mejor."
+      "text": "Me siento un poco abrumado al verlas, como si estuviera reconociendo lo que siento, pero a la vez es un alivio poder hablar de ello."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, podemos comenzar a desglosar esas emociones. Podría ayudarte recordar momentos específicos en los que te has sentido triste o desconectado. ¿Hay algún evento reciente que te venga a la mente?"
+      "text": "Es comprensible sentirte abrumado, pero también es un gran paso reconocer y verbalizar tus emociones. Hablar de lo que sientes puede ser un alivio y un inicio para trabajar en ello. ¿Te gustaría explorar alguna de estas áreas en más profundidad?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, hace unas semanas, después de una presentación importante en clase, me sentí muy vacío y desanimado a pesar de que salió bien."
+      "text": "Sí, creo que me gustaría explorar cómo me siento con la presión de la escuela y las expectativas que tengo de mí mismo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso es un buen punto de partida. A veces, la presión por el rendimiento puede dejarnos con una sensación de vacío, incluso después de una experiencia positiva. ¿Cómo te sentiste en ese momento y qué pensamientos pasaron por tu mente después de la presentación?"
+      "text": "Claro, es un tema muy relevante. La presión escolar y las expectativas pueden ser muy pesadas. ¿Qué tipo de expectativas tienes de ti mismo y cómo sientes que te afectan?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Me sentí aliviado por un momento, pero luego pensé que no era suficiente y me cuestioné si realmente valía la pena."
+      "text": "Siento que debo sacar buenas calificaciones y ser el mejor en todo, pero eso me hace sentir ansioso y, a veces, me bloqueo."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible que esos pensamientos surjan, especialmente cuando hay una alta expectativa sobre nosotros mismos. Eso puede contribuir a sentimientos de insuficiencia. Es importante recordar que tu valor no se mide solo por tus logros. ¿Te gustaría explorar cómo esos pensamientos afectan tu bienestar emocional?"
+      "text": "Ese es un sentimiento muy común, y es comprensible que la presión por ser el mejor genere ansiedad. A veces, esas expectativas pueden volverse abrumadoras y dificultar el rendimiento. ¿Has considerado cómo podrías ajustar esas expectativas para que sean más realistas y manejables?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, me gustaría. Creo que esos pensamientos me hacen sentir más ansioso y triste."
+      "text": "No lo había pensado mucho, pero creo que podría intentar enfocarme en hacer mi mejor esfuerzo en lugar de ser perfecto."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa conexión entre esos pensamientos y tus emociones es clave para entender tu experiencia. A menudo, los pensamientos negativos pueden intensificar la ansiedad y la tristeza. Podríamos trabajar en identificar y desafiar esos pensamientos para que no tengan tanto control sobre ti. ¿Te parece bien?"
+      "text": "Esa es una gran perspectiva, centrarse en el esfuerzo en lugar de la perfección puede liberarte de mucha presión. Podríamos trabajar en estrategias para implementar ese enfoque en tu vida diaria. ¿Te gustaría discutir algunas técnicas específicas que podrías usar?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, me parece bien. Quiero aprender a manejar esos pensamientos."
+      "text": "Sí, me gustaría mucho. Creo que necesitaría algunas técnicas para ayudarme a cambiar ese enfoque."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente decisión. Podemos empezar a identificar esos pensamientos negativos y trabajar en estrategias para transformarlos. Te propongo escribirlos cuando surjan y luego analizarlos juntos. ¿Te gustaría comenzar a practicar esto?"
+      "text": "Perfecto. Aquí hay algunas técnicas que podrías considerar:\n\n1. **Establecimiento de metas realistas:** Define objetivos específicos y alcanzables, divídelos en pasos pequeños.\n   \n2. **Práctica de la auto-compasión:** Trátate con amabilidad cuando cometas errores, recuerda que todos fallamos a veces.\n\n3. **Mindfulness o meditación:** Prácticas que te ayuden a estar presente en el momento y reducir la ansiedad.\n\n4. **Diario de gratitud:** Anota cosas que valoras cada día; esto puede ayudarte a enfocarte en lo positivo.\n\n¿Cuál de estas técnicas te resuena más y te gustaría explorar primero?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, me gustaría intentarlo. Creo que escribirlo podría ayudarme a ver las cosas de una manera diferente."
+      "text": "Creo que la práctica de la auto-compasión me resuena más. Siento que a menudo soy muy duro conmigo mismo y eso me afecta."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que estés dispuesto a intentarlo. La escritura puede ser una herramienta poderosa para ganar claridad. En nuestra próxima sesión, podemos compartir lo que has escrito y trabajar juntos en esos pensamientos. ¿Te parece bien?"
+      "text": "La auto-compasión es fundamental para cuidar tu salud emocional. Te propongo algunos pasos que puedes seguir:\n\n1. **Reconocer tus emociones:** Cuando sientas ansiedad o frustración, permítete sentir esas emociones sin juzgarte.\n\n2. **Hablarte con amabilidad:** Cambia el diálogo interno negativo por palabras de aliento y comprensión. Por ejemplo, en lugar de decirte “debería haberlo hecho mejor”, puedes decirte “estoy haciendo lo mejor que puedo”.\n\n3. **Recordar que no estás solo:** Entender que todos enfrentamos dificultades puede ayudarte a sentirte menos aislado.\n\n¿Cómo te sientes acerca de comenzar con estos pasos?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "Sí, me parece bien. Estoy listo para intentarlo."
+      "text": "Me siento bien al respecto. Creo que reconocer mis emociones y hablarme con amabilidad podría ser útil. Quiero intentarlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso es maravilloso, Héctor. Estoy aquí para apoyarte en este proceso. Recuerda que es un camino y está bien tomarse su tiempo. Nos vemos en nuestra próxima sesión, hasta entonces cuídate mucho. ¡Adiós!"
+      "text": "Eso es maravilloso, Héctor. Reconocer tus emociones y practicar la amabilidad contigo mismo son pasos importantes hacia el bienestar. Te animo a que empieces a implementar esto en tu vida diaria. Podemos revisarlo en nuestra próxima sesión y ver cómo te ha ido. ¿Te parece bien?"
     },
     {
       "speaker": "Héctor Villalobos",
-      "text": "¡Gracias! Cuídate también. Adiós."
+      "text": "Sí, me parece muy bien. Estoy dispuesto a intentarlo y me gustaría compartir cómo me va en la próxima sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso, Héctor. Estoy aquí para apoyarte en este proceso. Recuerda que cada pequeño paso cuenta. Nos vemos en la próxima sesión, y estaré ansiosa por escuchar cómo te va. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Gracias, lo haré. Cuídate también. ¡Hasta la próxima!"
     }
   ],
   "events": [
@@ -167,196 +175,409 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764047473
+      "timestamp": 1764090035
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en una sesión de terapia.",
-      "timestamp": 1764047473
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en terapia.",
+      "timestamp": 1764090039
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para acompañarte y apoyarte. ¿Hay algo en particular que te gustaría compartir sobre lo que te preocupa?",
-      "timestamp": 1764047475
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y que te sientas cómodo. ¿Qué te gustaría compartir conmigo hoy?",
+      "timestamp": 1764090040
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, he estado sintiendo mucha tristeza últimamente y me cuesta concentrarme en mis estudios.",
-      "timestamp": 1764047475
+      "content": "Quisiera hablar sobre cómo me he estado sintiendo últimamente. Me siento un poco perdido y abrumado.",
+      "timestamp": 1764090044
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento que te sientas así. La tristeza puede afectar mucho nuestra vida diaria, incluyendo el estudio. ¿Te gustaría profundizar en cuándo empezaste a notar estos sentimientos?",
-      "timestamp": 1764047476
+      "content": "Entiendo que te sientas así, y es valioso que estés dispuesto a hablar sobre tus sentimientos. ¿Puedes contarme más sobre qué situaciones te han llevado a sentirte abrumado?",
+      "timestamp": 1764090045
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que todo comenzó hace unos meses, cuando empecé a tener más presión en la universidad y me sentí un poco aislado.",
-      "timestamp": 1764047477
+      "content": "Principalmente la presión de la escuela y las expectativas. A veces siento que no puedo cumplir con todo.",
+      "timestamp": 1764090049
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, la presión académica y el aislamiento pueden ser muy difíciles de manejar. Es importante reconocer cómo estos factores pueden influir en tus emociones. ¿Has encontrado alguna forma de lidiar con esa presión hasta ahora?",
-      "timestamp": 1764047478
+      "content": "Eso suena muy estresante. La presión académica puede ser realmente abrumadora. ¿Cómo manejas esas expectativas cuando sientes que no puedes cumplir con ellas?",
+      "timestamp": 1764090051
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "He intentado distraerme viendo series o saliendo a comer con amigos, pero no siempre ayuda.",
-      "timestamp": 1764047479
+      "content": "Normalmente trato de organizarme, pero a veces me siento tan agotado que no sé por dónde empezar.",
+      "timestamp": 1764090055
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090055
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es bueno que busques distracciones, pero a veces estas estrategias no son suficientes. Podríamos explorar otras maneras de manejar esa presión y tu tristeza. ¿Te gustaría hablar sobre cómo te sientes al relacionarte con tus amigos en esos momentos?",
-      "timestamp": 1764047481
+      "content": "Te comprendo, el agotamiento puede dificultar la organización. Quisiera explorar un poco más cómo te has estado sintiendo. Existe un cuestionario llamado PHQ-9 que nos ayuda a evaluar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764090058
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces me siento mejor con ellos, pero hay momentos en los que me siento desconectado y prefiero estar solo.",
-      "timestamp": 1764047482
+      "content": "Sí, creo que podría ser útil. Estoy dispuesto a responderlo.",
+      "timestamp": 1764090061
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has tenido poco interés o placer en hacer cosas?"
+        },
+        "id": "call_TsqjK52LWhuRuCGnwyALmb6r"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has tenido poco interés o placer en hacer cosas?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_TsqjK52LWhuRuCGnwyALmb6r"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has sentido que estás en un mal estado de ánimo o deprimido?"
+        },
+        "id": "call_qhJcz8lKVj6wcUnOmrlhZP64"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has sentido que estás en un mal estado de ánimo o deprimido?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_qhJcz8lKVj6wcUnOmrlhZP64"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has tenido problemas para dormir?"
+        },
+        "id": "call_05YlsrbsGvySLvldYoprBzoW"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has tenido problemas para dormir?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_05YlsrbsGvySLvldYoprBzoW"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has sentido que te has cansado o no tienes energía?"
+        },
+        "id": "call_kDXp2ojSZyk9Bkj3IUObDPUJ"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has sentido que te has cansado o no tienes energía?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_kDXp2ojSZyk9Bkj3IUObDPUJ"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has tenido problemas para comer o has comido demasiado?"
+        },
+        "id": "call_vZz0gYMZN8Qqjm9DFt7LSe4r"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has tenido problemas para comer o has comido demasiado?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_vZz0gYMZN8Qqjm9DFt7LSe4r"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has sentido que te sientes mal contigo mismo?"
+        },
+        "id": "call_lzoRqgULaGEVrVoTPa9beW9K"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has sentido que te sientes mal contigo mismo?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_lzoRqgULaGEVrVoTPa9beW9K"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has tenido problemas para concentrarte?"
+        },
+        "id": "call_CpwuxQzhQEAbctD4dkyYOqfH"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has tenido problemas para concentrarte?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_CpwuxQzhQEAbctD4dkyYOqfH"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has tenido pensamientos de hacerte daño o lastimarte?"
+        },
+        "id": "call_MfIHdJYRxFqk2JCdMFf0lqhI"
+      },
+      "timestamp": 1764090068
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has tenido pensamientos de hacerte daño o lastimarte?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_MfIHdJYRxFqk2JCdMFf0lqhI"
+      },
+      "timestamp": 1764090068
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "La desconexión puede ser un signo de cómo te sientes por dentro, y es válido querer estar solo a veces. ¿Crees que hay algo específico que te impide sentirte más conectado con ellos, o es algo más general que sientes?",
-      "timestamp": 1764047484
+      "content": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Por favor, responde a cada una con la frecuencia con la que has experimentado cada situación en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) o sentir que eres un fracaso.\n7. Tener dificultad para concentrarte en cosas.\n8. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Con qué frecuencia has sentido cada uno de estos problemas? Puedes usar una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".",
+      "timestamp": 1764090075
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es más bien algo general. A veces siento que no entiendo bien lo que estoy pasando, y eso me aleja.",
-      "timestamp": 1764047484
+      "content": "Está bien, aquí van mis respuestas:\n\n1. 2\n2. 3\n3. 2\n4. 3\n5. 2\n6. 2\n7. 2\n8. 1 \n\nEsas son mis frecuencias en las últimas dos semanas.",
+      "timestamp": 1764090079
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente comprensible sentir confusión sobre tus propias emociones. A veces, entender lo que estamos sintiendo puede ser un proceso complicado. ¿Te gustaría que trabajemos juntos en explorar esas emociones más a fondo?",
-      "timestamp": 1764047485
+      "content": "Gracias por compartir tus respuestas, Héctor. La frecuencia de tus sentimientos indica que has estado enfrentando desafíos significativos. Es importante prestar atención a esto. ¿Cómo te sientes al ver tus respuestas reflejadas así?",
+      "timestamp": 1764090080
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría. Creo que entenderlas podría ayudarme a sentirme mejor.",
-      "timestamp": 1764047486
+      "content": "Me siento un poco abrumado al verlas, como si estuviera reconociendo lo que siento, pero a la vez es un alivio poder hablar de ello.",
+      "timestamp": 1764090085
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, podemos comenzar a desglosar esas emociones. Podría ayudarte recordar momentos específicos en los que te has sentido triste o desconectado. ¿Hay algún evento reciente que te venga a la mente?",
-      "timestamp": 1764047487
+      "content": "Es comprensible sentirte abrumado, pero también es un gran paso reconocer y verbalizar tus emociones. Hablar de lo que sientes puede ser un alivio y un inicio para trabajar en ello. ¿Te gustaría explorar alguna de estas áreas en más profundidad?",
+      "timestamp": 1764090087
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, hace unas semanas, después de una presentación importante en clase, me sentí muy vacío y desanimado a pesar de que salió bien.",
-      "timestamp": 1764047488
+      "content": "Sí, creo que me gustaría explorar cómo me siento con la presión de la escuela y las expectativas que tengo de mí mismo.",
+      "timestamp": 1764090091
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso es un buen punto de partida. A veces, la presión por el rendimiento puede dejarnos con una sensación de vacío, incluso después de una experiencia positiva. ¿Cómo te sentiste en ese momento y qué pensamientos pasaron por tu mente después de la presentación?",
-      "timestamp": 1764047489
+      "content": "Claro, es un tema muy relevante. La presión escolar y las expectativas pueden ser muy pesadas. ¿Qué tipo de expectativas tienes de ti mismo y cómo sientes que te afectan?",
+      "timestamp": 1764090092
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me sentí aliviado por un momento, pero luego pensé que no era suficiente y me cuestioné si realmente valía la pena.",
-      "timestamp": 1764047490
+      "content": "Siento que debo sacar buenas calificaciones y ser el mejor en todo, pero eso me hace sentir ansioso y, a veces, me bloqueo.",
+      "timestamp": 1764090096
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible que esos pensamientos surjan, especialmente cuando hay una alta expectativa sobre nosotros mismos. Eso puede contribuir a sentimientos de insuficiencia. Es importante recordar que tu valor no se mide solo por tus logros. ¿Te gustaría explorar cómo esos pensamientos afectan tu bienestar emocional?",
-      "timestamp": 1764047492
+      "content": "Ese es un sentimiento muy común, y es comprensible que la presión por ser el mejor genere ansiedad. A veces, esas expectativas pueden volverse abrumadoras y dificultar el rendimiento. ¿Has considerado cómo podrías ajustar esas expectativas para que sean más realistas y manejables?",
+      "timestamp": 1764090099
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría. Creo que esos pensamientos me hacen sentir más ansioso y triste.",
-      "timestamp": 1764047493
+      "content": "No lo había pensado mucho, pero creo que podría intentar enfocarme en hacer mi mejor esfuerzo en lugar de ser perfecto.",
+      "timestamp": 1764090103
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa conexión entre esos pensamientos y tus emociones es clave para entender tu experiencia. A menudo, los pensamientos negativos pueden intensificar la ansiedad y la tristeza. Podríamos trabajar en identificar y desafiar esos pensamientos para que no tengan tanto control sobre ti. ¿Te parece bien?",
-      "timestamp": 1764047494
+      "content": "Esa es una gran perspectiva, centrarse en el esfuerzo en lugar de la perfección puede liberarte de mucha presión. Podríamos trabajar en estrategias para implementar ese enfoque en tu vida diaria. ¿Te gustaría discutir algunas técnicas específicas que podrías usar?",
+      "timestamp": 1764090104
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece bien. Quiero aprender a manejar esos pensamientos.",
-      "timestamp": 1764047495
+      "content": "Sí, me gustaría mucho. Creo que necesitaría algunas técnicas para ayudarme a cambiar ese enfoque.",
+      "timestamp": 1764090108
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente decisión. Podemos empezar a identificar esos pensamientos negativos y trabajar en estrategias para transformarlos. Te propongo escribirlos cuando surjan y luego analizarlos juntos. ¿Te gustaría comenzar a practicar esto?",
-      "timestamp": 1764047497
+      "content": "Perfecto. Aquí hay algunas técnicas que podrías considerar:\n\n1. **Establecimiento de metas realistas:** Define objetivos específicos y alcanzables, divídelos en pasos pequeños.\n   \n2. **Práctica de la auto-compasión:** Trátate con amabilidad cuando cometas errores, recuerda que todos fallamos a veces.\n\n3. **Mindfulness o meditación:** Prácticas que te ayuden a estar presente en el momento y reducir la ansiedad.\n\n4. **Diario de gratitud:** Anota cosas que valoras cada día; esto puede ayudarte a enfocarte en lo positivo.\n\n¿Cuál de estas técnicas te resuena más y te gustaría explorar primero?",
+      "timestamp": 1764090112
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría intentarlo. Creo que escribirlo podría ayudarme a ver las cosas de una manera diferente.",
-      "timestamp": 1764047498
+      "content": "Creo que la práctica de la auto-compasión me resuena más. Siento que a menudo soy muy duro conmigo mismo y eso me afecta.",
+      "timestamp": 1764090116
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que estés dispuesto a intentarlo. La escritura puede ser una herramienta poderosa para ganar claridad. En nuestra próxima sesión, podemos compartir lo que has escrito y trabajar juntos en esos pensamientos. ¿Te parece bien?",
-      "timestamp": 1764047499
+      "content": "La auto-compasión es fundamental para cuidar tu salud emocional. Te propongo algunos pasos que puedes seguir:\n\n1. **Reconocer tus emociones:** Cuando sientas ansiedad o frustración, permítete sentir esas emociones sin juzgarte.\n\n2. **Hablarte con amabilidad:** Cambia el diálogo interno negativo por palabras de aliento y comprensión. Por ejemplo, en lugar de decirte “debería haberlo hecho mejor”, puedes decirte “estoy haciendo lo mejor que puedo”.\n\n3. **Recordar que no estás solo:** Entender que todos enfrentamos dificultades puede ayudarte a sentirte menos aislado.\n\n¿Cómo te sientes acerca de comenzar con estos pasos?",
+      "timestamp": 1764090120
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece bien. Estoy listo para intentarlo.",
-      "timestamp": 1764047500
+      "content": "Me siento bien al respecto. Creo que reconocer mis emociones y hablarme con amabilidad podría ser útil. Quiero intentarlo.",
+      "timestamp": 1764090123
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso es maravilloso, Héctor. Estoy aquí para apoyarte en este proceso. Recuerda que es un camino y está bien tomarse su tiempo. Nos vemos en nuestra próxima sesión, hasta entonces cuídate mucho. ¡Adiós!",
-      "timestamp": 1764047501
+      "content": "Eso es maravilloso, Héctor. Reconocer tus emociones y practicar la amabilidad contigo mismo son pasos importantes hacia el bienestar. Te animo a que empieces a implementar esto en tu vida diaria. Podemos revisarlo en nuestra próxima sesión y ver cómo te ha ido. ¿Te parece bien?",
+      "timestamp": 1764090126
     },
     {
       "agent": "Héctor Villalobos",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Gracias! Cuídate también. Adiós.",
-      "timestamp": 1764047502
+      "content": "Sí, me parece muy bien. Estoy dispuesto a intentarlo y me gustaría compartir cómo me va en la próxima sesión.",
+      "timestamp": 1764090129
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso, Héctor. Estoy aquí para apoyarte en este proceso. Recuerda que cada pequeño paso cuenta. Nos vemos en la próxima sesión, y estaré ansiosa por escuchar cómo te va. ¡Cuídate mucho!",
+      "timestamp": 1764090131
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, lo haré. Cuídate también. ¡Hasta la próxima!",
+      "timestamp": 1764090133
     }
   ],
   "notes": null

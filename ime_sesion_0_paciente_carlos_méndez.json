@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T05:09:41Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T16:58:40Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 387964744,
-  "id": "e6112bae-acd5-4c5b-adde-d9dc3f02d553",
+  "seed": 3581816622,
+  "id": "94e43e11-242d-4413-9a3c-12f0913148f1",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,183 +54,127 @@
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis problemas."
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en terapia."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nervioso al principio. Aquí estás en un espacio seguro donde puedes expresarte sin juicio. ¿Te gustaría compartir qué te preocupa más en este momento?"
+      "text": "Es completamente normal sentir nervios antes de una primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir hoy?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Creo que lo que más me preocupa es la presión de la escuela y no saber cómo manejarla. A veces me siento abrumado."
+      "text": "Sí, últimamente he estado sintiéndome un poco desanimado y con dificultades para concentrarme en mis estudios."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, la presión escolar puede ser realmente intensa. ¿Puedes contarme un poco más sobre las situaciones específicas que te hacen sentir así?"
+      "text": "Entiendo, eso puede ser bastante frustrante. ¿Cuánto tiempo llevas sintiéndote así?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "A veces me siento perdido con las materias, especialmente con los proyectos. Me da miedo no cumplir con las expectativas."
+      "text": "Desde hace unos meses, pero ha empeorado últimamente."
     },
     {
       "speaker": "Valeria",
-      "text": "Ese miedo a no cumplir con las expectativas es algo que muchos sienten. ¿Has tenido alguna estrategia o método que te haya ayudado en el pasado para manejar esos proyectos?"
+      "text": "Gracias por compartirlo. Vamos a explorar eso juntos. ¿Podrías hablarme de lo que crees que ha contribuido a ese desánimo en los últimos meses?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "He intentado organizarme mejor y hacer listas, pero a veces siento que no es suficiente. Me frustra."
+      "text": "Creo que a veces me siento abrumado por las responsabilidades de la escuela y la presión de los exámenes."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible que te sientas frustrado incluso con buenos intentos de organización. A veces, la presión puede sabotear nuestros esfuerzos. ¿Te gustaría explorar algunas técnicas nuevas para manejar esa organización y reducir la frustración?"
+      "text": "Es comprensible sentirse abrumado por la presión escolar. La carga de las responsabilidades puede afectar nuestro bienestar. ¿Hay alguna técnica que hayas intentado para manejar esa presión?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Sí, creo que eso podría ayudar. Estoy abierto a probar algo diferente."
+      "text": "He intentado organizar mi tiempo y hacer listas, pero a veces me cuesta seguirlas."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, vamos a trabajar juntos en eso. Podemos empezar a ver técnicas de gestión del tiempo y métodos de estudio que se adapten a tu estilo. ¿Te parece si comenzamos con la técnica Pomodoro?"
+      "text": "Crear listas y organizar el tiempo son herramientas útiles, pero es normal que no siempre funcionen de la manera que esperamos. ¿Te gustaría que exploráramos juntos algunas técnicas adicionales?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Sí, suena bien. He escuchado de esa técnica, pero nunca la he probado."
+      "text": "Sí, me gustaría. Estoy abierto a probar cosas nuevas para manejar mejor la situación."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que estés abierto a probar la técnica Pomodoro. Antes de continuar, he notado algunas señales de que podrías estar lidiando con sentimientos más profundos. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+      "text": "Eso es genial. Una técnica que podríamos considerar es la técnica de la “microtarea”, que consiste en dividir las tareas grandes en pasos más pequeños y manejables. ¿Te gustaría que te explique cómo implementarla?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Sí, creo que podría ser útil. Estoy dispuesto a responderlo."
+      "text": "Sí, por favor. Me gustaría saber cómo podría implementarla en mis estudios."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por estar dispuesto a participar. Vamos a empezar con las preguntas. \n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'."
+      "text": "Antes de que continuemos, me gustaría explorar un poco más cómo te has sentido en las últimas semanas. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus síntomas. ¿Te gustaría responderlo?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "De acuerdo. Estoy listo para responder."
+      "text": "Está bien, puedo hacerlo. Me gustaría que me ayudara a entender mejor lo que estoy sintiendo."
     },
     {
       "speaker": "Valeria",
-      "text": "Genial, comenzamos. \n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'."
+      "text": "Perfecto, aquí tienes las preguntas del PHQ-9. Te voy a leer cada una y me dices con qué frecuencia has sentido cada uno de estos problemas durante las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) o sentir que has fracasado.\n7. Tener dificultad para concentrarte en cosas como leer o ver televisión.\n8. Moverte o hablar más lento de lo normal, o sentirte inquieto(a).\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte.\n\nPor favor, dime qué tan seguido has sentido cada uno de estos problemas en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"."
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Entendido. Para esta pregunta, creo que diría 2. He tenido molestias casi todos los días."
+      "text": "De acuerdo, aquí van mis respuestas:\n\n1. 2 - A veces he perdido interés en cosas.\n2. 2 - Me he sentido decaído algunas veces.\n3. 1 - Tengo dificultades para dormir, pero no siempre.\n4. 2 - A menudo me siento cansado.\n5. 1 - He tenido poco apetito, pero no todo el tiempo.\n6. 2 - A veces me siento mal conmigo mismo.\n7. 2 - He tenido dificultad para concentrarme.\n8. 1 - A veces me siento inquieto.\n9. 0 - No he tenido pensamientos de lastimarme."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. \n\n2/10 | Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta del 0 al 3?"
+      "text": "Gracias por compartir tus respuestas. Lo que has descrito indica que hay varias áreas en las que podríamos trabajar juntos. Es importante abordar esos sentimientos y dificultades para ayudarte a sentirte mejor. \n\nPodríamos comenzar a implementar la técnica de microtarea en tu estudio. ¿Te gustaría que lo hiciéramos ahora mismo?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Para esa, diría 2 también. A veces pierdo el interés en cosas que solían gustarme."
+      "text": "Sí, me gustaría. Sería útil empezar a trabajar en eso."
     },
     {
       "speaker": "Valeria",
-      "text": "Aprecio tu honestidad. \n\n3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Qué número le asignarías?"
+      "text": "Excelente, comencemos. Primero, elige una tarea de tus estudios que te sientas abrumado por hacer. Puede ser algo grande, como preparar un examen o completar un proyecto. ¿Cuál sería esa tarea?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Le asignaría un 2. He estado sintiéndome así con frecuencia últimamente."
+      "text": "Creo que preparar para mi próximo examen de mecánica es la tarea que me abruma más."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. \n\n4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Cuál sería tu respuesta?"
+      "text": "Perfecto. Ahora, dividamos esa tarea en pasos más pequeños. Por ejemplo, podrías empezar por revisar los temas que necesitas estudiar, luego hacer un resumen de cada tema, y finalmente, practicar problemas. ¿Qué pasos específicos podrías tomar para prepararte para ese examen?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Para esa, diría 1. A veces me cuesta dormir, pero no siempre."
+      "text": "Podría empezar por hacer una lista de los temas que tengo que estudiar. Después, podría dedicar un tiempo a leer cada tema y tomar notas. Finalmente, podría practicar algunos problemas de examen."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por tu respuesta. \n\n5/10 | Sentirte cansado(a) o con poca energía. ¿Cuál sería tu respuesta?"
+      "text": "Muy bien hecho, has creado un plan claro y manejable. Ahora, te sugiero que establezcas un tiempo específico para cada paso. Por ejemplo, ¿cuánto tiempo te gustaría dedicar a hacer la lista y cuánto a leer y tomar notas?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Le daría un 2. A menudo me siento cansado y sin energía."
+      "text": "Puedo dedicar 30 minutos para hacer la lista y luego 1 hora para leer y tomar notas de cada tema."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. \n\n6/10 | Tener poco apetito o comer en exceso. ¿Cuál sería tu respuesta?"
+      "text": "Eso suena excelente. Tener un límite de tiempo puede ayudarte a mantener la concentración. Recuerda que puedes ajustar los tiempos según lo necesites. ¿Te gustaría que fijáramos una fecha para verificar cómo te ha ido con este plan?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Diría 1. A veces no tengo mucho apetito, pero no siempre."
+      "text": "Sí, sería útil. Podríamos revisar cómo me fue en nuestra próxima sesión."
     },
     {
       "speaker": "Valeria",
-      "text": "Agradezco tu sinceridad. \n\n7/10 | Sentirte mal contigo mismo(a)—o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Cuál sería tu respuesta?"
+      "text": "Perfecto, entonces lo haremos en nuestra próxima sesión. Me alegra que hayamos podido crear un plan juntos. Recuerda que estoy aquí para apoyarte en el proceso. ¿Hay algo más que te gustaría abordar antes de finalizar hoy?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Le asignaría un 2. A menudo me siento mal conmigo mismo y con lo que he logrado."
+      "text": "No, creo que eso es todo por ahora. Gracias por su ayuda."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, gracias por compartir esa sensación. \n\n8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Qué número le asignarías?"
+      "text": "De nada, Carlos. Ha sido un placer trabajar contigo hoy. Te espero en nuestra próxima sesión y no dudes en practicar lo que hemos discutido. ¡Cuídate!"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Para esa, diría 2. A veces me cuesta concentrarme en lo que estoy haciendo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Gracias por tu respuesta. \n\n9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Cuál sería tu respuesta?"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Le daría un 1. A veces me siento inquieto, pero no siempre lo manifiesto."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Agradezco tu sinceridad. \n\n10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Cuál sería tu respuesta?"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Para esa, diría 1. A veces tengo pensamientos oscuros, pero no quiero lastimarme."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Agradezco mucho tu honestidad al compartir esto. Es importante reconocer esos pensamientos. \n\nHemos terminado con las preguntas del cuestionario PHQ-9. Las respuestas que has dado muestran que podrías estar lidiando con síntomas de depresión. Este cuestionario nos ayuda a entender cómo te has sentido en las últimas semanas, pero no sustituye una evaluación profesional completa.\n\n¿Te gustaría que revisemos tus respuestas y hablemos sobre los próximos pasos para obtener el apoyo que necesitas?"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Sí, me gustaría revisarlas y hablar sobre los próximos pasos. Creo que necesito ayuda."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Es un paso muy valiente reconocer que necesitas ayuda. Vamos a revisar tus respuestas. Has mencionado sentir molestias casi todos los días, poco interés en actividades que antes disfrutabas y una sensación de estar decaído y sin energía. \n\nEstos son indicadores importantes. Hacer un plan de acción para manejar la presión escolar y tus emociones podría ser útil. Podríamos considerar sesiones de terapia más frecuentes, técnicas de afrontamiento y, si es necesario, hablar sobre una evaluación más profunda con un psiquiatra. ¿Te parece bien?"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Sí, me parece bien. Estoy dispuesto a explorar esas opciones y buscar el apoyo que necesito."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra saber que estás dispuesto a explorar esas opciones. Es un gran paso hacia tu bienestar. \n\nPodemos programar nuestras sesiones y trabajar en técnicas de manejo del estrés y la presión. También puedo proporcionarte recursos adicionales que podrías encontrar útiles. ¿Te gustaría que fijáramos una próxima cita?"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Sí, me gustaría fijar una próxima cita. Creo que eso me ayudaría a seguir adelante."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto, vamos a programar una próxima cita. ¿Te vendría bien el mismo día y hora la próxima semana?"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Sí, eso me parece bien. El mismo día y hora funcionaría para mí."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Excelente, entonces te espero el próximo viernes a la misma hora. Recuerda que aquí tienes un espacio seguro para hablar y explorar tus pensamientos. \n\nSi en cualquier momento necesitas algo antes de nuestra próxima sesión, no dudes en contactarme. Cuídate mucho. ¡Hasta luego!"
-    },
-    {
-      "speaker": "Carlos Méndez",
-      "text": "Gracias, lo haré. Hasta luego."
+      "text": "¡Gracias! Cuídate también. ¡Hasta la próxima!"
     }
   ],
   "events": [
@@ -239,112 +183,119 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764047332
+      "timestamp": 1764089875
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis problemas.",
-      "timestamp": 1764047333
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. Es mi primera vez en terapia.",
+      "timestamp": 1764089876
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nervioso al principio. Aquí estás en un espacio seguro donde puedes expresarte sin juicio. ¿Te gustaría compartir qué te preocupa más en este momento?",
-      "timestamp": 1764047334
+      "content": "Es completamente normal sentir nervios antes de una primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir hoy?",
+      "timestamp": 1764089878
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que lo que más me preocupa es la presión de la escuela y no saber cómo manejarla. A veces me siento abrumado.",
-      "timestamp": 1764047335
+      "content": "Sí, últimamente he estado sintiéndome un poco desanimado y con dificultades para concentrarme en mis estudios.",
+      "timestamp": 1764089879
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, la presión escolar puede ser realmente intensa. ¿Puedes contarme un poco más sobre las situaciones específicas que te hacen sentir así?",
-      "timestamp": 1764047336
+      "content": "Entiendo, eso puede ser bastante frustrante. ¿Cuánto tiempo llevas sintiéndote así?",
+      "timestamp": 1764089879
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces me siento perdido con las materias, especialmente con los proyectos. Me da miedo no cumplir con las expectativas.",
-      "timestamp": 1764047337
+      "content": "Desde hace unos meses, pero ha empeorado últimamente.",
+      "timestamp": 1764089880
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Ese miedo a no cumplir con las expectativas es algo que muchos sienten. ¿Has tenido alguna estrategia o método que te haya ayudado en el pasado para manejar esos proyectos?",
-      "timestamp": 1764047338
+      "content": "Gracias por compartirlo. Vamos a explorar eso juntos. ¿Podrías hablarme de lo que crees que ha contribuido a ese desánimo en los últimos meses?",
+      "timestamp": 1764089881
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "He intentado organizarme mejor y hacer listas, pero a veces siento que no es suficiente. Me frustra.",
-      "timestamp": 1764047338
+      "content": "Creo que a veces me siento abrumado por las responsabilidades de la escuela y la presión de los exámenes.",
+      "timestamp": 1764089882
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible que te sientas frustrado incluso con buenos intentos de organización. A veces, la presión puede sabotear nuestros esfuerzos. ¿Te gustaría explorar algunas técnicas nuevas para manejar esa organización y reducir la frustración?",
-      "timestamp": 1764047340
+      "content": "Es comprensible sentirse abrumado por la presión escolar. La carga de las responsabilidades puede afectar nuestro bienestar. ¿Hay alguna técnica que hayas intentado para manejar esa presión?",
+      "timestamp": 1764089883
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que eso podría ayudar. Estoy abierto a probar algo diferente.",
-      "timestamp": 1764047340
+      "content": "He intentado organizar mi tiempo y hacer listas, pero a veces me cuesta seguirlas.",
+      "timestamp": 1764089884
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, vamos a trabajar juntos en eso. Podemos empezar a ver técnicas de gestión del tiempo y métodos de estudio que se adapten a tu estilo. ¿Te parece si comenzamos con la técnica Pomodoro?",
-      "timestamp": 1764047341
+      "content": "Crear listas y organizar el tiempo son herramientas útiles, pero es normal que no siempre funcionen de la manera que esperamos. ¿Te gustaría que exploráramos juntos algunas técnicas adicionales?",
+      "timestamp": 1764089885
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, suena bien. He escuchado de esa técnica, pero nunca la he probado.",
-      "timestamp": 1764047342
+      "content": "Sí, me gustaría. Estoy abierto a probar cosas nuevas para manejar mejor la situación.",
+      "timestamp": 1764089886
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es genial. Una técnica que podríamos considerar es la técnica de la “microtarea”, que consiste en dividir las tareas grandes en pasos más pequeños y manejables. ¿Te gustaría que te explique cómo implementarla?",
+      "timestamp": 1764089887
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Me gustaría saber cómo podría implementarla en mis estudios.",
+      "timestamp": 1764089888
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047342
+      "timestamp": 1764089888
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que estés abierto a probar la técnica Pomodoro. Antes de continuar, he notado algunas señales de que podrías estar lidiando con sentimientos más profundos. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
-      "timestamp": 1764047344
+      "content": "Antes de que continuemos, me gustaría explorar un poco más cómo te has sentido en las últimas semanas. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus síntomas. ¿Te gustaría responderlo?",
+      "timestamp": 1764089889
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que podría ser útil. Estoy dispuesto a responderlo.",
-      "timestamp": 1764047345
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047345
+      "content": "Está bien, puedo hacerlo. Me gustaría que me ayudara a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764089890
     },
     {
       "agent": "Valeria",
@@ -353,11 +304,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "phq9"
+          "item": "preguntas"
         },
-        "id": "call_L170CADtwJ0FXg9u8vsPjuwm"
+        "id": "call_fGMA7B42gD6j2xJsZRyHcT6b"
       },
-      "timestamp": 1764047346
+      "timestamp": 1764089890
     },
     {
       "agent": "Valeria",
@@ -365,276 +316,122 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_L170CADtwJ0FXg9u8vsPjuwm"
+        "output": "{\"item\": \"preguntas\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_fGMA7B42gD6j2xJsZRyHcT6b"
       },
-      "timestamp": 1764047346
+      "timestamp": 1764089890
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por estar dispuesto a participar. Vamos a empezar con las preguntas. \n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'.",
-      "timestamp": 1764047348
+      "content": "Perfecto, aquí tienes las preguntas del PHQ-9. Te voy a leer cada una y me dices con qué frecuencia has sentido cada uno de estos problemas durante las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) o sentir que has fracasado.\n7. Tener dificultad para concentrarte en cosas como leer o ver televisión.\n8. Moverte o hablar más lento de lo normal, o sentirte inquieto(a).\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte.\n\nPor favor, dime qué tan seguido has sentido cada uno de estos problemas en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".",
+      "timestamp": 1764089896
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "De acuerdo. Estoy listo para responder.",
-      "timestamp": 1764047348
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047348
+      "content": "De acuerdo, aquí van mis respuestas:\n\n1. 2 - A veces he perdido interés en cosas.\n2. 2 - Me he sentido decaído algunas veces.\n3. 1 - Tengo dificultades para dormir, pero no siempre.\n4. 2 - A menudo me siento cansado.\n5. 1 - He tenido poco apetito, pero no todo el tiempo.\n6. 2 - A veces me siento mal conmigo mismo.\n7. 2 - He tenido dificultad para concentrarme.\n8. 1 - A veces me siento inquieto.\n9. 0 - No he tenido pensamientos de lastimarme.",
+      "timestamp": 1764089899
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Genial, comenzamos. \n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'.",
-      "timestamp": 1764047350
+      "content": "Gracias por compartir tus respuestas. Lo que has descrito indica que hay varias áreas en las que podríamos trabajar juntos. Es importante abordar esos sentimientos y dificultades para ayudarte a sentirte mejor. \n\nPodríamos comenzar a implementar la técnica de microtarea en tu estudio. ¿Te gustaría que lo hiciéramos ahora mismo?",
+      "timestamp": 1764089901
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entendido. Para esta pregunta, creo que diría 2. He tenido molestias casi todos los días.",
-      "timestamp": 1764047351
+      "content": "Sí, me gustaría. Sería útil empezar a trabajar en eso.",
+      "timestamp": 1764089902
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. \n\n2/10 | Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta del 0 al 3?",
-      "timestamp": 1764047352
+      "content": "Excelente, comencemos. Primero, elige una tarea de tus estudios que te sientas abrumado por hacer. Puede ser algo grande, como preparar un examen o completar un proyecto. ¿Cuál sería esa tarea?",
+      "timestamp": 1764089903
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Para esa, diría 2 también. A veces pierdo el interés en cosas que solían gustarme.",
-      "timestamp": 1764047353
+      "content": "Creo que preparar para mi próximo examen de mecánica es la tarea que me abruma más.",
+      "timestamp": 1764089904
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Aprecio tu honestidad. \n\n3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Qué número le asignarías?",
-      "timestamp": 1764047354
+      "content": "Perfecto. Ahora, dividamos esa tarea en pasos más pequeños. Por ejemplo, podrías empezar por revisar los temas que necesitas estudiar, luego hacer un resumen de cada tema, y finalmente, practicar problemas. ¿Qué pasos específicos podrías tomar para prepararte para ese examen?",
+      "timestamp": 1764089905
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le asignaría un 2. He estado sintiéndome así con frecuencia últimamente.",
-      "timestamp": 1764047355
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047355
+      "content": "Podría empezar por hacer una lista de los temas que tengo que estudiar. Después, podría dedicar un tiempo a leer cada tema y tomar notas. Finalmente, podría practicar algunos problemas de examen.",
+      "timestamp": 1764089907
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. \n\n4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Cuál sería tu respuesta?",
-      "timestamp": 1764047356
+      "content": "Muy bien hecho, has creado un plan claro y manejable. Ahora, te sugiero que establezcas un tiempo específico para cada paso. Por ejemplo, ¿cuánto tiempo te gustaría dedicar a hacer la lista y cuánto a leer y tomar notas?",
+      "timestamp": 1764089910
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Para esa, diría 1. A veces me cuesta dormir, pero no siempre.",
-      "timestamp": 1764047357
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047357
+      "content": "Puedo dedicar 30 minutos para hacer la lista y luego 1 hora para leer y tomar notas de cada tema.",
+      "timestamp": 1764089912
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu respuesta. \n\n5/10 | Sentirte cansado(a) o con poca energía. ¿Cuál sería tu respuesta?",
-      "timestamp": 1764047358
+      "content": "Eso suena excelente. Tener un límite de tiempo puede ayudarte a mantener la concentración. Recuerda que puedes ajustar los tiempos según lo necesites. ¿Te gustaría que fijáramos una fecha para verificar cómo te ha ido con este plan?",
+      "timestamp": 1764089914
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2. A menudo me siento cansado y sin energía.",
-      "timestamp": 1764047358
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047358
+      "content": "Sí, sería útil. Podríamos revisar cómo me fue en nuestra próxima sesión.",
+      "timestamp": 1764089915
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. \n\n6/10 | Tener poco apetito o comer en exceso. ¿Cuál sería tu respuesta?",
-      "timestamp": 1764047359
+      "content": "Perfecto, entonces lo haremos en nuestra próxima sesión. Me alegra que hayamos podido crear un plan juntos. Recuerda que estoy aquí para apoyarte en el proceso. ¿Hay algo más que te gustaría abordar antes de finalizar hoy?",
+      "timestamp": 1764089917
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Diría 1. A veces no tengo mucho apetito, pero no siempre.",
-      "timestamp": 1764047360
+      "content": "No, creo que eso es todo por ahora. Gracias por su ayuda.",
+      "timestamp": 1764089918
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Agradezco tu sinceridad. \n\n7/10 | Sentirte mal contigo mismo(a)—o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Cuál sería tu respuesta?",
-      "timestamp": 1764047361
+      "content": "De nada, Carlos. Ha sido un placer trabajar contigo hoy. Te espero en nuestra próxima sesión y no dudes en practicar lo que hemos discutido. ¡Cuídate!",
+      "timestamp": 1764089919
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le asignaría un 2. A menudo me siento mal conmigo mismo y con lo que he logrado.",
-      "timestamp": 1764047362
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Entiendo, gracias por compartir esa sensación. \n\n8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Qué número le asignarías?",
-      "timestamp": 1764047363
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Para esa, diría 2. A veces me cuesta concentrarme en lo que estoy haciendo.",
-      "timestamp": 1764047364
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047364
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias por tu respuesta. \n\n9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Cuál sería tu respuesta?",
-      "timestamp": 1764047365
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Le daría un 1. A veces me siento inquieto, pero no siempre lo manifiesto.",
-      "timestamp": 1764047366
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Agradezco tu sinceridad. \n\n10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Cuál sería tu respuesta?",
-      "timestamp": 1764047368
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Para esa, diría 1. A veces tengo pensamientos oscuros, pero no quiero lastimarme.",
-      "timestamp": 1764047368
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047368
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Agradezco mucho tu honestidad al compartir esto. Es importante reconocer esos pensamientos. \n\nHemos terminado con las preguntas del cuestionario PHQ-9. Las respuestas que has dado muestran que podrías estar lidiando con síntomas de depresión. Este cuestionario nos ayuda a entender cómo te has sentido en las últimas semanas, pero no sustituye una evaluación profesional completa.\n\n¿Te gustaría que revisemos tus respuestas y hablemos sobre los próximos pasos para obtener el apoyo que necesitas?",
-      "timestamp": 1764047371
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría revisarlas y hablar sobre los próximos pasos. Creo que necesito ayuda.",
-      "timestamp": 1764047372
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es un paso muy valiente reconocer que necesitas ayuda. Vamos a revisar tus respuestas. Has mencionado sentir molestias casi todos los días, poco interés en actividades que antes disfrutabas y una sensación de estar decaído y sin energía. \n\nEstos son indicadores importantes. Hacer un plan de acción para manejar la presión escolar y tus emociones podría ser útil. Podríamos considerar sesiones de terapia más frecuentes, técnicas de afrontamiento y, si es necesario, hablar sobre una evaluación más profunda con un psiquiatra. ¿Te parece bien?",
-      "timestamp": 1764047374
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me parece bien. Estoy dispuesto a explorar esas opciones y buscar el apoyo que necesito.",
-      "timestamp": 1764047375
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra saber que estás dispuesto a explorar esas opciones. Es un gran paso hacia tu bienestar. \n\nPodemos programar nuestras sesiones y trabajar en técnicas de manejo del estrés y la presión. También puedo proporcionarte recursos adicionales que podrías encontrar útiles. ¿Te gustaría que fijáramos una próxima cita?",
-      "timestamp": 1764047376
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría fijar una próxima cita. Creo que eso me ayudaría a seguir adelante.",
-      "timestamp": 1764047377
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto, vamos a programar una próxima cita. ¿Te vendría bien el mismo día y hora la próxima semana?",
-      "timestamp": 1764047378
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, eso me parece bien. El mismo día y hora funcionaría para mí.",
-      "timestamp": 1764047379
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Excelente, entonces te espero el próximo viernes a la misma hora. Recuerda que aquí tienes un espacio seguro para hablar y explorar tus pensamientos. \n\nSi en cualquier momento necesitas algo antes de nuestra próxima sesión, no dudes en contactarme. Cuídate mucho. ¡Hasta luego!",
-      "timestamp": 1764047380
-    },
-    {
-      "agent": "Carlos Méndez",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias, lo haré. Hasta luego.",
-      "timestamp": 1764047381
+      "content": "¡Gracias! Cuídate también. ¡Hasta la próxima!",
+      "timestamp": 1764089920
     }
   ],
   "notes": null

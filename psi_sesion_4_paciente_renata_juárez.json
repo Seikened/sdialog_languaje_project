@@ -1,0 +1,675 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T18:14:54Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1274180189,
+  "id": "a4c991d2-0655-4996-a6ba-37c2f07fa552",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Renata Juárez": {
+      "name": "Renata Juárez",
+      "age": 23,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(PSI) | estudiante de Psicología en la Ibero de 7mo semestre; le gustan los podcasts de conversación, leer cosas sobre emociones y convivir con gente cercana.",
+      "personality": "muy empática y reflexiva",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Renata Juárez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa. No estoy muy segura de qué esperar de esta sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al inicio. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te inquieta?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, creo que lo que más me inquieta es mi tristeza constante y la sensación de que no puedo concentrarme en mis estudios. Me preocupa que no esté avanzando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo tus preocupaciones y es importante explorar esos sentimientos. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto nos dará más claridad, aunque no sustituye una evaluación profesional completa."
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Claro, me parece bien. Estoy dispuesta a responderlo. Espero que me ayude a entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes las preguntas que vamos a revisar. Por favor, respóndelas según tu experiencia en las últimas dos semanas:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n  \n   - Poco interés o placer en hacer cosas.\n   - Sentirte decaído(a), deprimido(a) o sin esperanzas.\n   - Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n   - Sentirte cansado(a) o con poca energía.\n   - Tener poco apetito o comer en exceso.\n   - Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n   - Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n   - Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n   - Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nPor favor, comparte tus respuestas."
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "De acuerdo, aquí van mis respuestas:\n\n1. Poco interés o placer en hacer cosas: bastante.\n2. Sentirme decaída, deprimida o sin esperanzas: muy a menudo.\n3. Dificultad para quedarme o permanecer dormida: a veces.\n4. Sentirme cansada o con poca energía: casi todos los días.\n5. Poco apetito o comer en exceso: a veces como de más.\n6. Sentirme mal conmigo misma: a menudo.\n7. Dificultad para concentrarme: casi todos los días.\n8. Moverme o hablar más lento o inquieta: a veces.\n9. Pensamientos de que estaría mejor muerta o lastimarme: raramente.\n\nEspero que esto ayude a entender mejor lo que estoy viviendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas, Renata. Lo que has mencionado es muy importante y definitivamente nos puede ayudar a trabajar en tus sentimientos. Quisiera que sepas que esto es un primer paso para comprender mejor tu situación.\n\nBasándonos en tus respuestas, es posible que estemos viendo síntomas de depresión. Me gustaría hacerte algunas preguntas adicionales a través del cuestionario PHQ-9, que nos dará más información sobre cómo te has sentido en las últimas dos semanas. ¿Estás de acuerdo en responderlo?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, estoy de acuerdo. Creo que es importante seguir explorando lo que siento para poder entenderlo mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí están nuevamente las preguntas del cuestionario PHQ-9 para que puedas continuar respondiendo. Por favor, indícame qué tan seguido has tenido molestias debido a los siguientes problemas en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para responder."
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Gracias. Aquí están mis respuestas de nuevo, con un poco más de claridad:\n\n1. Poco interés o placer en hacer cosas: bastante.\n2. Sentirme decaída, deprimida o sin esperanzas: muy a menudo.\n3. Dificultad para quedarme o permanecer dormida: a veces.\n4. Sentirme cansada o con poca energía: casi todos los días.\n5. Poco apetito o comer en exceso: a veces.\n6. Sentirme mal conmigo misma: a menudo.\n7. Dificultad para concentrarme: casi todos los días.\n8. Moverme o hablar más lento o inquieta: a veces.\n9. Pensamientos de que estaría mejor muerta o lastimarme: raramente.\n\nEspero que esto ayude a entender mejor mis Sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad al compartir estas respuestas, Renata. Entiendo que esto puede ser difícil de expresar y aprecio tu apertura. Basándome en lo que has compartido, parece que estás enfrentando síntomas significativos de depresión.\n\nEs importante que trabajemos juntos en esto. Quisiera que consideráramos algunas estrategias o intervenciones que puedan ayudarte. ¿Te gustaría que comenzáramos a explorar algunas de ellas?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría mucho. Estoy dispuesta a explorar estrategias que puedan ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, Renata. Un enfoque común en la terapia cognitivo-conductual es identificar y desafiar pensamientos negativos. También podríamos trabajar en crear una rutina diaria que incluya actividades placenteras y de autocuidado.\n\nAdemás, la práctica de la atención plena puede ser útil para reducir la ansiedad y mejorar el bienestar emocional. ¿Te gustaría que empecemos con alguna de estas estrategias específicas?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me parece bien empezar con la identificación de pensamientos negativos. Creo que eso podría ayudarme a entender mejor lo que siento y cómo cambiar mi perspectiva."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, Renata. Vamos a trabajar en identificar esos pensamientos negativos. Te invito a que pienses en una situación reciente que te haya provocado malestar o tristeza. ¿Cuál fue la situación y qué pensamientos te vinieron a la mente en ese momento?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Recientemente, tuve una calificación baja en un examen y me sentí muy mal. Pensé que tal vez no soy lo suficientemente buena en mis estudios y que nunca voy a lograr lo que quiero. Me sentí muy frustrada y deprimida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, Renata. Esos pensamientos son comprensibles, pero también pueden ser muy dañinos. Vamos a trabajar para desafiarlos. Primero, quiero que reflexiones sobre ese pensamiento: \"No soy lo suficientemente buena en mis estudios y nunca voy a lograr lo que quiero\". ¿Hay evidencia que respalde esa afirmación? ¿Puedes pensar en momentos en los que hayas tenido éxito o avances en tus estudios?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, he tenido momentos en los que he logrado buenas calificaciones y he recibido elogios de mis profesores. También he aprendido mucho en mis clases y he participado en proyectos que me han gustado. Creo que mi pensamiento negativo me hace olvidar esos logros y solo enfocarme en lo malo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, Renata. Es fácil enfocarse en lo negativo y olvidar nuestros logros. Te invito a que cada vez que aparezca ese pensamiento negativo, lo desafíes recordando tus éxitos y habilidades. Puedes incluso escribir una lista de tus logros para tenerla a la mano y consultarla cuando lo necesites.\n\nAdemás, sería útil tener una frase positiva que puedas repetir cuando sientas esos pensamientos negativos. ¿Te gustaría crear una frase positiva que refleje tu capacidad y esfuerzo?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Sí, me gustaría crear una frase positiva. Tal vez algo como: \"Estoy en camino de mejorar y soy capaz de aprender y crecer en mis estudios\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una frase muy poderosa, Renata. \"Estoy en camino de mejorar y soy capaz de aprender y crecer en mis estudios\" refleja tu esfuerzo y tu potencial. Te animo a que la repitas, especialmente cuando sientas que los pensamientos negativos vienen a la mente. \n\nAhora, ¿te gustaría hablar sobre alguna otra estrategia o quizás dedicar un tiempo a planificar actividades que te ayuden a sentirte mejor?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me gustaría hablar sobre planificar actividades. Creo que tener cosas agradables que hacer me podría ayudar a distraerme y sentirme más motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Definitivamente, planificar actividades placenteras puede ser muy beneficioso. Te sugiero que hagas una lista de cosas que disfrutas o que siempre has querido probar. Luego, intentemos programar al menos una o dos de esas actividades para esta semana. \n\nAlgunas ideas pueden incluir: leer un libro, dar un paseo al aire libre, practicar un hobby o simplemente disfrutar de una película. ¿Qué actividades te gustaría incluir en tu lista?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me gustaría incluir leer un libro que tengo pendiente, dar un paseo por el parque y quizás escuchar un nuevo podcast. También podría intentar cocinar algo nuevo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son excelentes ideas, Renata. Aquí tienes un pequeño plan para esta semana:\n\n1. **Leer un libro**: Decide cuántos capítulos o cuántas páginas te gustaría leer por día.\n2. **Dar un paseo por el parque**: Elige un día y una hora específicos que te funcionen.\n3. **Escuchar un nuevo podcast**: Busca un tema que te interese y programa un momento para escuchar.\n4. **Cocinar algo nuevo**: Elige una receta y asigna un día para hacerlo. \n\nTe sugiero que escribas estos planes en un lugar visible. Esto te ayudará a mantenerte motivada y enfocada. ¿Te gustaría que añadiéramos algo más a tu plan?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "Me parece un buen plan. Creo que me gustaría añadir un momento diario de autocuidado, como meditar o simplemente disfrutar de una taza de té en calma. Eso también me ayudaría a desconectar un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena maravilloso, Renata. Incorporar momentos de autocuidado es crucial para tu bienestar. Puedes determinar un tiempo específico cada día para meditar o disfrutar de tu té en calma. \n\nAsí queda tu plan:\n1. Leer un libro.\n2. Dar un paseo por el parque.\n3. Escuchar un nuevo podcast.\n4. Cocinar algo nuevo.\n5. Momentos diarios de autocuidado.\n\nTe animo a que lo lleves a cabo y observes cómo te sientes. La próxima vez que nos veamos, podemos hablar sobre cómo te ha ido. ¿Te gustaría añadir algo más antes de terminar la sesión?"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "No, creo que eso es todo por ahora. Me siento un poco más esperanzada al tener un plan. Gracias por tu apoyo y por ayudarme a ver las cosas de otra manera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar que te sientes más esperanzada, Renata. Recuerda que este es un proceso y está bien tomarse el tiempo necesario. Estoy aquí para apoyarte en cada paso del camino. \n\nNos vemos en nuestra próxima sesión para hablar sobre cómo te ha ido con tu plan. Cuida de ti y disfruta de tus actividades. ¡Hasta pronto!"
+    },
+    {
+      "speaker": "Renata Juárez",
+      "text": "¡Hasta pronto! Gracias por todo. Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Renata Juárez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764094405
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa. No estoy muy segura de qué esperar de esta sesión.",
+      "timestamp": 1764094407
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al inicio. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te inquieta?",
+      "timestamp": 1764094408
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que lo que más me inquieta es mi tristeza constante y la sensación de que no puedo concentrarme en mis estudios. Me preocupa que no esté avanzando.",
+      "timestamp": 1764094410
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094410
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo tus preocupaciones y es importante explorar esos sentimientos. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto nos dará más claridad, aunque no sustituye una evaluación profesional completa.",
+      "timestamp": 1764094412
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, me parece bien. Estoy dispuesta a responderlo. Espero que me ayude a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764094413
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "anhedonia"
+        },
+        "id": "call_7PchPPPudztIdIsdArJT8kyC"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"anhedonia\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_7PchPPPudztIdIsdArJT8kyC"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "depresion"
+        },
+        "id": "call_QsFWorYqqDiBdjtevc611ooP"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"depresion\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_QsFWorYqqDiBdjtevc611ooP"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "fatigue"
+        },
+        "id": "call_qSv38qROyNSxGyxOpRM8vGpf"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"fatigue\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_qSv38qROyNSxGyxOpRM8vGpf"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "concentracion"
+        },
+        "id": "call_neoicGWsZUSncfldMj8xnwhs"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"concentracion\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_neoicGWsZUSncfldMj8xnwhs"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "suicidio"
+        },
+        "id": "call_yIR1JhOhCK3CGKK3Bcne8oQL"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"suicidio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_yIR1JhOhCK3CGKK3Bcne8oQL"
+      },
+      "timestamp": 1764094417
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes las preguntas que vamos a revisar. Por favor, respóndelas según tu experiencia en las últimas dos semanas:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\n  \n   - Poco interés o placer en hacer cosas.\n   - Sentirte decaído(a), deprimido(a) o sin esperanzas.\n   - Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n   - Sentirte cansado(a) o con poca energía.\n   - Tener poco apetito o comer en exceso.\n   - Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n   - Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n   - Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n   - Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nPor favor, comparte tus respuestas.",
+      "timestamp": 1764094422
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De acuerdo, aquí van mis respuestas:\n\n1. Poco interés o placer en hacer cosas: bastante.\n2. Sentirme decaída, deprimida o sin esperanzas: muy a menudo.\n3. Dificultad para quedarme o permanecer dormida: a veces.\n4. Sentirme cansada o con poca energía: casi todos los días.\n5. Poco apetito o comer en exceso: a veces como de más.\n6. Sentirme mal conmigo misma: a menudo.\n7. Dificultad para concentrarme: casi todos los días.\n8. Moverme o hablar más lento o inquieta: a veces.\n9. Pensamientos de que estaría mejor muerta o lastimarme: raramente.\n\nEspero que esto ayude a entender mejor lo que estoy viviendo.",
+      "timestamp": 1764094428
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094428
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas, Renata. Lo que has mencionado es muy importante y definitivamente nos puede ayudar a trabajar en tus sentimientos. Quisiera que sepas que esto es un primer paso para comprender mejor tu situación.\n\nBasándonos en tus respuestas, es posible que estemos viendo síntomas de depresión. Me gustaría hacerte algunas preguntas adicionales a través del cuestionario PHQ-9, que nos dará más información sobre cómo te has sentido en las últimas dos semanas. ¿Estás de acuerdo en responderlo?",
+      "timestamp": 1764094430
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy de acuerdo. Creo que es importante seguir explorando lo que siento para poder entenderlo mejor.",
+      "timestamp": 1764094431
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "anhedonia"
+        },
+        "id": "call_8deHJcVwAQ32OJmZsltzes3n"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"anhedonia\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_8deHJcVwAQ32OJmZsltzes3n"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "depresion"
+        },
+        "id": "call_KhrTP4YJFmkxoELZB01adNq5"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"depresion\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_KhrTP4YJFmkxoELZB01adNq5"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "fatigue"
+        },
+        "id": "call_a9tAnJSE1rAzobJskZRS2Rq4"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"fatigue\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_a9tAnJSE1rAzobJskZRS2Rq4"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "concentracion"
+        },
+        "id": "call_mkIOKDBdeDGpXBA0VvJq6fw5"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"concentracion\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_mkIOKDBdeDGpXBA0VvJq6fw5"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "suicidio"
+        },
+        "id": "call_N3pAGSTtubUxIZYyU15ozoKM"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"suicidio\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_N3pAGSTtubUxIZYyU15ozoKM"
+      },
+      "timestamp": 1764094435
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí están nuevamente las preguntas del cuestionario PHQ-9 para que puedas continuar respondiendo. Por favor, indícame qué tan seguido has tenido molestias debido a los siguientes problemas en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nTómate tu tiempo para responder.",
+      "timestamp": 1764094439
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias. Aquí están mis respuestas de nuevo, con un poco más de claridad:\n\n1. Poco interés o placer en hacer cosas: bastante.\n2. Sentirme decaída, deprimida o sin esperanzas: muy a menudo.\n3. Dificultad para quedarme o permanecer dormida: a veces.\n4. Sentirme cansada o con poca energía: casi todos los días.\n5. Poco apetito o comer en exceso: a veces.\n6. Sentirme mal conmigo misma: a menudo.\n7. Dificultad para concentrarme: casi todos los días.\n8. Moverme o hablar más lento o inquieta: a veces.\n9. Pensamientos de que estaría mejor muerta o lastimarme: raramente.\n\nEspero que esto ayude a entender mejor mis Sentimientos.",
+      "timestamp": 1764094445
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094445
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad al compartir estas respuestas, Renata. Entiendo que esto puede ser difícil de expresar y aprecio tu apertura. Basándome en lo que has compartido, parece que estás enfrentando síntomas significativos de depresión.\n\nEs importante que trabajemos juntos en esto. Quisiera que consideráramos algunas estrategias o intervenciones que puedan ayudarte. ¿Te gustaría que comenzáramos a explorar algunas de ellas?",
+      "timestamp": 1764094447
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho. Estoy dispuesta a explorar estrategias que puedan ayudarme a sentirme mejor.",
+      "timestamp": 1764094448
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, Renata. Un enfoque común en la terapia cognitivo-conductual es identificar y desafiar pensamientos negativos. También podríamos trabajar en crear una rutina diaria que incluya actividades placenteras y de autocuidado.\n\nAdemás, la práctica de la atención plena puede ser útil para reducir la ansiedad y mejorar el bienestar emocional. ¿Te gustaría que empecemos con alguna de estas estrategias específicas?",
+      "timestamp": 1764094450
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece bien empezar con la identificación de pensamientos negativos. Creo que eso podría ayudarme a entender mejor lo que siento y cómo cambiar mi perspectiva.",
+      "timestamp": 1764094451
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, Renata. Vamos a trabajar en identificar esos pensamientos negativos. Te invito a que pienses en una situación reciente que te haya provocado malestar o tristeza. ¿Cuál fue la situación y qué pensamientos te vinieron a la mente en ese momento?",
+      "timestamp": 1764094454
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Recientemente, tuve una calificación baja en un examen y me sentí muy mal. Pensé que tal vez no soy lo suficientemente buena en mis estudios y que nunca voy a lograr lo que quiero. Me sentí muy frustrada y deprimida.",
+      "timestamp": 1764094456
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094456
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, Renata. Esos pensamientos son comprensibles, pero también pueden ser muy dañinos. Vamos a trabajar para desafiarlos. Primero, quiero que reflexiones sobre ese pensamiento: \"No soy lo suficientemente buena en mis estudios y nunca voy a lograr lo que quiero\". ¿Hay evidencia que respalde esa afirmación? ¿Puedes pensar en momentos en los que hayas tenido éxito o avances en tus estudios?",
+      "timestamp": 1764094460
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he tenido momentos en los que he logrado buenas calificaciones y he recibido elogios de mis profesores. También he aprendido mucho en mis clases y he participado en proyectos que me han gustado. Creo que mi pensamiento negativo me hace olvidar esos logros y solo enfocarme en lo malo.",
+      "timestamp": 1764094462
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, Renata. Es fácil enfocarse en lo negativo y olvidar nuestros logros. Te invito a que cada vez que aparezca ese pensamiento negativo, lo desafíes recordando tus éxitos y habilidades. Puedes incluso escribir una lista de tus logros para tenerla a la mano y consultarla cuando lo necesites.\n\nAdemás, sería útil tener una frase positiva que puedas repetir cuando sientas esos pensamientos negativos. ¿Te gustaría crear una frase positiva que refleje tu capacidad y esfuerzo?",
+      "timestamp": 1764094466
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría crear una frase positiva. Tal vez algo como: \"Estoy en camino de mejorar y soy capaz de aprender y crecer en mis estudios\".",
+      "timestamp": 1764094467
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una frase muy poderosa, Renata. \"Estoy en camino de mejorar y soy capaz de aprender y crecer en mis estudios\" refleja tu esfuerzo y tu potencial. Te animo a que la repitas, especialmente cuando sientas que los pensamientos negativos vienen a la mente. \n\nAhora, ¿te gustaría hablar sobre alguna otra estrategia o quizás dedicar un tiempo a planificar actividades que te ayuden a sentirte mejor?",
+      "timestamp": 1764094472
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre planificar actividades. Creo que tener cosas agradables que hacer me podría ayudar a distraerme y sentirme más motivada.",
+      "timestamp": 1764094473
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Definitivamente, planificar actividades placenteras puede ser muy beneficioso. Te sugiero que hagas una lista de cosas que disfrutas o que siempre has querido probar. Luego, intentemos programar al menos una o dos de esas actividades para esta semana. \n\nAlgunas ideas pueden incluir: leer un libro, dar un paseo al aire libre, practicar un hobby o simplemente disfrutar de una película. ¿Qué actividades te gustaría incluir en tu lista?",
+      "timestamp": 1764094476
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría incluir leer un libro que tengo pendiente, dar un paseo por el parque y quizás escuchar un nuevo podcast. También podría intentar cocinar algo nuevo.",
+      "timestamp": 1764094477
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son excelentes ideas, Renata. Aquí tienes un pequeño plan para esta semana:\n\n1. **Leer un libro**: Decide cuántos capítulos o cuántas páginas te gustaría leer por día.\n2. **Dar un paseo por el parque**: Elige un día y una hora específicos que te funcionen.\n3. **Escuchar un nuevo podcast**: Busca un tema que te interese y programa un momento para escuchar.\n4. **Cocinar algo nuevo**: Elige una receta y asigna un día para hacerlo. \n\nTe sugiero que escribas estos planes en un lugar visible. Esto te ayudará a mantenerte motivada y enfocada. ¿Te gustaría que añadiéramos algo más a tu plan?",
+      "timestamp": 1764094482
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un buen plan. Creo que me gustaría añadir un momento diario de autocuidado, como meditar o simplemente disfrutar de una taza de té en calma. Eso también me ayudaría a desconectar un poco.",
+      "timestamp": 1764094484
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena maravilloso, Renata. Incorporar momentos de autocuidado es crucial para tu bienestar. Puedes determinar un tiempo específico cada día para meditar o disfrutar de tu té en calma. \n\nAsí queda tu plan:\n1. Leer un libro.\n2. Dar un paseo por el parque.\n3. Escuchar un nuevo podcast.\n4. Cocinar algo nuevo.\n5. Momentos diarios de autocuidado.\n\nTe animo a que lo lleves a cabo y observes cómo te sientes. La próxima vez que nos veamos, podemos hablar sobre cómo te ha ido. ¿Te gustaría añadir algo más antes de terminar la sesión?",
+      "timestamp": 1764094488
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Me siento un poco más esperanzada al tener un plan. Gracias por tu apoyo y por ayudarme a ver las cosas de otra manera.",
+      "timestamp": 1764094489
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar que te sientes más esperanzada, Renata. Recuerda que este es un proceso y está bien tomarse el tiempo necesario. Estoy aquí para apoyarte en cada paso del camino. \n\nNos vemos en nuestra próxima sesión para hablar sobre cómo te ha ido con tu plan. Cuida de ti y disfruta de tus actividades. ¡Hasta pronto!",
+      "timestamp": 1764094492
+    },
+    {
+      "agent": "Renata Juárez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta pronto! Gracias por todo. Cuídate.",
+      "timestamp": 1764094494
+    }
+  ],
+  "notes": null
+}

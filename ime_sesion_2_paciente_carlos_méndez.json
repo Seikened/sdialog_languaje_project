@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T04:51:19Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:33:55Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 1431546692,
-  "id": "8a203b39-01f7-4026-958a-9dca6292db85",
+  "seed": 2439784252,
+  "id": "de4cfe99-1730-41f5-a66e-18bcdc3444f8",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,95 +54,191 @@
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Hola. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión así."
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso, no estoy acostumbrado a hablar de mis sentimientos."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nervioso, especialmente en una primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?"
+      "text": "Es completamente normal sentirse nervioso, Carlos. Agradezco que estés aquí y dispuesto a compartir. ¿Hay algo específico que te gustaría explorar hoy?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Siento que estoy abrumado con la escuela y a veces me cuesta concentrarme. Además, me siento un poco triste y no sé por qué."
+      "text": "No estoy seguro. Hay momentos en los que me siento bastante triste, pero no sé por qué."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo que te sientas abrumado. La presión escolar puede ser muy intensa. Hablemos un poco más sobre cómo te afecta esa tristeza. ¿Cuándo comenzaste a sentirla?"
+      "text": "Entiendo, la tristeza puede ser confusa a veces. ¿Te gustaría hablar sobre algunos de esos momentos en los que te sientes así?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Empezó hace unos meses, pero ha ido empeorando últimamente. A veces me siento solo, incluso cuando estoy con mis amigos."
+      "text": "Sí, a veces me siento así cuando estoy solo o cuando pienso en la escuela y el futuro."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento saber que te sientes así. La soledad puede ser muy difícil de manejar, incluso en compañía de otros. ¿Hay situaciones específicas en las que te sientes más solo?"
+      "text": "Esos son temas muy importantes y comprensibles. La soledad y la incertidumbre sobre el futuro pueden generar mucha ansiedad y tristeza. ¿Qué pensamientos específicos te vienen a la mente cuando piensas en la escuela y el futuro?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "A veces, cuando estoy con mis amigos, siento que no puedo conectar con ellos como antes. Es como si estuvieran en otra sintonía."
+      "text": "Me preocupa no estar a la altura. A veces siento que no estoy aprendiendo lo suficiente o que no voy a conseguir un buen trabajo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena muy frustrante. La desconexión con amigos puede ser dolorosa. ¿Has podido hablar con ellos sobre cómo te sientes?"
+      "text": "Es natural tener esas preocupaciones, especialmente en un momento de transición. La presión por cumplir ciertas expectativas puede ser abrumadora. ¿Cómo manejas esos pensamientos cuando surgen?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "No, no he encontrado el momento adecuado. Me cuesta abrirme y expresar lo que siento."
+      "text": "A veces trato de distraerme con películas o pasar tiempo con mis amigos, pero no siempre funciona."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo que abrirse puede ser complicado. A veces, encontrar las palabras correctas es un reto. ¿Te gustaría que exploráramos algunas maneras de comunicar tus sentimientos a tus amigos?"
+      "text": "Buscar distracciones es un mecanismo común, pero a veces no aborda la raíz de los sentimientos. ¿Has intentado hablar de estas preocupaciones con alguien cercano, como tus amigos o familiares?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Sí, eso sería útil. No sé por dónde empezar, pero creo que me ayudaría."
+      "text": "No realmente. Me cuesta abrirme, prefiero guardar mis pensamientos para mí."
     },
     {
       "speaker": "Valeria",
-      "text": "Claro, empecemos por lo básico. Puedes intentar compartir cómo te sientes en el momento, usando frases simples como \"últimamente me he sentido un poco desconectado\". ¿Te parece bien este enfoque?"
+      "text": "Entiendo que abrirse puede ser difícil, y es válido. Hay un cuestionario llamado PHQ-9 que podría ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos más claridad sobre tus emociones."
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Sí, suena bien. Creo que eso podría ayudarme a expresar lo que siento sin complicarme demasiado."
+      "text": "Sí, me parece bien. Estoy dispuesto a intentarlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra que te parezca útil. Ser honesto sobre tus sentimientos puede abrir la puerta a una mejor conexión con ellos. ¿Te gustaría practicar cómo podrías iniciar esa conversación?"
+      "text": "Perfecto, Carlos. Vamos a empezar con las preguntas. Recuerda responder con un número del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\nPrimera pregunta: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a poco interés o placer en hacer cosas?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Sí, me gustaría intentarlo. Quizás decir algo como \"Oigan, he estado sintiendo que me cuesta conectar con ustedes\"."
+      "text": "Le doy un 2, porque a veces sí me cuesta disfrutar de las cosas que solía hacer."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente inicio, es claro y directo. También podrías añadir cómo te has sentido al respecto, como \"me siento un poco triste\" o \"me gustaría saber si hay algo que haya cambiado\". ¿Te gustaría ajustar algo más?"
+      "text": "Gracias por compartir eso. Segunda pregunta: ¿Te has sentido decaído, deprimido o sin esperanzas en las últimas 2 semanas? ¿Cuánto le darías?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Creo que eso lo haría más completo. Tal vez podría decir: \"Me cuesta conectar con ustedes y me siento un poco triste por eso\"."
+      "text": "Le daría un 2 también. Hay días en los que me siento así, más que nada cuando estoy solo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena perfecto. Es honesto y expresa tus sentimientos claramente. Recuerda que tus amigos pueden estar más dispuestos a escucharte de lo que imaginas. ¿Cómo te sientes ahora al respecto?"
+      "text": "Entiendo, eso puede ser muy difícil de manejar. Tercera pregunta: ¿Has tenido dificultad para quedarte o permanecer dormido o has dormido demasiado en las últimas 2 semanas? ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "Me siento un poco más tranquilo al pensar en eso. Saber que puedo expresarlo me da un poco de esperanza."
+      "text": "Le doy un 1. A veces me cuesta dormir, pero no muy seguido."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra escuchar eso. Tener la esperanza de poder compartir tus sentimientos es un gran paso. Recuerda que estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría profundizar hoy?"
+      "text": "Gracias por tu respuesta. Cuarta pregunta: ¿Te has sentido cansado o con poca energía en las últimas 2 semanas? ¿Qué puntuación le darías?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "No, creo que por ahora está bien. Me siento un poco más aliviado. Gracias por tu ayuda."
+      "text": "Le daría un 2. A veces siento que no tengo energía para hacer nada."
     },
     {
       "speaker": "Valeria",
-      "text": "De nada, Carlos. Me alegra saber que te sientes un poco más aliviado. Recuerda que siempre puedes volver a hablar de esto. Cuídate y nos vemos en la próxima sesión. ¡Hasta luego!"
+      "text": "Gracias por compartir eso, Carlos. Quinta pregunta: ¿Has tenido poco apetito o has comido en exceso en las últimas 2 semanas? ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Carlos Méndez",
-      "text": "¡Hasta luego! Gracias por escucharme."
+      "text": "Le daría un 1. No he comido en exceso, pero hay días en los que no tengo mucho apetito."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad. Sexta pregunta: ¿Te has sentido mal contigo mismo o sientes que eres un fracaso en las últimas 2 semanas? ¿Qué puntuación le darías?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Le daría un 2. A veces tengo pensamientos negativos sobre mí mismo y siento que no estoy logrando lo suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esos pensamientos pueden ser muy pesados. Séptima pregunta: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión en las últimas 2 semanas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Le doy un 2. A veces me cuesta concentrarme, especialmente cuando estoy estudiando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, Carlos. Octava pregunta: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o por el contrario, te has sentido tan inquieto que te mueves mucho más de lo normal en las últimas 2 semanas? ¿Qué puntuación le das?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Le daría un 0. No he notado que eso me pase."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Bien, gracias por tu respuesta. Novena pregunta: ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera en las últimas 2 semanas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Le doy un 1. A veces tengo pensamientos oscuros, pero no he pensado en hacerme daño."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu honestidad al compartir eso, Carlos. Última pregunta: ¿Con qué frecuencia has tenido molestias debido a estos problemas en las últimas 2 semanas? ¿Qué puntuación le das en general?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Le doy un 2. Estos problemas me han afectado bastante, especialmente en mi día a día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu valiosa respuesta, Carlos. Tu puntuación sugiere que has estado enfrentando algunas dificultades que merecen atención. ¿Te gustaría que habláramos sobre estrategias para afrontar estas emociones y pensamientos?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me gustaría eso. Creo que necesito algunas herramientas para manejar lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran paso querer trabajar en ello, Carlos. Podemos empezar con técnicas de terapia cognitivo-conductual, que te ayudarán a identificar y cambiar pensamientos negativos. Una técnica útil es el registro de pensamientos. ¿Te gustaría que te explique cómo hacerlo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, por favor. Me gustaría aprender cómo hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, el registro de pensamientos consiste en anotar tus pensamientos negativos a medida que surgen. Primero, escribe la situación que te causó esos pensamientos. Luego, anota el pensamiento exacto que tuviste. Después, evalúa cómo te hizo sentir y qué evidencia tienes para ese pensamiento. Finalmente, intenta reemplazarlo con un pensamiento más equilibrado o positivo. ¿Te parece un buen comienzo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me parece un buen comienzo. Creo que podría ayudarme a aclarar mis ideas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así, Carlos. Practicar regularmente este ejercicio te permitirá ganar perspectiva y reconocer patrones en tus pensamientos. ¿Te gustaría establecer un plan para empezar a hacerlo en casa?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, eso me gustaría. Tener un plan me ayudaría a mantenerme enfocado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, Carlos. Podemos empezar con un plan simple: intenta hacer el registro de pensamientos al menos tres veces por semana. Elige momentos cuando te sientas abrumado o cuando notes pensamientos negativos. Dedica unos 10-15 minutos a anotar tus pensamientos. ¿Te parece un objetivo alcanzable?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, creo que es un objetivo alcanzable. Puedo intentarlo y ver cómo me va."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena excelente, Carlos. Recuerda que es un proceso y está bien si lleva tiempo. También puedes compartir tus experiencias en nuestra próxima sesión. Estoy aquí para apoyarte en este camino. ¿Hay algo más que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "No, creo que eso es suficiente por hoy. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Carlos. Estoy aquí para ayudarte. Te animo a que pongas en práctica lo que hemos hablado y estaré aquí para escuchar tus progresos en nuestra próxima sesión. Cuídate mucho, y nos vemos pronto. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "¡Gracias! Cuídate también. Hasta luego."
     }
   ],
   "events": [
@@ -151,168 +247,374 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764046253
+      "timestamp": 1764091946
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión así.",
-      "timestamp": 1764046254
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso, no estoy acostumbrado a hablar de mis sentimientos.",
+      "timestamp": 1764091947
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nervioso, especialmente en una primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?",
-      "timestamp": 1764046257
+      "content": "Es completamente normal sentirse nervioso, Carlos. Agradezco que estés aquí y dispuesto a compartir. ¿Hay algo específico que te gustaría explorar hoy?",
+      "timestamp": 1764091949
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Siento que estoy abrumado con la escuela y a veces me cuesta concentrarme. Además, me siento un poco triste y no sé por qué.",
-      "timestamp": 1764046257
+      "content": "No estoy seguro. Hay momentos en los que me siento bastante triste, pero no sé por qué.",
+      "timestamp": 1764091950
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo que te sientas abrumado. La presión escolar puede ser muy intensa. Hablemos un poco más sobre cómo te afecta esa tristeza. ¿Cuándo comenzaste a sentirla?",
-      "timestamp": 1764046259
+      "content": "Entiendo, la tristeza puede ser confusa a veces. ¿Te gustaría hablar sobre algunos de esos momentos en los que te sientes así?",
+      "timestamp": 1764091952
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Empezó hace unos meses, pero ha ido empeorando últimamente. A veces me siento solo, incluso cuando estoy con mis amigos.",
-      "timestamp": 1764046260
+      "content": "Sí, a veces me siento así cuando estoy solo o cuando pienso en la escuela y el futuro.",
+      "timestamp": 1764091953
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento saber que te sientes así. La soledad puede ser muy difícil de manejar, incluso en compañía de otros. ¿Hay situaciones específicas en las que te sientes más solo?",
-      "timestamp": 1764046261
+      "content": "Esos son temas muy importantes y comprensibles. La soledad y la incertidumbre sobre el futuro pueden generar mucha ansiedad y tristeza. ¿Qué pensamientos específicos te vienen a la mente cuando piensas en la escuela y el futuro?",
+      "timestamp": 1764091954
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces, cuando estoy con mis amigos, siento que no puedo conectar con ellos como antes. Es como si estuvieran en otra sintonía.",
-      "timestamp": 1764046262
+      "content": "Me preocupa no estar a la altura. A veces siento que no estoy aprendiendo lo suficiente o que no voy a conseguir un buen trabajo.",
+      "timestamp": 1764091956
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena muy frustrante. La desconexión con amigos puede ser dolorosa. ¿Has podido hablar con ellos sobre cómo te sientes?",
-      "timestamp": 1764046263
+      "content": "Es natural tener esas preocupaciones, especialmente en un momento de transición. La presión por cumplir ciertas expectativas puede ser abrumadora. ¿Cómo manejas esos pensamientos cuando surgen?",
+      "timestamp": 1764091957
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "No, no he encontrado el momento adecuado. Me cuesta abrirme y expresar lo que siento.",
-      "timestamp": 1764046264
+      "content": "A veces trato de distraerme con películas o pasar tiempo con mis amigos, pero no siempre funciona.",
+      "timestamp": 1764091960
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo que abrirse puede ser complicado. A veces, encontrar las palabras correctas es un reto. ¿Te gustaría que exploráramos algunas maneras de comunicar tus sentimientos a tus amigos?",
-      "timestamp": 1764046265
+      "content": "Buscar distracciones es un mecanismo común, pero a veces no aborda la raíz de los sentimientos. ¿Has intentado hablar de estas preocupaciones con alguien cercano, como tus amigos o familiares?",
+      "timestamp": 1764091961
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, eso sería útil. No sé por dónde empezar, pero creo que me ayudaría.",
-      "timestamp": 1764046266
+      "content": "No realmente. Me cuesta abrirme, prefiero guardar mis pensamientos para mí.",
+      "timestamp": 1764091963
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764091963
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, empecemos por lo básico. Puedes intentar compartir cómo te sientes en el momento, usando frases simples como \"últimamente me he sentido un poco desconectado\". ¿Te parece bien este enfoque?",
-      "timestamp": 1764046267
+      "content": "Entiendo que abrirse puede ser difícil, y es válido. Hay un cuestionario llamado PHQ-9 que podría ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos más claridad sobre tus emociones.",
+      "timestamp": 1764091966
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, suena bien. Creo que eso podría ayudarme a expresar lo que siento sin complicarme demasiado.",
-      "timestamp": 1764046268
+      "content": "Sí, me parece bien. Estoy dispuesto a intentarlo.",
+      "timestamp": 1764091967
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764091967
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "phq9"
+        },
+        "id": "call_iwGXbXnn1q0IgdEdGrGLLIT4"
+      },
+      "timestamp": 1764091968
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_iwGXbXnn1q0IgdEdGrGLLIT4"
+      },
+      "timestamp": 1764091968
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra que te parezca útil. Ser honesto sobre tus sentimientos puede abrir la puerta a una mejor conexión con ellos. ¿Te gustaría practicar cómo podrías iniciar esa conversación?",
-      "timestamp": 1764046270
+      "content": "Perfecto, Carlos. Vamos a empezar con las preguntas. Recuerda responder con un número del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".\n\nPrimera pregunta: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a poco interés o placer en hacer cosas?",
+      "timestamp": 1764091970
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría intentarlo. Quizás decir algo como \"Oigan, he estado sintiendo que me cuesta conectar con ustedes\".",
-      "timestamp": 1764046271
+      "content": "Le doy un 2, porque a veces sí me cuesta disfrutar de las cosas que solía hacer.",
+      "timestamp": 1764091973
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente inicio, es claro y directo. También podrías añadir cómo te has sentido al respecto, como \"me siento un poco triste\" o \"me gustaría saber si hay algo que haya cambiado\". ¿Te gustaría ajustar algo más?",
-      "timestamp": 1764046272
+      "content": "Gracias por compartir eso. Segunda pregunta: ¿Te has sentido decaído, deprimido o sin esperanzas en las últimas 2 semanas? ¿Cuánto le darías?",
+      "timestamp": 1764091975
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que eso lo haría más completo. Tal vez podría decir: \"Me cuesta conectar con ustedes y me siento un poco triste por eso\".",
-      "timestamp": 1764046273
+      "content": "Le daría un 2 también. Hay días en los que me siento así, más que nada cuando estoy solo.",
+      "timestamp": 1764091977
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena perfecto. Es honesto y expresa tus sentimientos claramente. Recuerda que tus amigos pueden estar más dispuestos a escucharte de lo que imaginas. ¿Cómo te sientes ahora al respecto?",
-      "timestamp": 1764046274
+      "content": "Entiendo, eso puede ser muy difícil de manejar. Tercera pregunta: ¿Has tenido dificultad para quedarte o permanecer dormido o has dormido demasiado en las últimas 2 semanas? ¿Cómo lo calificarías?",
+      "timestamp": 1764091979
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me siento un poco más tranquilo al pensar en eso. Saber que puedo expresarlo me da un poco de esperanza.",
-      "timestamp": 1764046275
+      "content": "Le doy un 1. A veces me cuesta dormir, pero no muy seguido.",
+      "timestamp": 1764091981
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra escuchar eso. Tener la esperanza de poder compartir tus sentimientos es un gran paso. Recuerda que estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría profundizar hoy?",
-      "timestamp": 1764046276
+      "content": "Gracias por tu respuesta. Cuarta pregunta: ¿Te has sentido cansado o con poca energía en las últimas 2 semanas? ¿Qué puntuación le darías?",
+      "timestamp": 1764091982
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "No, creo que por ahora está bien. Me siento un poco más aliviado. Gracias por tu ayuda.",
-      "timestamp": 1764046277
+      "content": "Le daría un 2. A veces siento que no tengo energía para hacer nada.",
+      "timestamp": 1764091984
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "De nada, Carlos. Me alegra saber que te sientes un poco más aliviado. Recuerda que siempre puedes volver a hablar de esto. Cuídate y nos vemos en la próxima sesión. ¡Hasta luego!",
-      "timestamp": 1764046278
+      "content": "Gracias por compartir eso, Carlos. Quinta pregunta: ¿Has tenido poco apetito o has comido en exceso en las últimas 2 semanas? ¿Cómo lo calificarías?",
+      "timestamp": 1764091986
     },
     {
       "agent": "Carlos Méndez",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Hasta luego! Gracias por escucharme.",
-      "timestamp": 1764046279
+      "content": "Le daría un 1. No he comido en exceso, pero hay días en los que no tengo mucho apetito.",
+      "timestamp": 1764091988
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad. Sexta pregunta: ¿Te has sentido mal contigo mismo o sientes que eres un fracaso en las últimas 2 semanas? ¿Qué puntuación le darías?",
+      "timestamp": 1764091989
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces tengo pensamientos negativos sobre mí mismo y siento que no estoy logrando lo suficiente.",
+      "timestamp": 1764091991
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esos pensamientos pueden ser muy pesados. Séptima pregunta: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión en las últimas 2 semanas? ¿Cómo lo calificarías?",
+      "timestamp": 1764091992
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 2. A veces me cuesta concentrarme, especialmente cuando estoy estudiando.",
+      "timestamp": 1764091993
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, Carlos. Octava pregunta: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o por el contrario, te has sentido tan inquieto que te mueves mucho más de lo normal en las últimas 2 semanas? ¿Qué puntuación le das?",
+      "timestamp": 1764091995
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 0. No he notado que eso me pase.",
+      "timestamp": 1764091997
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Bien, gracias por tu respuesta. Novena pregunta: ¿Has tenido pensamientos de que estarías mejor muerto o de lastimarte de alguna manera en las últimas 2 semanas? ¿Cómo lo calificarías?",
+      "timestamp": 1764091999
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 1. A veces tengo pensamientos oscuros, pero no he pensado en hacerme daño.",
+      "timestamp": 1764092001
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu honestidad al compartir eso, Carlos. Última pregunta: ¿Con qué frecuencia has tenido molestias debido a estos problemas en las últimas 2 semanas? ¿Qué puntuación le das en general?",
+      "timestamp": 1764092003
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le doy un 2. Estos problemas me han afectado bastante, especialmente en mi día a día.",
+      "timestamp": 1764092005
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu valiosa respuesta, Carlos. Tu puntuación sugiere que has estado enfrentando algunas dificultades que merecen atención. ¿Te gustaría que habláramos sobre estrategias para afrontar estas emociones y pensamientos?",
+      "timestamp": 1764092007
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que necesito algunas herramientas para manejar lo que siento.",
+      "timestamp": 1764092009
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran paso querer trabajar en ello, Carlos. Podemos empezar con técnicas de terapia cognitivo-conductual, que te ayudarán a identificar y cambiar pensamientos negativos. Una técnica útil es el registro de pensamientos. ¿Te gustaría que te explique cómo hacerlo?",
+      "timestamp": 1764092011
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Me gustaría aprender cómo hacerlo.",
+      "timestamp": 1764092013
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, el registro de pensamientos consiste en anotar tus pensamientos negativos a medida que surgen. Primero, escribe la situación que te causó esos pensamientos. Luego, anota el pensamiento exacto que tuviste. Después, evalúa cómo te hizo sentir y qué evidencia tienes para ese pensamiento. Finalmente, intenta reemplazarlo con un pensamiento más equilibrado o positivo. ¿Te parece un buen comienzo?",
+      "timestamp": 1764092016
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece un buen comienzo. Creo que podría ayudarme a aclarar mis ideas.",
+      "timestamp": 1764092018
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así, Carlos. Practicar regularmente este ejercicio te permitirá ganar perspectiva y reconocer patrones en tus pensamientos. ¿Te gustaría establecer un plan para empezar a hacerlo en casa?",
+      "timestamp": 1764092019
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Tener un plan me ayudaría a mantenerme enfocado.",
+      "timestamp": 1764092021
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, Carlos. Podemos empezar con un plan simple: intenta hacer el registro de pensamientos al menos tres veces por semana. Elige momentos cuando te sientas abrumado o cuando notes pensamientos negativos. Dedica unos 10-15 minutos a anotar tus pensamientos. ¿Te parece un objetivo alcanzable?",
+      "timestamp": 1764092024
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que es un objetivo alcanzable. Puedo intentarlo y ver cómo me va.",
+      "timestamp": 1764092025
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena excelente, Carlos. Recuerda que es un proceso y está bien si lleva tiempo. También puedes compartir tus experiencias en nuestra próxima sesión. Estoy aquí para apoyarte en este camino. ¿Hay algo más que te gustaría abordar hoy?",
+      "timestamp": 1764092027
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es suficiente por hoy. Gracias por tu apoyo.",
+      "timestamp": 1764092029
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Carlos. Estoy aquí para ayudarte. Te animo a que pongas en práctica lo que hemos hablado y estaré aquí para escuchar tus progresos en nuestra próxima sesión. Cuídate mucho, y nos vemos pronto. ¡Hasta luego!",
+      "timestamp": 1764092032
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta luego.",
+      "timestamp": 1764092035
     }
   ],
   "notes": null

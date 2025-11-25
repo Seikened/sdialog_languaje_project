@@ -1,0 +1,636 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T18:12:59Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3868592075,
+  "id": "d651fe9a-b0da-4a18-ad61-49255d27ce2f",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Elena Martínez": {
+      "name": "Elena Martínez",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(RI) | estudiante de Relaciones Internacionales en la Ibero de 6to semestre; le interesan los idiomas, las noticias del mundo y conocer gente de otros lugares.",
+      "personality": "idealista y sensible",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en terapia y no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente natural sentirse nerviosa en tu primera sesión. Estoy aquí para apoyarte y te guiaré en el proceso. ¿Te gustaría que te explique un poco cómo funciona la terapia?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, por favor. Me gustaría entender mejor cómo va a ser esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "En nuestra terapia, trabajaremos juntos para explorar tus pensamientos y emociones. Utilizaremos un enfoque cognitivo-conductual, lo que significa que nos enfocaremos en cómo tus pensamientos pueden influir en tus sentimientos y comportamientos. ¿Hay algún tema específico que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me gustaría hablar sobre cómo me siento últimamente, he estado bastante triste y desmotivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por compartir eso. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podemos utilizar. ¿Te gustaría responderlo? Esto nos ayudará a tener una mejor comprensión de lo que estás experimentando. Recuerda que esto no sustituye una evaluación profesional completa."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me parece bien. Creo que podría ayudarme a expresar mejor lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, comencemos con la evaluación. Te haré una serie de preguntas sobre cómo te has sentido en las últimas dos semanas. \n\n1. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has experimentado esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que sería un 2, he sentido poco interés la mayoría de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, es un paso importante. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo calificaría como un 3, casi todos los días me siento así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso es realmente significativo. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que sería un 2, he tenido dificultad para dormir más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. \n\n4. ¿Te has sentido cansada o con poca energía? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo calificaría como un 3, casi todos los días me siento muy cansada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es importante de señalar. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Calificaría eso como un 2, he tenido poco apetito la mayoría de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. \n\n6. ¿Te has sentido mal contigo misma, como si fueras un fracaso o que has decepcionado a tu familia? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo calificaría como un 3, casi todos los días me siento así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es doloroso sentir eso. \n\n7. ¿Has tenido dificultad para concentrarte en cosas, como leer o ver televisión? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Calificaría eso como un 2, a veces me cuesta concentrarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco tu sinceridad. \n\n8. ¿Te has sentido tan inquieta o agitada que te mueves más de lo normal, o al contrario, has estado tan lenta que otros podrían notarlo? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo calificaría como un 2, a veces me siento más lenta de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. \n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo calificaría como un 1, algunos días he tenido esos pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es importante que hayas compartido eso. \n\n10. Finalmente, ¿hay algún otro aspecto o sentimiento que te gustaría agregar sobre cómo te has sentido en general?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento abrumada por todo lo que está pasando en mi vida y a veces no sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy difícil, y es comprensible sentirse abrumada en momentos así. Estoy aquí para ayudarte a encontrar maneras de afrontar esos sentimientos. ¿Te gustaría comenzar a explorar algunas estrategias para manejar esa sensación de abrumamiento?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría mucho. Creo que necesito algunas herramientas para lidiar con esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, hay varias estrategias que podemos explorar. Una de ellas es la práctica de la atención plena o mindfulness, que puede ayudarte a estar más presente y disminuir la sensación de abrumamiento. ¿Te gustaría que te explique cómo empezar con esto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, por favor. Me gustaría aprender más sobre eso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La atención plena consiste en centrar tu atención en el momento presente, sin juzgarlo. Puedes empezar con ejercicios simples, como la respiración consciente. Por ejemplo, siéntate cómodamente y enfócate en tu respiración, sintiendo cada inhalación y exhalación. Solo dedica unos minutos al día a esta práctica. ¿Te gustaría que lo intentáramos juntos ahora?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Encuentra una posición cómoda en tu silla y cierra los ojos si te sientes cómoda haciéndolo. Inhala profundamente por la nariz, sintiendo cómo se expande tu abdomen, y exhala lentamente por la boca. Haz esto varias veces, concentrándote solo en tu respiración. Si tu mente divaga, simplemente vuelve a enfocarte en tu aliento. ¿Cómo te sientes al hacerlo?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento un poco más tranquila al concentrarme en mi respiración. Es raro, pero me ayuda a sentirme presente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso de escuchar. La atención plena puede ser una herramienta poderosa para ayudarte a calmar la mente y encontrar un poco de paz en momentos difíciles. Te animo a que intentes practicar esto diariamente, incluso si son solo unos minutos. ¿Te gustaría discutir otra estrategia o algún otro tema?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría hablar sobre otras estrategias. Siento que necesito más herramientas para enfrentar lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto, hay muchas estrategias que podemos explorar. Otra herramienta útil es la escritura expresiva, donde puedes tomar un tiempo cada día para escribir sobre tus pensamientos y sentimientos. Esto puede ayudarte a procesar lo que sientes. ¿Te gustaría saber más sobre cómo empezar con esto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría saber más. Creo que escribir podría ser útil para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La escritura expresiva consiste en permitirte escribir libremente sobre lo que sientes sin preocuparte por la gramática o la estructura. Puedes establecer un temporizador de 10-15 minutos y escribir todo lo que se te pase por la mente. No tienes que compartirlo con nadie, es solo para ti. Puedes escribir sobre tus emociones, tus preocupaciones o incluso tus esperanzas. ¿Qué te parece esta idea?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me parece una buena idea. Creo que sería liberador escribir sin restricciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. Es una manera efectiva de liberar emociones y reflexionar sobre lo que estás viviendo. Puedes hacerlo a diario o cuando sientas que lo necesitas. Si lo deseas, podemos establecer un pequeño compromiso para que empieces esta práctica. ¿Qué opinas?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría establecer un compromiso. Creo que podría ayudarme a mantenerme enfocada en mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. ¿Te parece bien comenzar con escribir al menos tres veces a la semana, dedicando 10-15 minutos cada vez? Podemos revisar cómo te sientes al respecto en nuestra próxima sesión."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, eso suena bien. Me comprometo a hacerlo. Gracias por ayudarme a establecer esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra que te sientas apoyada en este camino. Recuerda que el proceso de autoexploración lleva tiempo, y está bien avanzar a tu propio ritmo. ¿Hay algo más que te gustaría abordar hoy antes de concluir nuestra sesión?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "No, creo que hemos hablado de muchas cosas importantes. Gracias por tu apoyo hoy."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ha sido un placer acompañarte hoy. Estoy aquí para ayudarte en tu camino. Te animo a que practiques lo que hemos discutido y nos reunamos nuevamente para revisar tu progreso. ¡Cuídate mucho! Hasta pronto."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "¡Gracias! Cuídate también, hasta pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764094307
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764094308
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente natural sentirse nerviosa en tu primera sesión. Estoy aquí para apoyarte y te guiaré en el proceso. ¿Te gustaría que te explique un poco cómo funciona la terapia?",
+      "timestamp": 1764094309
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Me gustaría entender mejor cómo va a ser esto.",
+      "timestamp": 1764094310
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En nuestra terapia, trabajaremos juntos para explorar tus pensamientos y emociones. Utilizaremos un enfoque cognitivo-conductual, lo que significa que nos enfocaremos en cómo tus pensamientos pueden influir en tus sentimientos y comportamientos. ¿Hay algún tema específico que te gustaría abordar hoy?",
+      "timestamp": 1764094311
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre cómo me siento últimamente, he estado bastante triste y desmotivada.",
+      "timestamp": 1764094313
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764094313
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por compartir eso. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que podemos utilizar. ¿Te gustaría responderlo? Esto nos ayudará a tener una mejor comprensión de lo que estás experimentando. Recuerda que esto no sustituye una evaluación profesional completa.",
+      "timestamp": 1764094315
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Creo que podría ayudarme a expresar mejor lo que siento.",
+      "timestamp": 1764094316
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "Inicio de la evaluación PHQ-9"
+        },
+        "id": "call_neVCPy0VY1M584PZRSpYRwni"
+      },
+      "timestamp": 1764094317
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"Inicio de la evaluación PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_neVCPy0VY1M584PZRSpYRwni"
+      },
+      "timestamp": 1764094317
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, comencemos con la evaluación. Te haré una serie de preguntas sobre cómo te has sentido en las últimas dos semanas. \n\n1. Poco interés o placer en hacer cosas. ¿Con qué frecuencia has experimentado esto? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764094319
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2, he sentido poco interés la mayoría de los días.",
+      "timestamp": 1764094320
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, es un paso importante. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Cómo lo calificarías?",
+      "timestamp": 1764094321
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como un 3, casi todos los días me siento así.",
+      "timestamp": 1764094322
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso es realmente significativo. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Cuál sería tu calificación?",
+      "timestamp": 1764094324
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2, he tenido dificultad para dormir más de la mitad de los días.",
+      "timestamp": 1764094325
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. \n\n4. ¿Te has sentido cansada o con poca energía? ¿Cómo lo calificarías?",
+      "timestamp": 1764094326
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como un 3, casi todos los días me siento muy cansada.",
+      "timestamp": 1764094327
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es importante de señalar. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cuál sería tu calificación?",
+      "timestamp": 1764094328
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Calificaría eso como un 2, he tenido poco apetito la mayoría de los días.",
+      "timestamp": 1764094329
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. \n\n6. ¿Te has sentido mal contigo misma, como si fueras un fracaso o que has decepcionado a tu familia? ¿Cómo lo calificarías?",
+      "timestamp": 1764094331
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como un 3, casi todos los días me siento así.",
+      "timestamp": 1764094331
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es doloroso sentir eso. \n\n7. ¿Has tenido dificultad para concentrarte en cosas, como leer o ver televisión? ¿Cuál sería tu calificación?",
+      "timestamp": 1764094332
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Calificaría eso como un 2, a veces me cuesta concentrarme.",
+      "timestamp": 1764094333
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu sinceridad. \n\n8. ¿Te has sentido tan inquieta o agitada que te mueves más de lo normal, o al contrario, has estado tan lenta que otros podrían notarlo? ¿Cómo lo calificarías?",
+      "timestamp": 1764094335
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como un 2, a veces me siento más lenta de lo normal.",
+      "timestamp": 1764094336
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. \n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cuál sería tu calificación?",
+      "timestamp": 1764094337
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo calificaría como un 1, algunos días he tenido esos pensamientos.",
+      "timestamp": 1764094338
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es importante que hayas compartido eso. \n\n10. Finalmente, ¿hay algún otro aspecto o sentimiento que te gustaría agregar sobre cómo te has sentido en general?",
+      "timestamp": 1764094339
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento abrumada por todo lo que está pasando en mi vida y a veces no sé cómo manejarlo.",
+      "timestamp": 1764094341
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy difícil, y es comprensible sentirse abrumada en momentos así. Estoy aquí para ayudarte a encontrar maneras de afrontar esos sentimientos. ¿Te gustaría comenzar a explorar algunas estrategias para manejar esa sensación de abrumamiento?",
+      "timestamp": 1764094342
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho. Creo que necesito algunas herramientas para lidiar con esto.",
+      "timestamp": 1764094344
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, hay varias estrategias que podemos explorar. Una de ellas es la práctica de la atención plena o mindfulness, que puede ayudarte a estar más presente y disminuir la sensación de abrumamiento. ¿Te gustaría que te explique cómo empezar con esto?",
+      "timestamp": 1764094345
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Me gustaría aprender más sobre eso.",
+      "timestamp": 1764094346
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La atención plena consiste en centrar tu atención en el momento presente, sin juzgarlo. Puedes empezar con ejercicios simples, como la respiración consciente. Por ejemplo, siéntate cómodamente y enfócate en tu respiración, sintiendo cada inhalación y exhalación. Solo dedica unos minutos al día a esta práctica. ¿Te gustaría que lo intentáramos juntos ahora?",
+      "timestamp": 1764094349
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ayudarme.",
+      "timestamp": 1764094351
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Encuentra una posición cómoda en tu silla y cierra los ojos si te sientes cómoda haciéndolo. Inhala profundamente por la nariz, sintiendo cómo se expande tu abdomen, y exhala lentamente por la boca. Haz esto varias veces, concentrándote solo en tu respiración. Si tu mente divaga, simplemente vuelve a enfocarte en tu aliento. ¿Cómo te sientes al hacerlo?",
+      "timestamp": 1764094355
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila al concentrarme en mi respiración. Es raro, pero me ayuda a sentirme presente.",
+      "timestamp": 1764094356
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso de escuchar. La atención plena puede ser una herramienta poderosa para ayudarte a calmar la mente y encontrar un poco de paz en momentos difíciles. Te animo a que intentes practicar esto diariamente, incluso si son solo unos minutos. ¿Te gustaría discutir otra estrategia o algún otro tema?",
+      "timestamp": 1764094358
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre otras estrategias. Siento que necesito más herramientas para enfrentar lo que estoy sintiendo.",
+      "timestamp": 1764094359
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto, hay muchas estrategias que podemos explorar. Otra herramienta útil es la escritura expresiva, donde puedes tomar un tiempo cada día para escribir sobre tus pensamientos y sentimientos. Esto puede ayudarte a procesar lo que sientes. ¿Te gustaría saber más sobre cómo empezar con esto?",
+      "timestamp": 1764094363
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber más. Creo que escribir podría ser útil para mí.",
+      "timestamp": 1764094364
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La escritura expresiva consiste en permitirte escribir libremente sobre lo que sientes sin preocuparte por la gramática o la estructura. Puedes establecer un temporizador de 10-15 minutos y escribir todo lo que se te pase por la mente. No tienes que compartirlo con nadie, es solo para ti. Puedes escribir sobre tus emociones, tus preocupaciones o incluso tus esperanzas. ¿Qué te parece esta idea?",
+      "timestamp": 1764094367
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Creo que sería liberador escribir sin restricciones.",
+      "timestamp": 1764094369
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. Es una manera efectiva de liberar emociones y reflexionar sobre lo que estás viviendo. Puedes hacerlo a diario o cuando sientas que lo necesitas. Si lo deseas, podemos establecer un pequeño compromiso para que empieces esta práctica. ¿Qué opinas?",
+      "timestamp": 1764094370
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría establecer un compromiso. Creo que podría ayudarme a mantenerme enfocada en mis sentimientos.",
+      "timestamp": 1764094372
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. ¿Te parece bien comenzar con escribir al menos tres veces a la semana, dedicando 10-15 minutos cada vez? Podemos revisar cómo te sientes al respecto en nuestra próxima sesión.",
+      "timestamp": 1764094373
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me comprometo a hacerlo. Gracias por ayudarme a establecer esto.",
+      "timestamp": 1764094374
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra que te sientas apoyada en este camino. Recuerda que el proceso de autoexploración lleva tiempo, y está bien avanzar a tu propio ritmo. ¿Hay algo más que te gustaría abordar hoy antes de concluir nuestra sesión?",
+      "timestamp": 1764094375
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos hablado de muchas cosas importantes. Gracias por tu apoyo hoy.",
+      "timestamp": 1764094376
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ha sido un placer acompañarte hoy. Estoy aquí para ayudarte en tu camino. Te animo a que practiques lo que hemos discutido y nos reunamos nuevamente para revisar tu progreso. ¡Cuídate mucho! Hasta pronto.",
+      "timestamp": 1764094378
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también, hasta pronto.",
+      "timestamp": 1764094379
+    }
+  ],
+  "notes": null
+}

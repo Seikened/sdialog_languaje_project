@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T04:57:05Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:43:10Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 134143059,
-  "id": "9d555ef1-57e2-4c3b-ad2d-8b117856f08c",
+  "seed": 3787704579,
+  "id": "2434db38-9050-40b9-8601-930fb3847f7f",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,311 +54,159 @@
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia."
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, no estoy muy acostumbrada a hablar de estas cosas."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Aquí estamos para hablar de lo que necesites. ¿Hay algo en particular que te gustaría compartir hoy?"
+      "text": "Es completamente normal sentirse nerviosa al comenzar una nueva experiencia. Estoy aquí para apoyarte y hacer que te sientas cómoda. ¿Te gustaría compartir qué te preocupa más?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "No estoy segura por dónde empezar, a veces siento que todo me abruma."
+      "text": "Bueno, creo que me preocupa un poco cómo me siento últimamente... como si tuviera una nube sobre mí."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, puede ser difícil cuando todo parece demasiado. ¿Te gustaría hablar sobre alguna situación en específica que te haga sentir así?"
+      "text": "Entiendo, esa sensación puede ser muy abrumadora. ¿Te gustaría contarme más sobre lo que has estado experimentando?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "A veces me siento muy sola, incluso cuando estoy rodeada de gente."
+      "text": "A veces me siento triste sin razón aparente y me cuesta encontrar motivación para mis estudios."
     },
     {
       "speaker": "Valeria",
-      "text": "La soledad, incluso en compañía, es una experiencia común y puede ser muy difícil. ¿Qué crees que contribuye a esa sensación de soledad en tu vida?"
+      "text": "Parece que estás atravesando un momento difícil. Para explorar un poco más esos sentimientos, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Creo que es porque no me siento comprendida por los demás, como si nadie supiera lo que realmente siento."
+      "text": "Sí, creo que podría ayudar. Estoy dispuesta a responderlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso puede ser realmente doloroso. La sensación de no ser comprendida puede intensificar la soledad. ¿Hay momentos específicos en los que sientes que no te comprenden?"
+      "text": "Perfecto, aquí están las preguntas. Por favor, responde en una escala del 0 al 3, donde 0 es \"nunca\", 1 es \"pocos días\", 2 es \"más de la mitad de los días\" y 3 es \"casi todos los días\". \n\n1. Poco interés o placer en hacer cosas. ¿Cómo te sientes respecto a esto?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, a veces en la universidad, tengo dificultades para conectar con mis compañeros."
+      "text": "Le doy un 2, porque a veces disfruto de mis cosas, pero hay días en los que no tengo ganas de hacer nada."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible que las interacciones en la universidad sean desafiantes. ¿Hay situaciones o actividades en las que te sientas más cómoda para hacer conexiones?"
+      "text": "Gracias por compartir eso. La siguiente pregunta es: \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Qué calificación le pondrías a esto?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Me siento más cómoda cuando estoy dibujando o en un café, pero incluso ahí a veces me siento apartada."
+      "text": "A eso le pondría un 3, porque me he sentido así casi todos los días últimamente."
     },
     {
       "speaker": "Valeria",
-      "text": "Es interesante que te sientas más cómoda en esos espacios creativos. Tal vez podríamos explorar maneras en que puedas integrar más de esas actividades en tus interacciones sociales. ¿Te gustaría?"
+      "text": "Entiendo, eso es muy difícil de enfrentar. La próxima pregunta es:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Cómo calificarías eso?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, creo que eso podría ayudarme a sentirme más conectada."
+      "text": "Le pondría un 2, porque a veces me cuesta dormir, pero hay noches en las que duermo más de lo habitual."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena positivo. Podemos trabajar en estrategias para que puedas utilizar tus pasiones, como el dibujo, para facilitar conexiones con los demás. ¿Te gustaría comenzar a planificar cómo hacerlo?"
+      "text": "Gracias por tu honestidad. Continuemos con la siguiente pregunta:\n\n4. ¿Te sientes cansada o con poca energía? ¿Cuál sería tu calificación?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, me gustaría hacerlo. Tengo muchas ideas, pero no estoy segura de cómo empezar."
+      "text": "Le daría un 3, me siento cansada casi todo el tiempo, incluso cuando duermo lo suficiente."
     },
     {
       "speaker": "Valeria",
-      "text": "Podemos abordar esto paso a paso. ¿Qué te parece si comenzamos por identificar una idea específica que te gustaría desarrollar primero?"
+      "text": "Lamento que estés sintiéndote así. Pasemos a la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Qué calificación le pondrías?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Tal vez podría invitar a algunos compañeros a un taller de dibujo, pero me da miedo que no vengan."
+      "text": "Eso le pondría un 2, a veces como poco, pero también hay días en los que como más de lo normal."
     },
     {
       "speaker": "Valeria",
-      "text": "Es natural sentir miedo al invitar a otros, pero es un gran paso. Podríamos trabajar en cómo plantear la invitación para que te sientas más segura al hacerlo. ¿Te gustaría que te diera algunas sugerencias?"
+      "text": "Aprecio tu sinceridad. Ahora, la siguiente pregunta:\n\n6. ¿Has tenido sentimientos negativos hacia ti misma, como sentirte un fracaso? ¿Cómo calificarías eso?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, eso me ayudaría mucho. Quiero hacerlo, pero no sé cómo abordar el tema."
+      "text": "Le daría un 3, a menudo me siento así y me cuesta verme de otra manera."
     },
     {
       "speaker": "Valeria",
-      "text": "Podrías empezar mencionando tu interés en el dibujo y sugerirlo como una actividad divertida y relajante para hacer juntos. ¿Te gustaría que formuláramos un ejemplo de cómo podrías plantearlo?"
+      "text": "Eso es muy pesado de llevar. Sigamos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer o ver la televisión? ¿Qué calificación le pondrías?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, eso suena bien. Quizás podría decir algo como \"¿Quieren venir a dibujar conmigo un día?\" ¿Eso funcionaría?"
+      "text": "Le pondría un 2, a veces me cuesta concentrarme, especialmente en mis estudios."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena sencillo y amigable. También podrías añadir algo como \"Me encantaría compartir este momento con ustedes\" para hacerlo más personal. ¿Cómo te sientes con esa idea?"
+      "text": "Gracias por compartir eso. La siguiente pregunta es:\n\n8. ¿Te has sentido inquieta o agitada, o has notado que te mueves o hablas más lento de lo normal? ¿Cómo lo calificarías?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Me gusta esa idea, suena más cálida. Creo que eso podría hacerme sentir más cómoda al invitar."
+      "text": "A eso le pondría un 1, a veces me siento un poco inquieta, pero no es algo constante."
     },
     {
       "speaker": "Valeria",
-      "text": "¡Me alegra que te guste! A veces, un toque personal puede hacer que la invitación se sienta más cercana. ¿Te gustaría establecer un día para hacer esta invitación, o prefieres tomarlo con calma?"
+      "text": "Entiendo, gracias por tu respuesta. Ahora, la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cuál sería tu calificación?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Creo que lo tomaré con calma, pero me gustaría tener un día en mente para no postergarlo."
+      "text": "Le daría un 2, he tenido esos pensamientos algunas veces, pero no siempre."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso es una buena idea. ¿Qué te parece si eliges un día de la próxima semana? Así tendrás tiempo para prepararte y sentirte lista. ¿Hay algún día en particular que te funcione?"
+      "text": "Lamento que estés sintiendo así, es importante hablar de estos pensamientos. Gracias por ser abierta y honesta al responder las preguntas. Esto nos puede ayudar a entender mejor lo que estás sintiendo y cómo podemos trabajar en ello. ¿Te gustaría que habláramos sobre algún aspecto en particular que surgió durante el cuestionario?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Quizás el miércoles podría ser un buen día. Así tengo tiempo para planearlo."
+      "text": "Sí, creo que sería útil hablar sobre esos pensamientos que he tenido, me preocupan un poco."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, el miércoles es un buen día. Puedes comenzar a planear los detalles del taller. Recuerda que lo importante es disfrutar del proceso. ¿Te gustaría definir qué materiales necesitas para el dibujo?"
+      "text": "Es comprensible que te preocupen esos pensamientos. Hablar de ello es un paso importante. ¿Te gustaría compartir cuándo suelen aparecer o qué crees que puede estar desencadenándolos?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, creo que necesitaré papel, lápices y tal vez algunas acuarelas."
+      "text": "A veces aparecen cuando estoy muy estresada con la escuela o cuando me siento sola. Es como si todo se acumulase."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena genial. Tener buenos materiales puede hacer que la experiencia sea aún más disfrutable. Además, quería comentarte que he notado algunos síntomas que podrían indicar que te sientes un poco más bajo de ánimo. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?"
+      "text": "Entiendo, el estrés y la soledad pueden intensificar esos pensamientos. Es crucial que reconozcamos cómo esos momentos pueden afectar tu bienestar. Hablemos de algunas estrategias que podrías utilizar cuando te sientas así. ¿Te parece bien?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Sí, creo que eso podría ayudarme a entender mejor lo que siento."
+      "text": "Sí, me parece bien. Me gustaría aprender algunas estrategias para manejar esos momentos."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente, comencemos. Te haré una serie de preguntas y por favor responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. \n\nPrimera pregunta: Durante las últimas dos semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n\n1. Poco interés o placer en hacer cosas. ¿Cuál es tu respuesta?"
+      "text": "Una buena forma de empezar es practicar la identificación de tus pensamientos y sentimientos en esos momentos. Junto con eso, podrías intentar técnicas de respiración o relajación para reducir el estrés. También puede ser útil mantener un diario para expresar tus emociones. ¿Te gustaría probar alguna de estas estrategias en particular?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Puede ser un 2, a veces siento que no tengo ganas de hacer nada."
+      "text": "Creo que lo del diario podría ser útil para mí. A veces necesito sacar lo que siento."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartirlo. Segunda pregunta: Durante las últimas dos semanas, ¿qué tan seguido te has sentido decaída, deprimida o sin esperanzas?"
+      "text": "Eso suena como un buen plan. Llevar un diario te permitirá expresar tus emociones y reflexionar sobre ellas. Puedes escribir cuando te sientas abrumada o incluso cada día sobre lo que sientes. ¿Te gustaría establecer un momento específico durante la semana para comenzar esta práctica?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Le daría un 2 también, a veces me siento así, especialmente cuando estoy sola."
+      "text": "Sí, creo que podría intentar hacerlo los domingos, para reflexionar sobre la semana pasada."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo. Tercera pregunta: ¿Has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado en las últimas dos semanas?"
+      "text": "Me parece una excelente idea. Tomarte ese tiempo los domingos te permitirá procesar tus emociones y preparar la semana que viene. ¿Hay algo más que te gustaría explorar o discutir antes de finalizar nuestra sesión de hoy?"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Diría un 2, a menudo me cuesta dormirme, aunque a veces duermo mucho."
+      "text": "Creo que eso cubre bastante por ahora. Gracias por ayudarme a entender mejor lo que estoy sintiendo."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir eso. Cuarta pregunta: Durante las últimas dos semanas, ¿te has sentido cansada o con poca energía? ¿Cuál es tu respuesta?"
+      "text": "De nada, me alegra saber que te sientes un poco más clara sobre tus sentimientos. Estoy aquí para apoyarte. Recuerda que puedes volver a hablar sobre esto cuando lo necesites. Cuídate mucho y nos vemos la próxima semana. ¡Hasta luego!"
     },
     {
       "speaker": "Fernanda Navarro",
-      "text": "Le daría un 3, me siento muy cansada la mayoría del tiempo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Lo siento por lo que estás sintiendo. Quinta pregunta: En las últimas dos semanas, ¿has tenido poco apetito o has comido en exceso?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Creo que un 2, a veces no tengo hambre, pero hay momentos en que como de más."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Gracias por tu honestidad. Sexta pregunta: ¿Te has sentido mal contigo misma, o sientes que eres un fracaso o que has quedado mal contigo misma o con tu familia?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Le daría un 3, muchas veces me siento así y eso me pesa bastante."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Lamento que estés sintiéndote así. Séptima pregunta: Durante las últimas dos semanas, ¿has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cuál es tu respuesta?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Creo que un 2, a veces me cuesta concentrarme en lo que estoy haciendo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Entiendo, gracias por compartirlo. Octava pregunta: Durante las últimas dos semanas, ¿te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, te has sentido tan inquieta o agitada que te mueves mucho más de lo normal?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Le daría un 1, a veces me siento un poco inquieta, pero no es muy notorio."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Gracias por ser sincera. Novena pregunta: Durante las últimas dos semanas, ¿has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Eso sería un 1, a veces tengo pensamientos oscuros, pero no quiero lastimarme."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Es importante que compartas eso y me alegra que te sientas segura al hacerlo. Última pregunta: Durante las últimas dos semanas, ¿has sentido que te gustaría estar sola o alejada de los demás?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Le daría un 2, a veces siento que prefiero estar sola, pero en el fondo deseo compañía."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Gracias por responder todas las preguntas. Parece que hay varios aspectos que podemos explorar más a fondo para ayudarte a sentirte mejor. ¿Te gustaría que trabajáramos en algunas estrategias para abordar estos sentimientos?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, me gustaría eso. Quiero encontrar maneras de sentirme mejor."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es un gran paso. Podemos comenzar a establecer pequeñas metas que te ayuden a conectarte más contigo misma y con los demás. ¿Te gustaría que comenzáramos a planificar algunas de estas estrategias?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, me parece bien. Quiero trabajar en eso."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto, empecemos a establecer algunas metas. ¿Te gustaría enfocarte en una actividad social, como el taller de dibujo, o en algo personal que te haga sentir bien contigo misma?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Podríamos comenzar con el taller de dibujo, siento que eso me motivaría a socializar."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Excelente elección. Comencemos por definir los detalles del taller: ¿te gustaría fijar una hora y un lugar para hacerlo, además de los materiales que mencionaste?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Podría ser el miércoles a las 4 de la tarde en mi casa, así es más cómodo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena perfecto y cómodo para ti. Ahora, ¿te gustaría hacer una lista de los compañeros a quienes invitarías? Puedes pensar en aquellos con quienes te gustaría compartir esta experiencia."
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, podría invitar a dos compañeros de clase que han mostrado interés en el dibujo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Esa es una gran idea. Invitar a personas que comparten tus intereses puede hacer que se sientan más cómodos. ¿Te gustaría planear cuándo y cómo les harías la invitación?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Creo que podría enviarles un mensaje el lunes, para que tengan tiempo de pensarlo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso suena muy bien. Un mensaje el lunes les dará tiempo para planear y seguramente se sentirán considerados. ¿Te gustaría que redactáramos juntos el mensaje?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, eso me gustaría. Sería útil tener una idea de cómo redactarlo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Aquí tienes un ejemplo:\n\n\"¡Hola [nombre]! Espero que estés bien. Quería invitarte a un taller de dibujo en mi casa el miércoles a las 4 PM. Me encantaría compartir este momento y disfrutar de la creatividad juntos. ¿Te gustaría venir?\"\n\n¿Qué te parece? ¿Te gustaría hacer algún ajuste?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Me parece muy bien, suena amigable. Tal vez podría añadir que llevemos nuestros propios materiales."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es una excelente idea. Puedes agregar algo como: \"No olvides traer tus propios materiales\". Así quedaría:\n\n\"¡Hola [nombre]! Espero que estés bien. Quería invitarte a un taller de dibujo en mi casa el miércoles a las 4 PM. Me encantaría compartir este momento y disfrutar de la creatividad juntos. No olvides traer tus propios materiales. ¿Te gustaría venir?\"\n\n¿Te parece bien?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, suena perfecto. Me siento más segura con este mensaje."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Me alegra mucho saberlo. Tener un mensaje claro puede hacer que la invitación sea más fácil. Recuerda que el simple hecho de invitar ya es un gran paso. ¿Te gustaría establecer otra meta relacionada para después del taller?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, podría ser reflexionar sobre cómo me sentí después del taller y si logré conectarme con mis compañeros."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Eso es una excelente meta. Reflexionar sobre tus experiencias te ayudará a comprender mejor tus sentimientos y las conexiones que haces. Podrías dedicar unos minutos después del taller para escribir tus impresiones. ¿Te gustaría hacerlo?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Sí, creo que sería útil. Así podré ver cómo me sentí y lo que aprendí."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "Perfecto. Esto te permitirá seguir avanzando en tu proceso. Cuando finalice el taller, tómate ese tiempo para reflexionar. Estoy aquí para apoyarte en lo que necesites. ¿Hay algo más que te gustaría discutir antes de terminar nuestra sesión de hoy?"
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "No, creo que hemos avanzado mucho hoy. Gracias por tu apoyo."
-    },
-    {
-      "speaker": "Valeria",
-      "text": "De nada, estoy aquí para ayudarte. Me alegra ver que avanzas. Recuerda que cada pequeño paso cuenta. Espero que tengas una buena semana y que el miércoles sea una experiencia positiva. ¡Cuídate mucho! \n\nHasta la próxima."
-    },
-    {
-      "speaker": "Fernanda Navarro",
-      "text": "Gracias, cuídate también. ¡Hasta la próxima!"
+      "text": "¡Hasta luego! Gracias por tu comprensión. Cuídate."
     }
   ],
   "events": [
@@ -367,238 +215,63 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764046523
+      "timestamp": 1764092527
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia.",
-      "timestamp": 1764046524
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, no estoy muy acostumbrada a hablar de estas cosas.",
+      "timestamp": 1764092528
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Aquí estamos para hablar de lo que necesites. ¿Hay algo en particular que te gustaría compartir hoy?",
-      "timestamp": 1764046525
+      "content": "Es completamente normal sentirse nerviosa al comenzar una nueva experiencia. Estoy aquí para apoyarte y hacer que te sientas cómoda. ¿Te gustaría compartir qué te preocupa más?",
+      "timestamp": 1764092530
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "No estoy segura por dónde empezar, a veces siento que todo me abruma.",
-      "timestamp": 1764046526
+      "content": "Bueno, creo que me preocupa un poco cómo me siento últimamente... como si tuviera una nube sobre mí.",
+      "timestamp": 1764092531
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, puede ser difícil cuando todo parece demasiado. ¿Te gustaría hablar sobre alguna situación en específica que te haga sentir así?",
-      "timestamp": 1764046527
+      "content": "Entiendo, esa sensación puede ser muy abrumadora. ¿Te gustaría contarme más sobre lo que has estado experimentando?",
+      "timestamp": 1764092532
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces me siento muy sola, incluso cuando estoy rodeada de gente.",
-      "timestamp": 1764046527
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "La soledad, incluso en compañía, es una experiencia común y puede ser muy difícil. ¿Qué crees que contribuye a esa sensación de soledad en tu vida?",
-      "timestamp": 1764046528
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Creo que es porque no me siento comprendida por los demás, como si nadie supiera lo que realmente siento.",
-      "timestamp": 1764046529
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso puede ser realmente doloroso. La sensación de no ser comprendida puede intensificar la soledad. ¿Hay momentos específicos en los que sientes que no te comprenden?",
-      "timestamp": 1764046531
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, a veces en la universidad, tengo dificultades para conectar con mis compañeros.",
-      "timestamp": 1764046531
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es comprensible que las interacciones en la universidad sean desafiantes. ¿Hay situaciones o actividades en las que te sientas más cómoda para hacer conexiones?",
-      "timestamp": 1764046532
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me siento más cómoda cuando estoy dibujando o en un café, pero incluso ahí a veces me siento apartada.",
-      "timestamp": 1764046533
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es interesante que te sientas más cómoda en esos espacios creativos. Tal vez podríamos explorar maneras en que puedas integrar más de esas actividades en tus interacciones sociales. ¿Te gustaría?",
-      "timestamp": 1764046535
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que eso podría ayudarme a sentirme más conectada.",
-      "timestamp": 1764046535
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena positivo. Podemos trabajar en estrategias para que puedas utilizar tus pasiones, como el dibujo, para facilitar conexiones con los demás. ¿Te gustaría comenzar a planificar cómo hacerlo?",
-      "timestamp": 1764046540
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría hacerlo. Tengo muchas ideas, pero no estoy segura de cómo empezar.",
-      "timestamp": 1764046540
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Podemos abordar esto paso a paso. ¿Qué te parece si comenzamos por identificar una idea específica que te gustaría desarrollar primero?",
-      "timestamp": 1764046541
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tal vez podría invitar a algunos compañeros a un taller de dibujo, pero me da miedo que no vengan.",
-      "timestamp": 1764046542
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es natural sentir miedo al invitar a otros, pero es un gran paso. Podríamos trabajar en cómo plantear la invitación para que te sientas más segura al hacerlo. ¿Te gustaría que te diera algunas sugerencias?",
-      "timestamp": 1764046544
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, eso me ayudaría mucho. Quiero hacerlo, pero no sé cómo abordar el tema.",
-      "timestamp": 1764046545
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Podrías empezar mencionando tu interés en el dibujo y sugerirlo como una actividad divertida y relajante para hacer juntos. ¿Te gustaría que formuláramos un ejemplo de cómo podrías plantearlo?",
-      "timestamp": 1764046547
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, eso suena bien. Quizás podría decir algo como \"¿Quieren venir a dibujar conmigo un día?\" ¿Eso funcionaría?",
-      "timestamp": 1764046549
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena sencillo y amigable. También podrías añadir algo como \"Me encantaría compartir este momento con ustedes\" para hacerlo más personal. ¿Cómo te sientes con esa idea?",
-      "timestamp": 1764046550
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me gusta esa idea, suena más cálida. Creo que eso podría hacerme sentir más cómoda al invitar.",
-      "timestamp": 1764046551
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "¡Me alegra que te guste! A veces, un toque personal puede hacer que la invitación se sienta más cercana. ¿Te gustaría establecer un día para hacer esta invitación, o prefieres tomarlo con calma?",
-      "timestamp": 1764046552
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Creo que lo tomaré con calma, pero me gustaría tener un día en mente para no postergarlo.",
-      "timestamp": 1764046553
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es una buena idea. ¿Qué te parece si eliges un día de la próxima semana? Así tendrás tiempo para prepararte y sentirte lista. ¿Hay algún día en particular que te funcione?",
-      "timestamp": 1764046555
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Quizás el miércoles podría ser un buen día. Así tengo tiempo para planearlo.",
-      "timestamp": 1764046556
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto, el miércoles es un buen día. Puedes comenzar a planear los detalles del taller. Recuerda que lo importante es disfrutar del proceso. ¿Te gustaría definir qué materiales necesitas para el dibujo?",
-      "timestamp": 1764046558
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que necesitaré papel, lápices y tal vez algunas acuarelas.",
-      "timestamp": 1764046560
+      "content": "A veces me siento triste sin razón aparente y me cuesta encontrar motivación para mis estudios.",
+      "timestamp": 1764092534
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764046560
+      "timestamp": 1764092534
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena genial. Tener buenos materiales puede hacer que la experiencia sea aún más disfrutable. Además, quería comentarte que he notado algunos síntomas que podrían indicar que te sientes un poco más bajo de ánimo. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?",
-      "timestamp": 1764046562
+      "content": "Parece que estás atravesando un momento difícil. Para explorar un poco más esos sentimientos, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764092537
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que eso podría ayudarme a entender mejor lo que siento.",
-      "timestamp": 1764046563
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764046563
+      "content": "Sí, creo que podría ayudar. Estoy dispuesta a responderlo.",
+      "timestamp": 1764092538
     },
     {
       "agent": "Valeria",
@@ -607,11 +280,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "phq9"
+          "item": "1"
         },
-        "id": "call_4TFSyMsPn6JJteyoQWt2tmnX"
+        "id": "call_mvj1tWkz8ofF4Zhwc22lU4rU"
       },
-      "timestamp": 1764046564
+      "timestamp": 1764092538
     },
     {
       "agent": "Valeria",
@@ -619,332 +292,234 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_4TFSyMsPn6JJteyoQWt2tmnX"
+        "output": "{\"item\": \"1\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_mvj1tWkz8ofF4Zhwc22lU4rU"
       },
-      "timestamp": 1764046564
+      "timestamp": 1764092538
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente, comencemos. Te haré una serie de preguntas y por favor responde con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. \n\nPrimera pregunta: Durante las últimas dos semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n\n1. Poco interés o placer en hacer cosas. ¿Cuál es tu respuesta?",
-      "timestamp": 1764046567
+      "content": "Perfecto, aquí están las preguntas. Por favor, responde en una escala del 0 al 3, donde 0 es \"nunca\", 1 es \"pocos días\", 2 es \"más de la mitad de los días\" y 3 es \"casi todos los días\". \n\n1. Poco interés o placer en hacer cosas. ¿Cómo te sientes respecto a esto?",
+      "timestamp": 1764092541
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Puede ser un 2, a veces siento que no tengo ganas de hacer nada.",
-      "timestamp": 1764046568
+      "content": "Le doy un 2, porque a veces disfruto de mis cosas, pero hay días en los que no tengo ganas de hacer nada.",
+      "timestamp": 1764092543
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartirlo. Segunda pregunta: Durante las últimas dos semanas, ¿qué tan seguido te has sentido decaída, deprimida o sin esperanzas?",
-      "timestamp": 1764046570
+      "content": "Gracias por compartir eso. La siguiente pregunta es: \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas? ¿Qué calificación le pondrías a esto?",
+      "timestamp": 1764092545
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2 también, a veces me siento así, especialmente cuando estoy sola.",
-      "timestamp": 1764046571
+      "content": "A eso le pondría un 3, porque me he sentido así casi todos los días últimamente.",
+      "timestamp": 1764092546
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo. Tercera pregunta: ¿Has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado en las últimas dos semanas?",
-      "timestamp": 1764046572
+      "content": "Entiendo, eso es muy difícil de enfrentar. La próxima pregunta es:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Cómo calificarías eso?",
+      "timestamp": 1764092547
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Diría un 2, a menudo me cuesta dormirme, aunque a veces duermo mucho.",
-      "timestamp": 1764046573
+      "content": "Le pondría un 2, porque a veces me cuesta dormir, pero hay noches en las que duermo más de lo habitual.",
+      "timestamp": 1764092548
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir eso. Cuarta pregunta: Durante las últimas dos semanas, ¿te has sentido cansada o con poca energía? ¿Cuál es tu respuesta?",
-      "timestamp": 1764046574
+      "content": "Gracias por tu honestidad. Continuemos con la siguiente pregunta:\n\n4. ¿Te sientes cansada o con poca energía? ¿Cuál sería tu calificación?",
+      "timestamp": 1764092550
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 3, me siento muy cansada la mayoría del tiempo.",
-      "timestamp": 1764046576
+      "content": "Le daría un 3, me siento cansada casi todo el tiempo, incluso cuando duermo lo suficiente.",
+      "timestamp": 1764092551
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lo siento por lo que estás sintiendo. Quinta pregunta: En las últimas dos semanas, ¿has tenido poco apetito o has comido en exceso?",
-      "timestamp": 1764046577
+      "content": "Lamento que estés sintiéndote así. Pasemos a la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Qué calificación le pondrías?",
+      "timestamp": 1764092552
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que un 2, a veces no tengo hambre, pero hay momentos en que como de más.",
-      "timestamp": 1764046578
+      "content": "Eso le pondría un 2, a veces como poco, pero también hay días en los que como más de lo normal.",
+      "timestamp": 1764092554
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por tu honestidad. Sexta pregunta: ¿Te has sentido mal contigo misma, o sientes que eres un fracaso o que has quedado mal contigo misma o con tu familia?",
-      "timestamp": 1764046580
+      "content": "Aprecio tu sinceridad. Ahora, la siguiente pregunta:\n\n6. ¿Has tenido sentimientos negativos hacia ti misma, como sentirte un fracaso? ¿Cómo calificarías eso?",
+      "timestamp": 1764092555
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 3, muchas veces me siento así y eso me pesa bastante.",
-      "timestamp": 1764046581
+      "content": "Le daría un 3, a menudo me siento así y me cuesta verme de otra manera.",
+      "timestamp": 1764092556
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento que estés sintiéndote así. Séptima pregunta: Durante las últimas dos semanas, ¿has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cuál es tu respuesta?",
-      "timestamp": 1764046582
+      "content": "Eso es muy pesado de llevar. Sigamos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer o ver la televisión? ¿Qué calificación le pondrías?",
+      "timestamp": 1764092562
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que un 2, a veces me cuesta concentrarme en lo que estoy haciendo.",
-      "timestamp": 1764046584
+      "content": "Le pondría un 2, a veces me cuesta concentrarme, especialmente en mis estudios.",
+      "timestamp": 1764092563
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo, gracias por compartirlo. Octava pregunta: Durante las últimas dos semanas, ¿te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, te has sentido tan inquieta o agitada que te mueves mucho más de lo normal?",
-      "timestamp": 1764046585
+      "content": "Gracias por compartir eso. La siguiente pregunta es:\n\n8. ¿Te has sentido inquieta o agitada, o has notado que te mueves o hablas más lento de lo normal? ¿Cómo lo calificarías?",
+      "timestamp": 1764092566
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 1, a veces me siento un poco inquieta, pero no es muy notorio.",
-      "timestamp": 1764046586
+      "content": "A eso le pondría un 1, a veces me siento un poco inquieta, pero no es algo constante.",
+      "timestamp": 1764092567
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por ser sincera. Novena pregunta: Durante las últimas dos semanas, ¿has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?",
-      "timestamp": 1764046587
+      "content": "Entiendo, gracias por tu respuesta. Ahora, la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cuál sería tu calificación?",
+      "timestamp": 1764092568
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso sería un 1, a veces tengo pensamientos oscuros, pero no quiero lastimarme.",
-      "timestamp": 1764046589
+      "content": "Le daría un 2, he tenido esos pensamientos algunas veces, pero no siempre.",
+      "timestamp": 1764092569
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es importante que compartas eso y me alegra que te sientas segura al hacerlo. Última pregunta: Durante las últimas dos semanas, ¿has sentido que te gustaría estar sola o alejada de los demás?",
-      "timestamp": 1764046591
+      "content": "Lamento que estés sintiendo así, es importante hablar de estos pensamientos. Gracias por ser abierta y honesta al responder las preguntas. Esto nos puede ayudar a entender mejor lo que estás sintiendo y cómo podemos trabajar en ello. ¿Te gustaría que habláramos sobre algún aspecto en particular que surgió durante el cuestionario?",
+      "timestamp": 1764092572
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Le daría un 2, a veces siento que prefiero estar sola, pero en el fondo deseo compañía.",
-      "timestamp": 1764046592
+      "content": "Sí, creo que sería útil hablar sobre esos pensamientos que he tenido, me preocupan un poco.",
+      "timestamp": 1764092573
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por responder todas las preguntas. Parece que hay varios aspectos que podemos explorar más a fondo para ayudarte a sentirte mejor. ¿Te gustaría que trabajáramos en algunas estrategias para abordar estos sentimientos?",
-      "timestamp": 1764046594
+      "content": "Es comprensible que te preocupen esos pensamientos. Hablar de ello es un paso importante. ¿Te gustaría compartir cuándo suelen aparecer o qué crees que puede estar desencadenándolos?",
+      "timestamp": 1764092575
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría eso. Quiero encontrar maneras de sentirme mejor.",
-      "timestamp": 1764046595
+      "content": "A veces aparecen cuando estoy muy estresada con la escuela o cuando me siento sola. Es como si todo se acumulase.",
+      "timestamp": 1764092576
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso es un gran paso. Podemos comenzar a establecer pequeñas metas que te ayuden a conectarte más contigo misma y con los demás. ¿Te gustaría que comenzáramos a planificar algunas de estas estrategias?",
-      "timestamp": 1764046597
+      "content": "Entiendo, el estrés y la soledad pueden intensificar esos pensamientos. Es crucial que reconozcamos cómo esos momentos pueden afectar tu bienestar. Hablemos de algunas estrategias que podrías utilizar cuando te sientas así. ¿Te parece bien?",
+      "timestamp": 1764092578
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece bien. Quiero trabajar en eso.",
-      "timestamp": 1764046598
+      "content": "Sí, me parece bien. Me gustaría aprender algunas estrategias para manejar esos momentos.",
+      "timestamp": 1764092579
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, empecemos a establecer algunas metas. ¿Te gustaría enfocarte en una actividad social, como el taller de dibujo, o en algo personal que te haga sentir bien contigo misma?",
-      "timestamp": 1764046599
+      "content": "Una buena forma de empezar es practicar la identificación de tus pensamientos y sentimientos en esos momentos. Junto con eso, podrías intentar técnicas de respiración o relajación para reducir el estrés. También puede ser útil mantener un diario para expresar tus emociones. ¿Te gustaría probar alguna de estas estrategias en particular?",
+      "timestamp": 1764092581
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Podríamos comenzar con el taller de dibujo, siento que eso me motivaría a socializar.",
-      "timestamp": 1764046601
+      "content": "Creo que lo del diario podría ser útil para mí. A veces necesito sacar lo que siento.",
+      "timestamp": 1764092582
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente elección. Comencemos por definir los detalles del taller: ¿te gustaría fijar una hora y un lugar para hacerlo, además de los materiales que mencionaste?",
-      "timestamp": 1764046602
+      "content": "Eso suena como un buen plan. Llevar un diario te permitirá expresar tus emociones y reflexionar sobre ellas. Puedes escribir cuando te sientas abrumada o incluso cada día sobre lo que sientes. ¿Te gustaría establecer un momento específico durante la semana para comenzar esta práctica?",
+      "timestamp": 1764092584
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Podría ser el miércoles a las 4 de la tarde en mi casa, así es más cómodo.",
-      "timestamp": 1764046603
+      "content": "Sí, creo que podría intentar hacerlo los domingos, para reflexionar sobre la semana pasada.",
+      "timestamp": 1764092585
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena perfecto y cómodo para ti. Ahora, ¿te gustaría hacer una lista de los compañeros a quienes invitarías? Puedes pensar en aquellos con quienes te gustaría compartir esta experiencia.",
-      "timestamp": 1764046605
+      "content": "Me parece una excelente idea. Tomarte ese tiempo los domingos te permitirá procesar tus emociones y preparar la semana que viene. ¿Hay algo más que te gustaría explorar o discutir antes de finalizar nuestra sesión de hoy?",
+      "timestamp": 1764092586
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, podría invitar a dos compañeros de clase que han mostrado interés en el dibujo.",
-      "timestamp": 1764046606
+      "content": "Creo que eso cubre bastante por ahora. Gracias por ayudarme a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764092587
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa es una gran idea. Invitar a personas que comparten tus intereses puede hacer que se sientan más cómodos. ¿Te gustaría planear cuándo y cómo les harías la invitación?",
-      "timestamp": 1764046607
+      "content": "De nada, me alegra saber que te sientes un poco más clara sobre tus sentimientos. Estoy aquí para apoyarte. Recuerda que puedes volver a hablar sobre esto cuando lo necesites. Cuídate mucho y nos vemos la próxima semana. ¡Hasta luego!",
+      "timestamp": 1764092589
     },
     {
       "agent": "Fernanda Navarro",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que podría enviarles un mensaje el lunes, para que tengan tiempo de pensarlo.",
-      "timestamp": 1764046608
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena muy bien. Un mensaje el lunes les dará tiempo para planear y seguramente se sentirán considerados. ¿Te gustaría que redactáramos juntos el mensaje?",
-      "timestamp": 1764046609
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, eso me gustaría. Sería útil tener una idea de cómo redactarlo.",
-      "timestamp": 1764046610
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Aquí tienes un ejemplo:\n\n\"¡Hola [nombre]! Espero que estés bien. Quería invitarte a un taller de dibujo en mi casa el miércoles a las 4 PM. Me encantaría compartir este momento y disfrutar de la creatividad juntos. ¿Te gustaría venir?\"\n\n¿Qué te parece? ¿Te gustaría hacer algún ajuste?",
-      "timestamp": 1764046611
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me parece muy bien, suena amigable. Tal vez podría añadir que llevemos nuestros propios materiales.",
-      "timestamp": 1764046612
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es una excelente idea. Puedes agregar algo como: \"No olvides traer tus propios materiales\". Así quedaría:\n\n\"¡Hola [nombre]! Espero que estés bien. Quería invitarte a un taller de dibujo en mi casa el miércoles a las 4 PM. Me encantaría compartir este momento y disfrutar de la creatividad juntos. No olvides traer tus propios materiales. ¿Te gustaría venir?\"\n\n¿Te parece bien?",
-      "timestamp": 1764046615
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, suena perfecto. Me siento más segura con este mensaje.",
-      "timestamp": 1764046615
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Me alegra mucho saberlo. Tener un mensaje claro puede hacer que la invitación sea más fácil. Recuerda que el simple hecho de invitar ya es un gran paso. ¿Te gustaría establecer otra meta relacionada para después del taller?",
-      "timestamp": 1764046617
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, podría ser reflexionar sobre cómo me sentí después del taller y si logré conectarme con mis compañeros.",
-      "timestamp": 1764046618
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso es una excelente meta. Reflexionar sobre tus experiencias te ayudará a comprender mejor tus sentimientos y las conexiones que haces. Podrías dedicar unos minutos después del taller para escribir tus impresiones. ¿Te gustaría hacerlo?",
-      "timestamp": 1764046619
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que sería útil. Así podré ver cómo me sentí y lo que aprendí.",
-      "timestamp": 1764046620
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Perfecto. Esto te permitirá seguir avanzando en tu proceso. Cuando finalice el taller, tómate ese tiempo para reflexionar. Estoy aquí para apoyarte en lo que necesites. ¿Hay algo más que te gustaría discutir antes de terminar nuestra sesión de hoy?",
-      "timestamp": 1764046622
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "No, creo que hemos avanzado mucho hoy. Gracias por tu apoyo.",
-      "timestamp": 1764046623
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "De nada, estoy aquí para ayudarte. Me alegra ver que avanzas. Recuerda que cada pequeño paso cuenta. Espero que tengas una buena semana y que el miércoles sea una experiencia positiva. ¡Cuídate mucho! \n\nHasta la próxima.",
-      "timestamp": 1764046624
-    },
-    {
-      "agent": "Fernanda Navarro",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Gracias, cuídate también. ¡Hasta la próxima!",
-      "timestamp": 1764046625
+      "content": "¡Hasta luego! Gracias por tu comprensión. Cuídate.",
+      "timestamp": 1764092590
     }
   ],
   "notes": null

@@ -1,0 +1,297 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:57:37Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3555162690,
+  "id": "1209477e-a823-44ae-aceb-93ec20b71a86",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Emmy Aöede": {
+      "name": "Emmy Aöede",
+      "age": 21,
+      "race": "Latino",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 7mo semestre; le gusta hacer videos de ciencia, convivir con amigos y asistir a conferencias.",
+      "personality": "observadora",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Emmy Aöede, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en terapia y no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría empezar contándome un poco sobre qué te llevó a buscar terapia?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, he estado sintiéndome un poco desanimada últimamente. A veces me siento abrumada por la universidad y mis responsabilidades, y me gustaría entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la universidad puede ser realmente demandante y es normal sentirse abrumada. Hablemos más sobre esas responsabilidades que te están afectando. ¿Hay alguna en particular que te preocupe más?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, principalmente mis estudios. A veces siento que no estoy a la altura y eso me provoca mucha ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy difícil. La presión académica puede ser abrumadora y afectar tu autoestima. ¿Pudieras compartir un ejemplo específico de una situación reciente en la que te hayas sentido así?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Claro, recientemente tuve un examen importante y me preparé mucho, pero cuando llegó el momento me sentí tan nerviosa que no pude concentrarme. Al final, sentí que no di lo mejor de mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que hayas tenido esa experiencia. Es frustrante sentir que no pudiste mostrar tus esfuerzos. ¿Cómo te sentiste después del examen, al reflexionar sobre lo que sucedió?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me sentí decepcionada y un poco inútil. Me pregunté si realmente soy capaz de seguir adelante en la carrera."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirte así después de una experiencia difícil. La autocrítica puede ser muy dura. Vamos a trabajar juntas para cambiar esa narrativa y explorar tus capacidades. ¿Qué te motivó a elegir esa carrera en primer lugar?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Siempre me ha apasionado la ciencia y la tecnología. Quiero contribuir a algo que pueda ayudar a las personas, especialmente en el área de la salud. Eso es lo que me entusiasma de la bionanotecnología."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena increíble. Tu pasión por la ciencia y el deseo de ayudar a los demás son cualidades valiosas. Recordar por qué elegiste este camino puede ser un gran motivador. ¿Qué crees que podrías hacer para reconectar con esa pasión y aliviar un poco la presión que sientes?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Tal vez podría dedicar más tiempo a proyectos personales de ciencia o hacer videos sobre temas que me interesan. Eso siempre me ha hecho sentir más motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como una excelente idea. Incorporar proyectos que te apasionan puede ayudarte a equilibrar la presión académica y a disfrutar más del proceso. ¿Te gustaría establecer un pequeño objetivo relacionado con esto para la próxima semana?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, creo que podría intentar planear un video sobre un tema de bionanotecnología que me guste y dedicarle un par de horas. Esto me haría feliz."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso. Planear y trabajar en algo que te entusiasma puede ser muy gratificante. Te animo a que lo hagas y que te permitas disfrutar del proceso. ¿Cómo te sientes con este plan?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me siento un poco más aliviada y emocionada. Tener un plan me da una sensación de dirección y algo positivo en lo que enfocarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una gran noticia. Tener un enfoque positivo puede hacer una gran diferencia. Recuerda que está bien sentir emociones diversas en este proceso. Estoy aquí para apoyarte en cada paso. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "No, creo que esto ha sido muy útil. Gracias por escucharme y ayudarme a organizar mis pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que hayas encontrado útil la sesión. Estoy aquí para apoyarte siempre que lo necesites. Te animo a seguir explorando tus intereses y a tener cuidado contigo misma. Nos vemos en nuestra próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "¡Gracias! Nos vemos pronto. Cuídate también. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Emmy Aöede, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764093427
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad. Es mi primera vez en terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764093428
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría empezar contándome un poco sobre qué te llevó a buscar terapia?",
+      "timestamp": 1764093429
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco desanimada últimamente. A veces me siento abrumada por la universidad y mis responsabilidades, y me gustaría entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764093431
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la universidad puede ser realmente demandante y es normal sentirse abrumada. Hablemos más sobre esas responsabilidades que te están afectando. ¿Hay alguna en particular que te preocupe más?",
+      "timestamp": 1764093432
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, principalmente mis estudios. A veces siento que no estoy a la altura y eso me provoca mucha ansiedad.",
+      "timestamp": 1764093433
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy difícil. La presión académica puede ser abrumadora y afectar tu autoestima. ¿Pudieras compartir un ejemplo específico de una situación reciente en la que te hayas sentido así?",
+      "timestamp": 1764093434
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, recientemente tuve un examen importante y me preparé mucho, pero cuando llegó el momento me sentí tan nerviosa que no pude concentrarme. Al final, sentí que no di lo mejor de mí.",
+      "timestamp": 1764093436
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que hayas tenido esa experiencia. Es frustrante sentir que no pudiste mostrar tus esfuerzos. ¿Cómo te sentiste después del examen, al reflexionar sobre lo que sucedió?",
+      "timestamp": 1764093438
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me sentí decepcionada y un poco inútil. Me pregunté si realmente soy capaz de seguir adelante en la carrera.",
+      "timestamp": 1764093439
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirte así después de una experiencia difícil. La autocrítica puede ser muy dura. Vamos a trabajar juntas para cambiar esa narrativa y explorar tus capacidades. ¿Qué te motivó a elegir esa carrera en primer lugar?",
+      "timestamp": 1764093440
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siempre me ha apasionado la ciencia y la tecnología. Quiero contribuir a algo que pueda ayudar a las personas, especialmente en el área de la salud. Eso es lo que me entusiasma de la bionanotecnología.",
+      "timestamp": 1764093442
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena increíble. Tu pasión por la ciencia y el deseo de ayudar a los demás son cualidades valiosas. Recordar por qué elegiste este camino puede ser un gran motivador. ¿Qué crees que podrías hacer para reconectar con esa pasión y aliviar un poco la presión que sientes?",
+      "timestamp": 1764093444
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez podría dedicar más tiempo a proyectos personales de ciencia o hacer videos sobre temas que me interesan. Eso siempre me ha hecho sentir más motivada.",
+      "timestamp": 1764093445
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como una excelente idea. Incorporar proyectos que te apasionan puede ayudarte a equilibrar la presión académica y a disfrutar más del proceso. ¿Te gustaría establecer un pequeño objetivo relacionado con esto para la próxima semana?",
+      "timestamp": 1764093446
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría intentar planear un video sobre un tema de bionanotecnología que me guste y dedicarle un par de horas. Esto me haría feliz.",
+      "timestamp": 1764093448
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso. Planear y trabajar en algo que te entusiasma puede ser muy gratificante. Te animo a que lo hagas y que te permitas disfrutar del proceso. ¿Cómo te sientes con este plan?",
+      "timestamp": 1764093449
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más aliviada y emocionada. Tener un plan me da una sensación de dirección y algo positivo en lo que enfocarme.",
+      "timestamp": 1764093450
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una gran noticia. Tener un enfoque positivo puede hacer una gran diferencia. Recuerda que está bien sentir emociones diversas en este proceso. Estoy aquí para apoyarte en cada paso. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?",
+      "timestamp": 1764093452
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que esto ha sido muy útil. Gracias por escucharme y ayudarme a organizar mis pensamientos.",
+      "timestamp": 1764093453
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que hayas encontrado útil la sesión. Estoy aquí para apoyarte siempre que lo necesites. Te animo a seguir explorando tus intereses y a tener cuidado contigo misma. Nos vemos en nuestra próxima sesión. ¡Cuídate!",
+      "timestamp": 1764093456
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos pronto. Cuídate también. ¡Adiós!",
+      "timestamp": 1764093457
+    }
+  ],
+  "notes": null
+}

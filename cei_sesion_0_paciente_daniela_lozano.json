@@ -1,15 +1,15 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T05:11:12Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:02:53Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 2035837441,
-  "id": "d5a2a6b5-9a53-4276-bcd6-349b4a1476a0",
+  "seed": 3250869327,
+  "id": "46aa6509-3940-44b8-b8ef-19e0569f8c13",
   "parentId": null,
-  "complete": true,
+  "complete": false,
   "personas": {
     "Valeria": {
       "name": "Valeria",
@@ -54,95 +54,399 @@
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy segura de qué esperar."
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a esto."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué es lo que más te preocupa?"
+      "text": "Es completamente normal sentirse nerviosa la primera vez. Estamos aquí para hablar en un ambiente seguro y cómodo. ¿Te gustaría compartir qué te causa más inquietud?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me preocupa sentirme un poco deprimida últimamente. No sé si es por la escuela o algo más."
+      "text": "Sí, creo que me preocupa no poder expresar lo que siento o no ser entendida."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo. La presión de la escuela puede ser bastante abrumadora. Vamos a explorar esos sentimientos juntos. ¿Desde cuándo sientes que estás experimentando esta depresión?"
+      "text": "Entiendo tus preocupaciones, es muy válido sentirse así. Estoy aquí para escucharte y ayudarte a encontrar las palabras. ¿Te gustaría intentar compartir algo que estés sintiendo en este momento?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Desde hace unas semanas, pero ha habido días que son peores que otros. Me siento muy cansada y sin ganas de hacer nada."
+      "text": "Últimamente me siento un poco sola y abrumada con mis estudios y todo."
     },
     {
       "speaker": "Valeria",
-      "text": "Lamento saber que te sientes así. Es importante reconocer esos días difíciles. ¿Hay algo en particular que te ayude a sentirte un poco mejor cuando te enfrentas a esos momentos?"
+      "text": "Lidiar con la soledad y la presión de los estudios puede ser muy difícil. ¿Podrías contarme un poco más sobre lo que sientes cuando te abrumas?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "A veces, salir con mis amigas o ver series me ayuda, pero no siempre tengo ganas de hacerlo."
+      "text": "Cuando me abrumo, siento que no puedo concentrarme y me da ansiedad. A veces, solo quiero escapar de todo."
     },
     {
       "speaker": "Valeria",
-      "text": "Es comprensible que a veces te cueste encontrar la motivación. Salir con amigas y distraerse viendo series son actividades que pueden ser beneficiosas. ¿Te gustaría que trabajáramos en algunas estrategias para ayudarte a encontrar esa motivación cuando más lo necesites?"
+      "text": "Lamento que estés pasando por eso; la ansiedad puede ser paralizante. Escapar puede parecer una solución, pero también podemos explorar otras maneras de enfrentar esos momentos. ¿Te gustaría hablar sobre alguna estrategia que hayas intentado antes?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me gustaría mucho eso. Siento que necesito algunas herramientas para manejarlo mejor."
+      "text": "He intentado distraerme viendo series, pero no siempre ayuda. A veces, me siento peor después."
     },
     {
       "speaker": "Valeria",
-      "text": "Claro, contar con herramientas puede hacer una gran diferencia. Podemos pensar en algunas técnicas de afrontamiento y ejercicios que se alineen con tus intereses. Empezaremos por identificar qué actividades te suelen gustar más. ¿Hay alguna actividad que disfrutes especialmente?"
+      "text": "Es comprensible; a veces las distracciones temporales pueden dejar una sensación de vacío después. Podríamos explorar juntos actividades que te brinden una sensación de alivio y conexión. ¿Has probado alguna vez técnicas de relajación o mindfulness?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Me gusta mucho aprender idiomas, es algo que me apasiona."
+      "text": "No, nunca he probado eso. Suena interesante, pero no sé muy bien cómo empezar."
     },
     {
       "speaker": "Valeria",
-      "text": "¡Eso es maravilloso! Aprender idiomas puede ser una actividad muy enriquecedora y estimulante. Podríamos incorporar esto en tus rutinas diarias como una forma de mantenerte motivada. ¿Te gustaría que trabajáramos en un plan que incluya tiempo para practicar idiomas?"
+      "text": "No te preocupes, es normal no saber por dónde empezar. Podemos hacerlo juntos. Te puedo guiar a través de una técnica de respiración sencilla, ¿te parece bien?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, eso suena genial. Creo que podría ayudarme a distraerme y a sentirme mejor."
+      "text": "Sí, me parece bien. Estoy dispuesta a intentarlo."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, me alegra que lo veas así. Podemos establecer un horario pequeño y realista para que dediques unos momentos cada día a practicar. Empecemos por decidir cuántos días a la semana te gustaría dedicarle y cómo te sientes respecto a eso."
+      "text": "Perfecto. Empecemos por encontrar una posición cómoda en tu silla. Cierra los ojos si te sientes cómoda. Vamos a inhalar profundamente por la nariz, contando hasta cuatro... 1, 2, 3, 4. Ahora, retén el aire por dos segundos... y exhala lentamente por la boca contando hasta seis... 1, 2, 3, 4, 5, 6. Repitamos esto unas cuantas veces. ¿Cómo te sientes hasta ahora?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Podría ser tres días a la semana. No quiero exigirme demasiado al principio."
+      "text": "Me siento un poco más tranquila. Es extraño, pero creo que me ayuda a relajarme un poco."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena muy razonable. Tres días a la semana es un buen comienzo. ¿Qué días te gustaría elegir y cuánto tiempo crees que podrías dedicarle cada día?"
+      "text": "Me alegra escuchar que te sientes un poco más tranquila. La respiración puede ser una herramienta poderosa. Siempre que sientas ansiedad, recuerda que puedes regresar a esta técnica. ¿Te gustaría seguir explorando más estrategias para manejar esos momentos desafiantes?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Podría ser lunes, miércoles y viernes, y dedicarle unos 30 minutos cada día."
+      "text": "Sí, me gustaría. Quiero aprender más maneras de sentirme mejor en esos momentos."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa es una excelente elección. Así tendrás un buen ritmo sin sentirte abrumada. Recuerda que si algún día no puedes hacerlo, no hay problema; lo importante es la flexibilidad y no ser demasiado dura contigo misma. ¿Te gustaría que anotáramos esto como parte de tu plan?"
+      "text": "Eso es un gran paso. Podríamos hablar sobre la importancia de la actividad física, como caminar o hacer yoga, que puede ayudar a liberar tensiones. También podemos explorar la escritura como una forma de expresar tus sentimientos. ¿Te gustaría comenzar por alguna de estas opciones?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Sí, me gustaría que lo anotáramos. Tenerlo escrito me hará sentir más comprometida."
+      "text": "Creo que me gustaría intentar la escritura. A veces me cuesta expresar mis sentimientos, pero siento que escribir podría ayudarme."
     },
     {
       "speaker": "Valeria",
-      "text": "He anotado tu plan de práctica de idiomas: lunes, miércoles y viernes, 30 minutos cada día. Es un gran primer paso. En nuestra próxima sesión, podremos revisar cómo te ha ido y ajustar lo que sea necesario. ¿Hay algo más que te gustaría hablar hoy?"
+      "text": "La escritura puede ser una excelente forma de canalizar lo que sientes. Podrías empezar con un diario, escribiendo tus pensamientos y emociones sin preocuparte por la gramática. ¿Te gustaría hacer un ejercicio breve ahora, escribiendo unas líneas sobre cómo te sientes hoy?"
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "Creo que eso es todo por ahora. Me siento un poco más tranquila al tener un plan. Gracias."
+      "text": "Sí, creo que eso sería útil. Voy a intentar escribir sobre cómo me siento ahora."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra saber que te sientes más tranquila. Recuerda que estoy aquí para apoyarte. ¡Nos vemos en la próxima sesión! Cuídate mucho."
+      "text": "Tómate tu tiempo. Escribir sobre tus sentimientos puede ser liberador. Cuando termines, me gustaría saber qué descubriste al hacerlo. Estoy aquí para apoyarte."
     },
     {
       "speaker": "Daniela Lozano",
-      "text": "¡Gracias! Nos vemos pronto. Cuídate."
+      "text": "Listo, he escrito un poco. Me siento más ligera al poner mis pensamientos en papel. Es un alivio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más ligera. Expresar lo que sientes puede ser un gran alivio. Si quieres, podemos hablar sobre lo que escribiste y cómo te sientes al respecto."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría compartirlo. Escribí sobre mi ansiedad y cómo a veces me siento atrapada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo conmigo. Es valiente de tu parte abrirte sobre tu ansiedad y la sensación de estar atrapada. ¿Cómo te sientes al haberlo escrito y al compartirlo ahora?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me siento un poco vulnerable, pero al mismo tiempo, aliviada. Es bueno sacar esos pensamientos y no guardarlos solo para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es totalmente comprensible sentirte vulnerable, pero también es un gran paso hacia la sanación. Reconocer y compartir tus pensamientos es un signo de fortaleza. ¿Te gustaría hablar sobre cómo podrías seguir manejando esa sensación de ansiedad en el futuro?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso me gustaría. Quiero encontrar maneras de enfrentar la ansiedad cuando aparece."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos trabajar en eso. Algunas técnicas incluyen la práctica de la atención plena, la creación de un plan de acción para cuando sientas ansiedad, o identificar esos disparadores. Hablemos de cuál de estas opciones te gustaría explorar primero."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gustaría explorar la práctica de la atención plena. Creo que eso podría ayudarme a calmarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La atención plena es una excelente herramienta para manejar la ansiedad. Se trata de estar presente en el aquí y ahora, observando tus pensamientos y sentimientos sin juzgarlos. Podemos comenzar con una breve práctica. ¿Te gustaría hacerlo ahora?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría intentarlo. Estoy lista para empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos. Encuentra una posición cómoda en tu silla, cierra los ojos si te sientes a gusto. Tómate un momento para respirar profundamente y observa cómo entra y sale el aire de tu cuerpo. Ahora, mientras respiras, intenta enfocar tu atención en tu cuerpo y en cualquier sensación que experimentes, sin juzgar. Si tu mente divaga, suavemente vuelve a enfocarte en tu respiración. Vamos a hacerlo por un minuto. ¿Listo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, estoy lista. Voy a concentrarme en mi respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es excelente que estés lista. Disfruta de ese momento de atención plena y observa tus pensamientos. Te guiaré en este ejercicio. Recuerda, si en algún momento te sientes incómoda, puedes abrir los ojos y volver a la conversación. ¿Me avisas cuando termines?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Está bien, lo haré. Me concentraré en mi respiración ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, tómate tu tiempo y disfruta de la experiencia. Estoy aquí para ti cuando termines."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Listo, creo que he terminado. Me siento un poco más centrada y tranquila."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Qué bueno que te sientes más centrada y tranquila. La atención plena puede ser muy beneficiosa. ¿Te gustaría comentar cómo fue la experiencia para ti?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Fue diferente, pero en el buen sentido. Me ayudó a darme cuenta de que puedo gestionar mis pensamientos sin sentirme tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una gran revelación. Aprender a gestionar tus pensamientos es un paso importante hacia el bienestar emocional. ¿Te gustaría incorporar la práctica de la atención plena en tu rutina diaria?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, creo que podría ayudarme. Quiero intentarlo todos los días, aunque sea unos minutos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es excelente que quieras incorporar la atención plena en tu rutina. Además, me gustaría explorar un poco más cómo te has sentido últimamente, ya que he notado algunas señales que podrían indicar depresión leve. Existe un cuestionario llamado PHQ-9 que puede ayudarnos a entender mejor tus sentimientos en las últimas dos semanas. ¿Te gustaría responderlo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría hacerlo. Tal vez pueda ayudarme a entender mejor cómo me siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, vamos a empezar con el cuestionario PHQ-9. Recuerda que puedes responder con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. \n\nPrimera pregunta: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que sería un 2, porque a veces me siento con poco interés en las cosas que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Segunda pregunta: Durante las últimas 2 semanas, ¿qué tan seguido te has sentido decaída, deprimida o sin esperanzas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Para esa pregunta, diría que un 2 también. A veces me siento así, especialmente cuando estoy sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. Tercera pregunta: Durante las últimas 2 semanas, ¿has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Diría que un 2 también. A veces me cuesta dormir y otras veces duermo más de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Cuarta pregunta: Durante las últimas 2 semanas, ¿te has sentido cansada o con poca energía?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Para esa pregunta, creo que un 3. Me he sentido muy cansada la mayor parte del tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad. Quinta pregunta: Durante las últimas 2 semanas, ¿has tenido poco apetito o has comido en exceso?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que un 2. A veces no tengo mucho apetito, pero hay días en que como más de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entendido, gracias por compartirlo. Sexta pregunta: Durante las últimas 2 semanas, ¿te has sentido mal contigo misma, o has sentido que eres un fracaso o que has decepcionado a tu familia?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Diría que un 2. A veces me siento así, especialmente cuando no cumplo con mis propias expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu apertura. Séptima pregunta: Durante las últimas 2 semanas, ¿has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Para esa pregunta, creo que un 3. Me cuesta mucho concentrarme en lo que leo o veo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Octava pregunta: Durante las últimas 2 semanas, ¿te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, ¿te has sentido tan inquieta o agitada que te mueves mucho más de lo normal?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Diría que un 1. A veces me siento inquieta, pero no creo que sea tan notorio para los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entendido. Novena pregunta: Durante las últimas 2 semanas, ¿has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Eso es difícil de decir, pero creo que un 1. A veces tengo pensamientos negativos, pero no he pensado en lastimarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. Última pregunta: Durante las últimas 2 semanas, ¿te has sentido tan inquieta o agitada que te mueves mucho más de lo normal?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que un 1 también. A veces me siento inquieta, pero no es tan intenso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por completar el cuestionario. Tus respuestas nos brindan una mejor comprensión de cómo te has sentido últimamente. Es importante seguir explorando estos sentimientos y buscar formas de apoyo. ¿Te gustaría hablar sobre algún tema específico que te gustaría trabajar a partir de tus respuestas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gustaría hablar sobre la falta de energía y cómo eso me afecta en mi día a día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, la falta de energía puede impactar muchas áreas de tu vida. ¿Puedes contarme más sobre cómo sientes que afecta tus actividades diarias, tus estudios o tu estado de ánimo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Siento que no puedo concentrarme en mis estudios y a veces me cuesta hacer cosas simples, como salir con mis amigas. Me siento atrapada y desmotivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que eso puede ser muy frustrante. La desmotivación y la falta de concentración pueden hacer que actividades que antes disfrutabas parezcan abrumadoras. Hablemos sobre cómo podrías organizar tus estudios o introducir pequeñas actividades sociales que se sientan más manejables. ¿Te gustaría explorar algunas estrategias?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría. Creo que necesito ayuda para organizarme mejor y encontrar maneras de motivarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podemos trabajar en eso. Una técnica útil es establecer metas pequeñas y alcanzables. Esto puede ayudarte a sentir un sentido de logro. Además, podrías crear un horario que incluya tiempo para estudiar, pero también momentos para descansar y socializar. ¿Te gustaría que te ayudara a crear un plan simple para comenzar?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso suena bien. Me gustaría tener un plan que me ayude a sentirme más organizada y motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos por establecer tus metas. ¿Qué tareas específicas te gustaría incluir en tu plan de estudio y qué días te gustaría dedicar tiempo para socializar?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gustaría estudiar por lo menos dos horas al día. Y podría intentar salir con mis amigas los fines de semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un buen comienzo. Aquí tienes un esbozo simple: \n\n- **De lunes a viernes:** Estudio de 2 horas al día. Puedes elegir un horario fijo, como de 4 a 6 PM, y asegurarte de tomar pequeños descansos cada 30 minutos.\n- **Sábado y domingo:** Dedica tiempo a salir con tus amigas; podrías planear actividades simples, como un café o una caminata.\n\n¿Qué te parece este plan? ¿Te gustaría agregar o ajustar algo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me parece un buen plan. Tal vez podría agregar un poco de tiempo para hacer ejercicio después de estudiar. Creo que eso me ayudaría a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente idea. Incorporar ejercicio puede aumentar tu energía y mejorar tu estado de ánimo. Podrías agregar 30 minutos de actividad física después de tus sesiones de estudio. \n\nEntonces, tu plan quedaría así:\n\n- **De lunes a viernes:** \n  - Estudio de 4 a 6 PM.\n  - Ejercicio de 6:30 a 7 PM.\n  \n- **Sábado y domingo:** \n  - Tiempo con amigas.\n\n¿Cómo te sientes con este ajuste?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me siento bien con este ajuste. Siento que tener esas actividades programadas me ayudará a mantenerme enfocada y motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas bien con el plan. Tener actividades programadas puede ofrecer estructura y ayudarte a sentirte más en control. Recuerda que es importante ser flexible y ajustarlo si es necesario. ¿Te gustaría hablar sobre algún otro tema o aspecto que te gustaría trabajar en nuestras próximas sesiones?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gustaría trabajar en cómo manejar la ansiedad cuando surge. Creo que eso sería muy útil también."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un enfoque excelente. Podemos trabajar en estrategias para manejar la ansiedad en el momento en que surja. Algunas técnicas incluyen la respiración profunda que practicamos, la atención plena, y también crear un \"kit de herramientas\" de actividades que te ayuden a calmarte. ¿Te gustaría explorar alguna de estas opciones más a fondo?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría explorar el \"kit de herramientas\". Creo que tener opciones a mano podría ayudarme cuando me sienta ansiosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Un \"kit de herramientas\" es una gran idea. Puedes incluir actividades que te ayuden a calmarte y distraerte. Aquí hay algunas ideas:\n\n1. **Ejercicios de respiración:** Técnicas simples que ya hemos practicado.\n2. **Escritura:** Un cuaderno para expresar tus pensamientos y sentimientos.\n3. **Música:** Crear una lista de reproducción que te relaje o te motive.\n4. **Ejercicio:** Actividades físicas que disfrutes, como caminar o practicar yoga.\n5. **Mindfulness:** Recordatorios de practicar atención plena, como una breve meditación.\n\n¿Qué te parece? ¿Hay algo más que te gustaría añadir a tu kit de herramientas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gusta mucho esa lista. Tal vez podría agregar algo sobre la lectura, ya que disfruto leer y me ayuda a desconectarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Eso es una excelente adición! La lectura puede ser una gran forma de escapar y relajarse. Así que lo añadimos a tu \"kit de herramientas\":\n\n6. **Lectura:** Tener un libro favorito o una lista de libros que te gustaría leer.\n\nCon esto, tienes un conjunto de herramientas para enfrentar la ansiedad. ¿Te gustaría que hiciéramos un pequeño ejercicio para que puedas empezar a implementar esto?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría hacer un ejercicio. Creo que sería útil comenzar a usar mi \"kit de herramientas\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Vamos a hacer un ejercicio de respiración combinándolo con la lectura como una forma de calmarte. Encuentra un lugar cómodo donde puedas sentarte y, si tienes un libro a mano, tenlo cerca. \n\nPrimero, comencemos con un ejercicio de respiración: inhala profundamente por la nariz contando hasta cuatro, retén por dos segundos, y exhala lentamente por la boca contando hasta seis. \n\nHaz esto durante un minuto. Luego, si te sientes cómoda, abre tu libro y lee un párrafo o dos, sumergiéndote en la historia. Te guiaré durante el ejercicio. ¿Listas?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, estoy lista. Haré el ejercicio de respiración primero."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, tómate tu tiempo para concentrarte en tu respiración. Comencemos: inhala profundamente por la nariz... 1, 2, 3, 4... retén... 1, 2... y exhala lentamente por la boca... 1, 2, 3, 4, 5, 6. \n\nRepite esto varias veces y disfruta de cada respiración. Te guiaré aquí, así que avísame cuando termines."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Listo, he terminado con el ejercicio de respiración. Me siento más tranquila ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. Ahora, si tienes tu libro, te invito a abrirlo y leer un párrafo o dos. Permítete sumergirte en la historia y disfrutar del momento. Cuando termines, me podrías decir cómo te sentiste con esta actividad. ¡Adelante!"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Voy a abrir mi libro y leer un poco. Ya regreso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, tómate tu tiempo para disfrutar de la lectura. Estoy aquí cuando regreses."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Listo, terminé de leer. Me sentí realmente bien. La historia me distrajo y me ayudó a relajarme aún más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es maravilloso saber que la lectura te ayudó a relajarte y distraerte. Incorporar actividades que disfrutas es una gran manera de cuidar de tu bienestar mental. \n\nAntes de finalizar nuestra sesión, me gustaría hablar sobre algunos síntomas que has mencionado y cómo te has sentido en general. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar tus sentimientos en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una idea más clara de lo que estás experimentando."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Lo siento, pero creo que ya hemos completado el cuestionario PHQ-9 durante nuestra sesión. Estoy lista para hablar sobre los resultados o cualquier otra cosa que necesitemos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes razón, hemos completado el cuestionario PHQ-9. Gracias por tu paciencia durante ese proceso. \n\nAhora que tenemos una mejor comprensión de tus sentimientos, podemos hablar sobre los resultados y cómo podemos trabajar juntos en las áreas que te preocupan. ¿Hay algún aspecto específico que te gustaría abordar primero?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me gustaría hablar sobre la falta de energía y cómo puedo manejarla mejor en mi día a día. Creo que eso es lo que más me afecta."
     }
   ],
   "events": [
@@ -151,192 +455,766 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764047441
+      "timestamp": 1764090005
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy segura de qué esperar.",
-      "timestamp": 1764047442
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a esto.",
+      "timestamp": 1764090007
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué es lo que más te preocupa?",
-      "timestamp": 1764047444
+      "content": "Es completamente normal sentirse nerviosa la primera vez. Estamos aquí para hablar en un ambiente seguro y cómodo. ¿Te gustaría compartir qué te causa más inquietud?",
+      "timestamp": 1764090008
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me preocupa sentirme un poco deprimida últimamente. No sé si es por la escuela o algo más.",
-      "timestamp": 1764047445
+      "content": "Sí, creo que me preocupa no poder expresar lo que siento o no ser entendida.",
+      "timestamp": 1764090009
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Entiendo. La presión de la escuela puede ser bastante abrumadora. Vamos a explorar esos sentimientos juntos. ¿Desde cuándo sientes que estás experimentando esta depresión?",
-      "timestamp": 1764047446
+      "content": "Entiendo tus preocupaciones, es muy válido sentirse así. Estoy aquí para escucharte y ayudarte a encontrar las palabras. ¿Te gustaría intentar compartir algo que estés sintiendo en este momento?",
+      "timestamp": 1764090010
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Desde hace unas semanas, pero ha habido días que son peores que otros. Me siento muy cansada y sin ganas de hacer nada.",
-      "timestamp": 1764047446
+      "content": "Últimamente me siento un poco sola y abrumada con mis estudios y todo.",
+      "timestamp": 1764090011
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Lamento saber que te sientes así. Es importante reconocer esos días difíciles. ¿Hay algo en particular que te ayude a sentirte un poco mejor cuando te enfrentas a esos momentos?",
-      "timestamp": 1764047448
+      "content": "Lidiar con la soledad y la presión de los estudios puede ser muy difícil. ¿Podrías contarme un poco más sobre lo que sientes cuando te abrumas?",
+      "timestamp": 1764090012
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "A veces, salir con mis amigas o ver series me ayuda, pero no siempre tengo ganas de hacerlo.",
-      "timestamp": 1764047448
+      "content": "Cuando me abrumo, siento que no puedo concentrarme y me da ansiedad. A veces, solo quiero escapar de todo.",
+      "timestamp": 1764090014
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es comprensible que a veces te cueste encontrar la motivación. Salir con amigas y distraerse viendo series son actividades que pueden ser beneficiosas. ¿Te gustaría que trabajáramos en algunas estrategias para ayudarte a encontrar esa motivación cuando más lo necesites?",
-      "timestamp": 1764047450
+      "content": "Lamento que estés pasando por eso; la ansiedad puede ser paralizante. Escapar puede parecer una solución, pero también podemos explorar otras maneras de enfrentar esos momentos. ¿Te gustaría hablar sobre alguna estrategia que hayas intentado antes?",
+      "timestamp": 1764090015
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría mucho eso. Siento que necesito algunas herramientas para manejarlo mejor.",
-      "timestamp": 1764047451
+      "content": "He intentado distraerme viendo series, pero no siempre ayuda. A veces, me siento peor después.",
+      "timestamp": 1764090016
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, contar con herramientas puede hacer una gran diferencia. Podemos pensar en algunas técnicas de afrontamiento y ejercicios que se alineen con tus intereses. Empezaremos por identificar qué actividades te suelen gustar más. ¿Hay alguna actividad que disfrutes especialmente?",
-      "timestamp": 1764047453
+      "content": "Es comprensible; a veces las distracciones temporales pueden dejar una sensación de vacío después. Podríamos explorar juntos actividades que te brinden una sensación de alivio y conexión. ¿Has probado alguna vez técnicas de relajación o mindfulness?",
+      "timestamp": 1764090018
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me gusta mucho aprender idiomas, es algo que me apasiona.",
-      "timestamp": 1764047454
+      "content": "No, nunca he probado eso. Suena interesante, pero no sé muy bien cómo empezar.",
+      "timestamp": 1764090019
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Eso es maravilloso! Aprender idiomas puede ser una actividad muy enriquecedora y estimulante. Podríamos incorporar esto en tus rutinas diarias como una forma de mantenerte motivada. ¿Te gustaría que trabajáramos en un plan que incluya tiempo para practicar idiomas?",
-      "timestamp": 1764047456
+      "content": "No te preocupes, es normal no saber por dónde empezar. Podemos hacerlo juntos. Te puedo guiar a través de una técnica de respiración sencilla, ¿te parece bien?",
+      "timestamp": 1764090020
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, eso suena genial. Creo que podría ayudarme a distraerme y a sentirme mejor.",
-      "timestamp": 1764047457
+      "content": "Sí, me parece bien. Estoy dispuesta a intentarlo.",
+      "timestamp": 1764090021
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, me alegra que lo veas así. Podemos establecer un horario pequeño y realista para que dediques unos momentos cada día a practicar. Empecemos por decidir cuántos días a la semana te gustaría dedicarle y cómo te sientes respecto a eso.",
-      "timestamp": 1764047459
+      "content": "Perfecto. Empecemos por encontrar una posición cómoda en tu silla. Cierra los ojos si te sientes cómoda. Vamos a inhalar profundamente por la nariz, contando hasta cuatro... 1, 2, 3, 4. Ahora, retén el aire por dos segundos... y exhala lentamente por la boca contando hasta seis... 1, 2, 3, 4, 5, 6. Repitamos esto unas cuantas veces. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764090024
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Podría ser tres días a la semana. No quiero exigirme demasiado al principio.",
-      "timestamp": 1764047460
+      "content": "Me siento un poco más tranquila. Es extraño, pero creo que me ayuda a relajarme un poco.",
+      "timestamp": 1764090025
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena muy razonable. Tres días a la semana es un buen comienzo. ¿Qué días te gustaría elegir y cuánto tiempo crees que podrías dedicarle cada día?",
-      "timestamp": 1764047461
+      "content": "Me alegra escuchar que te sientes un poco más tranquila. La respiración puede ser una herramienta poderosa. Siempre que sientas ansiedad, recuerda que puedes regresar a esta técnica. ¿Te gustaría seguir explorando más estrategias para manejar esos momentos desafiantes?",
+      "timestamp": 1764090028
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Podría ser lunes, miércoles y viernes, y dedicarle unos 30 minutos cada día.",
-      "timestamp": 1764047463
+      "content": "Sí, me gustaría. Quiero aprender más maneras de sentirme mejor en esos momentos.",
+      "timestamp": 1764090029
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Esa es una excelente elección. Así tendrás un buen ritmo sin sentirte abrumada. Recuerda que si algún día no puedes hacerlo, no hay problema; lo importante es la flexibilidad y no ser demasiado dura contigo misma. ¿Te gustaría que anotáramos esto como parte de tu plan?",
-      "timestamp": 1764047465
+      "content": "Eso es un gran paso. Podríamos hablar sobre la importancia de la actividad física, como caminar o hacer yoga, que puede ayudar a liberar tensiones. También podemos explorar la escritura como una forma de expresar tus sentimientos. ¿Te gustaría comenzar por alguna de estas opciones?",
+      "timestamp": 1764090031
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría que lo anotáramos. Tenerlo escrito me hará sentir más comprometida.",
-      "timestamp": 1764047465
+      "content": "Creo que me gustaría intentar la escritura. A veces me cuesta expresar mis sentimientos, pero siento que escribir podría ayudarme.",
+      "timestamp": 1764090032
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La escritura puede ser una excelente forma de canalizar lo que sientes. Podrías empezar con un diario, escribiendo tus pensamientos y emociones sin preocuparte por la gramática. ¿Te gustaría hacer un ejercicio breve ahora, escribiendo unas líneas sobre cómo te sientes hoy?",
+      "timestamp": 1764090035
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso sería útil. Voy a intentar escribir sobre cómo me siento ahora.",
+      "timestamp": 1764090036
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tómate tu tiempo. Escribir sobre tus sentimientos puede ser liberador. Cuando termines, me gustaría saber qué descubriste al hacerlo. Estoy aquí para apoyarte.",
+      "timestamp": 1764090038
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Listo, he escrito un poco. Me siento más ligera al poner mis pensamientos en papel. Es un alivio.",
+      "timestamp": 1764090039
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más ligera. Expresar lo que sientes puede ser un gran alivio. Si quieres, podemos hablar sobre lo que escribiste y cómo te sientes al respecto.",
+      "timestamp": 1764090041
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría compartirlo. Escribí sobre mi ansiedad y cómo a veces me siento atrapada.",
+      "timestamp": 1764090042
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo conmigo. Es valiente de tu parte abrirte sobre tu ansiedad y la sensación de estar atrapada. ¿Cómo te sientes al haberlo escrito y al compartirlo ahora?",
+      "timestamp": 1764090044
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco vulnerable, pero al mismo tiempo, aliviada. Es bueno sacar esos pensamientos y no guardarlos solo para mí.",
+      "timestamp": 1764090045
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es totalmente comprensible sentirte vulnerable, pero también es un gran paso hacia la sanación. Reconocer y compartir tus pensamientos es un signo de fortaleza. ¿Te gustaría hablar sobre cómo podrías seguir manejando esa sensación de ansiedad en el futuro?",
+      "timestamp": 1764090047
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Quiero encontrar maneras de enfrentar la ansiedad cuando aparece.",
+      "timestamp": 1764090048
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos trabajar en eso. Algunas técnicas incluyen la práctica de la atención plena, la creación de un plan de acción para cuando sientas ansiedad, o identificar esos disparadores. Hablemos de cuál de estas opciones te gustaría explorar primero.",
+      "timestamp": 1764090050
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría explorar la práctica de la atención plena. Creo que eso podría ayudarme a calmarme.",
+      "timestamp": 1764090051
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La atención plena es una excelente herramienta para manejar la ansiedad. Se trata de estar presente en el aquí y ahora, observando tus pensamientos y sentimientos sin juzgarlos. Podemos comenzar con una breve práctica. ¿Te gustaría hacerlo ahora?",
+      "timestamp": 1764090053
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Estoy lista para empezar.",
+      "timestamp": 1764090053
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos. Encuentra una posición cómoda en tu silla, cierra los ojos si te sientes a gusto. Tómate un momento para respirar profundamente y observa cómo entra y sale el aire de tu cuerpo. Ahora, mientras respiras, intenta enfocar tu atención en tu cuerpo y en cualquier sensación que experimentes, sin juzgar. Si tu mente divaga, suavemente vuelve a enfocarte en tu respiración. Vamos a hacerlo por un minuto. ¿Listo?",
+      "timestamp": 1764090056
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. Voy a concentrarme en mi respiración.",
+      "timestamp": 1764090058
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090058
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es excelente que estés lista. Disfruta de ese momento de atención plena y observa tus pensamientos. Te guiaré en este ejercicio. Recuerda, si en algún momento te sientes incómoda, puedes abrir los ojos y volver a la conversación. ¿Me avisas cuando termines?",
+      "timestamp": 1764090061
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, lo haré. Me concentraré en mi respiración ahora.",
+      "timestamp": 1764090062
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, tómate tu tiempo y disfruta de la experiencia. Estoy aquí para ti cuando termines.",
+      "timestamp": 1764090064
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Listo, creo que he terminado. Me siento un poco más centrada y tranquila.",
+      "timestamp": 1764090065
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Qué bueno que te sientes más centrada y tranquila. La atención plena puede ser muy beneficiosa. ¿Te gustaría comentar cómo fue la experiencia para ti?",
+      "timestamp": 1764090066
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Fue diferente, pero en el buen sentido. Me ayudó a darme cuenta de que puedo gestionar mis pensamientos sin sentirme tan abrumada.",
+      "timestamp": 1764090067
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una gran revelación. Aprender a gestionar tus pensamientos es un paso importante hacia el bienestar emocional. ¿Te gustaría incorporar la práctica de la atención plena en tu rutina diaria?",
+      "timestamp": 1764090069
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ayudarme. Quiero intentarlo todos los días, aunque sea unos minutos.",
+      "timestamp": 1764090070
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090070
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es excelente que quieras incorporar la atención plena en tu rutina. Además, me gustaría explorar un poco más cómo te has sentido últimamente, ya que he notado algunas señales que podrían indicar depresión leve. Existe un cuestionario llamado PHQ-9 que puede ayudarnos a entender mejor tus sentimientos en las últimas dos semanas. ¿Te gustaría responderlo?",
+      "timestamp": 1764090072
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacerlo. Tal vez pueda ayudarme a entender mejor cómo me siento.",
+      "timestamp": 1764090073
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090073
     },
     {
       "agent": "Valeria",
       "action": "tool",
       "actionLabel": "call",
       "content": {
-        "name": "symmary_session",
+        "name": "get_phq9_questions",
         "args": {
-          "item": "Plan de práctica de idiomas: Lunes, miércoles y viernes, 30 minutos cada día."
+          "item": "phq9"
         },
-        "id": "call_56tpM3TJkH9RjTsHmwury3Ju"
+        "id": "call_07VoBFqlthnuMENnu4owWUZy"
       },
-      "timestamp": 1764047467
+      "timestamp": 1764090074
     },
     {
       "agent": "Valeria",
       "action": "tool",
       "actionLabel": "output",
       "content": {
-        "name": "symmary_session",
-        "output": "{\"item\": \"Plan de práctica de idiomas: Lunes, miércoles y viernes, 30 minutos cada día.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
-        "call_id": "call_56tpM3TJkH9RjTsHmwury3Ju"
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_07VoBFqlthnuMENnu4owWUZy"
       },
-      "timestamp": 1764047467
+      "timestamp": 1764090074
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "He anotado tu plan de práctica de idiomas: lunes, miércoles y viernes, 30 minutos cada día. Es un gran primer paso. En nuestra próxima sesión, podremos revisar cómo te ha ido y ajustar lo que sea necesario. ¿Hay algo más que te gustaría hablar hoy?",
-      "timestamp": 1764047468
+      "content": "Perfecto, vamos a empezar con el cuestionario PHQ-9. Recuerda que puedes responder con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. \n\nPrimera pregunta: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764090076
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "Creo que eso es todo por ahora. Me siento un poco más tranquila al tener un plan. Gracias.",
-      "timestamp": 1764047470
+      "content": "Creo que sería un 2, porque a veces me siento con poco interés en las cosas que solía disfrutar.",
+      "timestamp": 1764090077
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra saber que te sientes más tranquila. Recuerda que estoy aquí para apoyarte. ¡Nos vemos en la próxima sesión! Cuídate mucho.",
-      "timestamp": 1764047471
+      "content": "Gracias por compartir eso. Segunda pregunta: Durante las últimas 2 semanas, ¿qué tan seguido te has sentido decaída, deprimida o sin esperanzas?",
+      "timestamp": 1764090079
     },
     {
       "agent": "Daniela Lozano",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Gracias! Nos vemos pronto. Cuídate.",
-      "timestamp": 1764047472
+      "content": "Para esa pregunta, diría que un 2 también. A veces me siento así, especialmente cuando estoy sola.",
+      "timestamp": 1764090079
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. Tercera pregunta: Durante las últimas 2 semanas, ¿has tenido dificultad para quedarte o permanecer dormida, o has dormido demasiado?",
+      "timestamp": 1764090081
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 2 también. A veces me cuesta dormir y otras veces duermo más de lo normal.",
+      "timestamp": 1764090082
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Cuarta pregunta: Durante las últimas 2 semanas, ¿te has sentido cansada o con poca energía?",
+      "timestamp": 1764090083
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, creo que un 3. Me he sentido muy cansada la mayor parte del tiempo.",
+      "timestamp": 1764090084
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad. Quinta pregunta: Durante las últimas 2 semanas, ¿has tenido poco apetito o has comido en exceso?",
+      "timestamp": 1764090086
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2. A veces no tengo mucho apetito, pero hay días en que como más de lo normal.",
+      "timestamp": 1764090087
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entendido, gracias por compartirlo. Sexta pregunta: Durante las últimas 2 semanas, ¿te has sentido mal contigo misma, o has sentido que eres un fracaso o que has decepcionado a tu familia?",
+      "timestamp": 1764090089
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 2. A veces me siento así, especialmente cuando no cumplo con mis propias expectativas.",
+      "timestamp": 1764090090
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu apertura. Séptima pregunta: Durante las últimas 2 semanas, ¿has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión?",
+      "timestamp": 1764090091
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, creo que un 3. Me cuesta mucho concentrarme en lo que leo o veo.",
+      "timestamp": 1764090094
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Octava pregunta: Durante las últimas 2 semanas, ¿te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, ¿te has sentido tan inquieta o agitada que te mueves mucho más de lo normal?",
+      "timestamp": 1764090095
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 1. A veces me siento inquieta, pero no creo que sea tan notorio para los demás.",
+      "timestamp": 1764090098
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entendido. Novena pregunta: Durante las últimas 2 semanas, ¿has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?",
+      "timestamp": 1764090100
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es difícil de decir, pero creo que un 1. A veces tengo pensamientos negativos, pero no he pensado en lastimarme.",
+      "timestamp": 1764090102
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. Última pregunta: Durante las últimas 2 semanas, ¿te has sentido tan inquieta o agitada que te mueves mucho más de lo normal?",
+      "timestamp": 1764090103
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 1 también. A veces me siento inquieta, pero no es tan intenso.",
+      "timestamp": 1764090104
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por completar el cuestionario. Tus respuestas nos brindan una mejor comprensión de cómo te has sentido últimamente. Es importante seguir explorando estos sentimientos y buscar formas de apoyo. ¿Te gustaría hablar sobre algún tema específico que te gustaría trabajar a partir de tus respuestas?",
+      "timestamp": 1764090106
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre la falta de energía y cómo eso me afecta en mi día a día.",
+      "timestamp": 1764090107
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, la falta de energía puede impactar muchas áreas de tu vida. ¿Puedes contarme más sobre cómo sientes que afecta tus actividades diarias, tus estudios o tu estado de ánimo?",
+      "timestamp": 1764090109
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que no puedo concentrarme en mis estudios y a veces me cuesta hacer cosas simples, como salir con mis amigas. Me siento atrapada y desmotivada.",
+      "timestamp": 1764090110
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que eso puede ser muy frustrante. La desmotivación y la falta de concentración pueden hacer que actividades que antes disfrutabas parezcan abrumadoras. Hablemos sobre cómo podrías organizar tus estudios o introducir pequeñas actividades sociales que se sientan más manejables. ¿Te gustaría explorar algunas estrategias?",
+      "timestamp": 1764090112
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que necesito ayuda para organizarme mejor y encontrar maneras de motivarme.",
+      "timestamp": 1764090113
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos trabajar en eso. Una técnica útil es establecer metas pequeñas y alcanzables. Esto puede ayudarte a sentir un sentido de logro. Además, podrías crear un horario que incluya tiempo para estudiar, pero también momentos para descansar y socializar. ¿Te gustaría que te ayudara a crear un plan simple para comenzar?",
+      "timestamp": 1764090116
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría tener un plan que me ayude a sentirme más organizada y motivada.",
+      "timestamp": 1764090117
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos por establecer tus metas. ¿Qué tareas específicas te gustaría incluir en tu plan de estudio y qué días te gustaría dedicar tiempo para socializar?",
+      "timestamp": 1764090119
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría estudiar por lo menos dos horas al día. Y podría intentar salir con mis amigas los fines de semana.",
+      "timestamp": 1764090120
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un buen comienzo. Aquí tienes un esbozo simple: \n\n- **De lunes a viernes:** Estudio de 2 horas al día. Puedes elegir un horario fijo, como de 4 a 6 PM, y asegurarte de tomar pequeños descansos cada 30 minutos.\n- **Sábado y domingo:** Dedica tiempo a salir con tus amigas; podrías planear actividades simples, como un café o una caminata.\n\n¿Qué te parece este plan? ¿Te gustaría agregar o ajustar algo?",
+      "timestamp": 1764090126
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un buen plan. Tal vez podría agregar un poco de tiempo para hacer ejercicio después de estudiar. Creo que eso me ayudaría a sentirme mejor.",
+      "timestamp": 1764090127
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente idea. Incorporar ejercicio puede aumentar tu energía y mejorar tu estado de ánimo. Podrías agregar 30 minutos de actividad física después de tus sesiones de estudio. \n\nEntonces, tu plan quedaría así:\n\n- **De lunes a viernes:** \n  - Estudio de 4 a 6 PM.\n  - Ejercicio de 6:30 a 7 PM.\n  \n- **Sábado y domingo:** \n  - Tiempo con amigas.\n\n¿Cómo te sientes con este ajuste?",
+      "timestamp": 1764090131
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento bien con este ajuste. Siento que tener esas actividades programadas me ayudará a mantenerme enfocada y motivada.",
+      "timestamp": 1764090132
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas bien con el plan. Tener actividades programadas puede ofrecer estructura y ayudarte a sentirte más en control. Recuerda que es importante ser flexible y ajustarlo si es necesario. ¿Te gustaría hablar sobre algún otro tema o aspecto que te gustaría trabajar en nuestras próximas sesiones?",
+      "timestamp": 1764090135
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría trabajar en cómo manejar la ansiedad cuando surge. Creo que eso sería muy útil también.",
+      "timestamp": 1764090137
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un enfoque excelente. Podemos trabajar en estrategias para manejar la ansiedad en el momento en que surja. Algunas técnicas incluyen la respiración profunda que practicamos, la atención plena, y también crear un \"kit de herramientas\" de actividades que te ayuden a calmarte. ¿Te gustaría explorar alguna de estas opciones más a fondo?",
+      "timestamp": 1764090139
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría explorar el \"kit de herramientas\". Creo que tener opciones a mano podría ayudarme cuando me sienta ansiosa.",
+      "timestamp": 1764090140
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Un \"kit de herramientas\" es una gran idea. Puedes incluir actividades que te ayuden a calmarte y distraerte. Aquí hay algunas ideas:\n\n1. **Ejercicios de respiración:** Técnicas simples que ya hemos practicado.\n2. **Escritura:** Un cuaderno para expresar tus pensamientos y sentimientos.\n3. **Música:** Crear una lista de reproducción que te relaje o te motive.\n4. **Ejercicio:** Actividades físicas que disfrutes, como caminar o practicar yoga.\n5. **Mindfulness:** Recordatorios de practicar atención plena, como una breve meditación.\n\n¿Qué te parece? ¿Hay algo más que te gustaría añadir a tu kit de herramientas?",
+      "timestamp": 1764090143
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta mucho esa lista. Tal vez podría agregar algo sobre la lectura, ya que disfruto leer y me ayuda a desconectarme.",
+      "timestamp": 1764090144
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Eso es una excelente adición! La lectura puede ser una gran forma de escapar y relajarse. Así que lo añadimos a tu \"kit de herramientas\":\n\n6. **Lectura:** Tener un libro favorito o una lista de libros que te gustaría leer.\n\nCon esto, tienes un conjunto de herramientas para enfrentar la ansiedad. ¿Te gustaría que hiciéramos un pequeño ejercicio para que puedas empezar a implementar esto?",
+      "timestamp": 1764090146
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacer un ejercicio. Creo que sería útil comenzar a usar mi \"kit de herramientas\".",
+      "timestamp": 1764090147
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Vamos a hacer un ejercicio de respiración combinándolo con la lectura como una forma de calmarte. Encuentra un lugar cómodo donde puedas sentarte y, si tienes un libro a mano, tenlo cerca. \n\nPrimero, comencemos con un ejercicio de respiración: inhala profundamente por la nariz contando hasta cuatro, retén por dos segundos, y exhala lentamente por la boca contando hasta seis. \n\nHaz esto durante un minuto. Luego, si te sientes cómoda, abre tu libro y lee un párrafo o dos, sumergiéndote en la historia. Te guiaré durante el ejercicio. ¿Listas?",
+      "timestamp": 1764090152
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. Haré el ejercicio de respiración primero.",
+      "timestamp": 1764090153
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, tómate tu tiempo para concentrarte en tu respiración. Comencemos: inhala profundamente por la nariz... 1, 2, 3, 4... retén... 1, 2... y exhala lentamente por la boca... 1, 2, 3, 4, 5, 6. \n\nRepite esto varias veces y disfruta de cada respiración. Te guiaré aquí, así que avísame cuando termines.",
+      "timestamp": 1764090157
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Listo, he terminado con el ejercicio de respiración. Me siento más tranquila ahora.",
+      "timestamp": 1764090158
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. Ahora, si tienes tu libro, te invito a abrirlo y leer un párrafo o dos. Permítete sumergirte en la historia y disfrutar del momento. Cuando termines, me podrías decir cómo te sentiste con esta actividad. ¡Adelante!",
+      "timestamp": 1764090161
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Voy a abrir mi libro y leer un poco. Ya regreso.",
+      "timestamp": 1764090162
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090162
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, tómate tu tiempo para disfrutar de la lectura. Estoy aquí cuando regreses.",
+      "timestamp": 1764090163
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Listo, terminé de leer. Me sentí realmente bien. La historia me distrajo y me ayudó a relajarme aún más.",
+      "timestamp": 1764090164
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090164
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es maravilloso saber que la lectura te ayudó a relajarte y distraerte. Incorporar actividades que disfrutas es una gran manera de cuidar de tu bienestar mental. \n\nAntes de finalizar nuestra sesión, me gustaría hablar sobre algunos síntomas que has mencionado y cómo te has sentido en general. Hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar tus sentimientos en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede darnos una idea más clara de lo que estás experimentando.",
+      "timestamp": 1764090167
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo siento, pero creo que ya hemos completado el cuestionario PHQ-9 durante nuestra sesión. Estoy lista para hablar sobre los resultados o cualquier otra cosa que necesitemos.",
+      "timestamp": 1764090169
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764090169
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes razón, hemos completado el cuestionario PHQ-9. Gracias por tu paciencia durante ese proceso. \n\nAhora que tenemos una mejor comprensión de tus sentimientos, podemos hablar sobre los resultados y cómo podemos trabajar juntos en las áreas que te preocupan. ¿Hay algún aspecto específico que te gustaría abordar primero?",
+      "timestamp": 1764090171
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre la falta de energía y cómo puedo manejarla mejor en mi día a día. Creo que eso es lo que más me afecta.",
+      "timestamp": 1764090173
     }
   ],
   "notes": null

@@ -1,13 +1,13 @@
 {
-  "version": "0.4.2+e1f57974f915441d0417bb5ebf05e9444726e790",
-  "timestamp": "2025-11-25T05:16:37Z",
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:11:32Z",
   "model": {
     "name": "openai:gpt-4o-mini",
     "temperature": 0.9,
     "seed": 13
   },
-  "seed": 3029265946,
-  "id": "a8a49423-ad0a-4c43-8567-95bd87aec6ba",
+  "seed": 3880922793,
+  "id": "42446a04-48ca-4396-8476-64ff8fbe097b",
   "parentId": null,
   "complete": true,
   "personas": {
@@ -54,135 +54,159 @@
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia."
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a estas cosas."
     },
     {
       "speaker": "Valeria",
-      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te llevó a buscar terapia?"
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro para ti. ¿Te gustaría compartir un poco sobre lo que te trae hoy aquí?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, he estado sintiéndome un poco triste y no sé cómo manejarlo. Siento que me afecta en mis estudios y en mi vida diaria."
+      "text": "Sí, creo que últimamente me he sentido un poco perdida y triste. Todo me parece un poco abrumador."
     },
     {
       "speaker": "Valeria",
-      "text": "Entiendo, la tristeza puede ser muy abrumadora y afectar diferentes áreas de nuestra vida. ¿Podrías contarme un poco más sobre cuándo comenzaste a sentirte así?"
+      "text": "Entiendo, y lamento que te sientas así. Para explorar tus sentimientos más a fondo, hay un cuestionario llamado PHQ-9 que nos puede ayudar. Este cuestionario evalúa cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Creo que empezó hace unos meses, tal vez desde que comenzó el semestre. A veces me siento muy sola, incluso rodeada de gente."
+      "text": "Sí, creo que podría ayudarme a entenderme un poco mejor."
     },
     {
       "speaker": "Valeria",
-      "text": "La soledad, incluso en compañía, puede ser muy difícil de llevar. Es importante reconocer esos sentimientos. ¿Has notado si hay situaciones específicas que intensifiquen esa sensación de soledad?"
+      "text": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Te iré leyendo cada una y tú me dirás qué tan seguido has tenido molestias debido a estos problemas en las últimas dos semanas.\n\n1. ¿Poco interés o placer en hacer cosas?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "A veces, cuando estoy con mis compañeros, siento que no encajo. Me distraigo pensando en mis propios problemas y eso me aleja de ellos."
+      "text": "He tenido poco interés, casi no me siento motivada para hacer cosas que antes disfrutaba."
     },
     {
       "speaker": "Valeria",
-      "text": "Esa sensación de no encajar puede ser dolorosa y puede llevar a la desconexión con los demás. Es un paso importante que lo reconozcas. ¿Hay alguna forma en que te gustaría intentar conectarte más con tus compañeros?"
+      "text": "Gracias por compartirlo. Esto es importante para entender tu situación. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Tal vez podría intentar hablar más con ellos o compartir mis intereses, como los videojuegos. Pero me da miedo que no les interese."
+      "text": "Sí, a veces me siento muy decaída y parece que no hay salida."
     },
     {
       "speaker": "Valeria",
-      "text": "Es natural sentir miedo al rechazo, pero compartir tus intereses puede ser una buena manera de acercarte a ellos. A veces, las conexiones se forman a través de cosas que nos apasionan. ¿Te gustaría explorar formas de iniciarlo?"
+      "text": "Lo siento mucho, Mariana. A veces esos sentimientos pueden ser abrumadores. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, creo que sería útil. Podría intentar hablar sobre un juego que me gusta y ver cómo reaccionan."
+      "text": "He estado durmiendo demasiado, como si quisiera escapar de todo."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena como un gran primer paso. Hablar sobre algo que te entusiasma puede abrir puertas a nuevas conexiones. ¿Hay un juego específico que te gustaría usar para iniciar la conversación?"
+      "text": "Entiendo, el sueño puede ser una forma en que nuestro cuerpo intenta lidiar con el estrés y la tristeza. \n\n4. ¿Te has sentido cansada o con poca energía?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, podría hablar sobre \"The Last of Us\". La historia es increíble y estoy segura de que a muchos les gusta."
+      "text": "Sí, me siento cansada todo el tiempo, incluso cuando descanso."
     },
     {
       "speaker": "Valeria",
-      "text": "\"The Last of Us\" es un juego muy popular y tiene una historia profunda. Puede ser un excelente tema para conectar con otros. ¿Te gustaría practicar cómo podrías presentarlo en una conversación?"
+      "text": "Eso puede ser muy agotador. Es una señal de que tu cuerpo y mente están lidiando con mucho. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, me gustaría intentarlo. Podría empezar diciendo que jugué \"The Last of Us\" y preguntar si ellos lo han jugado también."
+      "text": "He estado comiendo en exceso, como si la comida fuera una forma de consolarme."
     },
     {
       "speaker": "Valeria",
-      "text": "Eso suena perfecto, una forma amigable de iniciar la conversación. Antes de continuar, me gustaría explorar un poco más cómo te has sentido en las últimas semanas, ya que he notado algunos síntomas que podrían estar relacionados con la depresión. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tu estado emocional. ¿Te gustaría responderlo?"
+      "text": "Es comprensible buscar consuelo en la comida en momentos difíciles. Esto puede ser un mecanismo de afrontamiento común. \n\n6. ¿Te has sentido mal contigo misma, o sientes que eres un fracaso?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, creo que eso podría ayudarme a entender mejor lo que estoy sintiendo. Estoy dispuesta a responderlo."
+      "text": "Sí, a veces me siento como si no valiera la pena, como si no lograra nada bien."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Por favor, responde en función de cómo te has sentido en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nPor favor, dime en una escala de 0 a 3, cuánto has experimentado cada uno de estos problemas (0 = nunca, 3 = casi todos los días)."
+      "text": "Lamento que estés sintiendo eso, Mariana. Es muy duro sentirse así. \n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "De acuerdo, aquí están mis respuestas:\n\n1. 2 - He perdido interés en algunas cosas que antes disfrutaba.\n2. 2 - Me he sentido decaída y a veces sin esperanza.\n3. 2 - A veces me cuesta dormir, pero otras veces duermo demasiado.\n4. 3 - Estoy muy cansada y sin energía la mayor parte del tiempo.\n5. 1 - Mi apetito ha cambiado; a veces como menos, a veces más.\n6. 2 - Me siento mal conmigo misma, como si no fuera suficiente.\n7. 2 - Me cuesta concentrarme en mis estudios o en cosas que antes me gustaban.\n8. 1 - A veces me siento inquieta, pero no siempre.\n9. 0 - No he tenido esos pensamientos.\n\nEspero que esto ayude a entender lo que estoy sintiendo."
+      "text": "Sí, me cuesta concentrarme en cualquier cosa, incluso en lo que solía disfrutar."
     },
     {
       "speaker": "Valeria",
-      "text": "Gracias por compartir tus respuestas, es un paso muy valiente y útil para entender lo que estás sintiendo. En general, parece que estás experimentando síntomas de depresión moderada. Es importante que nos enfoquemos en estos sentimientos para trabajar juntos en estrategias que te ayuden a sentirte mejor. \n\n¿Cómo te gustaría proceder a partir de aquí?"
+      "text": "Eso puede ser frustrante y puede contribuir a sentirte aún más abrumada. \n\n8. ¿Has notado que te mueves o hablas más lento, o por el contrario, te sientes inquieta o agitada?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Me gustaría aprender algunas estrategias para manejar mis sentimientos y poder conectarme mejor con los demás."
+      "text": "A veces me siento inquieta, como si no pudiera quedarme quieta, pero también hay momentos en que me siento muy lenta."
     },
     {
       "speaker": "Valeria",
-      "text": "Claro, hay varias estrategias que podemos explorar. Una opción es practicar la atención plena, que puede ayudarte a estar más presente en las interacciones y a reducir la ansiedad. También podemos trabajar en ejercicios de comunicación asertiva para que te sientas más cómoda al compartir tus intereses. ¿Te gustaría comenzar con alguna de estas estrategias?"
+      "text": "Es un desafío lidiar con esos altibajos en tu energía y ánimo. \n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, creo que practicar la atención plena podría ser útil. Me gustaría aprender más sobre eso."
+      "text": "Sí, a veces tengo esos pensamientos oscuros, y me asusta un poco."
     },
     {
       "speaker": "Valeria",
-      "text": "Excelente decisión. La atención plena consiste en estar consciente del momento presente sin juzgarlo. Podemos empezar con ejercicios simples, como la respiración consciente. Te invito a cerrar los ojos y concentrarte solo en tu respiración: inhala profundamente por la nariz, sostén un momento, y exhala suavemente por la boca. ¿Te gustaría intentar hacerlo juntos ahora?"
+      "text": "Es muy importante que hables de esos pensamientos y que sepas que no estás sola en esto. Estoy aquí para apoyarte. \n\n10. ¿Te gustaría compartir algo más sobre cómo te sientes al respecto?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, me gustaría intentarlo. Voy a cerrar los ojos y concentrarme en mi respiración."
+      "text": "Me siento confundida y asustada. No sé cómo salir de este lugar oscuro."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, tómate tu tiempo. Inhala profundamente... siente cómo el aire entra en tus pulmones... y ahora exhala lentamente... dejando ir cualquier tensión. Repite esto varias veces, sintiendo cómo cada respiración te ayuda a relajarte. Cuando estés lista, puedes abrir los ojos y compartir cómo te sientes."
+      "text": "Entiendo que te sientas así, y es completamente válido tener esos sentimientos. Comenzar este proceso ya es un paso hacia la sanación. Juntos podemos trabajar en estrategias para ayudarte a encontrar más luz en medio de la oscuridad. ¿Te gustaría que exploráramos algunas de esas estrategias?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Abrí los ojos. Me siento un poco más tranquila, como si hubiera liberado algo de tensión. Creo que esto puede ayudarme."
+      "text": "Sí, me gustaría eso. Espero que me ayude a sentirme mejor."
     },
     {
       "speaker": "Valeria",
-      "text": "Me alegra saber que te sientes un poco más tranquila, eso es un gran avance. La atención plena puede ser una herramienta poderosa en momentos de estrés. Con el tiempo y la práctica, puede ayudarte a manejar mejor tus emociones. \n\nSi te sientes cómoda, podemos ir incorporando más ejercicios de atención plena a nuestras sesiones. ¿Te gustaría que trabajáramos en eso en nuestra próxima cita?"
+      "text": "Claro, podemos trabajar en algunas técnicas de afrontamiento y herramientas para manejar lo que sientes. Empecemos por identificar actividades que te hayan hecho sentir bien en el pasado. ¿Hay algo en particular que solías disfrutar?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, me gustaría continuar practicando la atención plena en nuestras próximas sesiones. Gracias por ayudarme."
+      "text": "Me gustaba mucho dibujar y jugar videojuegos, especialmente aquellos con buenas historias."
     },
     {
       "speaker": "Valeria",
-      "text": "De nada, estoy aquí para apoyarte en este proceso. Recuerda que cada pequeño paso cuenta. Para nuestra próxima sesión, también podríamos revisar las estrategias para conectarte con los demás. ¿Te parece bien?"
+      "text": "Es genial que tengas esas actividades que te brindaban placer. Dibujar y jugar videojuegos pueden ser excelentes formas de expresión y escape. Podríamos intentar reintroducir esas actividades poco a poco. ¿Te gustaría que establezcamos un pequeño objetivo relacionado con eso para la próxima semana?"
     },
     {
       "speaker": "Mariana Flores",
-      "text": "Sí, me parece muy bien. Estoy lista para seguir trabajando en eso."
+      "text": "Sí, creo que sería útil tener un objetivo. Tal vez podría dibujar un rato o jugar un juego que me guste."
     },
     {
       "speaker": "Valeria",
-      "text": "Perfecto, me alegra que estés lista. Recuerda que estoy aquí para acompañarte en este viaje. Si en algún momento sientes que necesitas hablar de algo más o si hay otra cosa que quieras abordar, no dudes en decírmelo. Hasta nuestra próxima sesión, cuídate mucho. ¡Adiós!"
+      "text": "Me parece una excelente idea, Mariana. ¿Te gustaría comprometerte a dibujar al menos 30 minutos o jugar un videojuego durante una hora esta semana? Esto puede ser un buen punto de partida para reconectar contigo misma."
     },
     {
       "speaker": "Mariana Flores",
-      "text": "¡Adiós! Muchas gracias por tu apoyo. Cuídate."
+      "text": "Sí, me comprometo a hacerlo. Espero que me ayude a sentirme un poco mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso, Mariana. Estoy aquí para apoyarte en este camino. Para nuestra próxima sesión, podríamos hablar sobre cómo te fue con ese objetivo. ¿Te gustaría que programáramos nuestra próxima cita ahora?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me gustaría eso. Me ayuda saber que tendré un seguimiento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, entonces programemos nuestra próxima sesión para el viernes de la próxima semana a la misma hora. Estoy deseando escuchar cómo te fue. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me parece bien. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Mariana. Estoy aquí para ayudarte. Cuídate y nos vemos la próxima semana. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "¡Hasta luego! Gracias por todo."
     }
   ],
   "events": [
@@ -191,133 +215,49 @@
       "action": "utter",
       "actionLabel": null,
       "content": "Hola Mariana Flores, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
-      "timestamp": 1764047741
+      "timestamp": 1764090643
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia.",
-      "timestamp": 1764047742
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a estas cosas.",
+      "timestamp": 1764090644
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te llevó a buscar terapia?",
-      "timestamp": 1764047743
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro para ti. ¿Te gustaría compartir un poco sobre lo que te trae hoy aquí?",
+      "timestamp": 1764090645
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, he estado sintiéndome un poco triste y no sé cómo manejarlo. Siento que me afecta en mis estudios y en mi vida diaria.",
-      "timestamp": 1764047744
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Entiendo, la tristeza puede ser muy abrumadora y afectar diferentes áreas de nuestra vida. ¿Podrías contarme un poco más sobre cuándo comenzaste a sentirte así?",
-      "timestamp": 1764047746
-    },
-    {
-      "agent": "Mariana Flores",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Creo que empezó hace unos meses, tal vez desde que comenzó el semestre. A veces me siento muy sola, incluso rodeada de gente.",
-      "timestamp": 1764047747
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "La soledad, incluso en compañía, puede ser muy difícil de llevar. Es importante reconocer esos sentimientos. ¿Has notado si hay situaciones específicas que intensifiquen esa sensación de soledad?",
-      "timestamp": 1764047748
-    },
-    {
-      "agent": "Mariana Flores",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "A veces, cuando estoy con mis compañeros, siento que no encajo. Me distraigo pensando en mis propios problemas y eso me aleja de ellos.",
-      "timestamp": 1764047750
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Esa sensación de no encajar puede ser dolorosa y puede llevar a la desconexión con los demás. Es un paso importante que lo reconozcas. ¿Hay alguna forma en que te gustaría intentar conectarte más con tus compañeros?",
-      "timestamp": 1764047751
-    },
-    {
-      "agent": "Mariana Flores",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Tal vez podría intentar hablar más con ellos o compartir mis intereses, como los videojuegos. Pero me da miedo que no les interese.",
-      "timestamp": 1764047752
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Es natural sentir miedo al rechazo, pero compartir tus intereses puede ser una buena manera de acercarte a ellos. A veces, las conexiones se forman a través de cosas que nos apasionan. ¿Te gustaría explorar formas de iniciarlo?",
-      "timestamp": 1764047753
-    },
-    {
-      "agent": "Mariana Flores",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, creo que sería útil. Podría intentar hablar sobre un juego que me gusta y ver cómo reaccionan.",
-      "timestamp": 1764047755
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Eso suena como un gran primer paso. Hablar sobre algo que te entusiasma puede abrir puertas a nuevas conexiones. ¿Hay un juego específico que te gustaría usar para iniciar la conversación?",
-      "timestamp": 1764047756
-    },
-    {
-      "agent": "Mariana Flores",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, podría hablar sobre \"The Last of Us\". La historia es increíble y estoy segura de que a muchos les gusta.",
-      "timestamp": 1764047757
-    },
-    {
-      "agent": "Valeria",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "\"The Last of Us\" es un juego muy popular y tiene una historia profunda. Puede ser un excelente tema para conectar con otros. ¿Te gustaría practicar cómo podrías presentarlo en una conversación?",
-      "timestamp": 1764047758
-    },
-    {
-      "agent": "Mariana Flores",
-      "action": "utter",
-      "actionLabel": null,
-      "content": "Sí, me gustaría intentarlo. Podría empezar diciendo que jugué \"The Last of Us\" y preguntar si ellos lo han jugado también.",
-      "timestamp": 1764047759
+      "content": "Sí, creo que últimamente me he sentido un poco perdida y triste. Todo me parece un poco abrumador.",
+      "timestamp": 1764090646
     },
     {
       "agent": "Valeria",
       "action": "instruct",
       "actionLabel": "phq9_screening",
       "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047759
+      "timestamp": 1764090646
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Eso suena perfecto, una forma amigable de iniciar la conversación. Antes de continuar, me gustaría explorar un poco más cómo te has sentido en las últimas semanas, ya que he notado algunos síntomas que podrían estar relacionados con la depresión. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tu estado emocional. ¿Te gustaría responderlo?",
-      "timestamp": 1764047761
+      "content": "Entiendo, y lamento que te sientas así. Para explorar tus sentimientos más a fondo, hay un cuestionario llamado PHQ-9 que nos puede ayudar. Este cuestionario evalúa cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?",
+      "timestamp": 1764090648
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que eso podría ayudarme a entender mejor lo que estoy sintiendo. Estoy dispuesta a responderlo.",
-      "timestamp": 1764047762
+      "content": "Sí, creo que podría ayudarme a entenderme un poco mejor.",
+      "timestamp": 1764090649
     },
     {
       "agent": "Valeria",
@@ -326,11 +266,11 @@
       "content": {
         "name": "get_phq9_questions",
         "args": {
-          "item": "PHQ-9"
+          "item": "cuestionario PHQ-9"
         },
-        "id": "call_VMEtD6gtyHefQqOfztQqM2he"
+        "id": "call_WhMkyosDaRpAnAad0gBPC6bh"
       },
-      "timestamp": 1764047764
+      "timestamp": 1764090650
     },
     {
       "agent": "Valeria",
@@ -338,143 +278,248 @@
       "actionLabel": "output",
       "content": {
         "name": "get_phq9_questions",
-        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
-        "call_id": "call_VMEtD6gtyHefQqOfztQqM2he"
+        "output": "{\"item\": \"cuestionario PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_WhMkyosDaRpAnAad0gBPC6bh"
       },
-      "timestamp": 1764047764
+      "timestamp": 1764090650
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Por favor, responde en función de cómo te has sentido en las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\nPor favor, dime en una escala de 0 a 3, cuánto has experimentado cada uno de estos problemas (0 = nunca, 3 = casi todos los días).",
-      "timestamp": 1764047769
+      "content": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Te iré leyendo cada una y tú me dirás qué tan seguido has tenido molestias debido a estos problemas en las últimas dos semanas.\n\n1. ¿Poco interés o placer en hacer cosas?",
+      "timestamp": 1764090651
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "De acuerdo, aquí están mis respuestas:\n\n1. 2 - He perdido interés en algunas cosas que antes disfrutaba.\n2. 2 - Me he sentido decaída y a veces sin esperanza.\n3. 2 - A veces me cuesta dormir, pero otras veces duermo demasiado.\n4. 3 - Estoy muy cansada y sin energía la mayor parte del tiempo.\n5. 1 - Mi apetito ha cambiado; a veces como menos, a veces más.\n6. 2 - Me siento mal conmigo misma, como si no fuera suficiente.\n7. 2 - Me cuesta concentrarme en mis estudios o en cosas que antes me gustaban.\n8. 1 - A veces me siento inquieta, pero no siempre.\n9. 0 - No he tenido esos pensamientos.\n\nEspero que esto ayude a entender lo que estoy sintiendo.",
-      "timestamp": 1764047775
+      "content": "He tenido poco interés, casi no me siento motivada para hacer cosas que antes disfrutaba.",
+      "timestamp": 1764090652
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Gracias por compartir tus respuestas, es un paso muy valiente y útil para entender lo que estás sintiendo. En general, parece que estás experimentando síntomas de depresión moderada. Es importante que nos enfoquemos en estos sentimientos para trabajar juntos en estrategias que te ayuden a sentirte mejor. \n\n¿Cómo te gustaría proceder a partir de aquí?",
-      "timestamp": 1764047777
+      "content": "Gracias por compartirlo. Esto es importante para entender tu situación. \n\n2. ¿Te has sentido decaída, deprimida o sin esperanzas?",
+      "timestamp": 1764090654
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me gustaría aprender algunas estrategias para manejar mis sentimientos y poder conectarme mejor con los demás.",
-      "timestamp": 1764047778
+      "content": "Sí, a veces me siento muy decaída y parece que no hay salida.",
+      "timestamp": 1764090655
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Claro, hay varias estrategias que podemos explorar. Una opción es practicar la atención plena, que puede ayudarte a estar más presente en las interacciones y a reducir la ansiedad. También podemos trabajar en ejercicios de comunicación asertiva para que te sientas más cómoda al compartir tus intereses. ¿Te gustaría comenzar con alguna de estas estrategias?",
-      "timestamp": 1764047781
+      "content": "Lo siento mucho, Mariana. A veces esos sentimientos pueden ser abrumadores. \n\n3. ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado?",
+      "timestamp": 1764090656
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, creo que practicar la atención plena podría ser útil. Me gustaría aprender más sobre eso.",
-      "timestamp": 1764047782
+      "content": "He estado durmiendo demasiado, como si quisiera escapar de todo.",
+      "timestamp": 1764090656
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Excelente decisión. La atención plena consiste en estar consciente del momento presente sin juzgarlo. Podemos empezar con ejercicios simples, como la respiración consciente. Te invito a cerrar los ojos y concentrarte solo en tu respiración: inhala profundamente por la nariz, sostén un momento, y exhala suavemente por la boca. ¿Te gustaría intentar hacerlo juntos ahora?",
-      "timestamp": 1764047785
+      "content": "Entiendo, el sueño puede ser una forma en que nuestro cuerpo intenta lidiar con el estrés y la tristeza. \n\n4. ¿Te has sentido cansada o con poca energía?",
+      "timestamp": 1764090658
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría intentarlo. Voy a cerrar los ojos y concentrarme en mi respiración.",
-      "timestamp": 1764047786
+      "content": "Sí, me siento cansada todo el tiempo, incluso cuando descanso.",
+      "timestamp": 1764090659
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, tómate tu tiempo. Inhala profundamente... siente cómo el aire entra en tus pulmones... y ahora exhala lentamente... dejando ir cualquier tensión. Repite esto varias veces, sintiendo cómo cada respiración te ayuda a relajarte. Cuando estés lista, puedes abrir los ojos y compartir cómo te sientes.",
-      "timestamp": 1764047788
+      "content": "Eso puede ser muy agotador. Es una señal de que tu cuerpo y mente están lidiando con mucho. \n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso?",
+      "timestamp": 1764090660
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Abrí los ojos. Me siento un poco más tranquila, como si hubiera liberado algo de tensión. Creo que esto puede ayudarme.",
-      "timestamp": 1764047789
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047789
+      "content": "He estado comiendo en exceso, como si la comida fuera una forma de consolarme.",
+      "timestamp": 1764090661
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Me alegra saber que te sientes un poco más tranquila, eso es un gran avance. La atención plena puede ser una herramienta poderosa en momentos de estrés. Con el tiempo y la práctica, puede ayudarte a manejar mejor tus emociones. \n\nSi te sientes cómoda, podemos ir incorporando más ejercicios de atención plena a nuestras sesiones. ¿Te gustaría que trabajáramos en eso en nuestra próxima cita?",
-      "timestamp": 1764047791
+      "content": "Es comprensible buscar consuelo en la comida en momentos difíciles. Esto puede ser un mecanismo de afrontamiento común. \n\n6. ¿Te has sentido mal contigo misma, o sientes que eres un fracaso?",
+      "timestamp": 1764090662
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me gustaría continuar practicando la atención plena en nuestras próximas sesiones. Gracias por ayudarme.",
-      "timestamp": 1764047792
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047792
+      "content": "Sí, a veces me siento como si no valiera la pena, como si no lograra nada bien.",
+      "timestamp": 1764090664
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "De nada, estoy aquí para apoyarte en este proceso. Recuerda que cada pequeño paso cuenta. Para nuestra próxima sesión, también podríamos revisar las estrategias para conectarte con los demás. ¿Te parece bien?",
-      "timestamp": 1764047793
+      "content": "Lamento que estés sintiendo eso, Mariana. Es muy duro sentirse así. \n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión?",
+      "timestamp": 1764090665
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "Sí, me parece muy bien. Estoy lista para seguir trabajando en eso.",
-      "timestamp": 1764047794
-    },
-    {
-      "agent": "Valeria",
-      "action": "instruct",
-      "actionLabel": "phq9_screening",
-      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
-      "timestamp": 1764047794
+      "content": "Sí, me cuesta concentrarme en cualquier cosa, incluso en lo que solía disfrutar.",
+      "timestamp": 1764090666
     },
     {
       "agent": "Valeria",
       "action": "utter",
       "actionLabel": null,
-      "content": "Perfecto, me alegra que estés lista. Recuerda que estoy aquí para acompañarte en este viaje. Si en algún momento sientes que necesitas hablar de algo más o si hay otra cosa que quieras abordar, no dudes en decírmelo. Hasta nuestra próxima sesión, cuídate mucho. ¡Adiós!",
-      "timestamp": 1764047797
+      "content": "Eso puede ser frustrante y puede contribuir a sentirte aún más abrumada. \n\n8. ¿Has notado que te mueves o hablas más lento, o por el contrario, te sientes inquieta o agitada?",
+      "timestamp": 1764090668
     },
     {
       "agent": "Mariana Flores",
       "action": "utter",
       "actionLabel": null,
-      "content": "¡Adiós! Muchas gracias por tu apoyo. Cuídate.",
-      "timestamp": 1764047797
+      "content": "A veces me siento inquieta, como si no pudiera quedarme quieta, pero también hay momentos en que me siento muy lenta.",
+      "timestamp": 1764090669
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un desafío lidiar con esos altibajos en tu energía y ánimo. \n\n9. ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera?",
+      "timestamp": 1764090671
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces tengo esos pensamientos oscuros, y me asusta un poco.",
+      "timestamp": 1764090672
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy importante que hables de esos pensamientos y que sepas que no estás sola en esto. Estoy aquí para apoyarte. \n\n10. ¿Te gustaría compartir algo más sobre cómo te sientes al respecto?",
+      "timestamp": 1764090673
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento confundida y asustada. No sé cómo salir de este lugar oscuro.",
+      "timestamp": 1764090674
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que te sientas así, y es completamente válido tener esos sentimientos. Comenzar este proceso ya es un paso hacia la sanación. Juntos podemos trabajar en estrategias para ayudarte a encontrar más luz en medio de la oscuridad. ¿Te gustaría que exploráramos algunas de esas estrategias?",
+      "timestamp": 1764090675
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Espero que me ayude a sentirme mejor.",
+      "timestamp": 1764090677
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar en algunas técnicas de afrontamiento y herramientas para manejar lo que sientes. Empecemos por identificar actividades que te hayan hecho sentir bien en el pasado. ¿Hay algo en particular que solías disfrutar?",
+      "timestamp": 1764090679
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaba mucho dibujar y jugar videojuegos, especialmente aquellos con buenas historias.",
+      "timestamp": 1764090680
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es genial que tengas esas actividades que te brindaban placer. Dibujar y jugar videojuegos pueden ser excelentes formas de expresión y escape. Podríamos intentar reintroducir esas actividades poco a poco. ¿Te gustaría que establezcamos un pequeño objetivo relacionado con eso para la próxima semana?",
+      "timestamp": 1764090683
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil tener un objetivo. Tal vez podría dibujar un rato o jugar un juego que me guste.",
+      "timestamp": 1764090684
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una excelente idea, Mariana. ¿Te gustaría comprometerte a dibujar al menos 30 minutos o jugar un videojuego durante una hora esta semana? Esto puede ser un buen punto de partida para reconectar contigo misma.",
+      "timestamp": 1764090685
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me comprometo a hacerlo. Espero que me ayude a sentirme un poco mejor.",
+      "timestamp": 1764090686
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso, Mariana. Estoy aquí para apoyarte en este camino. Para nuestra próxima sesión, podríamos hablar sobre cómo te fue con ese objetivo. ¿Te gustaría que programáramos nuestra próxima cita ahora?",
+      "timestamp": 1764090688
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Me ayuda saber que tendré un seguimiento.",
+      "timestamp": 1764090689
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, entonces programemos nuestra próxima sesión para el viernes de la próxima semana a la misma hora. Estoy deseando escuchar cómo te fue. ¿Te parece bien?",
+      "timestamp": 1764090690
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Gracias por tu apoyo.",
+      "timestamp": 1764090691
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Mariana. Estoy aquí para ayudarte. Cuídate y nos vemos la próxima semana. ¡Hasta luego!",
+      "timestamp": 1764090692
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por todo.",
+      "timestamp": 1764090692
     }
   ],
   "notes": null

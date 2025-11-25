@@ -1,0 +1,635 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:55:58Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3456819297,
+  "id": "a4900dcc-7e8f-4ab1-951a-bd1c2f94b37c",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Elena Martínez": {
+      "name": "Elena Martínez",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(RI) | estudiante de Relaciones Internacionales en la Ibero de 6to semestre; le interesan los idiomas, las noticias del mundo y conocer gente de otros lugares.",
+      "personality": "idealista y sensible",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Hola, gracias. Siento un poco de nervios, pero estoy aquí porque quiero entenderme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nervios, y me alegra que estés aquí para explorar esos sentimientos. ¿Hay algo específico que te gustaría discutir hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría hablar sobre lo que he estado sintiendo últimamente, como tristeza y falta de motivación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Para entender mejor lo que has estado sintiendo, hay un cuestionario llamado PHQ-9 que explora cómo te has sentido en las últimas dos semanas. ¿Te gustaría responder a algunas preguntas? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Claro, estoy dispuesta a responder las preguntas. Espero que me ayuden a aclarar lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. Primera pregunta: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Responde con: nunca (0), poco (1), a veces (2), o casi todos los días (3). ¿Listo/a?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, estoy lista. ¿Cuál es la primera molestia que debo evaluar?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La primera molestia es: \"Poco interés o placer en hacer cosas\". ¿Qué tan seguido has sentido esto en las últimas dos semanas?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "He sentido esto casi todos los días. Ya no disfruto las cosas que solía hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Entonces, eso sería un 3. Pasemos a la siguiente pregunta: \"Sentirte decaído(a), deprimido(a) o sin esperanzas\". ¿Qué tan seguido has experimentado esto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "He experimentado eso casi todos los días también, un 3. Me siento muy pesada emocionalmente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Eso es importante y válido. Ahora, la siguiente pregunta: \"Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado\". ¿Cómo has estado con respecto a esto en las últimas dos semanas?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "He tenido dificultad para dormir, así que diría que es un 2. A veces me despierto a media noche y no puedo volver a dormir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, es un dato significativo. Entonces, un 2. Continuemos: \"Sentirte cansado(a) o con poca energía\". ¿Cómo lo evaluarías en ese aspecto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Eso lo evaluaría como un 3. Me siento cansada todo el tiempo, incluso cuando duermo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso debe ser muy agotador. Ahora pasemos a la siguiente pregunta: \"Tener poco apetito o comer en exceso\". ¿Cómo te has sentido al respecto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "He tenido poco apetito, así que diría que es un 2. No tengo ganas de comer como solía hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Entonces, un 2 en ese aspecto. Ahora, la siguiente pregunta: \"Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia\". ¿Cómo lo evaluarías?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Eso lo evaluaría como un 3. Me siento como si no estuviera cumpliendo con mis expectativas y las de los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Es importante reconocerlo. Ahora, pasemos a la siguiente pregunta: \"Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión\". ¿Cómo te ha ido con esto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo evaluaría como un 2. A veces me cuesta concentrarme en lo que estoy leyendo o viendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser honesta. Un 2 en ese aspecto. Siguiente pregunta: \"Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal\". ¿Cómo lo has sentido?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Lo evaluaría como un 1. A veces me siento un poco inquieta, pero no es algo constante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por compartirlo. Entonces, un 1. Ahora, la última pregunta: \"Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera\". ¿Cómo te has sentido en relación a esto?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Eso lo evaluaría como un 2. Ha habido momentos oscuros, pero no he tomado ninguna acción."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que hayas estado pasando por momentos oscuros. Agradezco tu valentía al compartir esto. Es un paso importante hacia el entendimiento y la sanación. Hablemos de cómo podemos apoyarte en este proceso."
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Gracias. Aprecio que me escuches y estoy dispuesta a explorar cómo puedo sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que estás dispuesta a explorar. Juntos podemos trabajar en estrategias y herramientas que te ayuden a sentirte mejor. ¿Te gustaría comenzar con algunas técnicas de manejo emocional?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría aprender algunas técnicas. Quiero sentirme más en control de mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es genial que quieras sentirte más en control. Antes de eso, me gustaría explorar un poco más cómo te has sentido en las últimas dos semanas usando un cuestionario llamado PHQ-9. Esto nos ayudará a entender mejor tus síntomas. ¿Te gustaría responderlo?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Creo que ya hemos cubierto bastante con este cuestionario, pero si hay algo más que pueda ayudar, estoy dispuesta a responder."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y aprecio tu disposición. Entonces, centrémonos en algunas técnicas de manejo emocional. Una técnica útil es la respiración profunda. ¿Te gustaría que te guíe a través de un breve ejercicio de respiración?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría eso. Creo que la respiración profunda podría ayudarme a calmarme un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. Siéntate cómodamente, cierra los ojos si te sientes a gusto, y vamos a inhalar profundamente por la nariz contando hasta cuatro... 1, 2, 3, 4. Ahora sostiene la respiración por un momento... y exhala lentamente por la boca contando hasta seis... 1, 2, 3, 4, 5, 6. \n\nRepite esto un par de veces más. ¿Cómo te sientes?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Me siento un poco más tranquila. La respiración profunda realmente ayuda a relajarme. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te ha ayudado a sentirte más tranquila. La respiración profunda es una herramienta poderosa. Si deseas, podemos seguir trabajando en más técnicas o profundizar en lo que has sentido. ¿Te gustaría continuar explorando estrategias?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría aprender más estrategias. Quiero tener herramientas para enfrentar mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Otra estrategia útil es el \"diario emocional\". Escribir sobre tus pensamientos y sentimientos puede ayudarte a procesarlos mejor. Podrías dedicar unos minutos cada día a anotar lo que sientes. ¿Te parece una buena idea?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me parece una buena idea. Creo que escribir podría ayudarme a aclarar mis pensamientos y emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es una excelente manera de autoconocimiento. Puedes comenzar escribiendo sobre tus emociones diarias, lo que te preocupa o incluso lo que te hace sentir bien. También te recomiendo que revises lo que escribiste después de unos días para ver si hay patrones. ¿Te gustaría que te diera más sugerencias sobre cómo abordar el diario emocional?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, me gustaría recibir más sugerencias. Quiero asegurarme de que me ayude realmente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, aquí tienes algunas sugerencias para llevar un diario emocional efectivo:\n\n1. **Establece un horario:** Dedica un momento específico del día para escribir, puede ser por la mañana o antes de dormir.\n\n2. **Sé honesta:** No te preocupes por la gramática o la estructura. Escribe lo que sientes sin juzgarte.\n\n3. **Incluye detalles:** Describe situaciones específicas que desencadenaron tus emociones y cómo reaccionaste.\n\n4. **Reflexiona:** Al final de cada semana, revisa lo que escribiste y pregúntate si hay patrones en tus sentimientos.\n\n5. **Hazlo un ritual positivo:** Puedes acompañar tu escritura con una taza de té o música suave para que te resulte más placentero.\n\n¿Te gustaría probar alguna de estas sugerencias esta semana?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Sí, creo que probaré establecer un horario y hacerlo un ritual positivo. Me parece que eso lo hará más especial."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena maravilloso. Crear un ambiente especial para ti puede hacer una gran diferencia. Recuerda ser amable contigo misma durante este proceso. Estoy aquí para apoyarte en cualquier momento. ¿Hay alguna otra estrategia o tema que te gustaría explorar hoy?"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Por ahora, creo que eso es suficiente. Estoy agradecida por lo que hemos hablado y las estrategias que me has compartido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que te sientas así. Ha sido un placer acompañarte en esta sesión y explorar juntos tus emociones. Recuerda que estás en un camino de autoconocimiento y sanación. Estoy aquí para apoyarte cuando lo necesites. ¡Hasta la próxima!"
+    },
+    {
+      "speaker": "Elena Martínez",
+      "text": "Gracias, realmente aprecio tu apoyo. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Elena Martínez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764093285
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Siento un poco de nervios, pero estoy aquí porque quiero entenderme mejor.",
+      "timestamp": 1764093286
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nervios, y me alegra que estés aquí para explorar esos sentimientos. ¿Hay algo específico que te gustaría discutir hoy?",
+      "timestamp": 1764093288
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre lo que he estado sintiendo últimamente, como tristeza y falta de motivación.",
+      "timestamp": 1764093289
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093289
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Para entender mejor lo que has estado sintiendo, hay un cuestionario llamado PHQ-9 que explora cómo te has sentido en las últimas dos semanas. ¿Te gustaría responder a algunas preguntas? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764093292
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, estoy dispuesta a responder las preguntas. Espero que me ayuden a aclarar lo que estoy sintiendo.",
+      "timestamp": 1764093293
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_ptwG76ktEKTNRIfDo8vvykPi"
+      },
+      "timestamp": 1764093294
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_ptwG76ktEKTNRIfDo8vvykPi"
+      },
+      "timestamp": 1764093294
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. Primera pregunta: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Responde con: nunca (0), poco (1), a veces (2), o casi todos los días (3). ¿Listo/a?",
+      "timestamp": 1764093295
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. ¿Cuál es la primera molestia que debo evaluar?",
+      "timestamp": 1764093296
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La primera molestia es: \"Poco interés o placer en hacer cosas\". ¿Qué tan seguido has sentido esto en las últimas dos semanas?",
+      "timestamp": 1764093297
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He sentido esto casi todos los días. Ya no disfruto las cosas que solía hacer.",
+      "timestamp": 1764093299
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Entonces, eso sería un 3. Pasemos a la siguiente pregunta: \"Sentirte decaído(a), deprimido(a) o sin esperanzas\". ¿Qué tan seguido has experimentado esto?",
+      "timestamp": 1764093300
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He experimentado eso casi todos los días también, un 3. Me siento muy pesada emocionalmente.",
+      "timestamp": 1764093302
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Eso es importante y válido. Ahora, la siguiente pregunta: \"Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado\". ¿Cómo has estado con respecto a esto en las últimas dos semanas?",
+      "timestamp": 1764093304
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido dificultad para dormir, así que diría que es un 2. A veces me despierto a media noche y no puedo volver a dormir.",
+      "timestamp": 1764093305
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, es un dato significativo. Entonces, un 2. Continuemos: \"Sentirte cansado(a) o con poca energía\". ¿Cómo lo evaluarías en ese aspecto?",
+      "timestamp": 1764093306
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso lo evaluaría como un 3. Me siento cansada todo el tiempo, incluso cuando duermo.",
+      "timestamp": 1764093308
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso debe ser muy agotador. Ahora pasemos a la siguiente pregunta: \"Tener poco apetito o comer en exceso\". ¿Cómo te has sentido al respecto?",
+      "timestamp": 1764093309
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido poco apetito, así que diría que es un 2. No tengo ganas de comer como solía hacerlo.",
+      "timestamp": 1764093310
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Entonces, un 2 en ese aspecto. Ahora, la siguiente pregunta: \"Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia\". ¿Cómo lo evaluarías?",
+      "timestamp": 1764093312
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso lo evaluaría como un 3. Me siento como si no estuviera cumpliendo con mis expectativas y las de los demás.",
+      "timestamp": 1764093313
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Es importante reconocerlo. Ahora, pasemos a la siguiente pregunta: \"Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión\". ¿Cómo te ha ido con esto?",
+      "timestamp": 1764093315
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo evaluaría como un 2. A veces me cuesta concentrarme en lo que estoy leyendo o viendo.",
+      "timestamp": 1764093316
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser honesta. Un 2 en ese aspecto. Siguiente pregunta: \"Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal\". ¿Cómo lo has sentido?",
+      "timestamp": 1764093317
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo evaluaría como un 1. A veces me siento un poco inquieta, pero no es algo constante.",
+      "timestamp": 1764093319
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por compartirlo. Entonces, un 1. Ahora, la última pregunta: \"Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera\". ¿Cómo te has sentido en relación a esto?",
+      "timestamp": 1764093321
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso lo evaluaría como un 2. Ha habido momentos oscuros, pero no he tomado ninguna acción.",
+      "timestamp": 1764093322
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que hayas estado pasando por momentos oscuros. Agradezco tu valentía al compartir esto. Es un paso importante hacia el entendimiento y la sanación. Hablemos de cómo podemos apoyarte en este proceso.",
+      "timestamp": 1764093323
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias. Aprecio que me escuches y estoy dispuesta a explorar cómo puedo sentirme mejor.",
+      "timestamp": 1764093324
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que estás dispuesta a explorar. Juntos podemos trabajar en estrategias y herramientas que te ayuden a sentirte mejor. ¿Te gustaría comenzar con algunas técnicas de manejo emocional?",
+      "timestamp": 1764093325
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría aprender algunas técnicas. Quiero sentirme más en control de mis emociones.",
+      "timestamp": 1764093327
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093327
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es genial que quieras sentirte más en control. Antes de eso, me gustaría explorar un poco más cómo te has sentido en las últimas dos semanas usando un cuestionario llamado PHQ-9. Esto nos ayudará a entender mejor tus síntomas. ¿Te gustaría responderlo?",
+      "timestamp": 1764093329
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya hemos cubierto bastante con este cuestionario, pero si hay algo más que pueda ayudar, estoy dispuesta a responder.",
+      "timestamp": 1764093330
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y aprecio tu disposición. Entonces, centrémonos en algunas técnicas de manejo emocional. Una técnica útil es la respiración profunda. ¿Te gustaría que te guíe a través de un breve ejercicio de respiración?",
+      "timestamp": 1764093332
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que la respiración profunda podría ayudarme a calmarme un poco.",
+      "timestamp": 1764093334
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093334
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. Siéntate cómodamente, cierra los ojos si te sientes a gusto, y vamos a inhalar profundamente por la nariz contando hasta cuatro... 1, 2, 3, 4. Ahora sostiene la respiración por un momento... y exhala lentamente por la boca contando hasta seis... 1, 2, 3, 4, 5, 6. \n\nRepite esto un par de veces más. ¿Cómo te sientes?",
+      "timestamp": 1764093336
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila. La respiración profunda realmente ayuda a relajarme. Gracias por guiarme.",
+      "timestamp": 1764093338
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093338
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te ha ayudado a sentirte más tranquila. La respiración profunda es una herramienta poderosa. Si deseas, podemos seguir trabajando en más técnicas o profundizar en lo que has sentido. ¿Te gustaría continuar explorando estrategias?",
+      "timestamp": 1764093339
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría aprender más estrategias. Quiero tener herramientas para enfrentar mis emociones.",
+      "timestamp": 1764093340
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Otra estrategia útil es el \"diario emocional\". Escribir sobre tus pensamientos y sentimientos puede ayudarte a procesarlos mejor. Podrías dedicar unos minutos cada día a anotar lo que sientes. ¿Te parece una buena idea?",
+      "timestamp": 1764093342
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece una buena idea. Creo que escribir podría ayudarme a aclarar mis pensamientos y emociones.",
+      "timestamp": 1764093343
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es una excelente manera de autoconocimiento. Puedes comenzar escribiendo sobre tus emociones diarias, lo que te preocupa o incluso lo que te hace sentir bien. También te recomiendo que revises lo que escribiste después de unos días para ver si hay patrones. ¿Te gustaría que te diera más sugerencias sobre cómo abordar el diario emocional?",
+      "timestamp": 1764093346
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría recibir más sugerencias. Quiero asegurarme de que me ayude realmente.",
+      "timestamp": 1764093347
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, aquí tienes algunas sugerencias para llevar un diario emocional efectivo:\n\n1. **Establece un horario:** Dedica un momento específico del día para escribir, puede ser por la mañana o antes de dormir.\n\n2. **Sé honesta:** No te preocupes por la gramática o la estructura. Escribe lo que sientes sin juzgarte.\n\n3. **Incluye detalles:** Describe situaciones específicas que desencadenaron tus emociones y cómo reaccionaste.\n\n4. **Reflexiona:** Al final de cada semana, revisa lo que escribiste y pregúntate si hay patrones en tus sentimientos.\n\n5. **Hazlo un ritual positivo:** Puedes acompañar tu escritura con una taza de té o música suave para que te resulte más placentero.\n\n¿Te gustaría probar alguna de estas sugerencias esta semana?",
+      "timestamp": 1764093351
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que probaré establecer un horario y hacerlo un ritual positivo. Me parece que eso lo hará más especial.",
+      "timestamp": 1764093352
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena maravilloso. Crear un ambiente especial para ti puede hacer una gran diferencia. Recuerda ser amable contigo misma durante este proceso. Estoy aquí para apoyarte en cualquier momento. ¿Hay alguna otra estrategia o tema que te gustaría explorar hoy?",
+      "timestamp": 1764093353
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora, creo que eso es suficiente. Estoy agradecida por lo que hemos hablado y las estrategias que me has compartido.",
+      "timestamp": 1764093355
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que te sientas así. Ha sido un placer acompañarte en esta sesión y explorar juntos tus emociones. Recuerda que estás en un camino de autoconocimiento y sanación. Estoy aquí para apoyarte cuando lo necesites. ¡Hasta la próxima!",
+      "timestamp": 1764093357
+    },
+    {
+      "agent": "Elena Martínez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, realmente aprecio tu apoyo. ¡Hasta la próxima!",
+      "timestamp": 1764093358
+    }
+  ],
+  "notes": null
+}

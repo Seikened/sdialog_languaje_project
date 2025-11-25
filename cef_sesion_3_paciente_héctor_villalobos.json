@@ -1,0 +1,680 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T17:51:41Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 4127375315,
+  "id": "7670b5f5-2832-4dea-add7-b4a27ce877bd",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Héctor Villalobos": {
+      "name": "Héctor Villalobos",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEF) | estudiante de Contaduría y Estrategias Financieras en la Ibero de 8vo semestre; le gusta salir a comer, ver series tranquilas y pasar tiempo con su familia.",
+      "personality": "reservado y metódico",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Hola, gracias. Me siento un poco nervioso, es mi primera vez en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para escucharte y apoyarte. ¿Te gustaría compartir qué te trae hoy aquí?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Últimamente he estado sintiéndome un poco deprimido y no estoy seguro de cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y agradezco que compartas eso conmigo. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, solo es una herramienta que usamos para tener una mejor comprensión."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, creo que eso podría ayudarme. Estoy dispuesto a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes las preguntas del PHQ-9. Responderemos cada una de ellas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Poco interés o placer en hacer cosas? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que ha sido más de la mitad de los días, así que marcaría un 2."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. La siguiente pregunta es:\n\n2. ¿Te has sentido decaído(a), deprimido(a) o sin esperanzas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "En mi caso, sería un 2 también. Me he sentido así más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Ahora, pasemos a la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Diría que un 2 también, he tenido problemas para dormir bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Continuemos con la siguiente pregunta:\n\n4. ¿Te has sentido cansado(a) o con poca energía? ¿Cómo calificarías esa sensación?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Ese sería un 3 para mí. Me siento cansado casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es importante reconocer eso. Ahora, la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has comido en exceso? ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que sería un 2. He estado comiendo menos de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Ahora vamos con la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo(a), o has sentido que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Esa sería un 2. Me he sentido así más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu sinceridad. Continuemos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Le daría un 2 también. Me cuesta concentrarme en esas cosas últimamente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso puede ser muy frustrante. Ahora, la penúltima pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, ¿has estado tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal? ¿Cómo calificarías eso?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Diría que un 1. A veces me siento un poco inquieto, pero no es siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Ahora vamos a la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Eso sería un 1 para mí. A veces he tenido pensamientos oscuros, pero no son constantes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio que compartas eso. Gracias por responder el cuestionario. Es un buen primer paso para entender cómo te has estado sintiendo. Hablemos sobre lo que esto significa para ti y cómo podemos trabajar en esto juntos."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Gracias, me parece bien. Estoy dispuesto a explorar esto y ver cómo puedo sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es muy positivo, y estoy aquí para guiarte en este proceso. Comencemos a explorar las raíces de esos sentimientos y hablemos de estrategias para manejarlos. ¿Te gustaría hablar sobre algún evento o situación específica que hayas notado que afecta tus emociones?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, creo que puedo hablar sobre la presión en la universidad. A veces se siente abrumadora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica puede ser realmente abrumadora. Hablemos de esa presión en más detalle. ¿Qué aspectos de la universidad sientes que te generan más estrés?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Principalmente las entregas de trabajos y los exámenes. Siento que siempre hay algo que debo hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que esa carga constante te genere ansiedad. Vamos a trabajar juntos en eso. ¿Has probado alguna técnica para manejar el estrés y la ansiedad relacionados con estas responsabilidades escolares?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "He intentado organizarme mejor, pero a veces no funciona. Me siento igualmente abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La organización es un buen comienzo, pero a veces puede que necesitemos ajustar nuestras estrategias. Hablemos sobre cómo podrías establecer prioridades o dividir tus tareas en partes más manejables. ¿Te gustaría explorar eso juntos?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, eso suena útil. Me gustaría aprender cómo hacerlo mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, vamos a trabajar en eso. Una técnica que podríamos usar es el método de la lista de tareas. ¿Te gustaría que te guiara paso a paso sobre cómo crear una lista efectiva y establecer prioridades?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría mucho eso. Estoy listo para aprender."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Primero, tómate un momento para escribir todas las tareas que tienes pendientes, sin preocuparte por el orden. Simplemente anota todo lo que necesitas hacer. ¿Puedes hacer eso ahora?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, puedo hacerlo. Voy a escribir mis tareas pendientes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Tómate tu tiempo. Una vez que hayas terminado, podemos revisar la lista juntos y empezar a priorizar esas tareas. Estoy aquí para ayudarte."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Gracias, voy a terminar de escribirlas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, tómate tu tiempo. Estoy aquí cuando estés listo para continuar."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Listo, ya tengo mi lista. ¿Cómo seguimos?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, ahora que tienes tu lista, el siguiente paso es clasificar las tareas. Puedes usar tres categorías: urgente, importante, y opcional. \n\n1. **Urgente**: tareas que deben hacerse pronto.\n2. **Importante**: tareas que son significativas, pero no necesariamente urgentes.\n3. **Opcional**: tareas que pueden esperar.\n\n¿Puedes clasificar tus tareas en estas categorías?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Claro, voy a clasificarlas. Algunas son urgentes, como entregar trabajos, y otras son importantes, como estudiar para exámenes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, eso es un gran primer paso. Ahora, para las tareas que clasificaste como urgentes, ¿podrías establecer fechas límite o momentos específicos para completarlas? Esto te ayudará a crear un plan de acción y a sentirte más en control."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, puedo establecer fechas. Para las entregas, puedo asignar un día específico para cada una. Eso debería ayudarme a organizarme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena genial. Tener fechas específicas te dará un enfoque claro. Ahora, para las tareas importantes, considera asignarles un tiempo durante la semana para trabajar en ellas. Esto te permitirá avanzar sin tanta presión. ¿Te gustaría hacer eso también?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, eso me parece una buena idea. Puedo dedicar algunas horas a la semana para trabajar en esas tareas importantes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, me alegra que te parezca útil. Crear un horario para tus tareas importantes te ayudará a distribuir mejor tu tiempo y disminuir la sensación de agobio. ¿Cuándo te gustaría empezar a implementar este nuevo plan?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Me gustaría empezar el lunes. Creo que es un buen día para comenzar con una nueva rutina."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena excelente. Comenzar el lunes te dará la oportunidad de establecer una nueva rutina positiva. Recuerda ser flexible contigo mismo mientras te adaptas. Estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría trabajar hoy?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Por ahora, creo que eso es suficiente. Me siento un poco más aliviado al tener un plan. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Tener un plan puede hacer una gran diferencia. Recuerda que estoy aquí para ayudarte en cada paso. Siéntete libre de compartir tus avances en las próximas sesiones. ¡Nos vemos la próxima vez! Cuídate."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "¡Gracias! Nos vemos la próxima vez. Cuídate también."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764093021
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, es mi primera vez en una sesión de terapia.",
+      "timestamp": 1764093022
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para escucharte y apoyarte. ¿Te gustaría compartir qué te trae hoy aquí?",
+      "timestamp": 1764093024
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Últimamente he estado sintiéndome un poco deprimido y no estoy seguro de cómo manejarlo.",
+      "timestamp": 1764093025
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093025
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y agradezco que compartas eso conmigo. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, solo es una herramienta que usamos para tener una mejor comprensión.",
+      "timestamp": 1764093027
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme. Estoy dispuesto a intentarlo.",
+      "timestamp": 1764093028
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_RLMTsRbFtTdv28MH65QjVAV7"
+      },
+      "timestamp": 1764093028
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_RLMTsRbFtTdv28MH65QjVAV7"
+      },
+      "timestamp": 1764093028
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes las preguntas del PHQ-9. Responderemos cada una de ellas. \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Poco interés o placer en hacer cosas? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)",
+      "timestamp": 1764093031
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido más de la mitad de los días, así que marcaría un 2.",
+      "timestamp": 1764093032
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. La siguiente pregunta es:\n\n2. ¿Te has sentido decaído(a), deprimido(a) o sin esperanzas? ¿Cómo lo calificarías?",
+      "timestamp": 1764093034
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En mi caso, sería un 2 también. Me he sentido así más de la mitad de los días.",
+      "timestamp": 1764093035
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora, pasemos a la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764093036
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 2 también, he tenido problemas para dormir bien.",
+      "timestamp": 1764093038
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Continuemos con la siguiente pregunta:\n\n4. ¿Te has sentido cansado(a) o con poca energía? ¿Cómo calificarías esa sensación?",
+      "timestamp": 1764093039
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese sería un 3 para mí. Me siento cansado casi todos los días.",
+      "timestamp": 1764093041
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es importante reconocer eso. Ahora, la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has comido en exceso? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764093043
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2. He estado comiendo menos de lo normal.",
+      "timestamp": 1764093044
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Ahora vamos con la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo(a), o has sentido que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia? ¿Cómo lo calificarías?",
+      "timestamp": 1764093046
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 2. Me he sentido así más de la mitad de los días.",
+      "timestamp": 1764093047
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu sinceridad. Continuemos con la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cuál sería tu respuesta?",
+      "timestamp": 1764093048
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2 también. Me cuesta concentrarme en esas cosas últimamente.",
+      "timestamp": 1764093049
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso puede ser muy frustrante. Ahora, la penúltima pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o al contrario, ¿has estado tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal? ¿Cómo calificarías eso?",
+      "timestamp": 1764093051
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 1. A veces me siento un poco inquieto, pero no es siempre.",
+      "timestamp": 1764093052
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Ahora vamos a la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo lo calificarías?",
+      "timestamp": 1764093053
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 1 para mí. A veces he tenido pensamientos oscuros, pero no son constantes.",
+      "timestamp": 1764093054
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio que compartas eso. Gracias por responder el cuestionario. Es un buen primer paso para entender cómo te has estado sintiendo. Hablemos sobre lo que esto significa para ti y cómo podemos trabajar en esto juntos.",
+      "timestamp": 1764093056
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, me parece bien. Estoy dispuesto a explorar esto y ver cómo puedo sentirme mejor.",
+      "timestamp": 1764093057
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es muy positivo, y estoy aquí para guiarte en este proceso. Comencemos a explorar las raíces de esos sentimientos y hablemos de estrategias para manejarlos. ¿Te gustaría hablar sobre algún evento o situación específica que hayas notado que afecta tus emociones?",
+      "timestamp": 1764093059
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que puedo hablar sobre la presión en la universidad. A veces se siente abrumadora.",
+      "timestamp": 1764093063
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica puede ser realmente abrumadora. Hablemos de esa presión en más detalle. ¿Qué aspectos de la universidad sientes que te generan más estrés?",
+      "timestamp": 1764093064
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente las entregas de trabajos y los exámenes. Siento que siempre hay algo que debo hacer.",
+      "timestamp": 1764093065
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que esa carga constante te genere ansiedad. Vamos a trabajar juntos en eso. ¿Has probado alguna técnica para manejar el estrés y la ansiedad relacionados con estas responsabilidades escolares?",
+      "timestamp": 1764093068
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado organizarme mejor, pero a veces no funciona. Me siento igualmente abrumado.",
+      "timestamp": 1764093069
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La organización es un buen comienzo, pero a veces puede que necesitemos ajustar nuestras estrategias. Hablemos sobre cómo podrías establecer prioridades o dividir tus tareas en partes más manejables. ¿Te gustaría explorar eso juntos?",
+      "timestamp": 1764093071
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena útil. Me gustaría aprender cómo hacerlo mejor.",
+      "timestamp": 1764093072
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, vamos a trabajar en eso. Una técnica que podríamos usar es el método de la lista de tareas. ¿Te gustaría que te guiara paso a paso sobre cómo crear una lista efectiva y establecer prioridades?",
+      "timestamp": 1764093073
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Estoy listo para aprender.",
+      "timestamp": 1764093074
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Primero, tómate un momento para escribir todas las tareas que tienes pendientes, sin preocuparte por el orden. Simplemente anota todo lo que necesitas hacer. ¿Puedes hacer eso ahora?",
+      "timestamp": 1764093075
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, puedo hacerlo. Voy a escribir mis tareas pendientes.",
+      "timestamp": 1764093076
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Tómate tu tiempo. Una vez que hayas terminado, podemos revisar la lista juntos y empezar a priorizar esas tareas. Estoy aquí para ayudarte.",
+      "timestamp": 1764093078
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, voy a terminar de escribirlas.",
+      "timestamp": 1764093078
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, tómate tu tiempo. Estoy aquí cuando estés listo para continuar.",
+      "timestamp": 1764093079
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Listo, ya tengo mi lista. ¿Cómo seguimos?",
+      "timestamp": 1764093080
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, ahora que tienes tu lista, el siguiente paso es clasificar las tareas. Puedes usar tres categorías: urgente, importante, y opcional. \n\n1. **Urgente**: tareas que deben hacerse pronto.\n2. **Importante**: tareas que son significativas, pero no necesariamente urgentes.\n3. **Opcional**: tareas que pueden esperar.\n\n¿Puedes clasificar tus tareas en estas categorías?",
+      "timestamp": 1764093082
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, voy a clasificarlas. Algunas son urgentes, como entregar trabajos, y otras son importantes, como estudiar para exámenes.",
+      "timestamp": 1764093084
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, eso es un gran primer paso. Ahora, para las tareas que clasificaste como urgentes, ¿podrías establecer fechas límite o momentos específicos para completarlas? Esto te ayudará a crear un plan de acción y a sentirte más en control.",
+      "timestamp": 1764093086
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, puedo establecer fechas. Para las entregas, puedo asignar un día específico para cada una. Eso debería ayudarme a organizarme mejor.",
+      "timestamp": 1764093088
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena genial. Tener fechas específicas te dará un enfoque claro. Ahora, para las tareas importantes, considera asignarles un tiempo durante la semana para trabajar en ellas. Esto te permitirá avanzar sin tanta presión. ¿Te gustaría hacer eso también?",
+      "timestamp": 1764093090
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me parece una buena idea. Puedo dedicar algunas horas a la semana para trabajar en esas tareas importantes.",
+      "timestamp": 1764093091
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, me alegra que te parezca útil. Crear un horario para tus tareas importantes te ayudará a distribuir mejor tu tiempo y disminuir la sensación de agobio. ¿Cuándo te gustaría empezar a implementar este nuevo plan?",
+      "timestamp": 1764093093
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría empezar el lunes. Creo que es un buen día para comenzar con una nueva rutina.",
+      "timestamp": 1764093094
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena excelente. Comenzar el lunes te dará la oportunidad de establecer una nueva rutina positiva. Recuerda ser flexible contigo mismo mientras te adaptas. Estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría trabajar hoy?",
+      "timestamp": 1764093096
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora, creo que eso es suficiente. Me siento un poco más aliviado al tener un plan. Gracias por tu ayuda.",
+      "timestamp": 1764093098
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Tener un plan puede hacer una gran diferencia. Recuerda que estoy aquí para ayudarte en cada paso. Siéntete libre de compartir tus avances en las próximas sesiones. ¡Nos vemos la próxima vez! Cuídate.",
+      "timestamp": 1764093100
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos la próxima vez. Cuídate también.",
+      "timestamp": 1764093101
+    }
+  ],
+  "notes": null
+}

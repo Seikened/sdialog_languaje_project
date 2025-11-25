@@ -1,0 +1,432 @@
+{
+  "version": "0.4.2+fe9b124c2c5a14fb1d57c10258212da35ebe04b4",
+  "timestamp": "2025-11-25T18:00:22Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1920271687,
+  "id": "64ade983-6074-4ade-9551-c377bcf64851",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Luis Ángel Romero": {
+      "name": "Luis Ángel Romero",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DGI) | estudiante de Diseño Gráfico e Innovación en la Ibero de 6to semestre; le gusta ilustrar en su tablet, editar fotos y ver contenido visual en Instagram y TikTok.",
+      "personality": "extrovertido pero inseguro",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso. Nunca he estado en terapia antes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso la primera vez. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría comenzar hablando de lo que te ha traído aquí?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, eso estaría bien. Últimamente he estado sintiéndome un poco perdido y, a veces, muy triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso conmigo. Quiero que sepamos un poco más sobre cómo te has sentido, así que hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar tus emociones de las últimas dos semanas. ¿Estás de acuerdo en responderlo?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Claro, estoy de acuerdo. Espero que me ayude a entenderme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes algunas preguntas que nos ayudarán a profundizar en cómo te has estado sintiendo. Por favor, respóndelas teniendo en cuenta las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.  \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n4. Sentirte cansado(a) o con poca energía.  \n5. Tener poco apetito o comer en exceso.  \n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n\nPuedes responder a cada uno en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". ¿Te gustaría comenzar?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, lo haré. \n\n1. 2  \n2. 3  \n3. 2  \n4. 2  \n5. 1  \n6. 3  \n7. 2  \n8. 1  \n9. 0  \n\nEspero que eso ayude."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas conmigo, Luis. Parece que has estado atravesando momentos difíciles y eso es muy importante de reconocer. ¿Te gustaría hablar más sobre alguno de estos puntos en particular?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría hablar sobre cómo me siento decaído y sin esperanzas. A veces siento que no sé qué hacer con mi vida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que te sientas así, y aprecio tu apertura. La sensación de decaimiento y falta de esperanza puede ser muy abrumadora. Para explorar esto con más detalle, hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus emociones en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede servirnos de guía."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que ya respondí ese cuestionario. Pero si hay algo más que deba hacer, estoy dispuesto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes razón, ya hemos revisado ese cuestionario. Ahora podemos explorar cómo estas emociones han afectado diferentes áreas de tu vida. ¿Podrías compartir un momento específico en el que te hayas sentido particularmente sin esperanza?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, recuerdo un día en específico cuando no pude levantarme de la cama. Sentí que nada tenía sentido, y eso me asustó."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que hayas experimentado eso. Es realmente difícil sentirse así y es importante reconocer esos momentos. ¿Qué te gustaría cambiar o cómo te gustaría sentirte en situaciones similares en el futuro?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Me gustaría sentirme más motivado y encontrar una razón para levantarme. Quiero volver a disfrutar de las cosas que solía hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un objetivo muy valioso, y el deseo de volver a disfrutar de las cosas que te importan es un gran primer paso. Podríamos trabajar juntos en estrategias para fomentar esa motivación. ¿Te gustaría que comenzáramos a explorar algunas pequeñas acciones que podrías tomar?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, eso me gustaría. Necesito algunas ideas para empezar a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, aquí van algunas ideas que podrías considerar:\n\n1. **Establecer pequeñas metas diarias**: Comienza con algo pequeño, como salir a dar un paseo corto o dedicar diez minutos a una actividad que solías disfrutar.  \n2. **Rutina de autocuidado**: Intenta reservar un tiempo cada día para hacer algo que te haga sentir bien, como leer, escuchar música o meditar.  \n3. **Conectar con alguien**: Hablar con un amigo o familiar, incluso si es por teléfono, puede ofrecerte apoyo y compañía.  \n4. **Escribir un diario**: Expresar tus pensamientos y sentimientos en papel puede ayudarte a procesarlos y a aclarar tu mente.  \n\n¿Cuál de estas ideas te parece más accesible para empezar?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que escribir un diario podría ser un buen comienzo. Me ayudaría a poner en orden mis pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una excelente elección. Escribir un diario puede ser terapéutico y te permitirá reflexionar sobre tus emociones y experiencias. Trata de hacerlo al menos unos minutos cada día. ¿Te gustaría que estableciéramos un recordatorio para que te ayude a mantener esta rutina?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, eso sería útil. Un recordatorio podría ayudarme a no olvidarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, podemos establecer un horario que funcione para ti. ¿Qué momento del día te parece más adecuado para dedicar a escribir en tu diario?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que por la noche, antes de dormir, sería un buen momento para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente elección. Escribir antes de dormir puede ayudar a aclarar tu mente y prepararte para un mejor descanso. Te recomiendo que configures un recordatorio diario en tu teléfono o una alarma para que no se te pase. ¿Te gustaría hablar sobre algo más o estás contento con lo que hemos trabajado hoy?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Estoy contento con lo que hemos trabajado hoy. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias a ti, Luis, por compartir tus experiencias hoy. \n\n**Resumen clínico dirigido al psicólogo**: \n\n**Motivo de consulta**: Luis Ángel Romero, nuevo paciente, se presenta con sentimientos de pérdida y tristeza.  \n**Síntomas principales**: Respuestas en el PHQ-9 indican decaimiento emocional, poca motivación y dificultad para disfrutar de actividades.  \n**Impresión general**: Luis muestra signos de depresión moderada, evidenciado por sus respuestas en el cuestionario.  \n**Hipótesis clínicas iniciales**: Dificultad para encontrar sentido y motivación en la vida, posiblemente relacionada con eventos recientes o cambios en su vida personal.  \n**Plan para la siguiente sesión**: Monitorizar el progreso de Luis en la escritura del diario, explorar más a fondo sus pensamientos y emociones negativas, y comenzar a trabajar en técnicas de afrontamiento y establecimiento de metas.\n\nEspero que esto ayude a clarificar los siguientes pasos. ¡Nos vemos la próxima vez!"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Gracias, nos vemos la próxima vez. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764093568
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso. Nunca he estado en terapia antes.",
+      "timestamp": 1764093569
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso la primera vez. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría comenzar hablando de lo que te ha traído aquí?",
+      "timestamp": 1764093570
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso estaría bien. Últimamente he estado sintiéndome un poco perdido y, a veces, muy triste.",
+      "timestamp": 1764093571
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093571
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso conmigo. Quiero que sepamos un poco más sobre cómo te has sentido, así que hay un cuestionario llamado PHQ-9 que puede ayudarnos a explorar tus emociones de las últimas dos semanas. ¿Estás de acuerdo en responderlo?",
+      "timestamp": 1764093572
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, estoy de acuerdo. Espero que me ayude a entenderme mejor.",
+      "timestamp": 1764093573
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has estado molesto o preocupado por cosas que normalmente no te preocuparían?"
+        },
+        "id": "call_tnxYeWmmoefQX2bgnnUJmjpo"
+      },
+      "timestamp": 1764093574
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has estado molesto o preocupado por cosas que normalmente no te preocuparían?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_tnxYeWmmoefQX2bgnnUJmjpo"
+      },
+      "timestamp": 1764093574
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes algunas preguntas que nos ayudarán a profundizar en cómo te has estado sintiendo. Por favor, respóndelas teniendo en cuenta las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.  \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n4. Sentirte cansado(a) o con poca energía.  \n5. Tener poco apetito o comer en exceso.  \n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n\nPuedes responder a cada uno en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". ¿Te gustaría comenzar?",
+      "timestamp": 1764093581
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, lo haré. \n\n1. 2  \n2. 3  \n3. 2  \n4. 2  \n5. 1  \n6. 3  \n7. 2  \n8. 1  \n9. 0  \n\nEspero que eso ayude.",
+      "timestamp": 1764093583
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas conmigo, Luis. Parece que has estado atravesando momentos difíciles y eso es muy importante de reconocer. ¿Te gustaría hablar más sobre alguno de estos puntos en particular?",
+      "timestamp": 1764093585
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre cómo me siento decaído y sin esperanzas. A veces siento que no sé qué hacer con mi vida.",
+      "timestamp": 1764093586
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764093586
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que te sientas así, y aprecio tu apertura. La sensación de decaimiento y falta de esperanza puede ser muy abrumadora. Para explorar esto con más detalle, hay un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus emociones en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede servirnos de guía.",
+      "timestamp": 1764093588
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya respondí ese cuestionario. Pero si hay algo más que deba hacer, estoy dispuesto.",
+      "timestamp": 1764093590
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes razón, ya hemos revisado ese cuestionario. Ahora podemos explorar cómo estas emociones han afectado diferentes áreas de tu vida. ¿Podrías compartir un momento específico en el que te hayas sentido particularmente sin esperanza?",
+      "timestamp": 1764093591
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, recuerdo un día en específico cuando no pude levantarme de la cama. Sentí que nada tenía sentido, y eso me asustó.",
+      "timestamp": 1764093593
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que hayas experimentado eso. Es realmente difícil sentirse así y es importante reconocer esos momentos. ¿Qué te gustaría cambiar o cómo te gustaría sentirte en situaciones similares en el futuro?",
+      "timestamp": 1764093594
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría sentirme más motivado y encontrar una razón para levantarme. Quiero volver a disfrutar de las cosas que solía hacer.",
+      "timestamp": 1764093596
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un objetivo muy valioso, y el deseo de volver a disfrutar de las cosas que te importan es un gran primer paso. Podríamos trabajar juntos en estrategias para fomentar esa motivación. ¿Te gustaría que comenzáramos a explorar algunas pequeñas acciones que podrías tomar?",
+      "timestamp": 1764093597
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Necesito algunas ideas para empezar a sentirme mejor.",
+      "timestamp": 1764093598
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, aquí van algunas ideas que podrías considerar:\n\n1. **Establecer pequeñas metas diarias**: Comienza con algo pequeño, como salir a dar un paseo corto o dedicar diez minutos a una actividad que solías disfrutar.  \n2. **Rutina de autocuidado**: Intenta reservar un tiempo cada día para hacer algo que te haga sentir bien, como leer, escuchar música o meditar.  \n3. **Conectar con alguien**: Hablar con un amigo o familiar, incluso si es por teléfono, puede ofrecerte apoyo y compañía.  \n4. **Escribir un diario**: Expresar tus pensamientos y sentimientos en papel puede ayudarte a procesarlos y a aclarar tu mente.  \n\n¿Cuál de estas ideas te parece más accesible para empezar?",
+      "timestamp": 1764093602
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que escribir un diario podría ser un buen comienzo. Me ayudaría a poner en orden mis pensamientos.",
+      "timestamp": 1764093603
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una excelente elección. Escribir un diario puede ser terapéutico y te permitirá reflexionar sobre tus emociones y experiencias. Trata de hacerlo al menos unos minutos cada día. ¿Te gustaría que estableciéramos un recordatorio para que te ayude a mantener esta rutina?",
+      "timestamp": 1764093606
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería útil. Un recordatorio podría ayudarme a no olvidarlo.",
+      "timestamp": 1764093607
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, podemos establecer un horario que funcione para ti. ¿Qué momento del día te parece más adecuado para dedicar a escribir en tu diario?",
+      "timestamp": 1764093608
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que por la noche, antes de dormir, sería un buen momento para mí.",
+      "timestamp": 1764093609
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente elección. Escribir antes de dormir puede ayudar a aclarar tu mente y prepararte para un mejor descanso. Te recomiendo que configures un recordatorio diario en tu teléfono o una alarma para que no se te pase. ¿Te gustaría hablar sobre algo más o estás contento con lo que hemos trabajado hoy?",
+      "timestamp": 1764093612
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy contento con lo que hemos trabajado hoy. Gracias por tu ayuda.",
+      "timestamp": 1764093613
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "session_summary",
+      "content": "La sesión de terapia acaba de concluir. 1) Llama primero a la herramienta symmary_session('session_summary') para estructurar los puntos clave de la sesión. 2) Después de recibir la salida de la herramienta, redacta un resumen clínico breve en texto natural, dirigido al psicólogo (no al paciente), incluyendo: motivo de consulta, síntomas principales, impresión general según las respuestas del PHQ-9, hipótesis clínicas iniciales y plan para la siguiente sesión. No inicies una nueva conversación con el paciente; solo cierra la sesión con este resumen.",
+      "timestamp": 1764093613
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Resumen de la sesión: El paciente, Luis Ángel Romero, asistió a la primera sesión de terapia mostrándose nervioso. Compartió que últimamente se ha sentido perdido y triste, complementando esto con respuestas del cuestionario PHQ-9 que indicaron síntomas de decaimiento, poca motivación y dificultad para disfrutar de actividades. Se acordó que escribir un diario podría ser una manera efectiva de ayudarle a ordenar sus pensamientos y fomentar la reflexión, y se estableció un recordatorio para que lo haga por las noches."
+        },
+        "id": "call_G1ZMkt8JmBeFg5scxyWWtQyy"
+      },
+      "timestamp": 1764093617
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Resumen de la sesión: El paciente, Luis Ángel Romero, asistió a la primera sesión de terapia mostrándose nervioso. Compartió que últimamente se ha sentido perdido y triste, complementando esto con respuestas del cuestionario PHQ-9 que indicaron síntomas de decaimiento, poca motivación y dificultad para disfrutar de actividades. Se acordó que escribir un diario podría ser una manera efectiva de ayudarle a ordenar sus pensamientos y fomentar la reflexión, y se estableció un recordatorio para que lo haga por las noches.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_G1ZMkt8JmBeFg5scxyWWtQyy"
+      },
+      "timestamp": 1764093617
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias a ti, Luis, por compartir tus experiencias hoy. \n\n**Resumen clínico dirigido al psicólogo**: \n\n**Motivo de consulta**: Luis Ángel Romero, nuevo paciente, se presenta con sentimientos de pérdida y tristeza.  \n**Síntomas principales**: Respuestas en el PHQ-9 indican decaimiento emocional, poca motivación y dificultad para disfrutar de actividades.  \n**Impresión general**: Luis muestra signos de depresión moderada, evidenciado por sus respuestas en el cuestionario.  \n**Hipótesis clínicas iniciales**: Dificultad para encontrar sentido y motivación en la vida, posiblemente relacionada con eventos recientes o cambios en su vida personal.  \n**Plan para la siguiente sesión**: Monitorizar el progreso de Luis en la escritura del diario, explorar más a fondo sus pensamientos y emociones negativas, y comenzar a trabajar en técnicas de afrontamiento y establecimiento de metas.\n\nEspero que esto ayude a clarificar los siguientes pasos. ¡Nos vemos la próxima vez!",
+      "timestamp": 1764093622
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, nos vemos la próxima vez. ¡Adiós!",
+      "timestamp": 1764093622
+    }
+  ],
+  "notes": null
+}

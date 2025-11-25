@@ -1,0 +1,625 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:41:21Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1725704286,
+  "id": "d5a085e3-4f4c-476d-a66d-4c14399ac206",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Héctor Villalobos": {
+      "name": "Héctor Villalobos",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEF) | estudiante de Contaduría y Estrategias Financieras en la Ibero de 8vo semestre; le gusta salir a comer, ver series tranquilas y pasar tiempo con su familia.",
+      "personality": "reservado y metódico",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir sobre lo que te preocupa?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, he estado sintiendo un poco de tristeza últimamente, y no estoy seguro de por qué."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y gracias por compartir eso. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que utilizamos a menudo. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede ayudarnos a entender mejor tu situación."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, claro. Estoy dispuesto a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes las preguntas del PHQ-9. Te pediré que me digas, en una escala del 0 al 3, con qué frecuencia has experimentado cada uno de estos problemas durante las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a).\n7. Tener dificultad para concentrarte en cosas como leer o ver televisión.\n8. Moverte o hablar tan lento que otros podrían notarlo, o sentirte muy inquieto(a).\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Cómo te gustaría comenzar?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Podemos empezar con la primera pregunta. Últimamente, he sentido poco interés o placer en hacer cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. En una escala del 0 al 3, ¿cuánto dirías que te ha afectado esto en las últimas dos semanas? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días)."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Diría que un 2, ha sido más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Pasemos a la segunda pregunta: ¿en las últimas dos semanas, cuántas veces te has sentido decaído(a), deprimido(a) o sin esperanzas? ¿Cuál sería tu puntuación del 0 al 3?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que un 2 también, me he sentido así más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. Ahora, la tercera pregunta: ¿has tenido dificultad para quedarte o permanecer dormido(a), o has dormido demasiado en las últimas dos semanas? ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Le daría un 1, algunos días he tenido dificultades para dormir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entendido. Pasemos a la cuarta pregunta: ¿te has sentido cansado(a) o con poca energía en las últimas dos semanas? ¿Cómo lo puntuarías del 0 al 3?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Le daría un 3, me he sentido cansado casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Ahora, la quinta pregunta: ¿has tenido poco apetito o has comido en exceso en las últimas dos semanas? ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que un 1, he tenido poco apetito algunos días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Ahora, la sexta pregunta: ¿te has sentido mal contigo mismo(a) o has sentido que eres un fracaso en las últimas dos semanas? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Le daría un 2, he sentido eso más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu sinceridad. Ahora, la séptima pregunta: ¿has tenido dificultad para concentrarte en cosas como leer o ver televisión en las últimas dos semanas? ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Diría que un 2, he tenido dificultades para concentrarme más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Ahora pasemos a la octava pregunta: ¿te has movido o hablado tan lento que otras personas podrían notarlo, o has sentido inquietud en las últimas dos semanas? ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Le daría un 1, he sentido algo de inquietud algunos días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entendido, gracias. Ahora, la novena pregunta: en las últimas dos semanas, ¿has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo lo puntuarías del 0 al 3?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Le daría un 1, he tenido esos pensamientos algunos días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco tu valentía al compartir esto. Ahora, para finalizar, la décima pregunta: ¿con qué frecuencia has sentido poco interés o placer en hacer cosas durante las últimas dos semanas? ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que ya lo mencioné, pero le daría un 2, ha sido más de la mitad de los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu paciencia y por responder a todas las preguntas. Tus respuestas nos dan información valiosa sobre cómo te has estado sintiendo. ¿Te gustaría que hablemos más sobre algún aspecto en particular que te haya llamado la atención?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría hablar más sobre la falta de energía que he estado sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, es un tema importante. La falta de energía puede estar relacionada con varias cosas. ¿Te gustaría compartir más sobre cuándo comenzaste a sentirte así y si hay momentos específicos en los que lo notas más intensamente?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Comencé a sentirme así desde hace un par de meses. Lo noto más intensamente en las mañanas, cuando tengo que levantarme para ir a la universidad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. La mañana puede ser un momento difícil para muchas personas. ¿Has notado si hay algo en particular que te ayude a sentirte un poco mejor o a motivarte en esos momentos?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "A veces, escuchar música me ayuda un poco, pero no siempre funciona."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno que hayas identificado la música como algo que puede ayudarte. A veces, establecer una rutina o incorporar pequeñas actividades que te gusten puede marcar la diferencia. ¿Te gustaría explorar algunas estrategias que podrías probar para las mañanas?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría explorar algunas estrategias. Creo que podría ser útil."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Aquí hay algunas estrategias que podrías considerar:\n\n1. **Rutina de sueño regular**: Intenta acostarte y levantarte a la misma hora cada día para regular tu reloj biológico.\n2. **Despertarte con música**: Escoge canciones que te motiven o te hagan sentir bien para iniciar el día con energía.\n3. **Ejercicio ligero**: Un poco de actividad física en la mañana, como estiramientos o una caminata corta, puede ayudar a activar tu cuerpo.\n4. **Desayuno nutritivo**: Comer algo saludable al levantarte puede darte la energía que necesitas para comenzar el día.\n5. **Momentos de gratitud**: Al despertar, piensa en tres cosas por las que estás agradecido, esto puede cambiar tu perspectiva.\n\n¿Cuál de estas estrategias te parece más interesante para probar?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que empezar con la música al despertarme sería una buena idea. Me gusta la música y puede ayudarme a sentirme más motivado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una excelente elección. La música puede tener un gran impacto en nuestro estado de ánimo. Puedes crear una lista de reproducción con tus canciones favoritas y ponerla como alarma. ¿Te gustaría establecer algún objetivo en torno a esto para la próxima semana?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría intentar hacerlo todos los días de la próxima semana. Poner la música como alarma y ver cómo me siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un gran plan. Te animo a que lo hagas y, si te parece útil, lo continuemos en las siguientes sesiones. ¿Te gustaría compartir algo más antes de que finalicemos la sesión de hoy?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "No, creo que eso es todo por ahora. Aprecio mucho tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por estar aquí hoy. Espero que la estrategia de usar música como alarma te ayude a sentirte más motivado por las mañanas. Recuerda que estoy aquí para apoyarte en este proceso.\n\n**Resumen clínico para el psicólogo:**\n- **Motivo de consulta:** El paciente se presenta con sentimientos de tristeza y falta de energía.\n- **Síntomas principales:** Puntuaciones del PHQ-9 indican un 2 en interés en actividades, un 2 en sentirse decaído, un 1 en dificultades para dormir, un 3 en fatiga, un 1 en apetito, un 2 en autoestima negativa, y un 1 en pensamientos de autolesionarse.\n- **Impresión general:** El paciente muestra síntomas moderados de depresión, con un foco especial en la falta de energía y motivación.\n- **Hipótesis clínicas iniciales:** Posible depresión leve a moderada con necesidad de intervención en motivación y rutinas diarias.\n- **Plan para la siguiente sesión:** Evaluar la efectividad de la estrategia musical y seguir explorando la falta de energía y cualquier otro síntoma psicológico que surja.\n\nTe deseo lo mejor para la próxima semana y espero verte pronto. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Gracias. Hasta luego."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764034815
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en una sesión así.",
+      "timestamp": 1764034816
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para ayudarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir sobre lo que te preocupa?",
+      "timestamp": 1764034817
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo un poco de tristeza últimamente, y no estoy seguro de por qué.",
+      "timestamp": 1764034818
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764034818
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y gracias por compartir eso. Para explorar cómo te has sentido en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que utilizamos a menudo. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede ayudarnos a entender mejor tu situación.",
+      "timestamp": 1764034820
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro. Estoy dispuesto a responderlo.",
+      "timestamp": 1764034821
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_OaEnqcXH5F3OxpjZoFUAFYFR"
+      },
+      "timestamp": 1764034822
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_OaEnqcXH5F3OxpjZoFUAFYFR"
+      },
+      "timestamp": 1764034822
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes las preguntas del PHQ-9. Te pediré que me digas, en una escala del 0 al 3, con qué frecuencia has experimentado cada uno de estos problemas durante las últimas dos semanas:\n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a).\n7. Tener dificultad para concentrarte en cosas como leer o ver televisión.\n8. Moverte o hablar tan lento que otros podrían notarlo, o sentirte muy inquieto(a).\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Cómo te gustaría comenzar?",
+      "timestamp": 1764034826
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podemos empezar con la primera pregunta. Últimamente, he sentido poco interés o placer en hacer cosas.",
+      "timestamp": 1764034827
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. En una escala del 0 al 3, ¿cuánto dirías que te ha afectado esto en las últimas dos semanas? (0 = nunca, 1 = algunos días, 2 = más de la mitad de los días, 3 = casi todos los días).",
+      "timestamp": 1764034829
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 2, ha sido más de la mitad de los días.",
+      "timestamp": 1764034830
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Pasemos a la segunda pregunta: ¿en las últimas dos semanas, cuántas veces te has sentido decaído(a), deprimido(a) o sin esperanzas? ¿Cuál sería tu puntuación del 0 al 3?",
+      "timestamp": 1764034832
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2 también, me he sentido así más de la mitad de los días.",
+      "timestamp": 1764034833
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. Ahora, la tercera pregunta: ¿has tenido dificultad para quedarte o permanecer dormido(a), o has dormido demasiado en las últimas dos semanas? ¿Cuál sería tu puntuación?",
+      "timestamp": 1764034834
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, algunos días he tenido dificultades para dormir.",
+      "timestamp": 1764034835
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entendido. Pasemos a la cuarta pregunta: ¿te has sentido cansado(a) o con poca energía en las últimas dos semanas? ¿Cómo lo puntuarías del 0 al 3?",
+      "timestamp": 1764034836
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, me he sentido cansado casi todos los días.",
+      "timestamp": 1764034837
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora, la quinta pregunta: ¿has tenido poco apetito o has comido en exceso en las últimas dos semanas? ¿Cuál sería tu puntuación?",
+      "timestamp": 1764034838
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 1, he tenido poco apetito algunos días.",
+      "timestamp": 1764034839
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Ahora, la sexta pregunta: ¿te has sentido mal contigo mismo(a) o has sentido que eres un fracaso en las últimas dos semanas? ¿Cómo lo puntuarías?",
+      "timestamp": 1764034841
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, he sentido eso más de la mitad de los días.",
+      "timestamp": 1764034841
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu sinceridad. Ahora, la séptima pregunta: ¿has tenido dificultad para concentrarte en cosas como leer o ver televisión en las últimas dos semanas? ¿Cuál sería tu puntuación?",
+      "timestamp": 1764034843
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 2, he tenido dificultades para concentrarme más de la mitad de los días.",
+      "timestamp": 1764034843
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora pasemos a la octava pregunta: ¿te has movido o hablado tan lento que otras personas podrían notarlo, o has sentido inquietud en las últimas dos semanas? ¿Cómo lo puntuarías?",
+      "timestamp": 1764034845
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, he sentido algo de inquietud algunos días.",
+      "timestamp": 1764034846
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entendido, gracias. Ahora, la novena pregunta: en las últimas dos semanas, ¿has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo lo puntuarías del 0 al 3?",
+      "timestamp": 1764034848
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, he tenido esos pensamientos algunos días.",
+      "timestamp": 1764034849
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco tu valentía al compartir esto. Ahora, para finalizar, la décima pregunta: ¿con qué frecuencia has sentido poco interés o placer en hacer cosas durante las últimas dos semanas? ¿Cuál sería tu puntuación?",
+      "timestamp": 1764034851
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ya lo mencioné, pero le daría un 2, ha sido más de la mitad de los días.",
+      "timestamp": 1764034852
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu paciencia y por responder a todas las preguntas. Tus respuestas nos dan información valiosa sobre cómo te has estado sintiendo. ¿Te gustaría que hablemos más sobre algún aspecto en particular que te haya llamado la atención?",
+      "timestamp": 1764034853
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar más sobre la falta de energía que he estado sintiendo.",
+      "timestamp": 1764034854
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, es un tema importante. La falta de energía puede estar relacionada con varias cosas. ¿Te gustaría compartir más sobre cuándo comenzaste a sentirte así y si hay momentos específicos en los que lo notas más intensamente?",
+      "timestamp": 1764034855
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comencé a sentirme así desde hace un par de meses. Lo noto más intensamente en las mañanas, cuando tengo que levantarme para ir a la universidad.",
+      "timestamp": 1764034856
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. La mañana puede ser un momento difícil para muchas personas. ¿Has notado si hay algo en particular que te ayude a sentirte un poco mejor o a motivarte en esos momentos?",
+      "timestamp": 1764034858
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, escuchar música me ayuda un poco, pero no siempre funciona.",
+      "timestamp": 1764034858
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno que hayas identificado la música como algo que puede ayudarte. A veces, establecer una rutina o incorporar pequeñas actividades que te gusten puede marcar la diferencia. ¿Te gustaría explorar algunas estrategias que podrías probar para las mañanas?",
+      "timestamp": 1764034860
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría explorar algunas estrategias. Creo que podría ser útil.",
+      "timestamp": 1764034861
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Aquí hay algunas estrategias que podrías considerar:\n\n1. **Rutina de sueño regular**: Intenta acostarte y levantarte a la misma hora cada día para regular tu reloj biológico.\n2. **Despertarte con música**: Escoge canciones que te motiven o te hagan sentir bien para iniciar el día con energía.\n3. **Ejercicio ligero**: Un poco de actividad física en la mañana, como estiramientos o una caminata corta, puede ayudar a activar tu cuerpo.\n4. **Desayuno nutritivo**: Comer algo saludable al levantarte puede darte la energía que necesitas para comenzar el día.\n5. **Momentos de gratitud**: Al despertar, piensa en tres cosas por las que estás agradecido, esto puede cambiar tu perspectiva.\n\n¿Cuál de estas estrategias te parece más interesante para probar?",
+      "timestamp": 1764034865
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que empezar con la música al despertarme sería una buena idea. Me gusta la música y puede ayudarme a sentirme más motivado.",
+      "timestamp": 1764034868
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una excelente elección. La música puede tener un gran impacto en nuestro estado de ánimo. Puedes crear una lista de reproducción con tus canciones favoritas y ponerla como alarma. ¿Te gustaría establecer algún objetivo en torno a esto para la próxima semana?",
+      "timestamp": 1764034869
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentar hacerlo todos los días de la próxima semana. Poner la música como alarma y ver cómo me siento.",
+      "timestamp": 1764034870
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un gran plan. Te animo a que lo hagas y, si te parece útil, lo continuemos en las siguientes sesiones. ¿Te gustaría compartir algo más antes de que finalicemos la sesión de hoy?",
+      "timestamp": 1764034872
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Aprecio mucho tu ayuda.",
+      "timestamp": 1764034873
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "session_summary",
+      "content": "La sesión de terapia acaba de concluir. 1) Llama primero a la herramienta symmary_session('session_summary') para estructurar los puntos clave de la sesión. 2) Después de recibir la salida de la herramienta, redacta un resumen clínico breve en texto natural, dirigido al psicólogo (no al paciente), incluyendo: motivo de consulta, síntomas principales, impresión general según las respuestas del PHQ-9, hipótesis clínicas iniciales y plan para la siguiente sesión. No inicies una nueva conversación con el paciente; solo cierra la sesión con este resumen.",
+      "timestamp": 1764034873
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "summary"
+        },
+        "id": "call_zUjkWM36R3Is8JK631lzcR4x"
+      },
+      "timestamp": 1764034874
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"summary\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_zUjkWM36R3Is8JK631lzcR4x"
+      },
+      "timestamp": 1764034874
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "session_summary"
+        },
+        "id": "call_3bdcNnmFwM36dLmca1caZgvC"
+      },
+      "timestamp": 1764034874
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"session_summary\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_3bdcNnmFwM36dLmca1caZgvC"
+      },
+      "timestamp": 1764034874
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por estar aquí hoy. Espero que la estrategia de usar música como alarma te ayude a sentirte más motivado por las mañanas. Recuerda que estoy aquí para apoyarte en este proceso.\n\n**Resumen clínico para el psicólogo:**\n- **Motivo de consulta:** El paciente se presenta con sentimientos de tristeza y falta de energía.\n- **Síntomas principales:** Puntuaciones del PHQ-9 indican un 2 en interés en actividades, un 2 en sentirse decaído, un 1 en dificultades para dormir, un 3 en fatiga, un 1 en apetito, un 2 en autoestima negativa, y un 1 en pensamientos de autolesionarse.\n- **Impresión general:** El paciente muestra síntomas moderados de depresión, con un foco especial en la falta de energía y motivación.\n- **Hipótesis clínicas iniciales:** Posible depresión leve a moderada con necesidad de intervención en motivación y rutinas diarias.\n- **Plan para la siguiente sesión:** Evaluar la efectividad de la estrategia musical y seguir explorando la falta de energía y cualquier otro síntoma psicológico que surja.\n\nTe deseo lo mejor para la próxima semana y espero verte pronto. ¡Hasta luego!",
+      "timestamp": 1764034880
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias. Hasta luego.",
+      "timestamp": 1764034881
+    }
+  ],
+  "notes": null
+}

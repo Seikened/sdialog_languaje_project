@@ -1,0 +1,319 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:34:40Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3432963183,
+  "id": "13817820-5134-4a68-980c-5360ebf89890",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Alejandro Torres": {
+      "name": "Alejandro Torres",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 5to semestre; le gusta ver videos de ciencia ligeros, convivir con pocos amigos y pasar tardes tranquilas en casa.",
+      "personality": "callado y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Hola. La verdad es que me siento un poco nervioso. No estoy acostumbrado a hablar de mis cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse así al principio. Este es un espacio seguro donde puedes compartir lo que desees a tu propio ritmo. ¿Te gustaría empezar hablando de lo que te trae aquí?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que eso podría ayudar. Últimamente me he sentido un poco... bajo de ánimo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es importante reconocer esos sentimientos. ¿Desde cuándo has estado sintiéndote así?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Desde hace algunos meses. A veces me cuesta disfrutar lo que solía gustarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento saber que te sientes así. Puede ser difícil cuando las cosas que antes disfrutabas ya no te traen alegría. ¿Has notado algún cambio específico en tu vida que pueda haber contribuido a estos sentimientos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que la presión de la universidad ha aumentado y eso me ha afectado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La presión académica puede ser muy abrumadora. Es común que afecte nuestro estado de ánimo y nuestras actividades diarias. ¿Hay alguna estrategia que hayas intentado para manejar esa presión?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "He intentado organizarme mejor, pero a veces siento que no es suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La organización es un paso positivo, pero a veces puede que no sea suficiente para aliviar la carga. ¿Te gustaría explorar otras técnicas o estrategias que podrían ayudarte a manejar mejor ese estrés?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría. No sé por dónde empezar, pero creo que necesito algo más."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos trabajar juntos en eso. Una técnica que podría ayudarte es la práctica de la atención plena o mindfulness. ¿Has oído hablar de ello antes?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, he escuchado un poco, pero no lo he probado. ¿Cómo funciona?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El mindfulness se centra en estar presente y consciente de tus pensamientos y sentimientos sin juzgarlos. Puedes empezar con ejercicios simples, como la respiración consciente. Te puedo guiar en una breve práctica si te interesa."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Te invito a que te sientes cómodamente en tu silla, cierre los ojos si te sientes a gusto, y simplemente enfoques tu atención en tu respiración. Inhalas profundamente por la nariz... y exhalas suavemente por la boca. Vamos a hacer esto juntos durante unos momentos."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Está bien. Voy a intentarlo. *Inhala profundamente y exhala suave*."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, sigue enfocándote en tu respiración. Siente cómo el aire entra y sale de tu cuerpo. Si tu mente se distrae, simplemente reconócelo y vuelve a centrarte en tu respiración. ¿Cómo te sientes hasta ahora?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me siento un poco más tranquilo al enfocarme en la respiración. Es diferente, pero agradable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que estés sintiéndote más tranquilo. Esa es la esencia del mindfulness, crear un espacio de calma en medio del caos. Puedes practicarlo en cualquier momento del día. ¿Te gustaría que sigamos explorando más técnicas o enfoques en nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría. Creo que eso podría ayudarme mucho. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Alejandro. Estoy aquí para apoyarte en este proceso. Nos vemos en nuestra próxima sesión. Cuídate mucho. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "¡Hasta luego! Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764034454
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. La verdad es que me siento un poco nervioso. No estoy acostumbrado a hablar de mis cosas.",
+      "timestamp": 1764034456
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse así al principio. Este es un espacio seguro donde puedes compartir lo que desees a tu propio ritmo. ¿Te gustaría empezar hablando de lo que te trae aquí?",
+      "timestamp": 1764034457
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudar. Últimamente me he sentido un poco... bajo de ánimo.",
+      "timestamp": 1764034458
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es importante reconocer esos sentimientos. ¿Desde cuándo has estado sintiéndote así?",
+      "timestamp": 1764034458
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Desde hace algunos meses. A veces me cuesta disfrutar lo que solía gustarme.",
+      "timestamp": 1764034459
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento saber que te sientes así. Puede ser difícil cuando las cosas que antes disfrutabas ya no te traen alegría. ¿Has notado algún cambio específico en tu vida que pueda haber contribuido a estos sentimientos?",
+      "timestamp": 1764034460
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que la presión de la universidad ha aumentado y eso me ha afectado.",
+      "timestamp": 1764034461
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La presión académica puede ser muy abrumadora. Es común que afecte nuestro estado de ánimo y nuestras actividades diarias. ¿Hay alguna estrategia que hayas intentado para manejar esa presión?",
+      "timestamp": 1764034462
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado organizarme mejor, pero a veces siento que no es suficiente.",
+      "timestamp": 1764034464
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La organización es un paso positivo, pero a veces puede que no sea suficiente para aliviar la carga. ¿Te gustaría explorar otras técnicas o estrategias que podrían ayudarte a manejar mejor ese estrés?",
+      "timestamp": 1764034465
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. No sé por dónde empezar, pero creo que necesito algo más.",
+      "timestamp": 1764034466
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar juntos en eso. Una técnica que podría ayudarte es la práctica de la atención plena o mindfulness. ¿Has oído hablar de ello antes?",
+      "timestamp": 1764034467
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he escuchado un poco, pero no lo he probado. ¿Cómo funciona?",
+      "timestamp": 1764034468
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El mindfulness se centra en estar presente y consciente de tus pensamientos y sentimientos sin juzgarlos. Puedes empezar con ejercicios simples, como la respiración consciente. Te puedo guiar en una breve práctica si te interesa.",
+      "timestamp": 1764034469
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ayudarme.",
+      "timestamp": 1764034470
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Te invito a que te sientes cómodamente en tu silla, cierre los ojos si te sientes a gusto, y simplemente enfoques tu atención en tu respiración. Inhalas profundamente por la nariz... y exhalas suavemente por la boca. Vamos a hacer esto juntos durante unos momentos.",
+      "timestamp": 1764034473
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien. Voy a intentarlo. *Inhala profundamente y exhala suave*.",
+      "timestamp": 1764034474
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, sigue enfocándote en tu respiración. Siente cómo el aire entra y sale de tu cuerpo. Si tu mente se distrae, simplemente reconócelo y vuelve a centrarte en tu respiración. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764034475
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquilo al enfocarme en la respiración. Es diferente, pero agradable.",
+      "timestamp": 1764034476
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que estés sintiéndote más tranquilo. Esa es la esencia del mindfulness, crear un espacio de calma en medio del caos. Puedes practicarlo en cualquier momento del día. ¿Te gustaría que sigamos explorando más técnicas o enfoques en nuestra próxima sesión?",
+      "timestamp": 1764034478
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que eso podría ayudarme mucho. Gracias.",
+      "timestamp": 1764034478
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Alejandro. Estoy aquí para apoyarte en este proceso. Nos vemos en nuestra próxima sesión. Cuídate mucho. ¡Hasta luego!",
+      "timestamp": 1764034480
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Cuídate.",
+      "timestamp": 1764034480
+    }
+  ],
+  "notes": null
+}

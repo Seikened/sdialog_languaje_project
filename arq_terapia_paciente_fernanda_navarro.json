@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:54:13Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 814848667,
+  "id": "4da838c0-c0ce-4a45-b29d-37aa1addc92a",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernanda Navarro": {
+      "name": "Fernanda Navarro",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ARQ) | estudiante de Arquitectura en la Ibero de 5to semestre; le gusta dibujar, ver fotos de lugares bonitos en redes y pasar tiempo en cafés tranquilos.",
+      "personality": "creativa pero reservada",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Hola, no estoy segura de cómo sentirme, me siento un poco nerviosa, pero también quiero intentar hablar de lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo al principio. Estoy aquí para escucharte y apoyarte en lo que necesites. ¿Te gustaría comenzar por contarme qué te ha estado preocupando últimamente?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, he estado sintiéndome un poco... perdida. A veces me cuesta concentrarme en mis estudios y me siento sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la sensación de estar perdida puede ser muy abrumadora. ¿Te gustaría explorar un poco más esa sensación de soledad y cómo afecta tu concentración en los estudios?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que la soledad me hace dudar de mí misma y eso afecta mi motivación para estudiar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que la soledad influya en tu forma de verte a ti misma y en tu motivación. ¿Has identificado alguna situación o momento específico en el que sientes esa duda más intensamente?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "A veces, cuando estoy en la biblioteca rodeada de compañeros, me siento más sola. Veo a otros trabajando juntos y me cuesta conectar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese sentimiento puede ser muy doloroso. Estar rodeada de personas y aún así sentirte sola es algo que muchas personas experimentan. ¿Te gustaría hablar sobre cómo podrías comenzar a conectar más con los demás en ese entorno?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gustaría, pero no sé por dónde empezar. Me da miedo acercarme a los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es normal sentir miedo al acercarse a los demás, especialmente en un nuevo entorno. Quizás podríamos explorar algunas pequeñas estrategias que podrían ayudarte a sentirte más cómoda. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me parece bien. Estoy abierta a escuchar algunas ideas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Una opción podría ser iniciar conversaciones cortas con compañeros sobre temas relacionados con los estudios. Podría ser algo simple, como preguntar sobre una tarea o compartir un recurso útil. ¿Qué piensas de empezar con algo así?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que eso podría ser un buen comienzo. Es menos intimidante si se trata de algo académico."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, enfocarte en lo académico puede hacer que sea más fácil iniciar una conversación. También podrías intentar unirte a grupos de estudio, donde la dinámica puede ser más colaborativa. ¿Crees que eso podría ser una opción para ti?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, unirme a un grupo de estudio suena bien. Tal vez así conocería a más personas y me sentiría menos sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Esa es una gran idea! Los grupos de estudio pueden ofrecer apoyo y compañerismo, lo que podría ayudarte a reducir esa sensación de soledad. ¿Te gustaría establecer un pequeño objetivo para dar el primer paso hacia eso?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, podría intentar buscar un grupo de estudio esta semana. Creo que tener ese objetivo me ayudaría a motivarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece un excelente objetivo, y tenerlo en mente puede darte ese empujón que necesitas. Recuerda ser amable contigo misma en este proceso. ¿Te gustaría hablar sobre cómo te sentirías al lograr este objetivo?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que me sentiría un poco más tranquila y quizás más conectada con mis compañeros. Sería un avance positivo para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy positivo. Imaginar cómo te sentirías al lograrlo puede ser una buena motivación. Estoy aquí para apoyarte en este camino. ¿Te gustaría explorar alguna otra área que te preocupe o que quieras trabajar?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Por ahora, creo que eso es suficiente. Estoy empezando a sentirme un poco más esperanzada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Esa sensación de esperanza es un gran paso hacia adelante. Por favor recuerda que aquí estoy para apoyarte en cualquier momento en que lo necesites. ¿Te gustaría programar nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría programar otra sesión. Esto me ha ayudado mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te haya sido útil. Podemos programar nuestra próxima sesión para la próxima semana. ¿Te parece un día y hora específicos?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Podría ser el jueves a las 5 de la tarde. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El jueves a las 5 de la tarde está perfecto. Te espero con gusto. Recuerda que siempre puedes compartir cualquier inquietud antes de nuestra próxima sesión. ¡Cuídate mucho! Hasta pronto."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, me cuidaré. Hasta pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764035620
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, no estoy segura de cómo sentirme, me siento un poco nerviosa, pero también quiero intentar hablar de lo que siento.",
+      "timestamp": 1764035622
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo al principio. Estoy aquí para escucharte y apoyarte en lo que necesites. ¿Te gustaría comenzar por contarme qué te ha estado preocupando últimamente?",
+      "timestamp": 1764035623
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco... perdida. A veces me cuesta concentrarme en mis estudios y me siento sola.",
+      "timestamp": 1764035625
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la sensación de estar perdida puede ser muy abrumadora. ¿Te gustaría explorar un poco más esa sensación de soledad y cómo afecta tu concentración en los estudios?",
+      "timestamp": 1764035626
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que la soledad me hace dudar de mí misma y eso afecta mi motivación para estudiar.",
+      "timestamp": 1764035627
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que la soledad influya en tu forma de verte a ti misma y en tu motivación. ¿Has identificado alguna situación o momento específico en el que sientes esa duda más intensamente?",
+      "timestamp": 1764035630
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, cuando estoy en la biblioteca rodeada de compañeros, me siento más sola. Veo a otros trabajando juntos y me cuesta conectar.",
+      "timestamp": 1764035631
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese sentimiento puede ser muy doloroso. Estar rodeada de personas y aún así sentirte sola es algo que muchas personas experimentan. ¿Te gustaría hablar sobre cómo podrías comenzar a conectar más con los demás en ese entorno?",
+      "timestamp": 1764035632
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría, pero no sé por dónde empezar. Me da miedo acercarme a los demás.",
+      "timestamp": 1764035633
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es normal sentir miedo al acercarse a los demás, especialmente en un nuevo entorno. Quizás podríamos explorar algunas pequeñas estrategias que podrían ayudarte a sentirte más cómoda. ¿Te parece bien?",
+      "timestamp": 1764035634
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy abierta a escuchar algunas ideas.",
+      "timestamp": 1764035635
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Una opción podría ser iniciar conversaciones cortas con compañeros sobre temas relacionados con los estudios. Podría ser algo simple, como preguntar sobre una tarea o compartir un recurso útil. ¿Qué piensas de empezar con algo así?",
+      "timestamp": 1764035636
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso podría ser un buen comienzo. Es menos intimidante si se trata de algo académico.",
+      "timestamp": 1764035637
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, enfocarte en lo académico puede hacer que sea más fácil iniciar una conversación. También podrías intentar unirte a grupos de estudio, donde la dinámica puede ser más colaborativa. ¿Crees que eso podría ser una opción para ti?",
+      "timestamp": 1764035638
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, unirme a un grupo de estudio suena bien. Tal vez así conocería a más personas y me sentiría menos sola.",
+      "timestamp": 1764035639
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Esa es una gran idea! Los grupos de estudio pueden ofrecer apoyo y compañerismo, lo que podría ayudarte a reducir esa sensación de soledad. ¿Te gustaría establecer un pequeño objetivo para dar el primer paso hacia eso?",
+      "timestamp": 1764035641
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría intentar buscar un grupo de estudio esta semana. Creo que tener ese objetivo me ayudaría a motivarme.",
+      "timestamp": 1764035642
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un excelente objetivo, y tenerlo en mente puede darte ese empujón que necesitas. Recuerda ser amable contigo misma en este proceso. ¿Te gustaría hablar sobre cómo te sentirías al lograr este objetivo?",
+      "timestamp": 1764035643
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que me sentiría un poco más tranquila y quizás más conectada con mis compañeros. Sería un avance positivo para mí.",
+      "timestamp": 1764035644
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy positivo. Imaginar cómo te sentirías al lograrlo puede ser una buena motivación. Estoy aquí para apoyarte en este camino. ¿Te gustaría explorar alguna otra área que te preocupe o que quieras trabajar?",
+      "timestamp": 1764035646
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora, creo que eso es suficiente. Estoy empezando a sentirme un poco más esperanzada.",
+      "timestamp": 1764035647
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Esa sensación de esperanza es un gran paso hacia adelante. Por favor recuerda que aquí estoy para apoyarte en cualquier momento en que lo necesites. ¿Te gustaría programar nuestra próxima sesión?",
+      "timestamp": 1764035648
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría programar otra sesión. Esto me ha ayudado mucho.",
+      "timestamp": 1764035649
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te haya sido útil. Podemos programar nuestra próxima sesión para la próxima semana. ¿Te parece un día y hora específicos?",
+      "timestamp": 1764035650
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría ser el jueves a las 5 de la tarde. ¿Te parece bien?",
+      "timestamp": 1764035651
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El jueves a las 5 de la tarde está perfecto. Te espero con gusto. Recuerda que siempre puedes compartir cualquier inquietud antes de nuestra próxima sesión. ¡Cuídate mucho! Hasta pronto.",
+      "timestamp": 1764035653
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, me cuidaré. Hasta pronto.",
+      "timestamp": 1764035653
+    }
+  ],
+  "notes": null
+}

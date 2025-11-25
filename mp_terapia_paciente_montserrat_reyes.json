@@ -1,0 +1,469 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:42:43Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 4193035668,
+  "id": "8c8854b7-9a53-419b-8f49-b7f3b0c3e6ef",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Montserrat Reyes": {
+      "name": "Montserrat Reyes",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(MP) | estudiante de Marketing y Publicidad en la Ibero de 3er semestre; le gusta tomar fotos, subir historias, ver tendencias en redes y salir con amigos.",
+      "personality": "extrovertida pero sensible al juicio",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no sé qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nervios al iniciar terapia. Aquí estamos para crear un espacio seguro donde puedas hablar abiertamente. ¿Te gustaría compartir qué te trae aquí hoy?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que últimamente me he sentido un poco abrumada y triste. No sé, a veces parece que no disfruto las cosas como antes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que te sientes abrumada y triste. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto nos servirá para tener una mejor comprensión de tu situación, aunque no sustituye una evaluación profesional completa."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Claro, me parece bien. Estoy dispuesta a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí están las preguntas del PHQ-9. Te iré leyendo cada una y me dices qué tan seguido has tenido molestias en los últimos 14 días, usando una escala del 0 al 3 (0 = nunca, 3 = casi todos los días).\n\n1. Poco interés o placer en hacer cosas. ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 2. A veces sí me siento sin ganas de hacer cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. A veces es difícil reconocer esos sentimientos. La siguiente pregunta es:\n\n2. Durante las últimas 2 semanas, ¿te has sentido decaído(a), deprimido(a) o sin esperanzas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le pondría un 2 también. Hay momentos en que me siento así, especialmente cuando estoy sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu honestidad. Eso puede ser bastante difícil de manejar. Ahora, pasemos a la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 1. A veces me cuesta dormir, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Vamos a la siguiente pregunta:\n\n4. ¿Te has sentido cansado(a) o con poca energía durante las últimas 2 semanas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le pongo un 2. Siento que a menudo me falta energía, como si todo fuera un esfuerzo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible, esa falta de energía puede afectar mucho. Vamos a continuar con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 2. A veces no tengo ganas de comer, pero hay días en que como más de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Es común que esas fluctuaciones ocurran. Ahora, pasemos a la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo(a) — o has sentido que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le pondría un 3. A menudo me siento así, como si no estuviera cumpliendo con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así, es muy duro lidiar con esos pensamientos. Vamos a la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 2. A veces me cuesta concentrarme, especialmente en cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. La falta de concentración puede ser un síntoma muy frustrante. Ahora, continuemos con la siguiente pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o lo contrario: ¿te has sentido tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le pondría un 1. A veces me siento un poco inquieta, pero no creo que sea algo muy notorio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es bueno que lo reconozcas. Ahora, vamos a la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 1. A veces tengo esos pensamientos, pero no de una manera seria."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio que hayas compartido esto. Es importante discutir esos pensamientos y sentimientos. Vamos a resumir lo que hemos hablado hasta ahora y ver cómo podemos trabajar juntos en esto. ¿Te gustaría que continuemos con esa reflexión?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría. Creo que es importante hablar de esto y ver cómo puedo sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "En resumen, has mencionado que te sientes abrumada y triste, y que hay momentos en los que no disfrutas las cosas como antes. A través del cuestionario PHQ-9, hemos visto que hay áreas en las que sientes poco interés en las actividades, decaimiento, falta de energía y una percepción negativa de ti misma.\n\nPara nuestra próxima sesión, podríamos explorar en profundidad esos sentimientos y pensar en algunas estrategias para ayudarte a manejar estos desafíos. También podríamos hablar sobre actividades que solías disfrutar y cómo podrías volver a incorporarlas a tu vida. ¿Cómo te suena eso?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me suena bien. Creo que sería útil hablar más sobre mis sentimientos y también recordar las cosas que solía disfrutar. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Montserrat. Estoy aquí para apoyarte en este proceso. Espero que nuestra próxima sesión sea una oportunidad para profundizar en esos temas. Si hay algo más que necesites o quieras compartir antes de terminar, no dudes en decírmelo."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Solo quiero agradecerte por escucharme. Me siento un poco más ligera al hablar de esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes un poco más ligera. La escucha activa es fundamental en este proceso. Estoy aquí para ti, y recuerda que cada paso cuenta. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "¡Gracias! Cuídate también. Hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764034915
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no sé qué esperar.",
+      "timestamp": 1764034916
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nervios al iniciar terapia. Aquí estamos para crear un espacio seguro donde puedas hablar abiertamente. ¿Te gustaría compartir qué te trae aquí hoy?",
+      "timestamp": 1764034917
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que últimamente me he sentido un poco abrumada y triste. No sé, a veces parece que no disfruto las cosas como antes.",
+      "timestamp": 1764034918
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764034918
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que te sientes abrumada y triste. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto nos servirá para tener una mejor comprensión de tu situación, aunque no sustituye una evaluación profesional completa.",
+      "timestamp": 1764034920
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, me parece bien. Estoy dispuesta a responderlo.",
+      "timestamp": 1764034921
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_wgbq0G27O2Ifr6yNteXlNhvx"
+      },
+      "timestamp": 1764034922
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_wgbq0G27O2Ifr6yNteXlNhvx"
+      },
+      "timestamp": 1764034922
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí están las preguntas del PHQ-9. Te iré leyendo cada una y me dices qué tan seguido has tenido molestias en los últimos 14 días, usando una escala del 0 al 3 (0 = nunca, 3 = casi todos los días).\n\n1. Poco interés o placer en hacer cosas. ¿Cómo lo calificarías?",
+      "timestamp": 1764034924
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces sí me siento sin ganas de hacer cosas que antes disfrutaba.",
+      "timestamp": 1764034924
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764034924
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. A veces es difícil reconocer esos sentimientos. La siguiente pregunta es:\n\n2. Durante las últimas 2 semanas, ¿te has sentido decaído(a), deprimido(a) o sin esperanzas? ¿Cómo lo calificarías?",
+      "timestamp": 1764034926
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 2 también. Hay momentos en que me siento así, especialmente cuando estoy sola.",
+      "timestamp": 1764034927
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu honestidad. Eso puede ser bastante difícil de manejar. Ahora, pasemos a la siguiente pregunta:\n\n3. ¿Has tenido dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cómo lo calificarías?",
+      "timestamp": 1764034929
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1. A veces me cuesta dormir, pero no siempre.",
+      "timestamp": 1764034930
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Vamos a la siguiente pregunta:\n\n4. ¿Te has sentido cansado(a) o con poca energía durante las últimas 2 semanas? ¿Cómo lo calificarías?",
+      "timestamp": 1764034931
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pongo un 2. Siento que a menudo me falta energía, como si todo fuera un esfuerzo.",
+      "timestamp": 1764034933
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible, esa falta de energía puede afectar mucho. Vamos a continuar con la siguiente pregunta:\n\n5. ¿Has tenido poco apetito o has estado comiendo en exceso? ¿Cómo lo calificarías?",
+      "timestamp": 1764034934
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces no tengo ganas de comer, pero hay días en que como más de lo normal.",
+      "timestamp": 1764034935
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Es común que esas fluctuaciones ocurran. Ahora, pasemos a la siguiente pregunta:\n\n6. ¿Te has sentido mal contigo mismo(a) — o has sentido que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia? ¿Cómo lo calificarías?",
+      "timestamp": 1764034936
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 3. A menudo me siento así, como si no estuviera cumpliendo con las expectativas.",
+      "timestamp": 1764034938
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así, es muy duro lidiar con esos pensamientos. Vamos a la siguiente pregunta:\n\n7. ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cómo lo calificarías?",
+      "timestamp": 1764034939
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces me cuesta concentrarme, especialmente en cosas que antes disfrutaba.",
+      "timestamp": 1764034940
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. La falta de concentración puede ser un síntoma muy frustrante. Ahora, continuemos con la siguiente pregunta:\n\n8. ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o lo contrario: ¿te has sentido tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal? ¿Cómo lo calificarías?",
+      "timestamp": 1764034943
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le pondría un 1. A veces me siento un poco inquieta, pero no creo que sea algo muy notorio.",
+      "timestamp": 1764034944
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es bueno que lo reconozcas. Ahora, vamos a la última pregunta:\n\n9. ¿Has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo lo calificarías?",
+      "timestamp": 1764034945
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1. A veces tengo esos pensamientos, pero no de una manera seria.",
+      "timestamp": 1764034946
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio que hayas compartido esto. Es importante discutir esos pensamientos y sentimientos. Vamos a resumir lo que hemos hablado hasta ahora y ver cómo podemos trabajar juntos en esto. ¿Te gustaría que continuemos con esa reflexión?",
+      "timestamp": 1764034947
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que es importante hablar de esto y ver cómo puedo sentirme mejor.",
+      "timestamp": 1764034948
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Resumen de la sesión de terapia con Montserrat: El paciente se siente abrumado y triste, sin disfrutar las cosas como antes. A través del cuestionario PHQ-9, Montserrat reporta un puntaje notable en áreas de poco interés en actividades, sentimientos de decaimiento, falta de energía y autoevaluación negativa."
+        },
+        "id": "call_cAdNJTzPYTz5HV61nZm1FY3x"
+      },
+      "timestamp": 1764034952
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Resumen de la sesión de terapia con Montserrat: El paciente se siente abrumado y triste, sin disfrutar las cosas como antes. A través del cuestionario PHQ-9, Montserrat reporta un puntaje notable en áreas de poco interés en actividades, sentimientos de decaimiento, falta de energía y autoevaluación negativa.\", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_cAdNJTzPYTz5HV61nZm1FY3x"
+      },
+      "timestamp": 1764034952
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En resumen, has mencionado que te sientes abrumada y triste, y que hay momentos en los que no disfrutas las cosas como antes. A través del cuestionario PHQ-9, hemos visto que hay áreas en las que sientes poco interés en las actividades, decaimiento, falta de energía y una percepción negativa de ti misma.\n\nPara nuestra próxima sesión, podríamos explorar en profundidad esos sentimientos y pensar en algunas estrategias para ayudarte a manejar estos desafíos. También podríamos hablar sobre actividades que solías disfrutar y cómo podrías volver a incorporarlas a tu vida. ¿Cómo te suena eso?",
+      "timestamp": 1764034956
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me suena bien. Creo que sería útil hablar más sobre mis sentimientos y también recordar las cosas que solía disfrutar. Gracias por tu apoyo.",
+      "timestamp": 1764034958
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Montserrat. Estoy aquí para apoyarte en este proceso. Espero que nuestra próxima sesión sea una oportunidad para profundizar en esos temas. Si hay algo más que necesites o quieras compartir antes de terminar, no dudes en decírmelo.",
+      "timestamp": 1764034959
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Solo quiero agradecerte por escucharme. Me siento un poco más ligera al hablar de esto.",
+      "timestamp": 1764034960
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes un poco más ligera. La escucha activa es fundamental en este proceso. Estoy aquí para ti, y recuerda que cada paso cuenta. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764034962
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta la próxima.",
+      "timestamp": 1764034962
+    }
+  ],
+  "notes": null
+}

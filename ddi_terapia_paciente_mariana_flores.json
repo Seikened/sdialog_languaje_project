@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:32:23Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2351873950,
+  "id": "e1c37810-3781-49de-b892-6152f695974d",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Mariana Flores": {
+      "name": "Mariana Flores",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DDI) | estudiante de Diseño Digital Interactivo en la Ibero de 3er semestre; le gustan los videojuegos con buena historia, ver videos cortos y estar en su compu.",
+      "personality": "tímida y muy imaginativa",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Mariana Flores, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Hola. Estoy un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar sobre mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al principio. Aquí estás en un espacio seguro donde puedes expresarte sin juicios. ¿Qué te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "No sé, a veces me siento un poco perdida y como que no tengo muchas ganas de hacer cosas que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, esa sensación de sentirse perdido puede ser muy abrumadora. ¿Hay alguna actividad específica que solías disfrutar y que ahora te cuesta hacer?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Me gustaba mucho jugar videojuegos, pero ahora no tengo ganas de hacerlo, ni siquiera de encender la computadora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que perder el interés en actividades que antes disfrutabas pueda ser preocupante. A veces, esto puede estar relacionado con el estado de ánimo. ¿Te ha pasado antes que alguna actividad te dejara de interesar?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, creo que sí. A veces me siento tan cansada que ni siquiera quiero salir o ver a mis amigos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El cansancio emocional puede afectar mucho nuestras ganas de socializar y disfrutar. ¿Has notado si hay momentos específicos en los que te sientes más cansada o puede ser constante?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Siento que es casi constante. Me despierto cansada y eso me acompaña todo el día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese cansancio constante puede tener un impacto significativo en tu bienestar. Hablemos un poco más sobre tus hábitos diarios. ¿Cómo es tu rutina de sueño?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "No duermo muy bien. A veces me quedo despierta pensando en muchas cosas y me cuesta dormir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es común que los pensamientos agitados interfieran con el sueño. Tal vez podríamos explorar algunas técnicas de relajación o hábitos que podrían ayudarte a mejorar tu descanso. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me parece bien. Quiero intentar encontrar formas de sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso, y quiero apoyarte en ello. Podemos empezar con ejercicios de respiración y rituales relajantes antes de dormir. ¿Te gustaría que te enseñara una técnica de respiración sencilla ahora?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me gustaría aprender. Espero que me ayude a relajarme un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Te guiaré a través de una técnica de respiración llamada \"respiración 4-7-8\". Inhalas por la nariz contando hasta 4, mantienes la respiración contando hasta 7 y exhalas por la boca contando hasta 8. ¿Estás lista?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, estoy lista. Espero que me ayude."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Vamos a intentarlo juntos. Inhala profundamente por la nariz contando hasta 4… 1, 2, 3, 4. Mantén la respiración… 1, 2, 3, 4, 5, 6, 7. Ahora exhala lentamente por la boca… 1, 2, 3, 4, 5, 6, 7, 8. ¿Cómo te sientes después de hacerlo?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Me siento un poco más tranquila. Creo que me ayuda a despejar la mente un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. La respiración consciente puede ser una herramienta poderosa para manejar la ansiedad y el estrés. ¿Te gustaría practicarla más a menudo o explorar otras técnicas?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, definitivamente me gustaría practicarla más. Creo que podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Podemos establecer un tiempo específico cada día para practicarla, así será más fácil incorporarla en tu rutina. ¿Te gustaría sugerir un momento del día que pueda funcionar para ti?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Tal vez por la noche, antes de dormir. Así podría ayudarme a relajarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente idea. Practicarla por la noche puede realmente ayudarte a prepararte para un mejor descanso. Te animo a que lo intentes esta noche y me cuentes cómo te fue en nuestra próxima sesión. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "Sí, me parece bien. Gracias por ayudarme con esto. Espero que funcione."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, estoy aquí para apoyarte. Recuerda que es un proceso y está bien tomarse su tiempo. ¡Nos vemos en la próxima sesión! Cuídate."
+    },
+    {
+      "speaker": "Mariana Flores",
+      "text": "¡Gracias! Cuídate también. Nos vemos."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Mariana Flores, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764034312
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. Estoy un poco nerviosa, la verdad. No estoy muy acostumbrada a hablar sobre mis sentimientos.",
+      "timestamp": 1764034313
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al principio. Aquí estás en un espacio seguro donde puedes expresarte sin juicios. ¿Qué te gustaría compartir hoy?",
+      "timestamp": 1764034314
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No sé, a veces me siento un poco perdida y como que no tengo muchas ganas de hacer cosas que solía disfrutar.",
+      "timestamp": 1764034314
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, esa sensación de sentirse perdido puede ser muy abrumadora. ¿Hay alguna actividad específica que solías disfrutar y que ahora te cuesta hacer?",
+      "timestamp": 1764034316
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaba mucho jugar videojuegos, pero ahora no tengo ganas de hacerlo, ni siquiera de encender la computadora.",
+      "timestamp": 1764034317
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que perder el interés en actividades que antes disfrutabas pueda ser preocupante. A veces, esto puede estar relacionado con el estado de ánimo. ¿Te ha pasado antes que alguna actividad te dejara de interesar?",
+      "timestamp": 1764034318
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sí. A veces me siento tan cansada que ni siquiera quiero salir o ver a mis amigos.",
+      "timestamp": 1764034319
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El cansancio emocional puede afectar mucho nuestras ganas de socializar y disfrutar. ¿Has notado si hay momentos específicos en los que te sientes más cansada o puede ser constante?",
+      "timestamp": 1764034320
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que es casi constante. Me despierto cansada y eso me acompaña todo el día.",
+      "timestamp": 1764034321
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese cansancio constante puede tener un impacto significativo en tu bienestar. Hablemos un poco más sobre tus hábitos diarios. ¿Cómo es tu rutina de sueño?",
+      "timestamp": 1764034322
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No duermo muy bien. A veces me quedo despierta pensando en muchas cosas y me cuesta dormir.",
+      "timestamp": 1764034323
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es común que los pensamientos agitados interfieran con el sueño. Tal vez podríamos explorar algunas técnicas de relajación o hábitos que podrían ayudarte a mejorar tu descanso. ¿Te parece bien?",
+      "timestamp": 1764034324
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero intentar encontrar formas de sentirme mejor.",
+      "timestamp": 1764034325
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso, y quiero apoyarte en ello. Podemos empezar con ejercicios de respiración y rituales relajantes antes de dormir. ¿Te gustaría que te enseñara una técnica de respiración sencilla ahora?",
+      "timestamp": 1764034327
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría aprender. Espero que me ayude a relajarme un poco.",
+      "timestamp": 1764034327
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Te guiaré a través de una técnica de respiración llamada \"respiración 4-7-8\". Inhalas por la nariz contando hasta 4, mantienes la respiración contando hasta 7 y exhalas por la boca contando hasta 8. ¿Estás lista?",
+      "timestamp": 1764034330
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. Espero que me ayude.",
+      "timestamp": 1764034330
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Vamos a intentarlo juntos. Inhala profundamente por la nariz contando hasta 4… 1, 2, 3, 4. Mantén la respiración… 1, 2, 3, 4, 5, 6, 7. Ahora exhala lentamente por la boca… 1, 2, 3, 4, 5, 6, 7, 8. ¿Cómo te sientes después de hacerlo?",
+      "timestamp": 1764034333
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila. Creo que me ayuda a despejar la mente un poco.",
+      "timestamp": 1764034334
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. La respiración consciente puede ser una herramienta poderosa para manejar la ansiedad y el estrés. ¿Te gustaría practicarla más a menudo o explorar otras técnicas?",
+      "timestamp": 1764034335
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente me gustaría practicarla más. Creo que podría ayudarme a sentirme mejor.",
+      "timestamp": 1764034336
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Podemos establecer un tiempo específico cada día para practicarla, así será más fácil incorporarla en tu rutina. ¿Te gustaría sugerir un momento del día que pueda funcionar para ti?",
+      "timestamp": 1764034338
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez por la noche, antes de dormir. Así podría ayudarme a relajarme.",
+      "timestamp": 1764034339
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente idea. Practicarla por la noche puede realmente ayudarte a prepararte para un mejor descanso. Te animo a que lo intentes esta noche y me cuentes cómo te fue en nuestra próxima sesión. ¿Te parece bien?",
+      "timestamp": 1764034340
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Gracias por ayudarme con esto. Espero que funcione.",
+      "timestamp": 1764034341
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, estoy aquí para apoyarte. Recuerda que es un proceso y está bien tomarse su tiempo. ¡Nos vemos en la próxima sesión! Cuídate.",
+      "timestamp": 1764034342
+    },
+    {
+      "agent": "Mariana Flores",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Nos vemos.",
+      "timestamp": 1764034343
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,385 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:32:56Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1525446753,
+  "id": "91ede82a-3315-49ec-b1fa-fa3c6a89f893",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Luis Ángel Romero": {
+      "name": "Luis Ángel Romero",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DGI) | estudiante de Diseño Gráfico e Innovación en la Ibero de 6to semestre; le gusta ilustrar en su tablet, editar fotos y ver contenido visual en Instagram y TikTok.",
+      "personality": "extrovertido pero inseguro",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso, no estoy muy acostumbrado a hablar de mis cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al inicio. Aquí estás a salvo y puedes compartir lo que desees a tu ritmo. ¿Hay algo específico que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, creo que me gustaría hablar sobre cómo me siento últimamente. A veces me siento como si no tuviera energía para nada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la falta de energía puede ser muy abrumadora. ¿Desde hace cuánto tiempo te sientes así?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Desde hace unos meses, pero ha ido empeorando últimamente. A veces me cuesta concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso debe ser difícil para ti, especialmente si afecta tus estudios. ¿Has notado algún cambio en tu rutina o en tu vida que pueda estar contribuyendo a esos sentimientos?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, creo que la presión de los estudios y algunas cosas personales han afectado mi estado de ánimo. A veces me siento muy solo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así, la soledad puede ser muy pesada. Hablemos más sobre esa presión que sientes, ¿qué te preocupa más en relación a tus estudios?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Me preocupa no estar a la altura de las expectativas, tanto las mías como las de mis profesores. A veces siento que no soy lo suficientemente bueno."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas expectativas pueden ser realmente agobiantes. Es importante reconocer tus esfuerzos y logros, aunque no siempre te sientas a la altura. ¿Qué te gustaría cambiar o mejorar para sentirte mejor en esta situación?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Creo que me gustaría aprender a manejar mejor el estrés y ser más amable conmigo mismo. A veces me exijo demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un excelente objetivo. Aprender a ser más amable contigo mismo es crucial para tu bienestar. Comencemos a explorar algunas estrategias que podrías implementar para manejar el estrés y fomentar esa autocompasión."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Me parece bien. Estoy abierto a aprender más sobre eso, porque a veces no sé cómo empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, un buen comienzo puede ser la práctica de la atención plena o mindfulness. Esto te ayuda a estar presente y ser consciente de tus pensamientos y emociones sin juzgarlos. ¿Te gustaría probar algunas técnicas de respiración simples que podrían ayudarte a relajarte?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, eso suena interesante. Me gustaría intentarlo, creo que podría ayudarme a sentirme un poco más tranquilo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, vamos a hacerlo juntos. Si te sientes cómodo, cierra los ojos y toma una profunda inhalación por la nariz, sintiendo cómo tu abdomen se expande. Luego, exhala lentamente por la boca. Repite esto unas cuantas veces, concentrándote en tu respiración. ¿Listo?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, estoy listo. (Empiezo a cerrar los ojos y a respirar profundamente)."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, sigue inhalando profundamente, sintiendo cómo el aire entra y llena tus pulmones. Y al exhalar, imagina que liberas toda la tensión y el estrés. Hazlo tantas veces como necesites y, cuando estés listo, puedes abrir los ojos nuevamente."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "(Después de un momento, abro los ojos). Eso fue realmente relajante, gracias. Me siento un poco más ligero."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más ligero. La práctica de la respiración es una herramienta poderosa. ¿Te gustaría incorporar esto en tu rutina diaria para ayudarte a manejar el estrés?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, definitivamente me gustaría intentarlo todos los días. Creo que puede hacer una gran diferencia para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso. Comprometerte a practicarlo diariamente puede ayudarte a construir una mayor resiliencia. Recuerda, la autocompasión también es un proceso, así que sé paciente contigo mismo mientras lo practicas."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Lo haré, gracias por la recomendación. A veces me olvido de ser paciente conmigo mismo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible, todos luchamos con eso a veces. Recuerda que el crecimiento personal lleva tiempo. Estoy aquí para apoyarte en este camino. ¿Te gustaría hablar sobre algo más que te preocupe o te gustaría explorar en la próxima sesión?"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Sí, me gustaría hablar más sobre cómo manejar la soledad. Siento que eso también influye mucho en mi estado de ánimo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, la soledad puede tener un impacto profundo en nuestro bienestar. En nuestra próxima sesión, exploraremos estrategias para conectarte con los demás y cómo cultivar relaciones significativas. Estoy aquí para ayudarte con eso."
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "Eso suena muy bien, gracias. Aprecio mucho tu apoyo y lo que hemos hablado hoy."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra que te sientas apoyado. Recuerda que cada paso cuenta en este proceso. Nos vemos en nuestra próxima sesión, cuídate mucho. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Luis Ángel Romero",
+      "text": "¡Hasta luego! Gracias por todo, nos vemos pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Luis Ángel Romero, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764034343
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso, no estoy muy acostumbrado a hablar de mis cosas.",
+      "timestamp": 1764034344
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al inicio. Aquí estás a salvo y puedes compartir lo que desees a tu ritmo. ¿Hay algo específico que te gustaría abordar hoy?",
+      "timestamp": 1764034345
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar sobre cómo me siento últimamente. A veces me siento como si no tuviera energía para nada.",
+      "timestamp": 1764034346
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la falta de energía puede ser muy abrumadora. ¿Desde hace cuánto tiempo te sientes así?",
+      "timestamp": 1764034347
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Desde hace unos meses, pero ha ido empeorando últimamente. A veces me cuesta concentrarme en mis estudios.",
+      "timestamp": 1764034348
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso debe ser difícil para ti, especialmente si afecta tus estudios. ¿Has notado algún cambio en tu rutina o en tu vida que pueda estar contribuyendo a esos sentimientos?",
+      "timestamp": 1764034349
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que la presión de los estudios y algunas cosas personales han afectado mi estado de ánimo. A veces me siento muy solo.",
+      "timestamp": 1764034350
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así, la soledad puede ser muy pesada. Hablemos más sobre esa presión que sientes, ¿qué te preocupa más en relación a tus estudios?",
+      "timestamp": 1764034351
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me preocupa no estar a la altura de las expectativas, tanto las mías como las de mis profesores. A veces siento que no soy lo suficientemente bueno.",
+      "timestamp": 1764034352
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas expectativas pueden ser realmente agobiantes. Es importante reconocer tus esfuerzos y logros, aunque no siempre te sientas a la altura. ¿Qué te gustaría cambiar o mejorar para sentirte mejor en esta situación?",
+      "timestamp": 1764034353
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que me gustaría aprender a manejar mejor el estrés y ser más amable conmigo mismo. A veces me exijo demasiado.",
+      "timestamp": 1764034354
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un excelente objetivo. Aprender a ser más amable contigo mismo es crucial para tu bienestar. Comencemos a explorar algunas estrategias que podrías implementar para manejar el estrés y fomentar esa autocompasión.",
+      "timestamp": 1764034355
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece bien. Estoy abierto a aprender más sobre eso, porque a veces no sé cómo empezar.",
+      "timestamp": 1764034357
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, un buen comienzo puede ser la práctica de la atención plena o mindfulness. Esto te ayuda a estar presente y ser consciente de tus pensamientos y emociones sin juzgarlos. ¿Te gustaría probar algunas técnicas de respiración simples que podrían ayudarte a relajarte?",
+      "timestamp": 1764034358
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena interesante. Me gustaría intentarlo, creo que podría ayudarme a sentirme un poco más tranquilo.",
+      "timestamp": 1764034359
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, vamos a hacerlo juntos. Si te sientes cómodo, cierra los ojos y toma una profunda inhalación por la nariz, sintiendo cómo tu abdomen se expande. Luego, exhala lentamente por la boca. Repite esto unas cuantas veces, concentrándote en tu respiración. ¿Listo?",
+      "timestamp": 1764034361
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy listo. (Empiezo a cerrar los ojos y a respirar profundamente).",
+      "timestamp": 1764034361
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, sigue inhalando profundamente, sintiendo cómo el aire entra y llena tus pulmones. Y al exhalar, imagina que liberas toda la tensión y el estrés. Hazlo tantas veces como necesites y, cuando estés listo, puedes abrir los ojos nuevamente.",
+      "timestamp": 1764034363
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "(Después de un momento, abro los ojos). Eso fue realmente relajante, gracias. Me siento un poco más ligero.",
+      "timestamp": 1764034365
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más ligero. La práctica de la respiración es una herramienta poderosa. ¿Te gustaría incorporar esto en tu rutina diaria para ayudarte a manejar el estrés?",
+      "timestamp": 1764034366
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente me gustaría intentarlo todos los días. Creo que puede hacer una gran diferencia para mí.",
+      "timestamp": 1764034367
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso. Comprometerte a practicarlo diariamente puede ayudarte a construir una mayor resiliencia. Recuerda, la autocompasión también es un proceso, así que sé paciente contigo mismo mientras lo practicas.",
+      "timestamp": 1764034368
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo haré, gracias por la recomendación. A veces me olvido de ser paciente conmigo mismo.",
+      "timestamp": 1764034369
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible, todos luchamos con eso a veces. Recuerda que el crecimiento personal lleva tiempo. Estoy aquí para apoyarte en este camino. ¿Te gustaría hablar sobre algo más que te preocupe o te gustaría explorar en la próxima sesión?",
+      "timestamp": 1764034371
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar más sobre cómo manejar la soledad. Siento que eso también influye mucho en mi estado de ánimo.",
+      "timestamp": 1764034372
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, la soledad puede tener un impacto profundo en nuestro bienestar. En nuestra próxima sesión, exploraremos estrategias para conectarte con los demás y cómo cultivar relaciones significativas. Estoy aquí para ayudarte con eso.",
+      "timestamp": 1764034373
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien, gracias. Aprecio mucho tu apoyo y lo que hemos hablado hoy.",
+      "timestamp": 1764034374
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra que te sientas apoyado. Recuerda que cada paso cuenta en este proceso. Nos vemos en nuestra próxima sesión, cuídate mucho. ¡Hasta luego!",
+      "timestamp": 1764034376
+    },
+    {
+      "agent": "Luis Ángel Romero",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por todo, nos vemos pronto.",
+      "timestamp": 1764034376
+    }
+  ],
+  "notes": null
+}

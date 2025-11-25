@@ -1,0 +1,407 @@
+{
+  "version": "0.4.2+3602cb148c2fa169d46157d0ec85d5ced4d6fee6",
+  "timestamp": "2025-11-25T01:39:15Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1323220092,
+  "id": "e4d34fd7-b5dc-466f-94ac-83a0a08fbced",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Jorge Aguilar": {
+      "name": "Jorge Aguilar",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ACE) | estudiante de Administración y Creación de Empresas en la Ibero de 6to semestre; le gusta convivir con amigos, escuchar podcasts relajados y ver videos para distraerse.",
+      "personality": "social pero ansioso",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es la primera vez que estoy en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al principio. Este es un espacio seguro donde puedes expresar lo que sientes. ¿Te gustaría compartir qué te preocupa en este momento?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, hay varias cosas en mi mente. Últimamente he estado sintiendo mucha ansiedad y, a veces, veo todo muy oscuro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Siento que estés sintiendo eso. La ansiedad puede ser abrumadora. ¿Qué situaciones o pensamientos crees que te generan esa sensación de oscuridad?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Principalmente la presión de la universidad y no saber si estoy tomando el camino correcto en mi vida. Eso me hace sentir muy perdido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que la presión académica puede ser intensa y confundirte sobre tu camino. Es importante explorar esos sentimientos. ¿Qué es lo que más te preocupa sobre el camino que has elegido?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Me preocupa no estar a la altura de las expectativas, tanto las mías como las de los demás. A veces siento que no soy lo suficientemente bueno."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es doloroso sentirse así y es algo que muchas personas experimentan. Podemos trabajar juntos en esas expectativas y en cómo te afectan. ¿Te gustaría hablar sobre algunas de las expectativas que sientes que debes cumplir?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, creo que hay una presión constante para tener éxito y ser el mejor, especialmente en mi carrera. A veces, eso me paraliza y no sé cómo avanzar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La presión por el éxito puede ser paralizante, y es comprensible que te sientas así. Es importante recordar que cada uno tiene su propio camino y que el éxito no siempre se mide de la misma manera. ¿Has considerado alguna forma de definir tu propio éxito?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, creo que me gustaría encontrar un equilibrio entre lo que realmente quiero y lo que los demás esperan de mí. Pero no sé cómo empezar a hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Encontrar ese equilibrio es un paso muy importante. Podemos trabajar en estrategias para identificar tus propias metas y valores. ¿Qué te parece si comenzamos por explorar qué es lo que realmente deseas en tu vida y carrera?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Eso suena bien. Me gustaría saber más sobre mis propios deseos, pero a veces me cuesta identificar lo que realmente quiero."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que puede ser un desafío. Una forma de empezar es reflexionar sobre las actividades o momentos que te traen alegría y satisfacción. ¿Hay alguna experiencia reciente en la que te hayas sentido realmente bien?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, el otro día pasé un buen rato con mis amigos, escuchando música y riéndonos. Me sentí muy feliz, aunque eso no pasa tan seguido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es genial que hayas podido disfrutar de ese momento. Las relaciones y la diversión son elementos clave para nuestro bienestar. ¿Qué te parece si exploramos cómo podrías incorporar más de esos momentos en tu vida diaria?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Creo que sería bueno intentar pasar más tiempo con mis amigos y hacer cosas que me gusten, pero a veces me cuesta salir de mi zona de confort."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran primer paso reconocerlo. Salir de la zona de confort puede ser difícil, pero también muy gratificante. Podemos trabajar en pequeñas metas que te ayuden a dar esos pasos. ¿Te gustaría establecer algún objetivo específico para empezar a hacerlo?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, tal vez podría comprometerme a salir una vez a la semana con mis amigos, aunque sea a un lugar cercano. Eso podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente idea. Comprometerte a salir una vez a la semana es un gran paso hacia el bienestar. ¿Cómo te sientes al respecto? ¿Hay algo específico que te gustaría hacer en esas salidas?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Me siento un poco emocionado y nervioso a la vez. Tal vez podríamos ir a un café o ver una película juntos. Eso suena divertido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy divertido y una forma excelente de disfrutar de la compañía de tus amigos. Recuerda que es normal sentirse nervioso, pero también emocionante. ¿Te gustaría que trabajáramos juntos en cómo comunicar ese compromiso a tus amigos?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, creo que eso sería útil. A veces me cuesta expresarles lo que necesito o lo que quiero hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, comunicar tus deseos puede ser complicado. Podríamos practicar algunas frases simples que te ayuden a expresar tus pensamientos. ¿Te gustaría intentarlo juntos?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría intentarlo. Creo que eso me ayudaría a sentirme más seguro al hablar con ellos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. Puedes decir algo como: \"Me gustaría pasar más tiempo juntos, ¿qué opinan de ir a un café el próximo fin de semana?\" ¿Te sientes cómodo con esa propuesta o prefieres modificarla?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Suena bien. Creo que puedo usar esa frase. Me ayuda a tener un punto de partida para hablar con ellos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas así. Tener un punto de partida es un gran paso para ganar confianza. Recuerda que tus amigos probablemente estarán felices de pasar tiempo contigo. ¿Hay algo más que te gustaría abordar en nuestra sesión hoy?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "No, creo que hemos tocado temas importantes. Me siento un poco más aliviado. Gracias por la ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más aliviado. Eso es un gran avance. Recuerda que aquí estaré para acompañarte en tu proceso. Nos vemos la próxima sesión. Cuídate mucho. ¡Hasta pronto!"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "¡Hasta pronto! Gracias por todo."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí",
+      "timestamp": 1764034717
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es la primera vez que estoy en una sesión de terapia.",
+      "timestamp": 1764034718
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al principio. Este es un espacio seguro donde puedes expresar lo que sientes. ¿Te gustaría compartir qué te preocupa en este momento?",
+      "timestamp": 1764034719
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, hay varias cosas en mi mente. Últimamente he estado sintiendo mucha ansiedad y, a veces, veo todo muy oscuro.",
+      "timestamp": 1764034721
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que estés sintiendo eso. La ansiedad puede ser abrumadora. ¿Qué situaciones o pensamientos crees que te generan esa sensación de oscuridad?",
+      "timestamp": 1764034722
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente la presión de la universidad y no saber si estoy tomando el camino correcto en mi vida. Eso me hace sentir muy perdido.",
+      "timestamp": 1764034723
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que la presión académica puede ser intensa y confundirte sobre tu camino. Es importante explorar esos sentimientos. ¿Qué es lo que más te preocupa sobre el camino que has elegido?",
+      "timestamp": 1764034724
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me preocupa no estar a la altura de las expectativas, tanto las mías como las de los demás. A veces siento que no soy lo suficientemente bueno.",
+      "timestamp": 1764034725
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es doloroso sentirse así y es algo que muchas personas experimentan. Podemos trabajar juntos en esas expectativas y en cómo te afectan. ¿Te gustaría hablar sobre algunas de las expectativas que sientes que debes cumplir?",
+      "timestamp": 1764034726
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que hay una presión constante para tener éxito y ser el mejor, especialmente en mi carrera. A veces, eso me paraliza y no sé cómo avanzar.",
+      "timestamp": 1764034727
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La presión por el éxito puede ser paralizante, y es comprensible que te sientas así. Es importante recordar que cada uno tiene su propio camino y que el éxito no siempre se mide de la misma manera. ¿Has considerado alguna forma de definir tu propio éxito?",
+      "timestamp": 1764034729
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría encontrar un equilibrio entre lo que realmente quiero y lo que los demás esperan de mí. Pero no sé cómo empezar a hacerlo.",
+      "timestamp": 1764034730
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Encontrar ese equilibrio es un paso muy importante. Podemos trabajar en estrategias para identificar tus propias metas y valores. ¿Qué te parece si comenzamos por explorar qué es lo que realmente deseas en tu vida y carrera?",
+      "timestamp": 1764034732
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena bien. Me gustaría saber más sobre mis propios deseos, pero a veces me cuesta identificar lo que realmente quiero.",
+      "timestamp": 1764034733
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que puede ser un desafío. Una forma de empezar es reflexionar sobre las actividades o momentos que te traen alegría y satisfacción. ¿Hay alguna experiencia reciente en la que te hayas sentido realmente bien?",
+      "timestamp": 1764034734
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, el otro día pasé un buen rato con mis amigos, escuchando música y riéndonos. Me sentí muy feliz, aunque eso no pasa tan seguido.",
+      "timestamp": 1764034735
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es genial que hayas podido disfrutar de ese momento. Las relaciones y la diversión son elementos clave para nuestro bienestar. ¿Qué te parece si exploramos cómo podrías incorporar más de esos momentos en tu vida diaria?",
+      "timestamp": 1764034737
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería bueno intentar pasar más tiempo con mis amigos y hacer cosas que me gusten, pero a veces me cuesta salir de mi zona de confort.",
+      "timestamp": 1764034738
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran primer paso reconocerlo. Salir de la zona de confort puede ser difícil, pero también muy gratificante. Podemos trabajar en pequeñas metas que te ayuden a dar esos pasos. ¿Te gustaría establecer algún objetivo específico para empezar a hacerlo?",
+      "timestamp": 1764034739
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, tal vez podría comprometerme a salir una vez a la semana con mis amigos, aunque sea a un lugar cercano. Eso podría ayudarme a sentirme mejor.",
+      "timestamp": 1764034740
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente idea. Comprometerte a salir una vez a la semana es un gran paso hacia el bienestar. ¿Cómo te sientes al respecto? ¿Hay algo específico que te gustaría hacer en esas salidas?",
+      "timestamp": 1764034741
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco emocionado y nervioso a la vez. Tal vez podríamos ir a un café o ver una película juntos. Eso suena divertido.",
+      "timestamp": 1764034743
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy divertido y una forma excelente de disfrutar de la compañía de tus amigos. Recuerda que es normal sentirse nervioso, pero también emocionante. ¿Te gustaría que trabajáramos juntos en cómo comunicar ese compromiso a tus amigos?",
+      "timestamp": 1764034744
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso sería útil. A veces me cuesta expresarles lo que necesito o lo que quiero hacer.",
+      "timestamp": 1764034745
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, comunicar tus deseos puede ser complicado. Podríamos practicar algunas frases simples que te ayuden a expresar tus pensamientos. ¿Te gustaría intentarlo juntos?",
+      "timestamp": 1764034747
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que eso me ayudaría a sentirme más seguro al hablar con ellos.",
+      "timestamp": 1764034748
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. Puedes decir algo como: \"Me gustaría pasar más tiempo juntos, ¿qué opinan de ir a un café el próximo fin de semana?\" ¿Te sientes cómodo con esa propuesta o prefieres modificarla?",
+      "timestamp": 1764034750
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Suena bien. Creo que puedo usar esa frase. Me ayuda a tener un punto de partida para hablar con ellos.",
+      "timestamp": 1764034751
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas así. Tener un punto de partida es un gran paso para ganar confianza. Recuerda que tus amigos probablemente estarán felices de pasar tiempo contigo. ¿Hay algo más que te gustaría abordar en nuestra sesión hoy?",
+      "timestamp": 1764034752
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos tocado temas importantes. Me siento un poco más aliviado. Gracias por la ayuda.",
+      "timestamp": 1764034753
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más aliviado. Eso es un gran avance. Recuerda que aquí estaré para acompañarte en tu proceso. Nos vemos la próxima sesión. Cuídate mucho. ¡Hasta pronto!",
+      "timestamp": 1764034754
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta pronto! Gracias por todo.",
+      "timestamp": 1764034755
+    }
+  ],
+  "notes": null
+}

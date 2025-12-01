@@ -1,0 +1,4 @@
+services:
+  sdialog_runner:
+    build: .
+    restart: unless-stopped

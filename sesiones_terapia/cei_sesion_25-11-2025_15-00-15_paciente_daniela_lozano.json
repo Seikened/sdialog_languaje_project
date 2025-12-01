@@ -1,0 +1,517 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:01:38Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1826415419,
+  "id": "907d0d9d-fe13-47f0-b615-bf46588c2ba0",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Daniela Lozano": {
+      "name": "Daniela Lozano",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEI) | estudiante de Comercio Exterior y Logística Internacional en la Ibero de 5to semestre; le gustan los idiomas, salir con amigas y ver series de otros países.",
+      "personality": "sociable pero preocupadiza",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a hablar de mis cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nervios, Daniela. Este espacio es para ti y aquí puedes hablar a tu ritmo. ¿Hay algo específico que te gustaría compartir primero?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Siento que he estado bastante decaída últimamente y me preocupa que no pueda concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la falta de concentración puede ser frustrante. ¿Puedes contarme más sobre cómo te has estado sintiendo en relación a tus estudios y qué cambios has notado?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Siento que incluso cuando estoy en clase, mi mente divaga y no puedo retener la información. Me da miedo no aprobar mis materias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que sientas miedo por tus calificaciones. La preocupación por el rendimiento académico puede ser abrumadora. ¿Has notado algún momento específico en el que esto suceda más, o es algo constante?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Es algo constante, pero se intensifica cuando se acercan los exámenes. Ahí es cuando más me estreso y me siento perdida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa presión antes de los exámenes puede generar ansiedad significativa. Vamos a trabajar juntos para encontrar maneras de manejar ese estrés. ¿Te gustaría explorar algunas técnicas de relajación o estrategias de estudio?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría eso. Siento que necesito algo que me ayude a calmarme y organizarme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, empecemos con algunas técnicas de relajación. La respiración profunda es muy efectiva. Te guiaré a través de un ejercicio simple. ¿Te gustaría intentarlo ahora?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría intentarlo. Creo que podría ayudarme a sentirme un poco más tranquila."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Siéntate cómoda, cierra los ojos si te sientes bien haciéndolo. Vamos a inhalar profundamente por la nariz, sintiendo cómo se expande tu abdomen. Aguanta un momento, y luego exhalamos lentamente por la boca. ¿Listas? Comencemos. Inhala... aguanta... y exhala..."
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "*Inhalando profundamente... aguanto... y exhalo lentamente...* Siento que me va ayudando un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra escuchar eso, Daniela. Continuemos con un par de respiraciones más. Inhalamos... aguanta... y exhalamos... Tómate tu tiempo. ¿Cómo te sientes después de este ejercicio?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Me siento un poco más relajada, creo que realmente ayuda. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra que te haya ayudado. La práctica regular de estas técnicas puede ser muy beneficiosa. Podemos seguir trabajando en cómo integrarlas en tu rutina diaria. ¿Te gustaría hablar sobre cómo organizar tus estudios también?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso sería genial. Creo que necesito un poco de ayuda para organizarme mejor y así poder manejar el estrés."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos por establecer una rutina de estudio. ¿Tienes un horario actual que uses para estudiar, o empezamos desde cero?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Actualmente no tengo un horario, estudio cuando puedo, pero creo que un plan sería útil."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Un plan puede brindarte estructura y reducir el estrés. Comencemos por identificar cuánto tiempo puedes dedicar al estudio cada día y qué materias necesitas priorizar. ¿Puedes darme una idea de tus horarios y materias?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Normalmente tengo clases durante el día y puedo estudiar un par de horas por la tarde. Mis materias más difíciles son matemáticas y logística."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, con eso en mente, podríamos planificar sesiones específicas para matemáticas y logística. ¿Te gustaría estudiar cada materia en días alternos o preferirías dedicar un tiempo a cada una en la misma sesión?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Creo que sería mejor estudiar cada materia en días alternos, así puedo concentrarme más en una a la vez."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una buena opción. Entonces, podrías dedicar un día a matemáticas y otro a logística. ¿Cuántas horas crees que podrías dedicarle a cada materia en esos días?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Podría dedicarle unas dos horas a matemáticas y una hora y media a logística. Creo que eso sería manejable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien, Daniela. Entonces podríamos organizar algo como esto: Matemáticas los lunes y miércoles por dos horas, y Logística los martes y jueves por una hora y media. ¿Te parece un buen punto de partida?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me parece un buen plan. Creo que eso me ayudará a sentirme más organizada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te sientas así. Tener un plan claro puede marcar una gran diferencia. Recuerda ser flexible contigo misma y ajustar el horario si es necesario. ¿Te gustaría añadir algo más a tu rutina para apoyar tu concentración?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Tal vez podría incluir algún tiempo para hacer ejercicio o salir a caminar. Creo que eso me ayudaría a despejar la mente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Excelente idea! Incorporar ejercicio puede mejorar tu concentración y bienestar general. ¿Te gustaría establecer un tiempo específico para eso en tu rutina semanal?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, creo que podría salir a caminar los fines de semana. Un par de veces al día estaría bien para empezar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, caminar los fines de semana es una gran manera de despejar la mente. Podrías tratar de caminar un par de veces al día, por ejemplo, una por la mañana y otra por la tarde. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso suena muy bien. Creo que tener una rutina de caminatas me ayudará a sentirme más fresca y enfocada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Estoy segura de que te ayudará. Integrar actividad física en tu rutina es muy beneficioso para tu salud mental. Recuerda también reservar tiempo para descansar y relajarte. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "No, creo que hemos avanzado bastante y me siento más tranquila. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más tranquila y que hemos avanzado. Recuerda que estoy aquí para apoyarte en tu proceso. ¿Te gustaría programar nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, me gustaría programar otra sesión. Me siento mejor sabiendo que tengo alguien con quien hablar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, eso es muy importante. ¿Te parece bien programar para la próxima semana, el mismo día y hora?"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "Sí, eso estaría perfecto. Agradezco mucho tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Daniela. Estoy aquí para ayudarte. Te espero la próxima semana entonces. Cuídate mucho y que tengas un buen fin de semana. ¡Hasta pronto!"
+    },
+    {
+      "speaker": "Daniela Lozano",
+      "text": "¡Gracias! Cuídate también. ¡Hasta pronto!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Daniela Lozano, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104443
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, no estoy acostumbrada a hablar de mis cosas.",
+      "timestamp": 1764104444
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nervios, Daniela. Este espacio es para ti y aquí puedes hablar a tu ritmo. ¿Hay algo específico que te gustaría compartir primero?",
+      "timestamp": 1764104445
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que he estado bastante decaída últimamente y me preocupa que no pueda concentrarme en mis estudios.",
+      "timestamp": 1764104446
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la falta de concentración puede ser frustrante. ¿Puedes contarme más sobre cómo te has estado sintiendo en relación a tus estudios y qué cambios has notado?",
+      "timestamp": 1764104447
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que incluso cuando estoy en clase, mi mente divaga y no puedo retener la información. Me da miedo no aprobar mis materias.",
+      "timestamp": 1764104448
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que sientas miedo por tus calificaciones. La preocupación por el rendimiento académico puede ser abrumadora. ¿Has notado algún momento específico en el que esto suceda más, o es algo constante?",
+      "timestamp": 1764104450
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es algo constante, pero se intensifica cuando se acercan los exámenes. Ahí es cuando más me estreso y me siento perdida.",
+      "timestamp": 1764104451
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa presión antes de los exámenes puede generar ansiedad significativa. Vamos a trabajar juntos para encontrar maneras de manejar ese estrés. ¿Te gustaría explorar algunas técnicas de relajación o estrategias de estudio?",
+      "timestamp": 1764104452
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Siento que necesito algo que me ayude a calmarme y organizarme mejor.",
+      "timestamp": 1764104453
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, empecemos con algunas técnicas de relajación. La respiración profunda es muy efectiva. Te guiaré a través de un ejercicio simple. ¿Te gustaría intentarlo ahora?",
+      "timestamp": 1764104455
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que podría ayudarme a sentirme un poco más tranquila.",
+      "timestamp": 1764104456
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Siéntate cómoda, cierra los ojos si te sientes bien haciéndolo. Vamos a inhalar profundamente por la nariz, sintiendo cómo se expande tu abdomen. Aguanta un momento, y luego exhalamos lentamente por la boca. ¿Listas? Comencemos. Inhala... aguanta... y exhala...",
+      "timestamp": 1764104458
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "*Inhalando profundamente... aguanto... y exhalo lentamente...* Siento que me va ayudando un poco.",
+      "timestamp": 1764104459
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra escuchar eso, Daniela. Continuemos con un par de respiraciones más. Inhalamos... aguanta... y exhalamos... Tómate tu tiempo. ¿Cómo te sientes después de este ejercicio?",
+      "timestamp": 1764104461
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajada, creo que realmente ayuda. Gracias por guiarme.",
+      "timestamp": 1764104463
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra que te haya ayudado. La práctica regular de estas técnicas puede ser muy beneficiosa. Podemos seguir trabajando en cómo integrarlas en tu rutina diaria. ¿Te gustaría hablar sobre cómo organizar tus estudios también?",
+      "timestamp": 1764104465
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería genial. Creo que necesito un poco de ayuda para organizarme mejor y así poder manejar el estrés.",
+      "timestamp": 1764104466
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos por establecer una rutina de estudio. ¿Tienes un horario actual que uses para estudiar, o empezamos desde cero?",
+      "timestamp": 1764104468
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Actualmente no tengo un horario, estudio cuando puedo, pero creo que un plan sería útil.",
+      "timestamp": 1764104469
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Un plan puede brindarte estructura y reducir el estrés. Comencemos por identificar cuánto tiempo puedes dedicar al estudio cada día y qué materias necesitas priorizar. ¿Puedes darme una idea de tus horarios y materias?",
+      "timestamp": 1764104470
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Normalmente tengo clases durante el día y puedo estudiar un par de horas por la tarde. Mis materias más difíciles son matemáticas y logística.",
+      "timestamp": 1764104472
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, con eso en mente, podríamos planificar sesiones específicas para matemáticas y logística. ¿Te gustaría estudiar cada materia en días alternos o preferirías dedicar un tiempo a cada una en la misma sesión?",
+      "timestamp": 1764104473
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería mejor estudiar cada materia en días alternos, así puedo concentrarme más en una a la vez.",
+      "timestamp": 1764104474
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena opción. Entonces, podrías dedicar un día a matemáticas y otro a logística. ¿Cuántas horas crees que podrías dedicarle a cada materia en esos días?",
+      "timestamp": 1764104476
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría dedicarle unas dos horas a matemáticas y una hora y media a logística. Creo que eso sería manejable.",
+      "timestamp": 1764104477
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien, Daniela. Entonces podríamos organizar algo como esto: Matemáticas los lunes y miércoles por dos horas, y Logística los martes y jueves por una hora y media. ¿Te parece un buen punto de partida?",
+      "timestamp": 1764104479
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece un buen plan. Creo que eso me ayudará a sentirme más organizada.",
+      "timestamp": 1764104480
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te sientas así. Tener un plan claro puede marcar una gran diferencia. Recuerda ser flexible contigo misma y ajustar el horario si es necesario. ¿Te gustaría añadir algo más a tu rutina para apoyar tu concentración?",
+      "timestamp": 1764104482
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez podría incluir algún tiempo para hacer ejercicio o salir a caminar. Creo que eso me ayudaría a despejar la mente.",
+      "timestamp": 1764104483
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Excelente idea! Incorporar ejercicio puede mejorar tu concentración y bienestar general. ¿Te gustaría establecer un tiempo específico para eso en tu rutina semanal?",
+      "timestamp": 1764104484
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría salir a caminar los fines de semana. Un par de veces al día estaría bien para empezar.",
+      "timestamp": 1764104485
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, caminar los fines de semana es una gran manera de despejar la mente. Podrías tratar de caminar un par de veces al día, por ejemplo, una por la mañana y otra por la tarde. ¿Te parece bien?",
+      "timestamp": 1764104487
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena muy bien. Creo que tener una rutina de caminatas me ayudará a sentirme más fresca y enfocada.",
+      "timestamp": 1764104488
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy segura de que te ayudará. Integrar actividad física en tu rutina es muy beneficioso para tu salud mental. Recuerda también reservar tiempo para descansar y relajarte. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?",
+      "timestamp": 1764104490
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos avanzado bastante y me siento más tranquila. Gracias por tu ayuda.",
+      "timestamp": 1764104491
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más tranquila y que hemos avanzado. Recuerda que estoy aquí para apoyarte en tu proceso. ¿Te gustaría programar nuestra próxima sesión?",
+      "timestamp": 1764104492
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría programar otra sesión. Me siento mejor sabiendo que tengo alguien con quien hablar.",
+      "timestamp": 1764104493
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, eso es muy importante. ¿Te parece bien programar para la próxima semana, el mismo día y hora?",
+      "timestamp": 1764104495
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso estaría perfecto. Agradezco mucho tu apoyo.",
+      "timestamp": 1764104495
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Daniela. Estoy aquí para ayudarte. Te espero la próxima semana entonces. Cuídate mucho y que tengas un buen fin de semana. ¡Hasta pronto!",
+      "timestamp": 1764104497
+    },
+    {
+      "agent": "Daniela Lozano",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. ¡Hasta pronto!",
+      "timestamp": 1764104498
+    }
+  ],
+  "notes": null
+}

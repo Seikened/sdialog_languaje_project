@@ -1,0 +1,352 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:00:33Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2797045827,
+  "id": "2baeff62-3dd7-45a6-a185-9b153497f46a",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Jorge Aguilar": {
+      "name": "Jorge Aguilar",
+      "age": 23,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ACE) | estudiante de Administración y Creación de Empresas en la Ibero de 6to semestre; le gusta convivir con amigos, escuchar podcasts relajados y ver videos para distraerse.",
+      "personality": "social pero ansioso",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en terapia y no sé qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en tu primera sesión. Aquí estamos para hablar y explorar lo que necesites. ¿Te gustaría compartir qué te motivó a buscar terapia?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, he estado sintiendo mucha ansiedad y un poco de depresión últimamente. Siento que no puedo manejarlo solo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y es un gran paso reconocer que necesitas apoyo. La ansiedad y la depresión pueden ser abrumadoras, pero juntos podemos trabajar en ello. ¿Hay alguna situación específica que te genere más ansiedad?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, a veces me siento abrumado con la escuela y las expectativas, especialmente en este semestre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Las expectativas académicas pueden ser realmente estresantes. Es importante sentir que tienes un equilibrio y un espacio para ti. ¿Cómo manejas esa presión en tu día a día?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Normalmente trato de distraerme con podcasts o ver videos, pero a veces siento que no es suficiente y la ansiedad regresa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que las distracciones puedan ayudar temporalmente, pero también es importante abordar la raíz de la ansiedad. Vamos a explorar otras estrategias que puedan ayudarte a sentirte más en control. ¿Te gustaría aprender algunas técnicas para manejar la ansiedad?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría eso. Creo que sería útil tener algunas herramientas para lidiar con lo que siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, podemos trabajar en herramientas útiles. Una técnica efectiva es la respiración profunda. Te guiaré en un breve ejercicio de respiración, ¿te parece bien?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me parece bien. Estoy dispuesto a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Vamos a hacer esto juntos. Cierra los ojos y toma una respiración profunda por la nariz, llenando tus pulmones lentamente, y luego suelta el aire por la boca. Vamos a repetirlo tres veces. Comencemos: inhala... (pausa) y exhala... (pausa) Inhala de nuevo... (pausa) y exhala... (pausa) Una última vez, inhala... (pausa) y exhala... (pausa). ¿Cómo te sientes después de este ejercicio?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Me siento un poco más relajado. La respiración ayuda a calmarme un poco, gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. La respiración consciente puede ser una herramienta poderosa. Recuerda que puedes recurrir a ella cuando te sientas abrumado. ¿Te gustaría hablar sobre algo más o profundizar en otra estrategia?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Claro, me gustaría aprender más sobre otras estrategias que puedan ayudarme a manejar mi ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto. Otra estrategia efectiva es la escritura, donde puedes expresar tus pensamientos y emociones. Llevar un diario puede ayudarte a aclarar tus ideas y reducir la ansiedad. ¿Te gustaría que te explique cómo empezar?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría saber cómo empezar a escribir un diario, creo que podría ser útil."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Genial! Para comenzar, elige un momento del día que te funcione, como por la mañana o antes de dormir. Puedes escribir sobre cómo te sientes, lo que te preocupa o incluso lo que te hace feliz. No hay reglas estrictas; solo deja fluir tus pensamientos. ¿Te gustaría establecer un objetivo para hacerlo regularmente?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, creo que establecer un objetivo suena bien. Podría intentar escribir al menos tres veces a la semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente meta. Escribir tres veces a la semana te dará la oportunidad de reflexionar y procesar tus emociones. Puedes comenzar con sesiones cortas, de 5 a 10 minutos. ¿Te gustaría que revisáramos juntos tus experiencias en la próxima sesión?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Sí, me gustaría mucho que revisáramos eso. Creo que sería útil compartir lo que escriba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, estoy aquí para acompañarte en ese proceso. Compartir tus experiencias puede ser muy liberador y esclarecedor. Recuerda que este es un espacio seguro para ti. ¿Hay algo más que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "No, creo que por ahora está bien. Siento que he aprendido bastante hoy. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes así. Ha sido un placer trabajar contigo hoy. Recuerda que aquí estaré para ayudarte en tu camino. ¡Nos vemos en la próxima sesión! Cuídate."
+    },
+    {
+      "speaker": "Jorge Aguilar",
+      "text": "Gracias, cuídate también. Hasta la próxima. ¡Adiós!"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Adiós! Hasta pronto. Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Jorge Aguilar, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104398
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es mi primera vez en terapia y no sé qué esperar.",
+      "timestamp": 1764104399
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en tu primera sesión. Aquí estamos para hablar y explorar lo que necesites. ¿Te gustaría compartir qué te motivó a buscar terapia?",
+      "timestamp": 1764104400
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo mucha ansiedad y un poco de depresión últimamente. Siento que no puedo manejarlo solo.",
+      "timestamp": 1764104401
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y es un gran paso reconocer que necesitas apoyo. La ansiedad y la depresión pueden ser abrumadoras, pero juntos podemos trabajar en ello. ¿Hay alguna situación específica que te genere más ansiedad?",
+      "timestamp": 1764104403
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces me siento abrumado con la escuela y las expectativas, especialmente en este semestre.",
+      "timestamp": 1764104404
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Las expectativas académicas pueden ser realmente estresantes. Es importante sentir que tienes un equilibrio y un espacio para ti. ¿Cómo manejas esa presión en tu día a día?",
+      "timestamp": 1764104405
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Normalmente trato de distraerme con podcasts o ver videos, pero a veces siento que no es suficiente y la ansiedad regresa.",
+      "timestamp": 1764104406
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que las distracciones puedan ayudar temporalmente, pero también es importante abordar la raíz de la ansiedad. Vamos a explorar otras estrategias que puedan ayudarte a sentirte más en control. ¿Te gustaría aprender algunas técnicas para manejar la ansiedad?",
+      "timestamp": 1764104407
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que sería útil tener algunas herramientas para lidiar con lo que siento.",
+      "timestamp": 1764104409
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, podemos trabajar en herramientas útiles. Una técnica efectiva es la respiración profunda. Te guiaré en un breve ejercicio de respiración, ¿te parece bien?",
+      "timestamp": 1764104411
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesto a intentarlo.",
+      "timestamp": 1764104411
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Vamos a hacer esto juntos. Cierra los ojos y toma una respiración profunda por la nariz, llenando tus pulmones lentamente, y luego suelta el aire por la boca. Vamos a repetirlo tres veces. Comencemos: inhala... (pausa) y exhala... (pausa) Inhala de nuevo... (pausa) y exhala... (pausa) Una última vez, inhala... (pausa) y exhala... (pausa). ¿Cómo te sientes después de este ejercicio?",
+      "timestamp": 1764104415
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajado. La respiración ayuda a calmarme un poco, gracias por guiarme.",
+      "timestamp": 1764104416
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. La respiración consciente puede ser una herramienta poderosa. Recuerda que puedes recurrir a ella cuando te sientas abrumado. ¿Te gustaría hablar sobre algo más o profundizar en otra estrategia?",
+      "timestamp": 1764104418
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, me gustaría aprender más sobre otras estrategias que puedan ayudarme a manejar mi ansiedad.",
+      "timestamp": 1764104419
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto. Otra estrategia efectiva es la escritura, donde puedes expresar tus pensamientos y emociones. Llevar un diario puede ayudarte a aclarar tus ideas y reducir la ansiedad. ¿Te gustaría que te explique cómo empezar?",
+      "timestamp": 1764104420
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría saber cómo empezar a escribir un diario, creo que podría ser útil.",
+      "timestamp": 1764104421
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Genial! Para comenzar, elige un momento del día que te funcione, como por la mañana o antes de dormir. Puedes escribir sobre cómo te sientes, lo que te preocupa o incluso lo que te hace feliz. No hay reglas estrictas; solo deja fluir tus pensamientos. ¿Te gustaría establecer un objetivo para hacerlo regularmente?",
+      "timestamp": 1764104423
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que establecer un objetivo suena bien. Podría intentar escribir al menos tres veces a la semana.",
+      "timestamp": 1764104424
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente meta. Escribir tres veces a la semana te dará la oportunidad de reflexionar y procesar tus emociones. Puedes comenzar con sesiones cortas, de 5 a 10 minutos. ¿Te gustaría que revisáramos juntos tus experiencias en la próxima sesión?",
+      "timestamp": 1764104426
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho que revisáramos eso. Creo que sería útil compartir lo que escriba.",
+      "timestamp": 1764104427
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, estoy aquí para acompañarte en ese proceso. Compartir tus experiencias puede ser muy liberador y esclarecedor. Recuerda que este es un espacio seguro para ti. ¿Hay algo más que te gustaría abordar hoy?",
+      "timestamp": 1764104429
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora está bien. Siento que he aprendido bastante hoy. Gracias por tu apoyo.",
+      "timestamp": 1764104430
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes así. Ha sido un placer trabajar contigo hoy. Recuerda que aquí estaré para ayudarte en tu camino. ¡Nos vemos en la próxima sesión! Cuídate.",
+      "timestamp": 1764104431
+    },
+    {
+      "agent": "Jorge Aguilar",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate también. Hasta la próxima. ¡Adiós!",
+      "timestamp": 1764104432
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Adiós! Hasta pronto. Cuídate.",
+      "timestamp": 1764104433
+    }
+  ],
+  "notes": null
+}

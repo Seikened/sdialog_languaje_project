@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:45:37Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 643647322,
+  "id": "87690ee7-005e-4d67-bb80-47c7f448f794",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Valeria Campos": {
+      "name": "Valeria Campos",
+      "age": 23,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IND) | estudiante de Ingeniería Industrial en la Ibero de 7mo semestre; le gusta tener todo organizado, usar agendas, ir a cafés y pasar tiempo con sus amigas.",
+      "personality": "organizada pero ansiosa",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Valeria Campos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y juntos podemos explorar lo que necesites compartir. ¿Quieres hablar sobre lo que te preocupa?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me preocupa que no pueda manejar el estrés de la universidad. A veces me siento abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, el estrés universitario puede ser bastante intenso. ¿Puedes contarme un poco más sobre las situaciones específicas que te hacen sentir abrumada?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Claro, a veces es la carga de trabajos y exámenes, pero también me preocupa cómo organizar mi tiempo. Siento que siempre me falta tiempo para todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La gestión del tiempo puede ser un desafío. Hacer una lista de prioridades y establecer un horario puede ayudar. ¿Has intentado alguna estrategia para organizarte mejor?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, suelo usar una agenda, pero a veces me distraigo y no la sigo. Me frustra no poder ser más constante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse frustrada. La constancia puede ser difícil de alcanzar, especialmente con tantas distracciones. ¿Te gustaría explorar algunas técnicas que te ayuden a mantenerte enfocada?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, eso me gustaría. Creo que me ayudaría a sentirme más organizada y menos ansiosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, podemos trabajar en algunas técnicas de manejo del tiempo y atención. Una opción es establecer metas pequeñas y alcanzables. ¿Te parece que podrías intentarlo en tu próxima semana?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, creo que eso podría ayudarme. Poner metas pequeñas suena menos abrumador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que pienses así. Podemos fijar un objetivo pequeño para la próxima semana y luego revisarlo juntos. ¿Hay alguna meta específica que te gustaría comenzar a trabajar?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Me gustaría intentar organizar mejor mis estudios para un examen que tengo la próxima semana. Quiero repasar un poco cada día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente meta. Podríamos establecer un plan de estudio diario para que te sientas más preparada. ¿Cuánto tiempo crees que podrías dedicar cada día a repasar?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Creo que podría dedicar al menos una hora cada día. Eso me parece manejable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial, una hora al día suena muy razonable. Podrías dividir ese tiempo en secciones para repasar diferentes temas. ¿Te gustaría diseñar un esquema de estudio para esos días?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, me gustaría hacerlo. Creo que tener un esquema me ayudaría a mantenerme enfocada y organizada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, hagamos un esquema simple. ¿Cuáles son los temas que necesitas repasar para tu examen? Así podemos distribuir el tiempo de manera efectiva."
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Necesito repasar estadísticas, gestión de proyectos y un poco de economía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, podemos dividir la hora en secciones para cada tema. ¿Te gustaría dedicar 20 minutos a cada uno, o prefieres ajustar el tiempo según tu comodidad con los temas?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Creo que 20 minutos para cada uno está bien. Así puedo mantenerme concentrada y no me sentiré tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Entonces, tu esquema sería: 20 minutos para estadísticas, 20 minutos para gestión de proyectos y 20 minutos para economía. ¿Te gustaría escribir esto en tu agenda para que lo tengas presente?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Sí, definitivamente lo escribiré en mi agenda. Así puedo tenerlo visible y recordarlo cada día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, tenerlo visible te ayudará a mantenerte enfocada. Recuerda que puedes ajustar el horario según lo necesites. Estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría trabajar hoy?"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "Creo que por ahora eso es suficiente. Me siento un poco más tranquila al tener un plan. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. Tener un plan puede hacer una gran diferencia. Nos vemos en nuestra próxima sesión para ver cómo te ha ido. ¡Cuídate!"
+    },
+    {
+      "speaker": "Valeria Campos",
+      "text": "¡Gracias! Nos vemos pronto. Cuídate también. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Valeria Campos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103509
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, no estoy segura de qué esperar.",
+      "timestamp": 1764103510
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y juntos podemos explorar lo que necesites compartir. ¿Quieres hablar sobre lo que te preocupa?",
+      "timestamp": 1764103511
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me preocupa que no pueda manejar el estrés de la universidad. A veces me siento abrumada.",
+      "timestamp": 1764103512
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, el estrés universitario puede ser bastante intenso. ¿Puedes contarme un poco más sobre las situaciones específicas que te hacen sentir abrumada?",
+      "timestamp": 1764103513
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, a veces es la carga de trabajos y exámenes, pero también me preocupa cómo organizar mi tiempo. Siento que siempre me falta tiempo para todo.",
+      "timestamp": 1764103514
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La gestión del tiempo puede ser un desafío. Hacer una lista de prioridades y establecer un horario puede ayudar. ¿Has intentado alguna estrategia para organizarte mejor?",
+      "timestamp": 1764103515
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suelo usar una agenda, pero a veces me distraigo y no la sigo. Me frustra no poder ser más constante.",
+      "timestamp": 1764103516
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse frustrada. La constancia puede ser difícil de alcanzar, especialmente con tantas distracciones. ¿Te gustaría explorar algunas técnicas que te ayuden a mantenerte enfocada?",
+      "timestamp": 1764103517
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que me ayudaría a sentirme más organizada y menos ansiosa.",
+      "timestamp": 1764103518
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, podemos trabajar en algunas técnicas de manejo del tiempo y atención. Una opción es establecer metas pequeñas y alcanzables. ¿Te parece que podrías intentarlo en tu próxima semana?",
+      "timestamp": 1764103519
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme. Poner metas pequeñas suena menos abrumador.",
+      "timestamp": 1764103520
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que pienses así. Podemos fijar un objetivo pequeño para la próxima semana y luego revisarlo juntos. ¿Hay alguna meta específica que te gustaría comenzar a trabajar?",
+      "timestamp": 1764103521
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría intentar organizar mejor mis estudios para un examen que tengo la próxima semana. Quiero repasar un poco cada día.",
+      "timestamp": 1764103523
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente meta. Podríamos establecer un plan de estudio diario para que te sientas más preparada. ¿Cuánto tiempo crees que podrías dedicar cada día a repasar?",
+      "timestamp": 1764103524
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría dedicar al menos una hora cada día. Eso me parece manejable.",
+      "timestamp": 1764103525
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial, una hora al día suena muy razonable. Podrías dividir ese tiempo en secciones para repasar diferentes temas. ¿Te gustaría diseñar un esquema de estudio para esos días?",
+      "timestamp": 1764103526
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacerlo. Creo que tener un esquema me ayudaría a mantenerme enfocada y organizada.",
+      "timestamp": 1764103527
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, hagamos un esquema simple. ¿Cuáles son los temas que necesitas repasar para tu examen? Así podemos distribuir el tiempo de manera efectiva.",
+      "timestamp": 1764103528
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Necesito repasar estadísticas, gestión de proyectos y un poco de economía.",
+      "timestamp": 1764103529
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, podemos dividir la hora en secciones para cada tema. ¿Te gustaría dedicar 20 minutos a cada uno, o prefieres ajustar el tiempo según tu comodidad con los temas?",
+      "timestamp": 1764103531
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que 20 minutos para cada uno está bien. Así puedo mantenerme concentrada y no me sentiré tan abrumada.",
+      "timestamp": 1764103531
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Entonces, tu esquema sería: 20 minutos para estadísticas, 20 minutos para gestión de proyectos y 20 minutos para economía. ¿Te gustaría escribir esto en tu agenda para que lo tengas presente?",
+      "timestamp": 1764103532
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente lo escribiré en mi agenda. Así puedo tenerlo visible y recordarlo cada día.",
+      "timestamp": 1764103533
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, tenerlo visible te ayudará a mantenerte enfocada. Recuerda que puedes ajustar el horario según lo necesites. Estoy aquí para apoyarte en este proceso. ¿Hay algo más en lo que te gustaría trabajar hoy?",
+      "timestamp": 1764103534
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que por ahora eso es suficiente. Me siento un poco más tranquila al tener un plan. Gracias.",
+      "timestamp": 1764103535
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. Tener un plan puede hacer una gran diferencia. Nos vemos en nuestra próxima sesión para ver cómo te ha ido. ¡Cuídate!",
+      "timestamp": 1764103536
+    },
+    {
+      "agent": "Valeria Campos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos pronto. Cuídate también. ¡Adiós!",
+      "timestamp": 1764103537
+    }
+  ],
+  "notes": null
+}

@@ -8,7 +8,12 @@ from trigger import trigger_tool  # , entry_incidents
 from joblib import Parallel, delayed
 import threading
 from time import sleep
+import time
 import random
+import pathlib
+
+BASE_DIR = pathlib.Path(__file__).parent.resolve()
+
 
 lock_incidents = threading.Lock()
 
@@ -144,7 +149,9 @@ summary_reflex = SimpleReflexOrchestrator(
 
 # FUNCIÓN PARA UNA SESIÓN (UNIT OF WORK) --------------------------
 
-def run_session(persona, carrera, sesion_id: int):
+def run_session(persona, carrera, iteracion: int):
+    time_stamp_str = time.strftime("%d-%m-%Y_%H-%M-%S")
+    
     nombre = persona.name
     primera_intervencion = (
         f"Hola {nombre}, toma asiento por favor. "
@@ -171,8 +178,10 @@ def run_session(persona, carrera, sesion_id: int):
 
     nombre_f = nombre.replace(" ", "_").lower()
     major = carrera.replace(" ", "_").lower()
-    archivo_terapia = f"{major}_sesion_{sesion_id}_paciente_{nombre_f}.json"
-
+    
+    archivo_terapia = BASE_DIR / "sesiones_terapia" / f"{major}_sesion_{time_stamp_str  }_paciente_{nombre_f}.json"
+    
+    archivo_terapia = str(archivo_terapia)
     dialog.to_file(archivo_terapia, human_readable=True)
 
     # Nota: esto escribe en incidents.json desde varios threads.
@@ -191,28 +200,48 @@ def run_session(persona, carrera, sesion_id: int):
     return archivo_terapia
 
 
-# LOOP DE PACIENTES EN PARALELO CON JOBLIB ------------------------
+# # LOOP DE PACIENTES EN PARALELO CON JOBLIB ------------------------
 
-sesiones = 5
+# sesiones = 5
 
-# Si pacientes() es generador, lo materializamos una sola vez
-lista_pacientes = list(pacientes())
+# # Si pacientes() es generador, lo materializamos una sola vez
+# lista_pacientes = list(pacientes())[:1]
 
-# Armamos todas las tareas (persona, carrera, sesion_id)
-tareas = [
-    (persona, carrera, sesion_id)
-    for sesion_id in range(sesiones)
-    for (persona, carrera) in lista_pacientes
-]
+# # Armamos todas las tareas (persona, carrera, iteracion)
+# tareas = [
+#     (persona, carrera, iteracion)
+#     for iteracion in range(sesiones)
+#     for (persona, carrera) in lista_pacientes
+# ]
 
-# Número de workers en paralelo
-n_workers = 2  # ajusta según qué tanto quieres paralelizar
+# # Número de workers en paralelo
+# n_workers = 2  # ajusta según qué tanto quieres paralelizar
 
-Parallel(
-    n_jobs=n_workers, 
-    backend="threading",
-    prefer="threads",
-    )(
-    delayed(run_session)(persona, carrera, sesion_id)
-    for (persona, carrera, sesion_id) in tareas
+# Parallel(
+#     n_jobs=n_workers, 
+#     backend="threading",
+#     prefer="threads",
+#     )(
+#     delayed(run_session)(persona, carrera, iteracion)
+#     for (persona, carrera, iteracion) in tareas
+# )
+
+
+
+
+primera_intervencion = (
+    "Hola, toma asiento por favor. "
+    "¿Cómo te sientes hoy al estar aquí?"
+)
+
+valeria_psicologo = Agent(
+        persona=psicologo,
+        first_utterance=primera_intervencion,
+        tools=[get_phq9_questions, symmary_session],
+    )
+
+valeria_psicologo = valeria_psicologo | phq9_reflex | summary_reflex
+valeria_psicologo.serve(
+    port=8003,
+    log_level="info",
 )

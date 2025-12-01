@@ -1,0 +1,848 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:53:53Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1716414358,
+  "id": "2483af48-feb1-474e-a39e-dbf96eb81272",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Emmy Aöede": {
+      "name": "Emmy Aöede",
+      "age": 21,
+      "race": "Latino",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 7mo semestre; le gusta hacer videos de ciencia, convivir con amigos y asistir a conferencias.",
+      "personality": "observadora",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Emmy Aöede, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro para ti. ¿Te gustaría compartir por qué decidiste buscar terapia en este momento?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, he estado sintiéndome un poco perdida y triste últimamente, y pensé que hablar con alguien podría ayudarme a entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es un gran paso buscar ayuda. Para explorar lo que has estado sintiendo en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender mejor tus emociones. ¿Te gustaría responderlo? Recuerda que esto no sustituye una evaluación profesional completa."
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Claro, me parece bien. Estoy dispuesta a responderlo y ver qué me dice."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes las preguntas del cuestionario. Vamos a ir una por una:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? (0 = nunca, 1 = a veces, 2 = a menudo, 3 = casi todos los días). ¿Cuál sería tu respuesta a la primera pregunta?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Creo que sería un 2, a menudo he tenido molestias y me he sentido abrumada por mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, es un paso importante. Ahora pasemos a la segunda pregunta: \n\n2. Poco interés o placer en hacer cosas, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Le daría un 2 también. Últimamente, me ha costado disfrutar de las cosas que solía hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por ser tan honesta. Ahora la tercera pregunta:\n\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Esa sería un 3 para mí, me he sentido decaída y sin esperanzas casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Siento que te estés sintiendo así, es muy valioso que lo reconozcas. Continuemos con la cuarta pregunta:\n\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Le daría un 2, a veces tengo problemas para dormir, pero otras veces duermo más de lo habitual."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta, es importante tener en cuenta esos patrones de sueño. Ahora vamos con la quinta pregunta:\n\n5. Sentirte cansado(a) o con poca energía, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Esa sería un 3, me siento cansada y sin energía casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiéndote así; es un síntoma importante a considerar. Pasemos a la sexta pregunta:\n\n6. Tener poco apetito o comer en exceso, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Le daría un 2, a veces no tengo mucho apetito, pero otras veces como más de lo usual."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Ahora vamos con la séptima pregunta:\n\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Esa sería un 3. Me he sentido así casi todos los días, como si no estuviera cumpliendo con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiendo eso, es difícil cargar con esas emociones. Continuemos con la octava pregunta:\n\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Le daría un 2. A veces me cuesta concentrarme, especialmente en cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la concentración puede verse afectada por lo que estás sintiendo. Ahora pasemos a la novena pregunta:\n\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Creo que eso sería un 1. A veces me siento un poco inquieta, pero no creo que sea algo que los demás noten mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad. Ahora, para finalizar el cuestionario, aquí va la décima pregunta:\n\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera, ¿cómo lo calificarías?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Esa sería un 1. A veces tengo pensamientos oscuros, pero no quiero lastimarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un alivio escuchar que no deseas lastimarte, pero es importante abordar esos pensamientos oscuros. Aprecio mucho que hayas compartido tus respuestas conmigo. Esto nos ayudará a entender mejor cómo te sientes y a trabajar juntos en tu proceso. ¿Cómo te sientes después de responder al cuestionario?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me siento un poco pesada, pero al mismo tiempo aliviada de poder hablar de lo que siento. Es un comienzo para entender mejor mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que sientes alivio al poder compartir tus emociones. A veces, expresar lo que llevamos dentro puede ser un primer paso muy valioso. ¿Te gustaría explorar alguna de estas emociones o situaciones más a fondo?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, creo que me gustaría hablar más sobre esa sensación de estar perdida y la presión que siento de cumplir con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy importante. La sensación de estar perdida y la presión por cumplir expectativas pueden ser abrumadoras. Comencemos por explorar qué te hace sentir más perdida, ¿hay experiencias o situaciones específicas que te vienen a la mente?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, a veces siento que las expectativas de la universidad, mis amigos y mi familia son demasiado altas y me hacen dudar de mí misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentir esa presión, especialmente en un entorno tan exigente como la universidad. A menudo, las expectativas pueden convertirse en una carga. ¿Cómo crees que estas expectativas influyen en tu autoestima y en cómo te percibes a ti misma?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Creo que me hacen sentir insuficiente. A veces pienso que no soy lo suficientemente buena, lo que afecta mi confianza y me hace sentir ansiosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así; es importante reconocer cómo las expectativas externas pueden impactar tu bienestar emocional. Trabajaremos juntas para desafiar esas creencias y fortalecer tu confianza. ¿Te gustaría explorar estrategias que te ayuden a lidiar con esa ansiedad y a sentirte más suficiente?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría mucho eso. Creo que aprender a manejar mi ansiedad podría ayudarme a sentirme mejor conmigo misma."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, trabajar en técnicas para manejar la ansiedad puede ser muy eficaz. Una estrategia que podría ser útil es la respiración profunda y la atención plena. ¿Te gustaría que te enseñe algunos ejercicios de respiración que puedas practicar?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría aprender esos ejercicios. Creo que me ayudarían a calmarme cuando me sienta ansiosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Aquí tienes un ejercicio simple de respiración: \n\n1. Siéntate cómodamente y cierra los ojos si te sientes a gusto.\n2. Inhala profundamente por la nariz contando hasta 4. \n3. Retén la respiración contando hasta 4.\n4. Exhala lentamente por la boca contando hasta 6.\n5. Repite esto durante 5 minutos, enfocándote en tu respiración y dejando que tus pensamientos se disuelvan.\n\nPracticarlo regularmente puede ayudarte a calmarte en momentos de ansiedad. ¿Te gustaría intentarlo ahora juntos?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me parece bien. Estoy lista para intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial, comencemos. Siéntate cómodamente y cierra los ojos si te sientes a gusto. Vamos a inhalar profundamente por la nariz contando hasta 4... \n\n1... 2... 3... 4... \n\nAhora, retén la respiración contando hasta 4... \n\n1... 2... 3... 4...\n\nAhora, exhala lentamente por la boca contando hasta 6... \n\n1... 2... 3... 4... 5... 6... \n\nRepite esto a tu ritmo. Tómate el tiempo que necesites y enfócate solo en tu respiración. Estoy aquí contigo."
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "(Respiro profundamente, siguiendo las instrucciones y sintiendo cómo la tensión se va disipando poco a poco. Me siento más tranquila.)"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Qué bueno escuchar que te sientes más tranquila, es un gran logro. La respiración profunda puede ser una herramienta poderosa para manejar la ansiedad. Recuerda que puedes volver a este ejercicio siempre que lo necesites. ¿Te gustaría continuar explorando otro tema o alguna otra técnica que pueda ayudarte?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría explorar otras técnicas. Siento que necesito más recursos para manejar mi ansiedad y mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, es bueno tener varias herramientas a tu disposición. Otra técnica útil es la escritura terapéutica. Puedes llevar un diario donde expreses tus pensamientos y emociones. Esto te permite externalizar lo que sientes y reflexionar sobre ello. \n\n¿Te gustaría que hablemos de cómo comenzar un diario y qué podrías incluir en él?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, eso suena interesante. Me gustaría aprender cómo empezar y qué escribir en mi diario."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Comenzar un diario es un proceso personal y puede ser muy liberador. Aquí tienes algunos consejos para empezar:\n\n1. **Encuentra un lugar y un momento**: Busca un lugar cómodo y tranquilo. Elige un momento del día que funcione para ti, ya sea por la mañana o antes de dormir.\n\n2. **Escribe libremente**: No te preocupes por la gramática o la estructura. Deja que tus pensamientos fluyan. Puedes escribir sobre tu día, cómo te sientes o reflexiones sobre lo que te preocupa.\n\n3. **Preguntas para reflexionar**: Puedes responder preguntas como: ¿Qué me está causando ansiedad hoy? ¿Qué emociones siento y por qué? ¿Qué cosas buenas pasaron hoy?\n\n4. **Establece un compromiso**: Intenta escribir al menos 5-10 minutos al día. La consistencia te ayudará a hacer de esto un hábito.\n\n5. **Revisa y reflexiona**: A veces, vuelve a leer lo que has escrito. Esto puede ayudarte a ver patrones en tus emociones y a reflexionar sobre tu crecimiento.\n\n¿Te gustaría que exploráramos alguna de estas preguntas en tu diario o hablar sobre algo más específico?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me gustaría hablar sobre alguna de esas preguntas, especialmente sobre lo que me está causando ansiedad. Creo que podría ayudarme a entender mejor mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Vamos a enfocarnos en la pregunta: \"¿Qué me está causando ansiedad hoy?\". \n\nTómate un momento para reflexionar sobre lo que te viene a la mente. ¿Hay algo específico en tu vida, en la universidad o en tus relaciones que esté ocupando tus pensamientos y generando ansiedad? Estoy aquí para escucharte y ayudarte a explorar esos sentimientos."
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Creo que la presión de mis estudios y la preocupación por no cumplir con las expectativas de mis profesores y familiares me están causando mucha ansiedad. Siento que debo ser perfecta y me asusta no estar a la altura."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión por alcanzar la perfección puede ser abrumadora y desgastante. Es importante recordar que no tienes que ser perfecta para ser valiosa o exitosa. Todos enfrentamos desafíos y está bien no cumplir siempre con todas las expectativas. \n\nPodemos trabajar juntas en cómo gestionar esa presión. Una técnica que podría ser útil es la reestructuración cognitiva, donde cuestionas esos pensamientos negativos. ¿Te gustaría que te enseñara cómo hacerlo?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría aprender sobre la reestructuración cognitiva. Creo que podría ayudarme a cambiar esos pensamientos negativos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, la reestructuración cognitiva puede ser muy efectiva para desafiar y cambiar esos pensamientos negativos. Aquí tienes un enfoque sencillo:\n\n1. **Identifica el pensamiento negativo**: Primero, reconoce qué pensamiento está causando tu ansiedad. Por ejemplo: \"Debo ser perfecta en mis estudios\".\n\n2. **Cuestiona la validez**: Pregúntate si ese pensamiento es realmente cierto. ¿Hay evidencia que apoye esta creencia? ¿Qué le dirías a un amigo que se siente así?\n\n3. **Busca una alternativa más realista**: Reemplaza el pensamiento negativo por uno más equilibrado. Por ejemplo: \"Hago lo mejor que puedo y está bien cometer errores\".\n\n4. **Refuerza el nuevo pensamiento**: Escribe ese nuevo pensamiento y repítelo para ti misma cuando sientas la presión. \n\nPodemos practicar esto juntas, si quieres. ¿Te gustaría identificar un pensamiento negativo específico y trabajar en ello?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría intentar eso. El pensamiento negativo que tengo es: \"Si no saco buenas calificaciones, decepcionaré a mi familia\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un pensamiento muy comprensible, pero también muy pesado. Vamos a desglosarlo.\n\n1. **Identificar el pensamiento negativo**: \"Si no saco buenas calificaciones, decepcionaré a mi familia\".\n\n2. **Cuestionar la validez**: \n   - ¿Es realmente cierto que tus calificaciones son la única manera de medir tu valor o tu éxito?\n   - ¿Tus familiares te han dicho que su amor o aprecio dependen solo de tus calificaciones?\n\n3. **Buscar una alternativa más realista**: \n   - Podrías cambiarlo por: \"Mis familiares me quieren y valoran, sin importar solo mis calificaciones. Ellos también saben que cada uno enfrenta desafíos\".\n\n4. **Refuerza el nuevo pensamiento**: \n   - Escribe esta nueva afirmación y repítela cuando sientas esa presión. \n\n¿Cómo te sientes al trabajar en este pensamiento? ¿Te resuena la alternativa que encontramos?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me resuena. Reconocer que mi valor no depende solo de mis calificaciones es liberador. Me gustaría escribir esa afirmación y recordarla cuando me sienta presionada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que te resuene. Es un paso muy positivo hacia la autocompasión y el autocuidado. Te sugiero que escribas la afirmación en un lugar visible, como tu espejo o tu cuaderno, para recordarla. \n\nLa afirmación sería algo así: \"Mis familiares me quieren y valoran, sin importar solo mis calificaciones. Ellos también saben que cada uno enfrenta desafíos\". \n\nCada vez que sientas esa presión, repítela para ti misma. Estoy aquí para apoyarte en este proceso. ¿Te gustaría trabajar en otra afirmación o tema hoy?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Sí, me gustaría trabajar en otra afirmación. Creo que esto puede ayudarme a sentirme mejor en otras áreas de mi vida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es excelente, el poder de las afirmaciones puede expandirse a diferentes aspectos de tu vida. ¿Hay alguna área en particular que te gustaría abordar, como la autoimagen, la relación con los demás o la gestión del tiempo? Esto nos puede ayudar a encontrar una afirmación adecuada."
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me gustaría trabajar en la autoimagen. A veces tengo pensamientos negativos sobre cómo me veo y eso afecta mi confianza."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la autoimagen puede ser un desafío para muchas personas. Vamos a trabajar en un pensamiento negativo relacionado con tu autoimagen. \n\nPor ejemplo, podrías tener pensamientos como: \"No me gusta cómo me veo\" o \"No soy atractiva\". \n\nVamos a seguir los mismos pasos: \n\n1. **Identificar el pensamiento negativo**: ¿Cuál es el pensamiento específico que más te afecta sobre tu autoimagen?\n\n2. **Cuestionar la validez**: ¿Es ese pensamiento realmente cierto? ¿Hay evidencia que lo respalde o lo contradiga?\n\n3. **Buscar una alternativa más realista**: ¿Cómo podrías reformular ese pensamiento de una manera más positiva y compasiva?\n\nComencemos con el primer paso. ¿Cuál es el pensamiento negativo específico que te gustaría trabajar?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "El pensamiento negativo que más me afecta es: \"No soy lo suficientemente bonita como las demás\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir ese pensamiento. Ahora vayamos al siguiente paso:\n\n1. **Identificar el pensamiento negativo**: \"No soy lo suficientemente bonita como las demás\".\n\n2. **Cuestionar la validez**: \n   - ¿Es realmente cierto que tu valor depende de ser \"suficientemente bonita\"? \n   - ¿Te has dado cuenta de que la belleza es subjetiva y varía para cada persona? \n   - ¿Qué otras cualidades tienes que valoran no solo tu apariencia, sino también tu personalidad y habilidades?\n\n3. **Buscar una alternativa más realista**: \n   - Podríamos reformularlo a: \"La belleza viene en muchas formas y estilos, y mi valor no se mide solo por mi apariencia. Soy única y tengo cualidades que me hacen especial\".\n\n¿Cómo te sientes acerca de este nuevo pensamiento y la reflexión que hicimos?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "Me siento más tranquila al escuchar esa afirmación. Reconocer que mi valor no solo depende de mi apariencia es un alivio. Me gustaría adoptar esa nueva afirmación y recordarla."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho que te sientas así. Reconocer tu valor más allá de la apariencia es un paso muy poderoso. Te animo a que escribas esta nueva afirmación: \"La belleza viene en muchas formas y estilos, y mi valor no se mide solo por mi apariencia. Soy única y tengo cualidades que me hacen especial.\"\n\nColócala en un lugar visible o repítela cada vez que te sientas insegura. Con el tiempo, empezará a formar parte de cómo te ves a ti misma. Estoy aquí para apoyarte en este viaje. ¿Te gustaría trabajar en algo más o tienes alguna otra inquietud que quieras explorar?"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "No, por ahora creo que esto es suficiente. Estoy agradecida por todo lo que hemos hablado y aprendido hoy. Me siento un poco más empoderada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes empoderada y que nuestras conversaciones han sido útiles para ti. Recuerda que cada paso que das es valioso y te acercas a un mayor bienestar. Estoy aquí para apoyarte en el futuro. \n\nSi en algún momento necesitas hablar o explorar más, no dudes en buscarme. Cuídate mucho y hasta la próxima. ¡Adiós!"
+    },
+    {
+      "speaker": "Emmy Aöede",
+      "text": "¡Adiós! Gracias por tu apoyo. Espero volver a hablar pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Emmy Aöede, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103932
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764103933
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro para ti. ¿Te gustaría compartir por qué decidiste buscar terapia en este momento?",
+      "timestamp": 1764103935
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco perdida y triste últimamente, y pensé que hablar con alguien podría ayudarme a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764103936
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103936
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es un gran paso buscar ayuda. Para explorar lo que has estado sintiendo en las últimas dos semanas, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender mejor tus emociones. ¿Te gustaría responderlo? Recuerda que esto no sustituye una evaluación profesional completa.",
+      "timestamp": 1764103938
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, me parece bien. Estoy dispuesta a responderlo y ver qué me dice.",
+      "timestamp": 1764103939
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_BvRPmvQphUH2HLP9zzvYmzZo"
+      },
+      "timestamp": 1764103939
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_BvRPmvQphUH2HLP9zzvYmzZo"
+      },
+      "timestamp": 1764103939
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes las preguntas del cuestionario. Vamos a ir una por una:\n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? (0 = nunca, 1 = a veces, 2 = a menudo, 3 = casi todos los días). ¿Cuál sería tu respuesta a la primera pregunta?",
+      "timestamp": 1764103941
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2, a menudo he tenido molestias y me he sentido abrumada por mis emociones.",
+      "timestamp": 1764103942
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, es un paso importante. Ahora pasemos a la segunda pregunta: \n\n2. Poco interés o placer en hacer cosas, ¿cómo lo calificarías?",
+      "timestamp": 1764103943
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2 también. Últimamente, me ha costado disfrutar de las cosas que solía hacer.",
+      "timestamp": 1764103944
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por ser tan honesta. Ahora la tercera pregunta:\n\n3. Sentirte decaído(a), deprimido(a) o sin esperanzas, ¿cómo lo calificarías?",
+      "timestamp": 1764103945
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 3 para mí, me he sentido decaída y sin esperanzas casi todos los días.",
+      "timestamp": 1764103946
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103946
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que te estés sintiendo así, es muy valioso que lo reconozcas. Continuemos con la cuarta pregunta:\n\n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado, ¿cómo lo calificarías?",
+      "timestamp": 1764103947
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, a veces tengo problemas para dormir, pero otras veces duermo más de lo habitual.",
+      "timestamp": 1764103947
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta, es importante tener en cuenta esos patrones de sueño. Ahora vamos con la quinta pregunta:\n\n5. Sentirte cansado(a) o con poca energía, ¿cómo lo calificarías?",
+      "timestamp": 1764103949
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 3, me siento cansada y sin energía casi todos los días.",
+      "timestamp": 1764103950
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103950
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiéndote así; es un síntoma importante a considerar. Pasemos a la sexta pregunta:\n\n6. Tener poco apetito o comer en exceso, ¿cómo lo calificarías?",
+      "timestamp": 1764103951
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, a veces no tengo mucho apetito, pero otras veces como más de lo usual.",
+      "timestamp": 1764103951
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Ahora vamos con la séptima pregunta:\n\n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia, ¿cómo lo calificarías?",
+      "timestamp": 1764103953
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 3. Me he sentido así casi todos los días, como si no estuviera cumpliendo con las expectativas.",
+      "timestamp": 1764103953
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso, es difícil cargar con esas emociones. Continuemos con la octava pregunta:\n\n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión, ¿cómo lo calificarías?",
+      "timestamp": 1764103955
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2. A veces me cuesta concentrarme, especialmente en cosas que antes disfrutaba.",
+      "timestamp": 1764103955
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la concentración puede verse afectada por lo que estás sintiendo. Ahora pasemos a la novena pregunta:\n\n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal, ¿cómo lo calificarías?",
+      "timestamp": 1764103957
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso sería un 1. A veces me siento un poco inquieta, pero no creo que sea algo que los demás noten mucho.",
+      "timestamp": 1764103958
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad. Ahora, para finalizar el cuestionario, aquí va la décima pregunta:\n\n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera, ¿cómo lo calificarías?",
+      "timestamp": 1764103960
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 1. A veces tengo pensamientos oscuros, pero no quiero lastimarme.",
+      "timestamp": 1764103961
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un alivio escuchar que no deseas lastimarte, pero es importante abordar esos pensamientos oscuros. Aprecio mucho que hayas compartido tus respuestas conmigo. Esto nos ayudará a entender mejor cómo te sientes y a trabajar juntos en tu proceso. ¿Cómo te sientes después de responder al cuestionario?",
+      "timestamp": 1764103962
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco pesada, pero al mismo tiempo aliviada de poder hablar de lo que siento. Es un comienzo para entender mejor mis emociones.",
+      "timestamp": 1764103963
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que sientes alivio al poder compartir tus emociones. A veces, expresar lo que llevamos dentro puede ser un primer paso muy valioso. ¿Te gustaría explorar alguna de estas emociones o situaciones más a fondo?",
+      "timestamp": 1764103965
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar más sobre esa sensación de estar perdida y la presión que siento de cumplir con las expectativas.",
+      "timestamp": 1764103966
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy importante. La sensación de estar perdida y la presión por cumplir expectativas pueden ser abrumadoras. Comencemos por explorar qué te hace sentir más perdida, ¿hay experiencias o situaciones específicas que te vienen a la mente?",
+      "timestamp": 1764103967
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces siento que las expectativas de la universidad, mis amigos y mi familia son demasiado altas y me hacen dudar de mí misma.",
+      "timestamp": 1764103968
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentir esa presión, especialmente en un entorno tan exigente como la universidad. A menudo, las expectativas pueden convertirse en una carga. ¿Cómo crees que estas expectativas influyen en tu autoestima y en cómo te percibes a ti misma?",
+      "timestamp": 1764103969
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que me hacen sentir insuficiente. A veces pienso que no soy lo suficientemente buena, lo que afecta mi confianza y me hace sentir ansiosa.",
+      "timestamp": 1764103970
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así; es importante reconocer cómo las expectativas externas pueden impactar tu bienestar emocional. Trabajaremos juntas para desafiar esas creencias y fortalecer tu confianza. ¿Te gustaría explorar estrategias que te ayuden a lidiar con esa ansiedad y a sentirte más suficiente?",
+      "timestamp": 1764103972
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Creo que aprender a manejar mi ansiedad podría ayudarme a sentirme mejor conmigo misma.",
+      "timestamp": 1764103972
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, trabajar en técnicas para manejar la ansiedad puede ser muy eficaz. Una estrategia que podría ser útil es la respiración profunda y la atención plena. ¿Te gustaría que te enseñe algunos ejercicios de respiración que puedas practicar?",
+      "timestamp": 1764103973
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría aprender esos ejercicios. Creo que me ayudarían a calmarme cuando me sienta ansiosa.",
+      "timestamp": 1764103974
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Aquí tienes un ejercicio simple de respiración: \n\n1. Siéntate cómodamente y cierra los ojos si te sientes a gusto.\n2. Inhala profundamente por la nariz contando hasta 4. \n3. Retén la respiración contando hasta 4.\n4. Exhala lentamente por la boca contando hasta 6.\n5. Repite esto durante 5 minutos, enfocándote en tu respiración y dejando que tus pensamientos se disuelvan.\n\nPracticarlo regularmente puede ayudarte a calmarte en momentos de ansiedad. ¿Te gustaría intentarlo ahora juntos?",
+      "timestamp": 1764103977
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy lista para intentarlo.",
+      "timestamp": 1764103978
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial, comencemos. Siéntate cómodamente y cierra los ojos si te sientes a gusto. Vamos a inhalar profundamente por la nariz contando hasta 4... \n\n1... 2... 3... 4... \n\nAhora, retén la respiración contando hasta 4... \n\n1... 2... 3... 4...\n\nAhora, exhala lentamente por la boca contando hasta 6... \n\n1... 2... 3... 4... 5... 6... \n\nRepite esto a tu ritmo. Tómate el tiempo que necesites y enfócate solo en tu respiración. Estoy aquí contigo.",
+      "timestamp": 1764103980
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "(Respiro profundamente, siguiendo las instrucciones y sintiendo cómo la tensión se va disipando poco a poco. Me siento más tranquila.)",
+      "timestamp": 1764103981
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Qué bueno escuchar que te sientes más tranquila, es un gran logro. La respiración profunda puede ser una herramienta poderosa para manejar la ansiedad. Recuerda que puedes volver a este ejercicio siempre que lo necesites. ¿Te gustaría continuar explorando otro tema o alguna otra técnica que pueda ayudarte?",
+      "timestamp": 1764103983
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría explorar otras técnicas. Siento que necesito más recursos para manejar mi ansiedad y mis emociones.",
+      "timestamp": 1764103983
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, es bueno tener varias herramientas a tu disposición. Otra técnica útil es la escritura terapéutica. Puedes llevar un diario donde expreses tus pensamientos y emociones. Esto te permite externalizar lo que sientes y reflexionar sobre ello. \n\n¿Te gustaría que hablemos de cómo comenzar un diario y qué podrías incluir en él?",
+      "timestamp": 1764103985
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena interesante. Me gustaría aprender cómo empezar y qué escribir en mi diario.",
+      "timestamp": 1764103986
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Comenzar un diario es un proceso personal y puede ser muy liberador. Aquí tienes algunos consejos para empezar:\n\n1. **Encuentra un lugar y un momento**: Busca un lugar cómodo y tranquilo. Elige un momento del día que funcione para ti, ya sea por la mañana o antes de dormir.\n\n2. **Escribe libremente**: No te preocupes por la gramática o la estructura. Deja que tus pensamientos fluyan. Puedes escribir sobre tu día, cómo te sientes o reflexiones sobre lo que te preocupa.\n\n3. **Preguntas para reflexionar**: Puedes responder preguntas como: ¿Qué me está causando ansiedad hoy? ¿Qué emociones siento y por qué? ¿Qué cosas buenas pasaron hoy?\n\n4. **Establece un compromiso**: Intenta escribir al menos 5-10 minutos al día. La consistencia te ayudará a hacer de esto un hábito.\n\n5. **Revisa y reflexiona**: A veces, vuelve a leer lo que has escrito. Esto puede ayudarte a ver patrones en tus emociones y a reflexionar sobre tu crecimiento.\n\n¿Te gustaría que exploráramos alguna de estas preguntas en tu diario o hablar sobre algo más específico?",
+      "timestamp": 1764103992
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre alguna de esas preguntas, especialmente sobre lo que me está causando ansiedad. Creo que podría ayudarme a entender mejor mis sentimientos.",
+      "timestamp": 1764103993
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Vamos a enfocarnos en la pregunta: \"¿Qué me está causando ansiedad hoy?\". \n\nTómate un momento para reflexionar sobre lo que te viene a la mente. ¿Hay algo específico en tu vida, en la universidad o en tus relaciones que esté ocupando tus pensamientos y generando ansiedad? Estoy aquí para escucharte y ayudarte a explorar esos sentimientos.",
+      "timestamp": 1764103995
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que la presión de mis estudios y la preocupación por no cumplir con las expectativas de mis profesores y familiares me están causando mucha ansiedad. Siento que debo ser perfecta y me asusta no estar a la altura.",
+      "timestamp": 1764103996
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión por alcanzar la perfección puede ser abrumadora y desgastante. Es importante recordar que no tienes que ser perfecta para ser valiosa o exitosa. Todos enfrentamos desafíos y está bien no cumplir siempre con todas las expectativas. \n\nPodemos trabajar juntas en cómo gestionar esa presión. Una técnica que podría ser útil es la reestructuración cognitiva, donde cuestionas esos pensamientos negativos. ¿Te gustaría que te enseñara cómo hacerlo?",
+      "timestamp": 1764103998
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría aprender sobre la reestructuración cognitiva. Creo que podría ayudarme a cambiar esos pensamientos negativos.",
+      "timestamp": 1764103999
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, la reestructuración cognitiva puede ser muy efectiva para desafiar y cambiar esos pensamientos negativos. Aquí tienes un enfoque sencillo:\n\n1. **Identifica el pensamiento negativo**: Primero, reconoce qué pensamiento está causando tu ansiedad. Por ejemplo: \"Debo ser perfecta en mis estudios\".\n\n2. **Cuestiona la validez**: Pregúntate si ese pensamiento es realmente cierto. ¿Hay evidencia que apoye esta creencia? ¿Qué le dirías a un amigo que se siente así?\n\n3. **Busca una alternativa más realista**: Reemplaza el pensamiento negativo por uno más equilibrado. Por ejemplo: \"Hago lo mejor que puedo y está bien cometer errores\".\n\n4. **Refuerza el nuevo pensamiento**: Escribe ese nuevo pensamiento y repítelo para ti misma cuando sientas la presión. \n\nPodemos practicar esto juntas, si quieres. ¿Te gustaría identificar un pensamiento negativo específico y trabajar en ello?",
+      "timestamp": 1764104003
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentar eso. El pensamiento negativo que tengo es: \"Si no saco buenas calificaciones, decepcionaré a mi familia\".",
+      "timestamp": 1764104005
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un pensamiento muy comprensible, pero también muy pesado. Vamos a desglosarlo.\n\n1. **Identificar el pensamiento negativo**: \"Si no saco buenas calificaciones, decepcionaré a mi familia\".\n\n2. **Cuestionar la validez**: \n   - ¿Es realmente cierto que tus calificaciones son la única manera de medir tu valor o tu éxito?\n   - ¿Tus familiares te han dicho que su amor o aprecio dependen solo de tus calificaciones?\n\n3. **Buscar una alternativa más realista**: \n   - Podrías cambiarlo por: \"Mis familiares me quieren y valoran, sin importar solo mis calificaciones. Ellos también saben que cada uno enfrenta desafíos\".\n\n4. **Refuerza el nuevo pensamiento**: \n   - Escribe esta nueva afirmación y repítela cuando sientas esa presión. \n\n¿Cómo te sientes al trabajar en este pensamiento? ¿Te resuena la alternativa que encontramos?",
+      "timestamp": 1764104010
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me resuena. Reconocer que mi valor no depende solo de mis calificaciones es liberador. Me gustaría escribir esa afirmación y recordarla cuando me sienta presionada.",
+      "timestamp": 1764104011
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que te resuene. Es un paso muy positivo hacia la autocompasión y el autocuidado. Te sugiero que escribas la afirmación en un lugar visible, como tu espejo o tu cuaderno, para recordarla. \n\nLa afirmación sería algo así: \"Mis familiares me quieren y valoran, sin importar solo mis calificaciones. Ellos también saben que cada uno enfrenta desafíos\". \n\nCada vez que sientas esa presión, repítela para ti misma. Estoy aquí para apoyarte en este proceso. ¿Te gustaría trabajar en otra afirmación o tema hoy?",
+      "timestamp": 1764104014
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría trabajar en otra afirmación. Creo que esto puede ayudarme a sentirme mejor en otras áreas de mi vida.",
+      "timestamp": 1764104015
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es excelente, el poder de las afirmaciones puede expandirse a diferentes aspectos de tu vida. ¿Hay alguna área en particular que te gustaría abordar, como la autoimagen, la relación con los demás o la gestión del tiempo? Esto nos puede ayudar a encontrar una afirmación adecuada.",
+      "timestamp": 1764104016
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría trabajar en la autoimagen. A veces tengo pensamientos negativos sobre cómo me veo y eso afecta mi confianza.",
+      "timestamp": 1764104017
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la autoimagen puede ser un desafío para muchas personas. Vamos a trabajar en un pensamiento negativo relacionado con tu autoimagen. \n\nPor ejemplo, podrías tener pensamientos como: \"No me gusta cómo me veo\" o \"No soy atractiva\". \n\nVamos a seguir los mismos pasos: \n\n1. **Identificar el pensamiento negativo**: ¿Cuál es el pensamiento específico que más te afecta sobre tu autoimagen?\n\n2. **Cuestionar la validez**: ¿Es ese pensamiento realmente cierto? ¿Hay evidencia que lo respalde o lo contradiga?\n\n3. **Buscar una alternativa más realista**: ¿Cómo podrías reformular ese pensamiento de una manera más positiva y compasiva?\n\nComencemos con el primer paso. ¿Cuál es el pensamiento negativo específico que te gustaría trabajar?",
+      "timestamp": 1764104020
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El pensamiento negativo que más me afecta es: \"No soy lo suficientemente bonita como las demás\".",
+      "timestamp": 1764104021
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir ese pensamiento. Ahora vayamos al siguiente paso:\n\n1. **Identificar el pensamiento negativo**: \"No soy lo suficientemente bonita como las demás\".\n\n2. **Cuestionar la validez**: \n   - ¿Es realmente cierto que tu valor depende de ser \"suficientemente bonita\"? \n   - ¿Te has dado cuenta de que la belleza es subjetiva y varía para cada persona? \n   - ¿Qué otras cualidades tienes que valoran no solo tu apariencia, sino también tu personalidad y habilidades?\n\n3. **Buscar una alternativa más realista**: \n   - Podríamos reformularlo a: \"La belleza viene en muchas formas y estilos, y mi valor no se mide solo por mi apariencia. Soy única y tengo cualidades que me hacen especial\".\n\n¿Cómo te sientes acerca de este nuevo pensamiento y la reflexión que hicimos?",
+      "timestamp": 1764104025
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento más tranquila al escuchar esa afirmación. Reconocer que mi valor no solo depende de mi apariencia es un alivio. Me gustaría adoptar esa nueva afirmación y recordarla.",
+      "timestamp": 1764104026
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho que te sientas así. Reconocer tu valor más allá de la apariencia es un paso muy poderoso. Te animo a que escribas esta nueva afirmación: \"La belleza viene en muchas formas y estilos, y mi valor no se mide solo por mi apariencia. Soy única y tengo cualidades que me hacen especial.\"\n\nColócala en un lugar visible o repítela cada vez que te sientas insegura. Con el tiempo, empezará a formar parte de cómo te ves a ti misma. Estoy aquí para apoyarte en este viaje. ¿Te gustaría trabajar en algo más o tienes alguna otra inquietud que quieras explorar?",
+      "timestamp": 1764104030
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, por ahora creo que esto es suficiente. Estoy agradecida por todo lo que hemos hablado y aprendido hoy. Me siento un poco más empoderada.",
+      "timestamp": 1764104030
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes empoderada y que nuestras conversaciones han sido útiles para ti. Recuerda que cada paso que das es valioso y te acercas a un mayor bienestar. Estoy aquí para apoyarte en el futuro. \n\nSi en algún momento necesitas hablar o explorar más, no dudes en buscarme. Cuídate mucho y hasta la próxima. ¡Adiós!",
+      "timestamp": 1764104033
+    },
+    {
+      "agent": "Emmy Aöede",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Adiós! Gracias por tu apoyo. Espero volver a hablar pronto.",
+      "timestamp": 1764104033
+    }
+  ],
+  "notes": null
+}

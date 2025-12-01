@@ -1,0 +1,643 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:42:11Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2799640800,
+  "id": "7cd2647a-2a3a-4dc0-8c10-2061cc3be7d8",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernanda Navarro": {
+      "name": "Fernanda Navarro",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ARQ) | estudiante de Arquitectura en la Ibero de 5to semestre; le gusta dibujar, ver fotos de lugares bonitos en redes y pasar tiempo en cafés tranquilos.",
+      "personality": "creativa pero reservada",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en una sesión de terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en una primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo en particular que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que últimamente me he sentido un poco más agobiada y triste de lo normal."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, lo que describes puede ser difícil de manejar. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Está bien, creo que podría ayudarme a entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes las preguntas del PHQ-9. Te iré leyendo cada una y puedes responder con una puntuación del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\nPrimera pregunta: \"Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\" ¿Cómo te puntuarías en esta área?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que me puntuaría con un 2, porque he tenido molestias, aunque no todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Segunda pregunta: \"¿Poco interés o placer en hacer cosas?\" ¿Cómo te sientes en relación a esto?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gustaría decir que un 2 también, porque a veces me cuesta encontrar placer en las cosas que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es un paso importante reconocerlo. Tercera pregunta: \"¿Sentirte decaído(a), deprimido(a) o sin esperanzas?\" ¿Cuál sería tu puntuación aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Para esa pregunta, me puntuaría con un 3. He estado sintiéndome así casi todos los días últimamente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento saber que te sientes así con tanta frecuencia. Cuarta pregunta: \"¿Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado?\" ¿Cómo evaluarías eso?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que un 2. A veces me cuesta dormir, pero hay noches en las que duermo más de lo habitual."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad. Quinta pregunta: \"¿Sentirte cansado(a) o con poca energía?\" ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me puntuaría con un 3, porque he estado sintiéndome muy cansada y sin energía casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo lo difícil que puede ser eso. Sexta pregunta: \"¿Tener poco apetito o comer en exceso?\" ¿Cómo lo evaluarías?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Para esa pregunta, creo que un 2, a veces no tengo mucho apetito, pero también hay momentos en que como más de la cuenta."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Séptima pregunta: \"¿Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia?\" ¿Cuál sería tu puntuación?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Yo diría que un 3, porque me he sentido así casi todos los días últimamente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés lidiando con esos sentimientos. Octava pregunta: \"¿Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión?\" ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me puntuaría con un 2, a veces me cuesta concentrarme, pero hay momentos en que puedo hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Novena pregunta: \"¿Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal?\" ¿Cómo te evaluarías en esta área?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que un 1, a veces me siento un poco inquieta, pero no es algo constante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Última pregunta: \"¿Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera?\" ¿Cómo lo puntuarías?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gustaría decir que un 1, aunque he tenido pensamientos negativos, no he sentido que realmente quisiera hacerme daño."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aprecio tu honestidad al compartir esto. Has hecho un buen trabajo al reflexionar sobre tus sentimientos. ¿Te gustaría que revisáramos alguna de estas áreas con más profundidad?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que me gustaría hablar más sobre cómo me siento y lo que he estado experimentando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, estoy aquí para escucharte. ¿Te gustaría empezar por contándome un poco más sobre lo que ha estado ocurriendo en tu vida últimamente?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Últimamente he estado lidiando con la carga de la escuela y siento que todo me abruma. Además, hay días en los que siento que no tengo motivación para hacer ni lo más simple."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que la presión de la escuela puede ser muy abrumadora y agotadora. Es normal sentirse desmotivada en momentos así. ¿Hay algo específico de la carga escolar que te esté afectando más?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que es la combinación de trabajos, proyectos y la presión de querer hacerlo bien. A veces siento que no puedo cumplir con todas mis responsabilidades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirse así cuando hay tantas expectativas y responsabilidades sobre tus hombros. ¿Has podido encontrar alguna forma de manejar esa presión o tomarte un tiempo para ti misma?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "A veces intento dibujar o pasar tiempo en cafés, pero generalmente no tengo mucho tiempo para eso. Al final, me siento culpable por no estar trabajando en mis tareas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa sensación de culpa puede ser muy pesada. Es importante recordar que cuidar de ti misma también es una responsabilidad. ¿Te gustaría explorar cómo podrías encontrar un equilibrio entre tus responsabilidades y tus momentos de autocuidado?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que eso sería útil. Me gustaría aprender a encontrar ese equilibrio y permitirme un tiempo para descansar sin sentirme culpable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, es un paso muy positivo. Podemos trabajar en estrategias que te ayuden a planificar tu tiempo, así como técnicas para manejar esa culpa. ¿Te gustaría empezar por definir pequeños momentos de autocuidado que puedas incorporar a tu rutina?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, eso suena bien. Creo que sería bueno tener algunos momentos pequeños para desconectarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Podrías comenzar con algo simple, como tomarte cinco minutos al día para respirar profundamente o disfrutar de una taza de té. ¿Qué otra actividad pequeña te gustaría incluir en tu rutina diaria?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Tal vez podría intentar dibujar un poco cada día, aunque sea solo durante unos minutos. Eso me hace sentir bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena maravilloso. Dibujar puede ser una excelente forma de relajarte y expresarte. ¿Te gustaría establecer un momento específico en tu día para hacerlo?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que podría dedicar unos minutos por la tarde, antes de empezar mis tareas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es una gran idea. Dedicar unos minutos a dibujar antes de tus tareas puede ayudarte a despejar la mente y aliviar la tensión. ¿Te gustaría que estableciéramos un pequeño objetivo para asegurarte de que lo hagas regularmente?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría establecer un objetivo. Podría intentar dibujar al menos tres veces a la semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un objetivo muy alcanzable y positivo. Dibujar tres veces a la semana puede ayudarte a mantener el equilibrio. ¿Te gustaría que registraras tus momentos de dibujo para hacer un seguimiento de tu progreso?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que eso podría ayudarme a ver cómo me siento y a mantenerme motivada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una excelente idea. Llevar un registro te permitirá ver tu progreso y reflexionar sobre cómo te sientes después de dibujar. Podemos revisar juntos tus avances en nuestra próxima sesión. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me parece bien. Estoy dispuesta a ver cómo me va con esto. Gracias por tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, me alegra poder acompañarte en este proceso. Estoy aquí para apoyarte. Nos vemos en la próxima sesión para revisar tus avances. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "¡Gracias! Nos vemos en la próxima sesión. ¡Cuídate!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103274
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en una sesión de terapia.",
+      "timestamp": 1764103275
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en una primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo en particular que te gustaría compartir hoy?",
+      "timestamp": 1764103277
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que últimamente me he sentido un poco más agobiada y triste de lo normal.",
+      "timestamp": 1764103277
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103277
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, lo que describes puede ser difícil de manejar. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764103279
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, creo que podría ayudarme a entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764103280
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_YUFGl9zh9KYkgwMqDjhylRxV"
+      },
+      "timestamp": 1764103281
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_YUFGl9zh9KYkgwMqDjhylRxV"
+      },
+      "timestamp": 1764103281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes las preguntas del PHQ-9. Te iré leyendo cada una y puedes responder con una puntuación del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\nPrimera pregunta: \"Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\" ¿Cómo te puntuarías en esta área?",
+      "timestamp": 1764103283
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que me puntuaría con un 2, porque he tenido molestias, aunque no todos los días.",
+      "timestamp": 1764103284
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Segunda pregunta: \"¿Poco interés o placer en hacer cosas?\" ¿Cómo te sientes en relación a esto?",
+      "timestamp": 1764103285
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría decir que un 2 también, porque a veces me cuesta encontrar placer en las cosas que solía disfrutar.",
+      "timestamp": 1764103286
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es un paso importante reconocerlo. Tercera pregunta: \"¿Sentirte decaído(a), deprimido(a) o sin esperanzas?\" ¿Cuál sería tu puntuación aquí?",
+      "timestamp": 1764103288
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, me puntuaría con un 3. He estado sintiéndome así casi todos los días últimamente.",
+      "timestamp": 1764103289
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento saber que te sientes así con tanta frecuencia. Cuarta pregunta: \"¿Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado?\" ¿Cómo evaluarías eso?",
+      "timestamp": 1764103290
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2. A veces me cuesta dormir, pero hay noches en las que duermo más de lo habitual.",
+      "timestamp": 1764103291
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad. Quinta pregunta: \"¿Sentirte cansado(a) o con poca energía?\" ¿Cómo lo puntuarías?",
+      "timestamp": 1764103292
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me puntuaría con un 3, porque he estado sintiéndome muy cansada y sin energía casi todos los días.",
+      "timestamp": 1764103293
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103293
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo lo difícil que puede ser eso. Sexta pregunta: \"¿Tener poco apetito o comer en exceso?\" ¿Cómo lo evaluarías?",
+      "timestamp": 1764103294
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, creo que un 2, a veces no tengo mucho apetito, pero también hay momentos en que como más de la cuenta.",
+      "timestamp": 1764103295
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Séptima pregunta: \"¿Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia?\" ¿Cuál sería tu puntuación?",
+      "timestamp": 1764103297
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Yo diría que un 3, porque me he sentido así casi todos los días últimamente.",
+      "timestamp": 1764103298
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés lidiando con esos sentimientos. Octava pregunta: \"¿Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión?\" ¿Cómo lo puntuarías?",
+      "timestamp": 1764103299
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me puntuaría con un 2, a veces me cuesta concentrarme, pero hay momentos en que puedo hacerlo.",
+      "timestamp": 1764103300
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Novena pregunta: \"¿Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal?\" ¿Cómo te evaluarías en esta área?",
+      "timestamp": 1764103302
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 1, a veces me siento un poco inquieta, pero no es algo constante.",
+      "timestamp": 1764103302
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Última pregunta: \"¿Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera?\" ¿Cómo lo puntuarías?",
+      "timestamp": 1764103303
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría decir que un 1, aunque he tenido pensamientos negativos, no he sentido que realmente quisiera hacerme daño.",
+      "timestamp": 1764103304
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aprecio tu honestidad al compartir esto. Has hecho un buen trabajo al reflexionar sobre tus sentimientos. ¿Te gustaría que revisáramos alguna de estas áreas con más profundidad?",
+      "timestamp": 1764103305
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar más sobre cómo me siento y lo que he estado experimentando.",
+      "timestamp": 1764103306
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, estoy aquí para escucharte. ¿Te gustaría empezar por contándome un poco más sobre lo que ha estado ocurriendo en tu vida últimamente?",
+      "timestamp": 1764103307
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Últimamente he estado lidiando con la carga de la escuela y siento que todo me abruma. Además, hay días en los que siento que no tengo motivación para hacer ni lo más simple.",
+      "timestamp": 1764103308
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que la presión de la escuela puede ser muy abrumadora y agotadora. Es normal sentirse desmotivada en momentos así. ¿Hay algo específico de la carga escolar que te esté afectando más?",
+      "timestamp": 1764103310
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que es la combinación de trabajos, proyectos y la presión de querer hacerlo bien. A veces siento que no puedo cumplir con todas mis responsabilidades.",
+      "timestamp": 1764103311
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirse así cuando hay tantas expectativas y responsabilidades sobre tus hombros. ¿Has podido encontrar alguna forma de manejar esa presión o tomarte un tiempo para ti misma?",
+      "timestamp": 1764103312
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces intento dibujar o pasar tiempo en cafés, pero generalmente no tengo mucho tiempo para eso. Al final, me siento culpable por no estar trabajando en mis tareas.",
+      "timestamp": 1764103313
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sensación de culpa puede ser muy pesada. Es importante recordar que cuidar de ti misma también es una responsabilidad. ¿Te gustaría explorar cómo podrías encontrar un equilibrio entre tus responsabilidades y tus momentos de autocuidado?",
+      "timestamp": 1764103314
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso sería útil. Me gustaría aprender a encontrar ese equilibrio y permitirme un tiempo para descansar sin sentirme culpable.",
+      "timestamp": 1764103315
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, es un paso muy positivo. Podemos trabajar en estrategias que te ayuden a planificar tu tiempo, así como técnicas para manejar esa culpa. ¿Te gustaría empezar por definir pequeños momentos de autocuidado que puedas incorporar a tu rutina?",
+      "timestamp": 1764103317
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Creo que sería bueno tener algunos momentos pequeños para desconectarme.",
+      "timestamp": 1764103318
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Podrías comenzar con algo simple, como tomarte cinco minutos al día para respirar profundamente o disfrutar de una taza de té. ¿Qué otra actividad pequeña te gustaría incluir en tu rutina diaria?",
+      "timestamp": 1764103319
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez podría intentar dibujar un poco cada día, aunque sea solo durante unos minutos. Eso me hace sentir bien.",
+      "timestamp": 1764103320
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena maravilloso. Dibujar puede ser una excelente forma de relajarte y expresarte. ¿Te gustaría establecer un momento específico en tu día para hacerlo?",
+      "timestamp": 1764103321
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría dedicar unos minutos por la tarde, antes de empezar mis tareas.",
+      "timestamp": 1764103321
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es una gran idea. Dedicar unos minutos a dibujar antes de tus tareas puede ayudarte a despejar la mente y aliviar la tensión. ¿Te gustaría que estableciéramos un pequeño objetivo para asegurarte de que lo hagas regularmente?",
+      "timestamp": 1764103323
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría establecer un objetivo. Podría intentar dibujar al menos tres veces a la semana.",
+      "timestamp": 1764103324
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un objetivo muy alcanzable y positivo. Dibujar tres veces a la semana puede ayudarte a mantener el equilibrio. ¿Te gustaría que registraras tus momentos de dibujo para hacer un seguimiento de tu progreso?",
+      "timestamp": 1764103325
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme a ver cómo me siento y a mantenerme motivada.",
+      "timestamp": 1764103326
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una excelente idea. Llevar un registro te permitirá ver tu progreso y reflexionar sobre cómo te sientes después de dibujar. Podemos revisar juntos tus avances en nuestra próxima sesión. ¿Te parece bien?",
+      "timestamp": 1764103328
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesta a ver cómo me va con esto. Gracias por tu apoyo.",
+      "timestamp": 1764103329
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, me alegra poder acompañarte en este proceso. Estoy aquí para apoyarte. Nos vemos en la próxima sesión para revisar tus avances. ¡Cuídate mucho!",
+      "timestamp": 1764103330
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764103331
+    }
+  ],
+  "notes": null
+}

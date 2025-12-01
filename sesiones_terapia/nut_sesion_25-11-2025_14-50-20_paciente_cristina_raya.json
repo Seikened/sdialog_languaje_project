@@ -1,0 +1,577 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:51:44Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2995847121,
+  "id": "3790951b-ccbc-4027-a09b-136a2f06f925",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Cristina Raya": {
+      "name": "Cristina Raya",
+      "age": 24,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(NUT) | estudiante de Nutrición en la Ibero de 5to semestre; le gusta cocinar postres, salir a caminar y salir a cafeterias",
+      "personality": "cuidada pero autoexigente",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Hola, gracias. La verdad estoy un poco nerviosa, es mi primera vez en terapia y no sé muy bien qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en tu primera sesión. Aquí estamos para que te sientas cómoda y puedas hablar de lo que necesites. ¿Hay algo en particular que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, he estado sintiéndome un poco abrumada últimamente. No sé si es la escuela o cosas personales, pero la verdad es que me siento un poco triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo siento mucho por lo que estás sintiendo. Para explorar un poco más cómo te has sentido en las últimas dos semanas, me gustaría que respondieras un cuestionario llamado PHQ-9. Este cuestionario nos ayudará a entender mejor tus emociones. ¿Estás de acuerdo en responderlo?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "De acuerdo, creo que puede ayudar. Estoy dispuesta a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, voy a leerte algunas preguntas para que puedas reflexionar sobre tus sentimientos en las últimas dos semanas. Por favor, responde con la frecuencia con la que has experimentado cada situación: \n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) o sentir que eres un fracaso.\n7. Tener dificultad para concentrarte.\n8. Moverte o hablar más lento de lo normal, o sentirte inquieto(a).\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte.\n\nPara cada pregunta, responde con uno de estos números: 0 = nunca, 1 = pocos días, 2 = más de la mitad de los días, 3 = casi todos los días. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me parece bien. Voy a intentar responder lo mejor que pueda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, tómate tu tiempo. Comencemos con la primera pregunta: ¿Poco interés o placer en hacer cosas? ¿Con qué frecuencia has experimentado esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que ha sido un 2, más de la mitad de los días. Últimamente no he disfrutado mucho de lo que solía hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, es un paso importante. Ahora, vamos a la segunda pregunta: ¿Sentirte decaído(a), deprimido(a) o sin esperanzas? ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Esa sería un 3, casi todos los días. Me he sentido muy así últimamente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés pasando por eso. Es comprensible que te sientas así. Ahora, pasemos a la tercera pregunta: ¿Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cómo calificarías esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Diría que es un 2, más de la mitad de los días. A veces me cuesta dormir y otras veces duermo demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser honesta al compartir tus experiencias. Ahora, continuemos con la cuarta pregunta: ¿Sentirte cansado(a) o con poca energía? ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Eso sería un 3, casi todos los días. Me siento muy cansada y sin energía para hacer las cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo lo difícil que es sentirte así. Agradezco que compartas tus sentimientos. Ahora, vamos a la quinta pregunta: ¿Tener poco apetito o comer en exceso? ¿Cuál ha sido tu experiencia con esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que es un 1, pocos días. A veces tengo poco apetito, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Eso es útil de saber. Ahora, la sexta pregunta: ¿Sentirte mal contigo mismo(a) o sentir que eres un fracaso? ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Eso es un 3, casi todos los días. A menudo me siento así y es muy pesado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento mucho que estés sintiendo ese peso. Es importante reconocerlo. Ahora, la séptima pregunta: ¿Tener dificultad para concentrarte en cosas como leer o ver la televisión? ¿Con qué frecuencia has experimentado esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Esa sería un 2, más de la mitad de los días. A veces me cuesta concentrarme y eso me frustra."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que esa frustración puede ser muy difícil de manejar. Agradezco que compartas esto conmigo. Pasemos a la octava pregunta: ¿Moverte o hablar más lento de lo normal, o sentirte inquieto(a)? ¿Cómo calificarías esto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que es un 1, pocos días. No siempre me siento inquieta, pero a veces sí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Ahora, la novena y última pregunta: ¿Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Lamentablemente, eso sería un 1, pocos días. Aunque a veces he tenido esos pensamientos, no son constantes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco mucho que hayas compartido tus respuestas y sentimientos. Es un paso importante para entender lo que estás viviendo. Hablemos sobre lo que has compartido y cómo podemos trabajar juntos para ayudarte a sentirte mejor. ¿Te gustaría que comenzáramos a explorar algunas estrategias?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me gustaría eso. Creo que necesito ayuda para manejar todo esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es totalmente válido buscar ayuda y estoy aquí para apoyarte en ese proceso. Podemos trabajar en técnicas de afrontamiento y en estrategias que te ayuden a manejar esos sentimientos. Comencemos por identificar algunos momentos o actividades que te hayan traído calma o alegría en el pasado. ¿Hay algo que recuerdes que te haya ayudado?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Me gusta mucho cocinar, especialmente postres. A veces me hace sentir mejor, aunque últimamente no he tenido ganas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Cocinar postres es una actividad hermosa y creativa. Me alegra que hayas encontrado algo que te gusta. Tal vez podamos explorar maneras de reintroducir esa actividad en tu vida, incluso en pequeños pasos. ¿Qué te parecería intentar hacer un postre sencillo esta semana, solo para empezar?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Eso suena bien. Tal vez un postre sencillo podría animarme un poco. Puedo intentar hacer algo fácil esta semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me parece una excelente idea. Cocinar algo sencillo puede ser una forma de reconectarte contigo misma y disfrutar de un momento agradable. Recuerda que no tiene que ser perfecto, lo importante es disfrutar el proceso. ¿Te gustaría que hablemos sobre alguna receta en particular que te interese?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me encantaría. Tal vez algo como brownies, son sencillos y siempre me han gustado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Los brownies son una opción deliciosa y sencilla! Pueden ser muy reconfortantes. Te recomiendo que busques una receta básica que solo necesite unos pocos ingredientes. Además, puedes agregar nueces o chispas de chocolate si te gustan. ¿Te gustaría revisar juntos los ingredientes y los pasos?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, sería genial. Así puedo asegurarme de tener todo lo que necesito."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Para hacer brownies básicos, necesitarás los siguientes ingredientes:\n\n1. 1 taza de mantequilla derretida\n2. 2 tazas de azúcar\n3. 4 huevos\n4. 1 cucharadita de extracto de vainilla\n5. 1 taza de harina\n6. 1 taza de cacao en polvo\n7. 1/2 cucharadita de sal\n8. 1/2 cucharadita de polvo de hornear\n\nSi te gustaría agregar algo extra, como nueces o chispas de chocolate, eso también sería genial. ¿Tienes todos estos ingredientes en casa?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que sí, la mayoría los tengo. Solo tendría que asegurarme de tener suficiente cacao en polvo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Estupendo, asegúrate de verificar eso antes de empezar. Si necesitas ayuda con la receta o con algún paso en particular mientras cocinas, no dudes en decírmelo. Estoy aquí para apoyarte. ¡Espero que disfrutes el proceso de hacer los brownies!"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Muchas gracias, realmente lo aprecio. Me siento un poco más animada al pensar en cocinar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso, cocinar puede ser una forma maravillosa de cuidar de ti misma. Recuerda que estoy aquí para acompañarte en este camino. Si en algún momento necesitas hablar o compartir cómo te sientes, no dudes en hacerlo. ¡Estoy aquí para ti!"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Gracias, realmente significa mucho para mí. Me siento un poco más esperanzada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es muy positivo de escuchar. La esperanza es un paso importante hacia el bienestar. Te animo a que sigas buscando esos momentos que te traen alegría. Nos vemos en la próxima sesión para seguir trabajando juntos en tu bienestar. ¡Cuídate y disfruta de la cocina! \n\n¡Hasta luego!"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "¡Hasta luego! Gracias por tu apoyo. Nos vemos pronto."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103845
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad estoy un poco nerviosa, es mi primera vez en terapia y no sé muy bien qué esperar.",
+      "timestamp": 1764103846
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en tu primera sesión. Aquí estamos para que te sientas cómoda y puedas hablar de lo que necesites. ¿Hay algo en particular que te gustaría compartir hoy?",
+      "timestamp": 1764103847
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco abrumada últimamente. No sé si es la escuela o cosas personales, pero la verdad es que me siento un poco triste.",
+      "timestamp": 1764103848
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103848
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo siento mucho por lo que estás sintiendo. Para explorar un poco más cómo te has sentido en las últimas dos semanas, me gustaría que respondieras un cuestionario llamado PHQ-9. Este cuestionario nos ayudará a entender mejor tus emociones. ¿Estás de acuerdo en responderlo?",
+      "timestamp": 1764103849
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De acuerdo, creo que puede ayudar. Estoy dispuesta a responderlo.",
+      "timestamp": 1764103850
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "¿Con qué frecuencia has estado poco satisfecho/a con tu trabajo, cosa que solías disfrutar?"
+        },
+        "id": "call_R8MhjFEmGLbmYNXThqPl1Kof"
+      },
+      "timestamp": 1764103851
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"¿Con qué frecuencia has estado poco satisfecho/a con tu trabajo, cosa que solías disfrutar?\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_R8MhjFEmGLbmYNXThqPl1Kof"
+      },
+      "timestamp": 1764103851
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, voy a leerte algunas preguntas para que puedas reflexionar sobre tus sentimientos en las últimas dos semanas. Por favor, responde con la frecuencia con la que has experimentado cada situación: \n\n1. Poco interés o placer en hacer cosas.\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\n4. Sentirte cansado(a) o con poca energía.\n5. Tener poco apetito o comer en exceso.\n6. Sentirte mal contigo mismo(a) o sentir que eres un fracaso.\n7. Tener dificultad para concentrarte.\n8. Moverte o hablar más lento de lo normal, o sentirte inquieto(a).\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte.\n\nPara cada pregunta, responde con uno de estos números: 0 = nunca, 1 = pocos días, 2 = más de la mitad de los días, 3 = casi todos los días. ¿Te parece bien?",
+      "timestamp": 1764103855
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Voy a intentar responder lo mejor que pueda.",
+      "timestamp": 1764103856
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, tómate tu tiempo. Comencemos con la primera pregunta: ¿Poco interés o placer en hacer cosas? ¿Con qué frecuencia has experimentado esto?",
+      "timestamp": 1764103857
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que ha sido un 2, más de la mitad de los días. Últimamente no he disfrutado mucho de lo que solía hacer.",
+      "timestamp": 1764103858
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, es un paso importante. Ahora, vamos a la segunda pregunta: ¿Sentirte decaído(a), deprimido(a) o sin esperanzas? ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764103859
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 3, casi todos los días. Me he sentido muy así últimamente.",
+      "timestamp": 1764103861
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés pasando por eso. Es comprensible que te sientas así. Ahora, pasemos a la tercera pregunta: ¿Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cómo calificarías esto?",
+      "timestamp": 1764103862
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que es un 2, más de la mitad de los días. A veces me cuesta dormir y otras veces duermo demasiado.",
+      "timestamp": 1764103863
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser honesta al compartir tus experiencias. Ahora, continuemos con la cuarta pregunta: ¿Sentirte cansado(a) o con poca energía? ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764103864
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 3, casi todos los días. Me siento muy cansada y sin energía para hacer las cosas.",
+      "timestamp": 1764103865
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103865
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo lo difícil que es sentirte así. Agradezco que compartas tus sentimientos. Ahora, vamos a la quinta pregunta: ¿Tener poco apetito o comer en exceso? ¿Cuál ha sido tu experiencia con esto?",
+      "timestamp": 1764103866
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que es un 1, pocos días. A veces tengo poco apetito, pero no siempre.",
+      "timestamp": 1764103867
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Eso es útil de saber. Ahora, la sexta pregunta: ¿Sentirte mal contigo mismo(a) o sentir que eres un fracaso? ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764103869
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un 3, casi todos los días. A menudo me siento así y es muy pesado.",
+      "timestamp": 1764103869
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento mucho que estés sintiendo ese peso. Es importante reconocerlo. Ahora, la séptima pregunta: ¿Tener dificultad para concentrarte en cosas como leer o ver la televisión? ¿Con qué frecuencia has experimentado esto?",
+      "timestamp": 1764103870
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa sería un 2, más de la mitad de los días. A veces me cuesta concentrarme y eso me frustra.",
+      "timestamp": 1764103875
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que esa frustración puede ser muy difícil de manejar. Agradezco que compartas esto conmigo. Pasemos a la octava pregunta: ¿Moverte o hablar más lento de lo normal, o sentirte inquieto(a)? ¿Cómo calificarías esto?",
+      "timestamp": 1764103879
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que es un 1, pocos días. No siempre me siento inquieta, pero a veces sí.",
+      "timestamp": 1764103880
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Ahora, la novena y última pregunta: ¿Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo te sientes al respecto?",
+      "timestamp": 1764103881
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamentablemente, eso sería un 1, pocos días. Aunque a veces he tenido esos pensamientos, no son constantes.",
+      "timestamp": 1764103882
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco mucho que hayas compartido tus respuestas y sentimientos. Es un paso importante para entender lo que estás viviendo. Hablemos sobre lo que has compartido y cómo podemos trabajar juntos para ayudarte a sentirte mejor. ¿Te gustaría que comenzáramos a explorar algunas estrategias?",
+      "timestamp": 1764103883
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que necesito ayuda para manejar todo esto.",
+      "timestamp": 1764103884
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es totalmente válido buscar ayuda y estoy aquí para apoyarte en ese proceso. Podemos trabajar en técnicas de afrontamiento y en estrategias que te ayuden a manejar esos sentimientos. Comencemos por identificar algunos momentos o actividades que te hayan traído calma o alegría en el pasado. ¿Hay algo que recuerdes que te haya ayudado?",
+      "timestamp": 1764103885
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gusta mucho cocinar, especialmente postres. A veces me hace sentir mejor, aunque últimamente no he tenido ganas.",
+      "timestamp": 1764103886
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Cocinar postres es una actividad hermosa y creativa. Me alegra que hayas encontrado algo que te gusta. Tal vez podamos explorar maneras de reintroducir esa actividad en tu vida, incluso en pequeños pasos. ¿Qué te parecería intentar hacer un postre sencillo esta semana, solo para empezar?",
+      "timestamp": 1764103888
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena bien. Tal vez un postre sencillo podría animarme un poco. Puedo intentar hacer algo fácil esta semana.",
+      "timestamp": 1764103888
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una excelente idea. Cocinar algo sencillo puede ser una forma de reconectarte contigo misma y disfrutar de un momento agradable. Recuerda que no tiene que ser perfecto, lo importante es disfrutar el proceso. ¿Te gustaría que hablemos sobre alguna receta en particular que te interese?",
+      "timestamp": 1764103890
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me encantaría. Tal vez algo como brownies, son sencillos y siempre me han gustado.",
+      "timestamp": 1764103891
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Los brownies son una opción deliciosa y sencilla! Pueden ser muy reconfortantes. Te recomiendo que busques una receta básica que solo necesite unos pocos ingredientes. Además, puedes agregar nueces o chispas de chocolate si te gustan. ¿Te gustaría revisar juntos los ingredientes y los pasos?",
+      "timestamp": 1764103893
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, sería genial. Así puedo asegurarme de tener todo lo que necesito.",
+      "timestamp": 1764103893
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Para hacer brownies básicos, necesitarás los siguientes ingredientes:\n\n1. 1 taza de mantequilla derretida\n2. 2 tazas de azúcar\n3. 4 huevos\n4. 1 cucharadita de extracto de vainilla\n5. 1 taza de harina\n6. 1 taza de cacao en polvo\n7. 1/2 cucharadita de sal\n8. 1/2 cucharadita de polvo de hornear\n\nSi te gustaría agregar algo extra, como nueces o chispas de chocolate, eso también sería genial. ¿Tienes todos estos ingredientes en casa?",
+      "timestamp": 1764103897
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sí, la mayoría los tengo. Solo tendría que asegurarme de tener suficiente cacao en polvo.",
+      "timestamp": 1764103897
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estupendo, asegúrate de verificar eso antes de empezar. Si necesitas ayuda con la receta o con algún paso en particular mientras cocinas, no dudes en decírmelo. Estoy aquí para apoyarte. ¡Espero que disfrutes el proceso de hacer los brownies!",
+      "timestamp": 1764103899
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muchas gracias, realmente lo aprecio. Me siento un poco más animada al pensar en cocinar.",
+      "timestamp": 1764103899
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso, cocinar puede ser una forma maravillosa de cuidar de ti misma. Recuerda que estoy aquí para acompañarte en este camino. Si en algún momento necesitas hablar o compartir cómo te sientes, no dudes en hacerlo. ¡Estoy aquí para ti!",
+      "timestamp": 1764103902
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, realmente significa mucho para mí. Me siento un poco más esperanzada.",
+      "timestamp": 1764103902
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es muy positivo de escuchar. La esperanza es un paso importante hacia el bienestar. Te animo a que sigas buscando esos momentos que te traen alegría. Nos vemos en la próxima sesión para seguir trabajando juntos en tu bienestar. ¡Cuídate y disfruta de la cocina! \n\n¡Hasta luego!",
+      "timestamp": 1764103904
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por tu apoyo. Nos vemos pronto.",
+      "timestamp": 1764103904
+    }
+  ],
+  "notes": null
+}

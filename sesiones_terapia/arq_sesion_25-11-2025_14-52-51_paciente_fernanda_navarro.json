@@ -1,0 +1,605 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:54:12Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3529997550,
+  "id": "75648532-39ce-407e-9a4b-06a8e776a4ea",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernanda Navarro": {
+      "name": "Fernanda Navarro",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ARQ) | estudiante de Arquitectura en la Ibero de 5to semestre; le gusta dibujar, ver fotos de lugares bonitos en redes y pasar tiempo en cafés tranquilos.",
+      "personality": "creativa pero reservada",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y hacerte sentir cómoda. ¿Hay algo en particular que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "La verdad, he estado sintiendo mucha presión con la escuela y a veces me siento un poco perdida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión escolar puede ser bastante abrumadora. ¿Podrías contarme un poco más sobre las situaciones específicas que te hacen sentir así?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Siento que no estoy cumpliendo con las expectativas y eso me hace dudar de mis habilidades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es natural dudar de nosotros mismos cuando sentimos que no estamos a la altura. Hablemos de esas expectativas, ¿quiénes son las personas cuyas expectativas sientes que debes cumplir?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Principalmente mis profesores y mis compañeros de clase. Siento que todos avanzan más rápido que yo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy comprensible sentir esa presión comparativa. A veces, es fácil perder de vista nuestro propio progreso. ¿Qué pasos has tomado para avanzar en tus estudios, a pesar de esa sensación de estancamiento?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "He estado tratando de organizarme mejor y dedicar más tiempo a mis proyectos, pero a veces me siento abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un buen inicio intentar organizarte, pero el exceso de carga puede generar ese sentimiento de abrumo. ¿Cómo te hace sentir cuando intentas dedicar más tiempo a tus proyectos?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "A veces me siento bien al avanzar, pero también me frustra cuando no logro lo que esperaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es normal experimentar altibajos en el proceso de aprendizaje. La frustración puede ser un obstáculo, pero también puede ser una señal de que te importa lo que haces. ¿Hay alguna estrategia que hayas encontrado útil cuando te sientes frustrada?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Intento tomar pequeños descansos y salir a caminar, pero a veces ni eso me ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tomar descansos y salir a caminar es un buen intento, pero es comprensible que no siempre funcione. ¿Te gustaría explorar algunas otras técnicas que podrías probar para manejar esos momentos de frustración?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría. Tal vez podría aprender a relajarme mejor o encontrar otras actividades que me ayuden."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente idea. Aprender a relajarte puede ser muy beneficioso. Podríamos explorar algunas técnicas de relajación, como la respiración profunda o la meditación. ¿Te gustaría que empezáramos con alguna de ellas?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría probar la respiración profunda. Creo que podría ayudarme a calmarme un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Vamos a hacerlo juntos. Te invito a que te sientes cómodamente, cierres los ojos si te sientes a gusto, y sigas mi guía. Inhalamos profundamente por la nariz contando hasta cuatro... 1, 2, 3, 4... y exhalamos lentamente por la boca contando hasta cuatro... 1, 2, 3, 4. Vamos a repetirlo un par de veces más. ¿Listo?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, estoy lista. Inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, sigue respirando de esa manera. Inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. Siente cómo cada respiración te ayuda a sentirte más tranquila y centrada. ¿Cómo te sientes hasta ahora?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me siento un poco más tranquila, creo que estoy empezando a relajarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso de escuchar. La respiración profunda puede ser una herramienta muy efectiva para calmar la mente. ¿Te gustaría seguir practicándola o explorar alguna otra técnica de relajación?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gustaría seguir practicando la respiración profunda un poco más. Creo que podría ayudarme a sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Por supuesto, continuemos. Vamos a hacer otras tres series de respiraciones profundas. Inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. Nuevamente, inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. Última vez, inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. ¿Cómo te sientes ahora?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me siento mucho más relajada, como si hubiera dejado un poco de la tensión atrás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es excelente, me alegra saberlo. La relajación es un paso importante para manejar la presión y el estrés. ¿Te gustaría que trabajáramos en cómo integrar esto en tu rutina diaria?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría. Creo que podría ayudarme a lidiar mejor con el estrés en la escuela."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es una gran idea. Podemos establecer momentos específicos durante el día para practicar la respiración profunda. Tal vez al inicio de cada estudio o antes de una clase importante. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, suena bien. Creo que establecer esos momentos me ayudará a recordar practicarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. También podrías considerar colocar recordatorios visuales en tu espacio de estudio para ayudarte a recordar. ¿Te gustaría discutir otras estrategias que puedan complementar esto?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría. Creo que tener más estrategias podría darme más herramientas para manejar el estrés."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos hablar sobre algunas estrategias adicionales. Por ejemplo, llevar un diario donde escribas tus pensamientos y sentimientos, o establecer un horario de estudio equilibrado que incluya tiempo para ti. ¿Te gustaría explorar alguna de estas o alguna otra que tengas en mente?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Me gustaría explorar la idea del diario. Creo que escribir podría ayudarme a desahogarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Escribir en un diario puede ser muy liberador y una excelente manera de procesar tus emociones. Podrías escribir sobre tus experiencias diarias, tus sentimientos o incluso tus metas. ¿Te gustaría establecer un momento específico del día para hacerlo?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que sería bueno hacerlo por la noche, antes de dormir. Así puedo reflexionar sobre el día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena perfecto. Escribir antes de dormir puede ayudarte a despejar la mente. Intenta hacerlo por unos minutos cada noche, y recuerda que no hay una forma correcta o incorrecta de hacerlo. ¿Te gustaría añadir algo más a tu práctica del diario?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Podría agregar algunas cosas por las que estoy agradecida. Creo que eso me ayudaría a enfocarme en lo positivo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una idea maravillosa. Incluir un apartado de gratitud puede ayudarte a cambiar tu enfoque hacia lo positivo y a apreciar los pequeños momentos. ¿Te gustaría que te sugiriera algunas preguntas para guiarte en tus entradas?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, eso me ayudaría mucho. Me gustaría tener algunas guías para comenzar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí tienes algunas preguntas que podrías considerar para tus entradas en el diario:\n\n1. ¿Qué tres cosas buenas me ocurrieron hoy?\n2. ¿Qué aprendí de una situación difícil?\n3. ¿A quién agradezco hoy y por qué?\n4. ¿Qué hice hoy que me hizo sentir bien conmigo misma?\n\nPuedes elegir una o varias preguntas cada noche. ¿Te parece útil?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me parece muy útil. Creo que me ayudarán a reflexionar mejor sobre mi día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saberlo. Recuerda que la constancia es clave, así que trata de ser paciente contigo misma mientras adoptas esta nueva práctica. ¿Hay algo más que te gustaría explorar durante nuestra sesión hoy?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "No, creo que hemos tocado temas importantes. Me siento más tranquila y con más herramientas ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso de escuchar. Me alegra que te sientas más tranquila y empoderada con nuevas herramientas. Recuerda que siempre estoy aquí para apoyarte. ¿Te gustaría programar nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría programar la próxima sesión. Gracias por todo lo que hemos hablado hoy."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, ha sido un placer acompañarte hoy. Vamos a programar tu próxima sesión. ¿Qué día y hora te vendrían bien?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "¿Podríamos programarla para el próximo viernes a la misma hora? Me parece bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, queda programada para el próximo viernes a la misma hora. Estoy aquí para ayudarte en tu proceso. Cuídate y nos vemos pronto. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "¡Hasta luego! Gracias por tu apoyo."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103999
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, es mi primera vez en terapia.",
+      "timestamp": 1764104000
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y hacerte sentir cómoda. ¿Hay algo en particular que te gustaría compartir hoy?",
+      "timestamp": 1764104001
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La verdad, he estado sintiendo mucha presión con la escuela y a veces me siento un poco perdida.",
+      "timestamp": 1764104002
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión escolar puede ser bastante abrumadora. ¿Podrías contarme un poco más sobre las situaciones específicas que te hacen sentir así?",
+      "timestamp": 1764104002
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que no estoy cumpliendo con las expectativas y eso me hace dudar de mis habilidades.",
+      "timestamp": 1764104003
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es natural dudar de nosotros mismos cuando sentimos que no estamos a la altura. Hablemos de esas expectativas, ¿quiénes son las personas cuyas expectativas sientes que debes cumplir?",
+      "timestamp": 1764104005
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente mis profesores y mis compañeros de clase. Siento que todos avanzan más rápido que yo.",
+      "timestamp": 1764104006
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy comprensible sentir esa presión comparativa. A veces, es fácil perder de vista nuestro propio progreso. ¿Qué pasos has tomado para avanzar en tus estudios, a pesar de esa sensación de estancamiento?",
+      "timestamp": 1764104007
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He estado tratando de organizarme mejor y dedicar más tiempo a mis proyectos, pero a veces me siento abrumada.",
+      "timestamp": 1764104008
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un buen inicio intentar organizarte, pero el exceso de carga puede generar ese sentimiento de abrumo. ¿Cómo te hace sentir cuando intentas dedicar más tiempo a tus proyectos?",
+      "timestamp": 1764104009
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento bien al avanzar, pero también me frustra cuando no logro lo que esperaba.",
+      "timestamp": 1764104009
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es normal experimentar altibajos en el proceso de aprendizaje. La frustración puede ser un obstáculo, pero también puede ser una señal de que te importa lo que haces. ¿Hay alguna estrategia que hayas encontrado útil cuando te sientes frustrada?",
+      "timestamp": 1764104011
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Intento tomar pequeños descansos y salir a caminar, pero a veces ni eso me ayuda.",
+      "timestamp": 1764104011
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tomar descansos y salir a caminar es un buen intento, pero es comprensible que no siempre funcione. ¿Te gustaría explorar algunas otras técnicas que podrías probar para manejar esos momentos de frustración?",
+      "timestamp": 1764104013
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Tal vez podría aprender a relajarme mejor o encontrar otras actividades que me ayuden.",
+      "timestamp": 1764104013
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente idea. Aprender a relajarte puede ser muy beneficioso. Podríamos explorar algunas técnicas de relajación, como la respiración profunda o la meditación. ¿Te gustaría que empezáramos con alguna de ellas?",
+      "timestamp": 1764104014
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría probar la respiración profunda. Creo que podría ayudarme a calmarme un poco.",
+      "timestamp": 1764104015
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Vamos a hacerlo juntos. Te invito a que te sientes cómodamente, cierres los ojos si te sientes a gusto, y sigas mi guía. Inhalamos profundamente por la nariz contando hasta cuatro... 1, 2, 3, 4... y exhalamos lentamente por la boca contando hasta cuatro... 1, 2, 3, 4. Vamos a repetirlo un par de veces más. ¿Listo?",
+      "timestamp": 1764104017
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy lista. Inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4.",
+      "timestamp": 1764104018
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, sigue respirando de esa manera. Inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. Siente cómo cada respiración te ayuda a sentirte más tranquila y centrada. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764104020
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila, creo que estoy empezando a relajarme.",
+      "timestamp": 1764104020
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso de escuchar. La respiración profunda puede ser una herramienta muy efectiva para calmar la mente. ¿Te gustaría seguir practicándola o explorar alguna otra técnica de relajación?",
+      "timestamp": 1764104021
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría seguir practicando la respiración profunda un poco más. Creo que podría ayudarme a sentirme mejor.",
+      "timestamp": 1764104022
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por supuesto, continuemos. Vamos a hacer otras tres series de respiraciones profundas. Inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. Nuevamente, inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. Última vez, inhalamos... 1, 2, 3, 4... y exhalamos... 1, 2, 3, 4. ¿Cómo te sientes ahora?",
+      "timestamp": 1764104025
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento mucho más relajada, como si hubiera dejado un poco de la tensión atrás.",
+      "timestamp": 1764104026
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es excelente, me alegra saberlo. La relajación es un paso importante para manejar la presión y el estrés. ¿Te gustaría que trabajáramos en cómo integrar esto en tu rutina diaria?",
+      "timestamp": 1764104027
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que podría ayudarme a lidiar mejor con el estrés en la escuela.",
+      "timestamp": 1764104028
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es una gran idea. Podemos establecer momentos específicos durante el día para practicar la respiración profunda. Tal vez al inicio de cada estudio o antes de una clase importante. ¿Te parece bien?",
+      "timestamp": 1764104030
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Creo que establecer esos momentos me ayudará a recordar practicarlo.",
+      "timestamp": 1764104030
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. También podrías considerar colocar recordatorios visuales en tu espacio de estudio para ayudarte a recordar. ¿Te gustaría discutir otras estrategias que puedan complementar esto?",
+      "timestamp": 1764104031
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que tener más estrategias podría darme más herramientas para manejar el estrés.",
+      "timestamp": 1764104032
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos hablar sobre algunas estrategias adicionales. Por ejemplo, llevar un diario donde escribas tus pensamientos y sentimientos, o establecer un horario de estudio equilibrado que incluya tiempo para ti. ¿Te gustaría explorar alguna de estas o alguna otra que tengas en mente?",
+      "timestamp": 1764104034
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría explorar la idea del diario. Creo que escribir podría ayudarme a desahogarme.",
+      "timestamp": 1764104035
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Escribir en un diario puede ser muy liberador y una excelente manera de procesar tus emociones. Podrías escribir sobre tus experiencias diarias, tus sentimientos o incluso tus metas. ¿Te gustaría establecer un momento específico del día para hacerlo?",
+      "timestamp": 1764104036
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería bueno hacerlo por la noche, antes de dormir. Así puedo reflexionar sobre el día.",
+      "timestamp": 1764104037
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena perfecto. Escribir antes de dormir puede ayudarte a despejar la mente. Intenta hacerlo por unos minutos cada noche, y recuerda que no hay una forma correcta o incorrecta de hacerlo. ¿Te gustaría añadir algo más a tu práctica del diario?",
+      "timestamp": 1764104038
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría agregar algunas cosas por las que estoy agradecida. Creo que eso me ayudaría a enfocarme en lo positivo.",
+      "timestamp": 1764104039
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una idea maravillosa. Incluir un apartado de gratitud puede ayudarte a cambiar tu enfoque hacia lo positivo y a apreciar los pequeños momentos. ¿Te gustaría que te sugiriera algunas preguntas para guiarte en tus entradas?",
+      "timestamp": 1764104041
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me ayudaría mucho. Me gustaría tener algunas guías para comenzar.",
+      "timestamp": 1764104041
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí tienes algunas preguntas que podrías considerar para tus entradas en el diario:\n\n1. ¿Qué tres cosas buenas me ocurrieron hoy?\n2. ¿Qué aprendí de una situación difícil?\n3. ¿A quién agradezco hoy y por qué?\n4. ¿Qué hice hoy que me hizo sentir bien conmigo misma?\n\nPuedes elegir una o varias preguntas cada noche. ¿Te parece útil?",
+      "timestamp": 1764104043
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece muy útil. Creo que me ayudarán a reflexionar mejor sobre mi día.",
+      "timestamp": 1764104044
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saberlo. Recuerda que la constancia es clave, así que trata de ser paciente contigo misma mientras adoptas esta nueva práctica. ¿Hay algo más que te gustaría explorar durante nuestra sesión hoy?",
+      "timestamp": 1764104046
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos tocado temas importantes. Me siento más tranquila y con más herramientas ahora.",
+      "timestamp": 1764104046
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso de escuchar. Me alegra que te sientas más tranquila y empoderada con nuevas herramientas. Recuerda que siempre estoy aquí para apoyarte. ¿Te gustaría programar nuestra próxima sesión?",
+      "timestamp": 1764104048
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría programar la próxima sesión. Gracias por todo lo que hemos hablado hoy.",
+      "timestamp": 1764104049
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, ha sido un placer acompañarte hoy. Vamos a programar tu próxima sesión. ¿Qué día y hora te vendrían bien?",
+      "timestamp": 1764104050
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¿Podríamos programarla para el próximo viernes a la misma hora? Me parece bien.",
+      "timestamp": 1764104050
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, queda programada para el próximo viernes a la misma hora. Estoy aquí para ayudarte en tu proceso. Cuídate y nos vemos pronto. ¡Hasta luego!",
+      "timestamp": 1764104052
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Hasta luego! Gracias por tu apoyo.",
+      "timestamp": 1764104052
+    }
+  ],
+  "notes": null
+}

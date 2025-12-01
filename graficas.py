@@ -20,7 +20,6 @@ def graficar(dict_majors:dict, path_save:str="graficas_pacientes.png"):
 
 
 
-def histogram()
 
 def load_incidents(path="incidents.json"):
     "Cargar los incidentes desde el .json"

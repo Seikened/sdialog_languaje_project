@@ -1,0 +1,407 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:44:07Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 4007949364,
+  "id": "9085db58-4ca2-4bdd-bf75-1907602217f7",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Paula Hernández": {
+      "name": "Paula Hernández",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IC) | estudiante de Ingeniería Civil en la Ibero de 7mo semestre; le gusta caminar por la ciudad, ver arquitectura urbana, escuchar música y salir a comer con amigos.",
+      "personality": "disciplinada y tranquila",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Paula Hernández, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Hola, gracias. Me siento un poco nerviosa, la verdad, es mi primera vez en terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y hacerte sentir lo más cómoda posible. ¿Hay algo específico que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Gracias por tu comprensión. Últimamente he estado sintiéndome un poco abatida y me cuesta concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la falta de concentración puede ser muy frustrante. ¿Te gustaría hablar sobre lo que crees que está causando esa sensación de abatimiento?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Creo que hay muchas cosas en mi vida que me están afectando, como el estrés académico y algunas relaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son preocupaciones importantes y comprensibles. Hablemos primero del estrés académico. ¿Qué aspectos de tus estudios te están generando más estrés?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Principalmente las exigencias de los proyectos y exámenes. Siento que no tengo suficiente tiempo para todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La sensación de no tener tiempo suficiente es bastante común y puede ser abrumadora. ¿Has intentado alguna estrategia para manejar esa carga de trabajo?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "He intentado hacer listas y planificar mi tiempo, pero a veces me siento desbordada y no sigo el plan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un buen inicio intentar planificar tu tiempo. A veces, las expectativas pueden ser altas y es fácil sentirse desbordada. ¿Qué te parece si exploramos algunas formas de hacer tu planificación más flexible?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Me parece una buena idea. Creo que podría beneficiarme de tener un enfoque más flexible y realista."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena genial. La flexibilidad puede ayudar a reducir la presión. Podríamos hablar sobre cómo establecer metas más pequeñas y alcanzables, ¿te gustaría?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Sí, eso me gustaría. Creo que me vendría bien establecer metas más pequeñas para no sentirme tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Establecer metas pequeñas te permitirá avanzar a tu ritmo. Empecemos identificando una tarea específica que quieras desglosar en pasos más manejables. ¿Cuál sería?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Podría ser el proyecto que tengo que entregar en dos semanas. Me siento muy presionada por eso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, un proyecto puede ser muy estresante. Vamos a desglosarlo. ¿Cuáles son los pasos que crees que necesitas seguir para completar ese proyecto?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Primero, necesito investigar el tema, luego escribir un borrador y finalmente revisarlo antes de entregarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un buen plan. Quizás podrías dividir cada uno de esos pasos en tareas aún más pequeñas. Por ejemplo, ¿qué tipo de investigación necesitas hacer primero?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Podría empezar buscando artículos y fuentes confiables sobre el tema específico del proyecto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente punto de partida. Podrías dedicar un tiempo específico cada día a esa investigación. ¿Cuánto tiempo crees que podrías dedicar cada día para avanzar en esto?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Creo que podría dedicar entre 30 minutos a una hora cada día. Me parece un tiempo razonable."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy manejable. Recuerda que lo más importante es ser amable contigo misma y reconocer tus avances, por pequeños que sean. ¿Te gustaría establecer un horario para esos tiempos de investigación?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Sí, me gustaría hacerlo. Puede ayudarme a mantenerme en el camino y ser más disciplinada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. ¿Qué días y a qué horas te gustaría dedicar ese tiempo a la investigación?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Podría hacerlo los lunes, miércoles y viernes por la tarde, tal vez de 4 a 5 p.m."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente elección. Tener esos días y horarios específicos puede ayudarte a establecer una rutina. ¿Cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "Me siento un poco más tranquila al tener un plan. Espero que me ayude a manejar mejor el proyecto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes más tranquila. Tener un plan puede reducir la sensación de abrumamiento. Recuerda que estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría discutir hoy?"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "No, creo que hemos avanzado bien hoy. Agradezco mucho tu apoyo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un placer acompañarte en este proceso. Estoy aquí para ayudarte. Nos vemos en nuestra próxima sesión, y no dudes en practicitas tus metas. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Paula Hernández",
+      "text": "¡Gracias! Nos vemos pronto. Cuídate también. ¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Paula Hernández, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103420
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, la verdad, es mi primera vez en terapia.",
+      "timestamp": 1764103421
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y hacerte sentir lo más cómoda posible. ¿Hay algo específico que te gustaría compartir hoy?",
+      "timestamp": 1764103422
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu comprensión. Últimamente he estado sintiéndome un poco abatida y me cuesta concentrarme en mis estudios.",
+      "timestamp": 1764103422
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la falta de concentración puede ser muy frustrante. ¿Te gustaría hablar sobre lo que crees que está causando esa sensación de abatimiento?",
+      "timestamp": 1764103424
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que hay muchas cosas en mi vida que me están afectando, como el estrés académico y algunas relaciones.",
+      "timestamp": 1764103424
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son preocupaciones importantes y comprensibles. Hablemos primero del estrés académico. ¿Qué aspectos de tus estudios te están generando más estrés?",
+      "timestamp": 1764103425
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente las exigencias de los proyectos y exámenes. Siento que no tengo suficiente tiempo para todo.",
+      "timestamp": 1764103426
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La sensación de no tener tiempo suficiente es bastante común y puede ser abrumadora. ¿Has intentado alguna estrategia para manejar esa carga de trabajo?",
+      "timestamp": 1764103427
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado hacer listas y planificar mi tiempo, pero a veces me siento desbordada y no sigo el plan.",
+      "timestamp": 1764103428
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un buen inicio intentar planificar tu tiempo. A veces, las expectativas pueden ser altas y es fácil sentirse desbordada. ¿Qué te parece si exploramos algunas formas de hacer tu planificación más flexible?",
+      "timestamp": 1764103429
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Creo que podría beneficiarme de tener un enfoque más flexible y realista.",
+      "timestamp": 1764103429
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena genial. La flexibilidad puede ayudar a reducir la presión. Podríamos hablar sobre cómo establecer metas más pequeñas y alcanzables, ¿te gustaría?",
+      "timestamp": 1764103430
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que me vendría bien establecer metas más pequeñas para no sentirme tan abrumada.",
+      "timestamp": 1764103431
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Establecer metas pequeñas te permitirá avanzar a tu ritmo. Empecemos identificando una tarea específica que quieras desglosar en pasos más manejables. ¿Cuál sería?",
+      "timestamp": 1764103432
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría ser el proyecto que tengo que entregar en dos semanas. Me siento muy presionada por eso.",
+      "timestamp": 1764103433
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, un proyecto puede ser muy estresante. Vamos a desglosarlo. ¿Cuáles son los pasos que crees que necesitas seguir para completar ese proyecto?",
+      "timestamp": 1764103434
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Primero, necesito investigar el tema, luego escribir un borrador y finalmente revisarlo antes de entregarlo.",
+      "timestamp": 1764103435
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un buen plan. Quizás podrías dividir cada uno de esos pasos en tareas aún más pequeñas. Por ejemplo, ¿qué tipo de investigación necesitas hacer primero?",
+      "timestamp": 1764103436
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría empezar buscando artículos y fuentes confiables sobre el tema específico del proyecto.",
+      "timestamp": 1764103436
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente punto de partida. Podrías dedicar un tiempo específico cada día a esa investigación. ¿Cuánto tiempo crees que podrías dedicar cada día para avanzar en esto?",
+      "timestamp": 1764103437
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría dedicar entre 30 minutos a una hora cada día. Me parece un tiempo razonable.",
+      "timestamp": 1764103438
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy manejable. Recuerda que lo más importante es ser amable contigo misma y reconocer tus avances, por pequeños que sean. ¿Te gustaría establecer un horario para esos tiempos de investigación?",
+      "timestamp": 1764103439
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacerlo. Puede ayudarme a mantenerme en el camino y ser más disciplinada.",
+      "timestamp": 1764103440
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. ¿Qué días y a qué horas te gustaría dedicar ese tiempo a la investigación?",
+      "timestamp": 1764103440
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría hacerlo los lunes, miércoles y viernes por la tarde, tal vez de 4 a 5 p.m.",
+      "timestamp": 1764103441
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente elección. Tener esos días y horarios específicos puede ayudarte a establecer una rutina. ¿Cómo te sientes al respecto?",
+      "timestamp": 1764103442
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquila al tener un plan. Espero que me ayude a manejar mejor el proyecto.",
+      "timestamp": 1764103443
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes más tranquila. Tener un plan puede reducir la sensación de abrumamiento. Recuerda que estoy aquí para apoyarte en este proceso. ¿Hay algo más que te gustaría discutir hoy?",
+      "timestamp": 1764103444
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos avanzado bien hoy. Agradezco mucho tu apoyo.",
+      "timestamp": 1764103445
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un placer acompañarte en este proceso. Estoy aquí para ayudarte. Nos vemos en nuestra próxima sesión, y no dudes en practicitas tus metas. ¡Cuídate mucho!",
+      "timestamp": 1764103446
+    },
+    {
+      "agent": "Paula Hernández",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos pronto. Cuídate también. ¡Hasta luego!",
+      "timestamp": 1764103447
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,570 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:03:07Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1026686757,
+  "id": "bd98bf3f-6917-4b91-81a0-c0e30d20abbd",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Regina Soto": {
+      "name": "Regina Soto",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IDN) | estudiante de Inteligencia de Negocios en la Ibero de 6to semestre; le gusta ir a cafés, usar su laptop para tareas, ver videos y platicar con amigas.",
+      "personality": "analítica y perfeccionista",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Regina Soto, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera sesión de terapia y no sé qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te motivó a buscar terapia?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "He estado sintiéndome un poco abrumada y con síntomas de depresión últimamente, y creo que necesito ayuda para manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y agradezco que compartas eso conmigo. Trabajaremos juntas para encontrar herramientas que te ayuden a sentirte mejor. ¿Te gustaría empezar hablando sobre algunos de esos síntomas que has estado experimentando?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, claro. He estado sintiéndome muy cansada y me cuesta concentrarme en mis estudios. También me siento triste sin razón aparente muchas veces."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esos son síntomas importantes de reconocer. La fatiga y la dificultad para concentrarse pueden afectar mucho tu vida diaria. Hablemos un poco más sobre cómo estos sentimientos están impactando tu día a día. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, me parece bien. A veces, me cuesta incluso salir con mis amigas o disfrutar de cosas que solía hacer. Me siento atrapada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Sentirse atrapada puede ser muy difícil. Es comprensible que esas actividades que solías disfrutar ahora no te traigan la misma alegría. ¿Hay alguna situación específica reciente en la que hayas sentido esas dificultades más intensamente?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, recientemente tuve que presentar un proyecto importante en la universidad y me sentí muy ansiosa. No pude disfrutarlo como lo hubiera hecho antes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La ansiedad en momentos de presión puede ser abrumadora y afectar tu desempeño y disfrute. Hablemos sobre cómo manejaste esa situación y qué te gustaría hacer diferente la próxima vez."
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "La verdad es que no supe manejarlo bien. Me quedé paralizada y no pude prepararme como quería. Me gustaría aprender a calmarme y organizarme mejor para futuras presentaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran paso reconocer que deseas aprender a manejar mejor esas situaciones. Podemos trabajar en técnicas de relajación y organización para que te sientas más preparada y segura en el futuro. ¿Te gustaría que comenzáramos con algunas estrategias ahora mismo?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, me gustaría mucho eso. Creo que podría ayudarme a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Una técnica que puede ser eficaz es la respiración profunda. Te guiaré a través de un ejercicio breve. Inhalemos profundamente por la nariz, llenando el abdomen, y luego exhalamos lentamente por la boca. Vamos a hacerlo juntas. Inhala... y exhala. ¿Cómo te sientes?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Me siento un poco más relajada, la respiración profunda ayuda a calmarme. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes un poco más relajada. La respiración profunda es una herramienta poderosa. Podemos seguir practicándola en cada sesión y explorar más estrategias que te ayuden a sentirte en control. ¿Te gustaría hacer un resumen de lo que hemos hablado hoy?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, creo que sería bueno. Hemos hablado sobre mis sentimientos de tristeza y ansiedad, especialmente respecto a mis estudios y una presentación reciente. También practicamos la técnica de respiración profunda que me hizo sentir un poco más relajada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Antes de continuar, quiero mencionarte que existe un cuestionario llamado PHQ-9, que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. Esto no sustituye una evaluación profesional completa, pero puede darnos una idea más clara de tus emociones. ¿Te gustaría responder a las preguntas?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Sí, me gustaría hacerlo. Creo que puede ser útil entender mejor mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Empezaremos con la primera pregunta: \n\nDurante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n- 0: Nunca \n- 1: Poco \n- 2: Moderadamente \n- 3: Casi todos los días\n\nPor favor, elige una opción del 0 al 3 para cada afirmación que te presente. \n\n1. Poco interés o placer en hacer cosas."
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Para esa afirmación, diría que un 2, moderadamente. A veces me siento sin ganas de hacer cosas que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. La siguiente pregunta es: \n\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Qué puntaje le darías?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 2 también. Me he sentido decaída y sin esperanzas en varias ocasiones recientemente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. Continuemos con la siguiente pregunta:\n\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Qué puntaje le das?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 1, poco. A veces tengo dificultades para dormir, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entendido, gracias por tu respuesta. Pasemos a la siguiente pregunta:\n\n4. Sentirte cansado(a) o con poca energía. ¿Qué puntaje le darías?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 2, moderadamente. A menudo me siento cansada y sin energía para hacer mis actividades diarias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco que compartas eso. Vamos con la siguiente pregunta:\n\n5. Tener poco apetito o comer en exceso. ¿Qué puntaje le das?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 1, poco. A veces tengo poco apetito, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu respuesta. Ahora, la siguiente pregunta es:\n\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Qué puntuación le darías?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 2, moderadamente. A veces me siento como un fracaso, especialmente cuando no cumplo con mis propias expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y es importante reconocer esos sentimientos. Continuemos con la siguiente pregunta:\n\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Qué puntaje le das?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 2, moderadamente. A menudo me cuesta concentrarme, especialmente cuando estudio o trato de ver algo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Ahora vamos a la siguiente pregunta:\n\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Qué puntuación le darías?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 1, poco. A veces me siento un poco inquieta, pero no es algo que note siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. Sigamos con la penúltima pregunta:\n\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Qué puntaje le das?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 1, poco. A veces tengo pensamientos oscuros, pero no son frecuentes ni intensos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco que compartas eso, es importante. Finalmente, la última pregunta:\n\n10. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Qué puntaje le darías?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Le daría un 2, moderadamente. He sentido molestias por varios de estos problemas que hemos discutido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por responder a todas las preguntas; me ayuda a entender mejor cómo te has estado sintiendo. Tomaremos en cuenta tus respuestas para abordar tus necesidades en las próximas sesiones. ¿Hay algo más que te gustaría discutir antes de finalizar nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "Solo quisiera agradecerte por escucharme y ayudarme a expresar lo que siento. Me siento un poco más aliviada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes un poco más aliviada. Gracias a ti por abrirte y compartir tu experiencia. Estoy aquí para ayudarte en este proceso. Te espero en nuestra próxima sesión. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Regina Soto",
+      "text": "¡Gracias! Yo también te agradezco. Cuídate y nos vemos pronto. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Regina Soto, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104520
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera sesión de terapia y no sé qué esperar.",
+      "timestamp": 1764104521
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría compartir qué te motivó a buscar terapia?",
+      "timestamp": 1764104522
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He estado sintiéndome un poco abrumada y con síntomas de depresión últimamente, y creo que necesito ayuda para manejarlo.",
+      "timestamp": 1764104523
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y agradezco que compartas eso conmigo. Trabajaremos juntas para encontrar herramientas que te ayuden a sentirte mejor. ¿Te gustaría empezar hablando sobre algunos de esos síntomas que has estado experimentando?",
+      "timestamp": 1764104525
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro. He estado sintiéndome muy cansada y me cuesta concentrarme en mis estudios. También me siento triste sin razón aparente muchas veces.",
+      "timestamp": 1764104526
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esos son síntomas importantes de reconocer. La fatiga y la dificultad para concentrarse pueden afectar mucho tu vida diaria. Hablemos un poco más sobre cómo estos sentimientos están impactando tu día a día. ¿Te parece bien?",
+      "timestamp": 1764104528
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. A veces, me cuesta incluso salir con mis amigas o disfrutar de cosas que solía hacer. Me siento atrapada.",
+      "timestamp": 1764104529
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sentirse atrapada puede ser muy difícil. Es comprensible que esas actividades que solías disfrutar ahora no te traigan la misma alegría. ¿Hay alguna situación específica reciente en la que hayas sentido esas dificultades más intensamente?",
+      "timestamp": 1764104531
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, recientemente tuve que presentar un proyecto importante en la universidad y me sentí muy ansiosa. No pude disfrutarlo como lo hubiera hecho antes.",
+      "timestamp": 1764104532
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La ansiedad en momentos de presión puede ser abrumadora y afectar tu desempeño y disfrute. Hablemos sobre cómo manejaste esa situación y qué te gustaría hacer diferente la próxima vez.",
+      "timestamp": 1764104533
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La verdad es que no supe manejarlo bien. Me quedé paralizada y no pude prepararme como quería. Me gustaría aprender a calmarme y organizarme mejor para futuras presentaciones.",
+      "timestamp": 1764104535
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran paso reconocer que deseas aprender a manejar mejor esas situaciones. Podemos trabajar en técnicas de relajación y organización para que te sientas más preparada y segura en el futuro. ¿Te gustaría que comenzáramos con algunas estrategias ahora mismo?",
+      "timestamp": 1764104537
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría mucho eso. Creo que podría ayudarme a sentirme más en control.",
+      "timestamp": 1764104538
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Una técnica que puede ser eficaz es la respiración profunda. Te guiaré a través de un ejercicio breve. Inhalemos profundamente por la nariz, llenando el abdomen, y luego exhalamos lentamente por la boca. Vamos a hacerlo juntas. Inhala... y exhala. ¿Cómo te sientes?",
+      "timestamp": 1764104540
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajada, la respiración profunda ayuda a calmarme. Gracias por guiarme.",
+      "timestamp": 1764104542
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes un poco más relajada. La respiración profunda es una herramienta poderosa. Podemos seguir practicándola en cada sesión y explorar más estrategias que te ayuden a sentirte en control. ¿Te gustaría hacer un resumen de lo que hemos hablado hoy?",
+      "timestamp": 1764104543
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería bueno. Hemos hablado sobre mis sentimientos de tristeza y ansiedad, especialmente respecto a mis estudios y una presentación reciente. También practicamos la técnica de respiración profunda que me hizo sentir un poco más relajada.",
+      "timestamp": 1764104545
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104545
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "phq9"
+        },
+        "id": "call_q6DDukJhPyftGsZyhnxCbJ7a"
+      },
+      "timestamp": 1764104546
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_q6DDukJhPyftGsZyhnxCbJ7a"
+      },
+      "timestamp": 1764104546
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Antes de continuar, quiero mencionarte que existe un cuestionario llamado PHQ-9, que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. Esto no sustituye una evaluación profesional completa, pero puede darnos una idea más clara de tus emociones. ¿Te gustaría responder a las preguntas?",
+      "timestamp": 1764104548
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacerlo. Creo que puede ser útil entender mejor mis emociones.",
+      "timestamp": 1764104549
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Empezaremos con la primera pregunta: \n\nDurante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? \n- 0: Nunca \n- 1: Poco \n- 2: Moderadamente \n- 3: Casi todos los días\n\nPor favor, elige una opción del 0 al 3 para cada afirmación que te presente. \n\n1. Poco interés o placer en hacer cosas.",
+      "timestamp": 1764104551
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa afirmación, diría que un 2, moderadamente. A veces me siento sin ganas de hacer cosas que solía disfrutar.",
+      "timestamp": 1764104553
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. La siguiente pregunta es: \n\n2. Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Qué puntaje le darías?",
+      "timestamp": 1764104554
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2 también. Me he sentido decaída y sin esperanzas en varias ocasiones recientemente.",
+      "timestamp": 1764104555
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. Continuemos con la siguiente pregunta:\n\n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Qué puntaje le das?",
+      "timestamp": 1764104557
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, poco. A veces tengo dificultades para dormir, pero no siempre.",
+      "timestamp": 1764104558
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entendido, gracias por tu respuesta. Pasemos a la siguiente pregunta:\n\n4. Sentirte cansado(a) o con poca energía. ¿Qué puntaje le darías?",
+      "timestamp": 1764104560
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, moderadamente. A menudo me siento cansada y sin energía para hacer mis actividades diarias.",
+      "timestamp": 1764104562
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco que compartas eso. Vamos con la siguiente pregunta:\n\n5. Tener poco apetito o comer en exceso. ¿Qué puntaje le das?",
+      "timestamp": 1764104563
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, poco. A veces tengo poco apetito, pero no siempre.",
+      "timestamp": 1764104565
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu respuesta. Ahora, la siguiente pregunta es:\n\n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Qué puntuación le darías?",
+      "timestamp": 1764104567
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, moderadamente. A veces me siento como un fracaso, especialmente cuando no cumplo con mis propias expectativas.",
+      "timestamp": 1764104568
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y es importante reconocer esos sentimientos. Continuemos con la siguiente pregunta:\n\n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Qué puntaje le das?",
+      "timestamp": 1764104570
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, moderadamente. A menudo me cuesta concentrarme, especialmente cuando estudio o trato de ver algo.",
+      "timestamp": 1764104571
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Ahora vamos a la siguiente pregunta:\n\n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Qué puntuación le darías?",
+      "timestamp": 1764104573
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, poco. A veces me siento un poco inquieta, pero no es algo que note siempre.",
+      "timestamp": 1764104574
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. Sigamos con la penúltima pregunta:\n\n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Qué puntaje le das?",
+      "timestamp": 1764104575
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, poco. A veces tengo pensamientos oscuros, pero no son frecuentes ni intensos.",
+      "timestamp": 1764104577
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco que compartas eso, es importante. Finalmente, la última pregunta:\n\n10. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? ¿Qué puntaje le darías?",
+      "timestamp": 1764104578
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, moderadamente. He sentido molestias por varios de estos problemas que hemos discutido.",
+      "timestamp": 1764104580
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por responder a todas las preguntas; me ayuda a entender mejor cómo te has estado sintiendo. Tomaremos en cuenta tus respuestas para abordar tus necesidades en las próximas sesiones. ¿Hay algo más que te gustaría discutir antes de finalizar nuestra sesión de hoy?",
+      "timestamp": 1764104581
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Solo quisiera agradecerte por escucharme y ayudarme a expresar lo que siento. Me siento un poco más aliviada.",
+      "timestamp": 1764104583
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes un poco más aliviada. Gracias a ti por abrirte y compartir tu experiencia. Estoy aquí para ayudarte en este proceso. Te espero en nuestra próxima sesión. ¡Cuídate mucho!",
+      "timestamp": 1764104585
+    },
+    {
+      "agent": "Regina Soto",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Yo también te agradezco. Cuídate y nos vemos pronto. ¡Adiós!",
+      "timestamp": 1764104587
+    }
+  ],
+  "notes": null
+}

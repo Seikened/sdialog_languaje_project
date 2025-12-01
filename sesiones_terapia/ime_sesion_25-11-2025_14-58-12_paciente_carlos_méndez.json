@@ -1,0 +1,628 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:59:32Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1168224659,
+  "id": "63372bc3-1ac2-4ca8-b773-510f52c07c2e",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Carlos Méndez": {
+      "name": "Carlos Méndez",
+      "age": 22,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IME) | estudiante de Ingeniería Mecánica y Eléctrica en la Ibero de 6to semestre; le gustan los autos, las películas de acción y pasar tiempo con sus amigos.",
+      "personality": "práctico y reservado",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy seguro de qué esperar de esta sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo en una primera sesión. Estoy aquí para escucharte y guiarte en lo que necesites. ¿Hay algo específico que te gustaría compartir sobre lo que te preocupa?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, he estado sintiendo una especie de tristeza que no puedo sacudirme. A veces es difícil concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, Carlos. Para explorar mejor cómo te has estado sintiendo, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender tus síntomas en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Está bien, creo que eso puede ayudar. Estoy dispuesto a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos con el cuestionario. \n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "He tenido molestias casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso, Carlos. \n\n2/10 | Poco interés o placer en hacer cosas. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Casi siempre, la verdad. No tengo ganas de hacer muchas cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo siento mucho, Carlos. Es un sentimiento bastante difícil de llevar. \n\n3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Últimamente me siento así la mayoría de los días. Es agotador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento saber que te sientes así, Carlos. Es importante que podamos entender mejor lo que estás experimentando. \n\n4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "A veces me cuesta dormir, pero otras veces duermo demasiado. Es confuso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que eso te haga sentir confuso, el sueño puede verse afectado por el estado emocional. \n\n5/10 | Sentirte cansado(a) o con poca energía. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Casi siempre me siento cansado y sin energía. Es frustrante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés pasando por esto, Carlos. Es un sentimiento muy difícil. \n\n6/10 | Tener poco apetito o comer en exceso. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "He tenido poco apetito últimamente, no tengo ganas de comer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser honesto al compartir eso, Carlos. \n\n7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Me he sentido así muchas veces, especialmente cuando pienso en mis estudios y en lo que espero lograr."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo lo difícil que puede ser llevar esa carga emocional. \n\n8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Casi siempre me cuesta concentrarme en esas cosas. Mi mente divaga mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso puede ser muy frustrante, especialmente cuando intentas estudiar. \n\n9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "A veces me siento inquieto, pero también hay momentos en los que me muevo muy lento. Es raro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que te sientas así, ya que las emociones pueden afectar nuestro cuerpo de diferentes maneras. \n\n10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Con qué frecuencia has sentido esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "He tenido esos pensamientos de vez en cuando, y es aterrador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento mucho que estés sintiendo eso, Carlos. Es muy importante que hablemos sobre estos pensamientos y cómo te sientes. Estoy aquí para apoyarte."
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Gracias, aprecio que estés aquí para escucharme. Es difícil hablar de esto, pero creo que lo necesito."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Estoy aquí para ti, Carlos, y estoy agradecida de que estés compartiendo tus sentimientos. Hablemos de cómo podemos trabajar juntos para que te sientas mejor. ¿Te gustaría explorar algunas estrategias para manejar estos pensamientos y emociones?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me gustaría eso. Quiero encontrar una manera de sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran primer paso, Carlos. Vamos a trabajar en algunas estrategias prácticas y herramientas que pueden ayudarte a manejar tus emociones y mejorar tu bienestar. Comencemos por hablar sobre la importancia de establecer una rutina diaria."
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Está bien, creo que tener una rutina puede ayudarme a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Exactamente, tener una rutina puede brindarte estructura y un sentido de pertenencia. Podemos empezar por crear un horario simple que incluya momentos para estudiar, descansar y actividades que disfrutes. ¿Te gustaría proponer algunas actividades que te gustaría incluir en tu rutina?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Me gustaría incluir tiempo para trabajar en mis proyectos de ingeniería, salir a dar una vuelta con mis amigos y ver algunas películas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son excelentes actividades, Carlos. Incorporar tiempo para tus proyectos, socializar y relajarte puede ayudarte a sentir un equilibrio. \n\nPodríamos establecer un horario semanal que incluya tiempo específico para cada una de estas actividades. ¿Te gustaría que te ayude a organizarlo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, eso sería genial. Me vendría bien un poco de ayuda para organizarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos a diseñar un horario. ¿Hay días específicos en los que prefieras dedicar más tiempo a tus proyectos o salir con amigos?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Podría dedicar más tiempo a mis proyectos durante la semana, tal vez el lunes y el miércoles, y salir con amigos los fines de semana."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una buena distribución. Podrías trabajar en tus proyectos el lunes y miércoles, y luego reservar tiempo para tus amigos los sábados y domingos. \n\nMiremos cuánto tiempo te gustaría dedicar a cada actividad. ¿Te parece bien dedicar unas 2 horas para tus proyectos y salir con amigos por la tarde los fines de semana?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, eso suena bien. Dos horas para mis proyectos y salir un par de horas por la tarde con mis amigos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, Carlos. Entonces, tenemos:\n\n- **Lunes y miércoles**: 2 horas para trabajar en tus proyectos.\n- **Sábado y domingo**: un par de horas por la tarde para salir con tus amigos.\n\nPodemos también agregar tiempo para relajarte, ver películas o simplemente descansar. ¿Te gustaría incluir eso en tu horario?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, definitivamente. Podría dedicar tiempo los viernes por la noche para ver películas y relajarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente idea, Carlos. Entonces, tu horario quedaría así:\n\n- **Lunes y miércoles**: 2 horas para trabajar en tus proyectos.\n- **Viernes por la noche**: tiempo para ver películas y relajarte.\n- **Sábado y domingo**: un par de horas por la tarde para salir con tus amigos.\n\n¿Cómo te sientes con este horario?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Me siento bien con esto. Creo que tener un plan me ayudará a sentirme más enfocado y menos abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes así, Carlos. Tener un plan puede realmente marcar la diferencia. Recuerda que también es importante ser flexible y ajustar el horario según tus necesidades. \n\n¿Hay algo más en lo que te gustaría trabajar o discutir hoy?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "No, creo que esto es un buen comienzo. Gracias por ayudarme a organizar mis pensamientos y mi tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Carlos. Estoy aquí para apoyarte. Me alegra que hayamos podido trabajar juntos en esto. Recuerda que siempre puedes volver a hablar sobre cómo te sientes y ajustar tu plan si lo necesitas. \n\nCuídate y nos vemos en la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "¡Gracias! Hasta luego."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104314
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy seguro de qué esperar de esta sesión.",
+      "timestamp": 1764104316
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo en una primera sesión. Estoy aquí para escucharte y guiarte en lo que necesites. ¿Hay algo específico que te gustaría compartir sobre lo que te preocupa?",
+      "timestamp": 1764104317
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiendo una especie de tristeza que no puedo sacudirme. A veces es difícil concentrarme en mis estudios.",
+      "timestamp": 1764104318
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104318
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, Carlos. Para explorar mejor cómo te has estado sintiendo, hay un cuestionario llamado PHQ-9 que puede ayudarnos a entender tus síntomas en las últimas dos semanas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764104321
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, creo que eso puede ayudar. Estoy dispuesto a responderlo.",
+      "timestamp": 1764104322
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_Tg0huYnSNxqv6KAMe74IBPfN"
+      },
+      "timestamp": 1764104323
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_Tg0huYnSNxqv6KAMe74IBPfN"
+      },
+      "timestamp": 1764104323
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos con el cuestionario. \n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?",
+      "timestamp": 1764104324
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido molestias casi todos los días.",
+      "timestamp": 1764104324
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso, Carlos. \n\n2/10 | Poco interés o placer en hacer cosas. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104325
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Casi siempre, la verdad. No tengo ganas de hacer muchas cosas que antes disfrutaba.",
+      "timestamp": 1764104326
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo siento mucho, Carlos. Es un sentimiento bastante difícil de llevar. \n\n3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104327
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Últimamente me siento así la mayoría de los días. Es agotador.",
+      "timestamp": 1764104328
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104328
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento saber que te sientes así, Carlos. Es importante que podamos entender mejor lo que estás experimentando. \n\n4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104330
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me cuesta dormir, pero otras veces duermo demasiado. Es confuso.",
+      "timestamp": 1764104330
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que eso te haga sentir confuso, el sueño puede verse afectado por el estado emocional. \n\n5/10 | Sentirte cansado(a) o con poca energía. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104332
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Casi siempre me siento cansado y sin energía. Es frustrante.",
+      "timestamp": 1764104333
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104333
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés pasando por esto, Carlos. Es un sentimiento muy difícil. \n\n6/10 | Tener poco apetito o comer en exceso. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104334
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido poco apetito últimamente, no tengo ganas de comer.",
+      "timestamp": 1764104335
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser honesto al compartir eso, Carlos. \n\n7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104336
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me he sentido así muchas veces, especialmente cuando pienso en mis estudios y en lo que espero lograr.",
+      "timestamp": 1764104336
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo lo difícil que puede ser llevar esa carga emocional. \n\n8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104338
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Casi siempre me cuesta concentrarme en esas cosas. Mi mente divaga mucho.",
+      "timestamp": 1764104338
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso puede ser muy frustrante, especialmente cuando intentas estudiar. \n\n9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104340
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento inquieto, pero también hay momentos en los que me muevo muy lento. Es raro.",
+      "timestamp": 1764104341
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que te sientas así, ya que las emociones pueden afectar nuestro cuerpo de diferentes maneras. \n\n10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Con qué frecuencia has sentido esto?",
+      "timestamp": 1764104342
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tenido esos pensamientos de vez en cuando, y es aterrador.",
+      "timestamp": 1764104343
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento mucho que estés sintiendo eso, Carlos. Es muy importante que hablemos sobre estos pensamientos y cómo te sientes. Estoy aquí para apoyarte.",
+      "timestamp": 1764104344
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, aprecio que estés aquí para escucharme. Es difícil hablar de esto, pero creo que lo necesito.",
+      "timestamp": 1764104345
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Estoy aquí para ti, Carlos, y estoy agradecida de que estés compartiendo tus sentimientos. Hablemos de cómo podemos trabajar juntos para que te sientas mejor. ¿Te gustaría explorar algunas estrategias para manejar estos pensamientos y emociones?",
+      "timestamp": 1764104346
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Quiero encontrar una manera de sentirme mejor.",
+      "timestamp": 1764104346
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran primer paso, Carlos. Vamos a trabajar en algunas estrategias prácticas y herramientas que pueden ayudarte a manejar tus emociones y mejorar tu bienestar. Comencemos por hablar sobre la importancia de establecer una rutina diaria.",
+      "timestamp": 1764104348
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, creo que tener una rutina puede ayudarme a sentirme más en control.",
+      "timestamp": 1764104348
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Exactamente, tener una rutina puede brindarte estructura y un sentido de pertenencia. Podemos empezar por crear un horario simple que incluya momentos para estudiar, descansar y actividades que disfrutes. ¿Te gustaría proponer algunas actividades que te gustaría incluir en tu rutina?",
+      "timestamp": 1764104351
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría incluir tiempo para trabajar en mis proyectos de ingeniería, salir a dar una vuelta con mis amigos y ver algunas películas.",
+      "timestamp": 1764104352
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son excelentes actividades, Carlos. Incorporar tiempo para tus proyectos, socializar y relajarte puede ayudarte a sentir un equilibrio. \n\nPodríamos establecer un horario semanal que incluya tiempo específico para cada una de estas actividades. ¿Te gustaría que te ayude a organizarlo?",
+      "timestamp": 1764104353
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería genial. Me vendría bien un poco de ayuda para organizarlo.",
+      "timestamp": 1764104354
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos a diseñar un horario. ¿Hay días específicos en los que prefieras dedicar más tiempo a tus proyectos o salir con amigos?",
+      "timestamp": 1764104356
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría dedicar más tiempo a mis proyectos durante la semana, tal vez el lunes y el miércoles, y salir con amigos los fines de semana.",
+      "timestamp": 1764104357
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una buena distribución. Podrías trabajar en tus proyectos el lunes y miércoles, y luego reservar tiempo para tus amigos los sábados y domingos. \n\nMiremos cuánto tiempo te gustaría dedicar a cada actividad. ¿Te parece bien dedicar unas 2 horas para tus proyectos y salir con amigos por la tarde los fines de semana?",
+      "timestamp": 1764104358
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Dos horas para mis proyectos y salir un par de horas por la tarde con mis amigos.",
+      "timestamp": 1764104360
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, Carlos. Entonces, tenemos:\n\n- **Lunes y miércoles**: 2 horas para trabajar en tus proyectos.\n- **Sábado y domingo**: un par de horas por la tarde para salir con tus amigos.\n\nPodemos también agregar tiempo para relajarte, ver películas o simplemente descansar. ¿Te gustaría incluir eso en tu horario?",
+      "timestamp": 1764104363
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente. Podría dedicar tiempo los viernes por la noche para ver películas y relajarme.",
+      "timestamp": 1764104363
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente idea, Carlos. Entonces, tu horario quedaría así:\n\n- **Lunes y miércoles**: 2 horas para trabajar en tus proyectos.\n- **Viernes por la noche**: tiempo para ver películas y relajarte.\n- **Sábado y domingo**: un par de horas por la tarde para salir con tus amigos.\n\n¿Cómo te sientes con este horario?",
+      "timestamp": 1764104366
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento bien con esto. Creo que tener un plan me ayudará a sentirme más enfocado y menos abrumado.",
+      "timestamp": 1764104367
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes así, Carlos. Tener un plan puede realmente marcar la diferencia. Recuerda que también es importante ser flexible y ajustar el horario según tus necesidades. \n\n¿Hay algo más en lo que te gustaría trabajar o discutir hoy?",
+      "timestamp": 1764104368
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que esto es un buen comienzo. Gracias por ayudarme a organizar mis pensamientos y mi tiempo.",
+      "timestamp": 1764104369
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Carlos. Estoy aquí para apoyarte. Me alegra que hayamos podido trabajar juntos en esto. Recuerda que siempre puedes volver a hablar sobre cómo te sientes y ajustar tu plan si lo necesitas. \n\nCuídate y nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764104371
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Hasta luego.",
+      "timestamp": 1764104372
+    }
+  ],
+  "notes": null
+}

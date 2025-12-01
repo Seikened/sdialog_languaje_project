@@ -1,0 +1,341 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:44:56Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2323674215,
+  "id": "fe026b2d-7d96-4b55-bd98-b5e439bf4b47",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernando Leon": {
+      "name": "Fernando Leon",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IIA) | estudiante de ingeniería de inteligencia artificial en la universidad iberoamericana de 5to semestre, apasionado por la tecnología y los videojuegos",
+      "personality": "curioso y reflexivo",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis problemas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para ayudarte y acompañarte en este proceso. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, creo que lo que más me preocupa es que me siento un poco perdido y no sé cómo manejar la presión de la universidad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión académica puede ser abrumadora. ¿Te gustaría hablar sobre las situaciones específicas que sientes que te están causando más estrés en la universidad?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, hay momentos en que siento que no puedo seguir el ritmo de mis clases y eso me genera mucha ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La ansiedad por el ritmo de las clases es algo que muchos estudiantes experimentan. Es importante identificar esas situaciones. ¿Hay algo en particular que sientas que te ayuda a manejar esa ansiedad, aunque sea un poco?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "A veces, jugar videojuegos me ayuda a distraerme y a relajarme un poco, pero no siempre es suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es bueno saber que encuentras un momento de distracción en los videojuegos. Sin embargo, es comprensible que no siempre sea suficiente. ¿Has probado otras técnicas de relajación o manejo del estrés que te gustaría explorar juntos?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "No he probado muchas técnicas, pero creo que me gustaría aprender sobre la respiración o la meditación para ayudarme a calmarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, la respiración y la meditación son herramientas muy efectivas para manejar la ansiedad. Podemos empezar con una técnica de respiración sencilla. ¿Te gustaría que te guiara a través de un ejercicio ahora mismo?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Sí, me gustaría intentarlo. Estoy dispuesto a aprender."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, empecemos. Siéntate cómodamente, cierra los ojos si te sientes cómodo y toma una respiración profunda por la nariz, llenando tu abdomen. Mantén el aire un momento... y ahora exhala lentamente por la boca. Vamos a repetirlo dos veces más. Inhala... y exhala. Una vez más, inhala... y exhala. ¿Cómo te sientes después de este ejercicio?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me siento un poco más relajado, creo que me ayuda a despejar la mente. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes un poco más relajado. La práctica regular puede ser muy beneficiosa. ¿Te gustaría seguir explorando más técnicas de relajación o profundizar en otro aspecto de lo que sientes?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me gustaría explorar más técnicas, creo que sería útil aprender diferentes formas de manejar mi ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Podemos explorar otras técnicas como la visualización, el mindfulness o incluso el journaling. ¿Hay alguna de estas que te llame más la atención para empezar?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me interesa la visualización, suena interesante y creo que podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La visualización es una herramienta poderosa. Consiste en imaginar un lugar o situación que te genere paz y tranquilidad. Te guiaré a través de un ejercicio: cierra los ojos nuevamente y piensa en un lugar que te haga sentir seguro, como una playa o un bosque. Imagina cada detalle de ese lugar: los colores, los sonidos, los olores. Permítete sentir esa calma. ¿Qué imagen te viene a la mente?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me imagino en un bosque tranquilo, con árboles altos y el sonido de un río cerca. La luz del sol se filtra entre las hojas y todo se siente muy pacífico."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena hermoso y muy relajante. Permítete permanecer en esa imagen por unos momentos más, sintiendo la calma que te ofrece. Puedes volver a este lugar siempre que lo necesites. ¿Cómo te sientes ahora que has visualizado ese espacio?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Me siento más tranquilo y en paz. Es reconfortante saber que puedo volver allí cuando lo necesite."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una gran realización. La visualización puede ser un recurso muy útil en momentos de ansiedad. Recuerda que puedes practicar esto en cualquier momento. ¿Hay algo más de lo que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Creo que eso es todo por ahora, pero estoy agradecido por las técnicas que hemos explorado. Me sentiré más preparado para manejar mis momentos de ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Ha sido un placer trabajar contigo hoy. Recuerda que estoy aquí para apoyarte en tu proceso. Nos vemos en la próxima sesión. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Fernando Leon",
+      "text": "Gracias, me siento mejor después de nuestra sesión. Cuídate también. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernando Leon, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103469
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nervioso, la verdad. No estoy acostumbrado a hablar de mis problemas.",
+      "timestamp": 1764103470
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en una primera sesión. Estoy aquí para ayudarte y acompañarte en este proceso. ¿Te gustaría compartir qué es lo que más te preocupa en este momento?",
+      "timestamp": 1764103470
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que lo que más me preocupa es que me siento un poco perdido y no sé cómo manejar la presión de la universidad.",
+      "timestamp": 1764103472
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión académica puede ser abrumadora. ¿Te gustaría hablar sobre las situaciones específicas que sientes que te están causando más estrés en la universidad?",
+      "timestamp": 1764103473
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, hay momentos en que siento que no puedo seguir el ritmo de mis clases y eso me genera mucha ansiedad.",
+      "timestamp": 1764103474
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La ansiedad por el ritmo de las clases es algo que muchos estudiantes experimentan. Es importante identificar esas situaciones. ¿Hay algo en particular que sientas que te ayuda a manejar esa ansiedad, aunque sea un poco?",
+      "timestamp": 1764103475
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces, jugar videojuegos me ayuda a distraerme y a relajarme un poco, pero no siempre es suficiente.",
+      "timestamp": 1764103476
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es bueno saber que encuentras un momento de distracción en los videojuegos. Sin embargo, es comprensible que no siempre sea suficiente. ¿Has probado otras técnicas de relajación o manejo del estrés que te gustaría explorar juntos?",
+      "timestamp": 1764103477
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No he probado muchas técnicas, pero creo que me gustaría aprender sobre la respiración o la meditación para ayudarme a calmarme.",
+      "timestamp": 1764103478
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, la respiración y la meditación son herramientas muy efectivas para manejar la ansiedad. Podemos empezar con una técnica de respiración sencilla. ¿Te gustaría que te guiara a través de un ejercicio ahora mismo?",
+      "timestamp": 1764103479
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Estoy dispuesto a aprender.",
+      "timestamp": 1764103479
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, empecemos. Siéntate cómodamente, cierra los ojos si te sientes cómodo y toma una respiración profunda por la nariz, llenando tu abdomen. Mantén el aire un momento... y ahora exhala lentamente por la boca. Vamos a repetirlo dos veces más. Inhala... y exhala. Una vez más, inhala... y exhala. ¿Cómo te sientes después de este ejercicio?",
+      "timestamp": 1764103481
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajado, creo que me ayuda a despejar la mente. Gracias por guiarme.",
+      "timestamp": 1764103482
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes un poco más relajado. La práctica regular puede ser muy beneficiosa. ¿Te gustaría seguir explorando más técnicas de relajación o profundizar en otro aspecto de lo que sientes?",
+      "timestamp": 1764103483
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría explorar más técnicas, creo que sería útil aprender diferentes formas de manejar mi ansiedad.",
+      "timestamp": 1764103484
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Podemos explorar otras técnicas como la visualización, el mindfulness o incluso el journaling. ¿Hay alguna de estas que te llame más la atención para empezar?",
+      "timestamp": 1764103486
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me interesa la visualización, suena interesante y creo que podría ayudarme.",
+      "timestamp": 1764103486
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La visualización es una herramienta poderosa. Consiste en imaginar un lugar o situación que te genere paz y tranquilidad. Te guiaré a través de un ejercicio: cierra los ojos nuevamente y piensa en un lugar que te haga sentir seguro, como una playa o un bosque. Imagina cada detalle de ese lugar: los colores, los sonidos, los olores. Permítete sentir esa calma. ¿Qué imagen te viene a la mente?",
+      "timestamp": 1764103488
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me imagino en un bosque tranquilo, con árboles altos y el sonido de un río cerca. La luz del sol se filtra entre las hojas y todo se siente muy pacífico.",
+      "timestamp": 1764103489
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena hermoso y muy relajante. Permítete permanecer en esa imagen por unos momentos más, sintiendo la calma que te ofrece. Puedes volver a este lugar siempre que lo necesites. ¿Cómo te sientes ahora que has visualizado ese espacio?",
+      "timestamp": 1764103492
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento más tranquilo y en paz. Es reconfortante saber que puedo volver allí cuando lo necesite.",
+      "timestamp": 1764103493
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una gran realización. La visualización puede ser un recurso muy útil en momentos de ansiedad. Recuerda que puedes practicar esto en cualquier momento. ¿Hay algo más de lo que te gustaría hablar hoy?",
+      "timestamp": 1764103494
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que eso es todo por ahora, pero estoy agradecido por las técnicas que hemos explorado. Me sentiré más preparado para manejar mis momentos de ansiedad.",
+      "timestamp": 1764103494
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Ha sido un placer trabajar contigo hoy. Recuerda que estoy aquí para apoyarte en tu proceso. Nos vemos en la próxima sesión. ¡Cuídate mucho!",
+      "timestamp": 1764103496
+    },
+    {
+      "agent": "Fernando Leon",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, me siento mejor después de nuestra sesión. Cuídate también. ¡Hasta la próxima!",
+      "timestamp": 1764103496
+    }
+  ],
+  "notes": null
+}

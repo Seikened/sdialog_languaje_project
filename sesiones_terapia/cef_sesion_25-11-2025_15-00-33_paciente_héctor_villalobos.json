@@ -1,0 +1,517 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:01:55Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2008360620,
+  "id": "d0a14fd8-c07b-4e9b-993b-fa5378a373d1",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Héctor Villalobos": {
+      "name": "Héctor Villalobos",
+      "age": 24,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(CEF) | estudiante de Contaduría y Estrategias Financieras en la Ibero de 8vo semestre; le gusta salir a comer, ver series tranquilas y pasar tiempo con su familia.",
+      "personality": "reservado y metódico",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Hola. Bueno, la verdad es que estoy un poco nervioso. No estoy acostumbrado a hablar de mis sentimientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al principio. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te ha traído aquí hoy?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría. He estado sintiéndome mal últimamente, me cuesta concentrarme en la escuela y a veces simplemente no tengo ganas de hacer nada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento escuchar que te sientes así. La falta de concentración y la apatía pueden ser muy agotadoras. ¿Puedes recordar cuándo comenzaste a notar estos sentimientos?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Creo que empecé a sentirme así hace unos meses, pero se ha intensificado recientemente. Siento que no puedo manejarlo solo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es valiente de tu parte reconocer que necesitas apoyo. Ese es un primer paso muy importante. ¿Has identificado alguna situación o evento que pudo haber contribuido a estos sentimientos recientes?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, ha habido algunas situaciones en la escuela y también en casa que me han hecho sentir más abrumado. A veces, siento que no puedo cumplir con las expectativas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, las expectativas pueden ser una gran fuente de presión. Es normal sentirse abrumado cuando sientes que tienes que cumplir con tanto. ¿Te gustaría hablar un poco más sobre esas expectativas y cómo te afectan?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Claro, siento que hay expectativas de mis profesores y de mi familia para que saque buenas calificaciones y tenga éxito. A veces, eso me hace sentir que no soy suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que te sientas así; las expectativas pueden ser muy pesadas. Recordemos que tu valor no se mide solo por tus calificaciones. ¿Te gustaría explorar algunas estrategias para manejar esa presión que sientes?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría. Creo que necesito algunas herramientas para enfrentar esa presión y sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, podemos trabajar juntos en eso. Una estrategia efectiva es aprender a priorizar y establecer límites. También podemos explorar técnicas de manejo del estrés. ¿Te gustaría comenzar por alguna de esas áreas en particular?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Me gustaría empezar por aprender a establecer límites. A veces siento que siempre tengo que decir que sí a todo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Establecer límites es esencial para cuidar de ti mismo. Una buena práctica es empezar a evaluar tus propias necesidades y prioridades. Podríamos practicar cómo decir \"no\" de una manera asertiva. ¿Te gustaría intentar un ejercicio sobre eso?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría intentarlo. Creo que eso me ayudaría a sentirme más en control."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Perfecto! Imagina que alguien te pide que asistas a un evento que no te interesa. ¿Cómo podrías expresar tu decisión de manera asertiva? Puedes comenzar con una frase simple."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Podría decir algo como: \"Gracias por la invitación, pero no puedo asistir\"."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, esa es una respuesta muy clara y respetuosa. Recuerda que está bien priorizar tus propias necesidades. ¿Hay alguna situación específica en la que te gustaría practicar más esta habilidad?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, a veces mis compañeros de clase me piden ayuda con sus tareas, y me cuesta decir que no cuando ya tengo mucho que hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, es común sentir la presión de ayudar a los demás, pero también es importante cuidar de tu tiempo. Podrías decir: \"Me encantaría ayudarte, pero tengo otras prioridades en este momento\". ¿Te parece bien practicar esa respuesta?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me parece bien. Voy a intentarlo: \"Me encantaría ayudarte, pero tengo otras prioridades en este momento\". ¿Está bien así?"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Muy bien! Has expresado tu deseo de ayudar mientras mantienes tus límites. Recuerda que es un proceso y que con práctica te sentirás más cómodo. ¿Te gustaría hablar sobre cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me siento un poco más aliviado al haber practicado. Aunque todavía me da un poco de miedo, creo que es un buen primer paso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es normal sentir miedo al principio, pero reconocerlo y practicar es un gran avance. Cada vez que lo intentes, te sentirás más seguro. ¿Te gustaría continuar trabajando en otras herramientas que te ayuden a sentirte más fortalecido?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría. Creo que aprender otras herramientas me ayudaría a sentirme mejor y más confiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. Otro enfoque que puede ser útil es la práctica de la atención plena o mindfulness, que te ayuda a estar presente y reducir la ansiedad. ¿Te gustaría probar una breve técnica de respiración para empezar?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, eso suena bien. Me gustaría probar la técnica de respiración."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Vamos a intentar una técnica sencilla. Si te sientes cómodo, cierra los ojos y toma una respiración profunda por la nariz contando hasta cuatro. Luego, sostén el aire por cuatro segundos y exhala lentamente por la boca contando hasta cuatro. Vamos a intentarlo juntos. ¿Listo? Empecemos. Respira."
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Listo. (Cierra los ojos y sigue la técnica de respiración). Respiro profundamente... uno, dos, tres, cuatro... sostengo... uno, dos, tres, cuatro... y exhalo... uno, dos, tres, cuatro."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, lo hiciste excelente. Siente cómo te relajas un poco más con cada respiración. Puedes repetir esta técnica cada vez que sientas ansiedad o presión. ¿Cómo te sientes después de hacerla?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Me siento un poco más tranquilo. La respiración me ayuda a enfocarme y a relajarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. La respiración consciente puede ser una herramienta poderosa para calmar la mente. Recuerda que puedes usarla en cualquier momento que lo necesites. ¿Te gustaría explorar más técnicas de autoconocimiento o de relajación en nuestras próximas sesiones?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría explorar más técnicas. Creo que eso me podría ayudar a entenderme mejor y a manejar mis emociones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Trabajaremos juntos en diferentes técnicas para que puedas conocerte mejor y manejar tus emociones de manera efectiva. Cada paso que tomas es importante. ¿Hay algo más específico que te gustaría abordar en nuestras próximas sesiones?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Por ahora, creo que eso es suficiente. Me gustaría concentrarme en lo que hemos hablado y practicar esas técnicas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es completamente válido. Practicar lo que hemos aprendido es fundamental. Estoy aquí para apoyarte en tu proceso. Si en algún momento sientes que necesitas hablar de algo más, no dudes en mencionarlo. ¿Te gustaría agendar nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Sí, me gustaría agendarla. Creo que continuar con esto será útil para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, estoy aquí para ayudarte. ¿Qué día y hora te gustaría que programáramos nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Podría ser el próximo viernes a la misma hora, si está disponible."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, agendamos el próximo viernes a la misma hora. Estoy ansiosa por continuar nuestro trabajo juntos. Cuídate mucho hasta entonces. ¡Nos vemos!"
+    },
+    {
+      "speaker": "Héctor Villalobos",
+      "text": "Gracias. Cuídate también. Hasta la próxima sesión. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Héctor Villalobos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104460
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. Bueno, la verdad es que estoy un poco nervioso. No estoy acostumbrado a hablar de mis sentimientos.",
+      "timestamp": 1764104461
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al principio. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te ha traído aquí hoy?",
+      "timestamp": 1764104463
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. He estado sintiéndome mal últimamente, me cuesta concentrarme en la escuela y a veces simplemente no tengo ganas de hacer nada.",
+      "timestamp": 1764104464
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento escuchar que te sientes así. La falta de concentración y la apatía pueden ser muy agotadoras. ¿Puedes recordar cuándo comenzaste a notar estos sentimientos?",
+      "timestamp": 1764104465
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que empecé a sentirme así hace unos meses, pero se ha intensificado recientemente. Siento que no puedo manejarlo solo.",
+      "timestamp": 1764104466
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es valiente de tu parte reconocer que necesitas apoyo. Ese es un primer paso muy importante. ¿Has identificado alguna situación o evento que pudo haber contribuido a estos sentimientos recientes?",
+      "timestamp": 1764104467
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, ha habido algunas situaciones en la escuela y también en casa que me han hecho sentir más abrumado. A veces, siento que no puedo cumplir con las expectativas.",
+      "timestamp": 1764104468
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, las expectativas pueden ser una gran fuente de presión. Es normal sentirse abrumado cuando sientes que tienes que cumplir con tanto. ¿Te gustaría hablar un poco más sobre esas expectativas y cómo te afectan?",
+      "timestamp": 1764104469
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, siento que hay expectativas de mis profesores y de mi familia para que saque buenas calificaciones y tenga éxito. A veces, eso me hace sentir que no soy suficiente.",
+      "timestamp": 1764104470
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que te sientas así; las expectativas pueden ser muy pesadas. Recordemos que tu valor no se mide solo por tus calificaciones. ¿Te gustaría explorar algunas estrategias para manejar esa presión que sientes?",
+      "timestamp": 1764104472
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que necesito algunas herramientas para enfrentar esa presión y sentirme mejor.",
+      "timestamp": 1764104472
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, podemos trabajar juntos en eso. Una estrategia efectiva es aprender a priorizar y establecer límites. También podemos explorar técnicas de manejo del estrés. ¿Te gustaría comenzar por alguna de esas áreas en particular?",
+      "timestamp": 1764104474
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría empezar por aprender a establecer límites. A veces siento que siempre tengo que decir que sí a todo.",
+      "timestamp": 1764104475
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Establecer límites es esencial para cuidar de ti mismo. Una buena práctica es empezar a evaluar tus propias necesidades y prioridades. Podríamos practicar cómo decir \"no\" de una manera asertiva. ¿Te gustaría intentar un ejercicio sobre eso?",
+      "timestamp": 1764104476
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que eso me ayudaría a sentirme más en control.",
+      "timestamp": 1764104477
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Perfecto! Imagina que alguien te pide que asistas a un evento que no te interesa. ¿Cómo podrías expresar tu decisión de manera asertiva? Puedes comenzar con una frase simple.",
+      "timestamp": 1764104480
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría decir algo como: \"Gracias por la invitación, pero no puedo asistir\".",
+      "timestamp": 1764104481
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, esa es una respuesta muy clara y respetuosa. Recuerda que está bien priorizar tus propias necesidades. ¿Hay alguna situación específica en la que te gustaría practicar más esta habilidad?",
+      "timestamp": 1764104483
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces mis compañeros de clase me piden ayuda con sus tareas, y me cuesta decir que no cuando ya tengo mucho que hacer.",
+      "timestamp": 1764104484
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, es común sentir la presión de ayudar a los demás, pero también es importante cuidar de tu tiempo. Podrías decir: \"Me encantaría ayudarte, pero tengo otras prioridades en este momento\". ¿Te parece bien practicar esa respuesta?",
+      "timestamp": 1764104485
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Voy a intentarlo: \"Me encantaría ayudarte, pero tengo otras prioridades en este momento\". ¿Está bien así?",
+      "timestamp": 1764104487
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Muy bien! Has expresado tu deseo de ayudar mientras mantienes tus límites. Recuerda que es un proceso y que con práctica te sentirás más cómodo. ¿Te gustaría hablar sobre cómo te sientes al respecto?",
+      "timestamp": 1764104488
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me siento un poco más aliviado al haber practicado. Aunque todavía me da un poco de miedo, creo que es un buen primer paso.",
+      "timestamp": 1764104489
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es normal sentir miedo al principio, pero reconocerlo y practicar es un gran avance. Cada vez que lo intentes, te sentirás más seguro. ¿Te gustaría continuar trabajando en otras herramientas que te ayuden a sentirte más fortalecido?",
+      "timestamp": 1764104491
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que aprender otras herramientas me ayudaría a sentirme mejor y más confiado.",
+      "timestamp": 1764104492
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. Otro enfoque que puede ser útil es la práctica de la atención plena o mindfulness, que te ayuda a estar presente y reducir la ansiedad. ¿Te gustaría probar una breve técnica de respiración para empezar?",
+      "timestamp": 1764104494
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría probar la técnica de respiración.",
+      "timestamp": 1764104494
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Vamos a intentar una técnica sencilla. Si te sientes cómodo, cierra los ojos y toma una respiración profunda por la nariz contando hasta cuatro. Luego, sostén el aire por cuatro segundos y exhala lentamente por la boca contando hasta cuatro. Vamos a intentarlo juntos. ¿Listo? Empecemos. Respira.",
+      "timestamp": 1764104499
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Listo. (Cierra los ojos y sigue la técnica de respiración). Respiro profundamente... uno, dos, tres, cuatro... sostengo... uno, dos, tres, cuatro... y exhalo... uno, dos, tres, cuatro.",
+      "timestamp": 1764104501
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, lo hiciste excelente. Siente cómo te relajas un poco más con cada respiración. Puedes repetir esta técnica cada vez que sientas ansiedad o presión. ¿Cómo te sientes después de hacerla?",
+      "timestamp": 1764104503
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más tranquilo. La respiración me ayuda a enfocarme y a relajarme.",
+      "timestamp": 1764104503
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. La respiración consciente puede ser una herramienta poderosa para calmar la mente. Recuerda que puedes usarla en cualquier momento que lo necesites. ¿Te gustaría explorar más técnicas de autoconocimiento o de relajación en nuestras próximas sesiones?",
+      "timestamp": 1764104506
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría explorar más técnicas. Creo que eso me podría ayudar a entenderme mejor y a manejar mis emociones.",
+      "timestamp": 1764104507
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Trabajaremos juntos en diferentes técnicas para que puedas conocerte mejor y manejar tus emociones de manera efectiva. Cada paso que tomas es importante. ¿Hay algo más específico que te gustaría abordar en nuestras próximas sesiones?",
+      "timestamp": 1764104508
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora, creo que eso es suficiente. Me gustaría concentrarme en lo que hemos hablado y practicar esas técnicas.",
+      "timestamp": 1764104509
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es completamente válido. Practicar lo que hemos aprendido es fundamental. Estoy aquí para apoyarte en tu proceso. Si en algún momento sientes que necesitas hablar de algo más, no dudes en mencionarlo. ¿Te gustaría agendar nuestra próxima sesión?",
+      "timestamp": 1764104511
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría agendarla. Creo que continuar con esto será útil para mí.",
+      "timestamp": 1764104511
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, estoy aquí para ayudarte. ¿Qué día y hora te gustaría que programáramos nuestra próxima sesión?",
+      "timestamp": 1764104513
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría ser el próximo viernes a la misma hora, si está disponible.",
+      "timestamp": 1764104513
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, agendamos el próximo viernes a la misma hora. Estoy ansiosa por continuar nuestro trabajo juntos. Cuídate mucho hasta entonces. ¡Nos vemos!",
+      "timestamp": 1764104514
+    },
+    {
+      "agent": "Héctor Villalobos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias. Cuídate también. Hasta la próxima sesión. ¡Adiós!",
+      "timestamp": 1764104515
+    }
+  ],
+  "notes": null
+}

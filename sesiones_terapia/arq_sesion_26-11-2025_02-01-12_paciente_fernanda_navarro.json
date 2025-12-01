@@ -1,0 +1,462 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-26T08:02:28Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3885239130,
+  "id": "5831604c-4c7c-4ecb-a8d5-2951a8db1e6b",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Fernanda Navarro": {
+      "name": "Fernanda Navarro",
+      "age": 22,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(ARQ) | estudiante de Arquitectura en la Ibero de 5to semestre; le gusta dibujar, ver fotos de lugares bonitos en redes y pasar tiempo en cafés tranquilos.",
+      "personality": "creativa pero reservada",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Hola, gracias. Me siento un poco nerviosa, no estoy muy acostumbrada a esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa al principio. Estoy aquí para acompañarte y hacer que te sientas lo más cómoda posible. ¿Te gustaría compartir qué te trae por aquí hoy?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Siento que he estado muy abrumada últimamente y no sé cómo manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la sensación de estar abrumada puede ser muy pesada. ¿Puedes contarme más sobre lo que te está causando esa sensación?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que son muchas cosas... la universidad, la presión de mis proyectos y a veces me siento sola."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirte así con tantas responsabilidades y esa sensación de soledad. Vamos a explorar cada una de esas áreas para ver cómo podemos trabajar en ellas juntas. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me parece bien. Estoy dispuesta a hablar de eso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Comencemos con la universidad. ¿Qué aspectos específicos sientes que te están generando más presión en este momento?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Principalmente las entregas de proyectos, siento que nunca tengo suficiente tiempo y eso me estresa mucho."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la falta de tiempo puede aumentar considerablemente el estrés. ¿Te gustaría compartir cómo organizas tu tiempo para esos proyectos, o si has intentado alguna estrategia para manejar esa presión?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "He tratado de hacer listas, pero a veces me abruma más ver todo lo que tengo que hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy común que las listas, en lugar de ayudar, puedan sentirse abrumadoras. Tal vez podríamos explorar formas de simplificarlas o priorizar tus tareas. ¿Qué te parece si comenzamos por identificar las más urgentes?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Eso suena bien, creo que podría ayudarme a tener una mejor perspectiva."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, ¿qué proyectos tienes actualmente y cuáles sientes que son los más urgentes o importantes en este momento?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Tengo un proyecto de diseño que es para la próxima semana y otro que es más largo, pero lo he dejado para después."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo. Entonces, el proyecto de diseño para la próxima semana sería tu prioridad. ¿Te gustaría que hiciéramos un plan sencillo para que puedas avanzar en ese proyecto sin sentirte tan abrumada?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, me gustaría eso. Creo que podría ayudarme a enfocarme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos por desglosar el proyecto de diseño en pasos más pequeños. ¿Cuáles son las tareas específicas que necesitas realizar para completarlo?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Necesito investigar ideas, hacer bocetos y luego preparar la presentación."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, ya tenemos una estructura. ¿Qué tal si asignamos tiempos específicos para cada tarea? Por ejemplo, podrías establecer un tiempo para investigar ideas, otro para los bocetos y finalmente uno para la presentación. ¿Te parece útil hacer eso?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que eso podría ayudarme a no sentirme tan abrumada y avanzar paso a paso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. Vamos a fijar tiempos realistas para cada tarea. ¿Cuánto tiempo crees que necesitarías para investigar ideas?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que con unas dos horas podría hacerlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, entonces asignemos dos horas para la investigación. ¿Te gustaría hacerlo en un momento específico, como mañana por la mañana?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, mañana por la mañana suena bien. Así puedo empezar poco a poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente decisión. A partir de mañana por la mañana, dedicarás dos horas a la investigación. ¿Te gustaría fijar un tiempo para los bocetos también?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, creo que unas tres horas deberían ser suficientes para hacer los bocetos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, entonces tres horas para los bocetos. ¿Te gustaría programarlo para el mismo día después de la investigación, o prefieres separarlo para otro momento?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que lo haré después de la investigación, así puedo seguir con el flujo de trabajo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena fantástico. Así mantendrás el impulso. Entonces, para resumir, mañana vas a investigar durante dos horas y después dedicarás tres horas a los bocetos. ¿Te sientes más tranquila ahora con este plan?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Sí, definitivamente me siento un poco más tranquila al tener un plan. Gracias por ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar eso. Tener un plan puede hacer una gran diferencia. Recuerda que estoy aquí para apoyarte en cada paso del camino. ¿Te gustaría hablar sobre alguna otra cosa o sientes que hemos abordado lo suficiente por hoy?"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Creo que hemos abordado suficiente por hoy. Me siento un poco más aliviada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes aliviada. Has hecho un gran trabajo al abrirte y planificar. Si en algún momento sientes que necesitas apoyo, no dudes en volver. ¡Cuídate mucho y que tengas un buen fin de semana!"
+    },
+    {
+      "speaker": "Fernanda Navarro",
+      "text": "Gracias, lo haré. ¡Que tengas un buen fin de semana también! Adiós."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Adiós! Cuídate mucho."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Fernanda Navarro, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764144099
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. Me siento un poco nerviosa, no estoy muy acostumbrada a esto.",
+      "timestamp": 1764144101
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa al principio. Estoy aquí para acompañarte y hacer que te sientas lo más cómoda posible. ¿Te gustaría compartir qué te trae por aquí hoy?",
+      "timestamp": 1764144102
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Siento que he estado muy abrumada últimamente y no sé cómo manejarlo.",
+      "timestamp": 1764144103
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la sensación de estar abrumada puede ser muy pesada. ¿Puedes contarme más sobre lo que te está causando esa sensación?",
+      "timestamp": 1764144105
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que son muchas cosas... la universidad, la presión de mis proyectos y a veces me siento sola.",
+      "timestamp": 1764144106
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirte así con tantas responsabilidades y esa sensación de soledad. Vamos a explorar cada una de esas áreas para ver cómo podemos trabajar en ellas juntas. ¿Te parece bien?",
+      "timestamp": 1764144107
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy dispuesta a hablar de eso.",
+      "timestamp": 1764144109
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Comencemos con la universidad. ¿Qué aspectos específicos sientes que te están generando más presión en este momento?",
+      "timestamp": 1764144110
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente las entregas de proyectos, siento que nunca tengo suficiente tiempo y eso me estresa mucho.",
+      "timestamp": 1764144112
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la falta de tiempo puede aumentar considerablemente el estrés. ¿Te gustaría compartir cómo organizas tu tiempo para esos proyectos, o si has intentado alguna estrategia para manejar esa presión?",
+      "timestamp": 1764144114
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He tratado de hacer listas, pero a veces me abruma más ver todo lo que tengo que hacer.",
+      "timestamp": 1764144114
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy común que las listas, en lugar de ayudar, puedan sentirse abrumadoras. Tal vez podríamos explorar formas de simplificarlas o priorizar tus tareas. ¿Qué te parece si comenzamos por identificar las más urgentes?",
+      "timestamp": 1764144117
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena bien, creo que podría ayudarme a tener una mejor perspectiva.",
+      "timestamp": 1764144117
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, ¿qué proyectos tienes actualmente y cuáles sientes que son los más urgentes o importantes en este momento?",
+      "timestamp": 1764144118
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tengo un proyecto de diseño que es para la próxima semana y otro que es más largo, pero lo he dejado para después.",
+      "timestamp": 1764144120
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo. Entonces, el proyecto de diseño para la próxima semana sería tu prioridad. ¿Te gustaría que hiciéramos un plan sencillo para que puedas avanzar en ese proyecto sin sentirte tan abrumada?",
+      "timestamp": 1764144121
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que podría ayudarme a enfocarme mejor.",
+      "timestamp": 1764144122
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos por desglosar el proyecto de diseño en pasos más pequeños. ¿Cuáles son las tareas específicas que necesitas realizar para completarlo?",
+      "timestamp": 1764144124
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Necesito investigar ideas, hacer bocetos y luego preparar la presentación.",
+      "timestamp": 1764144125
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, ya tenemos una estructura. ¿Qué tal si asignamos tiempos específicos para cada tarea? Por ejemplo, podrías establecer un tiempo para investigar ideas, otro para los bocetos y finalmente uno para la presentación. ¿Te parece útil hacer eso?",
+      "timestamp": 1764144127
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría ayudarme a no sentirme tan abrumada y avanzar paso a paso.",
+      "timestamp": 1764144130
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. Vamos a fijar tiempos realistas para cada tarea. ¿Cuánto tiempo crees que necesitarías para investigar ideas?",
+      "timestamp": 1764144131
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que con unas dos horas podría hacerlo.",
+      "timestamp": 1764144132
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, entonces asignemos dos horas para la investigación. ¿Te gustaría hacerlo en un momento específico, como mañana por la mañana?",
+      "timestamp": 1764144133
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, mañana por la mañana suena bien. Así puedo empezar poco a poco.",
+      "timestamp": 1764144135
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente decisión. A partir de mañana por la mañana, dedicarás dos horas a la investigación. ¿Te gustaría fijar un tiempo para los bocetos también?",
+      "timestamp": 1764144136
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que unas tres horas deberían ser suficientes para hacer los bocetos.",
+      "timestamp": 1764144137
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, entonces tres horas para los bocetos. ¿Te gustaría programarlo para el mismo día después de la investigación, o prefieres separarlo para otro momento?",
+      "timestamp": 1764144138
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que lo haré después de la investigación, así puedo seguir con el flujo de trabajo.",
+      "timestamp": 1764144139
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena fantástico. Así mantendrás el impulso. Entonces, para resumir, mañana vas a investigar durante dos horas y después dedicarás tres horas a los bocetos. ¿Te sientes más tranquila ahora con este plan?",
+      "timestamp": 1764144141
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente me siento un poco más tranquila al tener un plan. Gracias por ayudarme.",
+      "timestamp": 1764144142
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar eso. Tener un plan puede hacer una gran diferencia. Recuerda que estoy aquí para apoyarte en cada paso del camino. ¿Te gustaría hablar sobre alguna otra cosa o sientes que hemos abordado lo suficiente por hoy?",
+      "timestamp": 1764144144
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que hemos abordado suficiente por hoy. Me siento un poco más aliviada.",
+      "timestamp": 1764144145
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes aliviada. Has hecho un gran trabajo al abrirte y planificar. Si en algún momento sientes que necesitas apoyo, no dudes en volver. ¡Cuídate mucho y que tengas un buen fin de semana!",
+      "timestamp": 1764144147
+    },
+    {
+      "agent": "Fernanda Navarro",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, lo haré. ¡Que tengas un buen fin de semana también! Adiós.",
+      "timestamp": 1764144148
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Adiós! Cuídate mucho.",
+      "timestamp": 1764144148
+    }
+  ],
+  "notes": null
+}

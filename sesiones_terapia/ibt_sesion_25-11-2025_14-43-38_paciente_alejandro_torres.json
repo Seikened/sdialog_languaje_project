@@ -1,0 +1,539 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:44:46Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1943662,
+  "id": "1bf956d0-bd15-4ad4-8392-10727d15697c",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Alejandro Torres": {
+      "name": "Alejandro Torres",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 5to semestre; le gusta ver videos de ciencia ligeros, convivir con pocos amigos y pasar tardes tranquilas en casa.",
+      "personality": "callado y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Hola. Me siento un poco nervioso, la verdad. No estoy acostumbrado a estar en este tipo de situaciones."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al comenzar una terapia. Aquí estoy para apoyarte y crear un espacio seguro. ¿Hay algo en particular que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, he estado lidiando con algunos pensamientos oscuros últimamente y no sé cómo manejarlos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que eso debe ser muy pesado. Hablemos de esos pensamientos y cómo te hacen sentir. No estás solo en esto."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "A veces me siento abrumado y triste, como si no tuviera energía para hacer nada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. La tristeza y la falta de energía pueden ser difíciles de afrontar. ¿Cuánto tiempo llevas sintiéndote de esta manera?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Ha sido un par de meses, desde que comenzaron las clases de nuevo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que el regreso a las clases pueda traer consigo estrés y emociones complicadas. ¿Qué aspectos de las clases te resultan más desafiantes?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me cuesta seguir el ritmo de las materias y eso me genera mucha ansiedad."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La ansiedad por el rendimiento académico es algo común. Podemos trabajar juntos en estrategias para manejar esa ansiedad. ¿Te gustaría explorar algunas técnicas?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría. Creo que necesito herramientas para sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Perfecto! Una técnica efectiva es la respiración profunda. Te guiaré en un ejercicio breve, ¿te parece bien?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, está bien. Estoy dispuesto a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien. Siéntate cómodamente, cierra los ojos y toma una respiración profunda por la nariz, contando hasta cuatro. Mantén el aire por un momento y luego exhala lentamente por la boca, contando hasta seis. ¿Listo para intentarlo juntos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, estoy listo. Voy a intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial. Comencemos: inhala profundamente por la nariz... uno, dos, tres, cuatro... Mantén el aire... y ahora exhala lentamente por la boca... cinco, seis. ¿Cómo te sientes después de este ejercicio?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me siento un poco más relajado. Es agradable tomar un momento para respirar así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más relajado. La respiración consciente puede ser muy útil en momentos de ansiedad. ¿Te gustaría practicarlo más a menudo?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que podría ayudarme. Me gustaría practicarlo más seguido."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena muy bien. Podemos incorporar la respiración profunda en nuestras sesiones y también puedes practicarla en casa. Te ayudará a gestionar la ansiedad en el día a día."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Eso me parece útil. Agradezco tu ayuda para aprender a manejarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un placer ayudarte. Estoy aquí para apoyarte en este proceso. ¿Te gustaría hablar de otros aspectos que te gustaría trabajar en nuestras sesiones?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaría hablar sobre cómo mejorar mi motivación para estudiar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, la motivación es clave para enfrentar los estudios. Podemos explorar algunas técnicas para aumentarla. ¿Has notado qué te suele desmotivar al estudiar?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "A veces me siento abrumado por la cantidad de trabajo y eso me desanima."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, sentirse abrumado puede ser un gran obstáculo. Trabajar en un plan de estudio y establecer objetivos pequeños y alcanzables puede ayudarte. ¿Te gustaría que elaboráramos uno juntos?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, eso me gustaría. Creo que tener un plan podría ayudarme a sentirme más enfocado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Comencemos por identificar tus materias y las tareas que necesitas realizar. ¿Cuáles son las asignaturas en las que te gustaría centrarte primero?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Me gustaría centrarme en Biología y Física, son las que más me preocupan ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, enfoquémonos en Biología y Física. ¿Qué tareas específicas te gustaría abordar en cada una de estas materias?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "En Biología, tengo que preparar un proyecto y en Física, necesito estudiar para un examen que se acerca."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Para Biología, podríamos dividir el proyecto en pasos más pequeños y establecer plazos. Para Física, podrías crear un horario de estudio. ¿Te gustaría empezar a desglosar el proyecto de Biología?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me parece una buena idea. Necesito ayuda para organizarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, empecemos. ¿Cuál es el tema de tu proyecto en Biología? Así podremos definir los pasos necesarios."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "El tema es sobre la fotosíntesis y cómo afecta a los ecosistemas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Ese es un tema muy interesante. Podemos dividir el proyecto en secciones: investigación, desarrollo de contenido, y presentación. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, eso suena bien. Me gustaría seguir ese enfoque."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Genial. Primero, para la sección de investigación, puedes buscar información sobre la fotosíntesis y su impacto en los ecosistemas. ¿Cuánto tiempo crees que necesitarías para esta parte?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que una semana sería suficiente para investigar y recopilar información."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, una semana suena razonable. Después de eso, podemos trabajar en el desarrollo del contenido. Así que, para la próxima sesión, podrías traer la información que encuentres. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me parece bien. Estaré preparado para compartir lo que encuentre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, estoy segura de que harás un gran trabajo. Recuerda que está bien pedir ayuda si la necesitas durante el proceso de investigación. Nos vemos en la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Gracias, lo haré. Cuídate también. ¡Hasta la próxima!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103447
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. Me siento un poco nervioso, la verdad. No estoy acostumbrado a estar en este tipo de situaciones.",
+      "timestamp": 1764103448
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al comenzar una terapia. Aquí estoy para apoyarte y crear un espacio seguro. ¿Hay algo en particular que te gustaría compartir hoy?",
+      "timestamp": 1764103448
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado lidiando con algunos pensamientos oscuros últimamente y no sé cómo manejarlos.",
+      "timestamp": 1764103450
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que eso debe ser muy pesado. Hablemos de esos pensamientos y cómo te hacen sentir. No estás solo en esto.",
+      "timestamp": 1764103451
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento abrumado y triste, como si no tuviera energía para hacer nada.",
+      "timestamp": 1764103451
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. La tristeza y la falta de energía pueden ser difíciles de afrontar. ¿Cuánto tiempo llevas sintiéndote de esta manera?",
+      "timestamp": 1764103452
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ha sido un par de meses, desde que comenzaron las clases de nuevo.",
+      "timestamp": 1764103453
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que el regreso a las clases pueda traer consigo estrés y emociones complicadas. ¿Qué aspectos de las clases te resultan más desafiantes?",
+      "timestamp": 1764103454
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me cuesta seguir el ritmo de las materias y eso me genera mucha ansiedad.",
+      "timestamp": 1764103455
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La ansiedad por el rendimiento académico es algo común. Podemos trabajar juntos en estrategias para manejar esa ansiedad. ¿Te gustaría explorar algunas técnicas?",
+      "timestamp": 1764103456
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Creo que necesito herramientas para sentirme mejor.",
+      "timestamp": 1764103456
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Perfecto! Una técnica efectiva es la respiración profunda. Te guiaré en un ejercicio breve, ¿te parece bien?",
+      "timestamp": 1764103457
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, está bien. Estoy dispuesto a intentarlo.",
+      "timestamp": 1764103458
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien. Siéntate cómodamente, cierra los ojos y toma una respiración profunda por la nariz, contando hasta cuatro. Mantén el aire por un momento y luego exhala lentamente por la boca, contando hasta seis. ¿Listo para intentarlo juntos?",
+      "timestamp": 1764103459
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy listo. Voy a intentarlo.",
+      "timestamp": 1764103460
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial. Comencemos: inhala profundamente por la nariz... uno, dos, tres, cuatro... Mantén el aire... y ahora exhala lentamente por la boca... cinco, seis. ¿Cómo te sientes después de este ejercicio?",
+      "timestamp": 1764103461
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajado. Es agradable tomar un momento para respirar así.",
+      "timestamp": 1764103462
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más relajado. La respiración consciente puede ser muy útil en momentos de ansiedad. ¿Te gustaría practicarlo más a menudo?",
+      "timestamp": 1764103463
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ayudarme. Me gustaría practicarlo más seguido.",
+      "timestamp": 1764103464
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena muy bien. Podemos incorporar la respiración profunda en nuestras sesiones y también puedes practicarla en casa. Te ayudará a gestionar la ansiedad en el día a día.",
+      "timestamp": 1764103465
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso me parece útil. Agradezco tu ayuda para aprender a manejarlo.",
+      "timestamp": 1764103466
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un placer ayudarte. Estoy aquí para apoyarte en este proceso. ¿Te gustaría hablar de otros aspectos que te gustaría trabajar en nuestras sesiones?",
+      "timestamp": 1764103467
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hablar sobre cómo mejorar mi motivación para estudiar.",
+      "timestamp": 1764103468
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, la motivación es clave para enfrentar los estudios. Podemos explorar algunas técnicas para aumentarla. ¿Has notado qué te suele desmotivar al estudiar?",
+      "timestamp": 1764103469
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "A veces me siento abrumado por la cantidad de trabajo y eso me desanima.",
+      "timestamp": 1764103470
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, sentirse abrumado puede ser un gran obstáculo. Trabajar en un plan de estudio y establecer objetivos pequeños y alcanzables puede ayudarte. ¿Te gustaría que elaboráramos uno juntos?",
+      "timestamp": 1764103471
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso me gustaría. Creo que tener un plan podría ayudarme a sentirme más enfocado.",
+      "timestamp": 1764103472
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Comencemos por identificar tus materias y las tareas que necesitas realizar. ¿Cuáles son las asignaturas en las que te gustaría centrarte primero?",
+      "timestamp": 1764103472
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría centrarme en Biología y Física, son las que más me preocupan ahora.",
+      "timestamp": 1764103474
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, enfoquémonos en Biología y Física. ¿Qué tareas específicas te gustaría abordar en cada una de estas materias?",
+      "timestamp": 1764103475
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En Biología, tengo que preparar un proyecto y en Física, necesito estudiar para un examen que se acerca.",
+      "timestamp": 1764103475
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Para Biología, podríamos dividir el proyecto en pasos más pequeños y establecer plazos. Para Física, podrías crear un horario de estudio. ¿Te gustaría empezar a desglosar el proyecto de Biología?",
+      "timestamp": 1764103477
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece una buena idea. Necesito ayuda para organizarlo.",
+      "timestamp": 1764103478
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, empecemos. ¿Cuál es el tema de tu proyecto en Biología? Así podremos definir los pasos necesarios.",
+      "timestamp": 1764103478
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El tema es sobre la fotosíntesis y cómo afecta a los ecosistemas.",
+      "timestamp": 1764103479
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese es un tema muy interesante. Podemos dividir el proyecto en secciones: investigación, desarrollo de contenido, y presentación. ¿Te parece bien?",
+      "timestamp": 1764103480
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría seguir ese enfoque.",
+      "timestamp": 1764103481
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Genial. Primero, para la sección de investigación, puedes buscar información sobre la fotosíntesis y su impacto en los ecosistemas. ¿Cuánto tiempo crees que necesitarías para esta parte?",
+      "timestamp": 1764103482
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que una semana sería suficiente para investigar y recopilar información.",
+      "timestamp": 1764103482
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, una semana suena razonable. Después de eso, podemos trabajar en el desarrollo del contenido. Así que, para la próxima sesión, podrías traer la información que encuentres. ¿Te parece bien?",
+      "timestamp": 1764103483
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estaré preparado para compartir lo que encuentre.",
+      "timestamp": 1764103484
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, estoy segura de que harás un gran trabajo. Recuerda que está bien pedir ayuda si la necesitas durante el proceso de investigación. Nos vemos en la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764103485
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, lo haré. Cuídate también. ¡Hasta la próxima!",
+      "timestamp": 1764103486
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,533 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:58:09Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 1097173772,
+  "id": "98e408ff-8d83-4671-9a3e-09f09f29e748",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Alejandro Torres": {
+      "name": "Alejandro Torres",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IBT) | estudiante de Ingeniería en Bionanotecnología en la Ibero de 5to semestre; le gusta ver videos de ciencia ligeros, convivir con pocos amigos y pasar tardes tranquilas en casa.",
+      "personality": "callado y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Hola. Me siento un poco nervioso, la verdad. Es mi primera vez en una sesión así."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría hablar sobre qué te preocupa en este momento?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, creo que me preocupa un poco mi estado de ánimo. A veces me siento muy triste sin razón."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la tristeza sin una causa aparente puede ser muy desconcertante. ¿Cuánto tiempo llevas sintiendo esto?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Llevo sintiéndolo varias semanas, y a veces se intensifica. Me cuesta mucho concentrarme en mis estudios."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés pasando por esto. La falta de concentración puede ser un síntoma difícil de manejar. ¿Has notado algún cambio en tus rutinas o en tu vida últimamente que pueda estar afectándote?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "No mucho, creo que solo he estado más aislado. No veo a mis amigos tan seguido como antes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La falta de interacción social puede afectar nuestro estado de ánimo. La conexión con otros es importante. ¿Hay alguna actividad que disfrutabas hacer con tus amigos que te gustaría retomar?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, me gustaba salir a ver películas o simplemente platicar. Esas cosas me hacían sentir mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas actividades son muy valiosas para el bienestar emocional. ¿Te gustaría explorar la posibilidad de planear una salida con ellos o quizás iniciar conversaciones para reconectar?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, podría intentar hablar con ellos y ver si podemos salir alguna vez. Me parece una buena idea."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que lo veas así. Tener ese apoyo social puede ser muy útil. ¿Te gustaría establecer un pequeño objetivo para iniciar esa conversación?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sí, podría intentar enviarles un mensaje este fin de semana. Eso sería un buen primer paso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un excelente primer paso. Además, me gustaría explorar un poco más cómo te has sentido en las últimas dos semanas. Existe un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus síntomas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional, pero puede darnos información valiosa."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Está bien, estoy de acuerdo en responderlo. Creo que podría ayudar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, vamos a comenzar. Por favor, responde con un número del 0 al 3, donde 0 significa \"nunca\" y 3 significa \"casi todos los días\".\n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "De acuerdo, adelante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "2/10 | Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Diría que 2, a veces siento poco interés en hacer cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que sería un 2 también, me siento así con frecuencia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Sería un 2, a veces tengo problemas para dormir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "5/10 | Sentirte cansado(a) o con poca energía. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Diría que un 3, me siento cansado la mayor parte del tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "6/10 | Tener poco apetito o comer en exceso. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que un 2, a veces no tengo mucho apetito."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Ese sería un 2, me siento así de vez en cuando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Diría que un 3, me cuesta mucho concentrarme en cualquier cosa."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Creo que un 1, no me he sentido muy inquieto, pero a veces me siento un poco lento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Cuál sería tu respuesta?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Ese sería un 0, no he tenido esos pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas. Esto nos ayuda a tener una mejor comprensión de cómo te sientes. Hablaremos más sobre estos sentimientos y cómo manejarlos en nuestras próximas sesiones. ¿Te gustaría discutir algo más hoy?"
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "No, creo que eso es todo por ahora. Gracias por escucharme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, estoy aquí para apoyarte. Me alegra que hayas compartido tus pensamientos conmigo. Recuerda que puedes retomar la conversación cuando lo necesites. ¡Cuídate mucho! Hasta la próxima."
+    },
+    {
+      "speaker": "Alejandro Torres",
+      "text": "Adiós, gracias por su comprensión. Nos vemos la próxima vez."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Alejandro Torres, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104242
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola. Me siento un poco nervioso, la verdad. Es mi primera vez en una sesión así.",
+      "timestamp": 1764104243
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en la primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Te gustaría hablar sobre qué te preocupa en este momento?",
+      "timestamp": 1764104244
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me preocupa un poco mi estado de ánimo. A veces me siento muy triste sin razón.",
+      "timestamp": 1764104246
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la tristeza sin una causa aparente puede ser muy desconcertante. ¿Cuánto tiempo llevas sintiendo esto?",
+      "timestamp": 1764104246
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Llevo sintiéndolo varias semanas, y a veces se intensifica. Me cuesta mucho concentrarme en mis estudios.",
+      "timestamp": 1764104248
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés pasando por esto. La falta de concentración puede ser un síntoma difícil de manejar. ¿Has notado algún cambio en tus rutinas o en tu vida últimamente que pueda estar afectándote?",
+      "timestamp": 1764104249
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No mucho, creo que solo he estado más aislado. No veo a mis amigos tan seguido como antes.",
+      "timestamp": 1764104250
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La falta de interacción social puede afectar nuestro estado de ánimo. La conexión con otros es importante. ¿Hay alguna actividad que disfrutabas hacer con tus amigos que te gustaría retomar?",
+      "timestamp": 1764104251
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaba salir a ver películas o simplemente platicar. Esas cosas me hacían sentir mejor.",
+      "timestamp": 1764104252
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas actividades son muy valiosas para el bienestar emocional. ¿Te gustaría explorar la posibilidad de planear una salida con ellos o quizás iniciar conversaciones para reconectar?",
+      "timestamp": 1764104254
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría intentar hablar con ellos y ver si podemos salir alguna vez. Me parece una buena idea.",
+      "timestamp": 1764104255
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que lo veas así. Tener ese apoyo social puede ser muy útil. ¿Te gustaría establecer un pequeño objetivo para iniciar esa conversación?",
+      "timestamp": 1764104256
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, podría intentar enviarles un mensaje este fin de semana. Eso sería un buen primer paso.",
+      "timestamp": 1764104258
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104258
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un excelente primer paso. Además, me gustaría explorar un poco más cómo te has sentido en las últimas dos semanas. Existe un cuestionario llamado PHQ-9 que nos puede ayudar a entender mejor tus síntomas. ¿Estás de acuerdo en responderlo? Esto no sustituye una evaluación profesional, pero puede darnos información valiosa.",
+      "timestamp": 1764104260
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, estoy de acuerdo en responderlo. Creo que podría ayudar.",
+      "timestamp": 1764104261
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104261
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "phq9"
+        },
+        "id": "call_Pd8Qm7iA4tbOzjVLUuG35NUq"
+      },
+      "timestamp": 1764104262
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"phq9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_Pd8Qm7iA4tbOzjVLUuG35NUq"
+      },
+      "timestamp": 1764104262
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, vamos a comenzar. Por favor, responde con un número del 0 al 3, donde 0 significa \"nunca\" y 3 significa \"casi todos los días\".\n\n1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?",
+      "timestamp": 1764104264
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De acuerdo, adelante.",
+      "timestamp": 1764104265
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "2/10 | Poco interés o placer en hacer cosas. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104266
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que 2, a veces siento poco interés en hacer cosas que antes disfrutaba.",
+      "timestamp": 1764104267
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104268
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2 también, me siento así con frecuencia.",
+      "timestamp": 1764104269
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104270
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sería un 2, a veces tengo problemas para dormir.",
+      "timestamp": 1764104271
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "5/10 | Sentirte cansado(a) o con poca energía. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104272
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 3, me siento cansado la mayor parte del tiempo.",
+      "timestamp": 1764104273
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "6/10 | Tener poco apetito o comer en exceso. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104274
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2, a veces no tengo mucho apetito.",
+      "timestamp": 1764104275
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104276
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese sería un 2, me siento así de vez en cuando.",
+      "timestamp": 1764104277
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104278
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que un 3, me cuesta mucho concentrarme en cualquier cosa.",
+      "timestamp": 1764104279
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104281
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 1, no me he sentido muy inquieto, pero a veces me siento un poco lento.",
+      "timestamp": 1764104281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera. ¿Cuál sería tu respuesta?",
+      "timestamp": 1764104283
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ese sería un 0, no he tenido esos pensamientos.",
+      "timestamp": 1764104284
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas. Esto nos ayuda a tener una mejor comprensión de cómo te sientes. Hablaremos más sobre estos sentimientos y cómo manejarlos en nuestras próximas sesiones. ¿Te gustaría discutir algo más hoy?",
+      "timestamp": 1764104285
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es todo por ahora. Gracias por escucharme.",
+      "timestamp": 1764104286
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, estoy aquí para apoyarte. Me alegra que hayas compartido tus pensamientos conmigo. Recuerda que puedes retomar la conversación cuando lo necesites. ¡Cuídate mucho! Hasta la próxima.",
+      "timestamp": 1764104288
+    },
+    {
+      "agent": "Alejandro Torres",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Adiós, gracias por su comprensión. Nos vemos la próxima vez.",
+      "timestamp": 1764104289
+    }
+  ],
+  "notes": null
+}

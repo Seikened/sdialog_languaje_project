@@ -1,0 +1,385 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:45:51Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3323670634,
+  "id": "c3321a70-2260-45c3-b4b4-dd702202d439",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Carlos Méndez": {
+      "name": "Carlos Méndez",
+      "age": 22,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IME) | estudiante de Ingeniería Mecánica y Eléctrica en la Ibero de 6to semestre; le gustan los autos, las películas de acción y pasar tiempo con sus amigos.",
+      "personality": "práctico y reservado",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Hola, gracias. La verdad es que estoy un poco nervioso, no sé qué esperar de esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso al iniciar una terapia. Aquí estamos para hablar de lo que necesites en un ambiente seguro y sin juicios. ¿Te gustaría compartir qué te llevó a buscar ayuda?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, creo que desde hace un tiempo me siento un poco apagado y he tenido dificultades para concentrarme en la escuela y en mis cosas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, eso puede ser realmente abrumador. Vamos a explorar esos sentimientos juntos. ¿Cuánto tiempo sientes que has estado experimentando esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Diría que hace varios meses. Al principio pensé que solo era estrés, pero se ha vuelto más difícil de manejar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que al principio lo hayas asociado con estrés. A veces, esos sentimientos pueden intensificarse. ¿Has notado algún cambio específico en tu vida que crees que pudo haber contribuido a esto?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, creo que la presión de la escuela y tratar de equilibrar mis responsabilidades ha sido un gran factor. A veces me siento muy abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La presión académica puede ser muy pesada. Es importante reconocer esos sentimientos de agobio. ¿Hay alguna estrategia que hayas intentado para manejar esa presión?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "He intentado organizarme mejor y hacer listas, pero a veces siento que no es suficiente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso muestra que estás proactivo en buscar soluciones, lo cual es muy positivo. A veces, la organización puede ser solo una parte de la solución. ¿Te gustaría que exploráramos otras técnicas que podrían ayudarte a manejar esa sensación de estar abrumado?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me gustaría. Estoy dispuesto a aprender nuevas formas de enfrentar esto."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es genial, Carlos. Una técnica que podemos explorar es la gestión del tiempo y la práctica de la atención plena. Ambas pueden ayudarte a sentirte más en control. ¿Te suena bien comenzar por ahí?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, suena bien. Creo que necesito aprender a manejar mejor mi tiempo y a estar más presente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos por la gestión del tiempo. Una técnica útil es el método Pomodoro, que implica trabajar en intervalos cortos, seguidos de breves descansos. ¿Te gustaría que te explique cómo implementarlo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, por favor. No conozco bien esa técnica y creo que podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro. El método Pomodoro consiste en trabajar durante 25 minutos en una tarea, luego tomar un descanso de 5 minutos. Después de cuatro \"Pomodoros\", haces una pausa más larga de 15-30 minutos. Esto ayuda a mantener la concentración y evita el agotamiento. ¿Te gustaría intentar establecer un horario para practicarlo?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, creo que eso podría funcionar. Me gustaría establecer un horario que pueda seguir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. Comencemos por identificar tus principales tareas diarias. ¿Cuáles son las actividades que necesitas completar cada día y cuánto tiempo piensas que necesitarás para ellas?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Principalmente, tengo que estudiar para mis clases, hacer tareas y también encontrar tiempo para descansar. Tal vez unas 4-5 horas diarias para el estudio."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena razonable. Podrías dividir esas 4-5 horas en bloques de Pomodoro. Por ejemplo, podrías programar 5 bloques de 25 minutos de estudio, con descansos de 5 minutos entre ellos. ¿Qué te parece esa idea?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Me parece una buena idea. Creo que así puedo mantenerme enfocado sin sentirme tan abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te parezca útil. Recuerda que también es importante aprovechar esos descansos para relajarte y desconectar. ¿Hay algo específico que te gustaría hacer durante esos breves momentos de descanso?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Podría escuchar música o simplemente dar una vuelta rápida. Algo que me ayude a despejar la mente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esas son excelentes opciones. La música y caminar son formas efectivas de relajarte y recargar energías. Intenta integrarlas durante tus descansos. ¿Te gustaría establecer algún objetivo para empezar a implementar esta técnica la próxima semana?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "Sí, me gustaría intentar seguir el método Pomodoro durante al menos tres días la próxima semana y ver cómo me siento."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena como un buen plan. Comprometernos a tres días te dará una buena idea de cómo funciona para ti. Recuerda ser amable contigo mismo mientras te adaptas a esta nueva rutina. ¿Hay algo más que te gustaría discutir hoy?"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "No, creo que eso es suficiente por ahora. Gracias por la ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, Carlos. Me alegra que hayamos podido trabajar en esto juntos. Nos vemos la próxima semana para hablar sobre tu experiencia con el método Pomodoro. ¡Cuídate!"
+    },
+    {
+      "speaker": "Carlos Méndez",
+      "text": "¡Gracias! Nos vemos la próxima semana. Cuídate."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Carlos Méndez, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103524
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nervioso, no sé qué esperar de esto.",
+      "timestamp": 1764103524
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso al iniciar una terapia. Aquí estamos para hablar de lo que necesites en un ambiente seguro y sin juicios. ¿Te gustaría compartir qué te llevó a buscar ayuda?",
+      "timestamp": 1764103526
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que desde hace un tiempo me siento un poco apagado y he tenido dificultades para concentrarme en la escuela y en mis cosas.",
+      "timestamp": 1764103526
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, eso puede ser realmente abrumador. Vamos a explorar esos sentimientos juntos. ¿Cuánto tiempo sientes que has estado experimentando esto?",
+      "timestamp": 1764103527
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que hace varios meses. Al principio pensé que solo era estrés, pero se ha vuelto más difícil de manejar.",
+      "timestamp": 1764103528
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que al principio lo hayas asociado con estrés. A veces, esos sentimientos pueden intensificarse. ¿Has notado algún cambio específico en tu vida que crees que pudo haber contribuido a esto?",
+      "timestamp": 1764103529
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que la presión de la escuela y tratar de equilibrar mis responsabilidades ha sido un gran factor. A veces me siento muy abrumado.",
+      "timestamp": 1764103530
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La presión académica puede ser muy pesada. Es importante reconocer esos sentimientos de agobio. ¿Hay alguna estrategia que hayas intentado para manejar esa presión?",
+      "timestamp": 1764103531
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He intentado organizarme mejor y hacer listas, pero a veces siento que no es suficiente.",
+      "timestamp": 1764103531
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso muestra que estás proactivo en buscar soluciones, lo cual es muy positivo. A veces, la organización puede ser solo una parte de la solución. ¿Te gustaría que exploráramos otras técnicas que podrían ayudarte a manejar esa sensación de estar abrumado?",
+      "timestamp": 1764103533
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Estoy dispuesto a aprender nuevas formas de enfrentar esto.",
+      "timestamp": 1764103533
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es genial, Carlos. Una técnica que podemos explorar es la gestión del tiempo y la práctica de la atención plena. Ambas pueden ayudarte a sentirte más en control. ¿Te suena bien comenzar por ahí?",
+      "timestamp": 1764103535
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena bien. Creo que necesito aprender a manejar mejor mi tiempo y a estar más presente.",
+      "timestamp": 1764103535
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos por la gestión del tiempo. Una técnica útil es el método Pomodoro, que implica trabajar en intervalos cortos, seguidos de breves descansos. ¿Te gustaría que te explique cómo implementarlo?",
+      "timestamp": 1764103537
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. No conozco bien esa técnica y creo que podría ayudarme.",
+      "timestamp": 1764103537
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro. El método Pomodoro consiste en trabajar durante 25 minutos en una tarea, luego tomar un descanso de 5 minutos. Después de cuatro \"Pomodoros\", haces una pausa más larga de 15-30 minutos. Esto ayuda a mantener la concentración y evita el agotamiento. ¿Te gustaría intentar establecer un horario para practicarlo?",
+      "timestamp": 1764103539
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso podría funcionar. Me gustaría establecer un horario que pueda seguir.",
+      "timestamp": 1764103539
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. Comencemos por identificar tus principales tareas diarias. ¿Cuáles son las actividades que necesitas completar cada día y cuánto tiempo piensas que necesitarás para ellas?",
+      "timestamp": 1764103540
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente, tengo que estudiar para mis clases, hacer tareas y también encontrar tiempo para descansar. Tal vez unas 4-5 horas diarias para el estudio.",
+      "timestamp": 1764103541
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena razonable. Podrías dividir esas 4-5 horas en bloques de Pomodoro. Por ejemplo, podrías programar 5 bloques de 25 minutos de estudio, con descansos de 5 minutos entre ellos. ¿Qué te parece esa idea?",
+      "timestamp": 1764103542
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Creo que así puedo mantenerme enfocado sin sentirme tan abrumado.",
+      "timestamp": 1764103543
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te parezca útil. Recuerda que también es importante aprovechar esos descansos para relajarte y desconectar. ¿Hay algo específico que te gustaría hacer durante esos breves momentos de descanso?",
+      "timestamp": 1764103544
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podría escuchar música o simplemente dar una vuelta rápida. Algo que me ayude a despejar la mente.",
+      "timestamp": 1764103545
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esas son excelentes opciones. La música y caminar son formas efectivas de relajarte y recargar energías. Intenta integrarlas durante tus descansos. ¿Te gustaría establecer algún objetivo para empezar a implementar esta técnica la próxima semana?",
+      "timestamp": 1764103546
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentar seguir el método Pomodoro durante al menos tres días la próxima semana y ver cómo me siento.",
+      "timestamp": 1764103547
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena como un buen plan. Comprometernos a tres días te dará una buena idea de cómo funciona para ti. Recuerda ser amable contigo mismo mientras te adaptas a esta nueva rutina. ¿Hay algo más que te gustaría discutir hoy?",
+      "timestamp": 1764103548
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que eso es suficiente por ahora. Gracias por la ayuda.",
+      "timestamp": 1764103549
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, Carlos. Me alegra que hayamos podido trabajar en esto juntos. Nos vemos la próxima semana para hablar sobre tu experiencia con el método Pomodoro. ¡Cuídate!",
+      "timestamp": 1764103550
+    },
+    {
+      "agent": "Carlos Méndez",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Nos vemos la próxima semana. Cuídate.",
+      "timestamp": 1764103551
+    }
+  ],
+  "notes": null
+}

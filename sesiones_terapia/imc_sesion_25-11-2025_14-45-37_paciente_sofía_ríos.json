@@ -1,0 +1,374 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:46:32Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 484791336,
+  "id": "59edb73a-ad28-4525-b6f0-90197b3a28c5",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Sofía Ríos": {
+      "name": "Sofía Ríos",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(IMC) | estudiante de Ingeniería Mecatrónica en la Ibero de 4to semestre; le gusta armar cosas sencillas, jugar videojuegos y ver contenido de tecnología sin ponerse muy técnica.",
+      "personality": "curiosa y entusiasta",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no sé muy bien qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te ha traído aquí?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, me gustaría. Últimamente he estado sintiéndome un poco desmotivada y triste. Siento que no tengo ganas de hacer las cosas que solía disfrutar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento escuchar que te sientes así. Es importante reconocer esos sentimientos. ¿Podrías contarme más sobre lo que solías disfrutar y cómo ha cambiado eso para ti?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Solía disfrutar mucho armar cosas y jugar videojuegos, pero ahora me cuesta concentrarme en esas actividades. Siento que perdí la pasión por ellas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, perder el interés en actividades que solían ser placenteras puede ser muy frustrante. ¿Te has sentido así en otros momentos de tu vida, o esto es algo nuevo para ti?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Es algo nuevo para mí. Antes siempre estaba emocionada por aprender y crear, pero ahora es como si todo se sintiera pesado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso debe ser realmente difícil de experimentar. A veces, cuando nos sentimos abrumados, las cosas que antes nos emocionaban pueden parecer más difíciles de abordar. ¿Has notado algún cambio en tu rutina o en tu entorno que pueda estar contribuyendo a este peso que sientes?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, creo que la carga de la escuela y las expectativas han aumentado. Siento que no cumplo con lo que se espera de mí, y eso me afecta."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible que las expectativas puedan generar presión y afectar tu bienestar emocional. Es importante reconocer que no siempre tenemos que cumplir con esas expectativas. ¿Hay algún aspecto de tu vida escolar que te gustaría explorar en particular?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me gustaría hablar sobre las materias que estoy tomando. Algunas son muy desafiantes y me siento un poco perdida."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, hablemos de esas materias desafiantes. ¿Cuál en particular te está causando más dificultad y cómo te has sentido al respecto?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "La materia de programación me está costando mucho. Me siento frustrada porque no logro entender todo lo que se espera de mí y a veces dudo de mis capacidades."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es muy común sentirse frustrada con materias desafiantes como la programación, especialmente si sientes que no entiendes todo a la primera. Es importante recordar que todos aprendemos a nuestro propio ritmo. ¿Hay algo específico en la programación que te gustaría desglosar o en lo que te gustaría recibir más apoyo?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me gustaría entender mejor los conceptos básicos. A veces siento que empiezo a aprender, pero luego me pierdo y no sé cómo seguir."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, tener una base sólida es fundamental para avanzar. Tal vez podríamos trabajar en estrategias para abordar esos conceptos básicos y construir tu confianza. ¿Te gustaría que habláramos sobre algunos recursos o métodos de estudio que podrían ayudarte?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, eso sería muy útil. Me gustaría saber qué puedo hacer para llevar un mejor ritmo y sentirme más segura."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Podríamos explorar algunas técnicas de estudio que te ayuden a organizarte mejor, como dividir los conceptos en partes más pequeñas y establecer metas alcanzables. También, asegurar tiempos de descanso puede ser clave. ¿Estás abierta a probar un enfoque de estudio más estructurado?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Sí, estoy abierta a probarlo. Creo que un enfoque más estructurado podría ayudarme a no sentirme tan abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena bien. Establezcamos un plan que puedas seguir. Podemos comenzar con metas diarias pequeñas y progresivas. ¿Qué te parecería dedicar un tiempo específico cada día solo para la programación?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Me parece una buena idea. Podría intentar dedicar una hora cada día a la programación y ver cómo me va."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente, una hora diaria es un buen comienzo. Asegúrate de que ese tiempo sea libre de distracciones y enfocado. ¿Te gustaría establecer un horario específico para esa hora, o prefieres ser flexible con ello?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Creo que sería mejor establecer un horario específico. Podría ser después de clases, de 5 a 6 de la tarde."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, de 5 a 6 de la tarde suena como un buen momento para concentrarte en programación. Recuerda ser amable contigo misma en el proceso y celebrar cualquier pequeño avance que logres. ¿Hay algo más sobre lo que te gustaría hablar hoy?"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "Por ahora, creo que eso es lo principal. Agradezco mucho la ayuda y las recomendaciones. Me siento un poco más aliviada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes un poco más aliviada. Recuerda que este es solo el comienzo y siempre estoy aquí para apoyarte en tu camino. Nos vemos la próxima vez para revisar cómo te ha ido. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Sofía Ríos",
+      "text": "¡Gracias! Me siento agradecida por tu apoyo. Nos vemos la próxima sesión. ¡Cuídate!"
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡De nada! Estoy aquí para ayudarte. Nos vemos pronto. ¡Cuídate!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Sofía Ríos, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103561
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que estoy un poco nerviosa, es mi primera vez en terapia y no sé muy bien qué esperar.",
+      "timestamp": 1764103562
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Aquí estamos para crear un espacio seguro donde puedas expresarte. ¿Te gustaría compartir qué te ha traído aquí?",
+      "timestamp": 1764103563
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría. Últimamente he estado sintiéndome un poco desmotivada y triste. Siento que no tengo ganas de hacer las cosas que solía disfrutar.",
+      "timestamp": 1764103564
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento escuchar que te sientes así. Es importante reconocer esos sentimientos. ¿Podrías contarme más sobre lo que solías disfrutar y cómo ha cambiado eso para ti?",
+      "timestamp": 1764103565
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Solía disfrutar mucho armar cosas y jugar videojuegos, pero ahora me cuesta concentrarme en esas actividades. Siento que perdí la pasión por ellas.",
+      "timestamp": 1764103566
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, perder el interés en actividades que solían ser placenteras puede ser muy frustrante. ¿Te has sentido así en otros momentos de tu vida, o esto es algo nuevo para ti?",
+      "timestamp": 1764103568
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es algo nuevo para mí. Antes siempre estaba emocionada por aprender y crear, pero ahora es como si todo se sintiera pesado.",
+      "timestamp": 1764103568
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso debe ser realmente difícil de experimentar. A veces, cuando nos sentimos abrumados, las cosas que antes nos emocionaban pueden parecer más difíciles de abordar. ¿Has notado algún cambio en tu rutina o en tu entorno que pueda estar contribuyendo a este peso que sientes?",
+      "timestamp": 1764103569
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que la carga de la escuela y las expectativas han aumentado. Siento que no cumplo con lo que se espera de mí, y eso me afecta.",
+      "timestamp": 1764103570
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible que las expectativas puedan generar presión y afectar tu bienestar emocional. Es importante reconocer que no siempre tenemos que cumplir con esas expectativas. ¿Hay algún aspecto de tu vida escolar que te gustaría explorar en particular?",
+      "timestamp": 1764103572
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría hablar sobre las materias que estoy tomando. Algunas son muy desafiantes y me siento un poco perdida.",
+      "timestamp": 1764103572
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hablemos de esas materias desafiantes. ¿Cuál en particular te está causando más dificultad y cómo te has sentido al respecto?",
+      "timestamp": 1764103574
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La materia de programación me está costando mucho. Me siento frustrada porque no logro entender todo lo que se espera de mí y a veces dudo de mis capacidades.",
+      "timestamp": 1764103574
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es muy común sentirse frustrada con materias desafiantes como la programación, especialmente si sientes que no entiendes todo a la primera. Es importante recordar que todos aprendemos a nuestro propio ritmo. ¿Hay algo específico en la programación que te gustaría desglosar o en lo que te gustaría recibir más apoyo?",
+      "timestamp": 1764103576
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría entender mejor los conceptos básicos. A veces siento que empiezo a aprender, pero luego me pierdo y no sé cómo seguir.",
+      "timestamp": 1764103577
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, tener una base sólida es fundamental para avanzar. Tal vez podríamos trabajar en estrategias para abordar esos conceptos básicos y construir tu confianza. ¿Te gustaría que habláramos sobre algunos recursos o métodos de estudio que podrían ayudarte?",
+      "timestamp": 1764103578
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso sería muy útil. Me gustaría saber qué puedo hacer para llevar un mejor ritmo y sentirme más segura.",
+      "timestamp": 1764103579
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Podríamos explorar algunas técnicas de estudio que te ayuden a organizarte mejor, como dividir los conceptos en partes más pequeñas y establecer metas alcanzables. También, asegurar tiempos de descanso puede ser clave. ¿Estás abierta a probar un enfoque de estudio más estructurado?",
+      "timestamp": 1764103581
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, estoy abierta a probarlo. Creo que un enfoque más estructurado podría ayudarme a no sentirme tan abrumada.",
+      "timestamp": 1764103582
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena bien. Establezcamos un plan que puedas seguir. Podemos comenzar con metas diarias pequeñas y progresivas. ¿Qué te parecería dedicar un tiempo específico cada día solo para la programación?",
+      "timestamp": 1764103583
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece una buena idea. Podría intentar dedicar una hora cada día a la programación y ver cómo me va.",
+      "timestamp": 1764103584
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente, una hora diaria es un buen comienzo. Asegúrate de que ese tiempo sea libre de distracciones y enfocado. ¿Te gustaría establecer un horario específico para esa hora, o prefieres ser flexible con ello?",
+      "timestamp": 1764103585
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería mejor establecer un horario específico. Podría ser después de clases, de 5 a 6 de la tarde.",
+      "timestamp": 1764103586
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, de 5 a 6 de la tarde suena como un buen momento para concentrarte en programación. Recuerda ser amable contigo misma en el proceso y celebrar cualquier pequeño avance que logres. ¿Hay algo más sobre lo que te gustaría hablar hoy?",
+      "timestamp": 1764103588
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Por ahora, creo que eso es lo principal. Agradezco mucho la ayuda y las recomendaciones. Me siento un poco más aliviada.",
+      "timestamp": 1764103588
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes un poco más aliviada. Recuerda que este es solo el comienzo y siempre estoy aquí para apoyarte en tu camino. Nos vemos la próxima vez para revisar cómo te ha ido. ¡Cuídate mucho!",
+      "timestamp": 1764103590
+    },
+    {
+      "agent": "Sofía Ríos",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Me siento agradecida por tu apoyo. Nos vemos la próxima sesión. ¡Cuídate!",
+      "timestamp": 1764103591
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡De nada! Estoy aquí para ayudarte. Nos vemos pronto. ¡Cuídate!",
+      "timestamp": 1764103592
+    }
+  ],
+  "notes": null
+}

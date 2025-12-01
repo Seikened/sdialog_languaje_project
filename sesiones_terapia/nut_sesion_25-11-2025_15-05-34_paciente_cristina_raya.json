@@ -1,0 +1,363 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:06:54Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2781298809,
+  "id": "42a6b1f8-6f80-4ee1-93d5-72cfb5ad4cdb",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Cristina Raya": {
+      "name": "Cristina Raya",
+      "age": 24,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(NUT) | estudiante de Nutrición en la Ibero de 5to semestre; le gusta cocinar postres, salir a caminar y salir a cafeterias",
+      "personality": "cuidada pero autoexigente",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir hoy?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, he estado sintiéndome un poco abrumada últimamente y creo que eso me ha afectado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. ¿Qué situaciones o pensamientos te han estado causando esa sensación de agobio?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Principalmente la presión de la escuela y el hecho de que no puedo disfrutar de las cosas que solía hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que la presión escolar puede ser muy estresante. Es preocupante no poder disfrutar de las cosas que antes te hacían feliz. ¿Puedes contarme más sobre las actividades que solías disfrutar?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Me gustaba mucho cocinar postres y salir a caminar, también me gusta ir a cafeterías con amigos, pero ahora no tengo ganas de hacer nada de eso."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirte desmotivada, sobre todo cuando las cosas se vuelven abrumadoras. Cocinar y socializar son actividades que traen alegría. ¿Hay algo que crees que podría ayudarte a reconectar con esas actividades?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que podría intentar hacer un postre sencillo este fin de semana, aunque me cuesta un poco animarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Esa es una excelente idea. Comenzar con algo sencillo puede hacer que te sientas más cómoda. ¿Qué tipo de postre te gustaría preparar?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Tal vez un pastel de chocolate, es uno de mis favoritos y siempre me hace sentir bien cuando lo hago."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "¡Un pastel de chocolate suena delicioso! Es genial que tengas una conexión positiva con esa actividad. ¿Qué te parece si hablamos de algunos pasos que podrías seguir para hacerlo más fácil y agradable?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me gustaría eso. Creo que tener un plan puede ayudarme a motivarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, tener un plan puede hacer una gran diferencia. Podemos dividir el proceso en pasos sencillos, desde reunir los ingredientes hasta el momento de decorarlo. ¿Te gustaría que empecemos por eso?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, me encantaría. Empezar por los ingredientes suena bien."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Para un pastel de chocolate, necesitarás harina, azúcar, cacao en polvo, huevos, mantequilla, leche y polvo para hornear. ¿Tienes alguno de estos ingredientes ya en casa?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que tengo harina, azúcar y cacao en polvo. Tendría que revisar si tengo los demás."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un buen comienzo. Puedes chequear lo que te falta y hacer una lista para comprar. ¿Te gustaría que te sugiera alguna receta sencilla para que te guíe?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, por favor. Una receta sencilla sería muy útil para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí tienes una receta básica para un pastel de chocolate:\n\n**Ingredientes:**\n- 1 taza de harina\n- 1 taza de azúcar\n- 1/3 de taza de cacao en polvo\n- 1/2 taza de mantequilla derretida\n- 2 huevos\n- 1 taza de leche\n- 1 cucharadita de polvo para hornear\n\n**Instrucciones:**\n1. Precalienta el horno a 180°C.\n2. Mezcla los ingredientes secos: harina, azúcar, cacao y polvo para hornear en un bol.\n3. Agrega los huevos, la mantequilla derretida y la leche, y mezcla bien.\n4. Vierte la mezcla en un molde engrasado.\n5. Hornea durante 30-35 minutos. \n\n¿Te parece una receta manejable?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Sí, suena manejable y clara. Me gusta que no tiene muchos pasos complicados."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que te parezca clara. A veces, mantenerlo simple es lo mejor. Recuerda disfrutar el proceso, no solo el resultado. ¿Te gustaría planear cuándo harás el pastel?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Creo que puedo hacerlo el domingo. Sería un buen plan para relajarme un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "El domingo suena perfecto. Será un tiempo para ti y para desconectar. Recuerda que está bien tomarte tu tiempo y disfrutar cada paso. ¿Hay algo más que te gustaría explorar hoy?"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "No, creo que por ahora eso es suficiente. Gracias por toda la ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, estoy aquí para ayudarte. Me alegra que hayamos podido hablar sobre tu plan. Nos vemos en la próxima sesión, y no dudes en compartir cómo te fue con el pastel. ¡Cuídate mucho!"
+    },
+    {
+      "speaker": "Cristina Raya",
+      "text": "Gracias, cuídate también. ¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Cristina Raya, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104760
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia.",
+      "timestamp": 1764104763
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nerviosismo en tu primera sesión. Estoy aquí para apoyarte y crear un espacio seguro. ¿Hay algo específico que te gustaría compartir hoy?",
+      "timestamp": 1764104766
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, he estado sintiéndome un poco abrumada últimamente y creo que eso me ha afectado.",
+      "timestamp": 1764104768
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. ¿Qué situaciones o pensamientos te han estado causando esa sensación de agobio?",
+      "timestamp": 1764104769
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Principalmente la presión de la escuela y el hecho de que no puedo disfrutar de las cosas que solía hacer.",
+      "timestamp": 1764104773
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que la presión escolar puede ser muy estresante. Es preocupante no poder disfrutar de las cosas que antes te hacían feliz. ¿Puedes contarme más sobre las actividades que solías disfrutar?",
+      "timestamp": 1764104774
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaba mucho cocinar postres y salir a caminar, también me gusta ir a cafeterías con amigos, pero ahora no tengo ganas de hacer nada de eso.",
+      "timestamp": 1764104776
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirte desmotivada, sobre todo cuando las cosas se vuelven abrumadoras. Cocinar y socializar son actividades que traen alegría. ¿Hay algo que crees que podría ayudarte a reconectar con esas actividades?",
+      "timestamp": 1764104778
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que podría intentar hacer un postre sencillo este fin de semana, aunque me cuesta un poco animarme.",
+      "timestamp": 1764104780
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Esa es una excelente idea. Comenzar con algo sencillo puede hacer que te sientas más cómoda. ¿Qué tipo de postre te gustaría preparar?",
+      "timestamp": 1764104782
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tal vez un pastel de chocolate, es uno de mis favoritos y siempre me hace sentir bien cuando lo hago.",
+      "timestamp": 1764104784
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Un pastel de chocolate suena delicioso! Es genial que tengas una conexión positiva con esa actividad. ¿Qué te parece si hablamos de algunos pasos que podrías seguir para hacerlo más fácil y agradable?",
+      "timestamp": 1764104787
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Creo que tener un plan puede ayudarme a motivarme.",
+      "timestamp": 1764104789
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, tener un plan puede hacer una gran diferencia. Podemos dividir el proceso en pasos sencillos, desde reunir los ingredientes hasta el momento de decorarlo. ¿Te gustaría que empecemos por eso?",
+      "timestamp": 1764104791
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me encantaría. Empezar por los ingredientes suena bien.",
+      "timestamp": 1764104793
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Para un pastel de chocolate, necesitarás harina, azúcar, cacao en polvo, huevos, mantequilla, leche y polvo para hornear. ¿Tienes alguno de estos ingredientes ya en casa?",
+      "timestamp": 1764104794
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que tengo harina, azúcar y cacao en polvo. Tendría que revisar si tengo los demás.",
+      "timestamp": 1764104796
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un buen comienzo. Puedes chequear lo que te falta y hacer una lista para comprar. ¿Te gustaría que te sugiera alguna receta sencilla para que te guíe?",
+      "timestamp": 1764104797
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, por favor. Una receta sencilla sería muy útil para mí.",
+      "timestamp": 1764104798
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí tienes una receta básica para un pastel de chocolate:\n\n**Ingredientes:**\n- 1 taza de harina\n- 1 taza de azúcar\n- 1/3 de taza de cacao en polvo\n- 1/2 taza de mantequilla derretida\n- 2 huevos\n- 1 taza de leche\n- 1 cucharadita de polvo para hornear\n\n**Instrucciones:**\n1. Precalienta el horno a 180°C.\n2. Mezcla los ingredientes secos: harina, azúcar, cacao y polvo para hornear en un bol.\n3. Agrega los huevos, la mantequilla derretida y la leche, y mezcla bien.\n4. Vierte la mezcla en un molde engrasado.\n5. Hornea durante 30-35 minutos. \n\n¿Te parece una receta manejable?",
+      "timestamp": 1764104805
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, suena manejable y clara. Me gusta que no tiene muchos pasos complicados.",
+      "timestamp": 1764104806
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que te parezca clara. A veces, mantenerlo simple es lo mejor. Recuerda disfrutar el proceso, no solo el resultado. ¿Te gustaría planear cuándo harás el pastel?",
+      "timestamp": 1764104808
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que puedo hacerlo el domingo. Sería un buen plan para relajarme un poco.",
+      "timestamp": 1764104809
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "El domingo suena perfecto. Será un tiempo para ti y para desconectar. Recuerda que está bien tomarte tu tiempo y disfrutar cada paso. ¿Hay algo más que te gustaría explorar hoy?",
+      "timestamp": 1764104810
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que por ahora eso es suficiente. Gracias por toda la ayuda.",
+      "timestamp": 1764104811
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, estoy aquí para ayudarte. Me alegra que hayamos podido hablar sobre tu plan. Nos vemos en la próxima sesión, y no dudes en compartir cómo te fue con el pastel. ¡Cuídate mucho!",
+      "timestamp": 1764104813
+    },
+    {
+      "agent": "Cristina Raya",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, cuídate también. ¡Hasta luego!",
+      "timestamp": 1764104814
+    }
+  ],
+  "notes": null
+}

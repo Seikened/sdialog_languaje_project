@@ -1,0 +1,425 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T20:42:06Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 2769461117,
+  "id": "8d7d6c06-e2a5-4177-ab5b-c62e0be2199d",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Diego Paredes": {
+      "name": "Diego Paredes",
+      "age": 21,
+      "race": "Latino",
+      "gender": "masculino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(DP) | estudiante de Diseño de Producto en la Ibero de 4to semestre; le gustan las cosas bien hechas, tomar fotos a objetos curiosos y ver series para despejarse.",
+      "personality": "perfeccionista y observador",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nervioso y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Diego Paredes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Hola, gracias. La verdad es que me siento un poco nervioso, es la primera vez que vengo a terapia."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nervioso en su primera sesión. Quiero que sepa que este es un espacio seguro y privado. He notado algunos síntomas que podrían estar relacionados con la depresión, y me gustaría explorar eso un poco más. Existe un cuestionario llamado PHQ-9 que nos puede ayudar a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, creo que sería útil. Quiero entender mejor lo que estoy sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Te pediré que me digas, en una escala del 0 al 3, con qué frecuencia has tenido molestias debido a los siguientes problemas en las últimas dos semanas. \n\n1. Poco interés o placer en hacer cosas.  \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n4. Sentirte cansado(a) o con poca energía.  \n5. Tener poco apetito o comer en exceso.  \n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Te gustaría comenzar con la primera pregunta?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, claro. En cuanto a la primera pregunta, diría que he tenido poco interés o placer en hacer cosas casi todos los días, así que le pondría un 2."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Un 2 indica que has estado sintiendo bastante este problema. Ahora, ¿qué me dices sobre la segunda pregunta? ¿Te has sentido decaído(a), deprimido(a) o sin esperanzas?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Para esa pregunta, creo que un 2 también sería adecuado. Me he sentido así con frecuencia en las últimas semanas."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, gracias por tu honestidad. Un 2 en esta pregunta puede ser significativo. Sigamos adelante. ¿Para la tercera pregunta, has tenido dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "En mi caso, creo que un 1 sería justo. A veces me cuesta un poco dormir, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso está bien, un 1 indica que es un problema ocasional. Ahora, pasemos a la cuarta pregunta: ¿te has sentido cansado(a) o con poca energía? ¿Cómo te sientes al respecto?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Para esa pregunta, diría que es un 3. He estado sintiéndome muy cansado y con poca energía casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es importante, un 3 sugiere que la falta de energía está afectando bastante tu día a día. Continuemos. ¿Cómo calificarías la quinta pregunta: ¿has tenido poco apetito o has estado comiendo en exceso?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "En este caso, creo que un 2 es adecuado. A veces como menos de lo normal, pero no siempre."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Un 2 indica que es una preocupación que aparece en momentos. Ahora, pasemos a la sexta pregunta: ¿te has sentido mal contigo mismo(a) o como un fracaso? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Para esa pregunta, creo que un 3 es lo más adecuado. Me he sentido así casi todos los días últimamente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés sintiendo eso. Un 3 en esta pregunta resalta una gran carga emocional. Ahora, ¿qué me dices sobre la séptima pregunta? ¿Has tenido dificultad para concentrarte en cosas como leer o ver televisión? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Diría que es un 2. A veces me cuesta concentrarme, especialmente en tareas que solían ser fáciles para mí."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es comprensible y puede ser frustrante. Un 2 sugiere que afecta tu día a día de manera notable. Ahora, pasemos a la octava pregunta: ¿te has movido o hablado más lento de lo normal, o has estado más inquieto(a) o agitado(a)? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "En mi caso, creo que un 1 sería adecuado. He notado un poco de inquietud, pero no es algo constante."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser sincero. Un 1 indica que es un problema menor en comparación con otros síntomas. Ahora, pasemos a la última pregunta: ¿has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo calificarías eso?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Para esa pregunta, diría que es un 1. No he tenido pensamientos tan intensos, pero a veces me siento muy abrumado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Agradezco que compartas eso. Un 1 aquí indica que, aunque no has tenido pensamientos intensos, la sensación de estar abrumado puede ser difícil de manejar. ¿Te gustaría que hiciéramos un resumen de lo que has compartido para enfocarnos en cómo avanzar a partir de aquí?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Sí, me gustaría hacer un resumen. Creo que es importante entender lo que he compartido y cómo puedo avanzar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Aquí tienes el resumen de lo que hemos discutido en nuestra sesión:\n\n1. Poco interés o placer en hacer cosas: 2 casi todos los días.\n2. Sentirse decaído o sin esperanzas: 2 con frecuencia.\n3. Dificultad para dormir: 1 ocasionalmente.\n4. Cansancio o falta de energía: 3 casi todos los días.\n5. Poco apetito o comer en exceso: 2 a veces.\n6. Sentirse mal contigo mismo: 3 casi todos los días.\n7. Dificultad para concentrarte: 2 de manera notable.\n8. Movimientos lentos o inquietos: 1 ocasionalmente.\n9. Pensamientos de estar mejor muerto: 1, sintiéndote abrumado.\n\nEs evidente que estás enfrentando varios desafíos, especialmente con la falta de energía y la autocrítica. En nuestra próxima sesión, podemos trabajar en un plan de acción para ayudarte a manejar estos sentimientos y encontrar estrategias útiles. \n\n¿Qué piensas sobre este resumen y cómo te gustaría avanzar en nuestra próxima sesión?"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Me parece un buen resumen y creo que es útil ver todo claramente. Me gustaría trabajar en estrategias para manejar la falta de energía y la autocrítica en nuestra próxima sesión."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra que encuentres útil el resumen y que tengas claras tus prioridades. Trabajar en estrategias para manejar la falta de energía y la autocrítica será un buen enfoque. \n\nTe agradezco por compartir tus sentimientos hoy. Recuerda que este es un espacio seguro y aquí estoy para apoyarte. Nos vemos en la próxima sesión. Cuídate mucho. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Diego Paredes",
+      "text": "Gracias, lo aprecio. Nos vemos en la próxima sesión. ¡Hasta luego!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Diego Paredes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764103280
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nervioso, es la primera vez que vengo a terapia.",
+      "timestamp": 1764103281
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103281
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nervioso en su primera sesión. Quiero que sepa que este es un espacio seguro y privado. He notado algunos síntomas que podrían estar relacionados con la depresión, y me gustaría explorar eso un poco más. Existe un cuestionario llamado PHQ-9 que nos puede ayudar a entender cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo?",
+      "timestamp": 1764103283
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que sería útil. Quiero entender mejor lo que estoy sintiendo.",
+      "timestamp": 1764103283
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "depresión"
+        },
+        "id": "call_bCetMt0J6NLJAOZjND1VqJ3O"
+      },
+      "timestamp": 1764103284
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"depresión\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_bCetMt0J6NLJAOZjND1VqJ3O"
+      },
+      "timestamp": 1764103284
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí tienes las preguntas del cuestionario PHQ-9. Te pediré que me digas, en una escala del 0 al 3, con qué frecuencia has tenido molestias debido a los siguientes problemas en las últimas dos semanas. \n\n1. Poco interés o placer en hacer cosas.  \n2. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n3. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n4. Sentirte cansado(a) o con poca energía.  \n5. Tener poco apetito o comer en exceso.  \n6. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n7. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n8. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n9. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\n\n¿Te gustaría comenzar con la primera pregunta?",
+      "timestamp": 1764103290
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro. En cuanto a la primera pregunta, diría que he tenido poco interés o placer en hacer cosas casi todos los días, así que le pondría un 2.",
+      "timestamp": 1764103291
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Un 2 indica que has estado sintiendo bastante este problema. Ahora, ¿qué me dices sobre la segunda pregunta? ¿Te has sentido decaído(a), deprimido(a) o sin esperanzas?",
+      "timestamp": 1764103292
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, creo que un 2 también sería adecuado. Me he sentido así con frecuencia en las últimas semanas.",
+      "timestamp": 1764103293
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764103293
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, gracias por tu honestidad. Un 2 en esta pregunta puede ser significativo. Sigamos adelante. ¿Para la tercera pregunta, has tenido dificultad para quedarte o permanecer dormido(a), o dormir demasiado? ¿Cómo lo calificarías?",
+      "timestamp": 1764103294
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En mi caso, creo que un 1 sería justo. A veces me cuesta un poco dormir, pero no siempre.",
+      "timestamp": 1764103295
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso está bien, un 1 indica que es un problema ocasional. Ahora, pasemos a la cuarta pregunta: ¿te has sentido cansado(a) o con poca energía? ¿Cómo te sientes al respecto?",
+      "timestamp": 1764103297
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, diría que es un 3. He estado sintiéndome muy cansado y con poca energía casi todos los días.",
+      "timestamp": 1764103298
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es importante, un 3 sugiere que la falta de energía está afectando bastante tu día a día. Continuemos. ¿Cómo calificarías la quinta pregunta: ¿has tenido poco apetito o has estado comiendo en exceso?",
+      "timestamp": 1764103300
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En este caso, creo que un 2 es adecuado. A veces como menos de lo normal, pero no siempre.",
+      "timestamp": 1764103300
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Un 2 indica que es una preocupación que aparece en momentos. Ahora, pasemos a la sexta pregunta: ¿te has sentido mal contigo mismo(a) o como un fracaso? ¿Cómo lo calificarías?",
+      "timestamp": 1764103302
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, creo que un 3 es lo más adecuado. Me he sentido así casi todos los días últimamente.",
+      "timestamp": 1764103302
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés sintiendo eso. Un 3 en esta pregunta resalta una gran carga emocional. Ahora, ¿qué me dices sobre la séptima pregunta? ¿Has tenido dificultad para concentrarte en cosas como leer o ver televisión? ¿Cómo lo calificarías?",
+      "timestamp": 1764103304
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Diría que es un 2. A veces me cuesta concentrarme, especialmente en tareas que solían ser fáciles para mí.",
+      "timestamp": 1764103305
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es comprensible y puede ser frustrante. Un 2 sugiere que afecta tu día a día de manera notable. Ahora, pasemos a la octava pregunta: ¿te has movido o hablado más lento de lo normal, o has estado más inquieto(a) o agitado(a)? ¿Cómo lo calificarías?",
+      "timestamp": 1764103307
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "En mi caso, creo que un 1 sería adecuado. He notado un poco de inquietud, pero no es algo constante.",
+      "timestamp": 1764103308
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser sincero. Un 1 indica que es un problema menor en comparación con otros síntomas. Ahora, pasemos a la última pregunta: ¿has tenido pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera? ¿Cómo calificarías eso?",
+      "timestamp": 1764103309
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Para esa pregunta, diría que es un 1. No he tenido pensamientos tan intensos, pero a veces me siento muy abrumado.",
+      "timestamp": 1764103311
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Agradezco que compartas eso. Un 1 aquí indica que, aunque no has tenido pensamientos intensos, la sensación de estar abrumado puede ser difícil de manejar. ¿Te gustaría que hiciéramos un resumen de lo que has compartido para enfocarnos en cómo avanzar a partir de aquí?",
+      "timestamp": 1764103312
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría hacer un resumen. Creo que es importante entender lo que he compartido y cómo puedo avanzar.",
+      "timestamp": 1764103313
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "symmary_session",
+        "args": {
+          "item": "Resumen de la sesión de terapia de Diego Paredes: 1. Poco interés o placer en hacer cosas: 2 casi todos los días. 2. Sentirse decaído o sin esperanzas: 2 con frecuencia. 3. Dificultad para dormir: 1 ocasionalmente. 4. Cansancio o falta de energía: 3 casi todos los días. 5. Poco apetito o comer en exceso: 2 a veces. 6. Sentirse mal consigo mismo: 3 casi todos los días. 7. Dificultad para concentrarse: 2 de manera notable. 8. Movimientos lentos o inquietos: 1 ocasionalmente. 9. Pensamientos de estar mejor muerto: 1, sintiéndose abrumado. "
+        },
+        "id": "call_g6zFZyb2lkznkqFQ2oi0ElHn"
+      },
+      "timestamp": 1764103318
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "symmary_session",
+        "output": "{\"item\": \"Resumen de la sesión de terapia de Diego Paredes: 1. Poco interés o placer en hacer cosas: 2 casi todos los días. 2. Sentirse decaído o sin esperanzas: 2 con frecuencia. 3. Dificultad para dormir: 1 ocasionalmente. 4. Cansancio o falta de energía: 3 casi todos los días. 5. Poco apetito o comer en exceso: 2 a veces. 6. Sentirse mal consigo mismo: 3 casi todos los días. 7. Dificultad para concentrarse: 2 de manera notable. 8. Movimientos lentos o inquietos: 1 ocasionalmente. 9. Pensamientos de estar mejor muerto: 1, sintiéndose abrumado. \", \"summary\": \"Resumen de la sesión de terapia con los puntos clave discutidos y las recomendaciones para el paciente en la siguiente sesión. También incluye un plan de acción para el seguimiento como notas propias del psicólogo.\"}",
+        "call_id": "call_g6zFZyb2lkznkqFQ2oi0ElHn"
+      },
+      "timestamp": 1764103318
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Aquí tienes el resumen de lo que hemos discutido en nuestra sesión:\n\n1. Poco interés o placer en hacer cosas: 2 casi todos los días.\n2. Sentirse decaído o sin esperanzas: 2 con frecuencia.\n3. Dificultad para dormir: 1 ocasionalmente.\n4. Cansancio o falta de energía: 3 casi todos los días.\n5. Poco apetito o comer en exceso: 2 a veces.\n6. Sentirse mal contigo mismo: 3 casi todos los días.\n7. Dificultad para concentrarte: 2 de manera notable.\n8. Movimientos lentos o inquietos: 1 ocasionalmente.\n9. Pensamientos de estar mejor muerto: 1, sintiéndote abrumado.\n\nEs evidente que estás enfrentando varios desafíos, especialmente con la falta de energía y la autocrítica. En nuestra próxima sesión, podemos trabajar en un plan de acción para ayudarte a manejar estos sentimientos y encontrar estrategias útiles. \n\n¿Qué piensas sobre este resumen y cómo te gustaría avanzar en nuestra próxima sesión?",
+      "timestamp": 1764103322
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me parece un buen resumen y creo que es útil ver todo claramente. Me gustaría trabajar en estrategias para manejar la falta de energía y la autocrítica en nuestra próxima sesión.",
+      "timestamp": 1764103323
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra que encuentres útil el resumen y que tengas claras tus prioridades. Trabajar en estrategias para manejar la falta de energía y la autocrítica será un buen enfoque. \n\nTe agradezco por compartir tus sentimientos hoy. Recuerda que este es un espacio seguro y aquí estoy para apoyarte. Nos vemos en la próxima sesión. Cuídate mucho. ¡Hasta luego!",
+      "timestamp": 1764103325
+    },
+    {
+      "agent": "Diego Paredes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias, lo aprecio. Nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764103326
+    }
+  ],
+  "notes": null
+}

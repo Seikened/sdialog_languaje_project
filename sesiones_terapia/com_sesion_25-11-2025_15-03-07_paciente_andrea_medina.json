@@ -1,0 +1,401 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:04:31Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 294968027,
+  "id": "499adee0-8232-4c38-b181-9ba28b8bb1b1",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Andrea Medina": {
+      "name": "Andrea Medina",
+      "age": 21,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(COM) | estudiante de Comunicación en la Ibero de 5to semestre; le gusta grabar cosas con su celular, hacer historias, ver TikTok y platicar mucho.",
+      "personality": "expresiva y empática",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no estoy segura de qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentir nervios antes de tu primera sesión. Aquí estamos para crear un espacio seguro donde puedas expresarte libremente. ¿Hay algo específico que te gustaría abordar hoy?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Gracias por entenderme. Creo que me gustaría hablar sobre cómo me he estado sintiendo últimamente, ya que he tenido días realmente difíciles."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, hablemos de eso. ¿Puedes contarme más sobre lo que has estado sintiendo en esos días difíciles?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "He estado sintiéndome muy triste y sin energía, como si todo me pesara. A veces, ni siquiera tengo ganas de hacer las cosas que me gustan, como grabar videos o ver TikTok."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Para profundizar en cómo te has estado sintiendo, hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar tus síntomas en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, creo que podría ayudar. Estoy dispuesta a responderlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí van las preguntas. Responde cada una en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?   \n2. Poco interés o placer en hacer cosas.  \n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n5. Sentirte cansado(a) o con poca energía.  \n6. Tener poco apetito o comer en exceso.  \n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n\nCuando estés lista, por favor, comparte tus respuestas."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Está bien, aquí van mis respuestas:\n\n2. 2  \n3. 2  \n4. 1  \n5. 2  \n6. 1  \n7. 2  \n8. 2  \n9. 1  \n10. 0  \n\nEspero que esto ayude a entender un poco más cómo me he estado sintiendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir tus respuestas, son muy valiosas. Parece que hay varios aspectos en los que te sientes afectada, especialmente en cuanto a la falta de interés y la tristeza. Hablemos más a fondo sobre esos sentimientos y busquemos estrategias para abordar lo que estás viviendo. ¿Te parece bien?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me parece bien. Quiero entender mejor lo que siento y encontrar formas de sentirme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso, y estoy aquí para acompañarte en ese proceso. Comencemos conversando sobre lo que te genera esa tristeza y la falta de interés. ¿Hay alguna situación reciente o algún desencadenante que creas que ha influido en cómo te sientes?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Últimamente he estado sintiendo mucha presión con la escuela, y a veces me siento abrumada con todo el trabajo. Además, he tenido algunas discusiones con amigos que me han dejado un poco triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, la presión de la escuela y las relaciones sociales pueden ser muy desafiantes. Para explorar mejor cómo te has sentido en general, me gustaría sugerirte un cuestionario llamado PHQ-9. Esto nos ayudará a entender más a fondo tus síntomas en las últimas dos semanas. ¿Te gustaría responderlo? Recuerda que esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Ya respondí el cuestionario PHQ-9, pero estoy abierta a hacer cualquier cosa que pueda ayudar a entender mi situación mejor. Si hay algo más que necesites, estoy lista."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es genial ver tu disposición para trabajar en esto. Ya que has compartido tus respuestas al PHQ-9, podemos centrarnos en algunas estrategias. Hablemos sobre cómo manejar la presión de la escuela y las discusiones con amigos. ¿Te gustaría que exploráramos técnicas de manejo del estrés o ejercicios de comunicación para resolver conflictos?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría conocer técnicas de manejo del estrés. Siento que eso me podría ayudar a lidiar con la presión y las emociones difíciles."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, aquí hay algunas técnicas que pueden ayudarte a manejar el estrés:\n\n1. **Respiración profunda**: Dedica unos minutos al día a practicar la respiración profunda. Inhala profundamente por la nariz, sostén la respiración unos segundos, y exhala lentamente por la boca. Esto puede ayudarte a calmarte y centrarte.\n\n2. **Ejercicio físico**: Aunque a veces puede ser difícil tener energía, hacer ejercicio, incluso una caminata corta, puede liberar endorfinas y mejorar tu estado de ánimo.\n\n3. **Organización del tiempo**: Llevar un calendario o una lista de tareas puede ayudarte a visualizar tu carga de trabajo y priorizar lo que necesitas hacer, haciendo que te sientas menos abrumada.\n\n4. **Técnicas de mindfulness**: Practicar la meditación o ejercicios de atención plena puede ayudarte a estar en el presente y reducir la ansiedad.\n\n5. **Desconexión digital**: Limitar el tiempo en redes sociales puede ser beneficioso, especialmente si sientes que te generan estrés o comparaciones.\n\n¿Te gustaría profundizar en alguna de estas técnicas en particular?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Me gustaría aprender más sobre la respiración profunda y las técnicas de mindfulness. Siento que esas podrían ayudarme a calmarme cuando me siento abrumada."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente elección. Comencemos con la **respiración profunda**:\n\n1. Encuentra un lugar tranquilo donde puedas sentarte o acostarte cómodamente.\n2. Cierra los ojos y coloca una mano sobre tu abdomen y la otra sobre tu pecho.\n3. Inhala profundamente por la nariz, asegurándote de que tu abdomen se eleva más que tu pecho.\n4. Mantén la respiración durante 4-5 segundos.\n5. Exhala lentamente por la boca, sintiendo cómo tu abdomen se contrae.\n6. Repite esto durante 5-10 minutos, concentrándote en la sensación de la respiración.\n\nAhora, para las **técnicas de mindfulness**:\n\n1. **Meditación corta**: Siéntate en un lugar cómodo y cierra los ojos. Concéntrate en tu respiración. Si tu mente se distrae, suavemente regresa tu atención a la respiración.\n   \n2. **Escaneo corporal**: Acuéstate y dirige tu atención a diferentes partes del cuerpo, comenzando desde los pies hasta la cabeza. Reconoce cualquier tensión y relaja esas áreas.\n\n3. **Atención plena en actividades**: Elige una actividad cotidiana, como comer o caminar. Hazla de manera consciente, prestando atención a cada sensación y detalle.\n\nPuedes comenzar practicando estos ejercicios durante unos minutos al día. ¿Te gustaría intentarlo ahora juntos?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Sí, me gustaría intentarlo. Creo que me ayudaría mucho practicarlo aquí y ahora."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, hagámoslo juntos. Comencemos con la respiración profunda. \n\n1. Encuentra una posición cómoda, ya sea sentado o acostado. Cierra los ojos si te sientes a gusto haciéndolo.\n2. Coloca una mano sobre tu abdomen y la otra sobre tu pecho.\n3. Inhalemos juntos por la nariz. Siente cómo tu abdomen se expande... (inhalamos juntos)\n4. Mantén la respiración... (mantén la respiración)\n5. Ahora, exhala lentamente por la boca, sintiendo cómo tu abdomen se contrae... (exhalamos juntos)\n\nRepite esto dos veces más a tu propio ritmo, inhalando profundamente... manteniendo un momento... y exhalando lentamente.\n\nCuando termines, abre suavemente los ojos y toma un momento para notar cómo te sientes. ¿Cómo fue la experiencia para ti?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Fue muy relajante. Me sentí un poco más ligera y tranquila después de hacerlo. Creo que esto realmente puede ayudarme cuando me sienta abrumada. Gracias por guiarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar que te sentiste más tranquila y ligera. La práctica de la respiración profunda puede ser muy efectiva para aliviar el estrés. Recuerda que estas técnicas pueden tomar tiempo para integrarse, así que sé amable contigo misma mientras las practicas. ¿Te gustaría explorar más herramientas o técnicas en nuestra próxima sesión, o sientes que hoy has cubierto lo que necesitabas?"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "Me gustaría seguir explorando más herramientas en nuestra próxima sesión. Siento que hay mucho por trabajar y aprender. Gracias por tu apoyo hoy."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "De nada, estoy aquí para apoyarte en este proceso. Me alegra que quieras continuar explorando. Te espero en nuestra próxima sesión para seguir trabajando juntos. Cuídate mucho y que tengas un buen fin de semana. ¡Hasta pronto!"
+    },
+    {
+      "speaker": "Andrea Medina",
+      "text": "¡Gracias! Cuídate también. Hasta pronto. ¡Adiós!"
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Andrea Medina, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104607
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad es que me siento un poco nerviosa, es mi primera vez en terapia y no estoy segura de qué esperar.",
+      "timestamp": 1764104609
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentir nervios antes de tu primera sesión. Aquí estamos para crear un espacio seguro donde puedas expresarte libremente. ¿Hay algo específico que te gustaría abordar hoy?",
+      "timestamp": 1764104610
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por entenderme. Creo que me gustaría hablar sobre cómo me he estado sintiendo últimamente, ya que he tenido días realmente difíciles.",
+      "timestamp": 1764104611
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, hablemos de eso. ¿Puedes contarme más sobre lo que has estado sintiendo en esos días difíciles?",
+      "timestamp": 1764104612
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "He estado sintiéndome muy triste y sin energía, como si todo me pesara. A veces, ni siquiera tengo ganas de hacer las cosas que me gustan, como grabar videos o ver TikTok.",
+      "timestamp": 1764104614
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104614
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Para profundizar en cómo te has estado sintiendo, hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar tus síntomas en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764104617
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que podría ayudar. Estoy dispuesta a responderlo.",
+      "timestamp": 1764104617
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_s72wknZM8khd1stGA0n8C5ps"
+      },
+      "timestamp": 1764104619
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_s72wknZM8khd1stGA0n8C5ps"
+      },
+      "timestamp": 1764104619
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí van las preguntas. Responde cada una en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\". \n\n1. Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?   \n2. Poco interés o placer en hacer cosas.  \n3. Sentirte decaído(a), deprimido(a) o sin esperanzas.  \n4. Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.  \n5. Sentirte cansado(a) o con poca energía.  \n6. Tener poco apetito o comer en exceso.  \n7. Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.  \n8. Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.  \n9. Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.  \n10. Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.  \n\nCuando estés lista, por favor, comparte tus respuestas.",
+      "timestamp": 1764104626
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, aquí van mis respuestas:\n\n2. 2  \n3. 2  \n4. 1  \n5. 2  \n6. 1  \n7. 2  \n8. 2  \n9. 1  \n10. 0  \n\nEspero que esto ayude a entender un poco más cómo me he estado sintiendo.",
+      "timestamp": 1764104628
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir tus respuestas, son muy valiosas. Parece que hay varios aspectos en los que te sientes afectada, especialmente en cuanto a la falta de interés y la tristeza. Hablemos más a fondo sobre esos sentimientos y busquemos estrategias para abordar lo que estás viviendo. ¿Te parece bien?",
+      "timestamp": 1764104629
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero entender mejor lo que siento y encontrar formas de sentirme mejor.",
+      "timestamp": 1764104631
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso, y estoy aquí para acompañarte en ese proceso. Comencemos conversando sobre lo que te genera esa tristeza y la falta de interés. ¿Hay alguna situación reciente o algún desencadenante que creas que ha influido en cómo te sientes?",
+      "timestamp": 1764104632
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Últimamente he estado sintiendo mucha presión con la escuela, y a veces me siento abrumada con todo el trabajo. Además, he tenido algunas discusiones con amigos que me han dejado un poco triste.",
+      "timestamp": 1764104634
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104634
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, la presión de la escuela y las relaciones sociales pueden ser muy desafiantes. Para explorar mejor cómo te has sentido en general, me gustaría sugerirte un cuestionario llamado PHQ-9. Esto nos ayudará a entender más a fondo tus síntomas en las últimas dos semanas. ¿Te gustaría responderlo? Recuerda que esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764104636
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ya respondí el cuestionario PHQ-9, pero estoy abierta a hacer cualquier cosa que pueda ayudar a entender mi situación mejor. Si hay algo más que necesites, estoy lista.",
+      "timestamp": 1764104638
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es genial ver tu disposición para trabajar en esto. Ya que has compartido tus respuestas al PHQ-9, podemos centrarnos en algunas estrategias. Hablemos sobre cómo manejar la presión de la escuela y las discusiones con amigos. ¿Te gustaría que exploráramos técnicas de manejo del estrés o ejercicios de comunicación para resolver conflictos?",
+      "timestamp": 1764104640
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría conocer técnicas de manejo del estrés. Siento que eso me podría ayudar a lidiar con la presión y las emociones difíciles.",
+      "timestamp": 1764104642
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, aquí hay algunas técnicas que pueden ayudarte a manejar el estrés:\n\n1. **Respiración profunda**: Dedica unos minutos al día a practicar la respiración profunda. Inhala profundamente por la nariz, sostén la respiración unos segundos, y exhala lentamente por la boca. Esto puede ayudarte a calmarte y centrarte.\n\n2. **Ejercicio físico**: Aunque a veces puede ser difícil tener energía, hacer ejercicio, incluso una caminata corta, puede liberar endorfinas y mejorar tu estado de ánimo.\n\n3. **Organización del tiempo**: Llevar un calendario o una lista de tareas puede ayudarte a visualizar tu carga de trabajo y priorizar lo que necesitas hacer, haciendo que te sientas menos abrumada.\n\n4. **Técnicas de mindfulness**: Practicar la meditación o ejercicios de atención plena puede ayudarte a estar en el presente y reducir la ansiedad.\n\n5. **Desconexión digital**: Limitar el tiempo en redes sociales puede ser beneficioso, especialmente si sientes que te generan estrés o comparaciones.\n\n¿Te gustaría profundizar en alguna de estas técnicas en particular?",
+      "timestamp": 1764104648
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría aprender más sobre la respiración profunda y las técnicas de mindfulness. Siento que esas podrían ayudarme a calmarme cuando me siento abrumada.",
+      "timestamp": 1764104649
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente elección. Comencemos con la **respiración profunda**:\n\n1. Encuentra un lugar tranquilo donde puedas sentarte o acostarte cómodamente.\n2. Cierra los ojos y coloca una mano sobre tu abdomen y la otra sobre tu pecho.\n3. Inhala profundamente por la nariz, asegurándote de que tu abdomen se eleva más que tu pecho.\n4. Mantén la respiración durante 4-5 segundos.\n5. Exhala lentamente por la boca, sintiendo cómo tu abdomen se contrae.\n6. Repite esto durante 5-10 minutos, concentrándote en la sensación de la respiración.\n\nAhora, para las **técnicas de mindfulness**:\n\n1. **Meditación corta**: Siéntate en un lugar cómodo y cierra los ojos. Concéntrate en tu respiración. Si tu mente se distrae, suavemente regresa tu atención a la respiración.\n   \n2. **Escaneo corporal**: Acuéstate y dirige tu atención a diferentes partes del cuerpo, comenzando desde los pies hasta la cabeza. Reconoce cualquier tensión y relaja esas áreas.\n\n3. **Atención plena en actividades**: Elige una actividad cotidiana, como comer o caminar. Hazla de manera consciente, prestando atención a cada sensación y detalle.\n\nPuedes comenzar practicando estos ejercicios durante unos minutos al día. ¿Te gustaría intentarlo ahora juntos?",
+      "timestamp": 1764104657
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que me ayudaría mucho practicarlo aquí y ahora.",
+      "timestamp": 1764104658
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, hagámoslo juntos. Comencemos con la respiración profunda. \n\n1. Encuentra una posición cómoda, ya sea sentado o acostado. Cierra los ojos si te sientes a gusto haciéndolo.\n2. Coloca una mano sobre tu abdomen y la otra sobre tu pecho.\n3. Inhalemos juntos por la nariz. Siente cómo tu abdomen se expande... (inhalamos juntos)\n4. Mantén la respiración... (mantén la respiración)\n5. Ahora, exhala lentamente por la boca, sintiendo cómo tu abdomen se contrae... (exhalamos juntos)\n\nRepite esto dos veces más a tu propio ritmo, inhalando profundamente... manteniendo un momento... y exhalando lentamente.\n\nCuando termines, abre suavemente los ojos y toma un momento para notar cómo te sientes. ¿Cómo fue la experiencia para ti?",
+      "timestamp": 1764104663
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Fue muy relajante. Me sentí un poco más ligera y tranquila después de hacerlo. Creo que esto realmente puede ayudarme cuando me sienta abrumada. Gracias por guiarme.",
+      "timestamp": 1764104665
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar que te sentiste más tranquila y ligera. La práctica de la respiración profunda puede ser muy efectiva para aliviar el estrés. Recuerda que estas técnicas pueden tomar tiempo para integrarse, así que sé amable contigo misma mientras las practicas. ¿Te gustaría explorar más herramientas o técnicas en nuestra próxima sesión, o sientes que hoy has cubierto lo que necesitabas?",
+      "timestamp": 1764104667
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría seguir explorando más herramientas en nuestra próxima sesión. Siento que hay mucho por trabajar y aprender. Gracias por tu apoyo hoy.",
+      "timestamp": 1764104669
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "De nada, estoy aquí para apoyarte en este proceso. Me alegra que quieras continuar explorando. Te espero en nuestra próxima sesión para seguir trabajando juntos. Cuídate mucho y que tengas un buen fin de semana. ¡Hasta pronto!",
+      "timestamp": 1764104670
+    },
+    {
+      "agent": "Andrea Medina",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también. Hasta pronto. ¡Adiós!",
+      "timestamp": 1764104671
+    }
+  ],
+  "notes": null
+}

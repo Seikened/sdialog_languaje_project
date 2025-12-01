@@ -1,0 +1,936 @@
+{
+  "version": "0.4.2+60e3f699bfeedad51ecfb467d10a08a4f02117cc",
+  "timestamp": "2025-11-25T21:04:31Z",
+  "model": {
+    "name": "openai:gpt-4o-mini",
+    "temperature": 0.9,
+    "seed": 13
+  },
+  "seed": 3965205775,
+  "id": "4c39cbf7-1e35-4103-a772-814201e0fedd",
+  "parentId": null,
+  "complete": true,
+  "personas": {
+    "Valeria": {
+      "name": "Valeria",
+      "age": 30,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "psicóloga",
+      "background": "psicóloga con 5 años de experiencia en terapia cognitivo-conductual",
+      "personality": "curiosa empática",
+      "circumstances": "Está conduciendo una sesión de terapia con un nuevo paciente",
+      "rules": "Habla solo en español"
+    },
+    "Montserrat Reyes": {
+      "name": "Montserrat Reyes",
+      "age": 20,
+      "race": "Latina",
+      "gender": "femenino",
+      "language": "español",
+      "role": "paciente",
+      "background": "(MP) | estudiante de Marketing y Publicidad en la Ibero de 3er semestre; le gusta tomar fotos, subir historias, ver tendencias en redes y salir con amigos.",
+      "personality": "extrovertida pero sensible al juicio",
+      "circumstances": "Está en una sesión de terapia por primera vez, se siente un poco nerviosa y presenta síntomas de depresión.",
+      "rules": "Habla solo en español"
+    }
+  },
+  "context": {
+    "location": "Consultorio de psicología",
+    "environment": "silencioso, una luz suave entra por la ventana",
+    "objects": [
+      "escritorio con laptop",
+      "sillas cómodas",
+      "cuadros relajantes en las paredes"
+    ],
+    "circumstances": "Sesión un viernes por la tarde noche"
+  },
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "Valeria",
+      "text": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Hola, gracias. La verdad estoy un poco nerviosa, no sé muy bien qué esperar."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué te ha traído hoy aquí?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que me siento un poco abrumada últimamente. He estado lidiando con algunas cosas que me ponen triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, y lamento que te sientas así. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me parece bien. Quiero entenderme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Bien, empecemos. La primera pregunta es: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Te invito a que respondas en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\"."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Está bien, estoy lista."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente. La primera pregunta es: ¿Has tenido poco interés o placer en hacer cosas? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que sería un 2, a veces me siento desmotivada para hacer cosas que antes disfrutaba."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. La siguiente pregunta es: ¿Te has sentido decaída, deprimida o sin esperanzas durante este tiempo? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que un 3, he estado sintiéndome así casi todos los días."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que te sientas así. Es un paso valiente reconocerlo. Pasemos a la tercera pregunta: ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 2, a veces me cuesta dormir y otras veces simplemente duermo demasiado."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu honestidad. La siguiente pregunta es: ¿Te has sentido cansada o con poca energía? ¿Qué calificación le darías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Yo diría un 3, me siento cansada casi todo el tiempo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lo siento mucho, es difícil lidiar con esa sensación. Ahora, la quinta pregunta: ¿Has tenido poco apetito o has comido en exceso? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que un 2, a veces no tengo apetito y otras veces como más de la cuenta."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartir eso. Pasemos a la sexta pregunta: ¿Te has sentido mal contigo misma, como si fueras un fracaso o que has quedado mal contigo misma o con tu familia? ¿Qué calificación le darías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 3, me siento así muy a menudo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que eso puede ser muy doloroso. La séptima pregunta es: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que un 2, a veces me cuesta concentrarme en lo que estoy haciendo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por compartirlo. Ahora, la octava pregunta: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o has sentido que estás tan inquieta o agitada que te mueves mucho más de lo normal? ¿Cuál sería tu calificación?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 1, a veces me siento un poco inquieta, pero no es algo muy frecuente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por ser transparente. Ahora, la penúltima pregunta: ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cómo lo calificarías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Eso sería un 2, he tenido esos pensamientos de vez en cuando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Lamento que estés pasando por eso. Es importante reconocer esos sentimientos. Por último, la última pregunta: ¿Te has sentido tan cansada o sin energía que te ha dificultado hacer cosas? ¿Qué calificación le darías?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Le daría un 3, definitivamente me ha costado hacer cosas por esa falta de energía."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Gracias por tu sinceridad al responder todas las preguntas. Parece que has estado atravesando momentos difíciles. Quiero asegurarme de que sepas que estás en un lugar seguro aquí. ¿Te gustaría discutir más sobre lo que has compartido?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que me gustaría hablar más sobre lo que siento y cómo me está afectando."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es un gran paso, y estoy aquí para escucharte. Cuéntame más sobre cómo esos sentimientos te están afectando en tu día a día."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me siento muy cansada y a veces me cuesta salir con mis amigos o concentrarme en la escuela. Todo parece un poco abrumador."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo, parece que esa sensación de cansancio y abrumamiento está afectando tu vida social y académica. Es natural que eso genere frustración. ¿Hay algún momento específico en que sientas que se intensifica esta carga emocional?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, a veces cuando tengo que entregar trabajos o ver a mis amigos, me siento aún más presionada y triste."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es comprensible sentirte así, especialmente en momentos de presión. La expectativa puede intensificar esos sentimientos. ¿Te gustaría explorar algunas estrategias que podrían ayudarte a manejar estas situaciones de manera más efectiva?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría eso. Estoy abierta a aprender cómo manejarlo mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es excelente. Podemos trabajar en algunas técnicas de manejo del estrés y la ansiedad. Una opción podría ser la técnica de respiración profunda, que puede ayudarte a calmarte en momentos de presión. ¿Te gustaría que te guiara en un ejercicio breve?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, eso suena bien. Me gustaría intentarlo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos. Siéntate cómodamente, cierra los ojos si te sientes cómoda, y toma una respiración profunda por la nariz, contando hasta cuatro. 1... 2... 3... 4... Ahora, mantén la respiración contando hasta cuatro... 1... 2... 3... 4... Y ahora suelta el aire lentamente por la boca, contando hasta seis... 1... 2... 3... 4... 5... 6... \n\nRepite esto un par de veces a tu propio ritmo. ¿Cómo te sientes hasta ahora?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me siento un poco más relajada, creo que me ayuda a despejar la mente."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes un poco más relajada. La respiración consciente puede ser una herramienta muy útil en momentos de estrés. Puedes practicarla siempre que lo necesites. ¿Te gustaría que exploráramos otras técnicas o algún otro tema?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría conocer otras técnicas que pueda usar en mi día a día."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, puedo compartirte algunas técnicas más. Además de la respiración profunda, puedes intentar la meditación de atención plena, que consiste en centrarte en el momento presente y observar tus pensamientos sin juzgarlos. También puedes practicar la escritura de un diario para expresar tus sentimientos. ¿Te gustaría profundizar en alguna de estas técnicas?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Me gustaría saber más sobre la escritura de un diario, creo que podría ayudarme a entender mis pensamientos."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "La escritura de un diario es una forma excelente de procesar tus emociones y aclarar tus pensamientos. Puedes dedicar unos minutos al día para escribir sobre cómo te sientes, lo que te preocupa o las cosas por las que estás agradecida. No hay reglas estrictas, solo déjate fluir. ¿Te gustaría que hiciéramos un ejercicio breve de escritura ahora mismo?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me parece bien. Estoy lista para intentar escribir un poco."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Toma un momento para reflexionar sobre tu día y elige un tema que quieras explorar. Puede ser un sentimiento, una situación o algo que te haya hecho sentir agradecida. Tómate unos minutos para escribir lo que surja. Cuando termines, comparte conmigo lo que quieras si te sientes cómoda."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Está bien, voy a reflexionar un poco... *[Después de un momento]*. Escribí sobre cómo me siento abrumada con los estudios, pero también mencioné que estoy agradecida por mis amigos, que siempre me apoyan."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso es maravilloso. Has expresado sentimientos importantes y también has reconocido la gratitud, que es un excelente enfoque. Escribe sobre lo que sientes puede ser muy liberador. ¿Te gustaría hablar más sobre cómo tus amigos te apoyan en estos momentos?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, claro. Mis amigos son muy comprensivos y siempre están dispuestos a escucharme. A veces salimos a tomar un café y eso me hace sentir mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es genial que tengas un grupo de amigos comprensivos, tener ese apoyo es invaluable. Salir y compartir momentos agradables, como ir por un café, puede ser una forma efectiva de aliviar el estrés. ¿Cómo te sientes después de pasar tiempo con ellos?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Después de estar con ellos, me siento más ligera y menos sola. Es como si al compartir mis preocupaciones, me ayudaran a ver las cosas desde otra perspectiva."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho escuchar que pasar tiempo con tus amigos te hace sentir más ligera y apoyada. Compartir preocupaciones con personas cercanas es una parte importante del proceso de sanación. Dado lo que has mencionado sobre tus sentimientos, creo que podría ser útil explorar cómo te has sentido en las últimas dos semanas con un cuestionario llamado PHQ-9. Este no sustituye una evaluación profesional, pero puede ofrecernos información adicional. ¿Te gustaría responderlo?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Parece que ya hemos pasado por ese cuestionario, pero si hay algo más que pueda hacer, estoy abierta a ello."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Tienes razón, ya hemos revisado el cuestionario. Otra opción podría ser practicar la autocompasión, que consiste en ser amable contigo misma en momentos difíciles. Puedes intentar hablarte con ternura, como lo harías con un amigo que está sufriendo. ¿Te gustaría que exploráramos más sobre la autocompasión y cómo implementarla en tu vida diaria?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría eso. A veces soy muy dura conmigo misma y creo que ser más compasiva podría ayudarme."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Es un gran paso reconocer eso. La autocompasión implica tratarte con la misma amabilidad y comprensión que ofrecerías a un amigo. Puedes comenzar por practicar frases de autocompasión, como \"Es normal sentirme así\" o \"Estoy haciendo lo mejor que puedo\". \n\nCuando te sientas abrumada, intenta recordar que no estás sola en tus luchas. ¿Te gustaría que te ayudara a formular algunas frases de autocompasión que puedas usar?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, sería útil. Me gustaría tener algunas frases que pueda recordar cuando lo necesite."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Claro, aquí tienes algunas frases que podrías usar como recordatorio de autocompasión:\n\n1. \"Es normal tener días difíciles; estoy haciendo lo mejor que puedo.\"\n2. \"Me permito sentir esto, y eso está bien.\"\n3. \"Soy valiosa y merezco amor y cuidado, incluso en mis momentos de debilidad.\"\n4. \"No estoy sola; todos enfrentamos desafíos.\"\n\nPuedes escribir estas frases en tu diario o en un lugar visible para recordarlas cuando las necesites. ¿Te gustaría trabajar en una situación específica en la que puedas aplicar alguna de estas frases?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría trabajar en una situación específica. Creo que podría aplicar una de estas frases cuando me siento abrumada con mis tareas escolares."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Eso suena excelente. Cuando sientas que la presión de tus tareas escolares aumenta, podrías tomarte un momento para respirar profundamente y luego repetirte una de estas frases, como \"Es normal tener días difíciles; estoy haciendo lo mejor que puedo\". Esto puede ayudarte a disminuir la ansiedad y recordarte que es un proceso. \n\nAdemás, podrías considerar dividir tus tareas en partes más pequeñas y manejables. ¿Te gustaría hablar sobre cómo podrías organizar tus tareas escolares?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, creo que eso sería útil. A veces me siento abrumada solo al pensar en todas las tareas que tengo que hacer."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Entiendo que ver todas las tareas juntas puede ser abrumador. Una buena estrategia es hacer una lista y luego priorizar las tareas. Puedes seguir estos pasos:\n\n1. **Haz una lista de todas tus tareas:** Escribe todo lo que necesitas hacer, sin preocuparte por el orden.\n2. **Clasifica las tareas por prioridad:** Identifica cuáles son urgentes y cuáles pueden esperar un poco.\n3. **Divide las tareas grandes en partes más pequeñas:** Esto hará que sean más manejables y menos abrumadoras.\n4. **Establece metas diarias:** Decide cuántas tareas quieres completar cada día y celebra esos logros.\n\n¿Te gustaría probar crear una lista juntos aquí?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, me gustaría intentarlo. Creo que tener una lista me ayudaría a organizarme mejor."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto. Comencemos. ¿Cuáles son algunas de las tareas que necesitas completar? Escribe lo que te venga a la mente, sin preocuparte por el orden."
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Ok, aquí van algunas tareas: \n\n1. Terminar un ensayo para la clase de marketing.\n2. Estudiar para el examen de publicidad.\n3. Hacer un proyecto grupal.\n4. Escribir un post para la clase de redes sociales.\n5. Organizar mis notas de clase."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Muy bien, ahora que tienes tu lista, vamos a clasificar estas tareas por prioridad. ¿Cuáles crees que son las más urgentes que debes hacer primero?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Creo que el ensayo para la clase de marketing y el estudio para el examen de publicidad son los más urgentes."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Perfecto, esos son buenos puntos de partida. Ahora, podemos dividir esas tareas en pasos más pequeños. Por ejemplo, para el ensayo de marketing, podrías hacer cosas como:\n\n1. Investigate el tema.\n2. Hacer un esquema.\n3. Escribir el primer borrador.\n4. Revisar y editar.\n\n¿Te gustaría hacer algo similar para el estudio del examen de publicidad?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, eso suena bien. Para el examen de publicidad, podría dividirlo así:\n\n1. Revisar mis apuntes de clase.\n2. Leer el libro de texto.\n3. Hacer tarjetas de estudio.\n4. Hacer un repaso con un amigo."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Excelente trabajo al dividirlas en pasos más manejables. Ahora tienes un plan claro para tus tareas más urgentes. Recuerda que puedes ir marcando cada paso a medida que avances, lo que te dará una sensación de logro. ¿Te sientes más tranquila sabiendo que tienes un plan para seguir?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "Sí, definitivamente me siento más tranquila. Tener un plan me ayuda a ver que puedo manejarlo. Gracias."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra mucho saber que te sientes más tranquila. Tener un plan puede hacer una gran diferencia. Recuerda que puedes abordar cada tarea de a poco y que está bien tomarte tu tiempo. Si necesitas apoyo en el futuro, aquí estaré. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "No, creo que hemos cubierto mucho hoy. Me siento mejor y más enfocada. Gracias por tu ayuda."
+    },
+    {
+      "speaker": "Valeria",
+      "text": "Me alegra saber que te sientes mejor y más enfocada. Ha sido un placer acompañarte en esta sesión. Recuerda que siempre puedes volver si necesitas hablar o explorar más. Cuídate mucho y nos vemos en la próxima sesión. ¡Hasta luego!"
+    },
+    {
+      "speaker": "Montserrat Reyes",
+      "text": "¡Gracias! Cuídate también, y hasta la próxima."
+    }
+  ],
+  "events": [
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola Montserrat Reyes, toma asiento por favor. ¿Cómo te sientes hoy al estar aquí?",
+      "timestamp": 1764104539
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Hola, gracias. La verdad estoy un poco nerviosa, no sé muy bien qué esperar.",
+      "timestamp": 1764104540
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es completamente normal sentirse nerviosa en la primera sesión. Estoy aquí para acompañarte y crear un espacio seguro. ¿Te gustaría compartir qué te ha traído hoy aquí?",
+      "timestamp": 1764104541
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me siento un poco abrumada últimamente. He estado lidiando con algunas cosas que me ponen triste.",
+      "timestamp": 1764104542
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104542
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, y lamento que te sientas así. Hay un cuestionario llamado PHQ-9 que nos puede ayudar a explorar cómo te has sentido en las últimas dos semanas. ¿Te gustaría responderlo? Esto no sustituye una evaluación profesional completa, pero puede ser útil.",
+      "timestamp": 1764104545
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Quiero entenderme mejor.",
+      "timestamp": 1764104546
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "call",
+      "content": {
+        "name": "get_phq9_questions",
+        "args": {
+          "item": "PHQ-9"
+        },
+        "id": "call_foekgOzMMcdRIALWvMYO9Dw5"
+      },
+      "timestamp": 1764104547
+    },
+    {
+      "agent": "Valeria",
+      "action": "tool",
+      "actionLabel": "output",
+      "content": {
+        "name": "get_phq9_questions",
+        "output": "{\"item\": \"PHQ-9\", \"preguntas\": [\"1/10 | Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas?\", \"2/10 | Poco interés o placer en hacer cosas.\", \"3/10 | Sentirte decaído(a), deprimido(a) o sin esperanzas.\", \"4/10 | Tener dificultad para quedarte o permanecer dormido(a), o dormir demasiado.\", \"5/10 | Sentirte cansado(a) o con poca energía.\", \"6/10 | Tener poco apetito o comer en exceso.\", \"7/10 | Sentirte mal contigo mismo(a) — o sentir que eres un fracaso o que has quedado mal contigo mismo(a) o con tu familia.\", \"8/10 | Tener dificultad para concentrarte en cosas como leer el periódico o ver la televisión.\", \"9/10 | Moverte o hablar tan lento que otras personas podrían notarlo, o lo contrario: sentirte tan inquieto(a) o agitado(a) que te mueves mucho más de lo normal.\", \"10/10 | Pensamientos de que estarías mejor muerto(a) o de lastimarte de alguna manera.\"]}",
+        "call_id": "call_foekgOzMMcdRIALWvMYO9Dw5"
+      },
+      "timestamp": 1764104547
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Bien, empecemos. La primera pregunta es: Durante las últimas 2 semanas, ¿qué tan seguido has tenido molestias debido a los siguientes problemas? Te invito a que respondas en una escala del 0 al 3, donde 0 es \"nunca\" y 3 es \"casi todos los días\".",
+      "timestamp": 1764104549
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, estoy lista.",
+      "timestamp": 1764104550
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente. La primera pregunta es: ¿Has tenido poco interés o placer en hacer cosas? ¿Cómo lo calificarías?",
+      "timestamp": 1764104552
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que sería un 2, a veces me siento desmotivada para hacer cosas que antes disfrutaba.",
+      "timestamp": 1764104553
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. La siguiente pregunta es: ¿Te has sentido decaída, deprimida o sin esperanzas durante este tiempo? ¿Cuál sería tu calificación?",
+      "timestamp": 1764104556
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 3, he estado sintiéndome así casi todos los días.",
+      "timestamp": 1764104557
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que te sientas así. Es un paso valiente reconocerlo. Pasemos a la tercera pregunta: ¿Has tenido dificultad para quedarte o permanecer dormida, o has estado durmiendo demasiado? ¿Cómo lo calificarías?",
+      "timestamp": 1764104559
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 2, a veces me cuesta dormir y otras veces simplemente duermo demasiado.",
+      "timestamp": 1764104561
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu honestidad. La siguiente pregunta es: ¿Te has sentido cansada o con poca energía? ¿Qué calificación le darías?",
+      "timestamp": 1764104562
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Yo diría un 3, me siento cansada casi todo el tiempo.",
+      "timestamp": 1764104563
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lo siento mucho, es difícil lidiar con esa sensación. Ahora, la quinta pregunta: ¿Has tenido poco apetito o has comido en exceso? ¿Cómo lo calificarías?",
+      "timestamp": 1764104565
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2, a veces no tengo apetito y otras veces como más de la cuenta.",
+      "timestamp": 1764104566
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartir eso. Pasemos a la sexta pregunta: ¿Te has sentido mal contigo misma, como si fueras un fracaso o que has quedado mal contigo misma o con tu familia? ¿Qué calificación le darías?",
+      "timestamp": 1764104567
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, me siento así muy a menudo.",
+      "timestamp": 1764104568
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que eso puede ser muy doloroso. La séptima pregunta es: ¿Has tenido dificultad para concentrarte en cosas como leer el periódico o ver la televisión? ¿Cómo lo calificarías?",
+      "timestamp": 1764104570
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que un 2, a veces me cuesta concentrarme en lo que estoy haciendo.",
+      "timestamp": 1764104571
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por compartirlo. Ahora, la octava pregunta: ¿Te has movido o hablado tan lento que otras personas podrían notarlo, o has sentido que estás tan inquieta o agitada que te mueves mucho más de lo normal? ¿Cuál sería tu calificación?",
+      "timestamp": 1764104573
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 1, a veces me siento un poco inquieta, pero no es algo muy frecuente.",
+      "timestamp": 1764104575
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por ser transparente. Ahora, la penúltima pregunta: ¿Has tenido pensamientos de que estarías mejor muerta o de lastimarte de alguna manera? ¿Cómo lo calificarías?",
+      "timestamp": 1764104577
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso sería un 2, he tenido esos pensamientos de vez en cuando.",
+      "timestamp": 1764104578
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Lamento que estés pasando por eso. Es importante reconocer esos sentimientos. Por último, la última pregunta: ¿Te has sentido tan cansada o sin energía que te ha dificultado hacer cosas? ¿Qué calificación le darías?",
+      "timestamp": 1764104579
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Le daría un 3, definitivamente me ha costado hacer cosas por esa falta de energía.",
+      "timestamp": 1764104580
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Gracias por tu sinceridad al responder todas las preguntas. Parece que has estado atravesando momentos difíciles. Quiero asegurarme de que sepas que estás en un lugar seguro aquí. ¿Te gustaría discutir más sobre lo que has compartido?",
+      "timestamp": 1764104582
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que me gustaría hablar más sobre lo que siento y cómo me está afectando.",
+      "timestamp": 1764104583
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es un gran paso, y estoy aquí para escucharte. Cuéntame más sobre cómo esos sentimientos te están afectando en tu día a día.",
+      "timestamp": 1764104584
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento muy cansada y a veces me cuesta salir con mis amigos o concentrarme en la escuela. Todo parece un poco abrumador.",
+      "timestamp": 1764104585
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo, parece que esa sensación de cansancio y abrumamiento está afectando tu vida social y académica. Es natural que eso genere frustración. ¿Hay algún momento específico en que sientas que se intensifica esta carga emocional?",
+      "timestamp": 1764104587
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, a veces cuando tengo que entregar trabajos o ver a mis amigos, me siento aún más presionada y triste.",
+      "timestamp": 1764104588
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es comprensible sentirte así, especialmente en momentos de presión. La expectativa puede intensificar esos sentimientos. ¿Te gustaría explorar algunas estrategias que podrían ayudarte a manejar estas situaciones de manera más efectiva?",
+      "timestamp": 1764104589
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. Estoy abierta a aprender cómo manejarlo mejor.",
+      "timestamp": 1764104590
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es excelente. Podemos trabajar en algunas técnicas de manejo del estrés y la ansiedad. Una opción podría ser la técnica de respiración profunda, que puede ayudarte a calmarte en momentos de presión. ¿Te gustaría que te guiara en un ejercicio breve?",
+      "timestamp": 1764104592
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Me gustaría intentarlo.",
+      "timestamp": 1764104593
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos. Siéntate cómodamente, cierra los ojos si te sientes cómoda, y toma una respiración profunda por la nariz, contando hasta cuatro. 1... 2... 3... 4... Ahora, mantén la respiración contando hasta cuatro... 1... 2... 3... 4... Y ahora suelta el aire lentamente por la boca, contando hasta seis... 1... 2... 3... 4... 5... 6... \n\nRepite esto un par de veces a tu propio ritmo. ¿Cómo te sientes hasta ahora?",
+      "timestamp": 1764104596
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me siento un poco más relajada, creo que me ayuda a despejar la mente.",
+      "timestamp": 1764104597
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes un poco más relajada. La respiración consciente puede ser una herramienta muy útil en momentos de estrés. Puedes practicarla siempre que lo necesites. ¿Te gustaría que exploráramos otras técnicas o algún otro tema?",
+      "timestamp": 1764104598
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría conocer otras técnicas que pueda usar en mi día a día.",
+      "timestamp": 1764104599
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, puedo compartirte algunas técnicas más. Además de la respiración profunda, puedes intentar la meditación de atención plena, que consiste en centrarte en el momento presente y observar tus pensamientos sin juzgarlos. También puedes practicar la escritura de un diario para expresar tus sentimientos. ¿Te gustaría profundizar en alguna de estas técnicas?",
+      "timestamp": 1764104602
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me gustaría saber más sobre la escritura de un diario, creo que podría ayudarme a entender mis pensamientos.",
+      "timestamp": 1764104603
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "La escritura de un diario es una forma excelente de procesar tus emociones y aclarar tus pensamientos. Puedes dedicar unos minutos al día para escribir sobre cómo te sientes, lo que te preocupa o las cosas por las que estás agradecida. No hay reglas estrictas, solo déjate fluir. ¿Te gustaría que hiciéramos un ejercicio breve de escritura ahora mismo?",
+      "timestamp": 1764104606
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me parece bien. Estoy lista para intentar escribir un poco.",
+      "timestamp": 1764104608
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Toma un momento para reflexionar sobre tu día y elige un tema que quieras explorar. Puede ser un sentimiento, una situación o algo que te haya hecho sentir agradecida. Tómate unos minutos para escribir lo que surja. Cuando termines, comparte conmigo lo que quieras si te sientes cómoda.",
+      "timestamp": 1764104611
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Está bien, voy a reflexionar un poco... *[Después de un momento]*. Escribí sobre cómo me siento abrumada con los estudios, pero también mencioné que estoy agradecida por mis amigos, que siempre me apoyan.",
+      "timestamp": 1764104613
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso es maravilloso. Has expresado sentimientos importantes y también has reconocido la gratitud, que es un excelente enfoque. Escribe sobre lo que sientes puede ser muy liberador. ¿Te gustaría hablar más sobre cómo tus amigos te apoyan en estos momentos?",
+      "timestamp": 1764104615
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, claro. Mis amigos son muy comprensivos y siempre están dispuestos a escucharme. A veces salimos a tomar un café y eso me hace sentir mejor.",
+      "timestamp": 1764104617
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es genial que tengas un grupo de amigos comprensivos, tener ese apoyo es invaluable. Salir y compartir momentos agradables, como ir por un café, puede ser una forma efectiva de aliviar el estrés. ¿Cómo te sientes después de pasar tiempo con ellos?",
+      "timestamp": 1764104619
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Después de estar con ellos, me siento más ligera y menos sola. Es como si al compartir mis preocupaciones, me ayudaran a ver las cosas desde otra perspectiva.",
+      "timestamp": 1764104621
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104621
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho escuchar que pasar tiempo con tus amigos te hace sentir más ligera y apoyada. Compartir preocupaciones con personas cercanas es una parte importante del proceso de sanación. Dado lo que has mencionado sobre tus sentimientos, creo que podría ser útil explorar cómo te has sentido en las últimas dos semanas con un cuestionario llamado PHQ-9. Este no sustituye una evaluación profesional, pero puede ofrecernos información adicional. ¿Te gustaría responderlo?",
+      "timestamp": 1764104624
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Parece que ya hemos pasado por ese cuestionario, pero si hay algo más que pueda hacer, estoy abierta a ello.",
+      "timestamp": 1764104626
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Tienes razón, ya hemos revisado el cuestionario. Otra opción podría ser practicar la autocompasión, que consiste en ser amable contigo misma en momentos difíciles. Puedes intentar hablarte con ternura, como lo harías con un amigo que está sufriendo. ¿Te gustaría que exploráramos más sobre la autocompasión y cómo implementarla en tu vida diaria?",
+      "timestamp": 1764104629
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría eso. A veces soy muy dura conmigo misma y creo que ser más compasiva podría ayudarme.",
+      "timestamp": 1764104629
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Es un gran paso reconocer eso. La autocompasión implica tratarte con la misma amabilidad y comprensión que ofrecerías a un amigo. Puedes comenzar por practicar frases de autocompasión, como \"Es normal sentirme así\" o \"Estoy haciendo lo mejor que puedo\". \n\nCuando te sientas abrumada, intenta recordar que no estás sola en tus luchas. ¿Te gustaría que te ayudara a formular algunas frases de autocompasión que puedas usar?",
+      "timestamp": 1764104633
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, sería útil. Me gustaría tener algunas frases que pueda recordar cuando lo necesite.",
+      "timestamp": 1764104635
+    },
+    {
+      "agent": "Valeria",
+      "action": "instruct",
+      "actionLabel": "phq9_screening",
+      "content": "Has detectado posibles síntomas de depresión en lo que el paciente dijo. Explícale brevemente que existe un cuestionario llamado PHQ-9 que sirve para explorar cómo se ha sentido en las últimas dos semanas. Pregúntale si está de acuerdo en responderlo. Si acepta, usa la herramienta get_phq9_questions('phq9') para obtener la lista de preguntas y hazlas una por una, pidiéndole que responda con un número del 0 al 3, donde 0 es 'nunca' y 3 es 'casi todos los días'. Aclara que esto NO sustituye una evaluación profesional completa.",
+      "timestamp": 1764104635
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Claro, aquí tienes algunas frases que podrías usar como recordatorio de autocompasión:\n\n1. \"Es normal tener días difíciles; estoy haciendo lo mejor que puedo.\"\n2. \"Me permito sentir esto, y eso está bien.\"\n3. \"Soy valiosa y merezco amor y cuidado, incluso en mis momentos de debilidad.\"\n4. \"No estoy sola; todos enfrentamos desafíos.\"\n\nPuedes escribir estas frases en tu diario o en un lugar visible para recordarlas cuando las necesites. ¿Te gustaría trabajar en una situación específica en la que puedas aplicar alguna de estas frases?",
+      "timestamp": 1764104639
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría trabajar en una situación específica. Creo que podría aplicar una de estas frases cuando me siento abrumada con mis tareas escolares.",
+      "timestamp": 1764104641
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Eso suena excelente. Cuando sientas que la presión de tus tareas escolares aumenta, podrías tomarte un momento para respirar profundamente y luego repetirte una de estas frases, como \"Es normal tener días difíciles; estoy haciendo lo mejor que puedo\". Esto puede ayudarte a disminuir la ansiedad y recordarte que es un proceso. \n\nAdemás, podrías considerar dividir tus tareas en partes más pequeñas y manejables. ¿Te gustaría hablar sobre cómo podrías organizar tus tareas escolares?",
+      "timestamp": 1764104644
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, creo que eso sería útil. A veces me siento abrumada solo al pensar en todas las tareas que tengo que hacer.",
+      "timestamp": 1764104646
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Entiendo que ver todas las tareas juntas puede ser abrumador. Una buena estrategia es hacer una lista y luego priorizar las tareas. Puedes seguir estos pasos:\n\n1. **Haz una lista de todas tus tareas:** Escribe todo lo que necesitas hacer, sin preocuparte por el orden.\n2. **Clasifica las tareas por prioridad:** Identifica cuáles son urgentes y cuáles pueden esperar un poco.\n3. **Divide las tareas grandes en partes más pequeñas:** Esto hará que sean más manejables y menos abrumadoras.\n4. **Establece metas diarias:** Decide cuántas tareas quieres completar cada día y celebra esos logros.\n\n¿Te gustaría probar crear una lista juntos aquí?",
+      "timestamp": 1764104650
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, me gustaría intentarlo. Creo que tener una lista me ayudaría a organizarme mejor.",
+      "timestamp": 1764104651
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto. Comencemos. ¿Cuáles son algunas de las tareas que necesitas completar? Escribe lo que te venga a la mente, sin preocuparte por el orden.",
+      "timestamp": 1764104652
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Ok, aquí van algunas tareas: \n\n1. Terminar un ensayo para la clase de marketing.\n2. Estudiar para el examen de publicidad.\n3. Hacer un proyecto grupal.\n4. Escribir un post para la clase de redes sociales.\n5. Organizar mis notas de clase.",
+      "timestamp": 1764104655
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Muy bien, ahora que tienes tu lista, vamos a clasificar estas tareas por prioridad. ¿Cuáles crees que son las más urgentes que debes hacer primero?",
+      "timestamp": 1764104656
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Creo que el ensayo para la clase de marketing y el estudio para el examen de publicidad son los más urgentes.",
+      "timestamp": 1764104657
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Perfecto, esos son buenos puntos de partida. Ahora, podemos dividir esas tareas en pasos más pequeños. Por ejemplo, para el ensayo de marketing, podrías hacer cosas como:\n\n1. Investigate el tema.\n2. Hacer un esquema.\n3. Escribir el primer borrador.\n4. Revisar y editar.\n\n¿Te gustaría hacer algo similar para el estudio del examen de publicidad?",
+      "timestamp": 1764104660
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, eso suena bien. Para el examen de publicidad, podría dividirlo así:\n\n1. Revisar mis apuntes de clase.\n2. Leer el libro de texto.\n3. Hacer tarjetas de estudio.\n4. Hacer un repaso con un amigo.",
+      "timestamp": 1764104662
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Excelente trabajo al dividirlas en pasos más manejables. Ahora tienes un plan claro para tus tareas más urgentes. Recuerda que puedes ir marcando cada paso a medida que avances, lo que te dará una sensación de logro. ¿Te sientes más tranquila sabiendo que tienes un plan para seguir?",
+      "timestamp": 1764104664
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Sí, definitivamente me siento más tranquila. Tener un plan me ayuda a ver que puedo manejarlo. Gracias.",
+      "timestamp": 1764104665
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra mucho saber que te sientes más tranquila. Tener un plan puede hacer una gran diferencia. Recuerda que puedes abordar cada tarea de a poco y que está bien tomarte tu tiempo. Si necesitas apoyo en el futuro, aquí estaré. ¿Hay algo más que te gustaría abordar en nuestra sesión de hoy?",
+      "timestamp": 1764104667
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "No, creo que hemos cubierto mucho hoy. Me siento mejor y más enfocada. Gracias por tu ayuda.",
+      "timestamp": 1764104668
+    },
+    {
+      "agent": "Valeria",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "Me alegra saber que te sientes mejor y más enfocada. Ha sido un placer acompañarte en esta sesión. Recuerda que siempre puedes volver si necesitas hablar o explorar más. Cuídate mucho y nos vemos en la próxima sesión. ¡Hasta luego!",
+      "timestamp": 1764104670
+    },
+    {
+      "agent": "Montserrat Reyes",
+      "action": "utter",
+      "actionLabel": null,
+      "content": "¡Gracias! Cuídate también, y hasta la próxima.",
+      "timestamp": 1764104671
+    }
+  ],
+  "notes": null
+}
